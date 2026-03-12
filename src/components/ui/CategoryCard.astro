@@ -1,0 +1,23 @@
+---
+// CategoryCard — repo card for index/category pages
+interface Props {
+  name: string;
+  description?: string;
+  stars: number;
+  language?: string;
+  owner: string;
+  repo: string;
+}
+const { name, description, stars, language, owner, repo } = Astro.props;
+const formatted = stars >= 1000 ? `${(stars / 1000).toFixed(1)}k` : String(stars);
+---
+<article class="category-card">
+  <a href={`/repo/${owner}/${repo}`}>
+    <strong>{name}</strong>
+  </a>
+  {description && <p>{description.slice(0, 120)}{description.length > 120 ? '…' : ''}</p>}
+  <footer>
+    <span>⭐ {formatted}</span>
+    {language && <span>{language}</span>}
+  </footer>
+</article>

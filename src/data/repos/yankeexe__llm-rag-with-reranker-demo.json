@@ -1,0 +1,1100 @@
+{
+  "id": 891692416,
+  "node_id": "R_kgDONSYlgA",
+  "name": "llm-rag-with-reranker-demo",
+  "full_name": "yankeexe/llm-rag-with-reranker-demo",
+  "private": false,
+  "owner": {
+    "login": "yankeexe",
+    "id": 13623913,
+    "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yankeexe",
+    "html_url": "https://github.com/yankeexe",
+    "followers_url": "https://api.github.com/users/yankeexe/followers",
+    "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+    "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+    "repos_url": "https://api.github.com/users/yankeexe/repos",
+    "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo",
+  "description": "LLM RAG Application with Cross-Encoders Re-ranking for YouTube video 🎥",
+  "fork": false,
+  "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo",
+  "forks_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/forks",
+  "keys_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/teams",
+  "hooks_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/hooks",
+  "issue_events_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/events",
+  "assignees_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/tags",
+  "blobs_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/languages",
+  "stargazers_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/stargazers",
+  "contributors_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/contributors",
+  "subscribers_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/subscribers",
+  "subscription_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/subscription",
+  "commits_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/merges",
+  "archive_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/downloads",
+  "issues_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/labels{/name}",
+  "releases_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/deployments",
+  "created_at": "2024-11-20T19:33:09Z",
+  "updated_at": "2026-02-18T07:21:18Z",
+  "pushed_at": "2025-12-08T06:20:37Z",
+  "git_url": "git://github.com/yankeexe/llm-rag-with-reranker-demo.git",
+  "ssh_url": "git@github.com:yankeexe/llm-rag-with-reranker-demo.git",
+  "clone_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo.git",
+  "svn_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo",
+  "homepage": "https://youtu.be/1y2TohQdNbo",
+  "size": 398,
+  "stargazers_count": 76,
+  "watchers_count": 76,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 36,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "awesome",
+    "cross-encoders",
+    "langchain",
+    "localllama",
+    "ollama",
+    "rag",
+    "re-ranking",
+    "retrieval-augmented-generation",
+    "streamlit"
+  ],
+  "visibility": "public",
+  "forks": 36,
+  "open_issues": 0,
+  "watchers": 76,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "open-source-llms",
+  "commits": [
+    {
+      "sha": "81912ca288d8cab7887eef7e66ff7d3dc0d31a10",
+      "node_id": "C_kwDONSYlgNoAKDgxOTEyY2EyODhkOGNhYjc4ODdlZWY3ZTY2ZmY3ZDNkYzBkMzFhMTA",
+      "commit": {
+        "author": {
+          "name": "Andrea Campanella",
+          "email": "andrea.campanella0@gmail.com",
+          "date": "2025-12-08T06:20:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-12-08T06:20:37Z"
+        },
+        "message": "Update README\n\nFix Ollama download link in README (#4)",
+        "tree": {
+          "sha": "1a448622f384a9799e881d11f371f246a1817b39",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/1a448622f384a9799e881d11f371f246a1817b39"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/81912ca288d8cab7887eef7e66ff7d3dc0d31a10",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpNm41CRC1aQ7uu5UhlAAAmrYQAIa8ouzsE+axhRyHAu0n3K4O\nDpXuVuIQlexsB/kAoE2bjx6bIgEOQSgN/LpryjmcHz3DX54GOt6feFs6PQjB3Ick\n4zNJDosYKpnF8BMx9XPZvr4Zw1IUr8UedELEqpPzxvbpWgrBSopUmd48BXByTg2K\nufrYqBAaCa/dUPTEwbl4Uon5laYlzZwMa/L5UUAeHPIEFOQaGZ+/4IIwDuVUtObl\nZ6reHq2HySBgbWVt7DmF9xkdKpq2h9GlIkH4WN1S4/qrF8ZJL8J7KG5RpSia0qIF\nrGYAUztWVhSIMZadecLVy7eXnGeKhWb74tCpRpc9w2yqCXzQ+EeBgpXqqVQ3qxmX\n752oHHSU6nIax07h6M83L4X5Qd9o52pDJxJD55yehKd4oX28p6vPpbgOl0PwNRYS\nqqC4GZg8tGFIAlwL7kLhTORzBMoKVg3fKZWaP+2i0o5+OKjgb9Q7DPIdKhu7woDc\nNENVtaLY+I2aHCmo8n2boBxPUZreZoaHdpmbkbf6otmLUoNrQM0Qdsn4vR4E8gPP\nwOgT0zgE/6MzVywI9Gh0+w3h9zwhGNrGuygICtBGOzS2gNAhwj1af//uZgPkMMPL\nFwLuwgE6a153ueVFwMP21HEH3aet7xmTjaO7xflm+Vs402hgjr+y8uwNrGAey/ds\nDNiMy5GxM1lyhV+1uNYJ\n=Kw66\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1a448622f384a9799e881d11f371f246a1817b39\nparent 0e03236aca8416c5b4afb6049b0cf79da410acdb\nauthor Andrea Campanella <andrea.campanella0@gmail.com> 1765174837 +0100\ncommitter GitHub <noreply@github.com> 1765174837 +0400\n\nUpdate README\n\nFix Ollama download link in README (#4)",
+          "verified_at": "2025-12-08T06:20:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/81912ca288d8cab7887eef7e66ff7d3dc0d31a10",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/81912ca288d8cab7887eef7e66ff7d3dc0d31a10",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/81912ca288d8cab7887eef7e66ff7d3dc0d31a10/comments",
+      "author": {
+        "login": "Andrea-Campanella",
+        "id": 10130958,
+        "node_id": "MDQ6VXNlcjEwMTMwOTU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10130958?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Andrea-Campanella",
+        "html_url": "https://github.com/Andrea-Campanella",
+        "followers_url": "https://api.github.com/users/Andrea-Campanella/followers",
+        "following_url": "https://api.github.com/users/Andrea-Campanella/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Andrea-Campanella/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Andrea-Campanella/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Andrea-Campanella/subscriptions",
+        "organizations_url": "https://api.github.com/users/Andrea-Campanella/orgs",
+        "repos_url": "https://api.github.com/users/Andrea-Campanella/repos",
+        "events_url": "https://api.github.com/users/Andrea-Campanella/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Andrea-Campanella/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0e03236aca8416c5b4afb6049b0cf79da410acdb",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/0e03236aca8416c5b4afb6049b0cf79da410acdb",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/0e03236aca8416c5b4afb6049b0cf79da410acdb"
+        }
+      ]
+    },
+    {
+      "sha": "0e03236aca8416c5b4afb6049b0cf79da410acdb",
+      "node_id": "C_kwDONSYlgNoAKDBlMDMyMzZhY2E4NDE2YzViNGFmYjYwNDliMGNmNzlkYTQxMGFjZGI",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:04:29Z"
+        },
+        "committer": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:04:29Z"
+        },
+        "message": "Update",
+        "tree": {
+          "sha": "403a39387b1a5b691c44793e4ef4b25cf807dc12",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/403a39387b1a5b691c44793e4ef4b25cf807dc12"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/0e03236aca8416c5b4afb6049b0cf79da410acdb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/0e03236aca8416c5b4afb6049b0cf79da410acdb",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/0e03236aca8416c5b4afb6049b0cf79da410acdb",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/0e03236aca8416c5b4afb6049b0cf79da410acdb/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "41fcecdd8da650af661bd499695af50c0d060f8a",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/41fcecdd8da650af661bd499695af50c0d060f8a",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/41fcecdd8da650af661bd499695af50c0d060f8a"
+        }
+      ]
+    },
+    {
+      "sha": "41fcecdd8da650af661bd499695af50c0d060f8a",
+      "node_id": "C_kwDONSYlgNoAKDQxZmNlY2RkOGRhNjUwYWY2NjFiZDQ5OTY5NWFmNTBjMGQwNjBmOGE",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:03:59Z"
+        },
+        "committer": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:03:59Z"
+        },
+        "message": "Update Python version for project setup target",
+        "tree": {
+          "sha": "8178aff231b65d7343ec83f9f42413c04bdb2784",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/8178aff231b65d7343ec83f9f42413c04bdb2784"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/41fcecdd8da650af661bd499695af50c0d060f8a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/41fcecdd8da650af661bd499695af50c0d060f8a",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/41fcecdd8da650af661bd499695af50c0d060f8a",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/41fcecdd8da650af661bd499695af50c0d060f8a/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8"
+        }
+      ]
+    },
+    {
+      "sha": "c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8",
+      "node_id": "C_kwDONSYlgNoAKGM0ZmE3OTJmZTYzYjhmNmZmNWNkMzBmODI0YzdiMTY5N2VlNjNjYzg",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:02:50Z"
+        },
+        "committer": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:02:50Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "a765adab9d0870465e05f46262124f0ee3cd1644",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/a765adab9d0870465e05f46262124f0ee3cd1644"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/c4fa792fe63b8f6ff5cd30f824c7b1697ee63cc8/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f7dc9ed31d6a8c09867bae9e518aacaf98e620ef",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/f7dc9ed31d6a8c09867bae9e518aacaf98e620ef",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/f7dc9ed31d6a8c09867bae9e518aacaf98e620ef"
+        }
+      ]
+    },
+    {
+      "sha": "f7dc9ed31d6a8c09867bae9e518aacaf98e620ef",
+      "node_id": "C_kwDONSYlgNoAKGY3ZGM5ZWQzMWQ2YThjMDk4NjdiYWU5ZTUxOGFhY2FmOThlNjIwZWY",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:01:27Z"
+        },
+        "committer": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2025-01-30T02:01:27Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "77dc46c4fb9fd0270ab3610b4125fed7265f8c70",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/77dc46c4fb9fd0270ab3610b4125fed7265f8c70"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/f7dc9ed31d6a8c09867bae9e518aacaf98e620ef",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/f7dc9ed31d6a8c09867bae9e518aacaf98e620ef",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/f7dc9ed31d6a8c09867bae9e518aacaf98e620ef",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/f7dc9ed31d6a8c09867bae9e518aacaf98e620ef/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2dbe3b0ab3c8e779e08e73385160911aa88efd13",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/2dbe3b0ab3c8e779e08e73385160911aa88efd13",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/2dbe3b0ab3c8e779e08e73385160911aa88efd13"
+        }
+      ]
+    },
+    {
+      "sha": "2dbe3b0ab3c8e779e08e73385160911aa88efd13",
+      "node_id": "C_kwDONSYlgNoAKDJkYmUzYjBhYjNjOGU3NzllMDhlNzMzODUxNjA5MTFhYTg4ZWZkMTM",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2024-12-10T04:30:19Z"
+        },
+        "committer": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2024-12-10T04:30:19Z"
+        },
+        "message": "Add issues and solutions section",
+        "tree": {
+          "sha": "35a4ebd634516b055702a82b42a57226110501fb",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/35a4ebd634516b055702a82b42a57226110501fb"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/2dbe3b0ab3c8e779e08e73385160911aa88efd13",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/2dbe3b0ab3c8e779e08e73385160911aa88efd13",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/2dbe3b0ab3c8e779e08e73385160911aa88efd13",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/2dbe3b0ab3c8e779e08e73385160911aa88efd13/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "93fad0ca36ae29f71a11b2666a3366903450e885",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/93fad0ca36ae29f71a11b2666a3366903450e885",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/93fad0ca36ae29f71a11b2666a3366903450e885"
+        }
+      ]
+    },
+    {
+      "sha": "93fad0ca36ae29f71a11b2666a3366903450e885",
+      "node_id": "C_kwDONSYlgNoAKDkzZmFkMGNhMzZhZTI5ZjcxYTExYjI2NjZhMzM2NjkwMzQ1MGU4ODU",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "13623913+yankeexe@users.noreply.github.com",
+          "date": "2024-12-07T06:36:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-12-07T06:36:11Z"
+        },
+        "message": "SQLite version fix for Chroma",
+        "tree": {
+          "sha": "70a4d34a10dc08835f3a36cab66054177c135d36",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/70a4d34a10dc08835f3a36cab66054177c135d36"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/93fad0ca36ae29f71a11b2666a3366903450e885",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnU+zbCRC1aQ7uu5UhlAAAQK4QABqu8aARgJ4/IS/YH576vb4Q\nvOAcvndpA4DSo+rAUFbPu8/N0CCBXdLNePXCVtuIsXtLJP0fxHDgXy13FWxokRbh\nUaLY5svHZBfXdWcsAzeVtnkZ+s6/uSTsgUqExuTej3m5uHANYYRWDUgoM/z0H31B\nypBODj1MWrpMKKobIjtI6EceWx2NYkN14Fny7CWhfM+oDEey00dHZlHB6oK3WnYv\ndctdV8iUCg901eFIvZAo/te+le00mryjm12wowHJFFLPktShyKTXVbpXvmkHyb9f\n7yooU2ccyC4qUS3F1qgTSoNSkLYbKzeCzRnl18fKQq0iTQlzUH4B3vZU6+Ljp86b\n8RB6yhwkI8dI3HeMTdTRxguc9u5qaKCIaVVl4/gLF8NaiyoS4Y8Q+CafjXihHgqC\nf9n++wEqYB/wSax6pgFYDE1GDFkf1UB/mPNxlAYeF1HnjOafJbdWOcpnW9W1+K7R\ni6MwM9hTUu7ybaPFLZaIjJ4xhKYRmYhILNiuv7MW7NG462YKd0whEpFHBz0XBhDQ\nih4M00k3ZVNDIhZJqHRQvvCIatcrfsBp/2YmMlrhqa826XRAzYxhFc5UyGlsacCz\nkHVB+UJOwbVXJ19Zfy+VnEPNE8zxtelCVaJXm7OM2YWZ6qyakOsgNpD+f9YuxIIb\ncKwSQQHcYFauT/tLpkoI\n=F6ul\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 70a4d34a10dc08835f3a36cab66054177c135d36\nparent fb8c8c204e8955e08330485684bc640e0ba770af\nparent d73b92524e0aa36d8b27b9b9022b9163adaafa08\nauthor Yankee <13623913+yankeexe@users.noreply.github.com> 1733553371 +0400\ncommitter GitHub <noreply@github.com> 1733553371 +0400\n\nSQLite version fix for Chroma\n\n",
+          "verified_at": "2024-12-07T06:41:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/93fad0ca36ae29f71a11b2666a3366903450e885",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/93fad0ca36ae29f71a11b2666a3366903450e885",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/93fad0ca36ae29f71a11b2666a3366903450e885/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fb8c8c204e8955e08330485684bc640e0ba770af",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/fb8c8c204e8955e08330485684bc640e0ba770af",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/fb8c8c204e8955e08330485684bc640e0ba770af"
+        },
+        {
+          "sha": "d73b92524e0aa36d8b27b9b9022b9163adaafa08",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/d73b92524e0aa36d8b27b9b9022b9163adaafa08",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/d73b92524e0aa36d8b27b9b9022b9163adaafa08"
+        }
+      ]
+    },
+    {
+      "sha": "fb8c8c204e8955e08330485684bc640e0ba770af",
+      "node_id": "C_kwDONSYlgNoAKGZiOGM4YzIwNGU4OTU1ZTA4MzMwNDg1Njg0YmM2NDBlMGJhNzcwYWY",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2024-12-07T06:34:47Z"
+        },
+        "committer": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2024-12-07T06:34:47Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "b096426081ae3dc4aa54a4271458fea2e8482c65",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/b096426081ae3dc4aa54a4271458fea2e8482c65"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/fb8c8c204e8955e08330485684bc640e0ba770af",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/fb8c8c204e8955e08330485684bc640e0ba770af",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/fb8c8c204e8955e08330485684bc640e0ba770af",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/fb8c8c204e8955e08330485684bc640e0ba770af/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b81ebd03252094d003ae68328aa37468ed6b8912",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/b81ebd03252094d003ae68328aa37468ed6b8912",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/b81ebd03252094d003ae68328aa37468ed6b8912"
+        }
+      ]
+    },
+    {
+      "sha": "d73b92524e0aa36d8b27b9b9022b9163adaafa08",
+      "node_id": "C_kwDONSYlgNoAKGQ3M2I5MjUyNGUwYWEzNmQ4YjI3YjliOTAyMmI5MTYzYWRhYWZhMDg",
+      "commit": {
+        "author": {
+          "name": "brunesto",
+          "email": "bruno.carle@gmail.com",
+          "date": "2024-12-06T08:30:04Z"
+        },
+        "committer": {
+          "name": "brunesto",
+          "email": "bruno.carle@gmail.com",
+          "date": "2024-12-06T08:30:04Z"
+        },
+        "message": "disable ruff rule E402",
+        "tree": {
+          "sha": "18251098057a4af50d13e3e33ab81be645e06720",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/18251098057a4af50d13e3e33ab81be645e06720"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/d73b92524e0aa36d8b27b9b9022b9163adaafa08",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/d73b92524e0aa36d8b27b9b9022b9163adaafa08",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/d73b92524e0aa36d8b27b9b9022b9163adaafa08",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/d73b92524e0aa36d8b27b9b9022b9163adaafa08/comments",
+      "author": {
+        "login": "brunesto",
+        "id": 2085291,
+        "node_id": "MDQ6VXNlcjIwODUyOTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2085291?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/brunesto",
+        "html_url": "https://github.com/brunesto",
+        "followers_url": "https://api.github.com/users/brunesto/followers",
+        "following_url": "https://api.github.com/users/brunesto/following{/other_user}",
+        "gists_url": "https://api.github.com/users/brunesto/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/brunesto/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/brunesto/subscriptions",
+        "organizations_url": "https://api.github.com/users/brunesto/orgs",
+        "repos_url": "https://api.github.com/users/brunesto/repos",
+        "events_url": "https://api.github.com/users/brunesto/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/brunesto/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "brunesto",
+        "id": 2085291,
+        "node_id": "MDQ6VXNlcjIwODUyOTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2085291?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/brunesto",
+        "html_url": "https://github.com/brunesto",
+        "followers_url": "https://api.github.com/users/brunesto/followers",
+        "following_url": "https://api.github.com/users/brunesto/following{/other_user}",
+        "gists_url": "https://api.github.com/users/brunesto/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/brunesto/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/brunesto/subscriptions",
+        "organizations_url": "https://api.github.com/users/brunesto/orgs",
+        "repos_url": "https://api.github.com/users/brunesto/repos",
+        "events_url": "https://api.github.com/users/brunesto/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/brunesto/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c83914f3077aaf00e1d858da1806c4d779b98ad2",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/c83914f3077aaf00e1d858da1806c4d779b98ad2",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/c83914f3077aaf00e1d858da1806c4d779b98ad2"
+        }
+      ]
+    },
+    {
+      "sha": "c83914f3077aaf00e1d858da1806c4d779b98ad2",
+      "node_id": "C_kwDONSYlgNoAKGM4MzkxNGYzMDc3YWFmMDBlMWQ4NThkYTE4MDZjNGQ3NzliOThhZDI",
+      "commit": {
+        "author": {
+          "name": "brunesto",
+          "email": "bruno.carle@gmail.com",
+          "date": "2024-12-04T08:46:40Z"
+        },
+        "committer": {
+          "name": "brunesto",
+          "email": "bruno.carle@gmail.com",
+          "date": "2024-12-05T07:35:39Z"
+        },
+        "message": "pysqlite3-binary fix",
+        "tree": {
+          "sha": "597cf25b3faf3fbd4c83e75c69a3e09c6cf34cb1",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/597cf25b3faf3fbd4c83e75c69a3e09c6cf34cb1"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/c83914f3077aaf00e1d858da1806c4d779b98ad2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/c83914f3077aaf00e1d858da1806c4d779b98ad2",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/c83914f3077aaf00e1d858da1806c4d779b98ad2",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/c83914f3077aaf00e1d858da1806c4d779b98ad2/comments",
+      "author": {
+        "login": "brunesto",
+        "id": 2085291,
+        "node_id": "MDQ6VXNlcjIwODUyOTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2085291?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/brunesto",
+        "html_url": "https://github.com/brunesto",
+        "followers_url": "https://api.github.com/users/brunesto/followers",
+        "following_url": "https://api.github.com/users/brunesto/following{/other_user}",
+        "gists_url": "https://api.github.com/users/brunesto/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/brunesto/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/brunesto/subscriptions",
+        "organizations_url": "https://api.github.com/users/brunesto/orgs",
+        "repos_url": "https://api.github.com/users/brunesto/repos",
+        "events_url": "https://api.github.com/users/brunesto/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/brunesto/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "brunesto",
+        "id": 2085291,
+        "node_id": "MDQ6VXNlcjIwODUyOTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2085291?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/brunesto",
+        "html_url": "https://github.com/brunesto",
+        "followers_url": "https://api.github.com/users/brunesto/followers",
+        "following_url": "https://api.github.com/users/brunesto/following{/other_user}",
+        "gists_url": "https://api.github.com/users/brunesto/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/brunesto/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/brunesto/subscriptions",
+        "organizations_url": "https://api.github.com/users/brunesto/orgs",
+        "repos_url": "https://api.github.com/users/brunesto/repos",
+        "events_url": "https://api.github.com/users/brunesto/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/brunesto/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b81ebd03252094d003ae68328aa37468ed6b8912",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/b81ebd03252094d003ae68328aa37468ed6b8912",
+          "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/b81ebd03252094d003ae68328aa37468ed6b8912"
+        }
+      ]
+    },
+    {
+      "sha": "b81ebd03252094d003ae68328aa37468ed6b8912",
+      "node_id": "C_kwDONSYlgNoAKGI4MWViZDAzMjUyMDk0ZDAwM2FlNjgzMjhhYTM3NDY4ZWQ2Yjg5MTI",
+      "commit": {
+        "author": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2024-11-20T19:31:59Z"
+        },
+        "committer": {
+          "name": "Yankee",
+          "email": "yankee.exe@gmail.com",
+          "date": "2024-11-20T19:31:59Z"
+        },
+        "message": "📦 Initial commit",
+        "tree": {
+          "sha": "84a2cc104d355cbff39b7c10c359ae6db7ed95d4",
+          "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/trees/84a2cc104d355cbff39b7c10c359ae6db7ed95d4"
+        },
+        "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/git/commits/b81ebd03252094d003ae68328aa37468ed6b8912",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/b81ebd03252094d003ae68328aa37468ed6b8912",
+      "html_url": "https://github.com/yankeexe/llm-rag-with-reranker-demo/commit/b81ebd03252094d003ae68328aa37468ed6b8912",
+      "comments_url": "https://api.github.com/repos/yankeexe/llm-rag-with-reranker-demo/commits/b81ebd03252094d003ae68328aa37468ed6b8912/comments",
+      "author": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yankeexe",
+        "id": 13623913,
+        "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yankeexe",
+        "html_url": "https://github.com/yankeexe",
+        "followers_url": "https://api.github.com/users/yankeexe/followers",
+        "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+        "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+        "repos_url": "https://api.github.com/users/yankeexe/repos",
+        "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "yankeexe",
+      "id": 13623913,
+      "node_id": "MDQ6VXNlcjEzNjIzOTEz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13623913?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yankeexe",
+      "html_url": "https://github.com/yankeexe",
+      "followers_url": "https://api.github.com/users/yankeexe/followers",
+      "following_url": "https://api.github.com/users/yankeexe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yankeexe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yankeexe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yankeexe/subscriptions",
+      "organizations_url": "https://api.github.com/users/yankeexe/orgs",
+      "repos_url": "https://api.github.com/users/yankeexe/repos",
+      "events_url": "https://api.github.com/users/yankeexe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yankeexe/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 8
+    },
+    {
+      "login": "brunesto",
+      "id": 2085291,
+      "node_id": "MDQ6VXNlcjIwODUyOTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2085291?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brunesto",
+      "html_url": "https://github.com/brunesto",
+      "followers_url": "https://api.github.com/users/brunesto/followers",
+      "following_url": "https://api.github.com/users/brunesto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brunesto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brunesto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brunesto/subscriptions",
+      "organizations_url": "https://api.github.com/users/brunesto/orgs",
+      "repos_url": "https://api.github.com/users/brunesto/repos",
+      "events_url": "https://api.github.com/users/brunesto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brunesto/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    },
+    {
+      "login": "Andrea-Campanella",
+      "id": 10130958,
+      "node_id": "MDQ6VXNlcjEwMTMwOTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10130958?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Andrea-Campanella",
+      "html_url": "https://github.com/Andrea-Campanella",
+      "followers_url": "https://api.github.com/users/Andrea-Campanella/followers",
+      "following_url": "https://api.github.com/users/Andrea-Campanella/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Andrea-Campanella/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Andrea-Campanella/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Andrea-Campanella/subscriptions",
+      "organizations_url": "https://api.github.com/users/Andrea-Campanella/orgs",
+      "repos_url": "https://api.github.com/users/Andrea-Campanella/repos",
+      "events_url": "https://api.github.com/users/Andrea-Campanella/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Andrea-Campanella/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 9225,
+    "Makefile": 1088
+  },
+  "readme_html": "<h1 id=\"user-content--rag-with-cross-encoders-re-ranking-demo-application\">📑 RAG with Cross-Encoders Re-ranking Demo Application</h1>\n<p>Demo LLM app with RAG for the YouTube video.</p>\n<p>🚨 NOTE: <strong>Requires <code>Python > 3.10</code> with  <code>SQLite > 3.35</code></strong></p>\n<p>Watch the video 👇</p>\n<hr>\n<h3 id=\"user-content-part-ii-watch-optimizing-rag-with-semantic-cache-️\">Part II: Watch Optimizing RAG with Semantic Cache ⚡️</h3>\n<p>🐙 <a href=\"https://github.com/yankeexe/llm-rag-with-reranker-demo/tree/semantic-cache\"><strong>Codebase</strong></a></p>\n<h2 id=\"user-content--prerequisites\">🤖 Prerequisites</h2>\n<ul>\n<li><a href=\"https://ollama.com/download\">Ollama</a></li>\n</ul>\n<h2 id=\"user-content--setting-up-locally\">🔨 Setting up locally</h2>\n<p>Create virtualenv and install dependencies.</p>\n<pre><code class=\"language-sh\">make setup\n</code></pre>\n<h2 id=\"user-content-️-running-the-application\">⚡️ Running the application</h2>\n<pre><code class=\"language-sh\">make run\n</code></pre>\n<h2 id=\"user-content--linters-and-formatters\">✨ Linters and Formatters</h2>\n<p>Check for linting rule violations:</p>\n<pre><code class=\"language-sh\">make check\n</code></pre>\n<p>Auto-fix linting violations:</p>\n<pre><code class=\"language-sh\">make fix\n</code></pre>\n<h2 id=\"user-content-️-getting-help\">🤸‍♀️ Getting Help</h2>\n<pre><code class=\"language-sh\">make\n\n# OR\n\nmake help\n</code></pre>\n<h2 id=\"user-content--common-issues-and-fixes\">🔧 Common Issues and Fixes</h2>\n<ul>\n<li>If you run into any errors with incompatible version of ChromaDB/Sqlite3, refer to <a href=\"https://docs.trychroma.com/troubleshooting#sqlite\">this solution</a>.</li>\n</ul>",
+  "_fetched_at": "2026-03-11T18:18:04.287Z"
+}

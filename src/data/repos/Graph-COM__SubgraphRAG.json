@@ -1,0 +1,2577 @@
+{
+  "id": 880113534,
+  "node_id": "R_kgDONHV3fg",
+  "name": "SubgraphRAG",
+  "full_name": "Graph-COM/SubgraphRAG",
+  "private": false,
+  "owner": {
+    "login": "Graph-COM",
+    "id": 85646260,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjg1NjQ2MjYw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/85646260?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Graph-COM",
+    "html_url": "https://github.com/Graph-COM",
+    "followers_url": "https://api.github.com/users/Graph-COM/followers",
+    "following_url": "https://api.github.com/users/Graph-COM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Graph-COM/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Graph-COM/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Graph-COM/subscriptions",
+    "organizations_url": "https://api.github.com/users/Graph-COM/orgs",
+    "repos_url": "https://api.github.com/users/Graph-COM/repos",
+    "events_url": "https://api.github.com/users/Graph-COM/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Graph-COM/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/Graph-COM/SubgraphRAG",
+  "description": "[ICLR 2025] Simple is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation",
+  "fork": false,
+  "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG",
+  "forks_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/forks",
+  "keys_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/teams",
+  "hooks_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/events",
+  "assignees_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/tags",
+  "blobs_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/languages",
+  "stargazers_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/subscription",
+  "commits_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/merges",
+  "archive_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/downloads",
+  "issues_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/deployments",
+  "created_at": "2024-10-29T06:18:14Z",
+  "updated_at": "2026-03-09T14:58:25Z",
+  "pushed_at": "2025-01-27T21:48:39Z",
+  "git_url": "git://github.com/Graph-COM/SubgraphRAG.git",
+  "ssh_url": "git@github.com:Graph-COM/SubgraphRAG.git",
+  "clone_url": "https://github.com/Graph-COM/SubgraphRAG.git",
+  "svn_url": "https://github.com/Graph-COM/SubgraphRAG",
+  "homepage": "",
+  "size": 33902,
+  "stargazers_count": 158,
+  "watchers_count": 158,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 22,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 4,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "gpt-4o",
+    "graphrag",
+    "knowledge-graph",
+    "large-language-models",
+    "llama",
+    "llm",
+    "rag",
+    "retrieval-augmented-generation",
+    "subgraphrag"
+  ],
+  "visibility": "public",
+  "forks": 22,
+  "open_issues": 4,
+  "watchers": 158,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "open-source-llms",
+  "commits": [
+    {
+      "sha": "48eb05e56d11293fa780849512310462c45b956b",
+      "node_id": "C_kwDONHV3ftoAKDQ4ZWIwNWU1NmQxMTI5M2ZhNzgwODQ5NTEyMzEwNDYyYzQ1Yjk1NmI",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2025-01-24T07:12:35Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2025-01-24T07:12:35Z"
+        },
+        "message": "cleanup",
+        "tree": {
+          "sha": "2b05f01afc57a67f71d3fd96024663551e88a3fe",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/2b05f01afc57a67f71d3fd96024663551e88a3fe"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/48eb05e56d11293fa780849512310462c45b956b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/48eb05e56d11293fa780849512310462c45b956b",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/48eb05e56d11293fa780849512310462c45b956b",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/48eb05e56d11293fa780849512310462c45b956b/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fb221f9e9c1ea594d629cd7c68c13ce7fb79b702",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/fb221f9e9c1ea594d629cd7c68c13ce7fb79b702",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/fb221f9e9c1ea594d629cd7c68c13ce7fb79b702"
+        }
+      ]
+    },
+    {
+      "sha": "fb221f9e9c1ea594d629cd7c68c13ce7fb79b702",
+      "node_id": "C_kwDONHV3ftoAKGZiMjIxZjllOWMxZWE1OTRkNjI5Y2Q3YzY4YzEzY2U3ZmI3OWI3MDI",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2025-01-24T06:34:43Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2025-01-24T06:34:43Z"
+        },
+        "message": "cleanup",
+        "tree": {
+          "sha": "9f5e075860821a5c06c5723e727fdcc8a3f35ff4",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/9f5e075860821a5c06c5723e727fdcc8a3f35ff4"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/fb221f9e9c1ea594d629cd7c68c13ce7fb79b702",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/fb221f9e9c1ea594d629cd7c68c13ce7fb79b702",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/fb221f9e9c1ea594d629cd7c68c13ce7fb79b702",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/fb221f9e9c1ea594d629cd7c68c13ce7fb79b702/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "957f3f281eead1628145691733e8de98e0773f16",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/957f3f281eead1628145691733e8de98e0773f16",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/957f3f281eead1628145691733e8de98e0773f16"
+        }
+      ]
+    },
+    {
+      "sha": "957f3f281eead1628145691733e8de98e0773f16",
+      "node_id": "C_kwDONHV3ftoAKDk1N2YzZjI4MWVlYWQxNjI4MTQ1NjkxNzMzZThkZTk4ZTA3NzNmMTY",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2025-01-24T06:05:44Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2025-01-24T06:05:44Z"
+        },
+        "message": "cleanup",
+        "tree": {
+          "sha": "4bb3fe7ed27d56c1c571b5400875c8990fff2739",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/4bb3fe7ed27d56c1c571b5400875c8990fff2739"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/957f3f281eead1628145691733e8de98e0773f16",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/957f3f281eead1628145691733e8de98e0773f16",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/957f3f281eead1628145691733e8de98e0773f16",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/957f3f281eead1628145691733e8de98e0773f16/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e"
+        }
+      ]
+    },
+    {
+      "sha": "4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e",
+      "node_id": "C_kwDONHV3ftoAKDRjMGMzZDY4M2U4ZjgyYTM1ZDFhMzMxYjNjYTJiZDU3YTJjMTUxNWU",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2025-01-22T21:19:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-22T21:19:22Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "9b48902e76790cf1ab22fd5abec1f8804273b4c3",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/9b48902e76790cf1ab22fd5abec1f8804273b4c3"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnkWDaCRC1aQ7uu5UhlAAALkYQAKIou+XSzbslnx0vAtqo4ZbZ\n1qroeKJPQA5K9FkoitotSSnHgP0H2WWkdU8trOdEVQtfJniv5WCGvLsD6km5wNug\nljRf7gEAaJrAonghxCPkqb8HsvddjCColjdccCY7NHK2R8x0wLNkq4YrpDE/m1sO\nwvnGQ9z8knlL/iMyXXD20TjGFSxkGJzB5/p8u3b1lS/KcQJC/kl7SRLbUO7xKNOL\nwDUIPZ7LZLoOaYI1nfHxx/qltIqnfffN7tgWLCnXledZ4oQYYuAoQwpMDAEW7LvQ\nGZUyHDRhLP2DHRQuVE69bXZ6FJ1Z/RmZGQIJf0aOdJ/VnDeXs+4hMYdhKly7b1BG\nVStPhXfpk9CXFhtDz27c+VTqnV2NaAkBOhkpjbk4U4dDnTY9f8Ub6TOavyB0UtB0\neFlrk2JCmyvXckgZFJgWfUeQb6GOvbRCkHlCIXZXBgvW2eiTwUU/1jEuDbkOFRhj\n4OXpfmQsOA6mI+zZ1/tEjpIo8S2QvR1a4tAK1T61oCfKWhHBj1z2iux1OjFBF0k5\nk7bpJXLhuM4+csu41h1Gugq8+tDGH2SclXKKCVzQ5eG74Oq3ec66TtMB3X9smZtx\n4koG5k7BvTVWiffZctojnRvCp4mJ7cyxsW9V5XMhl145DW2lgR3nrWIDRKfONcaK\nhMLcgkaFltOkmdXj7Cy9\n=zsMM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9b48902e76790cf1ab22fd5abec1f8804273b4c3\nparent 82c28d95a2ae7be02a23b5bf7d15daddba1169d5\nauthor Mufei Li <mufeili1996@gmail.com> 1737580762 -0500\ncommitter GitHub <noreply@github.com> 1737580762 -0500\n\nUpdate README.md",
+          "verified_at": "2025-01-22T21:24:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/4c0c3d683e8f82a35d1a331b3ca2bd57a2c1515e/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "82c28d95a2ae7be02a23b5bf7d15daddba1169d5",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/82c28d95a2ae7be02a23b5bf7d15daddba1169d5",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/82c28d95a2ae7be02a23b5bf7d15daddba1169d5"
+        }
+      ]
+    },
+    {
+      "sha": "82c28d95a2ae7be02a23b5bf7d15daddba1169d5",
+      "node_id": "C_kwDONHV3ftoAKDgyYzI4ZDk1YTJhZTdiZTAyYTIzYjViZjdkMTVkYWRkYmExMTY5ZDU",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2025-01-04T09:49:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-04T09:49:56Z"
+        },
+        "message": "Update (#18)\n\n* Update README.md\r\n\r\n* update",
+        "tree": {
+          "sha": "3bf5358193b90f4a98d129427a827171fa0a3d5d",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/3bf5358193b90f4a98d129427a827171fa0a3d5d"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/82c28d95a2ae7be02a23b5bf7d15daddba1169d5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJneQRECRC1aQ7uu5UhlAAABiIQACm1mVoXw10o5fOu4zy8mOVM\nGpzT/kearZdpT2bs+dbh+jvwNU6CKP2zkfZXjtVFLe64NeCP++az4RatRF4U+0Zx\nATfSkQjuniqz2coapBLBF43QcxICBxska4sX64t7kZdloG48sDbfwPqchi9x30p0\nmh0uLiaBll7GScV5TOhecRXBNxCOWylm1/sMl9MZG9Ht2OHE1ABZE8XwEIXR8aN4\nxd1ihXvN/PdR1x0fA0Zed0ahtNXOj7HKyrQloZIsoaJfOuRI56V4sZq40HpCNYuH\n5s5Se1iwiCRtE+5DYM688BTOYd8jUzd5dOSVEr514W/6T9omYqaOYkvw6yjU7XSo\nu/XpH1FyXhZsx63dAddYrBQ5vggcLD2sVEgZgGr+FzOZ5m3j1AZhH1HmgKe751do\nxSba7hCthomb17Y0i069Qmw/0sZb7a+s8wN/Aa6DLKn5FPI8K8rdwOCWxifURL6e\nU7/YQTQnpL3Y5l3gYZs4maehXdW5uzo4XpotRRFKl6L2Ywir05S2Zas3ttra3QuR\nRU9WNkkz//xtkzTwOIQQqsyZm4JIMOT9xVKUM5LuwsRbl1ynG/x/7/UD1yUkCL8M\nfQulRWEbL7Dm7uhnMwmnvlrBkLjuHSMIo1quMu0rFmhuauURY50XD4x1IWeT3lX6\ngLLFXN/SfnXBSfxKgLwk\n=R6gz\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3bf5358193b90f4a98d129427a827171fa0a3d5d\nparent ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb\nauthor Mufei Li <mufeili1996@gmail.com> 1735984196 -0500\ncommitter GitHub <noreply@github.com> 1735984196 -0500\n\nUpdate (#18)\n\n* Update README.md\r\n\r\n* update",
+          "verified_at": "2025-01-04T09:54:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/82c28d95a2ae7be02a23b5bf7d15daddba1169d5",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/82c28d95a2ae7be02a23b5bf7d15daddba1169d5",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/82c28d95a2ae7be02a23b5bf7d15daddba1169d5/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb"
+        }
+      ]
+    },
+    {
+      "sha": "ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb",
+      "node_id": "C_kwDONHV3ftoAKGVjZmMxNmZjYzE2YWQyYjI0ODhhZDJmODJhODExMTkwZWJkNmE4ZmI",
+      "commit": {
+        "author": {
+          "name": "Serge Panev",
+          "email": "spanev@nvidia.com",
+          "date": "2024-12-18T21:39:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-12-18T21:39:24Z"
+        },
+        "message": "Fix the backward prop in DDE (#15)",
+        "tree": {
+          "sha": "ee6c111e7049941cfacecc58c7c96bf2630b9f00",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/ee6c111e7049941cfacecc58c7c96bf2630b9f00"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnY0EMCRC1aQ7uu5UhlAAAwUQQAFF1yAkRGiyXMNQh8zBSGeCw\n/194qM9GEos/ZaCjr7Sh0WNZDXPi97AHuEXcfHCLr5s748D+FKfnORSAWR+9VDYD\ne3wnXOzmE9IGF1AF/Tr/e2tke5jP3+gn1ohxSl9Zy2ZHBeRThZXgGc1fKLx7zMV4\nTsctmqaenGLRwncHibryA3405/Uc8eRPWbJfNMgDze7qQhdDeBXrFRgLSxVCRqhd\n+a6MAHkdt0bXPwPD83kMniVpLgBI3pmr+TykK+cvoFDRp4FKmOvSEElPjdBejciT\n3q9H/F6MJWVTLt1p8uEiGMdlmHRK+4nuntHnXB5vvYV1ZomPThy4vf+vzwB2gSlD\nQvfXy3VfDmSDjDPTb57rlPAptxoDrFJhjRkgIhT4eE5e730mPzBedbLBgZ/BJVg6\nLsrU7N0/mPhp/mbOwkmE+sZTcOjTwe+vM9XwJILf0yQeV9495zn2LC44cy7VCZjL\nw/vBxINvda5pexfHVeJAo4bFTspyKJIDnzSh8iK+/x1jZURmu/+juPaJ6jTy90Rz\nOSuam1wQRz2opFc/PDdY3SWWCQJEtarXjh9VnnqRveOcK2NCF5uzYLxo9OopONDn\nmYoaZZD8qWC1Ljr6GN/WFyLuNmxH0E9zrdxAbqRtE+juNAgGtY6G20KcZ6GYfNnO\no5HzcUYyLZCdNvMoLify\n=7MyF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ee6c111e7049941cfacecc58c7c96bf2630b9f00\nparent 0d4ec9111e878667615533e87bae12296f2022b5\nauthor Serge Panev <spanev@nvidia.com> 1734557964 +0900\ncommitter GitHub <noreply@github.com> 1734557964 -0500\n\nFix the backward prop in DDE (#15)\n\n",
+          "verified_at": "2024-12-18T21:44:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/ecfc16fcc16ad2b2488ad2f82a811190ebd6a8fb/comments",
+      "author": {
+        "login": "Kh4L",
+        "id": 3193578,
+        "node_id": "MDQ6VXNlcjMxOTM1Nzg=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3193578?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Kh4L",
+        "html_url": "https://github.com/Kh4L",
+        "followers_url": "https://api.github.com/users/Kh4L/followers",
+        "following_url": "https://api.github.com/users/Kh4L/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Kh4L/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Kh4L/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Kh4L/subscriptions",
+        "organizations_url": "https://api.github.com/users/Kh4L/orgs",
+        "repos_url": "https://api.github.com/users/Kh4L/repos",
+        "events_url": "https://api.github.com/users/Kh4L/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Kh4L/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0d4ec9111e878667615533e87bae12296f2022b5",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0d4ec9111e878667615533e87bae12296f2022b5",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/0d4ec9111e878667615533e87bae12296f2022b5"
+        }
+      ]
+    },
+    {
+      "sha": "0d4ec9111e878667615533e87bae12296f2022b5",
+      "node_id": "C_kwDONHV3ftoAKDBkNGVjOTExMWU4Nzg2Njc2MTU1MzNlODdiYWUxMjI5NmYyMDIyYjU",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-20T00:45:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-20T00:45:41Z"
+        },
+        "message": "Update Relevant Triples Identified by GPT (#14)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "0d382fd5801d562c7bc3a22c5ed1feb55584d8d9",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/0d382fd5801d562c7bc3a22c5ed1feb55584d8d9"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/0d4ec9111e878667615533e87bae12296f2022b5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnPTE1CRC1aQ7uu5UhlAAAMK8QAJhQZ44mh1OHRGKIRRqQD5DN\nYFz6R6huXiJYqXq8NFy7TzW/OEc2yIBo1A5wdBd0Fwagt9HPc0ZszLnL702z6QMQ\ns3xerZGwj6IY7fr9g9WhMOO+21CndQmI+dh9b54lwVrX79OuYvYWLlgpMeS7soIo\nvLEkRkvkPiSFcw5EBXRZuSj1hEp9qUgY0C7J8EYnMX7NGBYccpue3mPZCN56YHwT\nZuvJ0/V9jj/w9yHaLfKJ0cvq01CBEnmpX8ZXmobEiMDovnXGCTDVoUQOt1Z143Sn\nnwWnhKs2rhoV1oPX2zXjPspggjl1Wa5zNIuU1RibcB8Nikmm0x/G/fKDCChveqOR\nkin231aP1Qn9/aZj2CSwx2eCvf4fmg6cYfSJ7NTP0gbza+Jk3+xQXxM0C0fzogmC\nPS/7uS1vF4AZMqbXwti6o4dMvgXOzJ/anWg7SzbI9PaEuMSI4UfvhqxWZ/cg1Zb6\ndCDuu9bqH4qqtOY6/rDphdBWUlpre/Gwlu5sa936sQFl21vDWHbS54BNzAzMB1oO\nPTRMLGBh6V+FwGT2CfhNsWA6Lk5NB+Gn/8mX7vlT3WdFEVSIkjfQDV9AEBRdivQ5\nPWNJwUPsEmJPbdAoHE+FASpzquUlj/Zm2/6mXpqoEk4x60ohFRHas+iWYuUhdHgR\nCp3b8thkl9YYZk/1dUVK\n=b6K9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0d382fd5801d562c7bc3a22c5ed1feb55584d8d9\nparent 02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f\nauthor Mufei Li <mufeili1996@gmail.com> 1732063541 -0500\ncommitter GitHub <noreply@github.com> 1732063541 -0500\n\nUpdate Relevant Triples Identified by GPT (#14)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-20T00:45:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0d4ec9111e878667615533e87bae12296f2022b5",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/0d4ec9111e878667615533e87bae12296f2022b5",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0d4ec9111e878667615533e87bae12296f2022b5/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f"
+        }
+      ]
+    },
+    {
+      "sha": "02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f",
+      "node_id": "C_kwDONHV3ftoAKDAyYTIzZTRkMWVlZmY2ZTgzMzg2MGZlNWZmMmFkNWQwMTFlZjhmNmY",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-11T21:46:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-11T21:46:31Z"
+        },
+        "message": "Update (#12)\n\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "c8492b8fc9de0e58e83a516d484996b7d4bf6919",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/c8492b8fc9de0e58e83a516d484996b7d4bf6919"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnMns3CRC1aQ7uu5UhlAAAz8EQADycRrsN+IcaunOfhNBfRU2y\nNOjFJ758Vq7ISuCVg7y+uRxmOrDNHAA1pbwFCkvfI8R6mR80v8bv1vOVuzd59zUd\nmMlqU+H1TCQwEBjgqXT1UW31f77v9qZ9BYBSyGFMqg6YFoF15DzRtZ06dYoZj3pf\nkqJdZJ1xnDfXSvhdTWKhrCmcf6633bLWG21OOT5J0dtOEkTaG4o1g/nEEXNj+kHN\n3P4YdSFYCMIv99so3tY8alNOmH/tWG7nkcpBXsO55Uo/zzr1iy7JwWkkzxN9EN2f\niXw1e4Svx6tI+7fZH9PlaJGVXmjhGEWb96C449i1B7zOnFvoKgWfAaFOipukqnvF\nk6vmpcl2EOC0kH0XVdI9YD6iTRv8u/XlN6+XGdILlWh7LH2WBCrUUP74mSAiy7Bf\ndI5iG/SIpBNoqOgQ4RW6jaalhrdNnHHcXXrvy4vCgnQPuvU2632fBRuLb2SFz69d\noOXwIR8m8J7hCRCPDr/xR7RZIMpt9DfDNID1swbIknuOCT3OUQLRp/MxdmDQs4Wd\nuFmHwkCQbliDDceUTFHQV3W7RUQkhooeesFKsGRdVOjwUBwAMPzx4+luzm45uiDS\n0D7hUz63KLeX4PAVmfR3JsTYdpiFS33/pzORDJSyoe4nV2qffoImiHu513/n1Gsr\nSmgLTd1lpTj+vsXQ11lV\n=v9t7\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c8492b8fc9de0e58e83a516d484996b7d4bf6919\nparent faee6c08db2dd225c9a8183d5afb8656206029e2\nauthor Mufei Li <mufeili1996@gmail.com> 1731361591 -0500\ncommitter GitHub <noreply@github.com> 1731361591 -0500\n\nUpdate (#12)\n\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T21:51:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/02a23e4d1eeff6e833860fe5ff2ad5d011ef8f6f/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "faee6c08db2dd225c9a8183d5afb8656206029e2",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/faee6c08db2dd225c9a8183d5afb8656206029e2",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/faee6c08db2dd225c9a8183d5afb8656206029e2"
+        }
+      ]
+    },
+    {
+      "sha": "faee6c08db2dd225c9a8183d5afb8656206029e2",
+      "node_id": "C_kwDONHV3ftoAKGZhZWU2YzA4ZGIyZGQyMjVjOWE4MTgzZDVhZmI4NjU2MjA2MDI5ZTI",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-11T20:03:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-11T20:03:11Z"
+        },
+        "message": "To make it more user friendly (#11)\n\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "c8492b8fc9de0e58e83a516d484996b7d4bf6919",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/c8492b8fc9de0e58e83a516d484996b7d4bf6919"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/faee6c08db2dd225c9a8183d5afb8656206029e2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnMmL/CRC1aQ7uu5UhlAAAY9EQAF6uMei9KjyPce8y6RdcDpSr\nDfwOxdn+IfUV4zB6eFLViulb4usn+2+GAZ0/ZoFGK6io4NqpnBuwg5xQ9hFtBoZN\na0xsFMP68A/EP1fvqqfTr0KBWTuKin8NPY9ByqWcHWAH2eHZFvFsEXDPEVDnJm+A\n82Mn+MIhnaRs244fSJLMevHLWU+pE+6PzilO1DrTdExeyp/ABoOwmUrUYVjlyGIk\nIaHfnszzV++aCrt2kUciWKuGG9J1ZhfGuO37VpJCsrh+0Kvbm0JgCkEb7S5CkXVc\nJDK5QjtBCAfHO+kveLThb9H+5qYvAUg8irqeM6PRfeusXmH8XBv0OwcRU89MxziW\nAhlhI+Sifb+U/1/WBT8mXKKCG511aT6R/vlEtIyK60YynMYfsVqRWTWzFETFUpKK\ntsa8bLgngxFNkHS2diFUSJN/eALTchqbuJNL75W8P3RXwQjzLdx2xycTPTLeFiu0\nCETJu6q/KnMvD49MVMQNYt1bPOvWp2i++1tJkj5pJsA516Iqw7tJFCuttbB4d8ND\nk8R0Meb9iS3jKjF/FceY9XL5z4OobbC12Wx45vxQKmcPc+gXLGvZp6YHR8WNBXx2\nv/FRr4cCvVjphbOZhu1K3y6gaKDkHctv50CHipoW9R6Jnm+T2xhVRgpI1UOhsNa1\nVlK7DcBETRoBLDeA/RhQ\n=X0z3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c8492b8fc9de0e58e83a516d484996b7d4bf6919\nparent 9cecb29fa882e664180604df853d7c59611681c4\nauthor Mufei Li <mufeili1996@gmail.com> 1731355391 -0500\ncommitter GitHub <noreply@github.com> 1731355391 -0500\n\nTo make it more user friendly (#11)\n\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T22:50:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/faee6c08db2dd225c9a8183d5afb8656206029e2",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/faee6c08db2dd225c9a8183d5afb8656206029e2",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/faee6c08db2dd225c9a8183d5afb8656206029e2/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9cecb29fa882e664180604df853d7c59611681c4",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9cecb29fa882e664180604df853d7c59611681c4",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/9cecb29fa882e664180604df853d7c59611681c4"
+        }
+      ]
+    },
+    {
+      "sha": "9cecb29fa882e664180604df853d7c59611681c4",
+      "node_id": "C_kwDONHV3ftoAKDljZWNiMjlmYTg4MmU2NjQxODA2MDRkZjg1M2Q3YzU5NjExNjgxYzQ",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T18:47:50Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T18:47:50Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "51b78d39beb8eac7f85b8425875973d1475856e1",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/51b78d39beb8eac7f85b8425875973d1475856e1"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/9cecb29fa882e664180604df853d7c59611681c4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9cecb29fa882e664180604df853d7c59611681c4",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/9cecb29fa882e664180604df853d7c59611681c4",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9cecb29fa882e664180604df853d7c59611681c4/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7424ff132d986987f87cfcf03d7456e00fd93d96",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/7424ff132d986987f87cfcf03d7456e00fd93d96",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/7424ff132d986987f87cfcf03d7456e00fd93d96"
+        }
+      ]
+    },
+    {
+      "sha": "7424ff132d986987f87cfcf03d7456e00fd93d96",
+      "node_id": "C_kwDONHV3ftoAKDc0MjRmZjEzMmQ5ODY5ODdmODdjZmNmMDNkNzQ1NmUwMGZkOTNkOTY",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T18:45:14Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T18:45:14Z"
+        },
+        "message": "cleanup",
+        "tree": {
+          "sha": "91a9168cdd8b3e5e068792b917de2a0f62b492e3",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/91a9168cdd8b3e5e068792b917de2a0f62b492e3"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/7424ff132d986987f87cfcf03d7456e00fd93d96",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/7424ff132d986987f87cfcf03d7456e00fd93d96",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/7424ff132d986987f87cfcf03d7456e00fd93d96",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/7424ff132d986987f87cfcf03d7456e00fd93d96/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2624ab16c8404c5462a6511a81fa639a23b1a8f1",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/2624ab16c8404c5462a6511a81fa639a23b1a8f1",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/2624ab16c8404c5462a6511a81fa639a23b1a8f1"
+        }
+      ]
+    },
+    {
+      "sha": "2624ab16c8404c5462a6511a81fa639a23b1a8f1",
+      "node_id": "C_kwDONHV3ftoAKDI2MjRhYjE2Yzg0MDRjNTQ2MmE2NTExYTgxZmE2MzlhMjNiMWE4ZjE",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T18:14:49Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T18:14:49Z"
+        },
+        "message": "cleanup",
+        "tree": {
+          "sha": "dcd87c5d31158413e7f26585d416422f50684403",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/dcd87c5d31158413e7f26585d416422f50684403"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/2624ab16c8404c5462a6511a81fa639a23b1a8f1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/2624ab16c8404c5462a6511a81fa639a23b1a8f1",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/2624ab16c8404c5462a6511a81fa639a23b1a8f1",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/2624ab16c8404c5462a6511a81fa639a23b1a8f1/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9626178b81a0a2ff82a15aa81edf7771cc06aa36",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9626178b81a0a2ff82a15aa81edf7771cc06aa36",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/9626178b81a0a2ff82a15aa81edf7771cc06aa36"
+        }
+      ]
+    },
+    {
+      "sha": "9626178b81a0a2ff82a15aa81edf7771cc06aa36",
+      "node_id": "C_kwDONHV3ftoAKDk2MjYxNzhiODFhMGEyZmY4MmExNWFhODFlZGY3NzcxY2MwNmFhMzY",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T17:58:10Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T17:58:10Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "5ac81fdb386cbb0a24501bd5a99f891e3ff026a8",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/5ac81fdb386cbb0a24501bd5a99f891e3ff026a8"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/9626178b81a0a2ff82a15aa81edf7771cc06aa36",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9626178b81a0a2ff82a15aa81edf7771cc06aa36",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/9626178b81a0a2ff82a15aa81edf7771cc06aa36",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9626178b81a0a2ff82a15aa81edf7771cc06aa36/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "91a3b5bc9fa2345790124c4382a244901568da4e",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/91a3b5bc9fa2345790124c4382a244901568da4e",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/91a3b5bc9fa2345790124c4382a244901568da4e"
+        }
+      ]
+    },
+    {
+      "sha": "91a3b5bc9fa2345790124c4382a244901568da4e",
+      "node_id": "C_kwDONHV3ftoAKDkxYTNiNWJjOWZhMjM0NTc5MDEyNGM0MzgyYTI0NDkwMTU2OGRhNGU",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:49:06Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:49:06Z"
+        },
+        "message": "upload results via lfs",
+        "tree": {
+          "sha": "bb06d2cc0a973512f8ee21daf8b305688963a166",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/bb06d2cc0a973512f8ee21daf8b305688963a166"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/91a3b5bc9fa2345790124c4382a244901568da4e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/91a3b5bc9fa2345790124c4382a244901568da4e",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/91a3b5bc9fa2345790124c4382a244901568da4e",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/91a3b5bc9fa2345790124c4382a244901568da4e/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec"
+        }
+      ]
+    },
+    {
+      "sha": "d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec",
+      "node_id": "C_kwDONHV3ftoAKGQzYWRmN2NhZTAzZGI2ZTdmMzkyZTMzNGRmZTRiMGI2YzlkODZhZWM",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:45:55Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:45:55Z"
+        },
+        "message": "add lfs",
+        "tree": {
+          "sha": "b5817595039c3c8e7827b873bc1cf1e010da80f6",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/b5817595039c3c8e7827b873bc1cf1e010da80f6"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d3adf7cae03db6e7f392e334dfe4b0b6c9d86aec/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a7e0746af352859f1138e70ea09dd3847476c5f7",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/a7e0746af352859f1138e70ea09dd3847476c5f7",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/a7e0746af352859f1138e70ea09dd3847476c5f7"
+        }
+      ]
+    },
+    {
+      "sha": "a7e0746af352859f1138e70ea09dd3847476c5f7",
+      "node_id": "C_kwDONHV3ftoAKGE3ZTA3NDZhZjM1Mjg1OWYxMTM4ZTcwZWEwOWRkMzg0NzQ3NmM1Zjc",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:43:54Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:43:54Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "97ec7b7c07e1bda3ceddce730497b3b226a6313e",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/97ec7b7c07e1bda3ceddce730497b3b226a6313e"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/a7e0746af352859f1138e70ea09dd3847476c5f7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/a7e0746af352859f1138e70ea09dd3847476c5f7",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/a7e0746af352859f1138e70ea09dd3847476c5f7",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/a7e0746af352859f1138e70ea09dd3847476c5f7/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0db77b5cbd7fffcfa87cfef7ee2c1090511af73c",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0db77b5cbd7fffcfa87cfef7ee2c1090511af73c",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/0db77b5cbd7fffcfa87cfef7ee2c1090511af73c"
+        }
+      ]
+    },
+    {
+      "sha": "0db77b5cbd7fffcfa87cfef7ee2c1090511af73c",
+      "node_id": "C_kwDONHV3ftoAKDBkYjc3YjVjYmQ3ZmZmY2ZhODdjZmVmN2VlMmMxMDkwNTExYWY3M2M",
+      "commit": {
+        "author": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:42:04Z"
+        },
+        "committer": {
+          "name": "Siqi Miao",
+          "email": "siqim311@gmail.com",
+          "date": "2024-11-11T16:42:04Z"
+        },
+        "message": "init reason",
+        "tree": {
+          "sha": "a40d93f2fefcc6c670287c8e5e3bc1395b9a68eb",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/a40d93f2fefcc6c670287c8e5e3bc1395b9a68eb"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/0db77b5cbd7fffcfa87cfef7ee2c1090511af73c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0db77b5cbd7fffcfa87cfef7ee2c1090511af73c",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/0db77b5cbd7fffcfa87cfef7ee2c1090511af73c",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0db77b5cbd7fffcfa87cfef7ee2c1090511af73c/comments",
+      "author": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "siqim",
+        "id": 36217961,
+        "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/siqim",
+        "html_url": "https://github.com/siqim",
+        "followers_url": "https://api.github.com/users/siqim/followers",
+        "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+        "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+        "organizations_url": "https://api.github.com/users/siqim/orgs",
+        "repos_url": "https://api.github.com/users/siqim/repos",
+        "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/siqim/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0237650498e5942b521bba2ce87f34e9e43a0db9",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0237650498e5942b521bba2ce87f34e9e43a0db9",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/0237650498e5942b521bba2ce87f34e9e43a0db9"
+        }
+      ]
+    },
+    {
+      "sha": "0237650498e5942b521bba2ce87f34e9e43a0db9",
+      "node_id": "C_kwDONHV3ftoAKDAyMzc2NTA0OThlNTk0MmI1MjFiYmEyY2U4N2YzNGU5ZTQzYTBkYjk",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-09T19:56:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-09T19:56:58Z"
+        },
+        "message": "Update (#10)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "9db81ee721e88651192750f25a7a4ef24f6efbe0",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/9db81ee721e88651192750f25a7a4ef24f6efbe0"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/0237650498e5942b521bba2ce87f34e9e43a0db9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnL76KCRC1aQ7uu5UhlAAAE3sQADYq5n8fQ48E42myF5EwaS/z\nUeJMNW6YkIzsRQxCGRhZRss6A+7XTBjaCLnJQg69/bBCR7gfM98IHvqoatejG37C\n6am6xlKJwHs0wG5gbYBFhZk6K5YO7PmTm5l3LtUEtehbcDugWrMnI3VzPdERIr6W\n6Xoh1tTSZJ2rCGdvlygI2PM1ukpFOA6XY8M8Njfzb+0PObH8uBATAPjEJWRRAxBk\nkSQuTl9yofPJ0jIdBLg08Sog6lxi6NIdlA22+KluKqVaPKqjQ5av86eqyfHbUVsc\nvwdAuMN4MnGhx2v7lhQTg+g7Z3y1jqRYoKwOkfhhRTMltdy9JDNffQQcfsyY1WEt\nbncBqSXCYdVCjHSzF/fIhtD8TUn4MsqA3FwJVP5jgxYBDSe5xywmNvHDoFbBscGd\nbcZKbvkWoJxyQPaM14nx04Zi9Zg6n86WnQhN/1VKjQJU4TGZdl7q35SY3rk3NJdb\nSq/s623epZwnVxmV7knC/FwOMEEcs/99n9BM4fDG6HYl5zxgww8hWMUfc7UbUAdz\nvGmZ4D1oNqEYNs3vzRE7xAIYies3563e5bZdOVserJjQJztpTT4qZe4NYpaFDq1u\nLQscHjHgnYScGlY3ZhtbZUIVDb+crMO11GUv0gekrfrcs8YABRRZOdjJuLZ1Uk79\n18V03IHlNsdMMgWOASDB\n=xRi8\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9db81ee721e88651192750f25a7a4ef24f6efbe0\nparent c84758459b9f658ea78edb099453f7d94ff04137\nauthor Mufei Li <mufeili1996@gmail.com> 1731182218 -0500\ncommitter GitHub <noreply@github.com> 1731182218 -0500\n\nUpdate (#10)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0237650498e5942b521bba2ce87f34e9e43a0db9",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/0237650498e5942b521bba2ce87f34e9e43a0db9",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/0237650498e5942b521bba2ce87f34e9e43a0db9/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c84758459b9f658ea78edb099453f7d94ff04137",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/c84758459b9f658ea78edb099453f7d94ff04137",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/c84758459b9f658ea78edb099453f7d94ff04137"
+        }
+      ]
+    },
+    {
+      "sha": "c84758459b9f658ea78edb099453f7d94ff04137",
+      "node_id": "C_kwDONHV3ftoAKGM4NDc1ODQ1OWI5ZjY1OGVhNzhlZGIwOTk0NTNmN2Q5NGZmMDQxMzc",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-09T01:45:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-09T01:45:31Z"
+        },
+        "message": "Update (#9)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "0a1abf2de41a685a8dd33666b624acf816819304",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/0a1abf2de41a685a8dd33666b624acf816819304"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/c84758459b9f658ea78edb099453f7d94ff04137",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnLr67CRC1aQ7uu5UhlAAASVcQAK6z1p1qhusVn3L8iuI+iv9G\nHUhuLUKlF+NHS3YUqZJP8rMAELerDgeCtJbfv6fllWcVT82qy36xFZxDUlVmiNE5\ny18V/z6WQhHnftnW280osElQUmEl3TmUtTiTdc+uHWbM014RyQFxdH4zhsUMBuu+\n5cgKF6KaL6LW/iBDY1vTMTxYFkk9Hodr0diqgzGBl9kgUYJVB4B3LlNT3FLQVh9g\nZY1lek+7wCtRJARd9V0l0qs/aW4n7SZA4vmAfKciCM6omLSaIKRAZacNCOB6Y2GX\nVvDt19zRwycbWg9CAG2dYrY4bcpCOuzR1S0ISZYnBYbLjQaAqFzJdez5TgHig5kB\nl+B4yL4I+IhFwba61RUCwLBk3Jrn4kWxBPXvyEAgQgH3mVpqnAqFnrr/Nyqq1TYd\nDAGnKYDzAKKmW6yTGJgd6k79fZ46tHDLpD2zk9MRiK+9KQXCEJ5qgPWogBHF4NBT\nE6HeBrKvQKklNXPmg0/eWt32fRToR61cSTcZkOJQLKadx8UUjfkev/s+1XzhkOSX\nntwME61BDRyqlFSOZWLMFdwJ0grk2yMs4X3c6tVDxhE+xCTkrhu1hlii7XTlEmvJ\nV+LYTDMd+ZpsXkP/UzeC2MyvpwCa+lO2Qkm4kN4GjqJ4ghvb0pbFmqMSjKhYT2ir\nWUvfsiQ9c44wlkmgBT8L\n=07ou\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0a1abf2de41a685a8dd33666b624acf816819304\nparent 9e027d1b00220fbbe7031a0227430b6b592f5b07\nauthor Mufei Li <mufeili1996@gmail.com> 1731116731 -0500\ncommitter GitHub <noreply@github.com> 1731116731 -0500\n\nUpdate (#9)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/c84758459b9f658ea78edb099453f7d94ff04137",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/c84758459b9f658ea78edb099453f7d94ff04137",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/c84758459b9f658ea78edb099453f7d94ff04137/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e027d1b00220fbbe7031a0227430b6b592f5b07",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9e027d1b00220fbbe7031a0227430b6b592f5b07",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/9e027d1b00220fbbe7031a0227430b6b592f5b07"
+        }
+      ]
+    },
+    {
+      "sha": "9e027d1b00220fbbe7031a0227430b6b592f5b07",
+      "node_id": "C_kwDONHV3ftoAKDllMDI3ZDFiMDAyMjBmYmJlNzAzMWEwMjI3NDMwYjZiNTkyZjViMDc",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-08T01:17:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-08T01:17:49Z"
+        },
+        "message": "Update (#8)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "59898251c902b67fdfb651a0136d10b4f37f475f",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/59898251c902b67fdfb651a0136d10b4f37f475f"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/9e027d1b00220fbbe7031a0227430b6b592f5b07",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnLWa9CRC1aQ7uu5UhlAAAc4wQAGeVGCWStgvWazpQsLCTngeM\neWpSWEoklaNSwrc0kYLKft5jYAeRz2YNiBZTLLng3Yo1iu7A0I3Pnw+y78PDhpuK\n/qSF3GLp1r/gVKweOs9tb8BldqhkOB2neteZXRBc+EQyoLK2uPi8y3ormcD8YPz9\neOOfNsX6z2H6j3zl09vzDLMyktiLWSGnHOHoLV0S0kUH+az7OKOIRJHJXhROMSGV\n3tnYdMlwEg+MnllN6b5FEXnVbK6AJ4glM9eiaUFXySmEJ6Z6hpKCdp+2iB/VgXVR\nWMvlAo4Uxfq/3DlNZ/DxDo4oZKoiAglYYJwpCjjhYZa0A9rNT5SEG6hbs+eBbVql\nQe/JowLE96gI9IImLZheSw29JC17rO+Q0cnPP+sEnUDu2ovAU7Mv0oqPjX7HcFx5\nKqn1UprYIRFBEuSC0PGAeOI2fTysu1CGhM/Q43Sl3p6N2UxE5Y+Xk2Ns9qihEGmZ\nc3uIgxCV3IZ3MifJFWY7y23VIQvgYz0WXUQEcbhn/ghlRyyFLEmbZgY3n0aqvDqq\n0h8eKEiCMOVZ5kNvb8gEUFOPIFsW5w8T4mYU31r8JtwwuejSNVp/cNZl1NT5Htp6\nc+vjRuM942/nyGXdMIgfYqeo3/iEC7aTHZCfW3kAj1faAsY8/Na69O3Ec0KlCgU5\nshU3bzS8dvCrK6e7E4+v\n=hFK1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 59898251c902b67fdfb651a0136d10b4f37f475f\nparent 21ddc39fc9086224eed0566546372b88e7290b69\nauthor Mufei Li <mufeili1996@gmail.com> 1731028669 -0500\ncommitter GitHub <noreply@github.com> 1731028669 -0500\n\nUpdate (#8)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9e027d1b00220fbbe7031a0227430b6b592f5b07",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/9e027d1b00220fbbe7031a0227430b6b592f5b07",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/9e027d1b00220fbbe7031a0227430b6b592f5b07/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21ddc39fc9086224eed0566546372b88e7290b69",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/21ddc39fc9086224eed0566546372b88e7290b69",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/21ddc39fc9086224eed0566546372b88e7290b69"
+        }
+      ]
+    },
+    {
+      "sha": "21ddc39fc9086224eed0566546372b88e7290b69",
+      "node_id": "C_kwDONHV3ftoAKDIxZGRjMzlmYzkwODYyMjRlZWQwNTY2NTQ2MzcyYjg4ZTcyOTBiNjk",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-07T22:34:39Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-07T22:34:39Z"
+        },
+        "message": "Update (#7)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "ef5ce9248b19e085a20107e037ba26ecb88e7704",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/ef5ce9248b19e085a20107e037ba26ecb88e7704"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/21ddc39fc9086224eed0566546372b88e7290b69",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnLUB/CRC1aQ7uu5UhlAAAXE4QAILS9mnkIyyKAIAs0F/sS9YF\nMRkLsFEtGNReIH2PPRzFRfwEhH0/x4OfHGlywxpA0ZpefXlGs/fFBr61RBxxUwXB\n5+NCUBwpYruyk2+keS/W6WJPCE4JrVWeqZ1vC1+TK/pp33bAs2nP+GFvt0FaU7Ib\nBZRSD6dtyeHYDjPtoW5xPqM3/vdaA9CY+x8mgM1W+TQvNj5lnfhVxmL0GaiMRlfj\ntJL+ILgpXnFRMdRcxWEnl/Gxy8nHap97b4jC8nY8o9Ken5aeGd0gVO8jANAOhc4P\nvzBeLL22OPoEP6/+XPnRu8v2gY08GbCAQ0YJ6mC35VG9Af5RUjBbYV5r0Pozhbcq\n81zEQQfhVDKqPg9foj1PcjY/YTR71NAdx9PidsSwXMLVGBtx9IMwLnAbsrCejObn\nZsMlEvcRlyAK5v6oApVZmmo0p1dDCGppxMTRSvi0n5nO35f3ff1zP+MYgHLfMDis\nMdbTxKqfogunPDvWxBWT14tvRZoW2FUORsm9kXeJrMtHhQuAaDlv7IXMae4ZMxSf\nW32ZYxN6phbbYUXn8tH4I6aN+Z1DaQ6H8eHu4oWeUtk37gvE4RZgdV4YtTbZl3+E\nzwSZgKSSVLfiPFo2cxB03W69Hml5bgiZjJRjDJ/M0D1+g0wFJhhy3Xt5jZxxoiQE\nLb/772mFvYg61B7H713i\n=lqeC\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ef5ce9248b19e085a20107e037ba26ecb88e7704\nparent 428c029419f9d494e640655d90bf386d7412804f\nauthor Mufei Li <mufeili1996@gmail.com> 1731018879 -0500\ncommitter GitHub <noreply@github.com> 1731018879 -0500\n\nUpdate (#7)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/21ddc39fc9086224eed0566546372b88e7290b69",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/21ddc39fc9086224eed0566546372b88e7290b69",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/21ddc39fc9086224eed0566546372b88e7290b69/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "428c029419f9d494e640655d90bf386d7412804f",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/428c029419f9d494e640655d90bf386d7412804f",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/428c029419f9d494e640655d90bf386d7412804f"
+        }
+      ]
+    },
+    {
+      "sha": "428c029419f9d494e640655d90bf386d7412804f",
+      "node_id": "C_kwDONHV3ftoAKDQyOGMwMjk0MTlmOWQ0OTRlNjQwNjU1ZDkwYmYzODZkNzQxMjgwNGY",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-07T20:52:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-07T20:52:37Z"
+        },
+        "message": "Update (#6)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "20b9c0d6d3cb38dc13e168e8dfb3275544240462",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/20b9c0d6d3cb38dc13e168e8dfb3275544240462"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/428c029419f9d494e640655d90bf386d7412804f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnLSiVCRC1aQ7uu5UhlAAAjakQAIGS7jZVmse88fqxoOZooq1L\nWRH+dX6CQH5FGrkE9+xtwVG4nYguxNPR7w2INkC9ZHRIAWvnj+6fmUb8qZk964vt\nQJnVJUg0liIYGhm9DKstLuxiIHM+ea5mU2H0BLKGqD+mW49prZSGNwOmQCzbbG2D\niFItZBAOCu1RskveiRovXpljLzo+bCoVjqwNfpBYRKjgnqoo8GSGsr0OFRzxFtso\n/qpRf4FMvahdScKYDYuN+uekIrxVPuutznWT3udJaWyuCeBcwOPS7DBNOR+RMm3T\nxLFxfutAcobRgUQsvSvk8NJCiB/ZE40r4tUdFryirgqcr4hKkrq7DFR4JLxnF/Wp\n+3FICqoxtnaCMHi4plvaZfdZx2VNlMsHU8LDPtMv0EUyPHfQJLWWZ2T5dL1RhkEM\nB0yYA6Ey0beLHmT9hC6Qalt3IbgiN4Bvh6zmUUPHdVj5hfkozh2PoPSVnwA6MgID\nE5/cjegyNYPBPNT1+986Oe5niRPlGhU2kJe1bCVFvS1YfNm5xmvQhCRs+fyUr08v\n3SMQEm4bvYv7f2M+TzKTAG9Bz4ay9gbtPYCmTrDLVSxgw2nQC0eg+XW1iRzNLzfW\nYg79VUgBLcRQIqkbly0h+7k0AY1XAPEdmM+qwVNcH52AZHS/tlBHTgjnbSzzPXww\nTyoVb1eSY+2yFm5iXOBO\n=hXCF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 20b9c0d6d3cb38dc13e168e8dfb3275544240462\nparent 8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39\nauthor Mufei Li <mufeili1996@gmail.com> 1731012757 -0500\ncommitter GitHub <noreply@github.com> 1731012757 -0500\n\nUpdate (#6)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/428c029419f9d494e640655d90bf386d7412804f",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/428c029419f9d494e640655d90bf386d7412804f",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/428c029419f9d494e640655d90bf386d7412804f/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39"
+        }
+      ]
+    },
+    {
+      "sha": "8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39",
+      "node_id": "C_kwDONHV3ftoAKDhiODUyNzJhZTc1YzcwZDAyZGNiNWIyN2M5ZjZlYzJmODQzMWJjMzk",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-07T19:31:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-07T19:31:55Z"
+        },
+        "message": "Update (#5)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "7a459ccd96f83d4e8e386db58b1273d0930a6a64",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/7a459ccd96f83d4e8e386db58b1273d0930a6a64"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnLRWrCRC1aQ7uu5UhlAAAHgwQAD64a1Y8pwNREKDck4dJgTJK\n42FY649UzGMBnXs/AMBiXPHMUa/P2uQBwC6bkbrjLPWM5MLQB4Yvq12vjwXnvk/x\nTi7sQEoJJqiEtq0Z3gOD4qon4aJwJtUB9U3y7f+QQfucjEQbzgS6VxC/rMFFihec\n28ZWW5SWcp3Dy6xfhcJHOt0ma48carDi/zxN/UTS6iw1xCJ6BgvL4Qp/vjOiY6YQ\neRd0vTGS4dpQIxYZN1y260lElbaU0W4wsQ+MVCIGzFCRuo9yyaGjleocQPHTnSdM\nj0Qet70Lm4rXdgq1LpxrI25+Qt+A0hxHVsvzOeTJrQCrTPGl+ufkMpOHck2BXu8D\nmuF//RvcnkVjjXAi73Jw2cNiwpijQucOVyB9JpGiz+ylSshoFYSNJWB6wOT8uF0O\nSVo9nntTYmrDSNmuQWWWeo1qR7PE4ylZ/nh8RQKC3SwuNW2JOTx/PmN8FZF5C79I\nsNzx/9Fq5XQkovTec4PMGY91JYSdwmRESA4u1cRyPG+ww9QK9ZYaJh4B4xgRGydG\nX2DrTHrLvjZzhAKMcGnn0gAVPCafY6i4FuMIpmmGDCZT5VAwF1BAKiK65e1FBaED\n99BJynejrZnXDcWV7lgywx6GHLE/JnCiBsbHlb6d0/mqSsYF+n7MLrNIxMERi9tr\nVbuhbqUB4Bq01aDhULwf\n=iB1q\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7a459ccd96f83d4e8e386db58b1273d0930a6a64\nparent 524513fa3d8aee94902051d4439a03c0d8631212\nauthor Mufei Li <mufeili1996@gmail.com> 1731007915 -0500\ncommitter GitHub <noreply@github.com> 1731007915 -0500\n\nUpdate (#5)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/8b85272ae75c70d02dcb5b27c9f6ec2f8431bc39/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "524513fa3d8aee94902051d4439a03c0d8631212",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/524513fa3d8aee94902051d4439a03c0d8631212",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/524513fa3d8aee94902051d4439a03c0d8631212"
+        }
+      ]
+    },
+    {
+      "sha": "524513fa3d8aee94902051d4439a03c0d8631212",
+      "node_id": "C_kwDONHV3ftoAKDUyNDUxM2ZhM2Q4YWVlOTQ5MDIwNTFkNDQzOWEwM2MwZDg2MzEyMTI",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-07T05:48:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-07T05:48:59Z"
+        },
+        "message": "Update (#4)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "7aad639e9b27a162f5373bdbf193e4ca19bc731e",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/7aad639e9b27a162f5373bdbf193e4ca19bc731e"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/524513fa3d8aee94902051d4439a03c0d8631212",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnLFTLCRC1aQ7uu5UhlAAA92oQADRQLXPVBTh/pQy8q+xf5gwK\nHe4YI7utlIv1d+k26GarO+3QXRjExgCGG3JBk/Kq4g5yN62vUG/b+sWphShU9cF4\nlK4Ak8V3bE3Ap292luevtu3PNHcObk6afvaj6kighTZbxAW8ekF9E1vhroX2nP9H\naoiD9Vz1bvYpZx7Dr6kyb8+xdNL/CnKuZ2ja7kZDmG++3nNkLoKM7FSjDKoqGaRv\ncLUrH+qe5ZiMy/QM3BWaAnJb63n8P3dchL23r2Yu5z28M5DgxQjT9AlYE4yr+m0T\nnrU0YCNU+E70nBovoSglJBz/pXboVLRAEhFMlyNvJ5oQ4VV3aeuQiWymbpbIBLQj\ncEMINtID0u2Hk6BpW66WeaPT7Sk31DjjZQySs0y0S78cMJ/DuVZ9S6fyLcA1RcWV\npIeGbFu8Z0LXCQXi8u8v5Jr25No6G8sklgVzvC9SP2Iax/ouPhBUmS+fwiuI4W7I\n6ab64N8h3TUDKbQw1EhOkbqTRtSUu4XsOzDJyeyi1Vs9raiHUbt1S//WsQNA5umf\nxTrFe60A4nI3vX09o1ruseiwa9VeRTcDLummzuaJhZSbvlIxmd9fD1vqhB+9t/f2\nHFZdILWuh9xUT/iLXsOEHc1Hhk7mWQIbuHLu2pVALQAA1/Hdf6yHOlW2WasJxJLg\ntvK9Sj7wQa5kkIf9RA6t\n=9L5+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7aad639e9b27a162f5373bdbf193e4ca19bc731e\nparent 2e89883147e1f8311b8ad7024208eb2fc0f59aed\nauthor Mufei Li <mufeili1996@gmail.com> 1730958539 -0500\ncommitter GitHub <noreply@github.com> 1730958539 -0500\n\nUpdate (#4)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/524513fa3d8aee94902051d4439a03c0d8631212",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/524513fa3d8aee94902051d4439a03c0d8631212",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/524513fa3d8aee94902051d4439a03c0d8631212/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2e89883147e1f8311b8ad7024208eb2fc0f59aed",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/2e89883147e1f8311b8ad7024208eb2fc0f59aed",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/2e89883147e1f8311b8ad7024208eb2fc0f59aed"
+        }
+      ]
+    },
+    {
+      "sha": "2e89883147e1f8311b8ad7024208eb2fc0f59aed",
+      "node_id": "C_kwDONHV3ftoAKDJlODk4ODMxNDdlMWY4MzExYjhhZDcwMjQyMDhlYjJmYzBmNTlhZWQ",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-07T03:45:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-07T03:45:46Z"
+        },
+        "message": "Update (#3)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "2cc968b8cc8e0891c8d43be87753b41f230e7478",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/2cc968b8cc8e0891c8d43be87753b41f230e7478"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/2e89883147e1f8311b8ad7024208eb2fc0f59aed",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnLDfqCRC1aQ7uu5UhlAAA0fQQACEuUcESnKeNuub7fJiA31Tf\n5czru0pBR2LQ0x+JOjsKtB7Nn5Oy2sdZQyurGYKxALvZ7RwidJ8Lfll1fXeNkfAK\n5YLIIS1VQAq+0t8RzTLBPEu3legWyaXOCFf7rlJ8Dmmbl9ecoT1cqH4zBFjNjgug\nAJh4+htoxa+ng20gnWdjQlVcwCfNQqpBe0ccHgIDIEF+uxs607T/CMX5IcGFhEOr\nFAeeJZ0/uynGbfgfWsb3JxrKXXGfbCrqYXSOdPP4dOGeBZP+kIrnFmDbLzmrAIq/\nhEmnhV45xmuLuI6MK4tAiNuQES92J2LUt45farxfuScDglNq5qbVPCdZmdWSP0zY\nZ22SUSmHeHmnq4NX2ifT952VphXaLPNgHZ3kYzsG2lTvdiYYFpfvFQAvnOqoe3xQ\nzMpfc3O0DoFpdZ6eMhOVpdZkJECmhQzGQWdlQMSkhBnZMBV1P4rjLd4/gAf+pseJ\ntFgAPufMTwAjH37U/Ji9GNDDgGI3FP6tCzaXoyZOhydicjRZokS8wxNqA2E7+A/4\n6X2ZGpruDz4lBg6l2gBMCqV/vO1u3ivHVYiTEwBBXnlFAUxQjDqlLMBZ8m2NF1aI\ntbIsVi2Up0cS9TkiN5j1dDCiNWTsCNU88V2TeK9IrFJLPtxVOthLtqWo+mbHKvN2\nj3tG4F80aQb3dKMKaAk1\n=z0nO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2cc968b8cc8e0891c8d43be87753b41f230e7478\nparent c248fcadc54c42a1eb014dd76d0b242765da0f58\nauthor Mufei Li <mufeili1996@gmail.com> 1730951146 -0500\ncommitter GitHub <noreply@github.com> 1730951146 -0500\n\nUpdate (#3)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* simplify\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/2e89883147e1f8311b8ad7024208eb2fc0f59aed",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/2e89883147e1f8311b8ad7024208eb2fc0f59aed",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/2e89883147e1f8311b8ad7024208eb2fc0f59aed/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c248fcadc54c42a1eb014dd76d0b242765da0f58",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/c248fcadc54c42a1eb014dd76d0b242765da0f58",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/c248fcadc54c42a1eb014dd76d0b242765da0f58"
+        }
+      ]
+    },
+    {
+      "sha": "c248fcadc54c42a1eb014dd76d0b242765da0f58",
+      "node_id": "C_kwDONHV3ftoAKGMyNDhmY2FkYzU0YzQyYTFlYjAxNGRkNzZkMGIyNDI3NjVkYTBmNTg",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-05T05:24:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-05T05:24:18Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "4b91fd9e4e96ab49a58b59749a9c91836b9c1088",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/4b91fd9e4e96ab49a58b59749a9c91836b9c1088"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/c248fcadc54c42a1eb014dd76d0b242765da0f58",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnKawCCRC1aQ7uu5UhlAAADHAQAAwL5wv3EG8KOY2oONDZDGsn\nJ/GABRIjRaD09q48LrnmFpk+Cgr234LV0Mea81eEDmDTxjvxGEkw22JYFiBxOC8g\n1xsPru5LLKjwhDb4krBusFhlFH9vrPnIm265lqHQrcOO0IFTcmibcIZkwqUzhhh5\nBP8wyoZ6r9+xusXC2l8si4k96eiNW6iw24mx5+k6T54PqjmQKgieLBL4lyekkC1z\nTRGLgBjVao9V7NH9/HRIgkuFz/n19ST1pg50C3SUNpbjFe3AScZ86kfZM84/fYJp\nphTzNbdyCoo5/Rauk9pk+o4R3B4ZGy3qsNP+k4WjghvAlGWp5c+9ijP+5HBgURsz\n7T257wLHzvMZi5q/N13S0vNbXgOW9K1J+r9OMBiduxb95DSfwxBmR21cO5nWv6Fz\nHr330ZT4/tgJnfRAbVXXU747vbvlbnlhtkLTVZIJL7RlVEh3zcwkXvYhyJx8Jw5/\novN6ZMsudG8XjUBNizQ4EhU+UKTHQEsNyzE+fEzx+JS4GY96QSR43YsoWqI7ZQtX\nVRdR5C1jdkdoAjEhw0YzeHtwK0uTEdxpLgzx6Mn1ugIh2S83OMpi04EMLTY58HoY\nhkB6RuSfKCN2WBGsX8V5oQzB0pYEtEUl0mcwyerMTyJCq0ioKkcObiRj8Sfe+8Hp\nMQQ1635mtqRukZ1m56+0\n=mV/Y\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4b91fd9e4e96ab49a58b59749a9c91836b9c1088\nparent a62886a310143c72ffb4535f705558175c3dae4c\nauthor Mufei Li <mufeili1996@gmail.com> 1730784258 -0500\ncommitter GitHub <noreply@github.com> 1730784258 -0500\n\nUpdate README.md",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/c248fcadc54c42a1eb014dd76d0b242765da0f58",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/c248fcadc54c42a1eb014dd76d0b242765da0f58",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/c248fcadc54c42a1eb014dd76d0b242765da0f58/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a62886a310143c72ffb4535f705558175c3dae4c",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/a62886a310143c72ffb4535f705558175c3dae4c",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/a62886a310143c72ffb4535f705558175c3dae4c"
+        }
+      ]
+    },
+    {
+      "sha": "a62886a310143c72ffb4535f705558175c3dae4c",
+      "node_id": "C_kwDONHV3ftoAKGE2Mjg4NmEzMTAxNDNjNzJmZmI0NTM1ZjcwNTU1ODE3NWMzZGFlNGM",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-05T05:21:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-05T05:21:41Z"
+        },
+        "message": "Update (#2)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "22cabb54ba569595b96436807f11490d740f17de",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/22cabb54ba569595b96436807f11490d740f17de"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/a62886a310143c72ffb4535f705558175c3dae4c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnKatlCRC1aQ7uu5UhlAAAVb0QAGgYE0nA+FhrlaDObsATnvV2\niH5Nm5weOM87t9qdkJNAyCLwvKEaL4D/cJJSF854vhqXdLsmCQM/ZYPj080SBOwi\ndwEPIfN3VhmmoOYszA02jQt04h1IL/dyJF+WHe8qB0egQR91afV1/LaHDSrVbVLc\nFvf2mNqL6TtM/yoqfGe7kTYc20k1hcRCnDd2v7mxs9WI0iFOqtK37H8nqPD6J7Un\ncQ6+WWPJjEb/wBO6s2PGoxM/jP1eu3Wrdcf48r36Kyup5JblHKXpJ92F/YF5DswX\nV86MuqZDPUAnwwOxep2Z0JgDavjSC+yPYv03n2e+Tsi045t+iNu6R24NMLuohBGU\naer2+iY5AaXzjkyyIAxG5hMZDMN0kgAzWDyGbqdNk30COS5VLo3dEGQjfSql8f5R\nlrFwyka1y/6MD4btWA96vYhnODewdD6d3pPYiKeVG8E51xVrH9+seQxlEk6z2nYk\n0OrP2bsfr2JVOPcWNd83mUlXP43CJTldhZrs2L4QGAx7YRYjdWPXbqX0NnqSVucW\nOh4byunHhRUlaC+HKb6beOI5UZYqB1v+2GO9SmMVw0NSGXUd+iWBOy6y6UmwIDI0\n6AY027f0AFAfR47KeYFKjG7oDAzLxw5SgPG4S87ijkpqvukzVKlu0QEq+K7DRa53\nA/Dpy7iB2JO45vmTNV0O\n=ieRH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 22cabb54ba569595b96436807f11490d740f17de\nparent d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2\nauthor Mufei Li <mufeili1996@gmail.com> 1730784101 -0500\ncommitter GitHub <noreply@github.com> 1730784101 -0500\n\nUpdate (#2)\n\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/a62886a310143c72ffb4535f705558175c3dae4c",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/a62886a310143c72ffb4535f705558175c3dae4c",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/a62886a310143c72ffb4535f705558175c3dae4c/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2"
+        }
+      ]
+    },
+    {
+      "sha": "d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2",
+      "node_id": "C_kwDONHV3ftoAKGQ4YjlkMDFiOTMwNDU0NmY2YmEzNWNmNzBlYjM3YTJlY2IwYzZiYzI",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-11-05T04:42:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-05T04:42:52Z"
+        },
+        "message": "README Init (#1)\n\n* update\r\n\r\n* update\r\n\r\n* update",
+        "tree": {
+          "sha": "878f456266c1cfa7f88f56d4c2c73649eb57a26f",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/878f456266c1cfa7f88f56d4c2c73649eb57a26f"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnKaJMCRC1aQ7uu5UhlAAAm3MQAGQR+/kdz9cL4fr0X9kg+/NV\nNrUpu6MGulFBp4Ia/QnqiecSmHrbW8CbSd+T5UNZ0AHau93D62+6qzZd697P8EpH\nC0+cIcCZY3BMO3WyIlpNKdNY/MiNkd1Rts8UCf4nGs9ValOSitlx77jndwrCkYSs\nWPr/ejJlcMYQu6kcSAIr6PQZloAJ4qdNRclhFyGQ4jOMoZEcnV12DsjbOPL8PB2b\nSp6yhniGm/R7XgjdvSAMvcG6j3Z9oa/3/pmIfT32OpVfDfgL4iPwFBsFbogjo8dv\nqGZBGV1R5ZLjw44dJMS9roPaepnGeAMJDTyAtIdRNwArnAdbhUxSnYK2DqbaCQYR\nHOHOIXuRpxrnJVeduPeUq84K7Ds4r5TezRE8k+DTIi+Vl9mPUparcIpaKPc1d/42\nZkhGOjWxopRIQ6OExxBoQI9G2BgJs9h/qe4Y0iN8WO8QUscDg6UnNh9qS/R7dTtq\nYlJneb5s9wq5VQ7UIUxirykhMjR3fRXPcoHxD/GneueZXhT6oZNIYiN1rsM7rk86\nR0aJ5SjPuJdoiPhLLo+vOmgua7PT/MIbabRwj/NWNpuw+DMambBvv6ZehQOjbQ0x\nQ/xazLWr25j21RrpG2UNeeMCdula7LHjjbKpIDztcVUYM0mB+QHTwlRong5JoNaW\nooPQVYAgvozN7nOUu5iv\n=e1U2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 878f456266c1cfa7f88f56d4c2c73649eb57a26f\nparent d4a67fa7e9d7aa5686deb12468af5d7f13beca15\nauthor Mufei Li <mufeili1996@gmail.com> 1730781772 -0500\ncommitter GitHub <noreply@github.com> 1730781772 -0500\n\nREADME Init (#1)\n\n* update\r\n\r\n* update\r\n\r\n* update",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d8b9d01b9304546f6ba35cf70eb37a2ecb0c6bc2/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4a67fa7e9d7aa5686deb12468af5d7f13beca15",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d4a67fa7e9d7aa5686deb12468af5d7f13beca15",
+          "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/d4a67fa7e9d7aa5686deb12468af5d7f13beca15"
+        }
+      ]
+    },
+    {
+      "sha": "d4a67fa7e9d7aa5686deb12468af5d7f13beca15",
+      "node_id": "C_kwDONHV3ftoAKGQ0YTY3ZmE3ZTlkN2FhNTY4NmRlYjEyNDY4YWY1ZDdmMTNiZWNhMTU",
+      "commit": {
+        "author": {
+          "name": "Mufei Li",
+          "email": "mufeili1996@gmail.com",
+          "date": "2024-10-29T06:18:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-29T06:18:14Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "c4d89d462cfaf027ca1112fe176e2bb4249d01c2",
+          "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/trees/c4d89d462cfaf027ca1112fe176e2bb4249d01c2"
+        },
+        "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/git/commits/d4a67fa7e9d7aa5686deb12468af5d7f13beca15",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnIH4mCRC1aQ7uu5UhlAAAWa0QAHGaenwHX6GK0jZ/KXCNzic3\ntWmZ9UzBHRs/lSIyTSbZTHRuO/yad38Am1KhuHdCxthql8lZADR42CRyMtslQj1m\necwlEyznUwLIo/EM7WVr9q6RJCOi5xlJBo85/N+SatMH4yYlpRopwvyPoA5IXL6F\njlnZ8rZRisd/94WmgQUnde+ed2qeesxed2noOPToWpbOxXblBe2lpRXZQPfmO5ff\ncefN4Aw9JmTDCSFn8Kgo2VApEOtDaVQQDQgr/V5Ye/HDvEdS8n4O06OcvIhTKdR3\nrnpWjKxQdIWKBZiH4RL4PyA5t+0xNzrpz3ilPWAEQbpFvnu3jRS1f9JIlktWGrG6\noMfve0/EkoRigDXO8HtIGA3haBQVEcLiStfkvqK6apnflJZmvHHsw0z7yEIW1R3C\nBwdaVF8rYK3VNkRBJKceoE/b4f39TfXEQ/sF8KzhhwHXbDGsO0AkBl1MxH3vFhRG\nZ/BLhxT8cAHrvdpUUPMbX+VXOydJSNT8nUtNB0IB+p8s8GmrgxwiBvxkZb+83iF1\nWGtSe3aFM+L7X0jx3Z22In/wiqV5Jg8bAFeU+RddVjsnDz5dX8R2d0bnDnKq2nJZ\nalmKwL93DiERMkRoD7JzhIqVgU3IjZo/8S1YA+uX7PH3yxl8kf0ok4H2+jkwoZj2\n5UD0/56Y6td4FOJl7syN\n=GHV3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c4d89d462cfaf027ca1112fe176e2bb4249d01c2\nauthor Mufei Li <mufeili1996@gmail.com> 1730182694 -0400\ncommitter GitHub <noreply@github.com> 1730182694 -0400\n\nInitial commit",
+          "verified_at": "2024-11-11T16:14:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d4a67fa7e9d7aa5686deb12468af5d7f13beca15",
+      "html_url": "https://github.com/Graph-COM/SubgraphRAG/commit/d4a67fa7e9d7aa5686deb12468af5d7f13beca15",
+      "comments_url": "https://api.github.com/repos/Graph-COM/SubgraphRAG/commits/d4a67fa7e9d7aa5686deb12468af5d7f13beca15/comments",
+      "author": {
+        "login": "mufeili",
+        "id": 19576924,
+        "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeili",
+        "html_url": "https://github.com/mufeili",
+        "followers_url": "https://api.github.com/users/mufeili/followers",
+        "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeili/orgs",
+        "repos_url": "https://api.github.com/users/mufeili/repos",
+        "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeili/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "mufeili",
+      "id": 19576924,
+      "node_id": "MDQ6VXNlcjE5NTc2OTI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19576924?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mufeili",
+      "html_url": "https://github.com/mufeili",
+      "followers_url": "https://api.github.com/users/mufeili/followers",
+      "following_url": "https://api.github.com/users/mufeili/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mufeili/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mufeili/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mufeili/subscriptions",
+      "organizations_url": "https://api.github.com/users/mufeili/orgs",
+      "repos_url": "https://api.github.com/users/mufeili/repos",
+      "events_url": "https://api.github.com/users/mufeili/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mufeili/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 17
+    },
+    {
+      "login": "siqim",
+      "id": 36217961,
+      "node_id": "MDQ6VXNlcjM2MjE3OTYx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36217961?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/siqim",
+      "html_url": "https://github.com/siqim",
+      "followers_url": "https://api.github.com/users/siqim/followers",
+      "following_url": "https://api.github.com/users/siqim/following{/other_user}",
+      "gists_url": "https://api.github.com/users/siqim/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/siqim/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/siqim/subscriptions",
+      "organizations_url": "https://api.github.com/users/siqim/orgs",
+      "repos_url": "https://api.github.com/users/siqim/repos",
+      "events_url": "https://api.github.com/users/siqim/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/siqim/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 11
+    },
+    {
+      "login": "Kh4L",
+      "id": 3193578,
+      "node_id": "MDQ6VXNlcjMxOTM1Nzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3193578?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Kh4L",
+      "html_url": "https://github.com/Kh4L",
+      "followers_url": "https://api.github.com/users/Kh4L/followers",
+      "following_url": "https://api.github.com/users/Kh4L/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Kh4L/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Kh4L/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Kh4L/subscriptions",
+      "organizations_url": "https://api.github.com/users/Kh4L/orgs",
+      "repos_url": "https://api.github.com/users/Kh4L/repos",
+      "events_url": "https://api.github.com/users/Kh4L/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Kh4L/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 90007,
+    "Jupyter Notebook": 18273
+  },
+  "readme_html": "<h1 id=\"user-content-subgraphrag-simple-yet-effective-kg-based-rag\">SubgraphRAG, Simple Yet Effective KG-Based RAG</h1>\n<p><a href=\"https://arxiv.org/abs/2410.20724\">[Paper]</a></p>\n<p><img src=\"https://raw.githubusercontent.com/Graph-COM/SubgraphRAG/main/framework_241104.png\" alt=\"model\"></p>\n<h2 id=\"user-content-table-of-contents\">Table of Contents</h2>\n<ul>\n<li><a href=\"#usage\">Usage</a></li>\n<li><a href=\"#citation\">Citation</a></li>\n<li><a href=\"#frequently-asked-questions-fqa\">Frequently Asked Questions (FQA)</a></li>\n</ul>\n<h2 id=\"user-content-usage\">Usage</h2>\n<p>SubgraphRAG is a retrieval-and-reasoning pipeline for knowledge-graph-based retrieval-augmented generation.</p>\n<ol>\n<li>For the retrieval stage, see <a href=\"./retrieve/\">the retrieve folder</a>.</li>\n<li>For the reasoning stage, see <a href=\"./reason/\">the reason folder</a>.</li>\n</ol>\n<h2 id=\"user-content-frequently-asked-questions-fqa\">Frequently Asked Questions (FQA)</h2>\n<p>We welcome your feedback and sincerely appreciate your time! If you encounter bugs or have feature requests, you may <a href=\"../../issues/new\">open an issue</a> or email us at <code>{mufei.li, siqi.miao}@gatech.edu</code>. Your input helps us improve and better serve the community!</p>\n<h2 id=\"user-content-citation\">Citation</h2>\n<pre><code class=\"language-tex\">@inproceedings{li2024subgraphrag,\n    title={Simple is Effective: The Roles of Graphs and Large Language Models in Knowledge-Graph-Based Retrieval-Augmented Generation},\n    author={Li, Mufei and Miao, Siqi and Li, Pan},\n    booktitle={International Conference on Learning Representations},\n    year={2025}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:17:14.819Z"
+}

@@ -1,0 +1,13 @@
+---
+// LastActivity widget — shows last commit relative time
+interface Props { pushedAt: string }
+const { pushedAt } = Astro.props;
+const date = new Date(pushedAt);
+// Server-side relative time (rough — will be enhanced client-side)
+const diffMs = Date.now() - date.getTime();
+const diffDays = Math.floor(diffMs / 86400000);
+const relTime = diffDays === 0 ? 'today' : diffDays === 1 ? 'yesterday' : `${diffDays} days ago`;
+---
+<time datetime={pushedAt} class="last-activity">
+  Last commit {relTime}
+</time>

@@ -1,0 +1,22 @@
+---
+// CompareTable widget — side-by-side stat table
+interface RepoData { full_name: string; stars: number; forks: number; language?: string; license?: string; pushed_at: string; description?: string }
+interface Props { repoA: RepoData; repoB: RepoData }
+const { repoA, repoB } = Astro.props;
+---
+<table class="compare-table">
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th><a href={`/repo/${repoA.full_name}`}>{repoA.full_name}</a></th>
+      <th><a href={`/repo/${repoB.full_name}`}>{repoB.full_name}</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Stars</td><td>{repoA.stars.toLocaleString()}</td><td>{repoB.stars.toLocaleString()}</td></tr>
+    <tr><td>Forks</td><td>{repoA.forks.toLocaleString()}</td><td>{repoB.forks.toLocaleString()}</td></tr>
+    <tr><td>Language</td><td>{repoA.language ?? '—'}</td><td>{repoB.language ?? '—'}</td></tr>
+    <tr><td>License</td><td>{repoA.license ?? '—'}</td><td>{repoB.license ?? '—'}</td></tr>
+    <tr><td>Last Push</td><td>{new Date(repoA.pushed_at).toLocaleDateString()}</td><td>{new Date(repoB.pushed_at).toLocaleDateString()}</td></tr>
+  </tbody>
+</table>

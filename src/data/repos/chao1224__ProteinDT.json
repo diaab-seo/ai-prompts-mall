@@ -1,0 +1,795 @@
+{
+  "id": 597606944,
+  "node_id": "R_kgDOI57CIA",
+  "name": "ProteinDT",
+  "full_name": "chao1224/ProteinDT",
+  "private": false,
+  "owner": {
+    "login": "chao1224",
+    "id": 14155181,
+    "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/chao1224",
+    "html_url": "https://github.com/chao1224",
+    "followers_url": "https://api.github.com/users/chao1224/followers",
+    "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+    "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+    "organizations_url": "https://api.github.com/users/chao1224/orgs",
+    "repos_url": "https://api.github.com/users/chao1224/repos",
+    "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/chao1224/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/chao1224/ProteinDT",
+  "description": "A Text-guided Protein Design Framework, Nat Mach Intell 2025 (https://www.nature.com/articles/s42256-025-01011-z)",
+  "fork": false,
+  "url": "https://api.github.com/repos/chao1224/ProteinDT",
+  "forks_url": "https://api.github.com/repos/chao1224/ProteinDT/forks",
+  "keys_url": "https://api.github.com/repos/chao1224/ProteinDT/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/chao1224/ProteinDT/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/chao1224/ProteinDT/teams",
+  "hooks_url": "https://api.github.com/repos/chao1224/ProteinDT/hooks",
+  "issue_events_url": "https://api.github.com/repos/chao1224/ProteinDT/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/chao1224/ProteinDT/events",
+  "assignees_url": "https://api.github.com/repos/chao1224/ProteinDT/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/chao1224/ProteinDT/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/chao1224/ProteinDT/tags",
+  "blobs_url": "https://api.github.com/repos/chao1224/ProteinDT/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/chao1224/ProteinDT/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/chao1224/ProteinDT/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/chao1224/ProteinDT/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/chao1224/ProteinDT/languages",
+  "stargazers_url": "https://api.github.com/repos/chao1224/ProteinDT/stargazers",
+  "contributors_url": "https://api.github.com/repos/chao1224/ProteinDT/contributors",
+  "subscribers_url": "https://api.github.com/repos/chao1224/ProteinDT/subscribers",
+  "subscription_url": "https://api.github.com/repos/chao1224/ProteinDT/subscription",
+  "commits_url": "https://api.github.com/repos/chao1224/ProteinDT/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/chao1224/ProteinDT/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/chao1224/ProteinDT/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/chao1224/ProteinDT/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/chao1224/ProteinDT/merges",
+  "archive_url": "https://api.github.com/repos/chao1224/ProteinDT/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/chao1224/ProteinDT/downloads",
+  "issues_url": "https://api.github.com/repos/chao1224/ProteinDT/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/chao1224/ProteinDT/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/chao1224/ProteinDT/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/chao1224/ProteinDT/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/chao1224/ProteinDT/labels{/name}",
+  "releases_url": "https://api.github.com/repos/chao1224/ProteinDT/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/chao1224/ProteinDT/deployments",
+  "created_at": "2023-02-05T03:38:10Z",
+  "updated_at": "2026-03-09T09:49:43Z",
+  "pushed_at": "2025-01-11T05:53:25Z",
+  "git_url": "git://github.com/chao1224/ProteinDT.git",
+  "ssh_url": "git@github.com:chao1224/ProteinDT.git",
+  "clone_url": "https://github.com/chao1224/ProteinDT.git",
+  "svn_url": "https://github.com/chao1224/ProteinDT",
+  "homepage": "https://chao1224.github.io/ProteinDT",
+  "size": 20305,
+  "stargazers_count": 102,
+  "watchers_count": 102,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 9,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 3,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai4science",
+    "drug-design",
+    "foundation-model",
+    "large-language-model",
+    "llm",
+    "protein",
+    "protein-design",
+    "protein-editing",
+    "protein-sequence",
+    "protein-structure"
+  ],
+  "visibility": "public",
+  "forks": 9,
+  "open_issues": 3,
+  "watchers": 102,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "large-language-models",
+  "commits": [
+    {
+      "sha": "761f384bf8ec5be7cc3286b598fb23d87a0779ea",
+      "node_id": "C_kwDOI57CINoAKDc2MWYzODRiZjhlYzViZTdjYzMyODZiNTk4ZmIyM2Q4N2EwNzc5ZWE",
+      "commit": {
+        "author": {
+          "name": "chao1224",
+          "email": "shengchao1224@gmail.com",
+          "date": "2025-01-11T05:47:44Z"
+        },
+        "committer": {
+          "name": "chao1224",
+          "email": "shengchao1224@gmail.com",
+          "date": "2025-01-11T05:47:44Z"
+        },
+        "message": "Update environment",
+        "tree": {
+          "sha": "16dd02fb0da30d38375c773eda05754232984045",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees/16dd02fb0da30d38375c773eda05754232984045"
+        },
+        "url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits/761f384bf8ec5be7cc3286b598fb23d87a0779ea",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/761f384bf8ec5be7cc3286b598fb23d87a0779ea",
+      "html_url": "https://github.com/chao1224/ProteinDT/commit/761f384bf8ec5be7cc3286b598fb23d87a0779ea",
+      "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/commits/761f384bf8ec5be7cc3286b598fb23d87a0779ea/comments",
+      "author": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3e3c44cecc42672ec6767b62b44cd70c4666c16f",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/3e3c44cecc42672ec6767b62b44cd70c4666c16f",
+          "html_url": "https://github.com/chao1224/ProteinDT/commit/3e3c44cecc42672ec6767b62b44cd70c4666c16f"
+        }
+      ]
+    },
+    {
+      "sha": "3e3c44cecc42672ec6767b62b44cd70c4666c16f",
+      "node_id": "C_kwDOI57CINoAKDNlM2M0NGNlY2M0MjY3MmVjNjc2N2I2MmI0NGNkNzBjNDY2NmMxNmY",
+      "commit": {
+        "author": {
+          "name": "Anthony Gitter",
+          "email": "agitter@users.noreply.github.com",
+          "date": "2025-01-11T05:42:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-11T05:42:29Z"
+        },
+        "message": "Use new environment in readme and fix mkl version bug (#7)\n\n* Pin mkl version\r\nFix 'libtorch_cpu.so: undefined symbol: iJIT_NotifyEvent'\r\n\r\n* Simplify install by using new environment",
+        "tree": {
+          "sha": "1e4e3448b64d026e6de506aebf51cec7651922c1",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees/1e4e3448b64d026e6de506aebf51cec7651922c1"
+        },
+        "url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits/3e3c44cecc42672ec6767b62b44cd70c4666c16f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnggTFCRC1aQ7uu5UhlAAAO6YQAHVQbXEdFpYo0hJT3I3Narx9\nwIKQPBW8T46DuZE/lgXqJGB+njMArb7ul8GrEnApHmo0w6jeHXbIg37WOaEac2vQ\nBunfuTjW0ELxcQYmwQH7/86ne2yjGVCRqUKQAaurynkTH/lw9w9fm79Ws3cmrv7n\nlc8wDMVlCKIVfCJXskfz2c3ohWhzInSnQCkioeLDnCcrasxIVeG+Q4VtzBQwkynq\nkCdJeTbrq94W2z6M5otzExfG5ZN0DEXnNLghrsafYnZJumj6KMmLLc5plWRCcElR\nXH4hvEEcQoCt4TshMCOnO21ZrmU5xVV6GJYMMpP/hCYVknsP3M567xNDxVcaattw\ndtTYUT0MD0wuaFkOcMIeE37dOpcc5DbL5oCAV/Hpv6fJl8IclMhFtRPv4wY4CvoH\nfJzSbLGMZ7kZV2qZLc3eI37ljjRijBM3MNNgAbgKcXm8J8TVkd2eZ3pvQllvs0Jo\nlDOAe/gKb2S5xCOqpfRZ9OJxkxfEAX7E9LETcHFlqvaSOYc5IybN1wLrHHAsPWrp\nocdSNnLkUCK7OObYMievVDKjIORaGKJiOmm7D5klUl3Eyaeu7Yq2l8jjLUkPVark\nTGfiyyJXtYL1+9+fBj6y9J0BLr13cLQHTRozSdt+RwJjc+XHZo0k6m2SXmi8R+4u\n0lAbhiAc55A5+7CoNKDr\n=AjJh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1e4e3448b64d026e6de506aebf51cec7651922c1\nparent 369c3cefbb2b96729f428e2865375bac53135b9b\nauthor Anthony Gitter <agitter@users.noreply.github.com> 1736574149 -0600\ncommitter GitHub <noreply@github.com> 1736574149 -0800\n\nUse new environment in readme and fix mkl version bug (#7)\n\n* Pin mkl version\r\nFix 'libtorch_cpu.so: undefined symbol: iJIT_NotifyEvent'\r\n\r\n* Simplify install by using new environment",
+          "verified_at": "2025-01-11T05:42:36Z"
+        }
+      },
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/3e3c44cecc42672ec6767b62b44cd70c4666c16f",
+      "html_url": "https://github.com/chao1224/ProteinDT/commit/3e3c44cecc42672ec6767b62b44cd70c4666c16f",
+      "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/commits/3e3c44cecc42672ec6767b62b44cd70c4666c16f/comments",
+      "author": {
+        "login": "agitter",
+        "id": 3532898,
+        "node_id": "MDQ6VXNlcjM1MzI4OTg=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3532898?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/agitter",
+        "html_url": "https://github.com/agitter",
+        "followers_url": "https://api.github.com/users/agitter/followers",
+        "following_url": "https://api.github.com/users/agitter/following{/other_user}",
+        "gists_url": "https://api.github.com/users/agitter/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/agitter/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/agitter/subscriptions",
+        "organizations_url": "https://api.github.com/users/agitter/orgs",
+        "repos_url": "https://api.github.com/users/agitter/repos",
+        "events_url": "https://api.github.com/users/agitter/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/agitter/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "369c3cefbb2b96729f428e2865375bac53135b9b",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/369c3cefbb2b96729f428e2865375bac53135b9b",
+          "html_url": "https://github.com/chao1224/ProteinDT/commit/369c3cefbb2b96729f428e2865375bac53135b9b"
+        }
+      ]
+    },
+    {
+      "sha": "369c3cefbb2b96729f428e2865375bac53135b9b",
+      "node_id": "C_kwDOI57CINoAKDM2OWMzY2VmYmIyYjk2NzI5ZjQyOGUyODY1Mzc1YmFjNTMxMzViOWI",
+      "commit": {
+        "author": {
+          "name": "chao1224",
+          "email": "shengchao.hacker@gmail.com",
+          "date": "2024-07-20T05:47:37Z"
+        },
+        "committer": {
+          "name": "chao1224",
+          "email": "shengchao.hacker@gmail.com",
+          "date": "2024-07-20T05:47:37Z"
+        },
+        "message": "Resolve conflict and merge, #4",
+        "tree": {
+          "sha": "bcbfd42e0770e8d8363bfd2a286fd0320655a2bc",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees/bcbfd42e0770e8d8363bfd2a286fd0320655a2bc"
+        },
+        "url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits/369c3cefbb2b96729f428e2865375bac53135b9b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/369c3cefbb2b96729f428e2865375bac53135b9b",
+      "html_url": "https://github.com/chao1224/ProteinDT/commit/369c3cefbb2b96729f428e2865375bac53135b9b",
+      "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/commits/369c3cefbb2b96729f428e2865375bac53135b9b/comments",
+      "author": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8006b650e8b5523a046b85d3bf18ca176a7f4313",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/8006b650e8b5523a046b85d3bf18ca176a7f4313",
+          "html_url": "https://github.com/chao1224/ProteinDT/commit/8006b650e8b5523a046b85d3bf18ca176a7f4313"
+        }
+      ]
+    },
+    {
+      "sha": "8006b650e8b5523a046b85d3bf18ca176a7f4313",
+      "node_id": "C_kwDOI57CINoAKDgwMDZiNjUwZThiNTUyM2EwNDZiODVkM2JmMThjYTE3NmE3ZjQzMTM",
+      "commit": {
+        "author": {
+          "name": "Anthony Gitter",
+          "email": "agitter@users.noreply.github.com",
+          "date": "2024-07-20T05:33:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-20T05:33:22Z"
+        },
+        "message": "Simplify installation instructions (#2)\n\n* Add initial conda env and GitHub Actions workflow\r\n\r\n* Add PyTorch cpuonly\r\nWithout cpuonly the pinned version of openfold fails to\r\ninstall because it attempts to parse the CUDA version.\r\nOnly newer versions of openfold check for CPU environments\r\n\r\n* Skip installing openfold\r\nEven with cpuonly, cudatoolkit still installed. Likely due to known\r\nPyG packaging problems reported in their GitHub issues.\r\n\r\n* Install fair-esm outside conda\r\nCan't use pip with --no-deps otherwise\r\nhttps://stackoverflow.com/questions/75164677/pip-install-with-no-deps-in-conda-environment-yml\r\n\r\n* Temporarily skip dllogger\r\n\r\n* Install cudatoolkit from nvidia channel\r\n\r\n* Try older pip to workaround functools lru_cache\r\nNot perfectly compatible with Python 3.7\r\n\r\n* Test ProteinDT import\r\nAdd back dllogger\r\n\r\n* Test importing code that exists",
+        "tree": {
+          "sha": "a6541f1964a02470e0b71bf7314f7c625317e2be",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees/a6541f1964a02470e0b71bf7314f7c625317e2be"
+        },
+        "url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits/8006b650e8b5523a046b85d3bf18ca176a7f4313",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmm0wiCRC1aQ7uu5UhlAAA1NkQAIVUsGzRUMh37TwDxwFGrO2N\nAZV0D/5/+w8Y+Is1JbguHeYs1um+4HEtOtF/g+ykmb3HQI6QsYqQF1lxt1ww4hod\nlZ6PC8QxwssArOCszhY4kwb7FBtjc6V038f0f/YB+f+B28rJwQBtoCPP0CikOUMD\nSqICd7vEQtXMm3ByXAAhUP36X0T1f8z14EJmRXIitgA9frQTyq+ceXmihJ+gB9GV\nlsp716YQk6mmZPw2hbj/rKSd0Q9d/c/Q6roQfLSGgvI8YqPDi5el8mJbGJs1KM1U\nihmPdF+l5Mqf2e24NvZoYBiW0COsMIp3reYkERY+jzG3mJtTSe5RedqyZHXPNkaG\nAwKHeX4YSn1mpLKFN3DuGk4afmvfduXpOqtfI4vwhwyigbAnM24lXEvRKJmn7a7Y\nRfbZ5Xr5hWCFYI49sWATqxfe9IwdVOG3HisHQYWdedGL7wh+JTDF1dVm33rvfK2i\nGZJ1i/ifDfY2aZ1uQBKxspikyPSPlcwTaCSt3wLQKMVkDYf9FXYsYZfF/idZBglF\nAJBAcEaU2SLmtKBXuFRitR/2DZ6c5dg4o77/Re3EfLEwpV8wDNRhid60e99A849a\n8CasJ7qwadyX2e1vxkM2NlmvNwFYFMNnjNuR5/mz4eI7zh4kygCuzTfpij1XGOsk\n/WUDIEwXMziiZaBal1Xd\n=TLOU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a6541f1964a02470e0b71bf7314f7c625317e2be\nparent 80938f2cd988583ecdb97f2e1e4d119196cd63c1\nauthor Anthony Gitter <agitter@users.noreply.github.com> 1721453602 -0500\ncommitter GitHub <noreply@github.com> 1721453602 -0700\n\nSimplify installation instructions (#2)\n\n* Add initial conda env and GitHub Actions workflow\r\n\r\n* Add PyTorch cpuonly\r\nWithout cpuonly the pinned version of openfold fails to\r\ninstall because it attempts to parse the CUDA version.\r\nOnly newer versions of openfold check for CPU environments\r\n\r\n* Skip installing openfold\r\nEven with cpuonly, cudatoolkit still installed. Likely due to known\r\nPyG packaging problems reported in their GitHub issues.\r\n\r\n* Install fair-esm outside conda\r\nCan't use pip with --no-deps otherwise\r\nhttps://stackoverflow.com/questions/75164677/pip-install-with-no-deps-in-conda-environment-yml\r\n\r\n* Temporarily skip dllogger\r\n\r\n* Install cudatoolkit from nvidia channel\r\n\r\n* Try older pip to workaround functools lru_cache\r\nNot perfectly compatible with Python 3.7\r\n\r\n* Test ProteinDT import\r\nAdd back dllogger\r\n\r\n* Test importing code that exists",
+          "verified_at": "2024-12-29T01:47:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/8006b650e8b5523a046b85d3bf18ca176a7f4313",
+      "html_url": "https://github.com/chao1224/ProteinDT/commit/8006b650e8b5523a046b85d3bf18ca176a7f4313",
+      "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/commits/8006b650e8b5523a046b85d3bf18ca176a7f4313/comments",
+      "author": {
+        "login": "agitter",
+        "id": 3532898,
+        "node_id": "MDQ6VXNlcjM1MzI4OTg=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3532898?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/agitter",
+        "html_url": "https://github.com/agitter",
+        "followers_url": "https://api.github.com/users/agitter/followers",
+        "following_url": "https://api.github.com/users/agitter/following{/other_user}",
+        "gists_url": "https://api.github.com/users/agitter/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/agitter/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/agitter/subscriptions",
+        "organizations_url": "https://api.github.com/users/agitter/orgs",
+        "repos_url": "https://api.github.com/users/agitter/repos",
+        "events_url": "https://api.github.com/users/agitter/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/agitter/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "80938f2cd988583ecdb97f2e1e4d119196cd63c1",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/80938f2cd988583ecdb97f2e1e4d119196cd63c1",
+          "html_url": "https://github.com/chao1224/ProteinDT/commit/80938f2cd988583ecdb97f2e1e4d119196cd63c1"
+        }
+      ]
+    },
+    {
+      "sha": "80938f2cd988583ecdb97f2e1e4d119196cd63c1",
+      "node_id": "C_kwDOI57CINoAKDgwOTM4ZjJjZDk4ODU4M2VjZGI5N2YyZTFlNGQxMTkxOTZjZDYzYzE",
+      "commit": {
+        "author": {
+          "name": "Shengchao Liu",
+          "email": "shengchao.hacker@gmail.com",
+          "date": "2024-07-20T05:32:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-20T05:32:30Z"
+        },
+        "message": "Clean ups and add region editing (#6)",
+        "tree": {
+          "sha": "c4465c77ecf6aabcdeab11a1f38c2db73c7ace6c",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees/c4465c77ecf6aabcdeab11a1f38c2db73c7ace6c"
+        },
+        "url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits/80938f2cd988583ecdb97f2e1e4d119196cd63c1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmm0vuCRC1aQ7uu5UhlAAAgsUQABflXlvlKI5lPdHnstt3dlV5\njMJh7zbZ0yBq2YFhhdH5/3Dd7ZFeA5aDu+QRg0eBYezitu2Z14ml7jrLBqppvVGo\nEPRVcZPpznLYI8pQKTNbrklDu1AprIxjAh8Y1Qjm9My2R68Sveq/JAsjKSBm23le\nAlvdOahOzDdzNnwB44Q5U4PUzf+/YJgn6VOkvUzzCd3vOAEFlYlZcALSc+xJPRXu\nq9U6dwBIPs0MsVfWgi+HE3Xma292gD5d1c9qE/VQ9BFC/2PHztFWzhAlYTWNz1Fs\nFjuadiMqLRT+c1gX8HuFlObQF9/C93i2zIP1pclgmwzY9lZiIkKmDPomKtfqDKXr\nbYZTg9W+e5ThWctCKPigShKpzAYJIwlA8CRQ1bLkOQFVDxevW5DIQia4G6enqSBc\nljeGimAR2JQo64Q9HOuqM+FkyC35+zT4HAsZGwMR3uDAeW55FiSjEw8Pa11jd8le\n2EpPnt77CF3L5fCq6xCLNK0LRnRtyGAaoo+b8MiEVTBQuZyKs6QqoSYLhly2fY5l\nix+4MNmCf1kyeCBRu6UKtXbTlCYBdOEuLF2qimPwv9LAqXVcjpywVF0z+jOE3LJl\nRdEDNEdxoznp6shfFFkFU6/DAw1yxLPUDKFRQksOzt5KLEtb1uq6pKiZTRQOop8W\nvH/bobI2HSn6U5tZY9t4\n=Ew14\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c4465c77ecf6aabcdeab11a1f38c2db73c7ace6c\nparent 06a018923cc9ee5c5bd1dad78503f2ce37e0f28c\nauthor Shengchao Liu <shengchao.hacker@gmail.com> 1721453550 -0700\ncommitter GitHub <noreply@github.com> 1721453550 -0700\n\nClean ups and add region editing (#6)\n\n",
+          "verified_at": "2024-12-17T03:18:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/80938f2cd988583ecdb97f2e1e4d119196cd63c1",
+      "html_url": "https://github.com/chao1224/ProteinDT/commit/80938f2cd988583ecdb97f2e1e4d119196cd63c1",
+      "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/commits/80938f2cd988583ecdb97f2e1e4d119196cd63c1/comments",
+      "author": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "06a018923cc9ee5c5bd1dad78503f2ce37e0f28c",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/06a018923cc9ee5c5bd1dad78503f2ce37e0f28c",
+          "html_url": "https://github.com/chao1224/ProteinDT/commit/06a018923cc9ee5c5bd1dad78503f2ce37e0f28c"
+        }
+      ]
+    },
+    {
+      "sha": "06a018923cc9ee5c5bd1dad78503f2ce37e0f28c",
+      "node_id": "C_kwDOI57CINoAKDA2YTAxODkyM2NjOWVlNWM1YmQxZGFkNzg1MDNmMmNlMzdlMGYyOGM",
+      "commit": {
+        "author": {
+          "name": "chao1224",
+          "email": "shengchao.hacker@gmail.com",
+          "date": "2024-03-10T14:53:49Z"
+        },
+        "committer": {
+          "name": "chao1224",
+          "email": "shengchao.hacker@gmail.com",
+          "date": "2024-03-10T14:53:49Z"
+        },
+        "message": "Initial Commit, #1",
+        "tree": {
+          "sha": "89616b51c624a038a13cef1da1ed609aece47af9",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees/89616b51c624a038a13cef1da1ed609aece47af9"
+        },
+        "url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits/06a018923cc9ee5c5bd1dad78503f2ce37e0f28c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/06a018923cc9ee5c5bd1dad78503f2ce37e0f28c",
+      "html_url": "https://github.com/chao1224/ProteinDT/commit/06a018923cc9ee5c5bd1dad78503f2ce37e0f28c",
+      "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/commits/06a018923cc9ee5c5bd1dad78503f2ce37e0f28c/comments",
+      "author": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a",
+          "html_url": "https://github.com/chao1224/ProteinDT/commit/fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a"
+        }
+      ]
+    },
+    {
+      "sha": "fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a",
+      "node_id": "C_kwDOI57CINoAKGZlNjZlODdmNzc3NDc0YTRhNmMzZDFiYTk3ZDJmYThhMzc3ZWZmN2E",
+      "commit": {
+        "author": {
+          "name": "Shengchao Liu",
+          "email": "shengchao.hacker@gmail.com",
+          "date": "2023-02-05T03:38:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-02-05T03:38:10Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "7aeb206c3303a33cdeb61534b8b596bb7482c8dc",
+          "url": "https://api.github.com/repos/chao1224/ProteinDT/git/trees/7aeb206c3303a33cdeb61534b8b596bb7482c8dc"
+        },
+        "url": "https://api.github.com/repos/chao1224/ProteinDT/git/commits/fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj3ySiCRBK7hj4Ov3rIwAArIcIAG8l4FLxDlnWFX/CwFnmA6Ln\nAG75LiFZiQoV/zjgs8/xVgQYDl6HmV1HBfTP2mo8mpT1qDZMy/iBCp2PGo9Xcg6D\ncfN8n1gXJQdiX5zgi8rCv9PmAEmANlfIpH5udj/ctIT1CQRObh5sCEgNDijeukal\n8lSJvWrdsr9oEL5v3HD6Yf8GNaajYXRVe9tIRPMP6LSvhPSyJER0R2c06UVGpSMW\nGRc7K0BteUOQO8VsKWA7OX//kKFDWdFyJdx6KnKb1Ha0z5ARkleJ07QbqD0ols8A\nr4sk9CcHi8uJcGdTrPLtu/ZUW+pNvDoKN7DXX503DzMoDInJpfd7LNW7BYnQou0=\n=Oeu6\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7aeb206c3303a33cdeb61534b8b596bb7482c8dc\nauthor Shengchao Liu <shengchao.hacker@gmail.com> 1675568290 -0500\ncommitter GitHub <noreply@github.com> 1675568290 -0500\n\nInitial commit",
+          "verified_at": "2024-11-12T04:21:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/commits/fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a",
+      "html_url": "https://github.com/chao1224/ProteinDT/commit/fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a",
+      "comments_url": "https://api.github.com/repos/chao1224/ProteinDT/commits/fe66e87f777474a4a6c3d1ba97d2fa8a377eff7a/comments",
+      "author": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "chao1224",
+      "id": 14155181,
+      "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chao1224",
+      "html_url": "https://github.com/chao1224",
+      "followers_url": "https://api.github.com/users/chao1224/followers",
+      "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+      "organizations_url": "https://api.github.com/users/chao1224/orgs",
+      "repos_url": "https://api.github.com/users/chao1224/repos",
+      "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chao1224/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 5
+    },
+    {
+      "login": "agitter",
+      "id": 3532898,
+      "node_id": "MDQ6VXNlcjM1MzI4OTg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3532898?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/agitter",
+      "html_url": "https://github.com/agitter",
+      "followers_url": "https://api.github.com/users/agitter/followers",
+      "following_url": "https://api.github.com/users/agitter/following{/other_user}",
+      "gists_url": "https://api.github.com/users/agitter/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/agitter/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/agitter/subscriptions",
+      "organizations_url": "https://api.github.com/users/agitter/orgs",
+      "repos_url": "https://api.github.com/users/agitter/repos",
+      "events_url": "https://api.github.com/users/agitter/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/agitter/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    }
+  ],
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/chao1224/ProteinDT/releases/194225971",
+      "assets_url": "https://api.github.com/repos/chao1224/ProteinDT/releases/194225971/assets",
+      "upload_url": "https://uploads.github.com/repos/chao1224/ProteinDT/releases/194225971/assets{?name,label}",
+      "html_url": "https://github.com/chao1224/ProteinDT/releases/tag/v0.1",
+      "id": 194225971,
+      "author": {
+        "login": "chao1224",
+        "id": 14155181,
+        "node_id": "MDQ6VXNlcjE0MTU1MTgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14155181?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chao1224",
+        "html_url": "https://github.com/chao1224",
+        "followers_url": "https://api.github.com/users/chao1224/followers",
+        "following_url": "https://api.github.com/users/chao1224/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chao1224/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chao1224/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chao1224/subscriptions",
+        "organizations_url": "https://api.github.com/users/chao1224/orgs",
+        "repos_url": "https://api.github.com/users/chao1224/repos",
+        "events_url": "https://api.github.com/users/chao1224/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chao1224/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOI57CIM4Lk6cz",
+      "tag_name": "v0.1",
+      "target_commitish": "main",
+      "name": "v0.1",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2025-01-11T05:47:44Z",
+      "updated_at": "2025-01-11T05:53:25Z",
+      "published_at": "2025-01-11T05:53:25Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/chao1224/ProteinDT/tarball/v0.1",
+      "zipball_url": "https://api.github.com/repos/chao1224/ProteinDT/zipball/v0.1",
+      "body": "Initial release"
+    }
+  ],
+  "languages": {
+    "Python": 169212,
+    "Shell": 36336
+  },
+  "readme_html": "<h1 id=\"user-content-proteindt-a-text-guided-protein-design-framework\">ProteinDT: A Text-guided Protein Design Framework</h1>\n<p>Authors: Shengchao Liu, Yanjing Li, Zhuoxinran Li, Anthony Gitter, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Arvind Ramanathan, Chaowei Xiao*, Jian Tang*, Hongyu Guo*, Anima Anandkumar*</p>\n<p>* jointly supervised</p>\n<p>[<a href=\"https://chao1224.github.io/ProteinDT\">Project Page</a>] [<a href=\"https://arxiv.org/abs/2302.04611\">ArXiv</a>]\n[<a href=\"https://huggingface.co/datasets/chao1224/ProteinDT/tree/main\">Datasets on HuggingFace</a>] [<a href=\"https://huggingface.co/chao1224/ProteinDT/tree/main\">Checkpoints on HuggingFace</a>]</p>\n<h2 id=\"user-content-1-environment\">1 Environment</h2>\n<pre><code>conda create -n ProteinDT python=3.7\nconda activate ProteinDT\n\nconda install -y numpy networkx scikit-learn\n\npip install torch==1.10.*\n\npip install transformers\npip install lxml\n\n# for TAPE\npip install lmdb\npip install seqeval\n\n# for baseline ChatGPT\npip install openai==0.28.0\n\n# for baseline Galactica\npip install accelerate\n\n# for visualization\npip install matplotlib\n\n# for binding editing\npip install h5py\npip install torch_geometric==2.0 torch_scatter torch_sparse torch_cluster\npip install biopython\n\n# for ESM folding\npip install \"fair-esm[esmfold]\"\npip install dm-tree omegaconf ml-collections einops\npip install fair-esm[esmfold]==2.0.0  --no-dependencies # Override deepspeed==0.5 \npip install 'dllogger @ git+https://github.com/NVIDIA/dllogger.git'\npip install 'openfold @ git+https://github.com/aqlaboratory/openfold.git@4b41059694619831a7db195b7e0988fc4ff3a307'\n\nconda install -c conda-forge -yq mdtraj\n\n# for ProteinDT\npip install .\n</code></pre>\n<h2 id=\"user-content-2-pretraining-datasets-swissprotclap-preparation\">2 Pretraining Datasets (SwissProtCLAP) Preparation</h2>\n<p>Please check folder <code>preprocess/SwissProtCLAP</code> for SwissProtCLAP construction from UniProt.</p>\n<p>We also provide a copy of SwissProtCLAP at <a href=\"https://huggingface.co/datasets/chao1224/ProteinDT/tree/main\">this HuggingFace link</a>. Or you can use the following script:</p>\n<pre><code>from huggingface_hub import HfApi, snapshot_download\napi = HfApi()\nsnapshot_download(repo_id=\"chao1224/ProteinDT\", repo_type=\"dataset\", cache_dir='./')\n</code></pre>\n<p>Then move the data under <code>./data</code> folder. The data structure is</p>\n<pre><code>./data/\n└── SwissProtCLAP\n    ├── protein_sequence.txt\n    └── text_sequence.txt\n</code></pre>\n<h2 id=\"user-content-3-pretraining\">3 Pretraining</h2>\n<p>Go to folder <code>examples</code>, and do the pretraining in 5 steps. We summarize the logics of these 5 steps as below:</p>\n<p>The pretrained checkpoints can be found at <a href=\"https://huggingface.co/chao1224/ProteinDT/tree/main\">this HuggingFace link</a>.\nBefore getting started, first we need to define our output home folder, e.g., <code>export OUTPUT_DIR=../output/ProteinDT/hyper_01</code>.</p>\n<ul>\n<li>\n<p>Step 1. Conduct CLAP pretraining</p>\n<ul>\n<li>\n<p>On a single GPU card:</p>\n<pre><code>python pretrain_step_01_CLAP.py \\\n--protein_lr=1e-5 --protein_lr_scale=1 \\\n--text_lr=1e-5 --text_lr_scale=1 \\\n--protein_backbone_model=ProtBERT_BFD \\\n--epochs=10 --batch_size=9 --num_workers=0 \\\n--output_model_dir=\"$OUTPUT_DIR\"\n</code></pre>\n</li>\n<li>\n<p>We also support distribution learning with DDP. Example of using a server with 8 GPU cards:</p>\n<pre><code>CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \\\npython pretrain_step_01_CLAP.py \\\n--protein_lr=1e-5 --protein_lr_scale=1 \\\n--text_lr=1e-5 --text_lr_scale=1 \\\n--protein_backbone_model=ProtBERT_BFD \\\n--epochs=10 --batch_size=9 --num_workers=0 \\\n--output_model_dir=\"$OUTPUT_DIR\"\n</code></pre>\n</li>\n</ul>\n</li>\n<li>\n<p>Step 2. Obtain frozen representation:</p>\n<pre><code>python pretrain_step_02_empty_sequence.py \\\n--protein_backbone_model=ProtBERT_BFD \\\n--batch_size=16 --num_workers=0 \\\n--pretrained_folder=\"$OUTPUT_DIR\"\n\npython pretrain_step_02_pairwise_representation.py \\\n--protein_backbone_model=ProtBERT_BFD \\\n--batch_size=16 --num_workers=0 \\\n--pretrained_folder=\"$OUTPUT_DIR\"\n</code></pre>\n</li>\n<li>\n<p>Step 3. Learn the facilitator distribution:</p>\n<pre><code>python pretrain_step_03_facilitator.py \\\n--protein_lr=1e-5 --protein_lr_scale=1 \\\n--text_lr=1e-5 --text_lr_scale=1 \\\n--protein_backbone_model=ProtBERT_BFD \\\n--epochs=10 --batch_size=9 --num_workers=0 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--output_model_folder=\"$OUTPUT_DIR\"/step_03_Gaussian_10\n</code></pre>\n</li>\n<li>\n<p>Step 4. Learn the decoder distribution. Notice that we have three types of decoder distribution models:</p>\n<ul>\n<li>A Transformer-based auto-regressive decoder. Here we adopt the T5 architecture.\n<pre><code>python pretrain_step_04_decoder.py \\\n--num_workers=0 --lr=1e-4 --epochs=50 \\\n--decoder_distribution=T5Decoder \\\n--score_network_type=T5Base \\\n--hidden_dim=16 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--output_folder=\"$OUTPUT_DIR\"/step_04_T5\n</code></pre>\n</li>\n<li>A discrete denoising diffusion model (multinomial diffusion).\n<ul>\n<li>\n<p>Using RNN as score network:</p>\n<pre><code>python pretrain_step_04_decoder.py \\\n--num_workers=0 --lr=1e-4 --epochs=50 \\\n--decoder_distribution=MultinomialDiffusion \\\n--score_network_type=RNN \\\n--hidden_dim=16 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--output_folder=\"$OUTPUT_DIR\"/step_04_MultiDiffusion_RNN\n</code></pre>\n</li>\n<li>\n<p>Using BERT as score network:</p>\n<pre><code>python pretrain_step_04_decoder.py \\\n--num_workers=0 --lr=1e-4 --epochs=50 \\\n--decoder_distribution=MultinomialDiffusion \\\n--score_network_type=BertBase \\\n--hidden_dim=16 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--output_folder=\"$OUTPUT_DIR\"/step_04_MultiDiffusion_BERT\n</code></pre>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>\n<p>Step 5. learn an auto-encoder that is specifically designed for text-guided editing task. You can also treat this as a downstream task.</p>\n<pre><code>python pretrain_step_05_AE.py \\\n--num_workers=0 --lr=1e-4 --epochs=50 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--output_folder=\"$OUTPUT_DIR\"/step_05\n</code></pre>\n</li>\n</ul>\n<h2 id=\"user-content-4-downstream-tasks\">4 Downstream Tasks</h2>\n<p>We include three types of downstream tasks, as will be introduced below. You can find the scripts for first two downstream tasks under folder <code>scripts</code>.</p>\n<h3 id=\"user-content-41-text-to-protein-generation\">4.1 Text-to-Protein Generation</h3>\n<p>First let's go to the folder <code>examples/downstream_Text2Protein</code>.</p>\n<p>Then we sample text sequences for text-to-protein generation:</p>\n<pre><code>python step_01_text_retrieval.py\n</code></pre>\n<p>We also provide the sampled text data in <code>step_01_text_retrieval.txt</code>. You can replace it with the text sequences you want to use.</p>\n<p>Now we can do the text-to-sequence generation, e.g., if we use T5 as the decoder:</p>\n<pre><code>export OUTPUT_DIR=../../output/ProteinDT/hyper_01\n\npython step_02_inference_ProteinDT.py \\\n--decoder_distribution=T5Decoder --score_network_type=T5Base \\\n--num_workers=0 --hidden_dim=16 --batch_size=8 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--step_04_folder=\"$OUTPUT_DIR\"/step_04_T5 \\\n--num_repeat=16 --use_facilitator --AR_generation_mode=01 \\\n--output_text_file_path=\"$OUTPUT_DIR\"/step_04_T5/downstream_Text2Protein/step_02_inference.txt\n</code></pre>\n<h3 id=\"user-content-42-zero-shot-text-guided-protein-editing\">4.2 Zero-shot Text-guided Protein Editing</h3>\n<p>First let's go to the folder <code>examples/downstream_Editing</code>.</p>\n<p>The dataset preparation can be found at <code>examples/downstream_Edting/README.md</code>. You can also find it on <a href=\"https://huggingface.co/datasets/chao1224/ProteinDT/tree/main/downstream_Editing/datasets_and_checkpoints\">this HuggingFace link</a>. We include three types of editing tasks: stability, structure, and peptide binding. In terms of the methods, we have two types: latent optimization and latent interpolation. The demo scripts are explained below.</p>\n<h4 id=\"user-content-421-latent-optimization\">4.2.1 Latent Optimization</h4>\n<ul>\n<li>Structure / Stability: <code>editing_task: alpha, beta, Villin, Pin1</code>.\n<pre><code>export OUTPUT_DIR=../../output/ProteinDT/hyper_01\n\npython step_01_editing_latent_optimization.py \\\n--num_workers=0 --batch_size=8 \\\n--lambda_value=0.9 --num_repeat=16 --oracle_mode=text --temperature=2 \\\n--editing_task=alpha --text_prompt_id=101 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--step_05_folder=\"$OUTPUT_DIR\"/step_05_AE \\\n--output_folder=\"$OUTPUT_DIR\"/step_05_AE/downstream_Editing_latent_optimization/alpha_prompt_101_lambda_0.9_num_repeat_16_oracle_text_T_2 \\\n--output_text_file_path=\"$OUTPUT_DIR\"/step_05_AE/downstream_Editing_latent_optimization/alpha_prompt_101_lambda_0.9_num_repeat_16_oracle_text_T_2/step_01_editing.txt\n\npython step_01_evaluate_structure.py \\\n--num_workers=0 --batch_size=8 --editing_task=alpha --text_prompt_id=101 \\\n--output_folder=\"$OUTPUT_DIR\"/step_05_AE/downstream_Editing_latent_optimization/alpha_prompt_101_lambda_0.9_num_repeat_16_oracle_text_T_2 \\\n--output_text_file_path=\"$OUTPUT_DIR\"/step_05_AE/downstream_Editing_latent_optimization/alpha_prompt_101_lambda_0.9_num_repeat_16_oracle_text_T_2/step_01_editing.txt\n</code></pre>\n</li>\n<li>Peptide binding\n<pre><code>export OUTPUT_DIR=../../output/ProteinDT/hyper_01\n\npython step_01_editing_latent_optimization.py \\\n--num_workers=0 --batch_size=4 \\\n--lambda_value=0.9 --num_repeat=16 --oracle_mode=text --temperature=2 \\\n--editing_task=peptide_binding --text_prompt_id=101 \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--step_05_folder=\"$OUTPUT_DIR\"/step_05_AE \\\n--output_folder=\"$OUTPUT_DIR\"/step_05_AE/downstream_Editing_latent_optimization/peptide_binding_prompt_101_lambda_0.9_num_repeat_16_oracle_text_T_2 \\\n--output_text_file_path=\"$OUTPUT_DIR\"/step_05_AE/downstream_Editing_latent_optimization/peptide_binding_prompt_101_lambda_0.9_num_repeat_16_oracle_text_T_2/step_02_editing.txt\n</code></pre>\n</li>\n</ul>\n<h4 id=\"user-content-422-latent-interpolation\">4.2.2 Latent Interpolation</h4>\n<p>Notice that for latent interpolation, we have three models: auto-regressive (T5), denoising diffusion model (RNN and BERT). We provide demos scripts using T5.</p>\n<ul>\n<li>Structure / Stability: <code>editing_task: alpha, beta, Villin, Pin1</code>.\n<pre><code>export OUTPUT_DIR=../../output/ProteinDT/hyper_01\n\npython step_01_editing_latent_interpolation.py \\\n--editing_task=alpha --text_prompt_id=101 \\\n--decoder_distribution=T5Decoder --score_network_type=T5Base \\\n--num_workers=0 --hidden_dim=16 --batch_size=2 \\\n--theta=0.9 --num_repeat=16 --oracle_mode=text --AR_generation_mode=01 --AR_condition_mode=expanded \\\n--pretrained_folder=\"$OUTPUT_DIR\" --step_04_folder=\"$OUTPUT_DIR\"/step_04_T5 \\\n--output_folder=\"$OUTPUT_DIR\"/step_04_T5/downstream_Editing_latent_interpolation_alpha/prompt_101_theta_0.9_num_repeat_16_oracle_text_inference_01_expanded \\\n--output_text_file_path=\"$OUTPUT_DIR\"/step_04_T5/downstream_Editing_latent_interpolation_alpha/prompt_101_theta_0.9_num_repeat_16_oracle_text_inference_01_expanded/step_01_editing.txt\n\npython step_01_evaluate_structure.py \\\n--num_workers=0 --batch_size=1 \\\n--editing_task=alpha --text_prompt_id=101 \\\n--output_folder=\"$OUTPUT_DIR\"/step_04_T5/downstream_Editing_latent_interpolation_alpha/prompt_101_theta_0.9_num_repeat_16_oracle_text_inference_01_expanded \\\n--output_text_file_path=\"$OUTPUT_DIR\"/step_04_T5/downstream_Editing_latent_interpolation_alpha/prompt_101_theta_0.9_num_repeat_16_oracle_text_inference_01_expanded/step_01_editing.txt\n</code></pre>\n</li>\n<li>Peptide binding\n<pre><code>export OUTPUT_DIR=../../output/ProteinDT/hyper_01\n\npython step_02_binding_editing_latent_interpolation.py \\\n--editing_task=peptide_binding --text_prompt_id=101 \\\n--decoder_distribution=T5Decoder --score_network_type=T5Base \\\n--num_workers=0 --hidden_dim=16 --batch_size=1 \\\n--theta=0.9 --num_repeat=16 --oracle_mode=text --AR_generation_mode=01 --AR_condition_mode=expanded \\\n--pretrained_folder=\"$OUTPUT_DIR\" --step_04_folder=\"$OUTPUT_DIR\"/step_04_T5 \\\n--output_folder=\"$OUTPUT_DIR\"/step_04_T5/downstream_Editing_latent_interpolation_peptide_binding/prompt_101_theta_0.9_num_repeat_16_oracle_text_inference_01_expanded \\\n--output_text_file_path=\"$OUTPUT_DIR\"/step_04_T5/downstream_Editing_latent_interpolation_peptide_binding/prompt_101_theta_0.9_num_repeat_16_oracle_text_inference_01_expanded/step_02_editing.txt\n</code></pre>\n</li>\n</ul>\n<h3 id=\"user-content-43-protein-property-prediction\">4.3 Protein Property Prediction</h3>\n<p>First please download the TAPE data following instructions <a href=\"https://github.com/songlab-cal/tape?tab=readme-ov-file#lmdb-data\">here</a>. We also provide it at <a href=\"https://huggingface.co/datasets/chao1224/ProteinDT/tree/main\">this HuggingFace link</a>.</p>\n<p>Under <code>examples</code>, and the script is <code>downstream_TAPE.py</code>. We follow the exactly same hyper-parameter as <a href=\"https://github.com/zjunlp/OntoProtein\">OntoProtein</a>.</p>\n<pre><code>python downstream_TAPE.py \\\n--task_name=ss3 \\\n--seed=3 \\\n--learning_rate=3e-5 \\\n--num_train_epochs=5 \\\n--per_device_train_batch_size=2 \\\n--gradient_accumulation_steps=8 \\\n--warmup_ratio=0.08 \\\n--pretrained_model=ProteinDT \\\n--pretrained_folder=\"$OUTPUT_DIR\" \\\n--output_dir=\"$OUTPUT_DIR\"/downstream_TAPE\n</code></pre>\n<h2 id=\"user-content-cite-us\">Cite Us</h2>\n<p>Feel free to cite this work if you find it useful to you!</p>\n<pre><code>@article{liu2023text,\n    title={A Text-guided Protein Design Framework},\n    author={Shengchao Liu, Yanjing Li, Zhuoxinran Li, Anthony Gitter, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Arvind Ramanathan, Chaowei Xiao, Jian Tang, Hongyu Guo, Anima Anandkumar},\n    journal={arXiv preprint arXiv:2302.04611},\n    year={2023}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:04:53.193Z"
+}

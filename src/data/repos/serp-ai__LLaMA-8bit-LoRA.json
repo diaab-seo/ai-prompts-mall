@@ -1,0 +1,2387 @@
+{
+  "id": 616682559,
+  "node_id": "R_kgDOJMHUPw",
+  "name": "LLaMA-8bit-LoRA",
+  "full_name": "serp-ai/LLaMA-8bit-LoRA",
+  "private": false,
+  "owner": {
+    "login": "serp-ai",
+    "id": 122630099,
+    "node_id": "O_kgDOB08v0w",
+    "avatar_url": "https://avatars.githubusercontent.com/u/122630099?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/serp-ai",
+    "html_url": "https://github.com/serp-ai",
+    "followers_url": "https://api.github.com/users/serp-ai/followers",
+    "following_url": "https://api.github.com/users/serp-ai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/serp-ai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/serp-ai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/serp-ai/subscriptions",
+    "organizations_url": "https://api.github.com/users/serp-ai/orgs",
+    "repos_url": "https://api.github.com/users/serp-ai/repos",
+    "events_url": "https://api.github.com/users/serp-ai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/serp-ai/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA",
+  "description": "Repository for Chat LLaMA - training a LoRA for the LLaMA (1 or 2) models on HuggingFace with 8-bit or 4-bit quantization. Research only.",
+  "fork": false,
+  "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA",
+  "forks_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/forks",
+  "keys_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/teams",
+  "hooks_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/hooks",
+  "issue_events_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/events",
+  "assignees_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/tags",
+  "blobs_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/languages",
+  "stargazers_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/stargazers",
+  "contributors_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/contributors",
+  "subscribers_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/subscribers",
+  "subscription_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/subscription",
+  "commits_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/merges",
+  "archive_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/downloads",
+  "issues_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/labels{/name}",
+  "releases_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/deployments",
+  "created_at": "2023-03-20T21:42:55Z",
+  "updated_at": "2025-12-03T04:49:49Z",
+  "pushed_at": "2023-08-25T08:10:52Z",
+  "git_url": "git://github.com/serp-ai/LLaMA-8bit-LoRA.git",
+  "ssh_url": "git@github.com:serp-ai/LLaMA-8bit-LoRA.git",
+  "clone_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA.git",
+  "svn_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA",
+  "homepage": "https://serp.ai/tools/chat-llama/",
+  "size": 67,
+  "stargazers_count": 150,
+  "watchers_count": 150,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 15,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 2,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "chat-llama",
+    "chatllama",
+    "large-language-model",
+    "large-language-models",
+    "llm",
+    "lora",
+    "low-rank-adaptation"
+  ],
+  "visibility": "public",
+  "forks": 15,
+  "open_issues": 2,
+  "watchers": 150,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "fine-tuning",
+  "commits": [
+    {
+      "sha": "2d98f56bdd38095b5d96a2d0ffefa1fdc86d1212",
+      "node_id": "C_kwDOJMHUP9oAKDJkOThmNTZiZGQzODA5NWI1ZDk2YTJkMGZmZWZhMWZkYzg2ZDEyMTI",
+      "commit": {
+        "author": {
+          "name": "Devin Schumacher",
+          "email": "45643901+devinschumacher@users.noreply.github.com",
+          "date": "2023-08-25T08:10:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-25T08:10:52Z"
+        },
+        "message": "Create FUNDING.yml",
+        "tree": {
+          "sha": "05d99cf654fcb862d33540d02da9f7ff9371d79f",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/05d99cf654fcb862d33540d02da9f7ff9371d79f"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/2d98f56bdd38095b5d96a2d0ffefa1fdc86d1212",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk6GIMCRBK7hj4Ov3rIwAAIg4IAJbhnpG01aLuxaqR8+di0m4n\nUFXKjoiLpQJD3gbHCvaii7RPNmdxSJvhlXzHQmcHBJLUy5ZFUttZXlt3wX4qjumt\n008XPPUyoNwDBwSYaF1u5hEalp5EDoZFnqL4W4cnL6p9eczBLsc+HwcxA+KveFrR\nPP8mo4jdQRJ9VKg9zj8Angs02OQ6DvPyNIUKxRoapSPFwBEP8bblrPuVhvsGxZiU\nfttcQwQEEZCadgMH1mWVQsMaEQmkx5kceGRVNfVMDMP6qkDZcb7/sl/nFcVxmbKo\n0DMUQFVkdtsefTV1FB5MczzLwwPi0g2GzhHzctxXBWvWnTFDqF3gws1GZpYvJ8w=\n=3NQN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 05d99cf654fcb862d33540d02da9f7ff9371d79f\nparent 93d03de03f1215757973174afce51d07bdb28b7f\nauthor Devin Schumacher <45643901+devinschumacher@users.noreply.github.com> 1692951052 -0700\ncommitter GitHub <noreply@github.com> 1692951052 -0700\n\nCreate FUNDING.yml",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/2d98f56bdd38095b5d96a2d0ffefa1fdc86d1212",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/2d98f56bdd38095b5d96a2d0ffefa1fdc86d1212",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/2d98f56bdd38095b5d96a2d0ffefa1fdc86d1212/comments",
+      "author": {
+        "login": "devinschumacher",
+        "id": 45643901,
+        "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/devinschumacher",
+        "html_url": "https://github.com/devinschumacher",
+        "followers_url": "https://api.github.com/users/devinschumacher/followers",
+        "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+        "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+        "repos_url": "https://api.github.com/users/devinschumacher/repos",
+        "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "93d03de03f1215757973174afce51d07bdb28b7f",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/93d03de03f1215757973174afce51d07bdb28b7f",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/93d03de03f1215757973174afce51d07bdb28b7f"
+        }
+      ]
+    },
+    {
+      "sha": "93d03de03f1215757973174afce51d07bdb28b7f",
+      "node_id": "C_kwDOJMHUP9oAKDkzZDAzZGUwM2YxMjE1NzU3OTczMTc0YWZjZTUxZDA3YmRiMjhiN2Y",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-07-20T01:01:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-07-20T01:01:07Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "1261288241612578f63d3e4793893c0417413089",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/1261288241612578f63d3e4793893c0417413089"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/93d03de03f1215757973174afce51d07bdb28b7f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkuIdTCRBK7hj4Ov3rIwAA2ioIAJ3KW72LIDCtGD/S+g4Xn+qz\nyvA/DSS6BzFu35kwNQ3FJutJxHHToQGT5kAQp15h+1cWTxk9BKg+1J70hAXJ2LlO\nZRkUmiZMIRv7Uizpivhe1qCRhV5+EZNjfvyU3nC+p7lg5diJd59mHhQOVGeqGVqA\nd3V07XM3xCiHFjtV8N1NxxI8nnyrqM4iG+0XrEHQivwpMbj6KrwgUG3nbdXaCUlj\n/pLi287j0ZYbfVTwiewgbwTvasDRwYZmPKVqDgYjZPlh0cmOY/rId69lse0jBUAf\nhs+IcKvRV1Nj1Z+wkpT21InrfkzsnM2qZxsTtPKyhe3u8QJ5ZpwmC5fPoikmI2k=\n=QvMY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1261288241612578f63d3e4793893c0417413089\nparent 1962063f04302df103323b589f8d3b0dec7d329a\nauthor Francis LaBounty <73464335+francislabountyjr@users.noreply.github.com> 1689814867 -0600\ncommitter GitHub <noreply@github.com> 1689814867 -0600\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/93d03de03f1215757973174afce51d07bdb28b7f",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/93d03de03f1215757973174afce51d07bdb28b7f",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/93d03de03f1215757973174afce51d07bdb28b7f/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1962063f04302df103323b589f8d3b0dec7d329a",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/1962063f04302df103323b589f8d3b0dec7d329a",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/1962063f04302df103323b589f8d3b0dec7d329a"
+        }
+      ]
+    },
+    {
+      "sha": "1962063f04302df103323b589f8d3b0dec7d329a",
+      "node_id": "C_kwDOJMHUP9oAKDE5NjIwNjNmMDQzMDJkZjEwMzMyM2I1ODlmOGQzYjBkZWM3ZDMyOWE",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-07-19T22:35:54Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-07-19T22:35:54Z"
+        },
+        "message": "Merge branch 'main' of https://github.com/serp-ai/LLaMA-8bit-LoRA",
+        "tree": {
+          "sha": "d8cc3b45401ae10559712e2256698ecc9a68193f",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/d8cc3b45401ae10559712e2256698ecc9a68193f"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/1962063f04302df103323b589f8d3b0dec7d329a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/1962063f04302df103323b589f8d3b0dec7d329a",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/1962063f04302df103323b589f8d3b0dec7d329a",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/1962063f04302df103323b589f8d3b0dec7d329a/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d38b305deec17d945f50afcf1df7b7ba9d5ad746",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/d38b305deec17d945f50afcf1df7b7ba9d5ad746",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/d38b305deec17d945f50afcf1df7b7ba9d5ad746"
+        },
+        {
+          "sha": "0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5"
+        }
+      ]
+    },
+    {
+      "sha": "d38b305deec17d945f50afcf1df7b7ba9d5ad746",
+      "node_id": "C_kwDOJMHUP9oAKGQzOGIzMDVkZWVjMTdkOTQ1ZjUwYWZjZjFkZjdiN2JhOWQ1YWQ3NDY",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-07-19T22:35:00Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-07-19T22:35:00Z"
+        },
+        "message": "add QLoRA (4-bit) and LLaMA 2 support",
+        "tree": {
+          "sha": "b4a502933fe2ec0d026c2f977cab970867951693",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/b4a502933fe2ec0d026c2f977cab970867951693"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/d38b305deec17d945f50afcf1df7b7ba9d5ad746",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/d38b305deec17d945f50afcf1df7b7ba9d5ad746",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/d38b305deec17d945f50afcf1df7b7ba9d5ad746",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/d38b305deec17d945f50afcf1df7b7ba9d5ad746/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4d0e18728700e87feadf50f1ffda7770fa79237d",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/4d0e18728700e87feadf50f1ffda7770fa79237d",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/4d0e18728700e87feadf50f1ffda7770fa79237d"
+        }
+      ]
+    },
+    {
+      "sha": "0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5",
+      "node_id": "C_kwDOJMHUP9oAKDBhMmM4NTUzZmY5YzU1MDE0NzRjNGE4MGZhYjU1ZDNiNGJjMTJmZDU",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-05-25T06:35:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-25T06:35:55Z"
+        },
+        "message": "Update training.md",
+        "tree": {
+          "sha": "31c22f918ccceb363723d8b33cccee66533d5603",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/31c22f918ccceb363723d8b33cccee66533d5603"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkbwHLCRBK7hj4Ov3rIwAAOK4IADVdlujmgRxD9xEvv7f8wyC1\nRv2O22CMGQPkxP5uiiuH6xRUT+0FGXICiJb3A9U9CFMR36snkvN1XmKmI5a0pd7A\nOJ8lkPEn96oSKoh96sRVOkpp+IgTRdvi3lolaL7D85PE5DWlFLW/WqU1S3mXjuBQ\ncTmklVKYcGiXHE6ED78JcZBE7MA9+1Uce7ziB8B02pA96AGnRZB1S4bGLNET+Sgg\n0qwkjPN4+CeHc1DMnQY9WwKpGoYfn5fDl2NCOin9C/R0LhrEE4Mz7t+Xz15ba6Cl\njA/UyTJ2uuXZFi6p4yRbv/dBZEogrFIOAHwqH8R+dE7oxhAn+Qh4qfi5/6bjuBU=\n=tM/4\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 31c22f918ccceb363723d8b33cccee66533d5603\nparent d396d6933f8fac8a9d4bb10de7555fa9a24ab045\nauthor Francis LaBounty <73464335+francislabountyjr@users.noreply.github.com> 1684996555 -0600\ncommitter GitHub <noreply@github.com> 1684996555 -0600\n\nUpdate training.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/0a2c8553ff9c5501474c4a80fab55d3b4bc12fd5/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d396d6933f8fac8a9d4bb10de7555fa9a24ab045",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/d396d6933f8fac8a9d4bb10de7555fa9a24ab045",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/d396d6933f8fac8a9d4bb10de7555fa9a24ab045"
+        }
+      ]
+    },
+    {
+      "sha": "d396d6933f8fac8a9d4bb10de7555fa9a24ab045",
+      "node_id": "C_kwDOJMHUP9oAKGQzOTZkNjkzM2Y4ZmFjOGE5ZDRiYjEwZGU3NTU1ZmE5YTI0YWIwNDU",
+      "commit": {
+        "author": {
+          "name": "Devin Schumacher",
+          "email": "45643901+devinschumacher@users.noreply.github.com",
+          "date": "2023-05-04T12:20:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-04T12:20:57Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "3492b502193e17e340044e445c9b13f15b04f540",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/3492b502193e17e340044e445c9b13f15b04f540"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/d396d6933f8fac8a9d4bb10de7555fa9a24ab045",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkU6MpCRBK7hj4Ov3rIwAAQtgIACXhtpt8VHwxOlzjUKRgu7aW\njN3PWG1tbzMAcpBlPs1/kzsv/FRxeEPdznuql4nATJDQyMWxjRUjMsiC5PeWFMcU\nKmU7gtO2W0WxBdPl54mLh96k3rvR9LJ/AVRLV1DK0B8pBAQeOQlNtD4IiDbHVNE3\njG1WO4/0zETd32V6habCdx0P5a0A7HnoM+unU2oRbjxFuuUwjcrRU6vd8HndVGUL\njEYItdE0ovWgSOV2W6nra8XK47qeJ3PjAYMm+vmWBsBDBnDmyIsx9E933eEzUii+\n8/mZDI9b44SZvGOw4pafpe210KB6Ho3BK7ZLnmEzb/PI6R/O3GbX2hMgBThrchI=\n=VdGl\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3492b502193e17e340044e445c9b13f15b04f540\nparent 937bb7f28b2e33b0665ac20f354177da3c35e06d\nauthor Devin Schumacher <45643901+devinschumacher@users.noreply.github.com> 1683202857 -0700\ncommitter GitHub <noreply@github.com> 1683202857 -0700\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/d396d6933f8fac8a9d4bb10de7555fa9a24ab045",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/d396d6933f8fac8a9d4bb10de7555fa9a24ab045",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/d396d6933f8fac8a9d4bb10de7555fa9a24ab045/comments",
+      "author": {
+        "login": "devinschumacher",
+        "id": 45643901,
+        "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/devinschumacher",
+        "html_url": "https://github.com/devinschumacher",
+        "followers_url": "https://api.github.com/users/devinschumacher/followers",
+        "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+        "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+        "repos_url": "https://api.github.com/users/devinschumacher/repos",
+        "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "937bb7f28b2e33b0665ac20f354177da3c35e06d",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/937bb7f28b2e33b0665ac20f354177da3c35e06d",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/937bb7f28b2e33b0665ac20f354177da3c35e06d"
+        }
+      ]
+    },
+    {
+      "sha": "937bb7f28b2e33b0665ac20f354177da3c35e06d",
+      "node_id": "C_kwDOJMHUP9oAKDkzN2JiN2YyOGIyZTMzYjA2NjVhYzIwZjM1NDE3N2RhM2MzNWUwNmQ",
+      "commit": {
+        "author": {
+          "name": "Devin Schumacher",
+          "email": "45643901+devinschumacher@users.noreply.github.com",
+          "date": "2023-04-21T16:19:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-04-21T16:19:58Z"
+        },
+        "message": "Update abstract.md",
+        "tree": {
+          "sha": "ddaa0b726f455c88de166ea0ad4d2275e669eebc",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/ddaa0b726f455c88de166ea0ad4d2275e669eebc"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/937bb7f28b2e33b0665ac20f354177da3c35e06d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkQreuCRBK7hj4Ov3rIwAApU8IAIB+llm/nn428sPEsnQyUAcg\n0ZDYQCS76VAWBYjdNKa241q/KhFpzBX03g9SsW6MP0Q7a61OI9yy4E2Rv0PW3F8n\nLn+nzPlE8x3Kv5ONAp1jZCQ/fFHMUV9JyMYFw12yBrab4hr6tEwQgijyLDCm8FCa\nHux+x9oWcLMs0Is75XiN+vmGopWp9YawPrzE1FyWqkoARG9BRaee4tUhxfnqJZ/Z\n371WrQ1163daYXk1KVY0x9RLhvWA4YJii4bzT8ZPpjfBiRfVG9XZdh401BcDpPdm\nuMJrI9QW/m+5kbJv1w5QhzF4KgFWzDaGFDg5O++9CwVS4QAJNDWFIHS6se6lNxk=\n=/Xnm\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ddaa0b726f455c88de166ea0ad4d2275e669eebc\nparent 5ea1c745c4ec11d4c8cb9892656608872daeeea9\nauthor Devin Schumacher <45643901+devinschumacher@users.noreply.github.com> 1682093998 -0700\ncommitter GitHub <noreply@github.com> 1682093998 -0700\n\nUpdate abstract.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/937bb7f28b2e33b0665ac20f354177da3c35e06d",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/937bb7f28b2e33b0665ac20f354177da3c35e06d",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/937bb7f28b2e33b0665ac20f354177da3c35e06d/comments",
+      "author": {
+        "login": "devinschumacher",
+        "id": 45643901,
+        "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/devinschumacher",
+        "html_url": "https://github.com/devinschumacher",
+        "followers_url": "https://api.github.com/users/devinschumacher/followers",
+        "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+        "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+        "repos_url": "https://api.github.com/users/devinschumacher/repos",
+        "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5ea1c745c4ec11d4c8cb9892656608872daeeea9",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/5ea1c745c4ec11d4c8cb9892656608872daeeea9",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/5ea1c745c4ec11d4c8cb9892656608872daeeea9"
+        }
+      ]
+    },
+    {
+      "sha": "5ea1c745c4ec11d4c8cb9892656608872daeeea9",
+      "node_id": "C_kwDOJMHUP9oAKDVlYTFjNzQ1YzRlYzExZDRjOGNiOTg5MjY1NjYwODg3MmRhZWVlYTk",
+      "commit": {
+        "author": {
+          "name": "Devin Schumacher",
+          "email": "45643901+devinschumacher@users.noreply.github.com",
+          "date": "2023-04-21T16:19:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-04-21T16:19:10Z"
+        },
+        "message": "Create paper.md",
+        "tree": {
+          "sha": "b9fe37c40c9857aa69ace572c50a09840fd92ff0",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/b9fe37c40c9857aa69ace572c50a09840fd92ff0"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/5ea1c745c4ec11d4c8cb9892656608872daeeea9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkQrd+CRBK7hj4Ov3rIwAABfkIAK32oqH/vHOVwxVoxDUJGfZa\nGe8acliuktrcDk9sX/TcasgDsZkyQI883xA/fdhmwP5QpdcWAYAZ4uuB0Pn7gByN\nIjB/iAXSyszyE5NykWY0ZnTqPCFXyb8CL7qYBeeeMNKwwZmO790+0rI75COndPwt\nB/Ssk1+Pty558W1ZqJJwuWJhG3MKVsHfEAgR5sE8ejPAGXjwFt8Ad1M79MDkT5ff\nDlR9LYLQQZsEu8j+u50LmzFsECv6ErpISjDKKbI4akp5Fgjt5YlXvjrtvRS6yhzC\n6eVVTPlCAsXXuj+BqkWzStljhZREUdYN521TwWeYtFeD3lY8wS0Rb3Y+9F1JTCY=\n=EzFb\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b9fe37c40c9857aa69ace572c50a09840fd92ff0\nparent ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44\nauthor Devin Schumacher <45643901+devinschumacher@users.noreply.github.com> 1682093950 -0700\ncommitter GitHub <noreply@github.com> 1682093950 -0700\n\nCreate paper.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/5ea1c745c4ec11d4c8cb9892656608872daeeea9",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/5ea1c745c4ec11d4c8cb9892656608872daeeea9",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/5ea1c745c4ec11d4c8cb9892656608872daeeea9/comments",
+      "author": {
+        "login": "devinschumacher",
+        "id": 45643901,
+        "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/devinschumacher",
+        "html_url": "https://github.com/devinschumacher",
+        "followers_url": "https://api.github.com/users/devinschumacher/followers",
+        "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+        "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+        "repos_url": "https://api.github.com/users/devinschumacher/repos",
+        "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44"
+        }
+      ]
+    },
+    {
+      "sha": "ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44",
+      "node_id": "C_kwDOJMHUP9oAKGRkZWJiYjQ3NzdmYjM4YzhlM2M3NzcwNmMxMWM3YTllM2NjMmVjNDQ",
+      "commit": {
+        "author": {
+          "name": "Devin Schumacher",
+          "email": "45643901+devinschumacher@users.noreply.github.com",
+          "date": "2023-04-21T16:16:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-04-21T16:16:06Z"
+        },
+        "message": "Create abstract.md",
+        "tree": {
+          "sha": "c597aeebabc98de0f2393bad969d4f81e7884efc",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/c597aeebabc98de0f2393bad969d4f81e7884efc"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkQrbGCRBK7hj4Ov3rIwAAo1IIAJjUGhjxvFBvaWqN2vhbIBBP\nPKHWw/8cxskWu3QO4CZJWoJ2W+uh5YumU6kBJT7VE0QFx1RnYoLuoBs0LL3VYNqE\nAjyMFYvtn5ha+DRr93OKNpLB5r66SanF8/Hy4Zj0tFMflZ2iGe9u2ERJKsRvSAow\nz7TYzN5H2o2q9ClVeL9Lj3HJIXcKiogQINu8pi/ZdU8jmBa0SPZPrReTdT1r/pbR\nsBHqvXoHHkT36BMMl7r0pbdU+CbS+v2iSmekgtyfzcKwgRvzM52gSRxydK655aph\nnrHLr8WLvtJEvszpf57faMp4GNEVA0oWpoRecaM1Ep4/eG1VPmzbJ/elJyoqnp8=\n=r0qn\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c597aeebabc98de0f2393bad969d4f81e7884efc\nparent b888d57ac7425ceadee2817c43d0c847245e4af2\nauthor Devin Schumacher <45643901+devinschumacher@users.noreply.github.com> 1682093766 -0700\ncommitter GitHub <noreply@github.com> 1682093766 -0700\n\nCreate abstract.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/ddebbb4777fb38c8e3c77706c11c7a9e3cc2ec44/comments",
+      "author": {
+        "login": "devinschumacher",
+        "id": 45643901,
+        "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/devinschumacher",
+        "html_url": "https://github.com/devinschumacher",
+        "followers_url": "https://api.github.com/users/devinschumacher/followers",
+        "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+        "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+        "repos_url": "https://api.github.com/users/devinschumacher/repos",
+        "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b888d57ac7425ceadee2817c43d0c847245e4af2",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/b888d57ac7425ceadee2817c43d0c847245e4af2",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/b888d57ac7425ceadee2817c43d0c847245e4af2"
+        }
+      ]
+    },
+    {
+      "sha": "b888d57ac7425ceadee2817c43d0c847245e4af2",
+      "node_id": "C_kwDOJMHUP9oAKGI4ODhkNTdhYzc0MjVjZWFkZWUyODE3YzQzZDBjODQ3MjQ1ZTRhZjI",
+      "commit": {
+        "author": {
+          "name": "Devin Schumacher",
+          "email": "45643901+devinschumacher@users.noreply.github.com",
+          "date": "2023-04-21T16:02:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-04-21T16:02:16Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "f1fe30e9247e5deee73e11ef65b065f03b1a86d3",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/f1fe30e9247e5deee73e11ef65b065f03b1a86d3"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/b888d57ac7425ceadee2817c43d0c847245e4af2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkQrOICRBK7hj4Ov3rIwAAxi8IAE8bVU+MZNGhmRxMiYey4Lol\nzfUVVZYoEJjfsGxsIYnp+WT2ejoUsLHkpMWXRiDVYG5ZOKHU2R8ri0iMLqNGRTlS\n4Rlg0yjQPPa7mqjrlxkMtRVP2vLJ4v7RqCouzQ0M64ie7u/RNxx71Bakd4Ev/5eY\n5UxcJRjU+pirPLIYK6IfOmWenJenPwlDJxhda9RfCWjR8HxtYAGLrQGxXG21igmn\nvycKjOerD2TO2yrVTHZGD4m9FSnwVn9cC6XXrTmIZ7xiVbq736VDq15Y5TPSFKoD\nq4EtQffUvxtGZ4AUNGQqZ2MVA84zUSkHzUgO56NNSIFsGuM8VqTVi6qFaDMWlkc=\n=c1KU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f1fe30e9247e5deee73e11ef65b065f03b1a86d3\nparent 21172dd56c83fe4d514db4aea238f35281c2c535\nauthor Devin Schumacher <45643901+devinschumacher@users.noreply.github.com> 1682092936 -0700\ncommitter GitHub <noreply@github.com> 1682092936 -0700\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/b888d57ac7425ceadee2817c43d0c847245e4af2",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/b888d57ac7425ceadee2817c43d0c847245e4af2",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/b888d57ac7425ceadee2817c43d0c847245e4af2/comments",
+      "author": {
+        "login": "devinschumacher",
+        "id": 45643901,
+        "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/devinschumacher",
+        "html_url": "https://github.com/devinschumacher",
+        "followers_url": "https://api.github.com/users/devinschumacher/followers",
+        "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+        "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+        "repos_url": "https://api.github.com/users/devinschumacher/repos",
+        "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21172dd56c83fe4d514db4aea238f35281c2c535",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/21172dd56c83fe4d514db4aea238f35281c2c535",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/21172dd56c83fe4d514db4aea238f35281c2c535"
+        }
+      ]
+    },
+    {
+      "sha": "21172dd56c83fe4d514db4aea238f35281c2c535",
+      "node_id": "C_kwDOJMHUP9oAKDIxMTcyZGQ1NmM4M2ZlNGQ1MTRkYjRhZWEyMzhmMzUyODFjMmM1MzU",
+      "commit": {
+        "author": {
+          "name": "Devin Schumacher",
+          "email": "45643901+devinschumacher@users.noreply.github.com",
+          "date": "2023-04-21T16:01:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-04-21T16:01:36Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7890c5ea763ddf4d181aec1eac1381a680cf8a91",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/7890c5ea763ddf4d181aec1eac1381a680cf8a91"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/21172dd56c83fe4d514db4aea238f35281c2c535",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkQrNgCRBK7hj4Ov3rIwAAWOIIAIPU+8dw7qTcbL8rffw+6Z51\noivhWW8g5dnliLMk3dcrFXM+pWlSGlN5EYb2qmdvTmkjuuomO0VFfnW+fPnAqFon\nDQyZy5lf0yz6LJUetjV/zy0SPjn8gSOFK6mIzHhPYWHijeZk1BMYoeo+RneXnujk\nydJKtFBWe16n3vj4tPXrV+ejTlLHoERl5jbskIRwiuQAq0jEJqmcBuqSTkwZb1pl\n2gh2p9DAqQQNXaJWghWHzJBJh4CPB9puUVZ0kMxz1y3/n3UKQlysUTOyKWwhb3QD\n8Z3UtOdHAkv2hp9eRvJYikcW2nPfvW3iuSWh7DC+35yL/nT/2vsKml3tl4OT9uM=\n=b98j\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7890c5ea763ddf4d181aec1eac1381a680cf8a91\nparent 4d0e18728700e87feadf50f1ffda7770fa79237d\nauthor Devin Schumacher <45643901+devinschumacher@users.noreply.github.com> 1682092896 -0700\ncommitter GitHub <noreply@github.com> 1682092896 -0700\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/21172dd56c83fe4d514db4aea238f35281c2c535",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/21172dd56c83fe4d514db4aea238f35281c2c535",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/21172dd56c83fe4d514db4aea238f35281c2c535/comments",
+      "author": {
+        "login": "devinschumacher",
+        "id": 45643901,
+        "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/devinschumacher",
+        "html_url": "https://github.com/devinschumacher",
+        "followers_url": "https://api.github.com/users/devinschumacher/followers",
+        "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+        "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+        "repos_url": "https://api.github.com/users/devinschumacher/repos",
+        "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4d0e18728700e87feadf50f1ffda7770fa79237d",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/4d0e18728700e87feadf50f1ffda7770fa79237d",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/4d0e18728700e87feadf50f1ffda7770fa79237d"
+        }
+      ]
+    },
+    {
+      "sha": "4d0e18728700e87feadf50f1ffda7770fa79237d",
+      "node_id": "C_kwDOJMHUP9oAKDRkMGUxODcyODcwMGU4N2ZlYWRmNTBmMWZmZGE3NzcwZmE3OTIzN2Q",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-11T01:57:40Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-11T01:57:40Z"
+        },
+        "message": "comment out gradient_checkpointing to avoid issue",
+        "tree": {
+          "sha": "f23f83d7cafe86af972d6de12b73c35d5d9dfc9c",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/f23f83d7cafe86af972d6de12b73c35d5d9dfc9c"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/4d0e18728700e87feadf50f1ffda7770fa79237d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/4d0e18728700e87feadf50f1ffda7770fa79237d",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/4d0e18728700e87feadf50f1ffda7770fa79237d",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/4d0e18728700e87feadf50f1ffda7770fa79237d/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3bb6cac805f608de0c1bf1d9014b87c49cddc14f",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/3bb6cac805f608de0c1bf1d9014b87c49cddc14f",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/3bb6cac805f608de0c1bf1d9014b87c49cddc14f"
+        }
+      ]
+    },
+    {
+      "sha": "3bb6cac805f608de0c1bf1d9014b87c49cddc14f",
+      "node_id": "C_kwDOJMHUP9oAKDNiYjZjYWM4MDVmNjA4ZGUwYzFiZjFkOTAxNGI4N2M0OWNkZGMxNGY",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-11T01:36:09Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-11T01:36:09Z"
+        },
+        "message": "data_args -> model_args for lora params",
+        "tree": {
+          "sha": "8cf12398b23a519dd07381dd5048ad2455a839c9",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/8cf12398b23a519dd07381dd5048ad2455a839c9"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/3bb6cac805f608de0c1bf1d9014b87c49cddc14f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/3bb6cac805f608de0c1bf1d9014b87c49cddc14f",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/3bb6cac805f608de0c1bf1d9014b87c49cddc14f",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/3bb6cac805f608de0c1bf1d9014b87c49cddc14f/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f369bda1f148b7b7debe205b0ed16f8ab41b3fd7",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/f369bda1f148b7b7debe205b0ed16f8ab41b3fd7",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/f369bda1f148b7b7debe205b0ed16f8ab41b3fd7"
+        }
+      ]
+    },
+    {
+      "sha": "f369bda1f148b7b7debe205b0ed16f8ab41b3fd7",
+      "node_id": "C_kwDOJMHUP9oAKGYzNjliZGExZjE0OGI3YjdkZWJlMjA1YjBlZDE2ZjhhYjQxYjNmZDc",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-11T01:33:05Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-11T01:33:05Z"
+        },
+        "message": "fix training commands",
+        "tree": {
+          "sha": "6550df3f62715c27fb3623c03d07b6429ebb18a4",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/6550df3f62715c27fb3623c03d07b6429ebb18a4"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/f369bda1f148b7b7debe205b0ed16f8ab41b3fd7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/f369bda1f148b7b7debe205b0ed16f8ab41b3fd7",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/f369bda1f148b7b7debe205b0ed16f8ab41b3fd7",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/f369bda1f148b7b7debe205b0ed16f8ab41b3fd7/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "02968d1508d1e169fd7bdff1684ba2ee86f9b533",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/02968d1508d1e169fd7bdff1684ba2ee86f9b533",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/02968d1508d1e169fd7bdff1684ba2ee86f9b533"
+        }
+      ]
+    },
+    {
+      "sha": "02968d1508d1e169fd7bdff1684ba2ee86f9b533",
+      "node_id": "C_kwDOJMHUP9oAKDAyOTY4ZDE1MDhkMWUxNjlmZDdiZGZmMTY4NGJhMmVlODZmOWI1MzM",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-05T11:09:39Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-05T11:09:39Z"
+        },
+        "message": "add links to trained LoRAs on huggingface",
+        "tree": {
+          "sha": "990697ecad0727e58eb2b83ac76634c6521baef9",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/990697ecad0727e58eb2b83ac76634c6521baef9"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/02968d1508d1e169fd7bdff1684ba2ee86f9b533",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/02968d1508d1e169fd7bdff1684ba2ee86f9b533",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/02968d1508d1e169fd7bdff1684ba2ee86f9b533",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/02968d1508d1e169fd7bdff1684ba2ee86f9b533/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "038c3866e4d0a39e87651522255eb78b66dae493",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/038c3866e4d0a39e87651522255eb78b66dae493",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/038c3866e4d0a39e87651522255eb78b66dae493"
+        }
+      ]
+    },
+    {
+      "sha": "038c3866e4d0a39e87651522255eb78b66dae493",
+      "node_id": "C_kwDOJMHUP9oAKDAzOGMzODY2ZTRkMGEzOWU4NzY1MTUyMjI1NWViNzhiNjZkYWU0OTM",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-05T04:06:21Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-05T04:06:21Z"
+        },
+        "message": "tensor parallelism fix",
+        "tree": {
+          "sha": "853be0ee284900417b7dbf2aec9f88831a1072ca",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/853be0ee284900417b7dbf2aec9f88831a1072ca"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/038c3866e4d0a39e87651522255eb78b66dae493",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/038c3866e4d0a39e87651522255eb78b66dae493",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/038c3866e4d0a39e87651522255eb78b66dae493",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/038c3866e4d0a39e87651522255eb78b66dae493/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "32cb7972cf9af8478dc7391dd42f39ac19462a11",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/32cb7972cf9af8478dc7391dd42f39ac19462a11",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/32cb7972cf9af8478dc7391dd42f39ac19462a11"
+        }
+      ]
+    },
+    {
+      "sha": "32cb7972cf9af8478dc7391dd42f39ac19462a11",
+      "node_id": "C_kwDOJMHUP9oAKDMyY2I3OTcyY2Y5YWY4NDc4ZGM3MzkxZGQ0MmYzOWFjMTk0NjJhMTE",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-05T03:47:19Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-04-05T03:47:19Z"
+        },
+        "message": "Fix multi-gpu tensor parallelism issue",
+        "tree": {
+          "sha": "35a931c4452f44a092b413810debbcde8a933ac2",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/35a931c4452f44a092b413810debbcde8a933ac2"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/32cb7972cf9af8478dc7391dd42f39ac19462a11",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/32cb7972cf9af8478dc7391dd42f39ac19462a11",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/32cb7972cf9af8478dc7391dd42f39ac19462a11",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/32cb7972cf9af8478dc7391dd42f39ac19462a11/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "122b65e0745f450db25e374c394bbb174baf23cb",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/122b65e0745f450db25e374c394bbb174baf23cb",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/122b65e0745f450db25e374c394bbb174baf23cb"
+        }
+      ]
+    },
+    {
+      "sha": "122b65e0745f450db25e374c394bbb174baf23cb",
+      "node_id": "C_kwDOJMHUP9oAKDEyMmI2NWUwNzQ1ZjQ1MGRiMjVlMzc0YzM5NGJiYjE3NGJhZjIzY2I",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-22T10:10:30Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-22T10:10:30Z"
+        },
+        "message": "Replace automodel and tokenizer with llama version",
+        "tree": {
+          "sha": "f83790a6e7654dd6595d40d113fef0f536e458b5",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/f83790a6e7654dd6595d40d113fef0f536e458b5"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/122b65e0745f450db25e374c394bbb174baf23cb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/122b65e0745f450db25e374c394bbb174baf23cb",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/122b65e0745f450db25e374c394bbb174baf23cb",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/122b65e0745f450db25e374c394bbb174baf23cb/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46f050b0990a32ec9acff1060addb37357eec9e7",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/46f050b0990a32ec9acff1060addb37357eec9e7",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/46f050b0990a32ec9acff1060addb37357eec9e7"
+        }
+      ]
+    },
+    {
+      "sha": "46f050b0990a32ec9acff1060addb37357eec9e7",
+      "node_id": "C_kwDOJMHUP9oAKDQ2ZjA1MGIwOTkwYTMyZWM5YWNmZjEwNjBhZGRiMzczNTdlZWM5ZTc",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T11:53:05Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T11:53:05Z"
+        },
+        "message": "better search results",
+        "tree": {
+          "sha": "e7904a6919a875e8c868998acd22d5229c0d0401",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/e7904a6919a875e8c868998acd22d5229c0d0401"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/46f050b0990a32ec9acff1060addb37357eec9e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/46f050b0990a32ec9acff1060addb37357eec9e7",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/46f050b0990a32ec9acff1060addb37357eec9e7",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/46f050b0990a32ec9acff1060addb37357eec9e7/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7efd907afcf8972c4374dc903ae92ef6c5b1ae3b",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/7efd907afcf8972c4374dc903ae92ef6c5b1ae3b",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/7efd907afcf8972c4374dc903ae92ef6c5b1ae3b"
+        }
+      ]
+    },
+    {
+      "sha": "7efd907afcf8972c4374dc903ae92ef6c5b1ae3b",
+      "node_id": "C_kwDOJMHUP9oAKDdlZmQ5MDdhZmNmODk3MmM0Mzc0ZGM5MDNhZTkyZWY2YzViMWFlM2I",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T11:50:07Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T11:50:07Z"
+        },
+        "message": "Fix chain of though tool prompt",
+        "tree": {
+          "sha": "be229b273f6698a9462f1926cbad38f2f51a7845",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/be229b273f6698a9462f1926cbad38f2f51a7845"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/7efd907afcf8972c4374dc903ae92ef6c5b1ae3b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/7efd907afcf8972c4374dc903ae92ef6c5b1ae3b",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/7efd907afcf8972c4374dc903ae92ef6c5b1ae3b",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/7efd907afcf8972c4374dc903ae92ef6c5b1ae3b/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9b4151a38f0e6ad3322bcdb3220369d0b049cdd3",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/9b4151a38f0e6ad3322bcdb3220369d0b049cdd3",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/9b4151a38f0e6ad3322bcdb3220369d0b049cdd3"
+        }
+      ]
+    },
+    {
+      "sha": "9b4151a38f0e6ad3322bcdb3220369d0b049cdd3",
+      "node_id": "C_kwDOJMHUP9oAKDliNDE1MWEzOGYwZTZhZDMzMjJiY2RiMzIyMDM2OWQwYjA0OWNkZDM",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T11:49:36Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T11:49:36Z"
+        },
+        "message": "Fix chain of thought tool prompt",
+        "tree": {
+          "sha": "66e0210dfdab5947acbb6f8589a3915656b9257c",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/66e0210dfdab5947acbb6f8589a3915656b9257c"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/9b4151a38f0e6ad3322bcdb3220369d0b049cdd3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/9b4151a38f0e6ad3322bcdb3220369d0b049cdd3",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/9b4151a38f0e6ad3322bcdb3220369d0b049cdd3",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/9b4151a38f0e6ad3322bcdb3220369d0b049cdd3/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a5b54eb1a5359867cb151b7fe240422baade36f7",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/a5b54eb1a5359867cb151b7fe240422baade36f7",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/a5b54eb1a5359867cb151b7fe240422baade36f7"
+        }
+      ]
+    },
+    {
+      "sha": "a5b54eb1a5359867cb151b7fe240422baade36f7",
+      "node_id": "C_kwDOJMHUP9oAKGE1YjU0ZWIxYTUzNTk4NjdjYjE1MWI3ZmUyNDA0MjJiYWFkZTM2Zjc",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T03:21:43Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T03:21:43Z"
+        },
+        "message": "Fix typo",
+        "tree": {
+          "sha": "c25e9ce75ed1d579e243a86bac6acfea5054adce",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/c25e9ce75ed1d579e243a86bac6acfea5054adce"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/a5b54eb1a5359867cb151b7fe240422baade36f7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/a5b54eb1a5359867cb151b7fe240422baade36f7",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/a5b54eb1a5359867cb151b7fe240422baade36f7",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/a5b54eb1a5359867cb151b7fe240422baade36f7/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0e2a8b1abf42a5310c308d7599a3e0b147087acb",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/0e2a8b1abf42a5310c308d7599a3e0b147087acb",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/0e2a8b1abf42a5310c308d7599a3e0b147087acb"
+        }
+      ]
+    },
+    {
+      "sha": "0e2a8b1abf42a5310c308d7599a3e0b147087acb",
+      "node_id": "C_kwDOJMHUP9oAKDBlMmE4YjFhYmY0MmE1MzEwYzMwOGQ3NTk5YTNlMGIxNDcwODdhY2I",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T02:06:25Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T02:06:25Z"
+        },
+        "message": "Add comment and fix typos",
+        "tree": {
+          "sha": "41d5f66f5812c7330a40821bccc7dea081c6a504",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/41d5f66f5812c7330a40821bccc7dea081c6a504"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/0e2a8b1abf42a5310c308d7599a3e0b147087acb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/0e2a8b1abf42a5310c308d7599a3e0b147087acb",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/0e2a8b1abf42a5310c308d7599a3e0b147087acb",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/0e2a8b1abf42a5310c308d7599a3e0b147087acb/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced"
+        }
+      ]
+    },
+    {
+      "sha": "fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced",
+      "node_id": "C_kwDOJMHUP9oAKGZkZTlkM2QyYjRjNzJlNjdlZGRkNjBlY2I5YjgyYWMzMzdmYzNjZWQ",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T01:33:57Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T01:33:57Z"
+        },
+        "message": "Fix quantization docs",
+        "tree": {
+          "sha": "5e299a15ebccde9185d87968652726a527452b6f",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/5e299a15ebccde9185d87968652726a527452b6f"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/fde9d3d2b4c72e67eddd60ecb9b82ac337fc3ced/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cc2ba8cac6aaed54a19ed5e9559419af31826141",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/cc2ba8cac6aaed54a19ed5e9559419af31826141",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/cc2ba8cac6aaed54a19ed5e9559419af31826141"
+        }
+      ]
+    },
+    {
+      "sha": "cc2ba8cac6aaed54a19ed5e9559419af31826141",
+      "node_id": "C_kwDOJMHUP9oAKGNjMmJhOGNhYzZhYWVkNTRhMTllZDVlOTU1OTQxOWFmMzE4MjYxNDE",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T01:31:24Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-21T01:31:24Z"
+        },
+        "message": "Add documentation",
+        "tree": {
+          "sha": "16d4a2d07d5d08ac103c2552fd2fada67bf096de",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/16d4a2d07d5d08ac103c2552fd2fada67bf096de"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/cc2ba8cac6aaed54a19ed5e9559419af31826141",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/cc2ba8cac6aaed54a19ed5e9559419af31826141",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/cc2ba8cac6aaed54a19ed5e9559419af31826141",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/cc2ba8cac6aaed54a19ed5e9559419af31826141/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b0e12b509e5582b93003751322ee0582b137483d",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/b0e12b509e5582b93003751322ee0582b137483d",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/b0e12b509e5582b93003751322ee0582b137483d"
+        }
+      ]
+    },
+    {
+      "sha": "b0e12b509e5582b93003751322ee0582b137483d",
+      "node_id": "C_kwDOJMHUP9oAKGIwZTEyYjUwOWU1NTgyYjkzMDAzNzUxMzIyZWUwNTgyYjEzNzQ4M2Q",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-20T22:23:47Z"
+        },
+        "committer": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-20T22:23:47Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "3b8432701c9da46e28e2b2c61a44a80b31e8ee71",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/3b8432701c9da46e28e2b2c61a44a80b31e8ee71"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/b0e12b509e5582b93003751322ee0582b137483d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/b0e12b509e5582b93003751322ee0582b137483d",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/b0e12b509e5582b93003751322ee0582b137483d",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/b0e12b509e5582b93003751322ee0582b137483d/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3460f9d19007179263b16e1aab86c217ab764b8e",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/3460f9d19007179263b16e1aab86c217ab764b8e",
+          "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/3460f9d19007179263b16e1aab86c217ab764b8e"
+        }
+      ]
+    },
+    {
+      "sha": "3460f9d19007179263b16e1aab86c217ab764b8e",
+      "node_id": "C_kwDOJMHUP9oAKDM0NjBmOWQxOTAwNzE3OTI2M2IxNmUxYWFiODZjMjE3YWI3NjRiOGU",
+      "commit": {
+        "author": {
+          "name": "Francis LaBounty",
+          "email": "73464335+francislabountyjr@users.noreply.github.com",
+          "date": "2023-03-20T21:42:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-03-20T21:42:56Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "7908bf530022a265abba228db84972deea35e883",
+          "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/trees/7908bf530022a265abba228db84972deea35e883"
+        },
+        "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/git/commits/3460f9d19007179263b16e1aab86c217ab764b8e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkGNNgCRBK7hj4Ov3rIwAAiKMIAKtZFcg9cESgnmUvbIygCpFc\nQivchHz7G0t14vpLNl9e3uBukMmUAKbnk9FGwgd6I358OvOrctPCnvwL2ZXZe4Mf\nTvMh4StkXpXFQifUoGjcP6QlFGROERV15PvVLRfGO73YGDyUxTsEpICwMuORMW7c\nIkG89TBsukVI4AkhzQ2vFu3FlYALtn5gpCLZz8Wh1EGs2LkWDwOhwCewsZoNWIw6\nFd/DZYEMW3Mspw7DbmZf/VFwRNrapVL2vaUGgYpgXEJjA9L5hmtApi/yGdNPyydj\noB27OxgpL2AX5tv+8V/WHRKNutehhbluzWLl92Erzt9fspiQpmi/HaBLFSgOPSQ=\n=N7cX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7908bf530022a265abba228db84972deea35e883\nauthor Francis LaBounty <73464335+francislabountyjr@users.noreply.github.com> 1679348576 -0600\ncommitter GitHub <noreply@github.com> 1679348576 -0600\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/3460f9d19007179263b16e1aab86c217ab764b8e",
+      "html_url": "https://github.com/serp-ai/LLaMA-8bit-LoRA/commit/3460f9d19007179263b16e1aab86c217ab764b8e",
+      "comments_url": "https://api.github.com/repos/serp-ai/LLaMA-8bit-LoRA/commits/3460f9d19007179263b16e1aab86c217ab764b8e/comments",
+      "author": {
+        "login": "francislabountyjr",
+        "id": 73464335,
+        "node_id": "MDQ6VXNlcjczNDY0MzM1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/francislabountyjr",
+        "html_url": "https://github.com/francislabountyjr",
+        "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+        "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+        "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+        "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+        "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "francislabountyjr",
+      "id": 73464335,
+      "node_id": "MDQ6VXNlcjczNDY0MzM1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73464335?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/francislabountyjr",
+      "html_url": "https://github.com/francislabountyjr",
+      "followers_url": "https://api.github.com/users/francislabountyjr/followers",
+      "following_url": "https://api.github.com/users/francislabountyjr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/francislabountyjr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/francislabountyjr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/francislabountyjr/subscriptions",
+      "organizations_url": "https://api.github.com/users/francislabountyjr/orgs",
+      "repos_url": "https://api.github.com/users/francislabountyjr/repos",
+      "events_url": "https://api.github.com/users/francislabountyjr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/francislabountyjr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 20
+    },
+    {
+      "login": "devinschumacher",
+      "id": 45643901,
+      "node_id": "MDQ6VXNlcjQ1NjQzOTAx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45643901?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/devinschumacher",
+      "html_url": "https://github.com/devinschumacher",
+      "followers_url": "https://api.github.com/users/devinschumacher/followers",
+      "following_url": "https://api.github.com/users/devinschumacher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/devinschumacher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/devinschumacher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/devinschumacher/subscriptions",
+      "organizations_url": "https://api.github.com/users/devinschumacher/orgs",
+      "repos_url": "https://api.github.com/users/devinschumacher/repos",
+      "events_url": "https://api.github.com/users/devinschumacher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/devinschumacher/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 7
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 17392
+  },
+  "readme_html": "<h1 id=\"user-content-chat-llama\">Chat LLaMA</h1>\n<p>8bit-LoRA or 4bit-LoRA</p>\n<p>Repository for training a LoRA for the LLaMA (1 and 2) models on HuggingFace with 8-bit or 4-bit quantization. Research only for LLaMA 1, LLaMA 2 is open commercially.\n\n👉 <a href=\"https://serp.ly/@serpai/discord\">Join our Discord Server</a> for updates, support &#x26; collaboration\n</p>\n<p>Dataset creation, training, weight merging, and quantization instructions are in the <a href=\"docs/\">docs</a>.</p>\n<h1 id=\"user-content-check-out-our-trained-loras-on-huggingface\">Check out our trained LoRAs on HuggingFace</h1>\n<h2 id=\"user-content-anthropics-hh\">Anthropic's HH</h2>\n<ul>\n<li><a href=\"https://huggingface.co/serpdotai/llama-hh-lora-7B\">7B</a></li>\n<li><a href=\"https://huggingface.co/serpdotai/llama-hh-lora-13B\">13B</a></li>\n<li><a href=\"https://huggingface.co/serpdotai/llama-hh-lora-30B\">30B</a></li>\n</ul>",
+  "_fetched_at": "2026-03-11T18:04:43.462Z"
+}

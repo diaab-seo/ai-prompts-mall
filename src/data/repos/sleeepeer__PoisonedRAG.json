@@ -1,0 +1,3026 @@
+{
+  "id": 754941867,
+  "node_id": "R_kgDOLP9_qw",
+  "name": "PoisonedRAG",
+  "full_name": "sleeepeer/PoisonedRAG",
+  "private": false,
+  "owner": {
+    "login": "sleeepeer",
+    "id": 79324989,
+    "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sleeepeer",
+    "html_url": "https://github.com/sleeepeer",
+    "followers_url": "https://api.github.com/users/sleeepeer/followers",
+    "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+    "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+    "repos_url": "https://api.github.com/users/sleeepeer/repos",
+    "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/sleeepeer/PoisonedRAG",
+  "description": "[USENIX Security 2025] PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+  "fork": false,
+  "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG",
+  "forks_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/forks",
+  "keys_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/teams",
+  "hooks_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/events",
+  "assignees_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/tags",
+  "blobs_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/languages",
+  "stargazers_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/subscription",
+  "commits_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/merges",
+  "archive_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/downloads",
+  "issues_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/deployments",
+  "created_at": "2024-02-09T04:25:56Z",
+  "updated_at": "2026-03-11T12:44:44Z",
+  "pushed_at": "2026-01-27T15:29:32Z",
+  "git_url": "git://github.com/sleeepeer/PoisonedRAG.git",
+  "ssh_url": "git@github.com:sleeepeer/PoisonedRAG.git",
+  "clone_url": "https://github.com/sleeepeer/PoisonedRAG.git",
+  "svn_url": "https://github.com/sleeepeer/PoisonedRAG",
+  "homepage": "https://arxiv.org/abs/2402.07867",
+  "size": 16710,
+  "stargazers_count": 240,
+  "watchers_count": 240,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 38,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 3,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "machine-learning",
+    "rag",
+    "retrieval-augmented-generation",
+    "security",
+    "trustworthy-ai"
+  ],
+  "visibility": "public",
+  "forks": 38,
+  "open_issues": 3,
+  "watchers": 240,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-safety",
+  "commits": [
+    {
+      "sha": "f660d72174f06b13fae5163ce656e7b235db858f",
+      "node_id": "C_kwDOLP9_q9oAKGY2NjBkNzIxNzRmMDZiMTNmYWU1MTYzY2U2NTZlN2IyMzVkYjg1OGY",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2026-01-27T15:29:30Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2026-01-27T15:29:30Z"
+        },
+        "message": "fix results loading bug",
+        "tree": {
+          "sha": "4c927afe3a7de1472e621f553bdf62a695cc4713",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/4c927afe3a7de1472e621f553bdf62a695cc4713"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/f660d72174f06b13fae5163ce656e7b235db858f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f660d72174f06b13fae5163ce656e7b235db858f",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/f660d72174f06b13fae5163ce656e7b235db858f",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f660d72174f06b13fae5163ce656e7b235db858f/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "168d18975bc6b2ecd3678266b7e75216538c76aa",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/168d18975bc6b2ecd3678266b7e75216538c76aa",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/168d18975bc6b2ecd3678266b7e75216538c76aa"
+        }
+      ]
+    },
+    {
+      "sha": "168d18975bc6b2ecd3678266b7e75216538c76aa",
+      "node_id": "C_kwDOLP9_q9oAKDE2OGQxODk3NWJjNmIyZWNkMzY3ODI2NmI3ZTc1MjE2NTM4Yzc2YWE",
+      "commit": {
+        "author": {
+          "name": "Runpeng Geng",
+          "email": "rfg5487@psu.edu",
+          "date": "2025-11-19T02:55:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-19T02:55:35Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "8796aea3835d32999cb752c7a2fb3f68af5f4cf5",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/8796aea3835d32999cb752c7a2fb3f68af5f4cf5"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/168d18975bc6b2ecd3678266b7e75216538c76aa",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpHTGnCRC1aQ7uu5UhlAAAt2QQAAz5hDypwFVo/61hpZ9CZQ0D\nRnki93ov5hJN2+KvtU5XuEglcEk78infMFCci6EFd3xQLy2eVHhItoOzYWs4ZLv/\n9xaMwwsMMTvuhq5KRyIMeTj+LJ0GQLIKzAXekALU/ZoX2kTOldb8SiqibHEzGHG9\n0WD+yIPi0QdcnnKFxVYNY7Iif6FzjqX/dauPNcZUvzOsSmP/+75+8shUtnImI3F1\nwO7j+fbqSv6b+UpHiHT1Jn6FwUl5FyVeYV8ln7PoKbJysZE7qbSv0HelpwqT/woA\n5IOg63as5UWyq7E4az+KpU3cyDFn5PaC67TOlkewxpMP7JX5iGvtVSbFQjwkog5g\ntqsd3+x4omVW9e2PNgh7Pe8ZDQFWfMKDRUStJWNuzedsdpMY72cwunYz9TVJv2K+\n5+WJcMsKMP30QYJzdb/vv0SGYTHsbzPhfIxEPwPKYEFyl+Kxl41NJ4DzGO9QGbWA\n/mjXZY4+dDxKRfSRP/xrrFOdgWO9vNqOIA2tAgyvqbxm5HhXWAw0DT2G2bzemV3F\nkyosLd7l4le3Pj7pEwVBF1VqT377wKZtq+lb+se4Hhi0EDOt4bX9sZ1u21EULVDz\nPNDe0cS3zI7eyH1tslaoah9XQIvzci4MjOiY1FLCAtYdWkbhjlKI/3ICqLw5rJxs\ninqwJfsMqt4T9YjTQKNu\n=DewS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8796aea3835d32999cb752c7a2fb3f68af5f4cf5\nparent 7a529f0c49742d1bbfe366c9cba1af03ad7d56ba\nauthor Runpeng Geng <rfg5487@psu.edu> 1763520935 -0500\ncommitter GitHub <noreply@github.com> 1763520935 -0500\n\nUpdate README.md",
+          "verified_at": "2025-11-19T02:55:36Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/168d18975bc6b2ecd3678266b7e75216538c76aa",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/168d18975bc6b2ecd3678266b7e75216538c76aa",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/168d18975bc6b2ecd3678266b7e75216538c76aa/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7a529f0c49742d1bbfe366c9cba1af03ad7d56ba",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/7a529f0c49742d1bbfe366c9cba1af03ad7d56ba",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/7a529f0c49742d1bbfe366c9cba1af03ad7d56ba"
+        }
+      ]
+    },
+    {
+      "sha": "7a529f0c49742d1bbfe366c9cba1af03ad7d56ba",
+      "node_id": "C_kwDOLP9_q9oAKDdhNTI5ZjBjNDk3NDJkMWJiZmUzNjZjOWNiYTFhZjAzYWQ3ZDU2YmE",
+      "commit": {
+        "author": {
+          "name": "Runpeng Geng",
+          "email": "rfg5487@psu.edu",
+          "date": "2025-11-19T02:55:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-19T02:55:09Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "1a3853a5cce465d1d13530e2ea28fcb6f843d8b1",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/1a3853a5cce465d1d13530e2ea28fcb6f843d8b1"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/7a529f0c49742d1bbfe366c9cba1af03ad7d56ba",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpHTGNCRC1aQ7uu5UhlAAAQ9gQADJ9x6Rek6Nj00vCYsKntt3N\niMWyX4RIkLPbQv5ZDL2s6XBc+fRKphQeQOi0Iol3rWGVtzrLvXP4iHBQaSF9rVQP\npKQumGh3qbAP8jvKvgLId+2hPGfeIORnJC7WJcC5LERUHpthXCJSD+qPyhj+UJry\nAqqEStPOIpPPzNIV3Yx6LGIwqLd4NExf1kgsHxMPaJA6fHEpOb4ee0Bj8jkc0uPy\ndTbvUhfrr+9ukLRwchugy9fFcnFyrNd3qkLq/AAGQ4wswMIIoFrOF8AjrNAouYFE\nX4oMDn/c1ckJGymtH5YndRY+/mztYaVX3c/lCKYOmW14ac1yuMusWL4IelDJWs9z\nKrLGY7HMPiNpGqcquGhUV440ywmnPMuZ2m+5196SSCSNEio5h9gsfaXjuOjJFneJ\n20FLuo1Wq1D8hFV/eaw6w6h3kZZASO2Lmzzrn2Y86Df2zBtTqX+JNeAkklgo1eEA\nRQ54adeui39Mi9FJN0ef0lhOpRfsqg01PAFCLVLKBka9F51N0VkrXrrA44qq5xlr\nTc0cTmSYe2Wddb91opxTIpMedLJCaMyj0G7kdV5d/PJyrgYPyAwXqda5QpNlrF5o\nPG7UQQkeZNBYwvCScIEaIRt1Tx7wQvL45RAvBGw87M46x7gUd56kDEBjrWY8jCTv\nWhIMbGpmBseUfqD0Rq45\n=KPrg\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1a3853a5cce465d1d13530e2ea28fcb6f843d8b1\nparent 2afb188c8d28dd7acedcc294e2cd58b31177f3c8\nauthor Runpeng Geng <rfg5487@psu.edu> 1763520909 -0500\ncommitter GitHub <noreply@github.com> 1763520909 -0500\n\nUpdate README.md",
+          "verified_at": "2025-11-19T02:55:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/7a529f0c49742d1bbfe366c9cba1af03ad7d56ba",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/7a529f0c49742d1bbfe366c9cba1af03ad7d56ba",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/7a529f0c49742d1bbfe366c9cba1af03ad7d56ba/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2afb188c8d28dd7acedcc294e2cd58b31177f3c8",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/2afb188c8d28dd7acedcc294e2cd58b31177f3c8",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/2afb188c8d28dd7acedcc294e2cd58b31177f3c8"
+        }
+      ]
+    },
+    {
+      "sha": "2afb188c8d28dd7acedcc294e2cd58b31177f3c8",
+      "node_id": "C_kwDOLP9_q9oAKDJhZmIxODhjOGQyOGRkN2FjZWRjYzI5NGUyY2Q1OGIzMTE3N2YzYzg",
+      "commit": {
+        "author": {
+          "name": "Runpeng Geng",
+          "email": "rfg5487@psu.edu",
+          "date": "2025-11-17T02:57:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-17T02:57:21Z"
+        },
+        "message": "Delete PoisonedRAG.jpg",
+        "tree": {
+          "sha": "657e2ea68ca820a43426850d93417341fc60a4d1",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/657e2ea68ca820a43426850d93417341fc60a4d1"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/2afb188c8d28dd7acedcc294e2cd58b31177f3c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpGo8RCRC1aQ7uu5UhlAAAEhgQAAKftwrXWY8xnZbpMZsyFu9D\nWlBssjepL44HWiaN+ZFS8waF/9emO6YeyC6TlXP9uz9htHH/lbxLLdJaeQNN9kVZ\ndJloLYa7MLvrfnqgmFaDgkqIVo3PusdZPZcohYic6xADIlsJURL84lqb8061+r0D\nys6xVBK2+6620qUjko+T3xybJmxzceqrwC+EJycU/h5fMKepWX4X+1kiYtq2YFlF\nEA7VydfdmQ0FoD8bZGFNxLOX6cAcuwyw2if6xYh5G20ox7ifMqkT3BZRdsXcyDOy\nabmzR4tQxXZlFHgsr9M2d/7Dtu2LCRQR+C7abhYcnfXM4/nr9UwQDslAzPJ5w3cx\n+dwj8ZQKeVlJxF0bg87N2YIAt21CSAAnno+2lZhQViIINJtcine1xWDCL/RepBsm\nEFgaBZ1HiM1kHQm/eq/vXIT/qDm1jKQJ0lJa/cWIXLsWi99EKJ3/dhnmuqylRDm+\nFYFwuQ79FsR+dHGTN3heYb4bqSF9Zu4EIBUalY3pmhFdQPiC2+LhoCZVPcoXcflL\nEZKcJ4OqrE8CjnAJjd7S9xBLT98297/jOk78Ph8120Wn/Nlc4y5rQUTWfB/X8ScC\nl5uncsjhIozyQ7Lk+kmSyCLpTURjngfJyj3HB4Am3Y2TNz0vTpohFEefcA2+Yfke\nfnYM850Cu+9USvGefxzU\n=ehiq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 657e2ea68ca820a43426850d93417341fc60a4d1\nparent a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c\nauthor Runpeng Geng <rfg5487@psu.edu> 1763348241 -0500\ncommitter GitHub <noreply@github.com> 1763348241 -0500\n\nDelete PoisonedRAG.jpg",
+          "verified_at": "2025-11-17T02:57:21Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/2afb188c8d28dd7acedcc294e2cd58b31177f3c8",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/2afb188c8d28dd7acedcc294e2cd58b31177f3c8",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/2afb188c8d28dd7acedcc294e2cd58b31177f3c8/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c"
+        }
+      ]
+    },
+    {
+      "sha": "a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c",
+      "node_id": "C_kwDOLP9_q9oAKGE2YjVlMGEyZWE1YzVjMDUwZjAxM2M1ZjRlNTg2YmQ3YmMyMzQ1N2M",
+      "commit": {
+        "author": {
+          "name": "Runpeng Geng",
+          "email": "rfg5487@psu.edu",
+          "date": "2025-02-23T18:57:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-02-23T18:57:50Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "12902ec02661b0cbb35fd931a45b94bb9657edb2",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/12902ec02661b0cbb35fd931a45b94bb9657edb2"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnu2+uCRC1aQ7uu5UhlAAABwIQAFymLUBaXzJBBixiiEYDsvXj\npQsIq9gkvwGElBS/53koFVDTZLzJgrRC35Sg0nVyCZ3H5rZjTBokja8hQEuD6uVu\ntEEWrPVPSiT3QI/LEdolddTS/am0GwCzvqK636/qfJ5Y+nfVga2TccjpMAKfiSWN\nLrGiLarjH11wbtWGPJYA646b4ocyav4ANqJqJiWjwl40CfCFGXg60rQ+wO+qPpI3\no5EAjY1u2Wej7zF7E5EASECzXZDEFl66oX7AOJj64cJUnstfd4cE0YXqRg7zuT3Q\nNbuERvyfiehVP2aJG/wHxZVV/O5e3g/4aC1AjzRCNQGBa4EwMEJSVoHGq1Immtym\n803ZWPTMCRBb0crjPtELlLayATIU3EBkico9gJviqEpsaD27XvTPqpjJOElu5Aai\nqt5p9jl3qW7n2eL9EGHfDWWzeTynPuyUdOoW4sYRA8qQrOXg1FunccHxNytaBzLN\nGTouk8IXNSPqti/kA9dwZKgvslLgZgOLW6OmHdrCFHQeZPoS/J9wVEA8JxEkrV3D\nWoZE7kkFedcdBr3Le/vYNj03023p3dg+An3E7anYDKj5sA5aAbmztmxGueQAUD5i\n3sRzD7pnz5OeXOICbSMk4H1pHazcuj6JvfvREHnhZaYCrqVYm++pJJA3uT9WKvgy\nGuzbtJA1IR+sH6wMIqKm\n=eCul\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 12902ec02661b0cbb35fd931a45b94bb9657edb2\nparent 079c2fe6c5c56ad50e557bd4af8a7e917df48365\nauthor Runpeng Geng <rfg5487@psu.edu> 1740337070 -0500\ncommitter GitHub <noreply@github.com> 1740337070 -0500\n\nUpdate README.md",
+          "verified_at": "2025-02-23T18:57:55Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/a6b5e0a2ea5c5c050f013c5f4e586bd7bc23457c/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "079c2fe6c5c56ad50e557bd4af8a7e917df48365",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/079c2fe6c5c56ad50e557bd4af8a7e917df48365",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/079c2fe6c5c56ad50e557bd4af8a7e917df48365"
+        }
+      ]
+    },
+    {
+      "sha": "079c2fe6c5c56ad50e557bd4af8a7e917df48365",
+      "node_id": "C_kwDOLP9_q9oAKDA3OWMyZmU2YzVjNTZhZDUwZTU1N2JkNGFmOGE3ZTkxN2RmNDgzNjU",
+      "commit": {
+        "author": {
+          "name": "Runpeng Geng",
+          "email": "rfg5487@psu.edu",
+          "date": "2025-02-22T20:16:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-02-22T20:16:57Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "e1e24d778916406499347408631376a58b083f72",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/e1e24d778916406499347408631376a58b083f72"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/079c2fe6c5c56ad50e557bd4af8a7e917df48365",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnujC6CRC1aQ7uu5UhlAAA/VgQAKKThUWRu+CsYDod3dal2o+X\noiD7+9jHLDVrufHkOqQphANU6GqYEj3NTsbYzkAXgRveA3ZP3Qq/ZLUReuDm8Hji\n4B3Y49mzr+S5iOOaVd2POPFaACnJXN3h43xx+Eijqk8daweMOhdlnN/xzec0qD9e\ndtxMTKzKv7t0LEgczg0k6k60LRTZKXXoD0WfCQ9bEQlSBzQI7RtJJPSXgQ53AE8U\nq+Gl11JaPYLYRsH8FGzECKzurkhyWjfvTtU4pDCJhd4n3yDXbnJwxjy2ziDdN80i\nmf+xk7+qPZHTqFnQ2CTgIUsaM2KX+7ffz9bT6UVNxDJjyQaYdMX+ZN3htD9ONCOm\n23HiPk1r98LtCt5yEEiAW1wIPmV61/58Ppld56F+nr2rN7XTtBI0Wtl6jn3PbMDI\nmvaBjFHk3CwtTYxh2nPPfF7LmO6HDZVGS6mXLiHmF0FBc2xBub9+HzupV8YXEsJ9\nDYQL4LizC5dCOVNeVC2O4qC78GGTy5h/f5wvJhcJ8GpYqY/yrMVZJg7uNR7Bhy34\nRAb64S/PZTvXGei+nVxU4pubEhdB5S5GgqlwE94vu2ZjjMSuUar7Rj/9bPJVtOPV\ny98g4QrzYfEJeYV4+dMFcRRktcdcCdYW0wc0cf3WsSTG5uy0fSKTAMm6dIKbxUCm\nu20HVHFC922XqWxWt6o2\n=sjEb\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e1e24d778916406499347408631376a58b083f72\nparent d188e228e043e6a88c9fdf2ebbfdd340b4d98fea\nauthor Runpeng Geng <rfg5487@psu.edu> 1740255417 -0500\ncommitter GitHub <noreply@github.com> 1740255417 -0500\n\nUpdate README.md",
+          "verified_at": "2025-02-22T20:17:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/079c2fe6c5c56ad50e557bd4af8a7e917df48365",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/079c2fe6c5c56ad50e557bd4af8a7e917df48365",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/079c2fe6c5c56ad50e557bd4af8a7e917df48365/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d188e228e043e6a88c9fdf2ebbfdd340b4d98fea",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d188e228e043e6a88c9fdf2ebbfdd340b4d98fea",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/d188e228e043e6a88c9fdf2ebbfdd340b4d98fea"
+        }
+      ]
+    },
+    {
+      "sha": "d188e228e043e6a88c9fdf2ebbfdd340b4d98fea",
+      "node_id": "C_kwDOLP9_q9oAKGQxODhlMjI4ZTA0M2U2YTg4YzlmZGYyZWJiZmRkMzQwYjRkOThmZWE",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2025-02-05T18:21:47Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2025-02-05T18:21:47Z"
+        },
+        "message": "fix issue #16",
+        "tree": {
+          "sha": "9fef703366bcb19abba7faf911e40594f1c67578",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/9fef703366bcb19abba7faf911e40594f1c67578"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/d188e228e043e6a88c9fdf2ebbfdd340b4d98fea",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d188e228e043e6a88c9fdf2ebbfdd340b4d98fea",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/d188e228e043e6a88c9fdf2ebbfdd340b4d98fea",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d188e228e043e6a88c9fdf2ebbfdd340b4d98fea/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "662e60ebfd65c7cfa21ebfc97a760f822eecc920",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/662e60ebfd65c7cfa21ebfc97a760f822eecc920",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/662e60ebfd65c7cfa21ebfc97a760f822eecc920"
+        }
+      ]
+    },
+    {
+      "sha": "662e60ebfd65c7cfa21ebfc97a760f822eecc920",
+      "node_id": "C_kwDOLP9_q9oAKDY2MmU2MGViZmQ2NWM3Y2ZhMjFlYmZjOTdhNzYwZjgyMmVlY2M5MjA",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-10-10T20:53:54Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-10-10T20:53:54Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "232d95c370e54542e53f8cd0926247b6ac7750d3",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/232d95c370e54542e53f8cd0926247b6ac7750d3"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/662e60ebfd65c7cfa21ebfc97a760f822eecc920",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/662e60ebfd65c7cfa21ebfc97a760f822eecc920",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/662e60ebfd65c7cfa21ebfc97a760f822eecc920",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/662e60ebfd65c7cfa21ebfc97a760f822eecc920/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dd32ed90ad1972ca2b28d876fce6e474f79b9031",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/dd32ed90ad1972ca2b28d876fce6e474f79b9031",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/dd32ed90ad1972ca2b28d876fce6e474f79b9031"
+        }
+      ]
+    },
+    {
+      "sha": "dd32ed90ad1972ca2b28d876fce6e474f79b9031",
+      "node_id": "C_kwDOLP9_q9oAKGRkMzJlZDkwYWQxOTcyY2EyYjI4ZDg3NmZjZTZlNDc0Zjc5YjkwMzE",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-23T17:34:55Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-23T17:34:55Z"
+        },
+        "message": "fix target_queries path bug",
+        "tree": {
+          "sha": "2002b3ab60698d3ebddc75f1c090a72e4285d4cf",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/2002b3ab60698d3ebddc75f1c090a72e4285d4cf"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/dd32ed90ad1972ca2b28d876fce6e474f79b9031",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/dd32ed90ad1972ca2b28d876fce6e474f79b9031",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/dd32ed90ad1972ca2b28d876fce6e474f79b9031",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/dd32ed90ad1972ca2b28d876fce6e474f79b9031/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6da7e7e59000d2fa60ec176aae00eda7efaaa35d",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6da7e7e59000d2fa60ec176aae00eda7efaaa35d",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/6da7e7e59000d2fa60ec176aae00eda7efaaa35d"
+        }
+      ]
+    },
+    {
+      "sha": "6da7e7e59000d2fa60ec176aae00eda7efaaa35d",
+      "node_id": "C_kwDOLP9_q9oAKDZkYTdlN2U1OTAwMGQyZmE2MGVjMTc2YWFlMDBlZGE3ZWZhYWEzNWQ",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-23T17:20:21Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-23T17:20:21Z"
+        },
+        "message": "remove target_queries to fix path error",
+        "tree": {
+          "sha": "b6df62581e52e20b5d32a5c1731de7b038569ece",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/b6df62581e52e20b5d32a5c1731de7b038569ece"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/6da7e7e59000d2fa60ec176aae00eda7efaaa35d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6da7e7e59000d2fa60ec176aae00eda7efaaa35d",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/6da7e7e59000d2fa60ec176aae00eda7efaaa35d",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6da7e7e59000d2fa60ec176aae00eda7efaaa35d/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f5417ed5e07a669974f4f9f64d55f02935b0f323",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f5417ed5e07a669974f4f9f64d55f02935b0f323",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/f5417ed5e07a669974f4f9f64d55f02935b0f323"
+        }
+      ]
+    },
+    {
+      "sha": "f5417ed5e07a669974f4f9f64d55f02935b0f323",
+      "node_id": "C_kwDOLP9_q9oAKGY1NDE3ZWQ1ZTA3YTY2OTk3NGY0ZjlmNjRkNTVmMDI5MzViMGYzMjM",
+      "commit": {
+        "author": {
+          "name": "Runpeng Geng",
+          "email": "rfg5487@psu.edu",
+          "date": "2024-09-13T18:57:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-13T18:57:14Z"
+        },
+        "message": "Create LICENSE",
+        "tree": {
+          "sha": "227f7f2da7c61f91d7b644b05151ebcca2460005",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/227f7f2da7c61f91d7b644b05151ebcca2460005"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/f5417ed5e07a669974f4f9f64d55f02935b0f323",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm5IsKCRC1aQ7uu5UhlAAAgrUQAC6VovRwfHBkjcJGH1F8TZN5\nagylCCbxPBGnmz+MG3L/iiCsyVyaUsaVJjMyyaM9OFDdCD0+5s/axi8ilTJ5AawF\nVRnXxjGl6wMtbcL5cYDC/ZB07kmlxGVfn8YfSVqvjnQ4jl5mES0lspTt+pxW73Ez\nmiFJPs2NHMkTVtCTULzDmm5NtzdkIgbeIFgo6o3nx0IdU650gWg8OnXzQwPQ7mRV\nDrsWFJjzIREotFsF6lX9mtVrfJ44sUA9Z1k0gJdcMam7uJlkv/17aOYATT+SOBiA\nwXI3obSEk3fSGp6+MU+LAhhPgMDnOVHe4OjQ34OrFfOF/FfL2114FQudQqRk0PlK\n/LzE/Jl5DlNlDBJvLRUbu6NV5LyO+pGdnkW6x43a/hDVX7DJMazQzAJgvv9h7Bsl\n7yMNQL1ggid7v/rrePXOuoThVTfbbe8MSWwbA5w2GNVbk7izTme9j7yoazBEzASh\nvRbE+nVF7w1G0FyX6EAHrPuRyYjptyDaMe0h6vWUHpOMDW/K7KJuIWjjGPmkzE+h\nnzytZYKoOiSA1WlXlkJkPVWUYCJSjcfg6scc76RkDACOxCQWbDuiEip9hpotvgzd\nPccpLZ+wBpRWTr28AfOfMssgH79es//zyknhIecNnceC4VddC1PG4YZ/77kPB2I/\nh6dZiFxKEjLtgf+Y7lFL\n=So6j\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 227f7f2da7c61f91d7b644b05151ebcca2460005\nparent e1c56fd59a63da6f009ddaa0056425f1b06d8c72\nauthor Runpeng Geng <rfg5487@psu.edu> 1726253834 +0800\ncommitter GitHub <noreply@github.com> 1726253834 +0800\n\nCreate LICENSE",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f5417ed5e07a669974f4f9f64d55f02935b0f323",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/f5417ed5e07a669974f4f9f64d55f02935b0f323",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f5417ed5e07a669974f4f9f64d55f02935b0f323/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e1c56fd59a63da6f009ddaa0056425f1b06d8c72",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/e1c56fd59a63da6f009ddaa0056425f1b06d8c72",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/e1c56fd59a63da6f009ddaa0056425f1b06d8c72"
+        }
+      ]
+    },
+    {
+      "sha": "e1c56fd59a63da6f009ddaa0056425f1b06d8c72",
+      "node_id": "C_kwDOLP9_q9oAKGUxYzU2ZmQ1OWE2M2RhNmYwMDlkZGFhMDA1NjQyNWYxYjA2ZDhjNzI",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-13T18:27:57Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-13T18:27:57Z"
+        },
+        "message": "Add script for generating adv_targeted_results",
+        "tree": {
+          "sha": "255e1817eeaa9a8b9bef274f2e92ff84bc530509",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/255e1817eeaa9a8b9bef274f2e92ff84bc530509"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/e1c56fd59a63da6f009ddaa0056425f1b06d8c72",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/e1c56fd59a63da6f009ddaa0056425f1b06d8c72",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/e1c56fd59a63da6f009ddaa0056425f1b06d8c72",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/e1c56fd59a63da6f009ddaa0056425f1b06d8c72/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69"
+        }
+      ]
+    },
+    {
+      "sha": "bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69",
+      "node_id": "C_kwDOLP9_q9oAKGJmNDE4YTVkZDM1ZjRiOWI2ZjFlOTQzYjBkZDQ4MjZjYzU5MjZlNjk",
+      "commit": {
+        "author": {
+          "name": "Runpeng Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-03T18:59:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-03T18:59:17Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "61379a8c7714db8f9dee1c7ca88f142d3a91d749",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/61379a8c7714db8f9dee1c7ca88f142d3a91d749"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm11yFCRC1aQ7uu5UhlAAAKaAQABi+jzHk6QwFEtmCxPYmx2jZ\nUbFrmh7VkIC4pTI3RGaTOjSisIjuHXBHC45NEuFUssrko3PF9jVONzKcUyao01cW\n7Q0yCHzPcoaDykgMKn9YId2EJPdR6nXEhEBfN3izWykOEIuxj2frj3HSYNlOfFx3\nPdCmNZJkQeSDHoKuv/b9amra1A4h0s8zQeypWzcAroNx5VNL+0Hzh7a4bCN1c6rN\nLeESUuh/h5oFL0FgJBxPgQLOe0uTi2YxgQ1iCaIskASuMkHpn++S7DxZJ5gn/U6U\ntC7DRf5YhZGWElMiyrT74gAloEiAmt/XM6nhmM4FX8726gOCPSvJjHkTDjnVCOQL\neOEO/RnZT0xEW9C26MIgMXK44JZizNwt2jND/nHlf0ddegRHocSnbCxrSAqP8jew\nYHxX0AFMO+EeAXcTHXonl1ZyqZTCFbDlBWcTcEMZtKwzmBf57FdRseEdeeys6Ibj\nj6ve9K2YGJfFI1k4/QfujMHdXJU5urHUxtu3vke02pyRzgJpO4BH//ldEoSNHtf/\n51XQYOPMb7uRCDOdTkLYzhS8/Ai2LfFwsplhQ7SchGND40vLGMh7qjnvwfEuGZjg\nRCEsXp0NLT1+QvtatBQeWikH472Dz0qLwDzNqtQUhkgmawjRN/PlWVxrN6c8DzJW\nLxSckLnWO05QfMGXDMv6\n=Tol9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 61379a8c7714db8f9dee1c7ca88f142d3a91d749\nparent 84c124cbf837e890bc1c16a04416c2bfdb157bb1\nauthor Runpeng Geng <kevingeng@whu.edu.cn> 1725389957 +0800\ncommitter GitHub <noreply@github.com> 1725389957 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/bf418a5dd35f4b9b6f1e943b0dd4826cc5926e69/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "84c124cbf837e890bc1c16a04416c2bfdb157bb1",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/84c124cbf837e890bc1c16a04416c2bfdb157bb1",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/84c124cbf837e890bc1c16a04416c2bfdb157bb1"
+        }
+      ]
+    },
+    {
+      "sha": "84c124cbf837e890bc1c16a04416c2bfdb157bb1",
+      "node_id": "C_kwDOLP9_q9oAKDg0YzEyNGNiZjgzN2U4OTBiYzFjMTZhMDQ0MTZjMmJmZGIxNTdiYjE",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-03T18:53:51Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-09-03T18:53:51Z"
+        },
+        "message": "add evaluate_beir.py",
+        "tree": {
+          "sha": "0b6546cbdd809e39b7f3048c65b73988a8ec3df2",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/0b6546cbdd809e39b7f3048c65b73988a8ec3df2"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/84c124cbf837e890bc1c16a04416c2bfdb157bb1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/84c124cbf837e890bc1c16a04416c2bfdb157bb1",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/84c124cbf837e890bc1c16a04416c2bfdb157bb1",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/84c124cbf837e890bc1c16a04416c2bfdb157bb1/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f5d883163007b06603cfdcb7f68c9ac9654003b8",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f5d883163007b06603cfdcb7f68c9ac9654003b8",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/f5d883163007b06603cfdcb7f68c9ac9654003b8"
+        }
+      ]
+    },
+    {
+      "sha": "f5d883163007b06603cfdcb7f68c9ac9654003b8",
+      "node_id": "C_kwDOLP9_q9oAKGY1ZDg4MzE2MzAwN2IwNjYwM2NmZGNiN2Y2OGM5YWM5NjU0MDAzYjg",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-08-27T01:16:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-08-27T01:16:29Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "2ec0d88289c49e9dc70a46eb85fe60e3d4a96036",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/2ec0d88289c49e9dc70a46eb85fe60e3d4a96036"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/f5d883163007b06603cfdcb7f68c9ac9654003b8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmzSjtCRC1aQ7uu5UhlAAAzIwQACX302D558GGT7bfQZIoRw8w\njTcu1H76ubwLp34jjVrWCqxi4naQyqELtbnjPcV1xGFl03L74IVRzhQDHTpZCU2+\niyj1Pgwf4v6EpCObVO01DInVT+yKX+wOxRgXOfm5lfxMqwR9OENdNJjJpuZYhXfp\npEZ46IygeQsdrGE1Xbsfex992dnrlhQBbxCJ6BR+lAIJQvjamhm48HsCHs3/XAlP\nDOc8aYD3gnOFN+EQVHRO8vcfk9EkhwdR81wuNaRws/pUY61jsb2lz7c2zR2dTmY/\nR9nd6WZpPaf1F49KoXzvMu20TDhSOgSK/rjseCqtc8XxPRoOBsekFHQAJ6EWd7KE\njrVtXOfvZ9fYYH5Moe8BIrXL1qoM6h0iNcla14F9tyREYmiD+EGQoYVQbDp2yFZo\noxzpEJoD54vIfKd6LD9KNm/txM2+/h284eiAr8yPLtFMumH0dW2SMalLyQyAKq4W\nKoKVOW382U8Pr500JkRYnNy7CVb6hx7a6863Fp5zX0KBFySpiEr3XFS+lw3kMrVC\n0rGSLmXYhixHMuy1D/pUlEG3vlrLpj0gHDa/V9FyOn5XdWzPgrrVF3HRvkR7jceI\nOe2yKfCerryLv2pd3HLaQ7eQS4JE0wql9UZCaS7Spt6z+LvSaHIHgmDBTnci9afe\nGQChfw/6wEbZ7DFqISGz\n=0kn3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2ec0d88289c49e9dc70a46eb85fe60e3d4a96036\nparent 46c15597a2476429b0001ddb329563bd3e75539b\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1724721389 +0800\ncommitter GitHub <noreply@github.com> 1724721389 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f5d883163007b06603cfdcb7f68c9ac9654003b8",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/f5d883163007b06603cfdcb7f68c9ac9654003b8",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f5d883163007b06603cfdcb7f68c9ac9654003b8/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46c15597a2476429b0001ddb329563bd3e75539b",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/46c15597a2476429b0001ddb329563bd3e75539b",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/46c15597a2476429b0001ddb329563bd3e75539b"
+        }
+      ]
+    },
+    {
+      "sha": "46c15597a2476429b0001ddb329563bd3e75539b",
+      "node_id": "C_kwDOLP9_q9oAKDQ2YzE1NTk3YTI0NzY0MjliMDAwMWRkYjMyOTU2M2JkM2U3NTUzOWI",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-06-22T09:37:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-22T09:37:08Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "32e9c33cb7f49f7c1fe3ce588c007f992034b944",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/32e9c33cb7f49f7c1fe3ce588c007f992034b944"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/46c15597a2476429b0001ddb329563bd3e75539b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmdptECRC1aQ7uu5UhlAAA8SQQAGexX3dcwJdLq3FZ2fyd96CI\n+Yp0oxCDgxP9x99QYcTKSNKoeY962P7+sCnmph+tbY4mf2CcEtK0wMLp4EIB1v0I\nSWmFqjpZAu2d7AyZ8nK8/ekZECGcQrSLndsnGItOvEkiGNlwnGIVSBqr8vBQeCKp\nJytDeOOwxXwHGXI5VrnaSFRCrb5tUFGu1IuFoE3m4R5a4/jBsnmidF9aXB3Uh3wG\ndOk0ZuafZhpdqvvDJmiqUNn60wVsKFQBbLqIiqVqHThO4hSJSgttVjMnQ4l8fJ9x\nV0y10W0ihCvj/4E/yRdIul28cqzyi23xoTKjkmSiNmJfSy7ZYq36sMgN38qJFD1g\nkVZjF64n/JZgzNS7gamb/ShdIGWFHa1TsQ//v5BhD1s2nYQEjzOb8yZw62oIYjaI\ngWz/VuI96Iuuuj2Xl41S6Qcu5wkR4OO1cNctuZrZ5ZG4ClsHsHe2uQonB+NAARbB\nL7pdYk1P2zfIzCInN0jWAdSkh9wwWXGSAONxnLxzAteoAKXo9O2WFi7DId/7+rEJ\n3zS1Y6kNvyMfi8PzvwrrNFFhV9QTIujXVA7G1IZSaM6GFwli+yrZikysydTj3JTL\n9/I/YwxI6rN7zKMcp8sj+FXpSK9tSUy/zK9m7YUlEF5apxCin48LpFy8ZlxlD5lu\nWa9j5NPI2Kf9qpDgUgzS\n=TNj3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 32e9c33cb7f49f7c1fe3ce588c007f992034b944\nparent 97a96fa8050f984518e1d12850d614372152cb3a\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1719049028 +0800\ncommitter GitHub <noreply@github.com> 1719049028 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/46c15597a2476429b0001ddb329563bd3e75539b",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/46c15597a2476429b0001ddb329563bd3e75539b",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/46c15597a2476429b0001ddb329563bd3e75539b/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "97a96fa8050f984518e1d12850d614372152cb3a",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/97a96fa8050f984518e1d12850d614372152cb3a",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/97a96fa8050f984518e1d12850d614372152cb3a"
+        }
+      ]
+    },
+    {
+      "sha": "97a96fa8050f984518e1d12850d614372152cb3a",
+      "node_id": "C_kwDOLP9_q9oAKDk3YTk2ZmE4MDUwZjk4NDUxOGUxZDEyODUwZDYxNDM3MjE1MmNiM2E",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-06-19T16:59:38Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-19T16:59:38Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "e729e5a85d8ae7ef34e4988f3ecfa68812c09b93",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/e729e5a85d8ae7ef34e4988f3ecfa68812c09b93"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/97a96fa8050f984518e1d12850d614372152cb3a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmcw56CRC1aQ7uu5UhlAAATNMQAC6GKVRzT2u3EXgl6x4gsO8N\nv/nVYtKCtuxTiR1TOA4tEkz+0SB2KPqAlsKNQ26z+rgUG/IqgAAaYzwiPjh0rnwB\nFjSmikJZIAf/PD6a/nlCbO9FWhdN3iIxl9MOpG5tpsondXQmV8IEnjegL79bRxIo\nJZR4JCf3TLT4CU3ZbXKHO9gVyYwgIUOfFaesgbv4fy2ucaA29GezQKRL/WSqwXD6\nBK/0hXDJWWzoLLXJGRFKtZIP0eFm3pAkozHuFdt9mwRDcgQKjaTkWhozH0PdB+X0\nhZ/0LWugc7TTIBYJD2IxJc895CAGjmQXzKDWmnP9cWjoBXiR0WiY9mSZWer70DKt\nYsJlxuLQ75At7tza5BDkqSlrXRyX6jQ8gon3jzx3I7vUWZxOvzgmHLG9O+zyFCM1\nzaZNeePtFtV4m3hs1GswVv1B2FBzCuj5zQCRX4XkICZmLb96lblA104Ch/ZlMNKZ\nP+31PNCw1gbFbhBvlf5pr4MJnSZXpakrr/T9LrTmHo8bXYwIjXyhOtIFJk5C/2de\nr6Lls6EEnmKLA6Ih+M1YgLgjgQZeajQMLJMAQy3pTILx/BmvxuIfKihY0jGgbH5y\n6DhFWOMERJ8/YcNbYQYuQ1UYRseegzw31n8LRWTaXIwS389FR7qf1b5wFuMWYIAb\nQm0491ml7GP45yPij1y4\n=2FN/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e729e5a85d8ae7ef34e4988f3ecfa68812c09b93\nparent 7441ee82134c8ce99018d6188aa5bb99529e4c2f\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1718816378 +0800\ncommitter GitHub <noreply@github.com> 1718816378 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/97a96fa8050f984518e1d12850d614372152cb3a",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/97a96fa8050f984518e1d12850d614372152cb3a",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/97a96fa8050f984518e1d12850d614372152cb3a/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7441ee82134c8ce99018d6188aa5bb99529e4c2f",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/7441ee82134c8ce99018d6188aa5bb99529e4c2f",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/7441ee82134c8ce99018d6188aa5bb99529e4c2f"
+        }
+      ]
+    },
+    {
+      "sha": "7441ee82134c8ce99018d6188aa5bb99529e4c2f",
+      "node_id": "C_kwDOLP9_q9oAKDc0NDFlZTgyMTM0YzhjZTk5MDE4ZDYxODhhYTViYjk5NTI5ZTRjMmY",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-06-19T16:59:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-19T16:59:07Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "1c42e910b1073ed758a343ac088a3084f8699207",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/1c42e910b1073ed758a343ac088a3084f8699207"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/7441ee82134c8ce99018d6188aa5bb99529e4c2f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmcw5bCRC1aQ7uu5UhlAAAsT8QAE3T6sWX0zEjarKagDyzV/eo\nJezSQwqXchcJgMavSHIb+hAxG3IEF7MckVQgdn/Fe3hzIdPlJBQrOq5DSFu+53mX\nMhTda0Cij1evFAM5e+1HfwPn91RmBjJ0AuyQrNts1terUQwGGGtrNe5h8VduvG1p\nIhCQbpztkmbNfT9kuU8gN4guT39tlvU60PuvUanbsAuveivcP/sYS/rLmBXSFovf\n4DkxDRZGODjX3S0x+nI+WQGbA+MMnqMNhQiqo9+T4PL6sbWGaZPLhO0FH0rHjiT8\n3ufiM1qw448/A1Db8QVI8/rwKBWsQgjHYulfkWqsjvR6s9Qlodqgh2eJM3hACbG1\nUhNFtIKHH36pRbguM6eGUKQzzt59ZXYVpg5Mbj85Bc5WKRjjVgfYfFaqV/7a6zmu\nm66aPT+uylj/P299znZ2bb05RSV40jQgfvo2bf78WUR9KMDrFz4HS4ePFBZCAa1B\nFgSVBtPO6fUKuE3xSL0fSI++v7ykrpK8D9Rk8FQmOJ+2BlHzj3shkdK4PBkmMFJo\nFqL2+pMNeCsnK1WDME3TCESXjbJv+BiaEypqWcBgWVv+cPnmCbMYX3v9iDsd3szW\nii4eqUL7mc25tzrSqFZXCRMdJdmM7GLhwiD013+GXyc+1IklzXDfBrzsgIyvhuov\n5qCyrOhskoUenjwSdzCx\n=AOLF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1c42e910b1073ed758a343ac088a3084f8699207\nparent 760811d7a9fa821bdbd6821c0e1dcc3cd947089b\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1718816347 +0800\ncommitter GitHub <noreply@github.com> 1718816347 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/7441ee82134c8ce99018d6188aa5bb99529e4c2f",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/7441ee82134c8ce99018d6188aa5bb99529e4c2f",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/7441ee82134c8ce99018d6188aa5bb99529e4c2f/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "760811d7a9fa821bdbd6821c0e1dcc3cd947089b",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/760811d7a9fa821bdbd6821c0e1dcc3cd947089b",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/760811d7a9fa821bdbd6821c0e1dcc3cd947089b"
+        }
+      ]
+    },
+    {
+      "sha": "760811d7a9fa821bdbd6821c0e1dcc3cd947089b",
+      "node_id": "C_kwDOLP9_q9oAKDc2MDgxMWQ3YTlmYTgyMWJkYmQ2ODIxYzBlMWRjYzNjZDk0NzA4OWI",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-06-19T16:58:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-19T16:58:22Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7129ec451383b0d9d82235cce6b9cdf885f006b4",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/7129ec451383b0d9d82235cce6b9cdf885f006b4"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/760811d7a9fa821bdbd6821c0e1dcc3cd947089b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmcw4uCRC1aQ7uu5UhlAAAuLQQAGhOc/VVchs78B4sEoox77ud\nZesTAn6vXGsa0VwVHciRCF6TAsxRL5GGDmV6t4ffoVrb+YGQ8LXy1lYgDQIv+1ZQ\n5QhKAvvj9xHQ+zwl6pDIG31uQDDvQwlK3nklxQh8RRnlrVXUxS+sFeT59cf9LoNZ\nJl5pYiwlOaPygAibYDOemqIXhjJK7fevPMgHvcmBSnJARNSVslmFzh/DckVny7Uc\ntn597Z8HcgtfQ8ItrWcYVeXEXODDUttxicSvWWRx+6VD8C5OEh83W6u6b0HW3U4L\nkPKjsynMwz+2/D0ikaJLQrmB8SnMz34g1A6iPigh+NWrSz8FaBAiG01OUohtPoaD\nVGQxXCpMtQwVee4swqEqX/thVe1gh4NgwflPtHl6D8S42rjV+ChQRpu/pNZhrzOC\nFjzbOUwTASC2SODO1CjcCGKP7grKMclc9jBWmeK7kynVW0wJsyeKhAPou/zQJSiK\ndPN8bRogZgeOZiJS7g4ZIpJmFg/FTATSaIIe62OZs4/veqM7Nv8xa4gYHDaXc3Y0\ncJc2kYSObj5pBl2bmm52vHEPPn4tpuosyJpAOEdpFI36aD8NEvOVIrZYu5quKcZU\nTDov4/PStQGgVFiqG3Q/+4KKJyQYIvi4jgqo9DEZVisuXfdl+fbWsvwtCr17tfU0\ngg5xz5Q1b7Wt1V3AWdWE\n=xrSd\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7129ec451383b0d9d82235cce6b9cdf885f006b4\nparent 6962ea552a1dcaaeb216bc72512fe01c34ed955b\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1718816302 +0800\ncommitter GitHub <noreply@github.com> 1718816302 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/760811d7a9fa821bdbd6821c0e1dcc3cd947089b",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/760811d7a9fa821bdbd6821c0e1dcc3cd947089b",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/760811d7a9fa821bdbd6821c0e1dcc3cd947089b/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6962ea552a1dcaaeb216bc72512fe01c34ed955b",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6962ea552a1dcaaeb216bc72512fe01c34ed955b",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/6962ea552a1dcaaeb216bc72512fe01c34ed955b"
+        }
+      ]
+    },
+    {
+      "sha": "6962ea552a1dcaaeb216bc72512fe01c34ed955b",
+      "node_id": "C_kwDOLP9_q9oAKDY5NjJlYTU1MmExZGNhYWViMjE2YmM3MjUxMmZlMDFjMzRlZDk1NWI",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-06-08T07:19:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-08T07:19:01Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "4f8eabde4548c0000753a3201ae845f6e7d03be2",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/4f8eabde4548c0000753a3201ae845f6e7d03be2"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/6962ea552a1dcaaeb216bc72512fe01c34ed955b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmZAXlCRC1aQ7uu5UhlAAA3A0QAEBOtjbAV3cgD0U6CjPQavK2\nsoB4WMv38Fs+qE6V9AT2DTcvlpGAYQUVsfL8Ap9B0XQD7FmRT/hsqz4nsh8vGAqt\nxdbxwQwxm8Or2kvKne7FpH/sFV8q3mO5alhF++NurTBF1Jd07caHsUYmdZezSNpt\nsEal9/rl5GqgGfe1Ilc8cYMI0OExSH9HE3Yi620ArKQsnKyCVz0clVgEw6//WixV\nC/ByaqFmC+HN2sgfMonlaCj8dDZkJU4iNEq8aJWeIn8jq/4ogw5+h1qe8PBlz1nA\nGEH9Rwe17Vtw003tjXrRatBcn/bYbYxOdlpUjkNkCjaygekIxZB44WsRnmlBriMS\nZCOqZ2oPBYt08mx0y2rePYFOHUAp8Or3l69juUbfBEOmvdcrT17Tqd+ZlGy9xlir\nWF1sfmZi5/TWMpY1Hu78yvuf4HyJvuQiqblp8dmrskMFFzW23DjtMr86cUxKaokM\ntbypD532Td/LPC6nbRXdfOpvhsaG+V7s4NL7z1aLHnxtx97nMSAadvCwGFp2dCNL\nQEd96S69WoIXncvEWJ0TalduR7DzrhMhny9vYdYdyZVzok0/zDnEVYHKEoarI1XM\nceN3zJcqch7rnWY3JkUnlz3AGsiEqFG4CGqQDasp6vZtzc7q5l3jY9sWTsWRkLvX\nwVqFmfZByw/uZRz9Uo8J\n=DVoX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4f8eabde4548c0000753a3201ae845f6e7d03be2\nparent b8d7efeeaf5e8589c725edd521764e15da79d7c0\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1717831141 +0800\ncommitter GitHub <noreply@github.com> 1717831141 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6962ea552a1dcaaeb216bc72512fe01c34ed955b",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/6962ea552a1dcaaeb216bc72512fe01c34ed955b",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6962ea552a1dcaaeb216bc72512fe01c34ed955b/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b8d7efeeaf5e8589c725edd521764e15da79d7c0",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/b8d7efeeaf5e8589c725edd521764e15da79d7c0",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/b8d7efeeaf5e8589c725edd521764e15da79d7c0"
+        }
+      ]
+    },
+    {
+      "sha": "b8d7efeeaf5e8589c725edd521764e15da79d7c0",
+      "node_id": "C_kwDOLP9_q9oAKGI4ZDdlZmVlYWY1ZTg1ODljNzI1ZWRkNTIxNzY0ZTE1ZGE3OWQ3YzA",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-04-20T11:18:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-20T11:18:52Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "6d9ca58db4ab3e5fd969d49936f5a7ee4ae46570",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/6d9ca58db4ab3e5fd969d49936f5a7ee4ae46570"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/b8d7efeeaf5e8589c725edd521764e15da79d7c0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmI6ScCRC1aQ7uu5UhlAAAARIQACkKiKMlJ9ST8ipeasqbVbza\n4gFsXC8RrAizWfGefiRTkn0KLDsFY0i9eBdEGCNCC8NT2dA6kpyctWW99Ak5zdE8\n/sv0fKlvesmVnswQVlFvBpxrFgmW1XUE4dROiwaC2WxA8ovxnLfBl4UMBtK/c+96\n95TpHgdOYdsI1e2EXkm+v2Gz+XOeVnAGyw4AHOQdGKe/GQJHEJYbT+OOJrSye5fJ\ncq/HLoGP+8z0EdgkgZdD8nftR/ceNRmcUUF147HzImpycalBQBnXGEsXCZk2ksWR\n4g6l+zjho0BTeytWQNZvp/HNh3RkeChGWd9bSsbMrQRhgiDdOGWBWiedPtkgmUF4\niIgdYcbRU7q8a/kZokX+3z8V1mgRLhY8i92nGDc0d8sCFrad3QSHgpd/SDzb0qLP\nScMoDNXivbWV3XxzgTUJsyTMaOz6/BczZGWRAqM75xtezrZJ2RMb2jHWbJiRWXap\nFcB4kirEkMb1u+SKws1w/ouzY2Eytl2H3XEizI1sWnhHKj3crZvuFSXthpCKAvCz\nHny594jVdwVrYBj8bGKrN69l7SCIjsFR39MXNCUbkQ2viisWUfnm7ti+lNY+mXoI\napbDqvDUF8YSGmXZLeiaQ12gV/EZ03zhIgqL1B8pGTkbA1BpU3JgCnoUFVUu8mzS\nDsgCbhvIwqVb5ChOMWjh\n=j/OY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6d9ca58db4ab3e5fd969d49936f5a7ee4ae46570\nparent d87ce5d1e45388ab97de34188368f9863a58c437\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1713611932 +0800\ncommitter GitHub <noreply@github.com> 1713611932 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/b8d7efeeaf5e8589c725edd521764e15da79d7c0",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/b8d7efeeaf5e8589c725edd521764e15da79d7c0",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/b8d7efeeaf5e8589c725edd521764e15da79d7c0/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d87ce5d1e45388ab97de34188368f9863a58c437",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d87ce5d1e45388ab97de34188368f9863a58c437",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/d87ce5d1e45388ab97de34188368f9863a58c437"
+        }
+      ]
+    },
+    {
+      "sha": "d87ce5d1e45388ab97de34188368f9863a58c437",
+      "node_id": "C_kwDOLP9_q9oAKGQ4N2NlNWQxZTQ1Mzg4YWI5N2RlMzQxODgzNjhmOTg2M2E1OGM0Mzc",
+      "commit": {
+        "author": {
+          "name": "Kevin Geng",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-04-20T05:30:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-20T05:30:28Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "16206c40592fbc7d35a159ef039fbf75c9b15fb3",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/16206c40592fbc7d35a159ef039fbf75c9b15fb3"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/d87ce5d1e45388ab97de34188368f9863a58c437",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmI1L0CRC1aQ7uu5UhlAAA2cgQADGDS2WUWQbPR482GA8144qj\nOfLb9ZcM8ActTwbT73SPNx7Kj4vB/RLMPNu9gmbkSQXh1GuuH57fepTQWgneVfTl\noQPRnbK8bxEWigYEwaJWQfPUxXSvxXXjQa8nLDYT8nq7EtPH7AK8Ox8LtQ0GRt8f\niOW3DYPDzeFVb+GRrjj7Msoj7MxrYepntAKVCOXUFNdhLZ+HDZ+w6l4y75UCHcpt\n/Hag1S9n88MBSG22BUyZ44NriumJoBijqnD5UsGj7GgzHFkXb9ng6JOqJm1iSEow\n8jbQ/UrRQ7CbHqO83spX9mpeQhg+bc1lC6TOpDRCgtURH2p8sUEqx78sRFj+gD3R\nAFJ7gqzzIkFvze5jZ8jBqtXk2yxOPTpDvFJrdOilebtVTsFILKBVeDIxHJ3w5xbu\nD3FI455DTpeEp8qyieD7yMS0SvZZHDnhC4ztB+enrKGyxjkq/tR5tocJJ4w00px/\nvP3Oi732rCpqzTJIZUzpT/hR2IJwF4bcpgok/uaChQmaPYQgk03+jw09pmXBKNbS\nAP39FOBs5oGqTsm+X2dxFipttTsy+GWsvWa3gOSXv4d55yDRqW+iffAL6O6Gc/Wm\njYTjS52lK7ae8rjOA6Xw5i4ARAagKgZ+Yso1h9enxReHaB1hF+/KcIMVw+UtGa78\neb3/MqvvKWuQgGTIgMw/\n=Dkmn\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 16206c40592fbc7d35a159ef039fbf75c9b15fb3\nparent 3da74e6954a5e7e8830df37617c9617832bbb1c6\nauthor Kevin Geng <kevingeng@whu.edu.cn> 1713591028 +0800\ncommitter GitHub <noreply@github.com> 1713591028 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-07T11:06:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d87ce5d1e45388ab97de34188368f9863a58c437",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/d87ce5d1e45388ab97de34188368f9863a58c437",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d87ce5d1e45388ab97de34188368f9863a58c437/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3da74e6954a5e7e8830df37617c9617832bbb1c6",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/3da74e6954a5e7e8830df37617c9617832bbb1c6",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/3da74e6954a5e7e8830df37617c9617832bbb1c6"
+        }
+      ]
+    },
+    {
+      "sha": "3da74e6954a5e7e8830df37617c9617832bbb1c6",
+      "node_id": "C_kwDOLP9_q9oAKDNkYTc0ZTY5NTRhNWU3ZTg4MzBkZjM3NjE3Yzk2MTc4MzJiYmIxYzY",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-04-20T05:27:51Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-04-20T05:27:51Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "53f76678d523c7cd23ae7c26f83d40bc7d5773f2",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/53f76678d523c7cd23ae7c26f83d40bc7d5773f2"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/3da74e6954a5e7e8830df37617c9617832bbb1c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/3da74e6954a5e7e8830df37617c9617832bbb1c6",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/3da74e6954a5e7e8830df37617c9617832bbb1c6",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/3da74e6954a5e7e8830df37617c9617832bbb1c6/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "607f347df1906b95efeff6f53ce38fed4e9b4875",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/607f347df1906b95efeff6f53ce38fed4e9b4875",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/607f347df1906b95efeff6f53ce38fed4e9b4875"
+        }
+      ]
+    },
+    {
+      "sha": "607f347df1906b95efeff6f53ce38fed4e9b4875",
+      "node_id": "C_kwDOLP9_q9oAKDYwN2YzNDdkZjE5MDZiOTVlZmVmZjZmNTNjZTM4ZmVkNGU5YjQ4NzU",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-04-20T05:23:49Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-04-20T05:23:49Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "f48d3f558f8e78f6d59eff6f304422945350afee",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/f48d3f558f8e78f6d59eff6f304422945350afee"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/607f347df1906b95efeff6f53ce38fed4e9b4875",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/607f347df1906b95efeff6f53ce38fed4e9b4875",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/607f347df1906b95efeff6f53ce38fed4e9b4875",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/607f347df1906b95efeff6f53ce38fed4e9b4875/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d934fda5511c464b2d649bd2516409c9eba93d02",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d934fda5511c464b2d649bd2516409c9eba93d02",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/d934fda5511c464b2d649bd2516409c9eba93d02"
+        }
+      ]
+    },
+    {
+      "sha": "d934fda5511c464b2d649bd2516409c9eba93d02",
+      "node_id": "C_kwDOLP9_q9oAKGQ5MzRmZGE1NTExYzQ2NGIyZDY0OWJkMjUxNjQwOWM5ZWJhOTNkMDI",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-03-21T04:12:52Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-03-21T04:12:52Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "efdaf72561c0bc78497f28171ba286b0a3b606d3",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/efdaf72561c0bc78497f28171ba286b0a3b606d3"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/d934fda5511c464b2d649bd2516409c9eba93d02",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d934fda5511c464b2d649bd2516409c9eba93d02",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/d934fda5511c464b2d649bd2516409c9eba93d02",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/d934fda5511c464b2d649bd2516409c9eba93d02/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c19384c49acb75b1fd8e56c68d6e5719988677c9",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/c19384c49acb75b1fd8e56c68d6e5719988677c9",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/c19384c49acb75b1fd8e56c68d6e5719988677c9"
+        }
+      ]
+    },
+    {
+      "sha": "c19384c49acb75b1fd8e56c68d6e5719988677c9",
+      "node_id": "C_kwDOLP9_q9oAKGMxOTM4NGM0OWFjYjc1YjFmZDhlNTZjNjhkNmU1NzE5OTg4Njc3Yzk",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-03-21T04:01:21Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-03-21T04:01:21Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "17d4a1c4c0d1dcb8b0a9924ab6f1a0f4bb4d46c8",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/17d4a1c4c0d1dcb8b0a9924ab6f1a0f4bb4d46c8"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/c19384c49acb75b1fd8e56c68d6e5719988677c9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/c19384c49acb75b1fd8e56c68d6e5719988677c9",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/c19384c49acb75b1fd8e56c68d6e5719988677c9",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/c19384c49acb75b1fd8e56c68d6e5719988677c9/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d"
+        }
+      ]
+    },
+    {
+      "sha": "f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d",
+      "node_id": "C_kwDOLP9_q9oAKGY3M2I0M2ViM2Y0OGY1MzYyMGZmNzExYmE2NWViMmUzNWQzZTliMmQ",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-02-29T08:53:22Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-02-29T08:53:22Z"
+        },
+        "message": "small fix",
+        "tree": {
+          "sha": "5a6a38890cb61656078f720c6336d43f0e2f5a14",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/5a6a38890cb61656078f720c6336d43f0e2f5a14"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/f73b43eb3f48f53620ff711ba65eb2e35d3e9b2d/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a8d863782e34c7bc3dde03dce9c7f188a89c3d42",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/a8d863782e34c7bc3dde03dce9c7f188a89c3d42",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/a8d863782e34c7bc3dde03dce9c7f188a89c3d42"
+        }
+      ]
+    },
+    {
+      "sha": "a8d863782e34c7bc3dde03dce9c7f188a89c3d42",
+      "node_id": "C_kwDOLP9_q9oAKGE4ZDg2Mzc4MmUzNGM3YmMzZGRlMDNkY2U5YzdmMTg4YTg5YzNkNDI",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-02-20T03:35:30Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "kevingeng@whu.edu.cn",
+          "date": "2024-02-20T03:35:30Z"
+        },
+        "message": "fix issue #1",
+        "tree": {
+          "sha": "958ab413aa9498f2d9ecbd6db3b1193af070e04a",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/958ab413aa9498f2d9ecbd6db3b1193af070e04a"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/a8d863782e34c7bc3dde03dce9c7f188a89c3d42",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/a8d863782e34c7bc3dde03dce9c7f188a89c3d42",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/a8d863782e34c7bc3dde03dce9c7f188a89c3d42",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/a8d863782e34c7bc3dde03dce9c7f188a89c3d42/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6a1ef56b99c691c55fffaf14b1750daf00d2b2e6",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6a1ef56b99c691c55fffaf14b1750daf00d2b2e6",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/6a1ef56b99c691c55fffaf14b1750daf00d2b2e6"
+        }
+      ]
+    },
+    {
+      "sha": "6a1ef56b99c691c55fffaf14b1750daf00d2b2e6",
+      "node_id": "C_kwDOLP9_q9oAKDZhMWVmNTZiOTljNjkxYzU1ZmZmYWYxNGIxNzUwZGFmMDBkMmIyZTY",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-13T04:14:21Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-13T04:14:21Z"
+        },
+        "message": "sync",
+        "tree": {
+          "sha": "43d0605f152e0b9b8a40ed2f40362eacbbe6d3a7",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/43d0605f152e0b9b8a40ed2f40362eacbbe6d3a7"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/6a1ef56b99c691c55fffaf14b1750daf00d2b2e6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6a1ef56b99c691c55fffaf14b1750daf00d2b2e6",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/6a1ef56b99c691c55fffaf14b1750daf00d2b2e6",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/6a1ef56b99c691c55fffaf14b1750daf00d2b2e6/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "75a490535d0c33b428d4abb69e5db9a777413880",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/75a490535d0c33b428d4abb69e5db9a777413880",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/75a490535d0c33b428d4abb69e5db9a777413880"
+        }
+      ]
+    },
+    {
+      "sha": "75a490535d0c33b428d4abb69e5db9a777413880",
+      "node_id": "C_kwDOLP9_q9oAKDc1YTQ5MDUzNWQwYzMzYjQyOGQ0YWJiNjllNWRiOWE3Nzc0MTM4ODA",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-13T04:11:49Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-13T04:11:49Z"
+        },
+        "message": "update arxiv",
+        "tree": {
+          "sha": "40b1ae95ec78a3519f57cd59e0a4c6eac36909df",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/40b1ae95ec78a3519f57cd59e0a4c6eac36909df"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/75a490535d0c33b428d4abb69e5db9a777413880",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/75a490535d0c33b428d4abb69e5db9a777413880",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/75a490535d0c33b428d4abb69e5db9a777413880",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/75a490535d0c33b428d4abb69e5db9a777413880/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5d8ac639f9930528e00f024862dee7fbf80d36b2",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/5d8ac639f9930528e00f024862dee7fbf80d36b2",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/5d8ac639f9930528e00f024862dee7fbf80d36b2"
+        }
+      ]
+    },
+    {
+      "sha": "5d8ac639f9930528e00f024862dee7fbf80d36b2",
+      "node_id": "C_kwDOLP9_q9oAKDVkOGFjNjM5Zjk5MzA1MjhlMDBmMDI0ODYyZGVlN2ZiZjgwZDM2YjI",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T17:02:34Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T17:02:34Z"
+        },
+        "message": "Merge branch 'main' of github.com:sleeepeer/PoisonedRAG",
+        "tree": {
+          "sha": "b308f819f85fe3a9d0da87a5df9e399ae29cd79f",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/b308f819f85fe3a9d0da87a5df9e399ae29cd79f"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/5d8ac639f9930528e00f024862dee7fbf80d36b2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/5d8ac639f9930528e00f024862dee7fbf80d36b2",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/5d8ac639f9930528e00f024862dee7fbf80d36b2",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/5d8ac639f9930528e00f024862dee7fbf80d36b2/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c3d75af791c0b597c849a9be86db94b615c54152",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/c3d75af791c0b597c849a9be86db94b615c54152",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/c3d75af791c0b597c849a9be86db94b615c54152"
+        },
+        {
+          "sha": "2e8f46b13de67555812b776c65a7062828d97b41",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/2e8f46b13de67555812b776c65a7062828d97b41",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/2e8f46b13de67555812b776c65a7062828d97b41"
+        }
+      ]
+    },
+    {
+      "sha": "2e8f46b13de67555812b776c65a7062828d97b41",
+      "node_id": "C_kwDOLP9_q9oAKDJlOGY0NmIxM2RlNjc1NTU4MTJiNzc2YzY1YTcwNjI4MjhkOTdiNDE",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T16:59:14Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T16:59:14Z"
+        },
+        "message": "sync",
+        "tree": {
+          "sha": "b308f819f85fe3a9d0da87a5df9e399ae29cd79f",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/b308f819f85fe3a9d0da87a5df9e399ae29cd79f"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/2e8f46b13de67555812b776c65a7062828d97b41",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/2e8f46b13de67555812b776c65a7062828d97b41",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/2e8f46b13de67555812b776c65a7062828d97b41",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/2e8f46b13de67555812b776c65a7062828d97b41/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5f4be5ad430ede0d9367567c9f758f595f1caac0",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/5f4be5ad430ede0d9367567c9f758f595f1caac0",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/5f4be5ad430ede0d9367567c9f758f595f1caac0"
+        }
+      ]
+    },
+    {
+      "sha": "c3d75af791c0b597c849a9be86db94b615c54152",
+      "node_id": "C_kwDOLP9_q9oAKGMzZDc1YWY3OTFjMGI1OTdjODQ5YTliZTg2ZGI5NGI2MTVjNTQxNTI",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T16:47:34Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T16:47:34Z"
+        },
+        "message": "add code",
+        "tree": {
+          "sha": "b308f819f85fe3a9d0da87a5df9e399ae29cd79f",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/b308f819f85fe3a9d0da87a5df9e399ae29cd79f"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/c3d75af791c0b597c849a9be86db94b615c54152",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/c3d75af791c0b597c849a9be86db94b615c54152",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/c3d75af791c0b597c849a9be86db94b615c54152",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/c3d75af791c0b597c849a9be86db94b615c54152/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "94e6e242006def746ce10c49c85c44935a3774d9",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/94e6e242006def746ce10c49c85c44935a3774d9",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/94e6e242006def746ce10c49c85c44935a3774d9"
+        }
+      ]
+    },
+    {
+      "sha": "5f4be5ad430ede0d9367567c9f758f595f1caac0",
+      "node_id": "C_kwDOLP9_q9oAKDVmNGJlNWFkNDMwZWRlMGQ5MzY3NTY3YzlmNzU4ZjU5NWYxY2FhYzA",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T16:47:34Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-12T16:47:34Z"
+        },
+        "message": "add code",
+        "tree": {
+          "sha": "47ed689e848d132bd3b5a4b2086e438dab0ae7ae",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/47ed689e848d132bd3b5a4b2086e438dab0ae7ae"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/5f4be5ad430ede0d9367567c9f758f595f1caac0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/5f4be5ad430ede0d9367567c9f758f595f1caac0",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/5f4be5ad430ede0d9367567c9f758f595f1caac0",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/5f4be5ad430ede0d9367567c9f758f595f1caac0/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "94e6e242006def746ce10c49c85c44935a3774d9",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/94e6e242006def746ce10c49c85c44935a3774d9",
+          "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/94e6e242006def746ce10c49c85c44935a3774d9"
+        }
+      ]
+    },
+    {
+      "sha": "94e6e242006def746ce10c49c85c44935a3774d9",
+      "node_id": "C_kwDOLP9_q9oAKDk0ZTZlMjQyMDA2ZGVmNzQ2Y2UxMGM0OWM4NWM0NDkzNWEzNzc0ZDk",
+      "commit": {
+        "author": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-09T04:27:07Z"
+        },
+        "committer": {
+          "name": "sleeepeer",
+          "email": "1564600566@qq.com",
+          "date": "2024-02-09T04:27:07Z"
+        },
+        "message": "init commit",
+        "tree": {
+          "sha": "7936bed444f9368fb4b9ff43a4938893f0041f39",
+          "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/trees/7936bed444f9368fb4b9ff43a4938893f0041f39"
+        },
+        "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/git/commits/94e6e242006def746ce10c49c85c44935a3774d9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/94e6e242006def746ce10c49c85c44935a3774d9",
+      "html_url": "https://github.com/sleeepeer/PoisonedRAG/commit/94e6e242006def746ce10c49c85c44935a3774d9",
+      "comments_url": "https://api.github.com/repos/sleeepeer/PoisonedRAG/commits/94e6e242006def746ce10c49c85c44935a3774d9/comments",
+      "author": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sleeepeer",
+        "id": 79324989,
+        "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sleeepeer",
+        "html_url": "https://github.com/sleeepeer",
+        "followers_url": "https://api.github.com/users/sleeepeer/followers",
+        "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+        "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+        "repos_url": "https://api.github.com/users/sleeepeer/repos",
+        "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "sleeepeer",
+      "id": 79324989,
+      "node_id": "MDQ6VXNlcjc5MzI0OTg5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79324989?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sleeepeer",
+      "html_url": "https://github.com/sleeepeer",
+      "followers_url": "https://api.github.com/users/sleeepeer/followers",
+      "following_url": "https://api.github.com/users/sleeepeer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sleeepeer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sleeepeer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sleeepeer/subscriptions",
+      "organizations_url": "https://api.github.com/users/sleeepeer/orgs",
+      "repos_url": "https://api.github.com/users/sleeepeer/repos",
+      "events_url": "https://api.github.com/users/sleeepeer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sleeepeer/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 35
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 118132
+  },
+  "readme_html": "<h1 id=\"user-content-poisonedrag\">PoisonedRAG</h1>\n<p>Official repo of <a href=\"https://www.usenix.org/conference/usenixsecurity25\">USENIX Security 2025</a> paper: <a href=\"https://arxiv.org/abs/2402.07867\">PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models</a>.</p>\n<p>The first knowledge database corruption attack against Retrievals-Augmented Generation (RAG) system.</p>\n<h2 id=\"user-content--news\">🚀 News</h2>\n<p>🎉 Jun 20, 2024: <strong>PoisonedRAG gets accepted to <a href=\"https://www.usenix.org/conference/usenixsecurity25\">USENIX Security 2025</a>!</strong></p>\n<p>🔥 Apr 20, 2024: <strong>If you have any question or need other code or data, feel free to open an issue or email us!</strong></p>\n<p><img src=\"https://raw.githubusercontent.com/sleeepeer/PoisonedRAG/main/PoisonedRAG.png\" alt=\"Illustration of PoisonedRAG\" title=\"Illustration of PoisonedRAG\"></p>\n<h2 id=\"user-content--quick-usage\">🔍 Quick Usage</h2>\n<h3 id=\"user-content--setup-environment\">📃 Setup environment</h3>\n<pre><code class=\"language-bash\">conda create -n PoisonedRAG python=3.10\n</code></pre>\n<pre><code class=\"language-bash\">conda activate PoisonedRAG\n</code></pre>\n<pre><code class=\"language-bash\">pip install beir openai google-generativeai\npip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117\npip install --upgrade charset-normalizer\npip3 install \"fschat[model_worker,webui]\"\n</code></pre>\n<h3 id=\"user-content--dataset-optional-suggested\">💽 Dataset (optional, suggested)</h3>\n<p>When running our code, the datasets will be automatically downloaded and saved in <code>datasets</code>. You could also run this line to manually download datasets.</p>\n<pre><code class=\"language-bash\">python prepare_dataset.py\n</code></pre>\n<h3 id=\"user-content--set-api-key\">🔑 Set API key</h3>\n<p>If you want to use PaLM 2, GPT-3.5, GPT-4 or LLaMA-2, please enter your api key in <strong>model_configs</strong> folder.</p>\n<p>For LLaMA-2, the api key is your <strong>HuggingFace Access Tokens</strong>. You could visit <a href=\"https://huggingface.co/meta-llama/Llama-2-7b-chat-hf\">LLaMA-2's HuggingFace Page</a> first if you don't have the access token.</p>\n<p>Here is an example:</p>\n<pre><code class=\"language-json\">\"api_key_info\":{\n    \"api_keys\":[\n        \"Your api key here\"\n    ],\n    \"api_key_use\": 0\n},\n</code></pre>\n<h3 id=\"user-content--reproduce-our-results\">📝 Reproduce our results</h3>\n<p>There are some hyperparameters in <strong>run.py</strong> such as LLMs and datasets:</p>\n<p><strong>Note:</strong> Currently we provide default setting for main results in our <a href=\"https://arxiv.org/abs/2402.07867\">paper</a>. We will update and complete other settings later.</p>\n<pre><code class=\"language-python\">test_params = {\n    # beir_info\n    'eval_model_code': \"contriever\",\n    'eval_dataset': \"nq\",            # nq, hotpotqa, msmarco\n    'split': \"test\",\n    'query_results_dir': 'main',\n\n    # LLM setting\n    'model_name': 'palm2',           # palm2, gpt3.5, gpt4, llama(7b|13b), vicuna(7b|13b|33b)\n    'use_truth': False,\n    'top_k': 5,\n    'gpu_id': 0,\n\n    # attack\n    'attack_method': 'LM_targeted',  # LM_targeted (black-box), hotflip (white-box)\n    'adv_per_query': 5,\n    'score_function': 'dot',\n    'repeat_times': 10,\n    'M': 10,\n    'seed': 12,\n\n    'note': None\n}\n</code></pre>\n<p>Execute <strong>run.py</strong> to reproduce experiments.</p>\n<pre><code class=\"language-bash\">python run.py\n</code></pre>\n<h3 id=\"user-content--your-own-dataset\">🐱 Your own dataset</h3>\n<p>If you want to perform experiments on your own dataset, you could refer to <strong>evaluate_beir.py</strong>, prepare your dataset as the beir format and use this file to compute the retrieval scores.</p>\n<h2 id=\"user-content-acknowledgement\">Acknowledgement</h2>\n<ul>\n<li>Our code used the implementation of <a href=\"https://github.com/princeton-nlp/corpus-poisoning\">corpus-poisoning</a>.</li>\n<li>The model part of our code is from <a href=\"https://github.com/liu00222/Open-Prompt-Injection\">Open-Prompt-Injection</a>.</li>\n<li>Our code used <a href=\"https://github.com/beir-cellar/beir\">beir</a> benchmark.</li>\n<li>Our code used <a href=\"https://github.com/facebookresearch/contriever\">contriever</a> for retrieval augmented generation (RAG).</li>\n</ul>\n<h2 id=\"user-content-citation\">Citation</h2>\n<p>If you use this code, please cite the following <a href=\"https://arxiv.org/abs/2402.07867\">paper</a>:</p>\n<pre><code class=\"language-bib\">@inproceedings{zou2025poisonedrag,\n  title={$\\{$PoisonedRAG$\\}$: Knowledge corruption attacks to $\\{$Retrieval-Augmented$\\}$ generation of large language models},\n  author={Zou, Wei and Geng, Runpeng and Wang, Binghui and Jia, Jinyuan},\n  booktitle={34th USENIX Security Symposium (USENIX Security 25)},\n  pages={3827--3844},\n  year={2025}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:16:42.695Z"
+}

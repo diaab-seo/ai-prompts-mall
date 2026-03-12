@@ -1,0 +1,83 @@
+/* theme.css — Light/dark color palette tokens (Section 7.3) */
+/* Switched via [data-theme="dark"] on <html> element */
+
+:root,
+[data-theme="light"] {
+  /* Backgrounds */
+  --color-bg: #ffffff;
+  --color-surface: #f8fafc;
+  --color-surface-2: #f1f5f9;
+
+  /* Borders */
+  --color-border: #e2e8f0;
+
+  /* Text */
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+
+  /* Accent (Indigo) */
+  --color-accent: #6366f1;
+  --color-accent-light: #eef2ff;
+
+  /* Status */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* Code */
+  --color-code-bg: #1e293b;
+  --color-code-text: #a5b4fc;
+
+  /* Sparkline */
+  --sparkline-fill: #6366f1;
+}
+
+[data-theme="dark"] {
+  /* Backgrounds */
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-surface-2: #273549;
+
+  /* Borders */
+  --color-border: #334155;
+
+  /* Text */
+  --color-text: #f8fafc;
+  --color-text-muted: #94a3b8;
+
+  /* Accent */
+  --color-accent: #818cf8;
+  --color-accent-light: #1e1b4b;
+
+  /* Status */
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+
+  /* Code */
+  --color-code-bg: #0f172a;
+  --color-code-text: #c4b5fd;
+
+  /* Sparkline */
+  --sparkline-fill: #818cf8;
+}
+
+/* System preference fallback — no JS required */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-surface-2: #273549;
+    --color-border: #334155;
+    --color-text: #f8fafc;
+    --color-text-muted: #94a3b8;
+    --color-accent: #818cf8;
+    --color-accent-light: #1e1b4b;
+    --color-success: #34d399;
+    --color-warning: #fbbf24;
+    --color-danger: #f87171;
+    --color-code-bg: #0f172a;
+    --color-code-text: #c4b5fd;
+    --sparkline-fill: #818cf8;
+  }
+}

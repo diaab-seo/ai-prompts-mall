@@ -1,0 +1,187 @@
+---
+import GlobalNav from '../components/navigation/GlobalNav.astro';
+import FooterConditional from '../components/navigation/FooterConditional.astro';
+import MetaTags from '../components/seo/MetaTags.astro';
+import BackToTop from '../components/ui/BackToTop.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+  ogType?: string;
+  twitterCard?: 'summary' | 'summary_large_image';
+  robots?: string;
+  pageType?: string;
+  /** Extra JSON-LD schemas to inject in <head> */
+  schemas?: object[];
+}
+
+const {
+  title,
+  description = 'Discover the best open-source AI tools, LLMs, agents, and frameworks on GitHub — curated, ranked by stars, and updated continuously.',
+  canonical = Astro.url.href.replace(/\/$/, ''),
+  ogImage,
+  ogType = 'website',
+  twitterCard = 'summary',
+  robots = 'index, follow',
+  pageType = 'homepage',
+  schemas = [],
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Tag Manager -->
+    <script is:inline>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MKG9NWGD');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Prevent FOUT — read theme before first paint -->
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme-preference');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = stored === 'light' || stored === 'dark' ? stored : prefersDark ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <MetaTags
+      title={title}
+      description={description}
+      canonical={canonical}
+      ogType={ogType}
+      ogImage={ogImage}
+      twitterCard={twitterCard}
+      robots={robots}
+    />
+
+    <!-- JSON-LD schemas -->
+    {schemas.map((schema) => (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    ))}
+
+    <!-- Fonts: Inter + JetBrains Mono (display=swap for perf) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Global styles -->
+    <style is:global>
+      @import url('/src/styles/theme.css');
+      @import url('/src/styles/typography.css');
+      @import url('/src/styles/global.css');
+    </style>
+
+    <!-- Page-specific head content (extra meta, preloads, etc.) -->
+    <slot name="head" />
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKG9NWGD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Accessibility: first focusable element -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#search" class="skip-link">Skip to search</a>
+
+    <GlobalNav />
+
+    <main id="main-content" tabindex="-1">
+      <slot />
+    </main>
+
+    <FooterConditional pageType={pageType} />
+    <BackToTop />
+
+    <!-- Theme-change aria-live region -->
+    <div id="theme-announce" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+  </body>
+</html>
+
+<style is:global>
+  /* ── Reset & tokens ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    font-family: var(--font-sans, system-ui, sans-serif);
+    font-size: var(--text-base, 1rem);
+    line-height: var(--leading-body, 1.7);
+    color: var(--color-text, #0f172a);
+    background: var(--color-bg, #fff);
+    min-height: 100dvh;
+  }
+
+  img, svg { display: block; max-width: 100%; }
+
+  a { color: var(--color-accent, #6366f1); text-underline-offset: 3px; }
+  a:hover { opacity: 0.85; }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent, #6366f1);
+    outline-offset: 2px;
+    border-radius: 3px;
+  }
+
+  .sr-only {
+    position: absolute; width: 1px; height: 1px;
+    padding: 0; margin: -1px; overflow: hidden;
+    clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+  }
+
+  .skip-link {
+    position: absolute; left: -9999px; top: auto;
+    width: 1px; height: 1px; overflow: hidden; z-index: 9999;
+  }
+  .skip-link:focus-visible {
+    position: fixed; top: 1rem; left: 1rem;
+    width: auto; height: auto;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-accent, #6366f1);
+    color: #fff; border-radius: 6px;
+    font-weight: 700; font-size: 0.875rem;
+    text-decoration: none;
+    outline: 2px solid #fff; outline-offset: 2px;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: clamp(1rem, 4vw, 2.5rem);
+  }
+</style>

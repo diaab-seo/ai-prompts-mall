@@ -1,0 +1,970 @@
+{
+  "id": 922596686,
+  "node_id": "R_kgDONv21Tg",
+  "name": "deepreasoning",
+  "full_name": "winfunc/deepreasoning",
+  "private": false,
+  "owner": {
+    "login": "winfunc",
+    "id": 176251414,
+    "node_id": "O_kgDOCoFiFg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/176251414?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/winfunc",
+    "html_url": "https://github.com/winfunc",
+    "followers_url": "https://api.github.com/users/winfunc/followers",
+    "following_url": "https://api.github.com/users/winfunc/following{/other_user}",
+    "gists_url": "https://api.github.com/users/winfunc/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/winfunc/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/winfunc/subscriptions",
+    "organizations_url": "https://api.github.com/users/winfunc/orgs",
+    "repos_url": "https://api.github.com/users/winfunc/repos",
+    "events_url": "https://api.github.com/users/winfunc/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/winfunc/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/winfunc/deepreasoning",
+  "description": "A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models.",
+  "fork": false,
+  "url": "https://api.github.com/repos/winfunc/deepreasoning",
+  "forks_url": "https://api.github.com/repos/winfunc/deepreasoning/forks",
+  "keys_url": "https://api.github.com/repos/winfunc/deepreasoning/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/winfunc/deepreasoning/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/winfunc/deepreasoning/teams",
+  "hooks_url": "https://api.github.com/repos/winfunc/deepreasoning/hooks",
+  "issue_events_url": "https://api.github.com/repos/winfunc/deepreasoning/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/winfunc/deepreasoning/events",
+  "assignees_url": "https://api.github.com/repos/winfunc/deepreasoning/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/winfunc/deepreasoning/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/winfunc/deepreasoning/tags",
+  "blobs_url": "https://api.github.com/repos/winfunc/deepreasoning/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/winfunc/deepreasoning/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/winfunc/deepreasoning/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/winfunc/deepreasoning/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/winfunc/deepreasoning/languages",
+  "stargazers_url": "https://api.github.com/repos/winfunc/deepreasoning/stargazers",
+  "contributors_url": "https://api.github.com/repos/winfunc/deepreasoning/contributors",
+  "subscribers_url": "https://api.github.com/repos/winfunc/deepreasoning/subscribers",
+  "subscription_url": "https://api.github.com/repos/winfunc/deepreasoning/subscription",
+  "commits_url": "https://api.github.com/repos/winfunc/deepreasoning/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/winfunc/deepreasoning/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/winfunc/deepreasoning/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/winfunc/deepreasoning/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/winfunc/deepreasoning/merges",
+  "archive_url": "https://api.github.com/repos/winfunc/deepreasoning/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/winfunc/deepreasoning/downloads",
+  "issues_url": "https://api.github.com/repos/winfunc/deepreasoning/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/winfunc/deepreasoning/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/winfunc/deepreasoning/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/winfunc/deepreasoning/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/winfunc/deepreasoning/labels{/name}",
+  "releases_url": "https://api.github.com/repos/winfunc/deepreasoning/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/winfunc/deepreasoning/deployments",
+  "created_at": "2025-01-26T16:25:41Z",
+  "updated_at": "2026-03-11T13:58:27Z",
+  "pushed_at": "2025-10-07T05:28:22Z",
+  "git_url": "git://github.com/winfunc/deepreasoning.git",
+  "ssh_url": "git@github.com:winfunc/deepreasoning.git",
+  "clone_url": "https://github.com/winfunc/deepreasoning.git",
+  "svn_url": "https://github.com/winfunc/deepreasoning",
+  "homepage": "",
+  "size": 723,
+  "stargazers_count": 5369,
+  "watchers_count": 5369,
+  "language": "Rust",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 442,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 54,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "anthropic",
+    "anthropic-claude",
+    "api",
+    "chain-of-thought",
+    "claude",
+    "deepseek",
+    "deepseek-r1",
+    "llm",
+    "rust"
+  ],
+  "visibility": "public",
+  "forks": 442,
+  "open_issues": 54,
+  "watchers": 5369,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "prompt-engineering",
+  "commits": [
+    {
+      "sha": "eaf390c06c9c27ae8a7fe0ad4c047ba1ef2bb083",
+      "node_id": "C_kwDONv21TtoAKGVhZjM5MGMwNmM5YzI3YWU4YTdmZTBhZDRjMDQ3YmExZWYyYmIwODM",
+      "commit": {
+        "author": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:47Z"
+        },
+        "committer": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:47Z"
+        },
+        "message": "docs: rebrand from DeepClaude to DeepReasoning\n\n- Update README.md with new project name, URLs, and assets\n- Add disclaimer about Anthropic trademark\n- Update CONTRIBUTING.md with new repository references",
+        "tree": {
+          "sha": "0c3b1e38c9b3fc37442ac45b9f09a4aadf38f35c",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/0c3b1e38c9b3fc37442ac45b9f09a4aadf38f35c"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/eaf390c06c9c27ae8a7fe0ad4c047ba1ef2bb083",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/eaf390c06c9c27ae8a7fe0ad4c047ba1ef2bb083",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/eaf390c06c9c27ae8a7fe0ad4c047ba1ef2bb083",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/eaf390c06c9c27ae8a7fe0ad4c047ba1ef2bb083/comments",
+      "author": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "41ff289818e7b2f21a18b73a013c9d38cb34dddf",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/41ff289818e7b2f21a18b73a013c9d38cb34dddf",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/41ff289818e7b2f21a18b73a013c9d38cb34dddf"
+        }
+      ]
+    },
+    {
+      "sha": "41ff289818e7b2f21a18b73a013c9d38cb34dddf",
+      "node_id": "C_kwDONv21TtoAKDQxZmYyODk4MThlN2IyZjIxYTE4YjczYTAxM2M5ZDM4Y2IzNGRkZGY",
+      "commit": {
+        "author": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:42Z"
+        },
+        "committer": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:42Z"
+        },
+        "message": "refactor: replace DeepClaude branding assets with DeepReasoning\n\n- Remove deepclaude.ico and deepclaude.png\n- Add deepreasoning.ico and deepreasoning.png",
+        "tree": {
+          "sha": "e53b99b37d3c458c5fd7a9f0ac50af9c87d5198a",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/e53b99b37d3c458c5fd7a9f0ac50af9c87d5198a"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/41ff289818e7b2f21a18b73a013c9d38cb34dddf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/41ff289818e7b2f21a18b73a013c9d38cb34dddf",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/41ff289818e7b2f21a18b73a013c9d38cb34dddf",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/41ff289818e7b2f21a18b73a013c9d38cb34dddf/comments",
+      "author": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b130246434a04e843cb6d7018b63d19f4230ef53",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/b130246434a04e843cb6d7018b63d19f4230ef53",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/b130246434a04e843cb6d7018b63d19f4230ef53"
+        }
+      ]
+    },
+    {
+      "sha": "b130246434a04e843cb6d7018b63d19f4230ef53",
+      "node_id": "C_kwDONv21TtoAKGIxMzAyNDY0MzRhMDRlODQzY2I2ZDcwMThiNjNkMTlmNDIzMGVmNTM",
+      "commit": {
+        "author": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:21Z"
+        },
+        "committer": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:21Z"
+        },
+        "message": "refactor: rebrand from DeepClaude to DeepReasoning in frontend\n\nUpdate project name and references across frontend:\n- Update page titles, metadata, and UI text\n- Update API endpoint URLs from api.deepclaude.com to api.deepreasoning.com\n- Update localStorage keys for settings and chat history\n- Update image references and alt text\n- Update GitHub repository URLs\n- Rebuild dependencies (bun.lockb)",
+        "tree": {
+          "sha": "8199fe91d8e216ee39b34c373e5b29c00a0356b4",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/8199fe91d8e216ee39b34c373e5b29c00a0356b4"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/b130246434a04e843cb6d7018b63d19f4230ef53",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/b130246434a04e843cb6d7018b63d19f4230ef53",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/b130246434a04e843cb6d7018b63d19f4230ef53",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/b130246434a04e843cb6d7018b63d19f4230ef53/comments",
+      "author": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e7cd1f5591fc39c77944c21b59eab996654bcc78",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/e7cd1f5591fc39c77944c21b59eab996654bcc78",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/e7cd1f5591fc39c77944c21b59eab996654bcc78"
+        }
+      ]
+    },
+    {
+      "sha": "e7cd1f5591fc39c77944c21b59eab996654bcc78",
+      "node_id": "C_kwDONv21TtoAKGU3Y2QxZjU1OTFmYzM5Yzc3OTQ0YzIxYjU5ZWFiOTk2NjU0YmNjNzg",
+      "commit": {
+        "author": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:14Z"
+        },
+        "committer": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-10-07T05:27:14Z"
+        },
+        "message": "refactor: rebrand from DeepClaude to DeepReasoning in backend\n\nUpdate project name and references across backend codebase:\n- Rename package from deepclaude to deepreasoning in Cargo.toml\n- Update binary name and environment variables in Dockerfile\n- Update container names and network in docker-compose.yml\n- Update module documentation and example code references\n- Update logging namespace",
+        "tree": {
+          "sha": "6a543a4d1d6e598ed48682c13c23180c4d245c1e",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/6a543a4d1d6e598ed48682c13c23180c4d245c1e"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/e7cd1f5591fc39c77944c21b59eab996654bcc78",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/e7cd1f5591fc39c77944c21b59eab996654bcc78",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/e7cd1f5591fc39c77944c21b59eab996654bcc78",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/e7cd1f5591fc39c77944c21b59eab996654bcc78/comments",
+      "author": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7"
+        }
+      ]
+    },
+    {
+      "sha": "17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7",
+      "node_id": "C_kwDONv21TtoAKDE3YThmYzg5MTA1NmUxYzJlMGIyNDVjZTRiMjM2M2Y4YzRlYmRjZjc",
+      "commit": {
+        "author": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-05-21T11:58:12Z"
+        },
+        "committer": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-05-21T11:58:12Z"
+        },
+        "message": "feat: integrate chibi for user behaviour analysis",
+        "tree": {
+          "sha": "e0a5ea6a580da678c8de1b9095bb9865b9735c15",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/e0a5ea6a580da678c8de1b9095bb9865b9735c15"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/17a8fc891056e1c2e0b245ce4b2363f8c4ebdcf7/comments",
+      "author": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ebf8d369abcd2f4b9056d4857ca2ef7980537749",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/ebf8d369abcd2f4b9056d4857ca2ef7980537749",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/ebf8d369abcd2f4b9056d4857ca2ef7980537749"
+        }
+      ]
+    },
+    {
+      "sha": "ebf8d369abcd2f4b9056d4857ca2ef7980537749",
+      "node_id": "C_kwDONv21TtoAKGViZjhkMzY5YWJjZDJmNGI5MDU2ZDQ4NTdjYTJlZjc5ODA1Mzc3NDk",
+      "commit": {
+        "author": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-02-04T22:55:47Z"
+        },
+        "committer": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-02-04T22:55:47Z"
+        },
+        "message": "remove citations to aider's benchmarks (#13)",
+        "tree": {
+          "sha": "5b816042d5f535e1e9895e092ee185015f212193",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/5b816042d5f535e1e9895e092ee185015f212193"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/ebf8d369abcd2f4b9056d4857ca2ef7980537749",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/ebf8d369abcd2f4b9056d4857ca2ef7980537749",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/ebf8d369abcd2f4b9056d4857ca2ef7980537749",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/ebf8d369abcd2f4b9056d4857ca2ef7980537749/comments",
+      "author": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a02c9ea55287a65c5beca74b37c8b63912cd0d86",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/a02c9ea55287a65c5beca74b37c8b63912cd0d86",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/a02c9ea55287a65c5beca74b37c8b63912cd0d86"
+        }
+      ]
+    },
+    {
+      "sha": "a02c9ea55287a65c5beca74b37c8b63912cd0d86",
+      "node_id": "C_kwDONv21TtoAKGEwMmM5ZWE1NTI4N2E2NWM1YmVjYTc0YjM3YzhiNjM5MTJjZDBkODY",
+      "commit": {
+        "author": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-01-26T19:57:50Z"
+        },
+        "committer": {
+          "name": "Vivek R",
+          "email": "123vivekr@gmail.com",
+          "date": "2025-01-26T20:01:15Z"
+        },
+        "message": "ui: update model names",
+        "tree": {
+          "sha": "f508559da1637f7f15b0c87b66b9f401f6f7e0e4",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/f508559da1637f7f15b0c87b66b9f401f6f7e0e4"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/a02c9ea55287a65c5beca74b37c8b63912cd0d86",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/a02c9ea55287a65c5beca74b37c8b63912cd0d86",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/a02c9ea55287a65c5beca74b37c8b63912cd0d86",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/a02c9ea55287a65c5beca74b37c8b63912cd0d86/comments",
+      "author": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "123vivekr",
+        "id": 28249428,
+        "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/123vivekr",
+        "html_url": "https://github.com/123vivekr",
+        "followers_url": "https://api.github.com/users/123vivekr/followers",
+        "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+        "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+        "repos_url": "https://api.github.com/users/123vivekr/repos",
+        "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e216c119390de522c8e66fdeb7ea7a9653156934",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/e216c119390de522c8e66fdeb7ea7a9653156934",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/e216c119390de522c8e66fdeb7ea7a9653156934"
+        }
+      ]
+    },
+    {
+      "sha": "e216c119390de522c8e66fdeb7ea7a9653156934",
+      "node_id": "C_kwDONv21TtoAKGUyMTZjMTE5MzkwZGU1MjJjOGU2NmZkZWI3ZWE3YTk2NTMxNTY5MzQ",
+      "commit": {
+        "author": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-01-26T18:04:50Z"
+        },
+        "committer": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-01-26T18:04:50Z"
+        },
+        "message": "fix: make api proxy errors respond with `BAD_REQUEST`",
+        "tree": {
+          "sha": "52c48b6b58bcf5f7e961e8d8f67a627437793d38",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/52c48b6b58bcf5f7e961e8d8f67a627437793d38"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/e216c119390de522c8e66fdeb7ea7a9653156934",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/e216c119390de522c8e66fdeb7ea7a9653156934",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/e216c119390de522c8e66fdeb7ea7a9653156934",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/e216c119390de522c8e66fdeb7ea7a9653156934/comments",
+      "author": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "247f42d3140c4c22321ae5e84eed82b6a224808d",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/247f42d3140c4c22321ae5e84eed82b6a224808d",
+          "html_url": "https://github.com/winfunc/deepreasoning/commit/247f42d3140c4c22321ae5e84eed82b6a224808d"
+        }
+      ]
+    },
+    {
+      "sha": "247f42d3140c4c22321ae5e84eed82b6a224808d",
+      "node_id": "C_kwDONv21TtoAKDI0N2Y0MmQzMTQwYzRjMjIzMjFhZTVlODRlZWQ4MmI2YTIyNDgwOGQ",
+      "commit": {
+        "author": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-01-26T16:26:15Z"
+        },
+        "committer": {
+          "name": "Mufeed VH",
+          "email": "mufeedvh@gmail.com",
+          "date": "2025-01-26T16:26:15Z"
+        },
+        "message": "init repo: upload source",
+        "tree": {
+          "sha": "a00c708bfe9d2770b0e0bfeefa67fb700476a5be",
+          "url": "https://api.github.com/repos/winfunc/deepreasoning/git/trees/a00c708bfe9d2770b0e0bfeefa67fb700476a5be"
+        },
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/git/commits/247f42d3140c4c22321ae5e84eed82b6a224808d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/commits/247f42d3140c4c22321ae5e84eed82b6a224808d",
+      "html_url": "https://github.com/winfunc/deepreasoning/commit/247f42d3140c4c22321ae5e84eed82b6a224808d",
+      "comments_url": "https://api.github.com/repos/winfunc/deepreasoning/commits/247f42d3140c4c22321ae5e84eed82b6a224808d/comments",
+      "author": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "123vivekr",
+      "id": 28249428,
+      "node_id": "MDQ6VXNlcjI4MjQ5NDI4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28249428?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/123vivekr",
+      "html_url": "https://github.com/123vivekr",
+      "followers_url": "https://api.github.com/users/123vivekr/followers",
+      "following_url": "https://api.github.com/users/123vivekr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/123vivekr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/123vivekr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/123vivekr/subscriptions",
+      "organizations_url": "https://api.github.com/users/123vivekr/orgs",
+      "repos_url": "https://api.github.com/users/123vivekr/repos",
+      "events_url": "https://api.github.com/users/123vivekr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/123vivekr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 5
+    },
+    {
+      "login": "mufeedvh",
+      "id": 26198477,
+      "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mufeedvh",
+      "html_url": "https://github.com/mufeedvh",
+      "followers_url": "https://api.github.com/users/mufeedvh/followers",
+      "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+      "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+      "repos_url": "https://api.github.com/users/mufeedvh/repos",
+      "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 4
+    }
+  ],
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/winfunc/deepreasoning/releases/196831251",
+      "assets_url": "https://api.github.com/repos/winfunc/deepreasoning/releases/196831251/assets",
+      "upload_url": "https://uploads.github.com/repos/winfunc/deepreasoning/releases/196831251/assets{?name,label}",
+      "html_url": "https://github.com/winfunc/deepreasoning/releases/tag/0.1.0",
+      "id": 196831251,
+      "author": {
+        "login": "mufeedvh",
+        "id": 26198477,
+        "node_id": "MDQ6VXNlcjI2MTk4NDc3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26198477?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mufeedvh",
+        "html_url": "https://github.com/mufeedvh",
+        "followers_url": "https://api.github.com/users/mufeedvh/followers",
+        "following_url": "https://api.github.com/users/mufeedvh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mufeedvh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mufeedvh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mufeedvh/subscriptions",
+        "organizations_url": "https://api.github.com/users/mufeedvh/orgs",
+        "repos_url": "https://api.github.com/users/mufeedvh/repos",
+        "events_url": "https://api.github.com/users/mufeedvh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mufeedvh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDONv21Ts4Lu2gT",
+      "tag_name": "0.1.0",
+      "target_commitish": "main",
+      "name": "v0.1.0",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2025-01-26T16:26:15Z",
+      "updated_at": "2025-01-26T16:51:40Z",
+      "published_at": "2025-01-26T16:51:28Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/winfunc/deepreasoning/tarball/0.1.0",
+      "zipball_url": "https://api.github.com/repos/winfunc/deepreasoning/zipball/0.1.0",
+      "body": "## v0.1.0 Release :tada:\r\n\r\n**Full Changelog**: https://github.com/getAsterisk/deepclaude/commits/0.1.0",
+      "reactions": {
+        "url": "https://api.github.com/repos/winfunc/deepreasoning/releases/196831251/reactions",
+        "total_count": 1,
+        "+1": 1,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      }
+    }
+  ],
+  "languages": {
+    "Rust": 79337
+  },
+  "readme_html": "<p>Harness the power of DeepSeek R1's reasoning and Claude's creativity and code generation capabilities with a unified API and chat interface.</p>\n<p><a href=\"https://github.com/getasterisk/deepreasoning/blob/main/LICENSE.md\"><img src=\"https://img.shields.io/github/license/getasterisk/deepreasoning\" alt=\"GitHub license\"></a>\n<a href=\"https://www.rust-lang.org/\"><img src=\"https://img.shields.io/badge/rust-v1.75%2B-orange\" alt=\"Rust\"></a>\n<a href=\"https://deepreasoning.asterisk.so\"><img src=\"https://img.shields.io/badge/API-Stable-green\" alt=\"API Status\"></a></p>\n<p><a href=\"#getting-started\">Getting Started</a> •\n<a href=\"#features\">Features</a> •\n<a href=\"#api-usage\">API Usage</a> •\n<a href=\"#documentation\">Documentation</a> •\n<a href=\"#self-hosting\">Self-Hosting</a> •\n<a href=\"#contributing\">Contributing</a></p>\n<hr>\n<blockquote>\n<p>[!NOTE]\n<strong>Disclaimer:</strong> This project is not affiliated with, endorsed by, or sponsored by Anthropic. Claude is a trademark of Anthropic, PBC. This is an independent developer project using Claude.</p>\n</blockquote>\n<h2 id=\"user-content-table-of-contents\">Table of Contents</h2>\n<ul>\n<li><a href=\"#overview\">Overview</a></li>\n<li><a href=\"#features\">Features</a></li>\n<li><a href=\"#why-r1--claude\">Why R1 + Claude?</a></li>\n<li><a href=\"#getting-started\">Getting Started</a>\n<ul>\n<li><a href=\"#prerequisites\">Prerequisites</a></li>\n<li><a href=\"#installation\">Installation</a></li>\n<li><a href=\"#configuration\">Configuration</a></li>\n</ul>\n</li>\n<li><a href=\"#api-usage\">API Usage</a>\n<ul>\n<li><a href=\"#basic-example\">Basic Example</a></li>\n<li><a href=\"#streaming-example\">Streaming Example</a></li>\n</ul>\n</li>\n<li><a href=\"#configuration-options\">Configuration Options</a></li>\n<li><a href=\"#self-hosting\">Self-Hosting</a></li>\n<li><a href=\"#security\">Security</a></li>\n<li><a href=\"#contributing\">Contributing</a></li>\n<li><a href=\"#license\">License</a></li>\n<li><a href=\"#acknowledgments\">Acknowledgments</a></li>\n</ul>\n<h2 id=\"user-content-overview\">Overview</h2>\n<p>DeepReasoning is a high-performance LLM inference API that combines DeepSeek R1's Chain of Thought (CoT) reasoning capabilities with Anthropic Claude's creative and code generation prowess. It provides a unified interface for leveraging the strengths of both models while maintaining complete control over your API keys and data.</p>\n<h2 id=\"user-content-features\">Features</h2>\n<p>🚀 <strong>Zero Latency</strong> - Instant responses with R1's CoT followed by Claude's response in a single stream, powered by a high-performance Rust API</p>\n<p>🔒 <strong>Private &#x26; Secure</strong> - End-to-end security with local API key management. Your data stays private</p>\n<p>⚙️ <strong>Highly Configurable</strong> - Customize every aspect of the API and interface to match your needs</p>\n<p>🌟 <strong>Open Source</strong> - Free and open-source codebase. Contribute, modify, and deploy as you wish</p>\n<p>🤖 <strong>Dual AI Power</strong> - Combine DeepSeek R1's reasoning with Claude's creativity and code generation</p>\n<p>🔑 <strong>Managed BYOK API</strong> - Use your own API keys with our managed infrastructure for complete control</p>\n<h2 id=\"user-content-why-r1--claude\">Why R1 + Claude?</h2>\n<p>DeepSeek R1's CoT trace demonstrates deep reasoning to the point of an LLM experiencing \"metacognition\" - correcting itself, thinking about edge cases, and performing quasi Monte Carlo Tree Search in natural language.</p>\n<p>However, R1 lacks in code generation, creativity, and conversational skills. Claude 3.5 Sonnet excels in these areas, making it the perfect complement. DeepReasoning combines both models to provide:</p>\n<ul>\n<li>R1's exceptional reasoning and problem-solving capabilities</li>\n<li>Claude's superior code generation and creativity</li>\n<li>Fast streaming responses in a single API call</li>\n<li>Complete control with your own API keys</li>\n</ul>\n<h2 id=\"user-content-getting-started\">Getting Started</h2>\n<h3 id=\"user-content-prerequisites\">Prerequisites</h3>\n<ul>\n<li>Rust 1.75 or higher</li>\n<li>DeepSeek API key</li>\n<li>Anthropic API key</li>\n</ul>\n<h3 id=\"user-content-installation\">Installation</h3>\n<ol>\n<li>Clone the repository:</li>\n</ol>\n<pre><code class=\"language-bash\">git clone https://github.com/getasterisk/deepreasoning.git\ncd deepreasoning\n</code></pre>\n<ol start=\"2\">\n<li>Build the project:</li>\n</ol>\n<pre><code class=\"language-bash\">cargo build --release\n</code></pre>\n<h3 id=\"user-content-configuration\">Configuration</h3>\n<p>Create a <code>config.toml</code> file in the project root:</p>\n<pre><code class=\"language-toml\">[server]\nhost = \"127.0.0.1\"\nport = 3000\n\n[pricing]\n# Configure pricing settings for usage tracking\n</code></pre>\n<h2 id=\"user-content-api-usage\">API Usage</h2>\n<p>See <a href=\"https://deepreasoning.chat\">API Docs</a></p>\n<h3 id=\"user-content-basic-example\">Basic Example</h3>\n<pre><code class=\"language-python\">import requests\n\nresponse = requests.post(\n    \"http://127.0.0.1:1337/\",\n    headers={\n        \"X-DeepSeek-API-Token\": \"&#x3C;YOUR_DEEPSEEK_API_KEY>\",\n        \"X-Anthropic-API-Token\": \"&#x3C;YOUR_ANTHROPIC_API_KEY>\"\n    },\n    json={\n        \"messages\": [\n            {\"role\": \"user\", \"content\": \"How many 'r's in the word 'strawberry'?\"}\n        ]\n    }\n)\n\nprint(response.json())\n</code></pre>\n<h3 id=\"user-content-streaming-example\">Streaming Example</h3>\n<pre><code class=\"language-python\">import asyncio\nimport json\nimport httpx\n\nasync def stream_response():\n    async with httpx.AsyncClient() as client:\n        async with client.stream(\n            \"POST\",\n            \"http://127.0.0.1:1337/\",\n            headers={\n                \"X-DeepSeek-API-Token\": \"&#x3C;YOUR_DEEPSEEK_API_KEY>\",\n                \"X-Anthropic-API-Token\": \"&#x3C;YOUR_ANTHROPIC_API_KEY>\"\n            },\n            json={\n                \"stream\": True,\n                \"messages\": [\n                    {\"role\": \"user\", \"content\": \"How many 'r's in the word 'strawberry'?\"}\n                ]\n            }\n        ) as response:\n            response.raise_for_status()\n            async for line in response.aiter_lines():\n                if line:\n                    if line.startswith('data: '):\n                        data = line[6:]\n                        try:\n                            parsed_data = json.loads(data)\n                            if 'content' in parsed_data:\n                                content = parsed_data.get('content', '')[0]['text']\n                                print(content, end='',flush=True)\n                            else:\n                                print(data, flush=True)\n                        except json.JSONDecodeError:\n                            pass\n\nif __name__ == \"__main__\":\n    asyncio.run(stream_response())\n</code></pre>\n<h2 id=\"user-content-configuration-options\">Configuration Options</h2>\n<p>The API supports extensive configuration through the request body:</p>\n<pre><code class=\"language-json\">{\n    \"stream\": false,\n    \"verbose\": false,\n    \"system\": \"Optional system prompt\",\n    \"messages\": [...],\n    \"deepseek_config\": {\n        \"headers\": {},\n        \"body\": {}\n    },\n    \"anthropic_config\": {\n        \"headers\": {},\n        \"body\": {}\n    }\n}\n</code></pre>\n<h2 id=\"user-content-self-hosting\">Self-Hosting</h2>\n<p>DeepReasoning can be self-hosted on your own infrastructure. Follow these steps:</p>\n<ol>\n<li>Configure environment variables or <code>config.toml</code></li>\n<li>Build the Docker image or compile from source</li>\n<li>Deploy to your preferred hosting platform</li>\n</ol>\n<h2 id=\"user-content-security\">Security</h2>\n<ul>\n<li>No data storage or logged</li>\n<li>BYOK (Bring Your Own Keys) architecture</li>\n<li>Regular security audits and updates</li>\n</ul>\n<h2 id=\"user-content-contributing\">Contributing</h2>\n<p>We welcome contributions! Please see our <a href=\"CONTRIBUTING.md\">Contributing Guidelines</a> for details on:</p>\n<ul>\n<li>Code of Conduct</li>\n<li>Development process</li>\n<li>Submitting pull requests</li>\n<li>Reporting issues</li>\n</ul>\n<h2 id=\"user-content-license\">License</h2>\n<p>This project is licensed under the MIT License - see the <a href=\"LICENSE.md\">LICENSE</a> file for details.</p>\n<h2 id=\"user-content-acknowledgments\">Acknowledgments</h2>\n<p>DeepReasoning is a free and open-source project by <a href=\"https://asterisk.so/\">Asterisk</a>. Special thanks to:</p>\n<ul>\n<li>DeepSeek for their incredible R1 model</li>\n<li>Anthropic for Claude's capabilities</li>\n<li>The open-source community for their continuous support</li>\n</ul>\n<hr>",
+  "_fetched_at": "2026-03-11T18:03:26.202Z"
+}

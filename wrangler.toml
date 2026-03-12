@@ -1,0 +1,11 @@
+name = "aipromptmall-shop"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+[vars]
+SITE_URL = "https://aipromptsmall.shop"
+
+# GITHUB_TOKEN is a secret — set via:
+#   wrangler secret put GITHUB_TOKEN
+# or via the Cloudflare Pages dashboard under Settings > Environment Variables.
+# Never commit .env or the token value itself.

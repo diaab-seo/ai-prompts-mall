@@ -1,0 +1,1714 @@
+{
+  "id": 1016578579,
+  "node_id": "R_kgDOPJfCEw",
+  "name": "ai-code-helper",
+  "full_name": "liyupi/ai-code-helper",
+  "private": false,
+  "owner": {
+    "login": "liyupi",
+    "id": 26037703,
+    "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/liyupi",
+    "html_url": "https://github.com/liyupi",
+    "followers_url": "https://api.github.com/users/liyupi/followers",
+    "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+    "organizations_url": "https://api.github.com/users/liyupi/orgs",
+    "repos_url": "https://api.github.com/users/liyupi/repos",
+    "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/liyupi/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/liyupi/ai-code-helper",
+  "description": "2025 年 AI 编程助手实战项目（作者：程序员鱼皮），基于 Spring Boot 3.5 + Java 21 + LangChain4j + AI 构建智能编程学习与求职辅导机器人，覆盖 AI 大模型接入、LangChain4j 核心特性、流式对话、Prompt 工程、RAG 检索增强、向量数据库、Tool Calling 工具调用、MCP 模型上下文协议、Web 爬虫、安全防护、Vue.js 前端开发、SSE 服务端推送等企业级 AI 应用开发技术。帮助开发者掌握 AI 时代必备技能，熟悉 LangChain 框架，提升编程学习效率和求职竞争力，成为企业需要的 AI 全栈开发人才。",
+  "fork": false,
+  "url": "https://api.github.com/repos/liyupi/ai-code-helper",
+  "forks_url": "https://api.github.com/repos/liyupi/ai-code-helper/forks",
+  "keys_url": "https://api.github.com/repos/liyupi/ai-code-helper/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/liyupi/ai-code-helper/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/liyupi/ai-code-helper/teams",
+  "hooks_url": "https://api.github.com/repos/liyupi/ai-code-helper/hooks",
+  "issue_events_url": "https://api.github.com/repos/liyupi/ai-code-helper/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/liyupi/ai-code-helper/events",
+  "assignees_url": "https://api.github.com/repos/liyupi/ai-code-helper/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/liyupi/ai-code-helper/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/liyupi/ai-code-helper/tags",
+  "blobs_url": "https://api.github.com/repos/liyupi/ai-code-helper/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/liyupi/ai-code-helper/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/liyupi/ai-code-helper/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/liyupi/ai-code-helper/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/liyupi/ai-code-helper/languages",
+  "stargazers_url": "https://api.github.com/repos/liyupi/ai-code-helper/stargazers",
+  "contributors_url": "https://api.github.com/repos/liyupi/ai-code-helper/contributors",
+  "subscribers_url": "https://api.github.com/repos/liyupi/ai-code-helper/subscribers",
+  "subscription_url": "https://api.github.com/repos/liyupi/ai-code-helper/subscription",
+  "commits_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/liyupi/ai-code-helper/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/liyupi/ai-code-helper/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/liyupi/ai-code-helper/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/liyupi/ai-code-helper/merges",
+  "archive_url": "https://api.github.com/repos/liyupi/ai-code-helper/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/liyupi/ai-code-helper/downloads",
+  "issues_url": "https://api.github.com/repos/liyupi/ai-code-helper/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/liyupi/ai-code-helper/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/liyupi/ai-code-helper/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/liyupi/ai-code-helper/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/liyupi/ai-code-helper/labels{/name}",
+  "releases_url": "https://api.github.com/repos/liyupi/ai-code-helper/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/liyupi/ai-code-helper/deployments",
+  "created_at": "2025-07-09T08:09:59Z",
+  "updated_at": "2026-03-11T13:04:53Z",
+  "pushed_at": "2025-07-10T11:32:26Z",
+  "git_url": "git://github.com/liyupi/ai-code-helper.git",
+  "ssh_url": "git@github.com:liyupi/ai-code-helper.git",
+  "clone_url": "https://github.com/liyupi/ai-code-helper.git",
+  "svn_url": "https://github.com/liyupi/ai-code-helper",
+  "homepage": "https://www.codefather.cn",
+  "size": 127,
+  "stargazers_count": 520,
+  "watchers_count": 520,
+  "language": "Vue",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 159,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 4,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "ai-model",
+    "backend",
+    "frontend",
+    "java",
+    "langchain4j",
+    "mcp",
+    "rag",
+    "spring-ai",
+    "springboot",
+    "springmvc",
+    "tool-calling",
+    "vector-database",
+    "vue"
+  ],
+  "visibility": "public",
+  "forks": 159,
+  "open_issues": 4,
+  "watchers": 520,
+  "default_branch": "master",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "d30a28f4a471a3d0d78e41fccee3bf6d9fcedaf1",
+      "node_id": "C_kwDOPJfCE9oAKGQzMGEyOGY0YTQ3MWEzZDBkNzhlNDFmY2NlZTNiZjZkOWZjZWRhZjE",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-10T11:31:11Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-10T11:31:11Z"
+        },
+        "message": "docs(README): 更新项目介绍和教程链接\n\n- 移除了对 LangChain4j 特性的冗余描述\n- 添加了项目视频教程和文字教程的直接链接- 强调了项目中的具体实践内容\n- 优化了语言表达，提高了可读性",
+        "tree": {
+          "sha": "e646c1f3875f8bb0e6aa720e1d605a73cc2881b0",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/e646c1f3875f8bb0e6aa720e1d605a73cc2881b0"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/d30a28f4a471a3d0d78e41fccee3bf6d9fcedaf1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/d30a28f4a471a3d0d78e41fccee3bf6d9fcedaf1",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/d30a28f4a471a3d0d78e41fccee3bf6d9fcedaf1",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/d30a28f4a471a3d0d78e41fccee3bf6d9fcedaf1/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "86b5b9d21da4f4c89e0936595137f5dbbc3a67c6",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/86b5b9d21da4f4c89e0936595137f5dbbc3a67c6",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/86b5b9d21da4f4c89e0936595137f5dbbc3a67c6"
+        }
+      ]
+    },
+    {
+      "sha": "86b5b9d21da4f4c89e0936595137f5dbbc3a67c6",
+      "node_id": "C_kwDOPJfCE9oAKDg2YjViOWQyMWRhNGY0Yzg5ZTA5MzY1OTUxMzdmNWRiYmMzYTY3YzY",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T08:07:42Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T08:07:42Z"
+        },
+        "message": "添加项目文档",
+        "tree": {
+          "sha": "742a742af71802fe6e05a3015fe9f74934ca4718",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/742a742af71802fe6e05a3015fe9f74934ca4718"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/86b5b9d21da4f4c89e0936595137f5dbbc3a67c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/86b5b9d21da4f4c89e0936595137f5dbbc3a67c6",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/86b5b9d21da4f4c89e0936595137f5dbbc3a67c6",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/86b5b9d21da4f4c89e0936595137f5dbbc3a67c6/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f657f62709185b219d27ea043cb5ba5ee8dd553b",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/f657f62709185b219d27ea043cb5ba5ee8dd553b",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/f657f62709185b219d27ea043cb5ba5ee8dd553b"
+        }
+      ]
+    },
+    {
+      "sha": "f657f62709185b219d27ea043cb5ba5ee8dd553b",
+      "node_id": "C_kwDOPJfCE9oAKGY2NTdmNjI3MDkxODViMjE5ZDI3ZWEwNDNjYjViYTVlZThkZDU1M2I",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T07:54:55Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T07:54:55Z"
+        },
+        "message": "修复问题 + 项目脱敏（过去的 Key 已经废弃）",
+        "tree": {
+          "sha": "a18824af5afad89866133cbaa1bcc0535d8a5905",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/a18824af5afad89866133cbaa1bcc0535d8a5905"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/f657f62709185b219d27ea043cb5ba5ee8dd553b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/f657f62709185b219d27ea043cb5ba5ee8dd553b",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/f657f62709185b219d27ea043cb5ba5ee8dd553b",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/f657f62709185b219d27ea043cb5ba5ee8dd553b/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ae06af50d51c54ba2f3af36548592d7160cbd4cf",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ae06af50d51c54ba2f3af36548592d7160cbd4cf",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/ae06af50d51c54ba2f3af36548592d7160cbd4cf"
+        }
+      ]
+    },
+    {
+      "sha": "ae06af50d51c54ba2f3af36548592d7160cbd4cf",
+      "node_id": "C_kwDOPJfCE9oAKGFlMDZhZjUwZDUxYzU0YmEyZjNhZjM2NTQ4NTkyZDcxNjBjYmQ0Y2Y",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T02:12:36Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T02:12:36Z"
+        },
+        "message": "前端",
+        "tree": {
+          "sha": "f794e0f0e25db86747b16594d1833ebad6dc52e7",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/f794e0f0e25db86747b16594d1833ebad6dc52e7"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/ae06af50d51c54ba2f3af36548592d7160cbd4cf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ae06af50d51c54ba2f3af36548592d7160cbd4cf",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/ae06af50d51c54ba2f3af36548592d7160cbd4cf",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ae06af50d51c54ba2f3af36548592d7160cbd4cf/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8f2d686f7603a5086d78d6f0172fa84f55808b83",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/8f2d686f7603a5086d78d6f0172fa84f55808b83",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/8f2d686f7603a5086d78d6f0172fa84f55808b83"
+        }
+      ]
+    },
+    {
+      "sha": "8f2d686f7603a5086d78d6f0172fa84f55808b83",
+      "node_id": "C_kwDOPJfCE9oAKDhmMmQ2ODZmNzYwM2E1MDg2ZDc4ZDZmMDE3MmZhODRmNTU4MDhiODM",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T02:11:54Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-09T02:11:54Z"
+        },
+        "message": "SSE 接口化",
+        "tree": {
+          "sha": "b06907baccc1edb9cb36d104b9c7f813dd8dc0e8",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/b06907baccc1edb9cb36d104b9c7f813dd8dc0e8"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/8f2d686f7603a5086d78d6f0172fa84f55808b83",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/8f2d686f7603a5086d78d6f0172fa84f55808b83",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/8f2d686f7603a5086d78d6f0172fa84f55808b83",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/8f2d686f7603a5086d78d6f0172fa84f55808b83/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f99d530dadb4d0f86af6a80703a3ffb8977e40b0",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/f99d530dadb4d0f86af6a80703a3ffb8977e40b0",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/f99d530dadb4d0f86af6a80703a3ffb8977e40b0"
+        }
+      ]
+    },
+    {
+      "sha": "f99d530dadb4d0f86af6a80703a3ffb8977e40b0",
+      "node_id": "C_kwDOPJfCE9oAKGY5OWQ1MzBkYWRiNGQwZjg2YWY2YTgwNzAzYTNmZmI4OTc3ZTQwYjA",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T11:29:57Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T11:29:57Z"
+        },
+        "message": "可观测性",
+        "tree": {
+          "sha": "045bf5a3f0d3a63706ce1b77fadf8b256d42ae82",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/045bf5a3f0d3a63706ce1b77fadf8b256d42ae82"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/f99d530dadb4d0f86af6a80703a3ffb8977e40b0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/f99d530dadb4d0f86af6a80703a3ffb8977e40b0",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/f99d530dadb4d0f86af6a80703a3ffb8977e40b0",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/f99d530dadb4d0f86af6a80703a3ffb8977e40b0/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ce0b7b665599626a59760d62526d74bfa63e0a85",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ce0b7b665599626a59760d62526d74bfa63e0a85",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/ce0b7b665599626a59760d62526d74bfa63e0a85"
+        }
+      ]
+    },
+    {
+      "sha": "ce0b7b665599626a59760d62526d74bfa63e0a85",
+      "node_id": "C_kwDOPJfCE9oAKGNlMGI3YjY2NTU5OTYyNmE1OTc2MGQ2MjUyNmQ3NGJmYTYzZTBhODU",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T11:16:03Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T11:16:03Z"
+        },
+        "message": "RAG 支持查看原料",
+        "tree": {
+          "sha": "f6ad083d1ebedc78bea0958902277755c54b9cf5",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/f6ad083d1ebedc78bea0958902277755c54b9cf5"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/ce0b7b665599626a59760d62526d74bfa63e0a85",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ce0b7b665599626a59760d62526d74bfa63e0a85",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/ce0b7b665599626a59760d62526d74bfa63e0a85",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ce0b7b665599626a59760d62526d74bfa63e0a85/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2"
+        }
+      ]
+    },
+    {
+      "sha": "ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2",
+      "node_id": "C_kwDOPJfCE9oAKGVhMGU3ZDkyMmM3MmI1YzhkZmUwOWU0YTA2NmMwM2NjYWM5NjA4ZDI",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T10:04:23Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T10:04:23Z"
+        },
+        "message": "护轨",
+        "tree": {
+          "sha": "9f0a96111eb95e7bded62845cd7ff1d97a055854",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/9f0a96111eb95e7bded62845cd7ff1d97a055854"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/ea0e7d922c72b5c8dfe09e4a066c03ccac9608d2/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dd2a3eb0eaa03e9295ffdc31d834238816a1677e",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/dd2a3eb0eaa03e9295ffdc31d834238816a1677e",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/dd2a3eb0eaa03e9295ffdc31d834238816a1677e"
+        }
+      ]
+    },
+    {
+      "sha": "dd2a3eb0eaa03e9295ffdc31d834238816a1677e",
+      "node_id": "C_kwDOPJfCE9oAKGRkMmEzZWIwZWFhMDNlOTI5NWZmZGMzMWQ4MzQyMzg4MTZhMTY3N2U",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T09:46:07Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T09:46:07Z"
+        },
+        "message": "MCP",
+        "tree": {
+          "sha": "ab179c469f041618909e362e31d66e21c1ede69f",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/ab179c469f041618909e362e31d66e21c1ede69f"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/dd2a3eb0eaa03e9295ffdc31d834238816a1677e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/dd2a3eb0eaa03e9295ffdc31d834238816a1677e",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/dd2a3eb0eaa03e9295ffdc31d834238816a1677e",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/dd2a3eb0eaa03e9295ffdc31d834238816a1677e/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "52ec8d0d67d8c19723de98c76f1669b973a29fd8",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/52ec8d0d67d8c19723de98c76f1669b973a29fd8",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/52ec8d0d67d8c19723de98c76f1669b973a29fd8"
+        }
+      ]
+    },
+    {
+      "sha": "52ec8d0d67d8c19723de98c76f1669b973a29fd8",
+      "node_id": "C_kwDOPJfCE9oAKDUyZWM4ZDBkNjdkOGMxOTcyM2RlOThjNzZmMTY2OWI5NzNhMjlmZDg",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T09:19:52Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T09:19:52Z"
+        },
+        "message": "优化 RAG 代码",
+        "tree": {
+          "sha": "33b4b50f2b306e54c45d088127a55238f2e4f8a3",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/33b4b50f2b306e54c45d088127a55238f2e4f8a3"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/52ec8d0d67d8c19723de98c76f1669b973a29fd8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/52ec8d0d67d8c19723de98c76f1669b973a29fd8",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/52ec8d0d67d8c19723de98c76f1669b973a29fd8",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/52ec8d0d67d8c19723de98c76f1669b973a29fd8/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3759f92561782b79edc19d030fb0780ced29b28c",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/3759f92561782b79edc19d030fb0780ced29b28c",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/3759f92561782b79edc19d030fb0780ced29b28c"
+        }
+      ]
+    },
+    {
+      "sha": "3759f92561782b79edc19d030fb0780ced29b28c",
+      "node_id": "C_kwDOPJfCE9oAKDM3NTlmOTI1NjE3ODJiNzllZGMxOWQwMzBmYjA3ODBjZWQyOWIyOGM",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T09:12:31Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T09:12:31Z"
+        },
+        "message": "工具调用",
+        "tree": {
+          "sha": "367fd1497b9a45416c50fdd1036042a485fe8b03",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/367fd1497b9a45416c50fdd1036042a485fe8b03"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/3759f92561782b79edc19d030fb0780ced29b28c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/3759f92561782b79edc19d030fb0780ced29b28c",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/3759f92561782b79edc19d030fb0780ced29b28c",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/3759f92561782b79edc19d030fb0780ced29b28c/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8a3e5579c7c05532dab2350615e69246c3b77d71",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/8a3e5579c7c05532dab2350615e69246c3b77d71",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/8a3e5579c7c05532dab2350615e69246c3b77d71"
+        }
+      ]
+    },
+    {
+      "sha": "8a3e5579c7c05532dab2350615e69246c3b77d71",
+      "node_id": "C_kwDOPJfCE9oAKDhhM2U1NTc5YzdjMDU1MzJkYWIyMzUwNjE1ZTY5MjQ2YzNiNzdkNzE",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T08:21:06Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T08:21:06Z"
+        },
+        "message": "RAG 检索增强生成",
+        "tree": {
+          "sha": "1e6519add3fabdffcf3ba5b606e0cc70fa60a480",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/1e6519add3fabdffcf3ba5b606e0cc70fa60a480"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/8a3e5579c7c05532dab2350615e69246c3b77d71",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/8a3e5579c7c05532dab2350615e69246c3b77d71",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/8a3e5579c7c05532dab2350615e69246c3b77d71",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/8a3e5579c7c05532dab2350615e69246c3b77d71/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1755a28ff45b2ba1a628d28111dbd9608a50fed2",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/1755a28ff45b2ba1a628d28111dbd9608a50fed2",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/1755a28ff45b2ba1a628d28111dbd9608a50fed2"
+        }
+      ]
+    },
+    {
+      "sha": "1755a28ff45b2ba1a628d28111dbd9608a50fed2",
+      "node_id": "C_kwDOPJfCE9oAKDE3NTVhMjhmZjQ1YjJiYTFhNjI4ZDI4MTExZGJkOTYwOGE1MGZlZDI",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T06:55:39Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T06:55:39Z"
+        },
+        "message": "结构化输出",
+        "tree": {
+          "sha": "78791ddfa4a14b434dbb2e57bd6c546e052c74fe",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/78791ddfa4a14b434dbb2e57bd6c546e052c74fe"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/1755a28ff45b2ba1a628d28111dbd9608a50fed2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/1755a28ff45b2ba1a628d28111dbd9608a50fed2",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/1755a28ff45b2ba1a628d28111dbd9608a50fed2",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/1755a28ff45b2ba1a628d28111dbd9608a50fed2/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dc57deec15a3b846598e57eef196789980283d71",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/dc57deec15a3b846598e57eef196789980283d71",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/dc57deec15a3b846598e57eef196789980283d71"
+        }
+      ]
+    },
+    {
+      "sha": "dc57deec15a3b846598e57eef196789980283d71",
+      "node_id": "C_kwDOPJfCE9oAKGRjNTdkZWVjMTVhM2I4NDY1OThlNTdlZWYxOTY3ODk5ODAyODNkNzE",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T06:06:55Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T06:06:55Z"
+        },
+        "message": "会话记忆",
+        "tree": {
+          "sha": "0755ef174a42379c70c7c5fb6ed1358f9ce7b4c9",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/0755ef174a42379c70c7c5fb6ed1358f9ce7b4c9"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/dc57deec15a3b846598e57eef196789980283d71",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/dc57deec15a3b846598e57eef196789980283d71",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/dc57deec15a3b846598e57eef196789980283d71",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/dc57deec15a3b846598e57eef196789980283d71/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4c99bb6dae6c280c1e869d301c4e078bd25f6feb",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/4c99bb6dae6c280c1e869d301c4e078bd25f6feb",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/4c99bb6dae6c280c1e869d301c4e078bd25f6feb"
+        }
+      ]
+    },
+    {
+      "sha": "4c99bb6dae6c280c1e869d301c4e078bd25f6feb",
+      "node_id": "C_kwDOPJfCE9oAKDRjOTliYjZkYWU2YzI4MGMxZTg2OWQzMDFjNGUwNzhiZDI1ZjZmZWI",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T05:55:10Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T05:55:10Z"
+        },
+        "message": "AI Service（自动注入）",
+        "tree": {
+          "sha": "e3e0e000f4ffe11a9359cd35996b104b8b08924e",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/e3e0e000f4ffe11a9359cd35996b104b8b08924e"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/4c99bb6dae6c280c1e869d301c4e078bd25f6feb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/4c99bb6dae6c280c1e869d301c4e078bd25f6feb",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/4c99bb6dae6c280c1e869d301c4e078bd25f6feb",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/4c99bb6dae6c280c1e869d301c4e078bd25f6feb/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "89e82972738988791d3d9cc67ad54524ee22c2d7",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/89e82972738988791d3d9cc67ad54524ee22c2d7",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/89e82972738988791d3d9cc67ad54524ee22c2d7"
+        }
+      ]
+    },
+    {
+      "sha": "89e82972738988791d3d9cc67ad54524ee22c2d7",
+      "node_id": "C_kwDOPJfCE9oAKDg5ZTgyOTcyNzM4OTg4NzkxZDNkOWNjNjdhZDU0NTI0ZWUyMmMyZDc",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T05:44:52Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T05:44:52Z"
+        },
+        "message": "AI Service（手动创建）",
+        "tree": {
+          "sha": "51237667d9300e14a14bc973253e8645f50bf7f5",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/51237667d9300e14a14bc973253e8645f50bf7f5"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/89e82972738988791d3d9cc67ad54524ee22c2d7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/89e82972738988791d3d9cc67ad54524ee22c2d7",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/89e82972738988791d3d9cc67ad54524ee22c2d7",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/89e82972738988791d3d9cc67ad54524ee22c2d7/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "628f2c50f9125dd9bfaef73190f6a7437f3adfde",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/628f2c50f9125dd9bfaef73190f6a7437f3adfde",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/628f2c50f9125dd9bfaef73190f6a7437f3adfde"
+        }
+      ]
+    },
+    {
+      "sha": "628f2c50f9125dd9bfaef73190f6a7437f3adfde",
+      "node_id": "C_kwDOPJfCE9oAKDYyOGYyYzUwZjkxMjVkZDliZmFlZjczMTkwZjZhNzQzN2YzYWRmZGU",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T04:43:43Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T04:43:43Z"
+        },
+        "message": "系统预设（低层 API）",
+        "tree": {
+          "sha": "1d052b6b0cf7fa2033697221f7721ae9fdfaa6ba",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/1d052b6b0cf7fa2033697221f7721ae9fdfaa6ba"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/628f2c50f9125dd9bfaef73190f6a7437f3adfde",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/628f2c50f9125dd9bfaef73190f6a7437f3adfde",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/628f2c50f9125dd9bfaef73190f6a7437f3adfde",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/628f2c50f9125dd9bfaef73190f6a7437f3adfde/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d7edcfa9485537376f7363bd483d183e3b709aee",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/d7edcfa9485537376f7363bd483d183e3b709aee",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/d7edcfa9485537376f7363bd483d183e3b709aee"
+        }
+      ]
+    },
+    {
+      "sha": "d7edcfa9485537376f7363bd483d183e3b709aee",
+      "node_id": "C_kwDOPJfCE9oAKGQ3ZWRjZmE5NDg1NTM3Mzc2ZjczNjNiZDQ4M2QxODNlM2I3MDlhZWU",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T04:34:00Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T04:34:00Z"
+        },
+        "message": "多模态",
+        "tree": {
+          "sha": "72b47ce082e7b0bb69f5a9a19bd5ecaac450e6a9",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/72b47ce082e7b0bb69f5a9a19bd5ecaac450e6a9"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/d7edcfa9485537376f7363bd483d183e3b709aee",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/d7edcfa9485537376f7363bd483d183e3b709aee",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/d7edcfa9485537376f7363bd483d183e3b709aee",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/d7edcfa9485537376f7363bd483d183e3b709aee/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "df0a289ddb0a59032dd18f8e74689419afbbd916",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/df0a289ddb0a59032dd18f8e74689419afbbd916",
+          "html_url": "https://github.com/liyupi/ai-code-helper/commit/df0a289ddb0a59032dd18f8e74689419afbbd916"
+        }
+      ]
+    },
+    {
+      "sha": "df0a289ddb0a59032dd18f8e74689419afbbd916",
+      "node_id": "C_kwDOPJfCE9oAKGRmMGEyODlkZGIwYTU5MDMyZGQxOGY4ZTc0Njg5NDE5YWZiYmQ5MTY",
+      "commit": {
+        "author": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T04:11:24Z"
+        },
+        "committer": {
+          "name": "liyupi",
+          "email": "592789970@qq.com",
+          "date": "2025-07-08T04:11:24Z"
+        },
+        "message": "项目初始化 + 简单对话",
+        "tree": {
+          "sha": "d34e60791349fc02fce88a13f31c60582208944b",
+          "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/trees/d34e60791349fc02fce88a13f31c60582208944b"
+        },
+        "url": "https://api.github.com/repos/liyupi/ai-code-helper/git/commits/df0a289ddb0a59032dd18f8e74689419afbbd916",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/df0a289ddb0a59032dd18f8e74689419afbbd916",
+      "html_url": "https://github.com/liyupi/ai-code-helper/commit/df0a289ddb0a59032dd18f8e74689419afbbd916",
+      "comments_url": "https://api.github.com/repos/liyupi/ai-code-helper/commits/df0a289ddb0a59032dd18f8e74689419afbbd916/comments",
+      "author": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "liyupi",
+        "id": 26037703,
+        "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/liyupi",
+        "html_url": "https://github.com/liyupi",
+        "followers_url": "https://api.github.com/users/liyupi/followers",
+        "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+        "organizations_url": "https://api.github.com/users/liyupi/orgs",
+        "repos_url": "https://api.github.com/users/liyupi/repos",
+        "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/liyupi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "liyupi",
+      "id": 26037703,
+      "node_id": "MDQ6VXNlcjI2MDM3NzAz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/liyupi",
+      "html_url": "https://github.com/liyupi",
+      "followers_url": "https://api.github.com/users/liyupi/followers",
+      "following_url": "https://api.github.com/users/liyupi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/liyupi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/liyupi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/liyupi/subscriptions",
+      "organizations_url": "https://api.github.com/users/liyupi/orgs",
+      "repos_url": "https://api.github.com/users/liyupi/repos",
+      "events_url": "https://api.github.com/users/liyupi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/liyupi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 19
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Vue": 20531,
+    "Java": 19384,
+    "JavaScript": 3774,
+    "HTML": 738
+  },
+  "readme_html": "<h1 id=\"user-content--ai-编程小助手---langchain4j-实战项目\">🤖 AI 编程小助手 - LangChain4j 实战项目</h1>\n<blockquote>\n<p>基于 LangChain4j + 通义千问的 AI 智能编程学习与求职辅导机器人</p>\n</blockquote>\n<p><a href=\"https://spring.io/projects/spring-boot\"><img src=\"https://img.shields.io/badge/Spring%20Boot-3.5.3-brightgreen.svg\" alt=\"Spring Boot\"></a>\n<a href=\"https://vuejs.org/\"><img src=\"https://img.shields.io/badge/Vue.js-3.3.4-4FC08D.svg\" alt=\"Vue.js\"></a>\n<a href=\"https://github.com/langchain4j/langchain4j\"><img src=\"https://img.shields.io/badge/LangChain4j-1.1.0-blue.svg\" alt=\"LangChain4j\"></a>\n<a href=\"https://www.oracle.com/java/\"><img src=\"https://img.shields.io/badge/Java-21-orange.svg\" alt=\"Java\"></a></p>\n<p>大家好，我是程序员鱼皮。现在 AI 应用开发可以说是程序员必备的技能了，求职时能够大幅增加竞争力。之前我用 Spring AI 带大家做过一个 <a href=\"https://github.com/liyupi/yu-ai-agent\">开源的 AI 超级智能体项目</a>，这次我来带大家快速掌握另一个主流的 Java AI 应用开发框架 LangChain4j。</p>\n<p>这个教程项目也是我精心设计，拒绝枯燥的理论，而是用一个编程小助手项目带大家在实战中依次学习 LangChain4j 的主流用法。看完这个教程，你不仅学会了 LangChain4j，还直接多了一段项目经历，岂不美哉？</p>\n<p>项目视频教程：<a href=\"https://bilibili.com/video/BV1X4GGziEyr\">https://bilibili.com/video/BV1X4GGziEyr</a></p>\n<p>文字教程：<a href=\"https://mp.weixin.qq.com/s/7cNh7ndeiWiHBjnkTkz_Zg\">https://mp.weixin.qq.com/s/7cNh7ndeiWiHBjnkTkz_Zg</a> （在公众号程序员鱼皮的文章）</p>\n<p>更多鱼皮原创项目教程、编程学习路线可以在 <a href=\"https://www.codefather.cn/\">编程导航学习网</a> 获取。</p>\n<p>⭐ 如果这个项目对您有帮助，请给鱼皮一个 Star，这会激励我继续爆肝输出更多干货教程，万分感谢！</p>\n<p><img src=\"https://pic.yupi.icu/1/AI%E7%BC%96%E7%A8%8B%E5%B0%8F%E5%8A%A9%E6%89%8B%E9%A1%B9%E7%9B%AE.png\" alt=\"\"></p>\n<p>本项目中，会话记忆、结构化输出、RAG、工具调用、MCP、护轨、可观测性、AI 代码生成等等，都有从 0 的讲解和实践。</p>\n<h2 id=\"user-content--项目介绍\">✨ 项目介绍</h2>\n<h3 id=\"user-content-定位\">定位</h3>\n<ul>\n<li>编程学习导师: 提供清晰的学习路线规划和个性化建议</li>\n<li>求职面试助手: 涵盖简历优化、面试技巧、高频题目解析</li>\n<li>代码答疑专家: 实时解答编程技术问题，提供代码示例</li>\n</ul>\n<h3 id=\"user-content-技术\">技术</h3>\n<h4 id=\"user-content-ai-服务\">AI 服务</h4>\n<ul>\n<li><strong>LangChain4j集成</strong>: 采用业界领先的AI应用开发框架</li>\n<li><strong>通义千问模型</strong>: 基于阿里云大模型，专业可靠</li>\n<li><strong>流式响应</strong>: 实时打字机效果，提升用户体验</li>\n</ul>\n<h4 id=\"user-content-安全机制\">安全机制</h4>\n<ul>\n<li><strong>输入安全防护</strong>: 检测敏感内容，确保应用安全</li>\n</ul>\n<h4 id=\"user-content-工具集成\">工具集成</h4>\n<ul>\n<li><strong>RAG检索增强</strong>: 结合本地知识库，提供精准答案</li>\n<li><strong>MCP协议支持</strong>: 模型上下文协议，增强AI能力</li>\n<li><strong>面试题搜索</strong>: 实时抓取最新面试题目</li>\n<li><strong>Web爬虫工具</strong>: 获取实时技术资讯</li>\n</ul>\n<h2 id=\"user-content--快速开始\">🚀 快速开始</h2>\n<h3 id=\"user-content-环境要求\">环境要求</h3>\n<ul>\n<li><strong>Java</strong>: JDK 21+</li>\n<li><strong>Node.js</strong>: 16.0+</li>\n<li><strong>Maven</strong>: 3.6+</li>\n<li><strong>通义千问API</strong>: 需申请API密钥</li>\n<li><strong>Big Model API</strong>: 需申请API密钥</li>\n</ul>\n<h3 id=\"user-content-启动步骤\">启动步骤</h3>\n<h4 id=\"user-content-1-后端启动\">1. 后端启动</h4>\n<pre><code class=\"language-bash\"># 克隆项目\ngit clone &#x3C;repository-url>\ncd ai-code-helper\n\n# 配置API密钥\n# 编辑 src/main/resources/application.yml\n# 填入您的通义千问 API 和 Big Model API 密钥\n\n# 启动后端服务\nmvn spring-boot:run\n</code></pre>\n<h4 id=\"user-content-2-前端启动\">2. 前端启动</h4>\n<pre><code class=\"language-bash\"># 进入前端目录\ncd ai-code-helper-frontend\n\n# 安装依赖\nnpm install\n\n# 启动开发服务器\nnpm run dev\n</code></pre>\n<h4 id=\"user-content-3-访问应用\">3. 访问应用</h4>\n<ul>\n<li>前端地址: <code>http://localhost:5173</code></li>\n<li>后端API: <code>http://localhost:8081/api</code></li>\n</ul>\n<h2 id=\"user-content-技术架构\">技术架构</h2>\n<pre><code>┌─────────────────┐    ┌─────────────────┐\n│   Vue.js 前端    │────│  Spring Boot   │\n│   - 聊天界面     │    │    后端服务      │\n│   - 实时流式     │    │   - RESTful API │\n│   - Markdown    │    │   - SSE 推送     │\n└─────────────────┘    └─────────────────┘\n                              │\n                    ┌─────────────────┐\n                    │   LangChain4j   │\n                    │   - AI服务层    │\n                    │   - 工具集成    │\n                    │   - 安全防护    │\n                    └─────────────────┘\n                              │\n                    ┌─────────────────┐\n                    │   通义千问API    │\n                    │   - 对话模型    │\n                    │   - 嵌入模型    │\n                    │   - 流式输出    │\n                    └─────────────────┘\n</code></pre>\n<h2 id=\"user-content-核心模块\">核心模块</h2>\n<ul>\n<li>\n<p><code>AiCodeHelperService</code>: 核心对话服务</p>\n</li>\n<li>\n<p><code>QwenChatModelConfig</code>: 模型配置管理</p>\n</li>\n<li>\n<p><code>RagConfig</code>: 检索增强配置</p>\n</li>\n<li>\n<p><code>McpConfig</code>: 模型上下文协议</p>\n</li>\n<li>\n<p><code>InterviewQuestionTool</code>: 面试题搜索</p>\n</li>\n<li>\n<p><code>SafeInputGuardrail</code>: 输入安全防护</p>\n</li>\n<li>\n<p><code>ChatModelListener</code>: 对话监听器</p>\n</li>\n</ul>\n<h2 id=\"user-content-致谢\">致谢</h2>\n<ul>\n<li><a href=\"https://github.com/langchain4j/langchain4j\">LangChain4j</a> - 强大的AI应用开发框架</li>\n<li><a href=\"https://dashscope.aliyun.com/\">阿里云通义千问</a> - 优秀的大语言模型</li>\n<li><a href=\"https://spring.io/projects/spring-boot\">Spring Boot</a> - 简化的Java开发框架</li>\n<li><a href=\"https://vuejs.org/\">Vue.js</a> - 渐进式JavaScript框架</li>\n</ul>",
+  "_fetched_at": "2026-03-11T18:20:50.134Z"
+}

@@ -1,0 +1,209 @@
+---
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumb from '../../../../components/navigation/Breadcrumb.astro';
+import CategorySidebar from '../../../../components/navigation/CategorySidebar.astro';
+import Pagination from '../../../../components/ui/Pagination.astro';
+import { buildCollectionPageSchema } from '../../../../utils/schema';
+import categories from '../../../../data/categories.json';
+import manifestRaw from '../../../../data/manifest.json';
+
+const PER_PAGE = 24;
+
+export async function getStaticPaths() {
+  const PER_PAGE = 24; // duplicated due to Vite worker isolation
+  const manifest: RepoEntry[] = manifestRaw as any;
+
+  const paths = [];
+  for (const cat of categories) {
+    const repos = manifest
+      .filter((r) => r.primary_category === cat.slug)
+      .sort((a, b) => b.stars - a.stars);
+    const totalPages = Math.ceil(repos.length / PER_PAGE);
+
+    // Generate pages 2..N (page 1 is handled by [slug].astro)
+    for (let n = 2; n <= totalPages; n++) {
+      paths.push({
+        params: { slug: cat.slug, n: String(n) },
+        props: {
+          category: cat,
+          repos: repos.slice((n - 1) * PER_PAGE, n * PER_PAGE),
+          totalPages,
+          currentPage: n,
+          totalRepos: repos.length,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+interface RepoEntry {
+  full_name: string;
+  owner: string;
+  repo: string;
+  stars: number;
+  forks: number;
+  language?: string;
+  topics: string[];
+  primary_category: string;
+  pushed_at: string;
+  description?: string;
+}
+
+interface Props {
+  category: { slug: string; label: string; description: string; githubQuery: string; estRepos: number };
+  repos: RepoEntry[];
+  totalPages: number;
+  currentPage: number;
+  totalRepos: number;
+}
+
+const { category, repos, totalPages, currentPage, totalRepos } = Astro.props;
+const SITE = 'https://aipromptsmall.shop';
+const canonical = `${SITE}/category/${category.slug}/page/${currentPage}`;
+
+const schema = buildCollectionPageSchema({
+  name: `${category.label} — Page ${currentPage} | aipromptsmall.shop`,
+  description: category.description,
+  url: canonical,
+  numberOfItems: totalRepos,
+});
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: category.label, href: `/category/${category.slug}` },
+  { label: `Page ${currentPage}`, href: `/category/${category.slug}/page/${currentPage}` },
+];
+
+function fmt(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k`;
+  return String(n);
+}
+
+function relativeDate(iso: string) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const days = Math.floor(diff / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 7) return `${days}d ago`;
+  if (days < 30) return `${Math.floor(days / 7)}w ago`;
+  if (days < 365) return `${Math.floor(days / 30)}mo ago`;
+  return `${Math.floor(days / 365)}y ago`;
+}
+---
+
+<Base
+  title={`${category.label} — Page ${currentPage} of ${totalPages} | aipromptsmall.shop`}
+  description={`Page ${currentPage} of ${totalPages}: ${totalRepos} open-source ${category.label} repositories sorted by GitHub stars.`}
+  canonical={canonical}
+  robots={currentPage > 1 ? 'noindex, follow' : 'index, follow'}
+  pageType="category"
+  schemas={[schema]}
+>
+  <Fragment slot="head">
+    {currentPage > 1 && <link rel="prev" href={currentPage === 2 ? `/category/${category.slug}` : `/category/${category.slug}/page/${currentPage - 1}`} />}
+    {currentPage < totalPages && <link rel="next" href={`/category/${category.slug}/page/${currentPage + 1}`} />}
+  </Fragment>
+
+  <Breadcrumb crumbs={breadcrumbs} />
+
+  <div class="category-layout container">
+    <aside class="cat-sidebar" aria-label="Category navigation">
+      <CategorySidebar activeCategorySlug={category.slug} />
+    </aside>
+
+    <main id="main-content" class="cat-main">
+      <header class="cat-header">
+        <div class="cat-header-text">
+          <h1 class="cat-title">{category.label} <span class="page-label">— Page {currentPage}</span></h1>
+          <p class="cat-description">{category.description}</p>
+          <div class="cat-meta">
+            <span class="cat-count-badge">{totalRepos.toLocaleString()} repositories</span>
+            <span class="cat-page-badge">Page {currentPage} of {totalPages}</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="repo-toolbar">
+        <p class="repo-toolbar-label">
+          Showing <strong>{(currentPage - 1) * PER_PAGE + 1}–{Math.min(currentPage * PER_PAGE, totalRepos)}</strong> of <strong>{totalRepos}</strong> repos
+        </p>
+      </div>
+
+      <ul class="repo-grid" role="list" data-pagefind-body>
+        {repos.map((repo) => (
+          <li>
+            <a href={`/repo/${repo.owner}/${repo.repo}`} class="repo-card">
+              <div class="rc-header">
+                <div class="rc-name-block">
+                  <span class="rc-owner">{repo.owner}/</span>
+                  <strong class="rc-repo">{repo.repo}</strong>
+                </div>
+                <div class="rc-stars">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                  {fmt(repo.stars)}
+                </div>
+              </div>
+              {repo.description && (
+                <p class="rc-desc">{repo.description.length > 120 ? `${repo.description.slice(0, 120)}…` : repo.description}</p>
+              )}
+              <div class="rc-footer">
+                <div class="rc-pills">
+                  {repo.language && <span class="rc-pill"><span class="lang-dot" aria-hidden="true"></span>{repo.language}</span>}
+                  {repo.forks > 0 && <span class="rc-pill">⑂ {fmt(repo.forks)}</span>}
+                </div>
+                <time class="rc-updated" datetime={repo.pushed_at}>{relativeDate(repo.pushed_at)}</time>
+              </div>
+              {repo.topics?.length > 0 && (
+                <div class="rc-topics">
+                  {repo.topics.slice(0, 3).map((t) => (
+                    <a href={`/topic/${t}`} class="rc-topic" onclick="event.stopPropagation()">{t}</a>
+                  ))}
+                  {repo.topics.length > 3 && <span class="rc-topic rc-topic--more">+{repo.topics.length - 3}</span>}
+                </div>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <Pagination currentPage={currentPage} totalPages={totalPages} baseUrl={`/category/${category.slug}`} />
+    </main>
+  </div>
+</Base>
+
+<!-- Reuse styles from [slug].astro via global class names -->
+<style>
+  .category-layout { display: grid; grid-template-columns: 220px 1fr; gap: 2.5rem; padding-block: 1.5rem 4rem; align-items: start; }
+  .cat-sidebar { position: sticky; top: 80px; }
+  .cat-header { padding: 1.5rem; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 14px; margin-bottom: 1.5rem; }
+  .cat-title { font-size: clamp(1.375rem, 3vw, 1.875rem); font-weight: 800; letter-spacing: -0.02em; margin-bottom: 0.375rem; }
+  .page-label { font-weight: 500; color: var(--color-text-muted); }
+  .cat-description { font-size: 0.9375rem; color: var(--color-text-muted); line-height: 1.6; margin-bottom: 0.75rem; }
+  .cat-meta { display: flex; gap: 0.5rem; }
+  .cat-count-badge { padding: 0.2rem 0.6rem; border-radius: 100px; font-size: 0.75rem; font-weight: 600; background: var(--color-accent-light); color: var(--color-accent); }
+  .cat-page-badge { padding: 0.2rem 0.6rem; border-radius: 100px; font-size: 0.75rem; font-weight: 600; background: var(--color-surface-2); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+  .repo-toolbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; padding: 0.625rem 0; border-bottom: 1px solid var(--color-border); }
+  .repo-toolbar-label { font-size: 0.8125rem; color: var(--color-text-muted); }
+  .repo-toolbar-label strong { color: var(--color-text); }
+  .repo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; list-style: none; }
+  .repo-card { display: flex; flex-direction: column; gap: 0.625rem; padding: 1.125rem; background: var(--color-bg); border: 1px solid var(--color-border); border-radius: 12px; text-decoration: none; color: var(--color-text); height: 100%; transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s; }
+  .repo-card:hover { border-color: var(--color-accent); box-shadow: 0 4px 20px color-mix(in srgb, var(--color-accent) 10%, transparent); transform: translateY(-2px); }
+  .rc-header {  display: flex; align-items: flex-start; justify-content: space-between; gap: 0.5rem;  }
+  
+  .rc-owner { font-size: 0.8125rem; color: var(--color-text-muted); }
+  .rc-repo { display: block; font-size: 0.9375rem; font-weight: 700; word-break: break-word; }
+  .rc-stars { display: flex; align-items: center; gap: 0.25rem; font-size: 0.8125rem; font-weight: 700; color: #f59e0b; flex-shrink: 0; }
+  .rc-desc { font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.55; flex: 1;}
+  .rc-footer { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+    margin-top: auto;   }
+  .rc-pills { display: flex; gap: 0.375rem;  }
+  .rc-pill { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.15rem 0.5rem; border-radius: 100px; font-size: 0.6875rem; font-weight: 500; background: var(--color-surface); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+  .lang-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-accent); flex-shrink: 0; }
+  .rc-updated { font-size: 0.6875rem; color: var(--color-text-muted); }
+  .rc-topics { display: flex; gap: 0.3rem;  }
+  .rc-topic { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 100px; font-size: 0.6875rem; font-weight: 500; background: var(--color-accent-light); color: var(--color-accent); text-decoration: none;     }
+  .rc-topic--more { background: var(--color-surface-2); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+  @media (max-width: 900px) { .category-layout { grid-template-columns: 1fr; } .cat-sidebar { position: static; } }
+</style>

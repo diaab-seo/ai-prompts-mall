@@ -1,0 +1,1888 @@
+{
+  "id": 779861124,
+  "node_id": "R_kgDOLnu8hA",
+  "name": "pwned-by-passgpt",
+  "full_name": "sean-t-smith/pwned-by-passgpt",
+  "private": false,
+  "owner": {
+    "login": "sean-t-smith",
+    "id": 71024495,
+    "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/sean-t-smith",
+    "html_url": "https://github.com/sean-t-smith",
+    "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+    "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+    "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+    "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+    "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+    "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt",
+  "description": "Password cracking research using the Have I Been Pwned (HIBP) dataset to evaluate the effectiveness of the PassGPT Large Language Model (LLM).",
+  "fork": false,
+  "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt",
+  "forks_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/forks",
+  "keys_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/teams",
+  "hooks_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/hooks",
+  "issue_events_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/events",
+  "assignees_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/tags",
+  "blobs_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/languages",
+  "stargazers_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/stargazers",
+  "contributors_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/contributors",
+  "subscribers_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/subscribers",
+  "subscription_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/subscription",
+  "commits_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/merges",
+  "archive_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/downloads",
+  "issues_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/labels{/name}",
+  "releases_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/deployments",
+  "created_at": "2024-03-31T01:33:39Z",
+  "updated_at": "2026-02-01T13:11:31Z",
+  "pushed_at": "2024-04-13T01:30:25Z",
+  "git_url": "git://github.com/sean-t-smith/pwned-by-passgpt.git",
+  "ssh_url": "git@github.com:sean-t-smith/pwned-by-passgpt.git",
+  "clone_url": "https://github.com/sean-t-smith/pwned-by-passgpt.git",
+  "svn_url": "https://github.com/sean-t-smith/pwned-by-passgpt",
+  "homepage": "https://www.seantsmith.me",
+  "size": 60734,
+  "stargazers_count": 66,
+  "watchers_count": 66,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": false,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 7,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdx_id": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "node_id": "MDc6TGljZW5zZTk="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "cybersecurity",
+    "dictionary-attack",
+    "gpt-2",
+    "hashcat",
+    "large-language-model",
+    "llm",
+    "ntlm",
+    "password-cracker",
+    "password-generator",
+    "password-research"
+  ],
+  "visibility": "public",
+  "forks": 7,
+  "open_issues": 0,
+  "watchers": 66,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "large-language-models",
+  "commits": [
+    {
+      "sha": "71d400cd8324455b05f433af4f53af9651ff6444",
+      "node_id": "C_kwDOLnu8hNoAKDcxZDQwMGNkODMyNDQ1NWIwNWY0MzNhZjRmNTNhZjk2NTFmZjY0NDQ",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-04-13T01:30:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-13T01:30:25Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "034dd9cea00ebc75cb0c31e70d2d549e71a8449f",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/034dd9cea00ebc75cb0c31e70d2d549e71a8449f"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/71d400cd8324455b05f433af4f53af9651ff6444",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmGeAxCRC1aQ7uu5UhlAAAzFEQAGJiqNkU0Nlbr3sjSNxE9d6Z\nMO4D8qlBKOwcVHjZ27OY58Ah5LULwoAhyADaRnhgwNoiMQ4PUVrFhjNrdzfInqAy\nupGtWU6466s0Y4PEYPnAYvZFzacuyFY0xqNVrWNrA7xWenQ6m5OYjsgGKSr95If/\nlJEywXeXGifuzpr3gwVX+TjDIxANYPLSL5JoLD6ejLNXXx5lBGTKwXEi4Zm6EjxU\n6pZrfwKMXctzQEWRNpbBF18RP7ETtkm1lxyhtreqZct0iG3KN0PA9eMuC6qcrESw\n4r5kSiJju9VFQUgE0ntymKXiegz0seQrm0m23+3T46YjRAR8JDrY/jdoFLMscTDj\nK3z4wEOzJLJCZt1h8Vk0hSoSgpv2WCWXjJL8o1HIapq88Lny45cEqZYuaj5El+5s\nI0xI0rYrf0J40mOKnRvul8Yq90xCZRbsxLaRKjLw8hlM9fdj6jVkcZExGYvgZ7gu\nSoK7OVEZuxN8XvFQfZx99T6ScgsZyhTLJ6MAM0CUcAnrOQcJ8WV6vttu4ZVNHWdn\nn8xDR4yA+1SMxvE2N7gpNPEEJXs+NAu5plvK0ed4LkdNrzKZiHogBNO0pilEjK2t\n1Y8rVf1kCC+hKJaf49OmfcBi0bvVfyM3etEp0wbo6HnSVA5HC5yN7tHLsMJ2fH5T\nGzejQfQ48wb1EoX8ndx9\n=trQ+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 034dd9cea00ebc75cb0c31e70d2d549e71a8449f\nparent 1c4caeabd399b25ff1efcdb465695e7ea077387b\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1712971825 -0400\ncommitter GitHub <noreply@github.com> 1712971825 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/71d400cd8324455b05f433af4f53af9651ff6444",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/71d400cd8324455b05f433af4f53af9651ff6444",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/71d400cd8324455b05f433af4f53af9651ff6444/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1c4caeabd399b25ff1efcdb465695e7ea077387b",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/1c4caeabd399b25ff1efcdb465695e7ea077387b",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/1c4caeabd399b25ff1efcdb465695e7ea077387b"
+        }
+      ]
+    },
+    {
+      "sha": "1c4caeabd399b25ff1efcdb465695e7ea077387b",
+      "node_id": "C_kwDOLnu8hNoAKDFjNGNhZWFiZDM5OWIyNWZmMWVmY2RiNDY1Njk1ZTdlYTA3NzM4N2I",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-12T02:05:30Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-12T02:05:30Z"
+        },
+        "message": "updated formatting",
+        "tree": {
+          "sha": "7efebae2d9807e2401c0145587ed0e784d4be84b",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/7efebae2d9807e2401c0145587ed0e784d4be84b"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/1c4caeabd399b25ff1efcdb465695e7ea077387b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/1c4caeabd399b25ff1efcdb465695e7ea077387b",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/1c4caeabd399b25ff1efcdb465695e7ea077387b",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/1c4caeabd399b25ff1efcdb465695e7ea077387b/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bd9061c89c04b6a6d327aa64a722c85c8ab4d626",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/bd9061c89c04b6a6d327aa64a722c85c8ab4d626",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/bd9061c89c04b6a6d327aa64a722c85c8ab4d626"
+        }
+      ]
+    },
+    {
+      "sha": "bd9061c89c04b6a6d327aa64a722c85c8ab4d626",
+      "node_id": "C_kwDOLnu8hNoAKGJkOTA2MWM4OWMwNGI2YTZkMzI3YWE2NGE3MjJjODVjOGFiNGQ2MjY",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-07T23:34:40Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-07T23:34:40Z"
+        },
+        "message": "update pdf",
+        "tree": {
+          "sha": "ef0ef7b0162187da9cda66ca071fa68d714dbae2",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/ef0ef7b0162187da9cda66ca071fa68d714dbae2"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/bd9061c89c04b6a6d327aa64a722c85c8ab4d626",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/bd9061c89c04b6a6d327aa64a722c85c8ab4d626",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/bd9061c89c04b6a6d327aa64a722c85c8ab4d626",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/bd9061c89c04b6a6d327aa64a722c85c8ab4d626/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "edd71906bfe5fce1a758fd9f78392599c122a7c0",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/edd71906bfe5fce1a758fd9f78392599c122a7c0",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/edd71906bfe5fce1a758fd9f78392599c122a7c0"
+        }
+      ]
+    },
+    {
+      "sha": "edd71906bfe5fce1a758fd9f78392599c122a7c0",
+      "node_id": "C_kwDOLnu8hNoAKGVkZDcxOTA2YmZlNWZjZTFhNzU4ZmQ5Zjc4MzkyNTk5YzEyMmE3YzA",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-07T23:22:10Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-07T23:22:10Z"
+        },
+        "message": "Merge branch 'main' of https://github.com/sean-t-smith/pwned-by-passgpt",
+        "tree": {
+          "sha": "f536a27efb31b0fe3a848d9358f95d9e5141937d",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/f536a27efb31b0fe3a848d9358f95d9e5141937d"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/edd71906bfe5fce1a758fd9f78392599c122a7c0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/edd71906bfe5fce1a758fd9f78392599c122a7c0",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/edd71906bfe5fce1a758fd9f78392599c122a7c0",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/edd71906bfe5fce1a758fd9f78392599c122a7c0/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cd34700abc3ba157daa46d169c33791c0364715e",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/cd34700abc3ba157daa46d169c33791c0364715e",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/cd34700abc3ba157daa46d169c33791c0364715e"
+        },
+        {
+          "sha": "d52d4ebb4c50d3464be1bcb38b3608f1a936cd84",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/d52d4ebb4c50d3464be1bcb38b3608f1a936cd84",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/d52d4ebb4c50d3464be1bcb38b3608f1a936cd84"
+        }
+      ]
+    },
+    {
+      "sha": "cd34700abc3ba157daa46d169c33791c0364715e",
+      "node_id": "C_kwDOLnu8hNoAKGNkMzQ3MDBhYmMzYmExNTdkYWE0NmQxNjljMzM3OTFjMDM2NDcxNWU",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-07T23:21:53Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-07T23:21:53Z"
+        },
+        "message": "updated pdf",
+        "tree": {
+          "sha": "98706cfb4f08d74781dc521488aa2dc1bf787cfc",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/98706cfb4f08d74781dc521488aa2dc1bf787cfc"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/cd34700abc3ba157daa46d169c33791c0364715e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/cd34700abc3ba157daa46d169c33791c0364715e",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/cd34700abc3ba157daa46d169c33791c0364715e",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/cd34700abc3ba157daa46d169c33791c0364715e/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a"
+        }
+      ]
+    },
+    {
+      "sha": "d52d4ebb4c50d3464be1bcb38b3608f1a936cd84",
+      "node_id": "C_kwDOLnu8hNoAKGQ1MmQ0ZWJiNGM1MGQzNDY0YmUxYmNiMzhiMzYwOGYxYTkzNmNkODQ",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-04-01T01:44:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-01T01:44:50Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "319681c2a81a803696c4babc06a28b14a222f119",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/319681c2a81a803696c4babc06a28b14a222f119"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/d52d4ebb4c50d3464be1bcb38b3608f1a936cd84",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmChGSCRC1aQ7uu5UhlAAAhVUQAFgbzXddXKJ7C++vMvFMDYza\nC7e7vsX58BrabLqPTul07Dlk+n9+QtePN3nHUYaTtKi8xVLn5gKq1KnoE6dbxlTj\njT6nADemAu/Z2coYEludcDTQ3qTRPu+TPWcFV8CVcYa0aoG4MUBDYjyqYb5Uj1IE\n9X5DD5BDEkl+DmoHGvxy3exb2rYKQsqvy9magZa0vHw6nAIvEJw3xZBo505sRNWH\nXJBbUvTanl9tVC1rkJCdRV6U88I6FUCZKyzx/+pH0M63bVFHTfdF0QLV9tG1FSBq\nRWQpQjHW/L+1WSvZbqGD1MjEjp4h7Mh5KdE20Qcv0KdrDM24SL/9K7jvvd/Lgeka\nEhRrXERhSiRT2EQXQcUu6wuyhiimKe3r2A4Q9E5xrcqAWIg2CnknVlQPciUExIvL\ngu6QWwxQ5eyrpOdO9kGn3O6mNDOW9GgP0w8i4r48TBV7dbE6ZQlPRfrHk9YiW0Lt\nz/HjxH3GGBqK4RIXnkGNsjGWJ67CLRJbK9kU3clOxbP6siX8jakmWyShbjeuzcbc\np3CJ2HGC7Id4mdRV5kpu2kXC6nP/uUSFLr3taZHcMdwCnb0Z5fUHyadRRO2LZDfx\n88/JFLs7v+J8+RHyLJYLtCsiWJJuN1fvgh0fSgm15vEQ+lKHvffL/7afFuzaIMBw\nphqPXGHmv/CR9/+NWcls\n=h7vs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 319681c2a81a803696c4babc06a28b14a222f119\nparent 66b6134b3eb0f7d71f89eec9520874682c055834\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711935890 -0400\ncommitter GitHub <noreply@github.com> 1711935890 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/d52d4ebb4c50d3464be1bcb38b3608f1a936cd84",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/d52d4ebb4c50d3464be1bcb38b3608f1a936cd84",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/d52d4ebb4c50d3464be1bcb38b3608f1a936cd84/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "66b6134b3eb0f7d71f89eec9520874682c055834",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/66b6134b3eb0f7d71f89eec9520874682c055834",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/66b6134b3eb0f7d71f89eec9520874682c055834"
+        }
+      ]
+    },
+    {
+      "sha": "66b6134b3eb0f7d71f89eec9520874682c055834",
+      "node_id": "C_kwDOLnu8hNoAKDY2YjYxMzRiM2ViMGY3ZDcxZjg5ZWVjOTUyMDg3NDY4MmMwNTU4MzQ",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-04-01T01:44:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-01T01:44:19Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "e84d55c6179b09de614b9ce3f28d466023af7345",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/e84d55c6179b09de614b9ce3f28d466023af7345"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/66b6134b3eb0f7d71f89eec9520874682c055834",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmChFzCRC1aQ7uu5UhlAAAKxoQAA9XXU+q2NEv2Nmk7PQ64FEE\nDlPKrQf1NlbLfcs9ouH8plNi7NfumxPAWn+68HROvDzo7EVxMQq/X0wWxrgEziJD\nuAUx3PwylOHShHXbTig6XsUhcDC481GZ0oyaTyJZc2ixkqwgmC65ntOc5+7R664Y\nCv0izWwsh8aUK4kGQHw0FLZ70oEBQ311veXP3K2uSecF+HX7cfbGixCBLfHZHG65\nCP/ECEzxxAqmu6TZhpRgffbu0++dUIvouxDx6NCJG535eCFIvvc7fj4F0dNjJZMx\nvLqgQJ7p3PXm69W5+3T4Vx/f6bl3yBETFwfPH2QLgvt+mzg7SObOvV+aoyopiQB2\nAoG5yVo3URLTC+0uu1vpQmyAXnSPjUkW+UopLgwi9WIP0jnTEFVL78e6a7v5A8ie\n6Lf4cPy2P3zGolhTCdXigLBfIxkOIlScxC6+yjCXQNigbE8zjdVWp0Oe68bny2bX\nftYCJ2FBuVhVdpTohH06o8bStJCntpOOmhvr+e8JMa5/CEx7vy7NIilzg3xsd5s6\ns8Osfm8jCiBq9BoW6gjDSMeM/1YgIkrbEEnwjYHKBvTy0j9s24PemO12DZGE2rSE\neeflGeFCYr21xabxeWkFR3vu4HKUCwMRoJjeHHMYfLjR3H39H638S883I/pSJhtz\n6E+kNeKzKnufBIUUcgrf\n=4qjF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e84d55c6179b09de614b9ce3f28d466023af7345\nparent 531e9fbfcb2208000b742bcd21cdbe38854b20f7\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711935859 -0400\ncommitter GitHub <noreply@github.com> 1711935859 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/66b6134b3eb0f7d71f89eec9520874682c055834",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/66b6134b3eb0f7d71f89eec9520874682c055834",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/66b6134b3eb0f7d71f89eec9520874682c055834/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "531e9fbfcb2208000b742bcd21cdbe38854b20f7",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/531e9fbfcb2208000b742bcd21cdbe38854b20f7",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/531e9fbfcb2208000b742bcd21cdbe38854b20f7"
+        }
+      ]
+    },
+    {
+      "sha": "531e9fbfcb2208000b742bcd21cdbe38854b20f7",
+      "node_id": "C_kwDOLnu8hNoAKDUzMWU5ZmJmY2IyMjA4MDAwYjc0MmJjZDIxY2RiZTM4ODU0YjIwZjc",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-04-01T01:43:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-01T01:43:59Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "555fde975978748b2c98093e75cb2e6899cf7f44",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/555fde975978748b2c98093e75cb2e6899cf7f44"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/531e9fbfcb2208000b742bcd21cdbe38854b20f7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmChFfCRC1aQ7uu5UhlAAAaRsQAKKvIlH/2NH+VaLj1G2EdKH+\nhe7jvHZwx58qoKO6BF6QKGBbBh7ByRaWAZcBv71gX0TnlTZHZKQTtZP4yQLC3SSq\nZe4oNB5T3G8K3sRL06CXyL/7H6KfmIPKXPQxkrYgIrk4zRp12wwGGeoEmEBv+JUl\ndvzt7MxJHQVv687oxcBSjSX04cEBxzOD98cdkLeHHqbc4plnrnGM9q4LRga6G998\nipYL9ZCJlacWqz5plnLeUOnZRqlL4SH8tpepZVp5jr+1gLEOGL9dsk1VFV50Rrcc\nZf6NOGtoe8T5laFKYly3YY5/CgjQwdmrPEtTYc2JLs1Zx+PYzpMF27g++sJ1l2Qk\nsHY1TjYo4z5DBmfdrdU+nevbRVHsXqPqhB5X9oowmaWc7eMF8yP3r9ZYy/3faLAZ\nXtgwNXWqNB6pS9Aj0/+oMd0t6j5kvV8owU1F47+s4VhEdrhglQkIXbbZxx6T68TV\nozYsYsKYCbi/jUJUUX4varA07ggh0fA6i5fqLV2EwSQMLgW22sQ6LNWtmo4mqs+d\n5gklcR9R0/sZndw9bZeo3EdJivzxaOKCwZ+oGjdI2WHeVegNGD0B+i8gYTUxk0ft\nXVGOJwQfBvS5gekPHHWEbOp7qfIEcM2lVFUUshs+4uhVKquDqy97kgvoEJMEFvnI\n32TGZxAOTqJ79H/67Z9c\n=GGx5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 555fde975978748b2c98093e75cb2e6899cf7f44\nparent 050729ffcf2b4ff62c96c5e23acb197ef1dcb07a\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711935839 -0400\ncommitter GitHub <noreply@github.com> 1711935839 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/531e9fbfcb2208000b742bcd21cdbe38854b20f7",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/531e9fbfcb2208000b742bcd21cdbe38854b20f7",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/531e9fbfcb2208000b742bcd21cdbe38854b20f7/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a"
+        }
+      ]
+    },
+    {
+      "sha": "050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+      "node_id": "C_kwDOLnu8hNoAKDA1MDcyOWZmY2YyYjRmZjYyYzk2YzVlMjNhY2IxOTdlZjFkY2IwN2E",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-01T01:32:47Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-01T01:32:47Z"
+        },
+        "message": "Small correction from unit testing.",
+        "tree": {
+          "sha": "771b430ddb0e4f329e72ced627969067d0e523fb",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/771b430ddb0e4f329e72ced627969067d0e523fb"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/050729ffcf2b4ff62c96c5e23acb197ef1dcb07a/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3a1d84a3bfe6363fa7994ce97e989e85661eed0a",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/3a1d84a3bfe6363fa7994ce97e989e85661eed0a",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/3a1d84a3bfe6363fa7994ce97e989e85661eed0a"
+        }
+      ]
+    },
+    {
+      "sha": "3a1d84a3bfe6363fa7994ce97e989e85661eed0a",
+      "node_id": "C_kwDOLnu8hNoAKDNhMWQ4NGEzYmZlNjM2M2ZhNzk5NGNlOTdlOTg5ZTg1NjYxZWVkMGE",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-04-01T01:26:40Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-01T01:26:40Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d498328610d77d94184e4d8bf88b83ca78434ae2",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/d498328610d77d94184e4d8bf88b83ca78434ae2"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/3a1d84a3bfe6363fa7994ce97e989e85661eed0a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmCg1QCRC1aQ7uu5UhlAAASqgQAJd9nQj1myZAj9+LQ1JsGGCw\nRc6CJKnIOnJil9tS8z5u4tMCVx/jk8F2ZwmvKWbtV6Oc6R71bPKr/rswGjfCtkch\nXz8dO5o7leKJeNFaxhwic8WlxHutuNrbftzdW8pl8usjCenGeCpZHMBs9bERgPzc\n0ayqqBeNTi1SJ45lAUzH0OGJRn6Kvsr4NOtCg9nmOrQNV8pxizsUBRlt1xHtqRNU\nc4VouTH2qvp+cQZt0p1PBtq/lufB3SINdtvwh75FdPfkjR5am+maBBQtZokp4I30\nRFes5ovf3s586wmvaeRlgiVDo8VKgYeOUruEQh1kimnnjU0t2YoEe2og344eCcqt\nI0Mvf+8NRwk8lUfkkJMbdgrsWcP3OTahKzyjo/qf2kbTQTH2x16TtPqg36guvrdw\nWx8hmkVrM1v4V7dcFvPNREAFrNH6+vS2IvnEBT3WsZ75M/UFHzWi8pRJO6aJke95\nxxbdqGivf7uqcwXBB0h4sm9nkXyWXBU7UPKAy3c5Q29YwVl7XHIPPsIqvB1LUB84\ntCql1bqIMcnMZbnDeRhRQETeCd+O1L6dDLPDxjnZhsQFW2u1W9WudVSms5wwUiMB\nDpWe6tZxttSfY1AKgLdGMSfPxFluRp1CkCtQ21wbPAQlkX8jttm2MGLdf/Qv/+Y+\npunnu/ZSx+gI4h1lcKpc\n=vFGs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d498328610d77d94184e4d8bf88b83ca78434ae2\nparent a4122657da307d50ed82e7e71d2909126cecb770\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711934800 -0400\ncommitter GitHub <noreply@github.com> 1711934800 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/3a1d84a3bfe6363fa7994ce97e989e85661eed0a",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/3a1d84a3bfe6363fa7994ce97e989e85661eed0a",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/3a1d84a3bfe6363fa7994ce97e989e85661eed0a/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a4122657da307d50ed82e7e71d2909126cecb770",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/a4122657da307d50ed82e7e71d2909126cecb770",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/a4122657da307d50ed82e7e71d2909126cecb770"
+        }
+      ]
+    },
+    {
+      "sha": "a4122657da307d50ed82e7e71d2909126cecb770",
+      "node_id": "C_kwDOLnu8hNoAKGE0MTIyNjU3ZGEzMDdkNTBlZDgyZTdlNzFkMjkwOTEyNmNlY2I3NzA",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-01T01:02:45Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-01T01:02:45Z"
+        },
+        "message": "Merge branch 'main' of https://github.com/sean-t-smith/pwned-by-passgpt",
+        "tree": {
+          "sha": "43f42c46b8a1ff57d27195b67af1bd20a76b6f6b",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/43f42c46b8a1ff57d27195b67af1bd20a76b6f6b"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/a4122657da307d50ed82e7e71d2909126cecb770",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/a4122657da307d50ed82e7e71d2909126cecb770",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/a4122657da307d50ed82e7e71d2909126cecb770",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/a4122657da307d50ed82e7e71d2909126cecb770/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21741ffa746f63b688680e3139253801104180b1",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/21741ffa746f63b688680e3139253801104180b1",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/21741ffa746f63b688680e3139253801104180b1"
+        },
+        {
+          "sha": "5239929bc11ce8e9a0f268cb0a5378f210a1c8b6",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/5239929bc11ce8e9a0f268cb0a5378f210a1c8b6",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/5239929bc11ce8e9a0f268cb0a5378f210a1c8b6"
+        }
+      ]
+    },
+    {
+      "sha": "21741ffa746f63b688680e3139253801104180b1",
+      "node_id": "C_kwDOLnu8hNoAKDIxNzQxZmZhNzQ2ZjYzYjY4ODY4MGUzMTM5MjUzODAxMTA0MTgwYjE",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-01T01:02:24Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-04-01T01:02:24Z"
+        },
+        "message": "Updating structure.",
+        "tree": {
+          "sha": "f6f84fa156b5165057d21539a6ee5f1ad2068b76",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/f6f84fa156b5165057d21539a6ee5f1ad2068b76"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/21741ffa746f63b688680e3139253801104180b1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/21741ffa746f63b688680e3139253801104180b1",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/21741ffa746f63b688680e3139253801104180b1",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/21741ffa746f63b688680e3139253801104180b1/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0237054a379051f960e9e474fe77770f8ebef856",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/0237054a379051f960e9e474fe77770f8ebef856",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/0237054a379051f960e9e474fe77770f8ebef856"
+        }
+      ]
+    },
+    {
+      "sha": "5239929bc11ce8e9a0f268cb0a5378f210a1c8b6",
+      "node_id": "C_kwDOLnu8hNoAKDUyMzk5MjliYzExY2U4ZTlhMGYyNjhjYjBhNTM3OGYyMTBhMWM4YjY",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-03-31T22:28:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-31T22:28:35Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "14ad701e90e79378a05f5246cce0986e7285bcd4",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/14ad701e90e79378a05f5246cce0986e7285bcd4"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/5239929bc11ce8e9a0f268cb0a5378f210a1c8b6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmCeOTCRC1aQ7uu5UhlAAAMOUQAH0rHqHEI46Sc3Ehjwv1gi+h\n/Eq/XGHHnNwKtHHr8Ns9h298zpwzJNiEopRtf7ajFzcx08c0KiVwyJ5zFu71FwXv\nD1eqX7KS0cn605BQjOyBWgsoFo+EiSLQNCFtabw2yYzgSDddCta2dcK7kH+/zXrj\n4QY1LdoAg41ORh95V4bmX9MMjM0qkXkQT6/GHeevhYDogOTbbUG48158tHtKJW8v\nf/tScDbAb2TC+RugICq57dm9tanTiEqsMy2yNZVY2e9OKXNRya067Y97I1M/Ow2Z\nViItozD7wnW/PaHIfwae8DzkcTFxP2qmHAVK0thPSt1JFHaNO3x68QhGmlm5u0wP\n67XItBK+9k37gCTd0Hmp9fsLEiJxyZfwk8a9khnmMp3isxYC8b9uUN5NWCp/p9/P\n8qMYqxAaPAzRPNAIDaHgHqjc5q9ZIx90j6KcKljVFooxYU0ExR9bTAapA4ipI+/h\ncItFt7EEPRHqFswr8/gik7gs+f3P+XPHYaF8PbNryjJRev2WvfBav96ud6W8gz3F\ntV54fN/dX9mlPBoPw6j08yeqSf/1PxD60xW4AkfsuewG8s2LJqZZCQRygsq8j6+9\nVHfZ9iLaUovoT7UQworKnRsUf32hyx1I+t3L7oA1Mlj7io7wKrXB5hydU+xZTIVu\nKmBKZSCz0XrLfTQLJ43t\n=ZYTT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 14ad701e90e79378a05f5246cce0986e7285bcd4\nparent 6fe0fa576af34e9e4fe69be4bfba447fcb52431a\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711924115 -0400\ncommitter GitHub <noreply@github.com> 1711924115 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/5239929bc11ce8e9a0f268cb0a5378f210a1c8b6",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/5239929bc11ce8e9a0f268cb0a5378f210a1c8b6",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/5239929bc11ce8e9a0f268cb0a5378f210a1c8b6/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6fe0fa576af34e9e4fe69be4bfba447fcb52431a",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/6fe0fa576af34e9e4fe69be4bfba447fcb52431a",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/6fe0fa576af34e9e4fe69be4bfba447fcb52431a"
+        }
+      ]
+    },
+    {
+      "sha": "6fe0fa576af34e9e4fe69be4bfba447fcb52431a",
+      "node_id": "C_kwDOLnu8hNoAKDZmZTBmYTU3NmFmMzRlOWU0ZmU2OWJlNGJmYmE0NDdmY2I1MjQzMWE",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-03-31T22:27:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-31T22:27:58Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "3e406378f2b579930fa2d50bd55dfb5c77c06688",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/3e406378f2b579930fa2d50bd55dfb5c77c06688"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/6fe0fa576af34e9e4fe69be4bfba447fcb52431a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmCeNuCRC1aQ7uu5UhlAAAkJgQAJ/+K8GISEngWptZv3JESgjN\nW0lHYCLYBYvp3dL8IMSTtDUMEamdH+Utk2Ne275IO1ccr+ZEM5P+Y4V6vO7wrH9L\nPycH22rZm5i9yWwXFPJrYrLxifYWqwSG0dptoWezQjs+VTR+vlUAAIMu84S46+y0\nN+5skwtz7ZP7Awlcr5Gh5TE7JTzK70kwYWkjXnMCuzYzJ2KtFHqb7FRnBT6sYCTN\naMzJVDgng3g8DNzcFBjs7Pc7FYZ14YnSdu/d7fTxW4Bbs9R+doTQRQZpg17W8H75\n57evQ2HNKvGfrh4xukNIVjnQkFTW3GrLpmR3RW4uqLhbT4821M26mOnIzp/Nqdxe\npJoU/CPIimdPg15iuxv64C/GoRk9jaRp17WLu7cMV8C0XdR/F6eDA24M1/0VuDp4\nQ4vqkszBY026OO3FKMZTA7PU1VpnlGnocApgHrAu+t3m0NGVFLgX01ZbS8d4lzNi\niIk3Uqzi1coyIYqogkRte36HsQDFNw3ck+ZYW5i9C5IA+xB/ecWkxiC8qcdt9yeq\n6aeuA41noOodo/gForeV8m+RawqiWX5z5/BGB9o0J59qANIqq/doKwq4G3LLGW+/\nywFR1ILxHBTWLnXz9VU0HSNg2LgUV+/ps3G38y1kMgPWoqBQjiy8TZgkNXRf3BRV\nClbcDTDDzVranRZA3kh7\n=Wadh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3e406378f2b579930fa2d50bd55dfb5c77c06688\nparent 0237054a379051f960e9e474fe77770f8ebef856\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711924078 -0400\ncommitter GitHub <noreply@github.com> 1711924078 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/6fe0fa576af34e9e4fe69be4bfba447fcb52431a",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/6fe0fa576af34e9e4fe69be4bfba447fcb52431a",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/6fe0fa576af34e9e4fe69be4bfba447fcb52431a/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0237054a379051f960e9e474fe77770f8ebef856",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/0237054a379051f960e9e474fe77770f8ebef856",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/0237054a379051f960e9e474fe77770f8ebef856"
+        }
+      ]
+    },
+    {
+      "sha": "0237054a379051f960e9e474fe77770f8ebef856",
+      "node_id": "C_kwDOLnu8hNoAKDAyMzcwNTRhMzc5MDUxZjk2MGU5ZTQ3NGZlNzc3NzBmOGViZWY4NTY",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-03-31T22:25:06Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-03-31T22:25:06Z"
+        },
+        "message": "Final Document Upload",
+        "tree": {
+          "sha": "9c964e47d68df6066c4b0a22f952e918567e946c",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/9c964e47d68df6066c4b0a22f952e918567e946c"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/0237054a379051f960e9e474fe77770f8ebef856",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/0237054a379051f960e9e474fe77770f8ebef856",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/0237054a379051f960e9e474fe77770f8ebef856",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/0237054a379051f960e9e474fe77770f8ebef856/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "55cc2a522054e6bb637196862f3bc3421ee4e579",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/55cc2a522054e6bb637196862f3bc3421ee4e579",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/55cc2a522054e6bb637196862f3bc3421ee4e579"
+        }
+      ]
+    },
+    {
+      "sha": "55cc2a522054e6bb637196862f3bc3421ee4e579",
+      "node_id": "C_kwDOLnu8hNoAKDU1Y2MyYTUyMjA1NGU2YmI2MzcxOTY4NjJmM2JjMzQyMWVlNGU1Nzk",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-03-31T18:21:25Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-03-31T18:21:25Z"
+        },
+        "message": "Updated",
+        "tree": {
+          "sha": "debe869ab2cde408f82c2687429e85e4f686301d",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/debe869ab2cde408f82c2687429e85e4f686301d"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/55cc2a522054e6bb637196862f3bc3421ee4e579",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/55cc2a522054e6bb637196862f3bc3421ee4e579",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/55cc2a522054e6bb637196862f3bc3421ee4e579",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/55cc2a522054e6bb637196862f3bc3421ee4e579/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "69897a9be70274a613f7179d808a1b79b5fc64f2",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/69897a9be70274a613f7179d808a1b79b5fc64f2",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/69897a9be70274a613f7179d808a1b79b5fc64f2"
+        }
+      ]
+    },
+    {
+      "sha": "69897a9be70274a613f7179d808a1b79b5fc64f2",
+      "node_id": "C_kwDOLnu8hNoAKDY5ODk3YTliZTcwMjc0YTYxM2Y3MTc5ZDgwOGExYjc5YjVmYzY0ZjI",
+      "commit": {
+        "author": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-03-31T02:17:53Z"
+        },
+        "committer": {
+          "name": "sean-t-smith",
+          "email": "sts5017@gmail.com",
+          "date": "2024-03-31T02:17:53Z"
+        },
+        "message": "Initial upload of documents.",
+        "tree": {
+          "sha": "2df76f515ae482ffbb0248ea686fa39260cb2a9a",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/2df76f515ae482ffbb0248ea686fa39260cb2a9a"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/69897a9be70274a613f7179d808a1b79b5fc64f2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/69897a9be70274a613f7179d808a1b79b5fc64f2",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/69897a9be70274a613f7179d808a1b79b5fc64f2",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/69897a9be70274a613f7179d808a1b79b5fc64f2/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f"
+        }
+      ]
+    },
+    {
+      "sha": "1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f",
+      "node_id": "C_kwDOLnu8hNoAKDFmZjdmMmEyN2NhM2UxZWM5MjFhODhkMGZlMGE3OTY1ZDU4ZTRkMmY",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-03-31T01:35:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-31T01:35:26Z"
+        },
+        "message": "Delete passgpt_generator.py",
+        "tree": {
+          "sha": "5bd75535e9c55e6a90997cb74431b8a279759cef",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/5bd75535e9c55e6a90997cb74431b8a279759cef"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmCL3eCRC1aQ7uu5UhlAAASuAQAKk8kY2bUm4R4nn2pWXUQ9bm\ngwlrgm1XOvf0vVQr1Fa4jxSlvWPfyJkeuz0hLXo+RBO3rvjqRl4TpUqBw/pu0pW0\nQPt8JUcXB+sob3RIcWdWQlllrXGrSfGdSLDQmTK2vDTVm3290vERHI6CJCZZMzZ5\nLSprdopNQZahXY0NpXC1PXlWL6Fml/fb0SosCWfoo+SkuyOvSraRSR3HVX/w6hNY\nS2K8kUCJ7e/pBGz8ltCEJqq1EAoiRLCYFI1tuFR/wjetdV7/Q8fWsaNXO8owzC0B\ndvHjONuUBFJ9ky+6hTdcD5iNfISlbqV85FlZBfgn1+/voFGN8814PYsZINHdT9DS\ny1knoHSNXC46pYtHuXRVlng/Wt0GZrzQ4AWkIPSsHVc+mpj66UycZ59Yu0Kzaha4\nPr/Ng4jBnw22NL/cS7uoQA5+tXsFqRaBcsMNCe56658Sg3Lquf1MjAFnXzNcY4Xa\nPAZHc6JuZDr4NSPj9CJRCmxjL03z193ArBPPPIFuvU9jZpHu50p6oXXOlLk5rVSp\nOvL4wmKu9vur1CW/IP4olwIFWIGC8tcPW3RYQjKf3uTqrhvTI4o0H6v4eFB37Uh7\n0cQBlG6Jo82BGB85eg67PqmlKiT0q6YDw1waoU6+6bq9imUdO4tm+knihqvQ3dTQ\noHFaKaPVDUB9zzIeHWmR\n=166i\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5bd75535e9c55e6a90997cb74431b8a279759cef\nparent 85a204b09ff986027dbd721d1549e97e4c54e3b4\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711848926 -0400\ncommitter GitHub <noreply@github.com> 1711848926 -0400\n\nDelete passgpt_generator.py",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/1ff7f2a27ca3e1ec921a88d0fe0a7965d58e4d2f/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "85a204b09ff986027dbd721d1549e97e4c54e3b4",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/85a204b09ff986027dbd721d1549e97e4c54e3b4",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/85a204b09ff986027dbd721d1549e97e4c54e3b4"
+        }
+      ]
+    },
+    {
+      "sha": "85a204b09ff986027dbd721d1549e97e4c54e3b4",
+      "node_id": "C_kwDOLnu8hNoAKDg1YTIwNGIwOWZmOTg2MDI3ZGJkNzIxZDE1NDllOTdlNGM1NGUzYjQ",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-03-31T01:35:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-31T01:35:01Z"
+        },
+        "message": "Add files via upload",
+        "tree": {
+          "sha": "d8d00671d948c27090d8aaf0b855fb5fa75646e3",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/d8d00671d948c27090d8aaf0b855fb5fa75646e3"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/85a204b09ff986027dbd721d1549e97e4c54e3b4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmCL3FCRC1aQ7uu5UhlAAAH2kQABL9z5ebrJFT5Wl6iPRxm+le\nWiqorfxoSiFOcCddmYkAqxDG8gpS+w9EcX9QUasuKEeRQe/PMexrOYkbeS4f9sTi\nOxGu5tB9VyS+xzgRcc13bmSxLLg4/OaUrtpzWc77jPbMBSUoxNHhx5yCl4LlH958\nCHzn/5aecsRM4fr7CT9UZ0z5sexFZ03wJpFAPa9h97XzqBdHLDuKcybAR9U+KSI4\nHYFfyh9JJB3YjdFu3YrMyjBKxw/hljOygVXZgsPFgaDvBgKvchi7qBqC0qG+N+PY\nWjWNiMDm890xdp8xkVCgEY1MK/E+7qvypT1oKI3knqSq61nvJgxrFY8r3D0faxvA\nodnvQexIfKMPfjUJlHhLdyb9623JOwZkOGBq867kovffx+kg5P5zbdmUWhupkj48\n1R4OzAm/jPQLX7foGMeoHtTBNkoRVpfeHqGkwLxe0Wjrv4M3xqhnwUPGwrptfMSY\nZ2uomuFe8iApTvJyFYyuV7QV5uBeFNemBCqZbFEF0qpZ5E3qL+vBg1pA1HsyOFmE\nF+aSdesZeyqKMtJ1gDmk5Fbp+E14z1x6mh66B169vSrkSHYCMOe88slvE7hyPIGY\ntGGO3DOq7YbbEQbktEIqXi3PSpfsXTCZhRdh9MjhJ5gWTf4Kkg1PfHBdb7hzFnYN\nWGRqnBZe80Mi1FyhMq8Z\n=Nvyj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d8d00671d948c27090d8aaf0b855fb5fa75646e3\nparent d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711848901 -0400\ncommitter GitHub <noreply@github.com> 1711848901 -0400\n\nAdd files via upload",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/85a204b09ff986027dbd721d1549e97e4c54e3b4",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/85a204b09ff986027dbd721d1549e97e4c54e3b4",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/85a204b09ff986027dbd721d1549e97e4c54e3b4/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc"
+        }
+      ]
+    },
+    {
+      "sha": "d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc",
+      "node_id": "C_kwDOLnu8hNoAKGQyY2M1NDQxYmQyYzIxYTdhYTkxMGQxODEzZjMzNjBlZDNiN2VmZGM",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-03-31T01:34:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-31T01:34:00Z"
+        },
+        "message": "Create .gitignore",
+        "tree": {
+          "sha": "5bd75535e9c55e6a90997cb74431b8a279759cef",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/5bd75535e9c55e6a90997cb74431b8a279759cef"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmCL2ICRC1aQ7uu5UhlAAAKjYQAEegcNRU+rsZvaWr3LNPpzkM\nuxpuYR9SUiIAZaHLZ72SJWQwMrjS5QXBGdNT8BIMzNyUMAugK6oG2e8l6COKGvSG\nwvgZv0oCiupnSY94J+NZIIybOu2kVZ90SJIiCdeK1n8nxDy3q9/gHyJVHofW1OIL\ngz4jbZMcfCibgUo9G/ms2aYgXrtQlmDRtRNo7l1Ngvsx2987i/bpE3B3adCAl/K6\nWOPUexjbpm4v/9/qTrti6/9KUZXuu9DPxMNXZvrZCaXUsxDNNaxGNcAhJMFxkjQy\nvpwXRHKGeFnHmxhf6BoySpodfjN3Y1kinqF5goS+aVH1G21dbGkNLMJUSE6KhCvv\nEYMynxsL4rzKZznVfesjuqB/xDnCapH9Ig6w7dDuV0ZwLjYXFFm1J7S65mw3WWO6\n3LArqMzz8PWeKVlkT0cs0uIxR5IAQMiyLDASlvY9mbCBIp0PEv4cdFTVwO/BTcjR\ndXMtxeX/qJCdeFW8VXXMJElZuvyoXr5zqwFPP9O4r1MJFjcr7LCpkqdZDUHHQQ6G\npVJpPaw3T2aS6U1YDJmy2w60onyZCKbALLtZOK694r4JpqyQFkMYzCC3el6clEJZ\nk0zoi1GXI9CpUMZFmuURQJ0GnZZl6N4VLdEjcCJLeQezCCofRS9u/ykvR2Ab0hgQ\nEzZzLBLhKTOLcNCBT+6P\n=lV56\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5bd75535e9c55e6a90997cb74431b8a279759cef\nparent 4670fd067c9b9f7bd53a63cc9903443baa469e01\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711848840 -0400\ncommitter GitHub <noreply@github.com> 1711848840 -0400\n\nCreate .gitignore",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/d2cc5441bd2c21a7aa910d1813f3360ed3b7efdc/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4670fd067c9b9f7bd53a63cc9903443baa469e01",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/4670fd067c9b9f7bd53a63cc9903443baa469e01",
+          "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/4670fd067c9b9f7bd53a63cc9903443baa469e01"
+        }
+      ]
+    },
+    {
+      "sha": "4670fd067c9b9f7bd53a63cc9903443baa469e01",
+      "node_id": "C_kwDOLnu8hNoAKDQ2NzBmZDA2N2M5YjlmN2JkNTNhNjNjYzk5MDM0NDNiYWE0NjllMDE",
+      "commit": {
+        "author": {
+          "name": "Sean T Smith",
+          "email": "71024495+sean-t-smith@users.noreply.github.com",
+          "date": "2024-03-31T01:33:40Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-31T01:33:40Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "bf6cc49642e0e8e8cdc92ac4d8456ffad797c04d",
+          "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/trees/bf6cc49642e0e8e8cdc92ac4d8456ffad797c04d"
+        },
+        "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/git/commits/4670fd067c9b9f7bd53a63cc9903443baa469e01",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmCL10CRC1aQ7uu5UhlAAAXCcQAJ3TPem/LKgyoM+OTIlAsb4f\nifj8lRs/8Eo2Fkx17stNS0KHJDUyAFIytvP1HCv3lOajDEK3yvjeBY9lLK1KYBGn\nSrS2v6O7A3n+kFPv2kg9B5+fmZigPrM7+hTzX6fSXA9VNhUY93pZw3P08gRNoWpI\n1sXuK4Mt6Mhbllqi06/bmAv2Lzbb//PC9DTTclOIfe3zNsyXA9bK8BMMrbMxqsgi\nux2PU8ThOvj05nNFwiBnOo13SqO/CJpTeXHQWrmRYY1UGssSq45ZzCP5WeAMiDFJ\nmEg4x70uooK6aQwOdZBSUgbtLe5XVVbOaxQ95J2riHpPHVxik2vzb6Ov20a0Bxov\n6bwKoIT8/fvvmjGM2gj12vQNaL73kUAOyehrmNcjC5dKxmPwVMWwLGWzPtQOijh5\nq2ZS3BJQrCm1ZCqPnLNyax5dWaSzw/H2CD7KbIpUD3GT9HhE1IyiYZeiwbBcMmft\nmKtEPVhif490/x/5++lOw+aapV/n5z307B31EPZGx23cjuB5nUB0ju3zVG5Ighq4\ntGnJg4ckHtmBkS9VWeOD6jx/e4u5gJSuQRm8X05mLopJruPIlxbdynATALRUN1qk\nxnu3QV34GaPm2+IE48cZLPNZCNVIReoM7//Zc1Zug7mo8fKTllelquED016W60RG\ni8TWpA+uzkS4yfMkpCGt\n=Plaz\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bf6cc49642e0e8e8cdc92ac4d8456ffad797c04d\nauthor Sean T Smith <71024495+sean-t-smith@users.noreply.github.com> 1711848820 -0400\ncommitter GitHub <noreply@github.com> 1711848820 -0400\n\nInitial commit",
+          "verified_at": "2024-11-16T11:56:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/4670fd067c9b9f7bd53a63cc9903443baa469e01",
+      "html_url": "https://github.com/sean-t-smith/pwned-by-passgpt/commit/4670fd067c9b9f7bd53a63cc9903443baa469e01",
+      "comments_url": "https://api.github.com/repos/sean-t-smith/pwned-by-passgpt/commits/4670fd067c9b9f7bd53a63cc9903443baa469e01/comments",
+      "author": {
+        "login": "sean-t-smith",
+        "id": 71024495,
+        "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/sean-t-smith",
+        "html_url": "https://github.com/sean-t-smith",
+        "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+        "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+        "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+        "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+        "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+        "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "sean-t-smith",
+      "id": 71024495,
+      "node_id": "MDQ6VXNlcjcxMDI0NDk1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71024495?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sean-t-smith",
+      "html_url": "https://github.com/sean-t-smith",
+      "followers_url": "https://api.github.com/users/sean-t-smith/followers",
+      "following_url": "https://api.github.com/users/sean-t-smith/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sean-t-smith/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sean-t-smith/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sean-t-smith/subscriptions",
+      "organizations_url": "https://api.github.com/users/sean-t-smith/orgs",
+      "repos_url": "https://api.github.com/users/sean-t-smith/repos",
+      "events_url": "https://api.github.com/users/sean-t-smith/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sean-t-smith/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 21
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 62690
+  },
+  "readme_html": "<h1 id=\"user-content-practical-password-cracking---hardware-tools-methods-and-ai\">Practical Password Cracking - Hardware, Tools, Methods and AI</h1>\n<p>The presentation aims to teach a methodology and mindset for password cracking that is applicable to all types of passwords. It emphasizes that while having advanced hardware such as powerful GPUs and cloud infrastructure can enhance the process, it is not a necessity for success—most passwords can be efficiently cracked using minimal hardware. The key takeaway is that password cracking is accessible and not inherently complicated with the right knowledge. The outcome is prooving out the described methodology using the Have I Been Pwned dataset while using tried-and-true techniques and novel AI-based LLM tooling.</p>\n<p>Download the <a href=\"https://github.com/sean-t-smith/pwned-by-passgpt/blob/main/Practical%20Password%20Cracking%20-%20Hardware%2C%20Tools%2C%20Methods%20and%20AI%20-%20vF.pdf\">full guide here</a>. Watch the <a href=\"https://youtu.be/NUQsfHW1Nek\">demo here</a>. Run the AI model using <a href=\"https://github.com/sean-t-smith/pwned-by-passgpt/blob/main/passgpt_generator.py\">this code</a>.</p>\n<h1 id=\"user-content-how-is-this-useful\">How is this useful?</h1>\n<p>Password cracking is a vital skill in cybersecurity because it provides concrete evidence of the risks associated with poor security practices. Demonstrating the ease with which passwords can be compromised has a significant impact during cybersecurity assessments, emphasizing the importance of strong security measures. In penetration testing, obtaining initial access and escalating privileges often hinges on the ability to crack captured password hashes. The ability to successfully crack these hashes can be the deciding factor in the outcome of a security assessment.</p>\n<p>Furthermore, by auditing an organization's NTDS.dit file—a database that stores Active Directory data including password hashes—security professionals can evaluate the effectiveness of the organization's password policies and technical controls. Whether these policies are robust or lacking, the audit provides clear evidence of the current state of security.</p>\n<p>In the context of cybersecurity operations, being adept at password cracking within the constraints of time and resources is crucial. It's not just about breaking passwords, but doing so efficiently and effectively in the real-world scenarios that cyber operators face. This skill is an essential part of a cybersecurity professional's toolkit, allowing them to identify vulnerabilities, test security measures, and help organizations strengthen their defenses against potential breaches.</p>\n<h1 id=\"user-content-how-does-this-help-the-good-guys\">How does this help the good guys?</h1>\n<p>The skill of password cracking serves as a powerful tool for cybersecurity advocates to demonstrate the real-world consequences of inadequate security measures. When cyber professionals present the results of security engagements—particularly the ease of password exploitation—it can be a persuasive wake-up call for corporate leadership. Such demonstrations often lead to rapid organizational changes, as they make the abstract threat of cyber attacks tangible and understandable, even for non-technical leaders.</p>\n<p>By clearly illustrating the vulnerabilities in their systems through password cracking, cybersecurity professionals can effectively communicate the urgency and necessity for improved security. This, in turn, can catalyze a stronger commitment to cybersecurity within the organization, often resulting in increased focus and resources dedicated to bolstering defenses.</p>\n<p>The ability to crack passwords is more than just a technical skill; it is a means of translating the complex language of cybersecurity into clear and actionable information that can drive decision-making at the highest levels. Therefore, mastering the art of password cracking is not just beneficial for penetrating systems in a test environment, but it's also critical for advocating for stronger security practices—helping the \"good guys\" build a more resilient posture against cyber threats.</p>",
+  "_fetched_at": "2026-03-11T18:05:31.756Z"
+}

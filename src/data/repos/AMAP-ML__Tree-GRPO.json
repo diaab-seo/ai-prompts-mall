@@ -1,0 +1,787 @@
+{
+  "id": 1064056516,
+  "node_id": "R_kgDOP2w2xA",
+  "name": "Tree-GRPO",
+  "full_name": "AMAP-ML/Tree-GRPO",
+  "private": false,
+  "owner": {
+    "login": "AMAP-ML",
+    "id": 202896035,
+    "node_id": "O_kgDODBfyow",
+    "avatar_url": "https://avatars.githubusercontent.com/u/202896035?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/AMAP-ML",
+    "html_url": "https://github.com/AMAP-ML",
+    "followers_url": "https://api.github.com/users/AMAP-ML/followers",
+    "following_url": "https://api.github.com/users/AMAP-ML/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AMAP-ML/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/AMAP-ML/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/AMAP-ML/subscriptions",
+    "organizations_url": "https://api.github.com/users/AMAP-ML/orgs",
+    "repos_url": "https://api.github.com/users/AMAP-ML/repos",
+    "events_url": "https://api.github.com/users/AMAP-ML/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/AMAP-ML/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/AMAP-ML/Tree-GRPO",
+  "description": "[ICLR 2026] Tree Search for LLM Agent Reinforcement Learning",
+  "fork": false,
+  "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO",
+  "forks_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/forks",
+  "keys_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/teams",
+  "hooks_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/hooks",
+  "issue_events_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/events",
+  "assignees_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/tags",
+  "blobs_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/languages",
+  "stargazers_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/stargazers",
+  "contributors_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/contributors",
+  "subscribers_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/subscribers",
+  "subscription_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/subscription",
+  "commits_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/merges",
+  "archive_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/downloads",
+  "issues_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/labels{/name}",
+  "releases_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/deployments",
+  "created_at": "2025-09-25T13:33:00Z",
+  "updated_at": "2026-03-11T10:35:04Z",
+  "pushed_at": "2026-01-26T17:11:54Z",
+  "git_url": "git://github.com/AMAP-ML/Tree-GRPO.git",
+  "ssh_url": "git@github.com:AMAP-ML/Tree-GRPO.git",
+  "clone_url": "https://github.com/AMAP-ML/Tree-GRPO.git",
+  "svn_url": "https://github.com/AMAP-ML/Tree-GRPO",
+  "homepage": "",
+  "size": 5300,
+  "stargazers_count": 303,
+  "watchers_count": 303,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 25,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 2,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "agent",
+    "large-language-model",
+    "llm",
+    "reinforcement-learning",
+    "tree"
+  ],
+  "visibility": "public",
+  "forks": 25,
+  "open_issues": 2,
+  "watchers": 303,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-agents",
+  "commits": [
+    {
+      "sha": "19bf3fa0c74d8b9ba70619a09a2fd480c31b9d59",
+      "node_id": "C_kwDOP2w2xNoAKDE5YmYzZmEwYzc0ZDhiOWJhNzA2MTlhMDlhMmZkNDgwYzMxYjlkNTk",
+      "commit": {
+        "author": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2026-01-26T17:07:46Z"
+        },
+        "committer": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2026-01-26T17:07:46Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "ef23786e24b42258f13877e9b031c686faafeff3",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/ef23786e24b42258f13877e9b031c686faafeff3"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/19bf3fa0c74d8b9ba70619a09a2fd480c31b9d59",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/19bf3fa0c74d8b9ba70619a09a2fd480c31b9d59",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/19bf3fa0c74d8b9ba70619a09a2fd480c31b9d59",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/19bf3fa0c74d8b9ba70619a09a2fd480c31b9d59/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "90b170995d996d772d68117e0c7bd0b8fe00d393",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/90b170995d996d772d68117e0c7bd0b8fe00d393",
+          "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/90b170995d996d772d68117e0c7bd0b8fe00d393"
+        }
+      ]
+    },
+    {
+      "sha": "90b170995d996d772d68117e0c7bd0b8fe00d393",
+      "node_id": "C_kwDOP2w2xNoAKDkwYjE3MDk5NWQ5OTZkNzcyZDY4MTE3ZTBjN2JkMGI4ZmUwMGQzOTM",
+      "commit": {
+        "author": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-29T09:39:36Z"
+        },
+        "committer": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-29T09:46:55Z"
+        },
+        "message": "upload logo",
+        "tree": {
+          "sha": "eb96ab5bef07da4199e05ad3fbf9433428ee7984",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/eb96ab5bef07da4199e05ad3fbf9433428ee7984"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/90b170995d996d772d68117e0c7bd0b8fe00d393",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/90b170995d996d772d68117e0c7bd0b8fe00d393",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/90b170995d996d772d68117e0c7bd0b8fe00d393",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/90b170995d996d772d68117e0c7bd0b8fe00d393/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0812645f7b7333ec234b8a89b36a9b18c2ebb17c",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/0812645f7b7333ec234b8a89b36a9b18c2ebb17c",
+          "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/0812645f7b7333ec234b8a89b36a9b18c2ebb17c"
+        }
+      ]
+    },
+    {
+      "sha": "0812645f7b7333ec234b8a89b36a9b18c2ebb17c",
+      "node_id": "C_kwDOP2w2xNoAKDA4MTI2NDVmN2I3MzMzZWMyMzRiOGE4OWIzNmE5YjE4YzJlYmIxN2M",
+      "commit": {
+        "author": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-29T07:55:22Z"
+        },
+        "committer": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-29T07:55:22Z"
+        },
+        "message": "upload pyproject.toml",
+        "tree": {
+          "sha": "85088d75928632e375dc75f347b79de33b39baa3",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/85088d75928632e375dc75f347b79de33b39baa3"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/0812645f7b7333ec234b8a89b36a9b18c2ebb17c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/0812645f7b7333ec234b8a89b36a9b18c2ebb17c",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/0812645f7b7333ec234b8a89b36a9b18c2ebb17c",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/0812645f7b7333ec234b8a89b36a9b18c2ebb17c/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "18d3dd9c94a3d1b8d8317510f921f0d92bd46df4",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/18d3dd9c94a3d1b8d8317510f921f0d92bd46df4",
+          "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/18d3dd9c94a3d1b8d8317510f921f0d92bd46df4"
+        }
+      ]
+    },
+    {
+      "sha": "18d3dd9c94a3d1b8d8317510f921f0d92bd46df4",
+      "node_id": "C_kwDOP2w2xNoAKDE4ZDNkZDljOTRhM2QxYjhkODMxNzUxMGY5MjFmMGQ5MmJkNDZkZjQ",
+      "commit": {
+        "author": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-28T05:44:53Z"
+        },
+        "committer": {
+          "name": "沐明",
+          "email": "wangzengbin.wzb@alibaba-inc.com",
+          "date": "2025-09-28T06:07:59Z"
+        },
+        "message": "clean code",
+        "tree": {
+          "sha": "5e16f3adfc83385ac658147553cb73c322f873f8",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/5e16f3adfc83385ac658147553cb73c322f873f8"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/18d3dd9c94a3d1b8d8317510f921f0d92bd46df4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/18d3dd9c94a3d1b8d8317510f921f0d92bd46df4",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/18d3dd9c94a3d1b8d8317510f921f0d92bd46df4",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/18d3dd9c94a3d1b8d8317510f921f0d92bd46df4/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": null,
+      "parents": [
+        {
+          "sha": "67920468444a5d066760c981f0fbde99a3fa5fdc",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/67920468444a5d066760c981f0fbde99a3fa5fdc",
+          "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/67920468444a5d066760c981f0fbde99a3fa5fdc"
+        }
+      ]
+    },
+    {
+      "sha": "67920468444a5d066760c981f0fbde99a3fa5fdc",
+      "node_id": "C_kwDOP2w2xNoAKDY3OTIwNDY4NDQ0YTVkMDY2NzYwYzk4MWYwZmJkZTk5YTNmYTVmZGM",
+      "commit": {
+        "author": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-26T03:04:17Z"
+        },
+        "committer": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-26T03:04:17Z"
+        },
+        "message": "update paper link",
+        "tree": {
+          "sha": "f2a45fd98d8015e624c4bd7eb3b6d59c778761ee",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/f2a45fd98d8015e624c4bd7eb3b6d59c778761ee"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/67920468444a5d066760c981f0fbde99a3fa5fdc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/67920468444a5d066760c981f0fbde99a3fa5fdc",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/67920468444a5d066760c981f0fbde99a3fa5fdc",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/67920468444a5d066760c981f0fbde99a3fa5fdc/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "30ca5f707d91ea7d0eccbdb3662743e0531347c9",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/30ca5f707d91ea7d0eccbdb3662743e0531347c9",
+          "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/30ca5f707d91ea7d0eccbdb3662743e0531347c9"
+        }
+      ]
+    },
+    {
+      "sha": "30ca5f707d91ea7d0eccbdb3662743e0531347c9",
+      "node_id": "C_kwDOP2w2xNoAKDMwY2E1ZjcwN2Q5MWVhN2QwZWNjYmRiMzY2Mjc0M2UwNTMxMzQ3Yzk",
+      "commit": {
+        "author": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-25T14:46:20Z"
+        },
+        "committer": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-25T14:46:20Z"
+        },
+        "message": "remove logo",
+        "tree": {
+          "sha": "e0762ec81f8a58a11a862cf2bae878824e0e034c",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/e0762ec81f8a58a11a862cf2bae878824e0e034c"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/30ca5f707d91ea7d0eccbdb3662743e0531347c9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/30ca5f707d91ea7d0eccbdb3662743e0531347c9",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/30ca5f707d91ea7d0eccbdb3662743e0531347c9",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/30ca5f707d91ea7d0eccbdb3662743e0531347c9/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "62cd246faf0feb77116aecc5385d5834473f8dec",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/62cd246faf0feb77116aecc5385d5834473f8dec",
+          "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/62cd246faf0feb77116aecc5385d5834473f8dec"
+        }
+      ]
+    },
+    {
+      "sha": "62cd246faf0feb77116aecc5385d5834473f8dec",
+      "node_id": "C_kwDOP2w2xNoAKDYyY2QyNDZmYWYwZmViNzcxMTZhZWNjNTM4NWQ1ODM0NDczZjhkZWM",
+      "commit": {
+        "author": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-25T14:41:53Z"
+        },
+        "committer": {
+          "name": "Yux1angJi",
+          "email": "yuxiangji@stu.xmu.edu.cn",
+          "date": "2025-09-25T14:41:53Z"
+        },
+        "message": "upload codebase",
+        "tree": {
+          "sha": "eb81d8f5d56f52c74a29ff9e096d6e0d4a9fb4e5",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/eb81d8f5d56f52c74a29ff9e096d6e0d4a9fb4e5"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/62cd246faf0feb77116aecc5385d5834473f8dec",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/62cd246faf0feb77116aecc5385d5834473f8dec",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/62cd246faf0feb77116aecc5385d5834473f8dec",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/62cd246faf0feb77116aecc5385d5834473f8dec/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1390f12c3f218ed40b37b22b4a4e8d9708679377",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/1390f12c3f218ed40b37b22b4a4e8d9708679377",
+          "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/1390f12c3f218ed40b37b22b4a4e8d9708679377"
+        }
+      ]
+    },
+    {
+      "sha": "1390f12c3f218ed40b37b22b4a4e8d9708679377",
+      "node_id": "C_kwDOP2w2xNoAKDEzOTBmMTJjM2YyMThlZDQwYjM3YjIyYjRhNGU4ZDk3MDg2NzkzNzc",
+      "commit": {
+        "author": {
+          "name": "Yuxiang Ji",
+          "email": "35283956+Yux1angJi@users.noreply.github.com",
+          "date": "2025-09-25T13:33:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-09-25T13:33:00Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "8f57a99980891ccc68701b94b94342f7ae0e02d6",
+          "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/trees/8f57a99980891ccc68701b94b94342f7ae0e02d6"
+        },
+        "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/git/commits/1390f12c3f218ed40b37b22b4a4e8d9708679377",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo1USMCRC1aQ7uu5UhlAAAWA0QAEo3yk1MvMxS90hdzywu2OI+\nWiqwM9hQ3+sSgiQjA9bITIZ0io3s74U9YdYVVYX/xYONlfONRhltcIy5avs9Dfml\nMwRmzZhrYX9zvo5sWD5fL6zVhCsV9coDeL1xgAksOp/V841XpiFedYv9GyMvyqfe\n5HLIiEfldkMm3a39pOvpYRfbIapphqD/jKn0SVmOBx7gsE8KQ6E2hZVwUJEym5YP\nxzvrraHB67z1lsErBxXSZMbJCsSLN4V/jv2oo/DX98TjGk/fUcCUBcIEnC2+eXq/\nBnr1F9ICERX2FjlXWyrStDBzBnhz2v30q0r2lhD8adP7aD72/dc9MjzFp9S9HAHZ\nZ/OcBQS8yMAVjA3fkjYFb6VCMDT6evd/Ldm/FmWvwtD4MusgqQpV7C2jSUSRfmk0\nOiX5AypI1HciJe6FPUOZVn9IGTGEU2DdaNfAgg2GUr5+pyj8pkR459wmhEfMZ3YN\nsCs+pHNl4kluYGf834aWk+SnPPiEs3F6XjHiGNIMpsaN9VXU3EQW8Hc8OMYOQA6N\ntZdklyWBm3zi7RVKDYxZ7jSRzKGL95eycP2q/QOVBG61coi7U4jEEd1sKkmfWq6v\nUKYJVeZJa24Thv5L8W/x/IdZrLXNG76uoVtO7uGy/eVtCDI6T6VE/tZlznl4sMlA\nMlfOh2oKkWUVxgfYXkTq\n=Oige\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8f57a99980891ccc68701b94b94342f7ae0e02d6\nauthor Yuxiang Ji <35283956+Yux1angJi@users.noreply.github.com> 1758807180 +0800\ncommitter GitHub <noreply@github.com> 1758807180 +0800\n\nInitial commit",
+          "verified_at": "2025-09-25T13:33:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/1390f12c3f218ed40b37b22b4a4e8d9708679377",
+      "html_url": "https://github.com/AMAP-ML/Tree-GRPO/commit/1390f12c3f218ed40b37b22b4a4e8d9708679377",
+      "comments_url": "https://api.github.com/repos/AMAP-ML/Tree-GRPO/commits/1390f12c3f218ed40b37b22b4a4e8d9708679377/comments",
+      "author": {
+        "login": "Yux1angJi",
+        "id": 35283956,
+        "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yux1angJi",
+        "html_url": "https://github.com/Yux1angJi",
+        "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+        "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+        "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+        "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "Yux1angJi",
+      "id": 35283956,
+      "node_id": "MDQ6VXNlcjM1MjgzOTU2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35283956?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Yux1angJi",
+      "html_url": "https://github.com/Yux1angJi",
+      "followers_url": "https://api.github.com/users/Yux1angJi/followers",
+      "following_url": "https://api.github.com/users/Yux1angJi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Yux1angJi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Yux1angJi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Yux1angJi/subscriptions",
+      "organizations_url": "https://api.github.com/users/Yux1angJi/orgs",
+      "repos_url": "https://api.github.com/users/Yux1angJi/repos",
+      "events_url": "https://api.github.com/users/Yux1angJi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Yux1angJi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 8
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 1089885,
+    "Shell": 25273
+  },
+  "readme_html": "<p><a href=\"https://arxiv.org/abs/2509.21240\"><img src=\"https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&#x26;logo=arxiv\" alt=\"Paper\"></a>\n<a href=\"https://huggingface.co/papers/2509.21240\"><img src=\"https://img.shields.io/badge/Paper-Hugging%20Face-yellow?style=flat-square&#x26;logo=huggingface\" alt=\"Paper\"></a>\n<a href=\"https://swanlab.cn/@yux1ang/Tree-GRPO/overview\"><img src=\"https://raw.githubusercontent.com/SwanHubX/assets/main/badge2.svg\" alt=\"\"></a></p>\n<h2 id=\"user-content-news\">News</h2>\n<ul>\n<li>[Jan 27, 2026]: 🌲🌲 Our paper is accepted by ICLR 2026.</li>\n<li>[Sep 25, 2025]: Codebase released. (work in progress)</li>\n</ul>\n<h2 id=\"user-content-table-of-contents\">Table of contents</h2>\n<ul>\n<li><a href=\"#overview\">Overview</a></li>\n<li><a href=\"#quick-start\">Quick start</a></li>\n<li><a href=\"#preliminary-results\">Preliminary results</a></li>\n<li><a href=\"#acknowledgement\">Acknowledgement</a></li>\n<li><a href=\"#citation\">Citation</a></li>\n</ul>\n<h2 id=\"user-content-overview\">Overview</h2>\n<p>We propose Tree-GRPO, adopting a tree-search rollout strategy in place of independent chain-based rollouts for LLM agent RL. Based on ReAct step-level nodes, Tree-GRPO carries out rollout sampling over a semantically well-defined search tree. The Tree-GRPO brings two major advantages: (i) <strong>Less rollout budget</strong>, (ii) <strong>Tree-based process supervion signal</strong>.</p>\n<p><em>Based on Qwen2.5-3b, our Tree-GRPO achieves superior performance over the chain-based method while using only a quarter of the rollout budget.</em></p>\n<h2 id=\"user-content-quick-start\">Quick Start</h2>\n<h3 id=\"user-content-installation\">Installation</h3>\n<h4 id=\"user-content-rl-environment\">RL Environment</h4>\n<pre><code class=\"language-bash\">conda create -n treegrpo python=3.12.9\nconda activate treegrpo\npip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0  \npip install vllm==0.8.5.post1\n# verl\npip install -e .\n# flash attention 2\npip install flash-attn --no-build-isolation\npip install swanlab\n</code></pre>\n<h3 id=\"user-content-retriever-environment\">Retriever Environment</h3>\n<pre><code class=\"language-bash\">conda create -n retriever python=3.10.13\nconda activate retriever\npip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0  \npip install transformers datasets pyserini\n# install the gpu version faiss to guarantee efficient RL rollout\npip install faiss-gpu==1.7.3\n# API function\npip install uvicorn fastapi\n</code></pre>\n<h3 id=\"user-content-dataset\">Dataset</h3>\n<p>Download the wiki dump indexing and corpus.</p>\n<pre><code class=\"language-bash\">save_path=/the/path/to/save\npython scripts/download.py --save_path $save_path\ncat $save_path/part_* > $save_path/e5_Flat.index\ngzip -d $save_path/wiki-18.jsonl.gz\n</code></pre>\n<p>Process the single-hop QA and multi-hop QA datasets into parquet.</p>\n<pre><code class=\"language-bash\">bash scripts/data_process/data_process_multihop.sh\nbash scripts/data_process/data_process_single.sh\n</code></pre>\n<p>The training and test set of web-agent QA will be released soon.</p>\n<h3 id=\"user-content-rl-training\">RL Training</h3>\n<p>Launch a local retrieval server for single-hop QA and multi-hop QA,</p>\n<pre><code class=\"language-bash\">conda activate retriever\nbash retrieval_launch.sh\n</code></pre>\n<p>or launch a real search API (bing) server for web-agent QA.</p>\n<pre><code class=\"language-bash\"># Change your own api in bing_search_launch.sh\n# Note that the bing search server will cache the search results by redis, then stores them permanently as .json periodically and when the server terminates\nbash bing_search_launch.sh\n</code></pre>\n<p>Run GRPO training with Qwen2.5-3b on multi-hop QA setting.</p>\n<pre><code class=\"language-bash\">conda activate treegrpo\nbash train_multihopqa_grpo.sh\n</code></pre>\n<p>Run Tree-GRPO training with Qwen2.5-3b on multi-hop QA setting.</p>\n<pre><code class=\"language-bash\">bash train_multihopqa_tree_search.sh\n</code></pre>\n<h2 id=\"user-content-preliminary-results\">Preliminary results</h2>\n<p>The training logs are tracking in <a href=\"https://swanlab.cn/@yux1ang/Tree-GRPO/overview\">Swanlab</a>.</p>\n<table>\n<thead>\n<tr>\n<th>Method</th>\n<th>NQ</th>\n<th>Trivia</th>\n<th>PopQA</th>\n<th>Avg3</th>\n<th>Hotpot</th>\n<th>2wiki</th>\n<th>Musiq</th>\n<th>Bamb</th>\n<th>Avg4</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>GRPO (Qwen2.5-1.5b)</td>\n<td>39.4</td>\n<td>51.0</td>\n<td>39.7</td>\n<td>43.4</td>\n<td>14.6</td>\n<td>24.4</td>\n<td>2.2</td>\n<td>4.0</td>\n<td>11.3</td>\n</tr>\n<tr>\n<td>Tree-GRPO (Qwen2.5-1.5b)</td>\n<td>43.6</td>\n<td>57.0</td>\n<td>41.6</td>\n<td>47.5</td>\n<td>29.5</td>\n<td>26.8</td>\n<td>6.6</td>\n<td>13.6</td>\n<td>19.1</td>\n</tr>\n<tr>\n<td>GRPO (Qwen2.5-3b)</td>\n<td>44.4</td>\n<td>58.0</td>\n<td>42.0</td>\n<td>48.1</td>\n<td>39.0</td>\n<td>36.3</td>\n<td>15.2</td>\n<td>36.8</td>\n<td>31.8</td>\n</tr>\n<tr>\n<td>Tree-GRPO (Qwen2.5-3b)</td>\n<td>46.8</td>\n<td>59.7</td>\n<td>43.6</td>\n<td>50.0</td>\n<td>42.4</td>\n<td>43.7</td>\n<td>17.8</td>\n<td>43.2</td>\n<td>36.8</td>\n</tr>\n<tr>\n<td>GRPO (Llama3.2-3b-it)</td>\n<td>45.5</td>\n<td>58.2</td>\n<td>42.4</td>\n<td>48.7</td>\n<td>36.0</td>\n<td>26.9</td>\n<td>11.8</td>\n<td>32.0</td>\n<td>26.7</td>\n</tr>\n<tr>\n<td>Tree-GRPO (Llama3.2-3b-it)</td>\n<td>47.7</td>\n<td>59.9</td>\n<td>42.3</td>\n<td>50.0</td>\n<td>44.6</td>\n<td>38.4</td>\n<td>17.6</td>\n<td>46.4</td>\n<td>36.8</td>\n</tr>\n<tr>\n<td>GRPO (Qwen2.5-7b)</td>\n<td>45.8</td>\n<td>61.5</td>\n<td>44.3</td>\n<td>50.5</td>\n<td>42.5</td>\n<td>40.7</td>\n<td>19.1</td>\n<td>43.2</td>\n<td>36.4</td>\n</tr>\n<tr>\n<td>Tree-GRPO (Qwen2.5-7b)</td>\n<td>48.1</td>\n<td>63.3</td>\n<td>45.2</td>\n<td>52.2</td>\n<td>44.6</td>\n<td>42.3</td>\n<td>20.2</td>\n<td>44.0</td>\n<td>37.8</td>\n</tr>\n<tr>\n<td>GRPO (Qwen2.5-14b)</td>\n<td>51.3</td>\n<td>67.2</td>\n<td>46.7</td>\n<td>55.1</td>\n<td>47.7</td>\n<td>42.6</td>\n<td>23.2</td>\n<td>53.6</td>\n<td>41.8</td>\n</tr>\n<tr>\n<td>Tree-GRPO (Qwen2.5-14b)</td>\n<td>51.7</td>\n<td>68.1</td>\n<td>47.3</td>\n<td>55.7</td>\n<td>50.2</td>\n<td>50.5</td>\n<td>25.9</td>\n<td>54.4</td>\n<td>45.3</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-acknowledgement\">Acknowledgement</h2>\n<p>The codebase is built upon <a href=\"https://github.com/PeterGriffinJin/Search-R1\">Search-R1</a> and <a href=\"https://github.com/volcengine/verl\">veRL</a>.\nThe implementation is inspired by <a href=\"https://github.com/THUDM/TreeRL\">TreeRL</a>.\nWe express our gratitude to these open-source projects.</p>\n<h2 id=\"user-content-citation\">Citation</h2>\n<pre><code class=\"language-bibtex\">@article{ji2025treesearch,\n  title={Tree Search for LLM Agent Reinforcement Learning}, \n  author={Yuxiang Ji and Ziyu Ma and Yong Wang and Guanhua Chen and Xiangxiang Chu and Liaoni Wu},\n  journal={arXiv preprint arXiv:2509.21240},\n  year={2025}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:04:20.049Z"
+}

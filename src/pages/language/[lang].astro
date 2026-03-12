@@ -1,0 +1,25 @@
+---
+// Language filter page — SSG
+import type { GetStaticPaths } from 'astro';
+import languages from '../../data/languages.json';
+
+export const getStaticPaths = (() => {
+  // Filter: only languages with count > 10
+  return (languages as Array<{ lang: string; count: number }>)
+    .filter((l) => l.count > 10)
+    .map((l) => ({ params: { lang: l.lang }, props: { language: l } }));
+}) satisfies GetStaticPaths;
+
+const { lang } = Astro.params;
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{lang} AI Repos — AI Prompts Mall</title>
+  </head>
+  <body>
+    <main id="main-content">
+      <h1>{lang} Repositories</h1>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,1761 @@
+{
+  "id": 1096801163,
+  "node_id": "R_kgDOQV_biw",
+  "name": "rag-chunk",
+  "full_name": "messkan/rag-chunk",
+  "private": false,
+  "owner": {
+    "login": "messkan",
+    "id": 40677488,
+    "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/messkan",
+    "html_url": "https://github.com/messkan",
+    "followers_url": "https://api.github.com/users/messkan/followers",
+    "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+    "organizations_url": "https://api.github.com/users/messkan/orgs",
+    "repos_url": "https://api.github.com/users/messkan/repos",
+    "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/messkan/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/messkan/rag-chunk",
+  "description": "A Python CLI to test, benchmark, and find the best RAG chunking strategy for your Markdown documents.",
+  "fork": false,
+  "url": "https://api.github.com/repos/messkan/rag-chunk",
+  "forks_url": "https://api.github.com/repos/messkan/rag-chunk/forks",
+  "keys_url": "https://api.github.com/repos/messkan/rag-chunk/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/messkan/rag-chunk/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/messkan/rag-chunk/teams",
+  "hooks_url": "https://api.github.com/repos/messkan/rag-chunk/hooks",
+  "issue_events_url": "https://api.github.com/repos/messkan/rag-chunk/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/messkan/rag-chunk/events",
+  "assignees_url": "https://api.github.com/repos/messkan/rag-chunk/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/messkan/rag-chunk/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/messkan/rag-chunk/tags",
+  "blobs_url": "https://api.github.com/repos/messkan/rag-chunk/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/messkan/rag-chunk/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/messkan/rag-chunk/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/messkan/rag-chunk/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/messkan/rag-chunk/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/messkan/rag-chunk/languages",
+  "stargazers_url": "https://api.github.com/repos/messkan/rag-chunk/stargazers",
+  "contributors_url": "https://api.github.com/repos/messkan/rag-chunk/contributors",
+  "subscribers_url": "https://api.github.com/repos/messkan/rag-chunk/subscribers",
+  "subscription_url": "https://api.github.com/repos/messkan/rag-chunk/subscription",
+  "commits_url": "https://api.github.com/repos/messkan/rag-chunk/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/messkan/rag-chunk/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/messkan/rag-chunk/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/messkan/rag-chunk/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/messkan/rag-chunk/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/messkan/rag-chunk/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/messkan/rag-chunk/merges",
+  "archive_url": "https://api.github.com/repos/messkan/rag-chunk/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/messkan/rag-chunk/downloads",
+  "issues_url": "https://api.github.com/repos/messkan/rag-chunk/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/messkan/rag-chunk/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/messkan/rag-chunk/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/messkan/rag-chunk/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/messkan/rag-chunk/labels{/name}",
+  "releases_url": "https://api.github.com/repos/messkan/rag-chunk/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/messkan/rag-chunk/deployments",
+  "created_at": "2025-11-15T01:12:09Z",
+  "updated_at": "2026-03-07T22:47:17Z",
+  "pushed_at": "2026-01-18T10:00:35Z",
+  "git_url": "git://github.com/messkan/rag-chunk.git",
+  "ssh_url": "git@github.com:messkan/rag-chunk.git",
+  "clone_url": "https://github.com/messkan/rag-chunk.git",
+  "svn_url": "https://github.com/messkan/rag-chunk",
+  "homepage": "",
+  "size": 149,
+  "stargazers_count": 104,
+  "watchers_count": 104,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 5,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 3,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "chunking",
+    "document-chunking",
+    "embedding-vectors",
+    "ia",
+    "langchain",
+    "llm",
+    "nlp",
+    "python",
+    "rag",
+    "rag-pipeline",
+    "retrieval-augmented-generation",
+    "text-splitting",
+    "vector-search"
+  ],
+  "visibility": "public",
+  "forks": 5,
+  "open_issues": 3,
+  "watchers": 104,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "c6992bb1b40bac405b0a4f7f5ef74f685123263b",
+      "node_id": "C_kwDOQV_bi9oAKGM2OTkyYmIxYjQwYmFjNDA1YjBhNGY3ZjVlZjc0ZjY4NTEyMzI2M2I",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2026-01-18T10:00:26Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2026-01-18T10:00:26Z"
+        },
+        "message": "Release v0.4.0: Semantic/header-aware chunking + embedding retrieval",
+        "tree": {
+          "sha": "3f6849b597d946108763530af21a603f95528809",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/3f6849b597d946108763530af21a603f95528809"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/c6992bb1b40bac405b0a4f7f5ef74f685123263b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/c6992bb1b40bac405b0a4f7f5ef74f685123263b",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/c6992bb1b40bac405b0a4f7f5ef74f685123263b",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/c6992bb1b40bac405b0a4f7f5ef74f685123263b/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "209e8fe7c836edfe870f85eed8e6846019c39f43",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/209e8fe7c836edfe870f85eed8e6846019c39f43",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/209e8fe7c836edfe870f85eed8e6846019c39f43"
+        }
+      ]
+    },
+    {
+      "sha": "209e8fe7c836edfe870f85eed8e6846019c39f43",
+      "node_id": "C_kwDOQV_bi9oAKDIwOWU4ZmU3YzgzNmVkZmU4NzBmODVlZWQ4ZTY4NDYwMTljMzlmNDM",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-25T00:04:28Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-25T00:04:28Z"
+        },
+        "message": "fix: pylint",
+        "tree": {
+          "sha": "39a783dc9563f1f00b0ecd9d6dabd4c5b09ec25d",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/39a783dc9563f1f00b0ecd9d6dabd4c5b09ec25d"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/209e8fe7c836edfe870f85eed8e6846019c39f43",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/209e8fe7c836edfe870f85eed8e6846019c39f43",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/209e8fe7c836edfe870f85eed8e6846019c39f43",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/209e8fe7c836edfe870f85eed8e6846019c39f43/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "49a4f87c691dd0e8231e727a32c5c0851693fd69",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/49a4f87c691dd0e8231e727a32c5c0851693fd69",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/49a4f87c691dd0e8231e727a32c5c0851693fd69"
+        }
+      ]
+    },
+    {
+      "sha": "49a4f87c691dd0e8231e727a32c5c0851693fd69",
+      "node_id": "C_kwDOQV_bi9oAKDQ5YTRmODdjNjkxZGQwZTgyMzFlNzI3YTMyYzVjMDg1MTY5M2ZkNjk",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-24T23:59:06Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-24T23:59:06Z"
+        },
+        "message": "docs: update README.md",
+        "tree": {
+          "sha": "344c498c2fb3f744e26ee130e151c6a8f53d9d38",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/344c498c2fb3f744e26ee130e151c6a8f53d9d38"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/49a4f87c691dd0e8231e727a32c5c0851693fd69",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/49a4f87c691dd0e8231e727a32c5c0851693fd69",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/49a4f87c691dd0e8231e727a32c5c0851693fd69",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/49a4f87c691dd0e8231e727a32c5c0851693fd69/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a9d9a24d597d44f6856f897fd025717e9142ce85",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/a9d9a24d597d44f6856f897fd025717e9142ce85",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/a9d9a24d597d44f6856f897fd025717e9142ce85"
+        }
+      ]
+    },
+    {
+      "sha": "a9d9a24d597d44f6856f897fd025717e9142ce85",
+      "node_id": "C_kwDOQV_bi9oAKGE5ZDlhMjRkNTk3ZDQ0ZjY4NTZmODk3ZmQwMjU3MTdlOTE0MmNlODU",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-24T23:50:46Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-24T23:50:46Z"
+        },
+        "message": "fix: pylint",
+        "tree": {
+          "sha": "b6ce97dafcc765cda68022f802400297803ec5e0",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/b6ce97dafcc765cda68022f802400297803ec5e0"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/a9d9a24d597d44f6856f897fd025717e9142ce85",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/a9d9a24d597d44f6856f897fd025717e9142ce85",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/a9d9a24d597d44f6856f897fd025717e9142ce85",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/a9d9a24d597d44f6856f897fd025717e9142ce85/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "689e91571d32ba2a500242b95bc6615b62b7c548",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/689e91571d32ba2a500242b95bc6615b62b7c548",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/689e91571d32ba2a500242b95bc6615b62b7c548"
+        }
+      ]
+    },
+    {
+      "sha": "689e91571d32ba2a500242b95bc6615b62b7c548",
+      "node_id": "C_kwDOQV_bi9oAKDY4OWU5MTU3MWQzMmJhMmE1MDAyNDJiOTViYzY2MTViNjJiN2M1NDg",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-24T23:18:13Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-24T23:18:13Z"
+        },
+        "message": "chore: add langchain recursive strategy",
+        "tree": {
+          "sha": "a8bfdde9fc703cdeda74741c7fe33295fd8a63f6",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/a8bfdde9fc703cdeda74741c7fe33295fd8a63f6"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/689e91571d32ba2a500242b95bc6615b62b7c548",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/689e91571d32ba2a500242b95bc6615b62b7c548",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/689e91571d32ba2a500242b95bc6615b62b7c548",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/689e91571d32ba2a500242b95bc6615b62b7c548/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3"
+        }
+      ]
+    },
+    {
+      "sha": "a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3",
+      "node_id": "C_kwDOQV_bi9oAKGE3ZjgyMzJjNGMwYmI4ZmM0NjQxNmZhMmRiMGYwZDQ2MjY4ZDliZjM",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-23T11:19:14Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-23T11:19:14Z"
+        },
+        "message": "docs: update license",
+        "tree": {
+          "sha": "b0671daf8df18e10cd7b4a7fce0b8d62ae73a9c4",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/b0671daf8df18e10cd7b4a7fce0b8d62ae73a9c4"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/a7f8232c4c0bb8fc46416fa2db0f0d46268d9bf3/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9cd0c8620642f7582786bf36294d91f2787b04f4",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/9cd0c8620642f7582786bf36294d91f2787b04f4",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/9cd0c8620642f7582786bf36294d91f2787b04f4"
+        }
+      ]
+    },
+    {
+      "sha": "9cd0c8620642f7582786bf36294d91f2787b04f4",
+      "node_id": "C_kwDOQV_bi9oAKDljZDBjODYyMDY0MmY3NTgyNzg2YmYzNjI5NGQ5MWYyNzg3YjA0ZjQ",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-17T22:51:50Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-17T22:51:50Z"
+        },
+        "message": "docs: update README.md v0.2.0",
+        "tree": {
+          "sha": "b4a0adc7130cf1703b0a10a7cd22a6b10c698160",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/b4a0adc7130cf1703b0a10a7cd22a6b10c698160"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/9cd0c8620642f7582786bf36294d91f2787b04f4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/9cd0c8620642f7582786bf36294d91f2787b04f4",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/9cd0c8620642f7582786bf36294d91f2787b04f4",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/9cd0c8620642f7582786bf36294d91f2787b04f4/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "af020ae0d41df0d485174f9a9c9110d5935af32f",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/af020ae0d41df0d485174f9a9c9110d5935af32f",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/af020ae0d41df0d485174f9a9c9110d5935af32f"
+        }
+      ]
+    },
+    {
+      "sha": "af020ae0d41df0d485174f9a9c9110d5935af32f",
+      "node_id": "C_kwDOQV_bi9oAKGFmMDIwYWUwZDQxZGYwZDQ4NTE3NGY5YTljOTExMGQ1OTM1YWYzMmY",
+      "commit": {
+        "author": {
+          "name": "Iskander bk",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-17T22:46:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-17T22:46:07Z"
+        },
+        "message": "feat : add tiktoken support for token based chunking (#2)\n\n* feat: add tiktoken support",
+        "tree": {
+          "sha": "0b5247b89ad26462d261322b10b18e9f5df52093",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/0b5247b89ad26462d261322b10b18e9f5df52093"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/af020ae0d41df0d485174f9a9c9110d5935af32f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/af020ae0d41df0d485174f9a9c9110d5935af32f",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/af020ae0d41df0d485174f9a9c9110d5935af32f",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/af020ae0d41df0d485174f9a9c9110d5935af32f/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7d0d20d93631fb2e91053310c7b3ea1a839139c1",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/7d0d20d93631fb2e91053310c7b3ea1a839139c1",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/7d0d20d93631fb2e91053310c7b3ea1a839139c1"
+        }
+      ]
+    },
+    {
+      "sha": "7d0d20d93631fb2e91053310c7b3ea1a839139c1",
+      "node_id": "C_kwDOQV_bi9oAKDdkMGQyMGQ5MzYzMWZiMmU5MTA1MzMxMGM3YjNlYTFhODM5MTM5YzE",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T02:07:29Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T02:07:29Z"
+        },
+        "message": "docs: update README.md",
+        "tree": {
+          "sha": "2af7f5e61791d39f41978cbd5529fbc0e9ee05c2",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/2af7f5e61791d39f41978cbd5529fbc0e9ee05c2"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/7d0d20d93631fb2e91053310c7b3ea1a839139c1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/7d0d20d93631fb2e91053310c7b3ea1a839139c1",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/7d0d20d93631fb2e91053310c7b3ea1a839139c1",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/7d0d20d93631fb2e91053310c7b3ea1a839139c1/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fd4d140b24bd70ad508e9725a8023c4e7c8de5b1",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/fd4d140b24bd70ad508e9725a8023c4e7c8de5b1",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/fd4d140b24bd70ad508e9725a8023c4e7c8de5b1"
+        }
+      ]
+    },
+    {
+      "sha": "fd4d140b24bd70ad508e9725a8023c4e7c8de5b1",
+      "node_id": "C_kwDOQV_bi9oAKGZkNGQxNDBiMjRiZDcwYWQ1MDhlOTcyNWE4MDIzYzRlN2M4ZGU1YjE",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T02:05:45Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T02:05:45Z"
+        },
+        "message": "docs: update README.md",
+        "tree": {
+          "sha": "b277f4283d10efce3d16ad0a73874b87fa3294fd",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/b277f4283d10efce3d16ad0a73874b87fa3294fd"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/fd4d140b24bd70ad508e9725a8023c4e7c8de5b1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/fd4d140b24bd70ad508e9725a8023c4e7c8de5b1",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/fd4d140b24bd70ad508e9725a8023c4e7c8de5b1",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/fd4d140b24bd70ad508e9725a8023c4e7c8de5b1/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e"
+        }
+      ]
+    },
+    {
+      "sha": "e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e",
+      "node_id": "C_kwDOQV_bi9oAKGUyN2E2ZTMwYWJjYzQzYWE2ZjhjYjZjNGQ2NjQ2ODU5NDdmMmFiOGU",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T01:34:02Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T01:34:02Z"
+        },
+        "message": "chore: update ci",
+        "tree": {
+          "sha": "a0907282fd8a03890b5d6b16d0623b7c9e657aba",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/a0907282fd8a03890b5d6b16d0623b7c9e657aba"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/e27a6e30abcc43aa6f8cb6c4d664685947f2ab8e/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "00d83e0cb4c244b6804d4f1babd0693baa76d756",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/00d83e0cb4c244b6804d4f1babd0693baa76d756",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/00d83e0cb4c244b6804d4f1babd0693baa76d756"
+        }
+      ]
+    },
+    {
+      "sha": "00d83e0cb4c244b6804d4f1babd0693baa76d756",
+      "node_id": "C_kwDOQV_bi9oAKDAwZDgzZTBjYjRjMjQ0YjY4MDRkNGYxYmFiZDA2OTNiYWE3NmQ3NTY",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T01:30:03Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T01:30:03Z"
+        },
+        "message": "fix: update tests",
+        "tree": {
+          "sha": "a6036dfba5f0f44c6369b9a1733f7a4bb4e2b217",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/a6036dfba5f0f44c6369b9a1733f7a4bb4e2b217"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/00d83e0cb4c244b6804d4f1babd0693baa76d756",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/00d83e0cb4c244b6804d4f1babd0693baa76d756",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/00d83e0cb4c244b6804d4f1babd0693baa76d756",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/00d83e0cb4c244b6804d4f1babd0693baa76d756/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9149d37871ff759a9aec233ab796f162f2e11742",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/9149d37871ff759a9aec233ab796f162f2e11742",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/9149d37871ff759a9aec233ab796f162f2e11742"
+        }
+      ]
+    },
+    {
+      "sha": "9149d37871ff759a9aec233ab796f162f2e11742",
+      "node_id": "C_kwDOQV_bi9oAKDkxNDlkMzc4NzFmZjc1OWE5YWVjMjMzYWI3OTZmMTYyZjJlMTE3NDI",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T01:22:01Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T01:22:01Z"
+        },
+        "message": "enhance: enchance cli table output",
+        "tree": {
+          "sha": "c2c67095448bf2651435345900c6ac7627e64028",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/c2c67095448bf2651435345900c6ac7627e64028"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/9149d37871ff759a9aec233ab796f162f2e11742",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/9149d37871ff759a9aec233ab796f162f2e11742",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/9149d37871ff759a9aec233ab796f162f2e11742",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/9149d37871ff759a9aec233ab796f162f2e11742/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80"
+        }
+      ]
+    },
+    {
+      "sha": "35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80",
+      "node_id": "C_kwDOQV_bi9oAKDM1Y2U0MWJlZWIwZWNlNjY2MmYxOWM3NWVkNGUxYTRjZWVhNmJkODA",
+      "commit": {
+        "author": {
+          "name": "messkan",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T00:21:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-16T00:21:28Z"
+        },
+        "message": "chore: create pylint.yml",
+        "tree": {
+          "sha": "74fa0cf28bc71f9bdb4b9a0845548ad7f49b896f",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/74fa0cf28bc71f9bdb4b9a0845548ad7f49b896f"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/35ce41beeb0ece6662f19c75ed4e1a4ceea6bd80/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ff03db9286db43eba341ebd776006f89eb9b2cbb",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/ff03db9286db43eba341ebd776006f89eb9b2cbb",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/ff03db9286db43eba341ebd776006f89eb9b2cbb"
+        }
+      ]
+    },
+    {
+      "sha": "ff03db9286db43eba341ebd776006f89eb9b2cbb",
+      "node_id": "C_kwDOQV_bi9oAKGZmMDNkYjkyODZkYjQzZWJhMzQxZWJkNzc2MDA2Zjg5ZWI5YjJjYmI",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T02:00:05Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T02:00:05Z"
+        },
+        "message": "docs: update README.md to explain word-based tokenization and planned tiktoken support",
+        "tree": {
+          "sha": "353b5a83b11543c4c7ee91e05a6cb0c2c660af22",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/353b5a83b11543c4c7ee91e05a6cb0c2c660af22"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/ff03db9286db43eba341ebd776006f89eb9b2cbb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/ff03db9286db43eba341ebd776006f89eb9b2cbb",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/ff03db9286db43eba341ebd776006f89eb9b2cbb",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/ff03db9286db43eba341ebd776006f89eb9b2cbb/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5709e63704e65c78112fb7894887096b53dfee9e",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/5709e63704e65c78112fb7894887096b53dfee9e",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/5709e63704e65c78112fb7894887096b53dfee9e"
+        }
+      ]
+    },
+    {
+      "sha": "5709e63704e65c78112fb7894887096b53dfee9e",
+      "node_id": "C_kwDOQV_bi9oAKDU3MDllNjM3MDRlNjVjNzgxMTJmYjc4OTQ4ODcwOTZiNTNkZmVlOWU",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T01:42:30Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T01:42:30Z"
+        },
+        "message": "fix: update readme",
+        "tree": {
+          "sha": "3243f7dbd74896e0292a541a78a38808b3628fea",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/3243f7dbd74896e0292a541a78a38808b3628fea"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/5709e63704e65c78112fb7894887096b53dfee9e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/5709e63704e65c78112fb7894887096b53dfee9e",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/5709e63704e65c78112fb7894887096b53dfee9e",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/5709e63704e65c78112fb7894887096b53dfee9e/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "83fdd97cacdbad59c25004cc744715bc142aaea3",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/83fdd97cacdbad59c25004cc744715bc142aaea3",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/83fdd97cacdbad59c25004cc744715bc142aaea3"
+        }
+      ]
+    },
+    {
+      "sha": "83fdd97cacdbad59c25004cc744715bc142aaea3",
+      "node_id": "C_kwDOQV_bi9oAKDgzZmRkOTdjYWNkYmFkNTljMjUwMDRjYzc0NDcxNWJjMTQyYWFlYTM",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T01:22:59Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T01:22:59Z"
+        },
+        "message": "feat: initial CLI implementation with chunking strategies and recall evaluation",
+        "tree": {
+          "sha": "3f1266ee963a0f70644fe79fe434c2f2edeb6985",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/3f1266ee963a0f70644fe79fe434c2f2edeb6985"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/83fdd97cacdbad59c25004cc744715bc142aaea3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/83fdd97cacdbad59c25004cc744715bc142aaea3",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/83fdd97cacdbad59c25004cc744715bc142aaea3",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/83fdd97cacdbad59c25004cc744715bc142aaea3/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cffb82a4b5abb04acc09c0992f40addc1a861cdf",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/commits/cffb82a4b5abb04acc09c0992f40addc1a861cdf",
+          "html_url": "https://github.com/messkan/rag-chunk/commit/cffb82a4b5abb04acc09c0992f40addc1a861cdf"
+        }
+      ]
+    },
+    {
+      "sha": "cffb82a4b5abb04acc09c0992f40addc1a861cdf",
+      "node_id": "C_kwDOQV_bi9oAKGNmZmI4MmE0YjVhYmIwNGFjYzA5YzA5OTJmNDBhZGRjMWE4NjFjZGY",
+      "commit": {
+        "author": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T01:20:16Z"
+        },
+        "committer": {
+          "name": "Iskander ben khelil",
+          "email": "40677488+messkan@users.noreply.github.com",
+          "date": "2025-11-15T01:20:16Z"
+        },
+        "message": "chore: add gitignore file",
+        "tree": {
+          "sha": "21313d36f15edf86ab9ae67f158476b43bfa180e",
+          "url": "https://api.github.com/repos/messkan/rag-chunk/git/trees/21313d36f15edf86ab9ae67f158476b43bfa180e"
+        },
+        "url": "https://api.github.com/repos/messkan/rag-chunk/git/commits/cffb82a4b5abb04acc09c0992f40addc1a861cdf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/messkan/rag-chunk/commits/cffb82a4b5abb04acc09c0992f40addc1a861cdf",
+      "html_url": "https://github.com/messkan/rag-chunk/commit/cffb82a4b5abb04acc09c0992f40addc1a861cdf",
+      "comments_url": "https://api.github.com/repos/messkan/rag-chunk/commits/cffb82a4b5abb04acc09c0992f40addc1a861cdf/comments",
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "messkan",
+      "id": 40677488,
+      "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/messkan",
+      "html_url": "https://github.com/messkan",
+      "followers_url": "https://api.github.com/users/messkan/followers",
+      "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+      "organizations_url": "https://api.github.com/users/messkan/orgs",
+      "repos_url": "https://api.github.com/users/messkan/repos",
+      "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/messkan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 18
+    }
+  ],
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/messkan/rag-chunk/releases/264965896",
+      "assets_url": "https://api.github.com/repos/messkan/rag-chunk/releases/264965896/assets",
+      "upload_url": "https://uploads.github.com/repos/messkan/rag-chunk/releases/264965896/assets{?name,label}",
+      "html_url": "https://github.com/messkan/rag-chunk/releases/tag/v0.3.0",
+      "id": 264965896,
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOQV_bi84Pyw8I",
+      "tag_name": "v0.3.0",
+      "target_commitish": "main",
+      "name": "v0.3.0",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2025-11-24T23:59:06Z",
+      "updated_at": "2025-11-25T00:00:12Z",
+      "published_at": "2025-11-25T00:00:12Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/messkan/rag-chunk/tarball/v0.3.0",
+      "zipball_url": "https://api.github.com/repos/messkan/rag-chunk/zipball/v0.3.0",
+      "body": "# Changelog\r\n\r\nAll notable changes to this project will be documented in this file.\r\n\r\n## [0.3.0] - 2025-11-25\r\n\r\n### Added\r\n- **Recursive Character Splitting**: New strategy `recursive-character` using LangChain (requires `rag-chunk[langchain]`).\r\n- **New File Formats**: Support for parsing `.txt` files in addition to Markdown.\r\n- **Advanced Metrics**: Added Precision and F1-score to evaluation reports.\r\n\r\n"
+    },
+    {
+      "url": "https://api.github.com/repos/messkan/rag-chunk/releases/263127456",
+      "assets_url": "https://api.github.com/repos/messkan/rag-chunk/releases/263127456/assets",
+      "upload_url": "https://uploads.github.com/repos/messkan/rag-chunk/releases/263127456/assets{?name,label}",
+      "html_url": "https://github.com/messkan/rag-chunk/releases/tag/v0.2.0",
+      "id": 263127456,
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOQV_bi84PrwGg",
+      "tag_name": "v0.2.0",
+      "target_commitish": "main",
+      "name": "v0.2.0",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2025-11-17T22:51:50Z",
+      "updated_at": "2025-11-17T23:14:31Z",
+      "published_at": "2025-11-17T23:14:31Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/messkan/rag-chunk/tarball/v0.2.0",
+      "zipball_url": "https://api.github.com/repos/messkan/rag-chunk/zipball/v0.2.0",
+      "body": "# rag-chunk v0.2.0 Release Notes\r\n\r\n## Summary\r\nAdds token-based chunking via tiktoken, model selection, richer CLI output, improved docs, and expanded tests. Backward compatible.\r\n\r\n## Added\r\n- `--use-tiktoken` for token-precise chunking\r\n- `--tiktoken-model` (default: `gpt-3.5-turbo`)\r\n- Optional install: `pip install rag-chunk[tiktoken]`\r\n- Rich table output (auto if `rich` installed)\r\n- README: tokenization section and usage examples\r\n- Unit tests for token-based paths\r\n\r\n## Improved\r\n- CLI help clarifies words vs tokens\r\n- Refactored strategy runner (fewer locals, pylint clean)\r\n- Lint compliance across modules\r\n\r\n## Fixed\r\n- Line length, broad exception, naming, and local variable warnings\r\n- Optional extras warning (prepared for publish)\r\n\r\n## Usage\r\nWord-based:\r\n```bash\r\nrag-chunk analyze examples/ --strategy fixed-size --chunk-size 300"
+    },
+    {
+      "url": "https://api.github.com/repos/messkan/rag-chunk/releases/262611422",
+      "assets_url": "https://api.github.com/repos/messkan/rag-chunk/releases/262611422/assets",
+      "upload_url": "https://uploads.github.com/repos/messkan/rag-chunk/releases/262611422/assets{?name,label}",
+      "html_url": "https://github.com/messkan/rag-chunk/releases/tag/v0.1.0",
+      "id": 262611422,
+      "author": {
+        "login": "messkan",
+        "id": 40677488,
+        "node_id": "MDQ6VXNlcjQwNjc3NDg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/40677488?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/messkan",
+        "html_url": "https://github.com/messkan",
+        "followers_url": "https://api.github.com/users/messkan/followers",
+        "following_url": "https://api.github.com/users/messkan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/messkan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/messkan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/messkan/subscriptions",
+        "organizations_url": "https://api.github.com/users/messkan/orgs",
+        "repos_url": "https://api.github.com/users/messkan/repos",
+        "events_url": "https://api.github.com/users/messkan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/messkan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOQV_bi84PpyHe",
+      "tag_name": "v0.1.0",
+      "target_commitish": "main",
+      "name": "v0.1.0 - Initial Release",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2025-11-15T01:42:30Z",
+      "updated_at": "2025-11-15T01:44:50Z",
+      "published_at": "2025-11-15T01:44:50Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/messkan/rag-chunk/tarball/v0.1.0",
+      "zipball_url": "https://api.github.com/repos/messkan/rag-chunk/zipball/v0.1.0",
+      "body": "## Features\r\n- Parse and clean Markdown files\r\n- Three chunking strategies: fixed-size, sliding-window, paragraph\r\n- Recall-based evaluation with test JSON files\r\n- CLI with table/JSON/CSV output formats\r\n- Example corpus with realistic test cases\r\n\r\n## Installation\r\n```bash\r\npip install rag-chunk"
+    }
+  ],
+  "languages": {
+    "Python": 32815
+  },
+  "readme_html": "<h1 id=\"user-content-rag-chunk\">rag-chunk</h1>\n<p><strong>Current Version: 0.4.0</strong> 🎉</p>\n<p>CLI tool to parse, chunk, and evaluate Markdown documents for Retrieval-Augmented Generation (RAG) pipelines with token-accurate chunking and semantic intelligence.</p>\n<p>Available on PyPI: <a href=\"https://pypi.org/project/rag-chunk/\">https://pypi.org/project/rag-chunk/</a></p>\n<p>📚 <strong><a href=\"https://messkan.github.io/rag-chunk/\">Documentation</a></strong> | 🐙 <strong><a href=\"https://github.com/messkan/rag-chunk\">GitHub</a></strong></p>\n<h2 id=\"user-content--features\">✨ Features</h2>\n<ul>\n<li>📄 Parse and clean Markdown files</li>\n<li>✂️ <strong>6 Chunking Strategies:</strong>\n<ul>\n<li><code>fixed-size</code>: Split by fixed word/token count</li>\n<li><code>sliding-window</code>: Overlapping chunks for context preservation</li>\n<li><code>paragraph</code>: Natural paragraph boundaries</li>\n<li><code>recursive-character</code>: LangChain's semantic splitter</li>\n<li><code>header</code>: <strong>NEW</strong> - Markdown header-aware splitting</li>\n<li><code>semantic</code>: <strong>NEW</strong> - Embedding-based semantic boundaries</li>\n</ul>\n</li>\n<li>🧠 <strong>Semantic Intelligence:</strong> Embedding-based chunking and retrieval</li>\n<li>🎯 <strong>Token-based chunking</strong> with tiktoken (OpenAI models: GPT-3.5, GPT-4, etc.)</li>\n<li>🎨 <strong>Model selection</strong> via <code>--tiktoken-model</code> flag</li>\n<li>📊 <strong>Advanced Metrics:</strong> Precision, Recall, F1-score evaluation</li>\n<li>🌈 Beautiful CLI output with Rich tables</li>\n<li>📈 Compare all strategies with <code>--strategy all</code></li>\n<li>💾 Export results as JSON or CSV</li>\n</ul>\n<h3 id=\"user-content-demo\">Demo</h3>\n<p><img src=\"https://raw.githubusercontent.com/messkan/rag-chunk/main/demo.gif\" alt=\"rag-chunk demo\"></p>\n<h2 id=\"user-content--roadmap\">🚀 Roadmap</h2>\n<p><code>rag-chunk</code> is actively developed! Here's the plan to move from a useful tool to a full-featured chunking workbench.</p>\n<h3 id=\"user-content--version-010--launched\">✅ Version 0.1.0 – Launched</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> Core CLI engine (<code>argparse</code>)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> Markdown (<code>.md</code>) file parsing</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> Basic chunking strategies: <code>fixed-size</code>, <code>sliding-window</code>, and <code>paragraph</code> (word-based)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> Evaluation harness: calculate <strong>Recall score</strong> from a <code>test-file.json</code></li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> Beautiful CLI output (<code>rich</code> tables)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> Published on PyPI: <code>pip install rag-chunk</code></li>\n</ul>\n<h3 id=\"user-content--version-020--completed\">✅ Version 0.2.0 – Completed</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Tiktoken Support:</strong> Added <code>--use-tiktoken</code> flag for precise token-based chunking</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Model Selection:</strong> Added <code>--tiktoken-model</code> to choose tokenization model (default: <code>gpt-3.5-turbo</code>)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Improved Documentation:</strong> Updated README with tiktoken usage examples and comparisons</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Enhanced Testing:</strong> Added comprehensive unit tests for token-based chunking</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Optional Dependencies:</strong> tiktoken available via <code>pip install rag-chunk[tiktoken]</code></li>\n</ul>\n<h3 id=\"user-content--version-030--released\">✅ Version 0.3.0 – Released</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Recursive Character Splitting:</strong> Add LangChain's <code>RecursiveCharacterTextSplitter</code> for semantic chunking\n<ul>\n<li>Install with: <code>pip install rag-chunk[langchain]</code></li>\n<li>Strategy: <code>--strategy recursive-character</code></li>\n<li>Works with both word-based and tiktoken modes</li>\n</ul>\n</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>More File Formats:</strong> Support <code>.txt</code> files</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Additional Metrics:</strong> Add precision, F1-score, and chunk quality metrics</li>\n</ul>\n<h3 id=\"user-content--version-040--released\">✅ Version 0.4.0 – Released</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Header-Aware Chunking:</strong> Split by markdown headers while respecting size limits\n<ul>\n<li>Strategy: <code>--strategy header</code></li>\n<li>Preserves document structure with metadata</li>\n</ul>\n</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Semantic Chunking:</strong> Use sentence embeddings to split at semantic boundaries\n<ul>\n<li>Strategy: <code>--strategy semantic</code></li>\n<li>Install with: <code>pip install rag-chunk[semantic]</code></li>\n<li>Powered by sentence-transformers</li>\n</ul>\n</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Embedding-Based Retrieval:</strong> Semantic similarity matching with <code>--use-embeddings</code>\n<ul>\n<li>Superior to lexical matching for semantic queries</li>\n<li>Uses cosine similarity on sentence embeddings</li>\n</ul>\n</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> <strong>Documentation Site:</strong> Complete GitHub Pages documentation</li>\n</ul>\n<h3 id=\"user-content--version-100--planned\">📈 Version 1.0.0 – Planned</h3>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> <strong>Chunk Size Optimizer:</strong> Automated sweep to find optimal chunk size</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> <strong>Visualization Dashboard:</strong> HTML report with interactive charts</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> <strong>Context Augmentation:</strong> Add metadata (position, section, summaries) to chunks</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> <strong>Export Connectors:</strong> Direct integration with vector stores (Pinecone, Weaviate, Chroma)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> <strong>Benchmarking Mode:</strong> Statistical comparison with significance testing</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> <strong>MLFlow Integration:</strong> Track experiments and chunking configurations</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> <strong>Performance Optimization:</strong> Parallel processing for large document sets</li>\n</ul>\n<h3 id=\"user-content-installation\">Installation</h3>\n<pre><code class=\"language-bash\">pip install rag-chunk\n## Features\n\n- Parse and clean Markdown files in a folder\n- Chunk text using fixed-size, sliding-window, or paragraph-based strategies\n- Evaluate chunk recall based on a provided test JSON file\n- Output results as table, JSON, or CSV\n- Store generated chunks temporarily in `.chunks`\n\n## Installation\n\n```bash\n# Base installation\npip install rag-chunk\n\n# With all features (recommended)\npip install rag-chunk[all]\n\n# Or install specific features:\npip install rag-chunk[tiktoken]    # Token-based chunking\npip install rag-chunk[semantic]    # Semantic chunking &#x26; retrieval\npip install rag-chunk[langchain]   # Recursive character splitting\n</code></pre>\n<p>Development mode:</p>\n<pre><code class=\"language-bash\">pip install -e .[all]\n</code></pre>\n<h2 id=\"user-content-quick-start\">Quick Start</h2>\n<pre><code class=\"language-bash\"># Compare all strategies with semantic retrieval\nrag-chunk analyze examples/ \\\n  --strategy all \\\n  --use-embeddings \\\n  --test-file examples/questions.json \\\n  --top-k 3\n\n# Header-aware chunking for technical docs\nrag-chunk analyze docs/ --strategy header --chunk-size 300\n\n# Semantic chunking with embeddings\nrag-chunk analyze examples/ \\\n  --strategy semantic \\\n  --chunk-size 200 \\\n  --use-embeddings \\\n  --test-file questions.json\n</code></pre>\n<h2 id=\"user-content-cli-usage\">CLI Usage</h2>\n<pre><code class=\"language-bash\">rag-chunk analyze &#x3C;folder> [options]\n</code></pre>\n<h3 id=\"user-content-options\">Options</h3>\n<table>\n<thead>\n<tr>\n<th>Option</th>\n<th>Description</th>\n<th>Default</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>--strategy</code></td>\n<td>Chunking strategy: <code>fixed-size</code>, <code>sliding-window</code>, <code>paragraph</code>, <code>recursive-character</code>, <code>header</code>, <code>semantic</code>, or <code>all</code></td>\n<td><code>fixed-size</code></td>\n</tr>\n<tr>\n<td><code>--chunk-size</code></td>\n<td>Number of words or tokens per chunk</td>\n<td><code>200</code></td>\n</tr>\n<tr>\n<td><code>--overlap</code></td>\n<td>Number of overlapping words or tokens</td>\n<td><code>50</code></td>\n</tr>\n<tr>\n<td><code>--use-tiktoken</code></td>\n<td>Use tiktoken for precise token-based chunking</td>\n<td><code>False</code></td>\n</tr>\n<tr>\n<td><code>--tiktoken-model</code></td>\n<td>Model for tiktoken encoding</td>\n<td><code>gpt-3.5-turbo</code></td>\n</tr>\n<tr>\n<td><code>--use-embeddings</code></td>\n<td>Use semantic embeddings for retrieval (requires <code>sentence-transformers</code>)</td>\n<td><code>False</code></td>\n</tr>\n<tr>\n<td><code>--test-file</code></td>\n<td>Path to JSON test file with questions</td>\n<td>None</td>\n</tr>\n<tr>\n<td><code>--top-k</code></td>\n<td>Number of chunks to retrieve per question</td>\n<td><code>3</code></td>\n</tr>\n<tr>\n<td><code>--output</code></td>\n<td>Output format: <code>table</code>, <code>json</code>, or <code>csv</code></td>\n<td><code>table</code></td>\n</tr>\n</tbody>\n</table>\n<p>If <code>--strategy all</code> is chosen, every strategy is run with the supplied chunk-size and overlap where applicable.</p>\n<h2 id=\"user-content-examples\">Examples</h2>\n<h3 id=\"user-content-header-aware-chunking-new\">Header-Aware Chunking (NEW)</h3>\n<p>Split by markdown headers while respecting chunk size limits:</p>\n<pre><code class=\"language-bash\">rag-chunk analyze docs/ --strategy header --chunk-size 300\n</code></pre>\n<p>Preserves document structure with metadata about headers and hierarchy levels.</p>\n<h3 id=\"user-content-semantic-chunking-new\">Semantic Chunking (NEW)</h3>\n<p>Use sentence embeddings to split at semantic boundaries:</p>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy semantic --chunk-size 200\n</code></pre>\n<p>Groups semantically similar sentences together, splitting when topic shifts occur.</p>\n<h3 id=\"user-content-embedding-based-retrieval-new\">Embedding-Based Retrieval (NEW)</h3>\n<p>Compare lexical vs semantic retrieval:</p>\n<pre><code class=\"language-bash\"># Lexical (keyword-based)\nrag-chunk analyze examples/ --strategy all --test-file questions.json\n\n# Semantic (embedding-based)\nrag-chunk analyze examples/ --strategy all --test-file questions.json --use-embeddings\n</code></pre>\n<p>Semantic retrieval typically achieves higher recall for conceptual queries.</p>\n<h3 id=\"user-content-basic-usage-generate-chunks-only\">Basic Usage: Generate Chunks Only</h3>\n<p>Analyze markdown files and generate chunks without evaluation:</p>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy paragraph\n</code></pre>\n<p><strong>Output:</strong></p>\n<pre><code>strategy  | chunks | avg_recall | saved                            \n----------+--------+------------+----------------------------------\nparagraph | 12     | 0.0        | .chunks/paragraph-20251115-020145\nTotal text length (chars): 3542\n</code></pre>\n<h3 id=\"user-content-compare-all-strategies\">Compare All Strategies</h3>\n<p>Run all chunking strategies with custom parameters:</p>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy all --chunk-size 100 --overlap 20 --output table\n</code></pre>\n<p><strong>Output:</strong></p>\n<pre><code>strategy           | chunks | avg_recall | avg_precision | avg_f1 | saved                                 \n-------------------+--------+------------+---------------+--------+---------------------------------------\nfixed-size         | 36     | 0.0        | 0.0           | 0.0    | .chunks/fixed-size-20251115-020156    \nsliding-window     | 45     | 0.0        | 0.0           | 0.0    | .chunks/sliding-window-20251115-020156\nparagraph          | 12     | 0.0        | 0.0           | 0.0    | .chunks/paragraph-20251115-020156\nrecursive-character| 28     | 0.0        | 0.0           | 0.0    | .chunks/recursive-character-20251115-020156\nheader             | 15     | 0.0        | 0.0           | 0.0    | .chunks/header-20251115-020156\nsemantic           | 22     | 0.0        | 0.0           | 0.0    | .chunks/semantic-20251115-020156\nTotal text length (chars): 3542\n</code></pre>\n<h3 id=\"user-content-evaluate-with-test-file\">Evaluate with Test File</h3>\n<p>Measure recall using a test file with questions and relevant phrases:</p>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy all --chunk-size 150 --overlap 30 --test-file examples/questions.json --top-k 3 --use-embeddings --output table\n</code></pre>\n<p><strong>Output:</strong></p>\n<pre><code>strategy           | chunks | avg_recall | avg_precision | avg_f1 | saved                                 \n-------------------+--------+------------+---------------+--------+---------------------------------------\nfixed-size         | 24     | 0.7812     | 0.7812        | 0.7812 | .chunks/fixed-size-20251115-020203    \nsliding-window     | 32     | 0.8542     | 0.8542        | 0.8542 | .chunks/sliding-window-20251115-020203\nparagraph          | 12     | 0.9167     | 0.9167        | 0.9167 | .chunks/paragraph-20251115-020203\nsemantic           | 19     | 0.9583     | 0.9583        | 0.9583 | .chunks/semantic-20251115-020203\n</code></pre>\n<p>Semantic chunking with embedding-based retrieval achieves highest recall (95.83%) by preserving semantic coherence.</p>\n<h3 id=\"user-content-export-results-as-json\">Export Results as JSON</h3>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy sliding-window --chunk-size 120 --overlap 40 --test-file examples/questions.json --top-k 5 --output json > results.json\n</code></pre>\n<p><strong>Output structure:</strong></p>\n<pre><code class=\"language-json\">{\n  \"results\": [\n    {\n      \"strategy\": \"sliding-window\",\n      \"chunks\": 38,\n      \"avg_recall\": 0.8958,\n      \"avg_precision\": 0.8958,\n      \"avg_f1\": 0.8958,\n      \"saved\": \".chunks/sliding-window-20251115-020210\"\n    }\n  ],\n  \"detail\": {\n    \"per_questions\": [\n      {\n        \"question\": \"What are the three main stages of a RAG pipeline?\",\n        \"recall\": 1.0,\n        \"precision\": 1.0,\n        \"f1\": 1.0\n      },\n      {\n        \"question\": \"What is the main advantage of RAG over pure generative models?\",\n        \"recall\": 0.6667,\n        \"precision\": 0.6667,\n        \"f1\": 0.6667\n      }\n    ]\n  }\n}\n</code></pre>\n<h3 id=\"user-content-export-as-csv\">Export as CSV</h3>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy all --test-file examples/questions.json --output csv\n</code></pre>\n<p>Creates <code>analysis_results.csv</code> with columns: strategy, chunks, avg_recall, avg_precision, avg_f1, saved.</p>\n<h2 id=\"user-content-using-tiktoken-for-precise-token-based-chunking\">Using Tiktoken for Precise Token-Based Chunking</h2>\n<p>By default, <code>rag-chunk</code> uses word-based tokenization (whitespace splitting). For precise token-level chunking that matches LLM context limits (e.g., GPT-3.5/GPT-4), use the <code>--use-tiktoken</code> flag.</p>\n<h3 id=\"user-content-installation-1\">Installation</h3>\n<pre><code class=\"language-bash\">pip install rag-chunk[tiktoken]\n</code></pre>\n<h3 id=\"user-content-usage-examples\">Usage Examples</h3>\n<p><strong>Token-based fixed-size chunking:</strong></p>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy fixed-size --chunk-size 512 --use-tiktoken --output table\n</code></pre>\n<p>This creates chunks of exactly 512 tokens (as counted by tiktoken for GPT models), not 512 words.</p>\n<p><strong>Compare word-based vs token-based chunking:</strong></p>\n<pre><code class=\"language-bash\"># Word-based (default)\nrag-chunk analyze examples/ --strategy fixed-size --chunk-size 200 --output json\n\n# Token-based\nrag-chunk analyze examples/ --strategy fixed-size --chunk-size 200 --use-tiktoken --output json\n</code></pre>\n<p><strong>Token-based with sliding window:</strong></p>\n<pre><code class=\"language-bash\">rag-chunk analyze examples/ --strategy sliding-window --chunk-size 1024 --overlap 128 --use-tiktoken --test-file examples/questions.json --top-k 3\n</code></pre>\n<h3 id=\"user-content-when-to-use-tiktoken\">When to Use Tiktoken</h3>\n<ul>\n<li>\n<p>✅ <strong>Use tiktoken when:</strong></p>\n<ul>\n<li>Preparing chunks for OpenAI models (GPT-3.5, GPT-4)</li>\n<li>You need to respect strict token limits (e.g., 8k, 16k context windows)</li>\n<li>Comparing chunking strategies with token-accurate measurements</li>\n<li>Your documents contain special characters, emojis, or non-ASCII text</li>\n</ul>\n</li>\n<li>\n<p>⚠️ <strong>Use word-based (default) when:</strong></p>\n<ul>\n<li>Quick prototyping and testing</li>\n<li>Working with well-formatted English text</li>\n<li>Don't need exact token counts</li>\n<li>Want to avoid the tiktoken dependency</li>\n</ul>\n</li>\n</ul>\n<h3 id=\"user-content-token-counting\">Token Counting</h3>\n<p>You can also use tiktoken in your own scripts:</p>\n<pre><code class=\"language-python\">from src.chunker import count_tokens\n\ntext = \"Your document text here...\"\n\n# Word-based count\nword_count = count_tokens(text, use_tiktoken=False)\nprint(f\"Words: {word_count}\")\n\n# Token-based count (requires tiktoken installed)\ntoken_count = count_tokens(text, use_tiktoken=True)\nprint(f\"Tokens: {token_count}\")\n</code></pre>\n<h2 id=\"user-content-test-file-format\">Test File Format</h2>\n<p>JSON file with a <code>questions</code> array (or direct array at top level):</p>\n<pre><code class=\"language-json\">{\n  \"questions\": [\n    {\n      \"question\": \"What are the three main stages of a RAG pipeline?\",\n      \"relevant\": [\"indexing\", \"retrieval\", \"generation\"]\n    },\n    {\n      \"question\": \"What is the main advantage of RAG over pure generative models?\",\n      \"relevant\": [\"grounding\", \"retrieved documents\", \"hallucinate\"]\n    }\n  ]\n}\n</code></pre>\n<ul>\n<li><code>question</code>: The query text used for chunk retrieval</li>\n<li><code>relevant</code>: List of phrases/terms that should appear in relevant chunks</li>\n</ul>\n<p><strong>Recall calculation:</strong> For each question, the tool retrieves top-k chunks using lexical similarity and checks how many <code>relevant</code> phrases appear in those chunks. Recall = (found phrases) / (total relevant phrases). Average recall is computed across all questions.</p>\n<h2 id=\"user-content-understanding-the-output\">Understanding the Output</h2>\n<h3 id=\"user-content-chunks\">Chunks</h3>\n<p>Number of chunks created by the strategy. More chunks = finer granularity but higher indexing cost.</p>\n<h3 id=\"user-content-metrics\">Metrics</h3>\n<ul>\n<li><strong>Average Recall:</strong> Percentage of relevant phrases successfully retrieved (0.0 to 1.0). Higher is better.</li>\n<li><strong>Average Precision:</strong> Ratio of relevant content in retrieved chunks (0.0 to 1.0). Higher is better.</li>\n<li><strong>Average F1-Score:</strong> Harmonic mean of precision and recall (0.0 to 1.0). Balanced measure of quality.</li>\n</ul>\n<p><strong>Interpreting scores:</strong></p>\n<ul>\n<li><strong>> 0.85</strong>: Excellent - strategy works very well for your content</li>\n<li><strong>0.70 - 0.85</strong>: Good - acceptable for most use cases</li>\n<li><strong>0.50 - 0.70</strong>: Fair - consider adjusting chunk size or strategy</li>\n<li><strong>&#x3C; 0.50</strong>: Poor - important information being lost or fragmented</li>\n</ul>\n<h3 id=\"user-content-saved-location\">Saved Location</h3>\n<p>Directory where chunks are written as individual <code>.txt</code> files for inspection.</p>\n<h2 id=\"user-content-choosing-the-right-strategy\">Choosing the Right Strategy</h2>\n<table>\n<thead>\n<tr>\n<th>Strategy</th>\n<th>Best For</th>\n<th>Pros</th>\n<th>Cons</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Fixed-Size</strong></td>\n<td>Consistent chunk sizes, simple docs</td>\n<td>Fast, deterministic</td>\n<td>May break semantic boundaries</td>\n</tr>\n<tr>\n<td><strong>Sliding-Window</strong></td>\n<td>Preventing boundary loss</td>\n<td>Preserves context at edges</td>\n<td>Redundancy, more chunks</td>\n</tr>\n<tr>\n<td><strong>Paragraph</strong></td>\n<td>Well-structured docs</td>\n<td>Preserves semantic coherence</td>\n<td>Variable chunk sizes</td>\n</tr>\n<tr>\n<td><strong>Recursive-Character</strong></td>\n<td>General purpose</td>\n<td>Good balance, semantic-aware</td>\n<td>Requires LangChain</td>\n</tr>\n<tr>\n<td><strong>Header</strong> ⭐</td>\n<td>Technical docs, markdown</td>\n<td>Preserves document structure</td>\n<td>Requires header markup</td>\n</tr>\n<tr>\n<td><strong>Semantic</strong> ⭐</td>\n<td>Maximum retrieval quality</td>\n<td>Best semantic coherence</td>\n<td>Requires embeddings, slower</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-recommendations\">Recommendations</h3>\n<ul>\n<li><strong>Technical documentation:</strong> Use <code>header</code> strategy to preserve structure</li>\n<li><strong>Knowledge bases:</strong> Use <code>semantic</code> for best retrieval quality</li>\n<li><strong>General content:</strong> Start with <code>recursive-character</code> or <code>paragraph</code></li>\n<li><strong>Token-limited models:</strong> Enable <code>--use-tiktoken</code> for accurate counting</li>\n<li><strong>Evaluation:</strong> Always use <code>--use-embeddings</code> with test files for better semantic matching</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Strategy</th>\n<th>Best For</th>\n<th>Chunk Size Recommendation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>fixed-size</strong></td>\n<td>Uniform processing, consistent latency</td>\n<td>150-250 words</td>\n</tr>\n<tr>\n<td><strong>sliding-window</strong></td>\n<td>Preserving context at boundaries, dense text</td>\n<td>120-200 words, 20-30% overlap</td>\n</tr>\n<tr>\n<td><strong>paragraph</strong></td>\n<td>Well-structured docs with clear sections</td>\n<td>N/A (variable)</td>\n</tr>\n</tbody>\n</table>\n<p><strong>General guidelines:</strong></p>\n<ol>\n<li>Start with <strong>paragraph</strong> for markdown with clear structure</li>\n<li>Use <strong>sliding-window</strong> if paragraphs are too long (>300 words)</li>\n<li>Use <strong>fixed-size</strong> as baseline for comparison</li>\n<li>Always test with representative questions from your domain</li>\n</ol>\n<h2 id=\"user-content-extending\">Extending</h2>\n<p>Add a new chunking strategy:</p>\n<ol>\n<li>Implement a function in <code>src/chunker.py</code>:</li>\n</ol>\n<pre><code class=\"language-python\">def my_custom_chunks(text: str, chunk_size: int, overlap: int) -> List[Dict]:\n    chunks = []\n    # Your logic here\n    chunks.append({\"id\": 0, \"text\": \"chunk text\"})\n    return chunks\n</code></pre>\n<ol start=\"2\">\n<li>Register in <code>STRATEGIES</code>:</li>\n</ol>\n<pre><code class=\"language-python\">STRATEGIES = {\n    \"custom\": lambda text, chunk_size=200, overlap=0: my_custom_chunks(text, chunk_size, overlap),\n    ...\n}\n</code></pre>\n<ol start=\"3\">\n<li>Use via CLI:</li>\n</ol>\n<pre><code class=\"language-bash\">rag-chunk analyze docs/ --strategy custom --chunk-size 180\n</code></pre>\n<h2 id=\"user-content-project-structure\">Project Structure</h2>\n<pre><code>rag-chunk/\n├── src/\n│   ├── __init__.py\n│   ├── parser.py       # Markdown parsing and cleaning\n│   ├── chunker.py      # Chunking strategies\n│   ├── scorer.py       # Retrieval and recall evaluation\n│   └── cli.py          # Command-line interface\n├── tests/\n│   └── test_basic.py   # Unit tests\n├── examples/\n│   ├── rag_introduction.md\n│   ├── chunking_strategies.md\n│   ├── evaluation_metrics.md\n│   └── questions.json\n├── .chunks/            # Generated chunks (gitignored)\n├── pyproject.toml\n├── README.md\n└── .gitignore\n</code></pre>\n<h2 id=\"user-content-license\">License</h2>\n<p>MIT</p>\n<h2 id=\"user-content-note-on-tokenization\">Note on Tokenization</h2>\n<p>By default, <code>--chunk-size</code> and <code>--overlap</code> count <strong>words</strong> (whitespace-based tokenization). This keeps the tool simple and dependency-free.</p>\n<p>For precise token-level chunking that matches LLM token counts (e.g., OpenAI GPT models using subword tokenization), use the <code>--use-tiktoken</code> flag after installing the optional dependency:</p>\n<pre><code class=\"language-bash\">pip install rag-chunk[tiktoken]\nrag-chunk analyze docs/ --strategy fixed-size --chunk-size 512 --use-tiktoken\n</code></pre>\n<p>See the <a href=\"#using-tiktoken-for-precise-token-based-chunking\">Using Tiktoken</a> section for more details.</p>",
+  "_fetched_at": "2026-03-11T18:17:41.146Z"
+}

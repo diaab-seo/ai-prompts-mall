@@ -1,0 +1,18 @@
+---
+// Head-to-head comparison — SSR On-Demand
+export const prerender = false;
+
+const { slugA, slugB } = Astro.params;
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{slugA} vs {slugB} — AI Prompts Mall</title>
+  </head>
+  <body>
+    <main id="main-content">
+      <h1>{slugA} vs {slugB}</h1>
+      <p>SSR comparison page — data fetched at runtime.</p>
+    </main>
+  </body>
+</html>

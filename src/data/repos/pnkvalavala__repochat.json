@@ -1,0 +1,1898 @@
+{
+  "id": 661847690,
+  "node_id": "R_kgDOJ3L-ig",
+  "name": "repochat",
+  "full_name": "pnkvalavala/repochat",
+  "private": false,
+  "owner": {
+    "login": "pnkvalavala",
+    "id": 108526358,
+    "node_id": "U_kgDOBnf7Fg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pnkvalavala",
+    "html_url": "https://github.com/pnkvalavala",
+    "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+    "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+    "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+    "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+    "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/pnkvalavala/repochat",
+  "description": "Chatbot assistant enabling GitHub repository interaction using LLMs with Retrieval Augmented Generation",
+  "fork": false,
+  "url": "https://api.github.com/repos/pnkvalavala/repochat",
+  "forks_url": "https://api.github.com/repos/pnkvalavala/repochat/forks",
+  "keys_url": "https://api.github.com/repos/pnkvalavala/repochat/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/pnkvalavala/repochat/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/pnkvalavala/repochat/teams",
+  "hooks_url": "https://api.github.com/repos/pnkvalavala/repochat/hooks",
+  "issue_events_url": "https://api.github.com/repos/pnkvalavala/repochat/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/pnkvalavala/repochat/events",
+  "assignees_url": "https://api.github.com/repos/pnkvalavala/repochat/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/pnkvalavala/repochat/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/pnkvalavala/repochat/tags",
+  "blobs_url": "https://api.github.com/repos/pnkvalavala/repochat/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/pnkvalavala/repochat/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/pnkvalavala/repochat/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/pnkvalavala/repochat/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/pnkvalavala/repochat/languages",
+  "stargazers_url": "https://api.github.com/repos/pnkvalavala/repochat/stargazers",
+  "contributors_url": "https://api.github.com/repos/pnkvalavala/repochat/contributors",
+  "subscribers_url": "https://api.github.com/repos/pnkvalavala/repochat/subscribers",
+  "subscription_url": "https://api.github.com/repos/pnkvalavala/repochat/subscription",
+  "commits_url": "https://api.github.com/repos/pnkvalavala/repochat/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/pnkvalavala/repochat/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/pnkvalavala/repochat/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/pnkvalavala/repochat/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/pnkvalavala/repochat/merges",
+  "archive_url": "https://api.github.com/repos/pnkvalavala/repochat/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/pnkvalavala/repochat/downloads",
+  "issues_url": "https://api.github.com/repos/pnkvalavala/repochat/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/pnkvalavala/repochat/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/pnkvalavala/repochat/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/pnkvalavala/repochat/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/pnkvalavala/repochat/labels{/name}",
+  "releases_url": "https://api.github.com/repos/pnkvalavala/repochat/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/pnkvalavala/repochat/deployments",
+  "created_at": "2023-07-03T19:45:57Z",
+  "updated_at": "2026-02-28T14:33:42Z",
+  "pushed_at": "2024-08-28T18:59:58Z",
+  "git_url": "git://github.com/pnkvalavala/repochat.git",
+  "ssh_url": "git@github.com:pnkvalavala/repochat.git",
+  "clone_url": "https://github.com/pnkvalavala/repochat.git",
+  "svn_url": "https://github.com/pnkvalavala/repochat",
+  "homepage": "https://repochat.streamlit.app",
+  "size": 43,
+  "stargazers_count": 315,
+  "watchers_count": 315,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 55,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 3,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "chat-application",
+    "code-llama",
+    "deeplake",
+    "github",
+    "huggingface",
+    "langchain",
+    "openai",
+    "retrieval-augmented-generation",
+    "streamlit"
+  ],
+  "visibility": "public",
+  "forks": 55,
+  "open_issues": 3,
+  "watchers": 315,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "a24fff0129f1c75d69fcc413615cd3cb5f43a379",
+      "node_id": "C_kwDOJ3L-itoAKGEyNGZmZjAxMjlmMWM3NWQ2OWZjYzQxMzYxNWNkM2NiNWY0M2EzNzk",
+      "commit": {
+        "author": {
+          "name": "nikhilvalavala",
+          "email": "85224118+nikhilvalavala@users.noreply.github.com",
+          "date": "2024-08-28T18:59:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-08-28T18:59:57Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "f982494103905c9fc9054d7162dd735b0f8434ec",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/f982494103905c9fc9054d7162dd735b0f8434ec"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/a24fff0129f1c75d69fcc413615cd3cb5f43a379",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmz3OuCRC1aQ7uu5UhlAAA2r4QAHlHSGEjr4hYVOx+rJEJGgpz\nK4OSl0L79LSR6APNKHJPyTV8Ip8UvIdClh6+e2cLDODtiaQGicFSggBJ5f/d17TX\ndlxwEWyPtHgeye7Yj9USVYZsut9ki4EwLhMeH82+6eGw1CTAQxY1ufODdC05N69B\nE4i5zNURvw86xgBzBC/vTUk5TOjnnJimoamNOIjUfD4jcKRsDNJfynV/C0WlkOl/\n+kLYkPK0wBF9EhgbiCHIVEJ4Fqj67hDG/oQbRWo3Hk22ML7qkgkRVkZqpnGWkZXo\nb1ykmNCsrjErl80GYtC7fhI4t/SK8ziDtYpqdTZuYQm8yxkXc5A42OM66iXdoZjY\nED7RNb4CnkdbAw9Tc6MKbP0bTQeWAFh0G7jjlIz13K1Hspw6MWkGSgxWJmlSZHox\nhPnTd3Ixeo6x5GMJ8VfEKfke3lza3f6odrerMtT/uKvSR8vdCqxMFdD3tb9d+fqC\nWIUwr/9GGVI8iK85FfkBbnl9FX9UUwHXgOujnQnsv8wOoaqEXq275We0Zncgo00p\nPnB4c1mOxhYcX5Dy0r6UA7V6/8VV4u15nOeH3gmNm/T5QUfylVcRHus4poZixxBu\nQENJWBjFgre2z9PhtE1CUxAYVtqmoDsSxkEAwVWh1YAEqaEqpykkWrgrNv4LGfAL\n3x0a0g8tJwrAr6v51ZGJ\n=Y0h0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f982494103905c9fc9054d7162dd735b0f8434ec\nparent 64f760c0c405c63a20847b9112f13ad34948dbd0\nauthor nikhilvalavala <85224118+nikhilvalavala@users.noreply.github.com> 1724871597 +0530\ncommitter GitHub <noreply@github.com> 1724871597 +0530\n\nUpdate README.md",
+          "verified_at": "2024-11-05T04:43:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a24fff0129f1c75d69fcc413615cd3cb5f43a379",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/a24fff0129f1c75d69fcc413615cd3cb5f43a379",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a24fff0129f1c75d69fcc413615cd3cb5f43a379/comments",
+      "author": {
+        "login": "saisarathv",
+        "id": 85224118,
+        "node_id": "MDQ6VXNlcjg1MjI0MTE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/85224118?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/saisarathv",
+        "html_url": "https://github.com/saisarathv",
+        "followers_url": "https://api.github.com/users/saisarathv/followers",
+        "following_url": "https://api.github.com/users/saisarathv/following{/other_user}",
+        "gists_url": "https://api.github.com/users/saisarathv/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/saisarathv/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/saisarathv/subscriptions",
+        "organizations_url": "https://api.github.com/users/saisarathv/orgs",
+        "repos_url": "https://api.github.com/users/saisarathv/repos",
+        "events_url": "https://api.github.com/users/saisarathv/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/saisarathv/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "64f760c0c405c63a20847b9112f13ad34948dbd0",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/64f760c0c405c63a20847b9112f13ad34948dbd0",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/64f760c0c405c63a20847b9112f13ad34948dbd0"
+        }
+      ]
+    },
+    {
+      "sha": "64f760c0c405c63a20847b9112f13ad34948dbd0",
+      "node_id": "C_kwDOJ3L-itoAKDY0Zjc2MGMwYzQwNWM2M2EyMDg0N2I5MTEyZjEzYWQzNDk0OGRiZDA",
+      "commit": {
+        "author": {
+          "name": "Pavan Narasimha Karthik",
+          "email": "108526358+pnkvalavala@users.noreply.github.com",
+          "date": "2024-01-21T13:22:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-21T13:22:49Z"
+        },
+        "message": "update dependency versions",
+        "tree": {
+          "sha": "015924af5f837efa8c79168e74e963378a19d38b",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/015924af5f837efa8c79168e74e963378a19d38b"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/64f760c0c405c63a20847b9112f13ad34948dbd0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlrRqpCRC1aQ7uu5UhlAAA+4IQABttsubLMt818KtlMBomMg+8\nXnZYSSAhYOouh0P7MG2qpIiJhrCekgi4tme3MBzM03Py5jfsB59Z9TpcqhO0okMS\n4WcFzKluqu3m9FBCnzEOzp10B3qybPTmLEtFZ8iPpI5KkKorKzaWC19+AlAneSh6\nlw9+vK/ldwMODqEQcdBh+vAe/Gk1ukMRRMxR8hh9P+zAMX4cpTXfBa947EZ/vHJV\n/xt7Ou3ZdPwC9BpAcmiHkb0VjJSigoYYxabHEh+wqTu8w8bz1oniACPtHzgYVBb+\nNHMqdZ9GtT/03SgqkduKiaZtvJMQ2m40I7+ph8QpegQXrrWIZgKpz1s7Uf2ZK7c/\nVSmB1Z9tw5nPjMnuehj4etFdPof6UgF8oDlCygCOncWochTS91VO/hQIc+PCdGKX\nhJcBbGjlIBpsl/oCNum1wb8xBe/UJ8To1kWE80ULCQG/7/dzve5oysfo1A1aDp3z\nfQdq0jObm+Yx9sGKcmhKZMA9tlXlMOTZGAV5KUhvcP4eEYXcripc6BCf/ATCIESb\npMD7L+H8KKvtF2HPGqcVjiLQDBJIMXqa7ZS+td2G4VYKadweIAGvm+gvW2AlN56y\npWP782U5Kwi6Irjb5w1NpE2sZrmnbpDoErPHmPsxcPztKTgFS3G95OIO2DUvaUIm\nfq9CNOpWHTyFtJoC9Z6y\n=RjT2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 015924af5f837efa8c79168e74e963378a19d38b\nparent d241c3e5c7eccd025810bd016d9ecc3a9844fdff\nauthor Pavan Narasimha Karthik <108526358+pnkvalavala@users.noreply.github.com> 1705843369 +0530\ncommitter GitHub <noreply@github.com> 1705843369 +0530\n\nupdate dependency versions",
+          "verified_at": "2024-11-05T04:43:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/64f760c0c405c63a20847b9112f13ad34948dbd0",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/64f760c0c405c63a20847b9112f13ad34948dbd0",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/64f760c0c405c63a20847b9112f13ad34948dbd0/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d241c3e5c7eccd025810bd016d9ecc3a9844fdff",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/d241c3e5c7eccd025810bd016d9ecc3a9844fdff",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/d241c3e5c7eccd025810bd016d9ecc3a9844fdff"
+        }
+      ]
+    },
+    {
+      "sha": "d241c3e5c7eccd025810bd016d9ecc3a9844fdff",
+      "node_id": "C_kwDOJ3L-itoAKGQyNDFjM2U1YzdlY2NkMDI1ODEwYmQwMTZkOWVjYzNhOTg0NGZkZmY",
+      "commit": {
+        "author": {
+          "name": "Pavan Narasimha Karthik",
+          "email": "108526358+pnkvalavala@users.noreply.github.com",
+          "date": "2023-10-24T17:59:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-24T17:59:17Z"
+        },
+        "message": "Update README to latest LICENSE",
+        "tree": {
+          "sha": "14b5c69776bf5821fa2ce85424954020bdcd1480",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/14b5c69776bf5821fa2ce85424954020bdcd1480"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/d241c3e5c7eccd025810bd016d9ecc3a9844fdff",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlOAX1CRBK7hj4Ov3rIwAA5GMIACHhqihL58QP08Xfw3etBWcW\nYj8lKzDzE8zIvlBT9t1+YDlQT+SlFZbopSmzBjSD/KbTE3/Q8pDdEsRtBr7e6h1Y\nsSwHk8Rf2I41GnObcRSu4B57m1gl4F6qOfE5sD7JC6quQXyOGFefLKP5vLt0xnG4\nVP5Vc30lU8bKbmCM6BG2XimF+9MylpfRQ4EGdoIF5eKmlSmv3B4ucDYKu1/Cdt2T\nFCHqQyAZYQRfiWp6KHjVxjrbofoUddZYUFaE3JZzzAcrKZAaLgRCW6/PyktJqoJY\nLlLw/vO7tH+AvTsIAudlJQaloSNV6yRVUVnjyPlAYirsBD4Fj9iZl9S5a/DdyEY=\n=DzVk\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 14b5c69776bf5821fa2ce85424954020bdcd1480\nparent 429809aff17b5993fef1d4ee812fb6fcb9f26e62\nauthor Pavan Narasimha Karthik <108526358+pnkvalavala@users.noreply.github.com> 1698170357 +0530\ncommitter GitHub <noreply@github.com> 1698170357 +0530\n\nUpdate README to latest LICENSE",
+          "verified_at": "2024-11-05T04:43:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/d241c3e5c7eccd025810bd016d9ecc3a9844fdff",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/d241c3e5c7eccd025810bd016d9ecc3a9844fdff",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/d241c3e5c7eccd025810bd016d9ecc3a9844fdff/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "429809aff17b5993fef1d4ee812fb6fcb9f26e62",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/429809aff17b5993fef1d4ee812fb6fcb9f26e62",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/429809aff17b5993fef1d4ee812fb6fcb9f26e62"
+        }
+      ]
+    },
+    {
+      "sha": "429809aff17b5993fef1d4ee812fb6fcb9f26e62",
+      "node_id": "C_kwDOJ3L-itoAKDQyOTgwOWFmZjE3YjU5OTNmZWYxZDRlZTgxMmZiNmZjYjlmMjZlNjI",
+      "commit": {
+        "author": {
+          "name": "Pavan Narasimha Karthik",
+          "email": "108526358+pnkvalavala@users.noreply.github.com",
+          "date": "2023-10-24T17:56:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-24T17:56:36Z"
+        },
+        "message": "Update LICENSE to Apache 2.0",
+        "tree": {
+          "sha": "b2dccc88331e53b8c848efa64027c84d90378fa1",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/b2dccc88331e53b8c848efa64027c84d90378fa1"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/429809aff17b5993fef1d4ee812fb6fcb9f26e62",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlOAVUCRBK7hj4Ov3rIwAAl4wIAIv7PEKyEjAdcmMS8nHbQBYl\nc0JWg/M5BxkTtXO5CLY68Vbj1PH/XiySEP1On4L6/42ttORxbl0igFAMh0wJQFAU\nZgrvHbgjmaZMz3qjMZDKtR6Hato0aBPr3ct+yzLrCGmQh6u95dp+ymWAc76BNo3d\noH3BXJn7f0f59ZHkPli/WT8GmWgELw+5NJ7UmUUvUgdn1zwAzUIHHdcvJ46MwTw7\na/QL4q0inwj2G8XADbGRmLsLS3x4fQcQ2B7ydUNQF3uJ+0QKe1C2cm1KpbzYlV64\niwwVXQvw/f8OAddTklneA/JXdjYtOgPicc/6/1UAIiG6uqaZuNPa0XmoQ4+B9/c=\n=DNgi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b2dccc88331e53b8c848efa64027c84d90378fa1\nparent 88c40bffb01639ff889a3249a5f273b3ef059d97\nauthor Pavan Narasimha Karthik <108526358+pnkvalavala@users.noreply.github.com> 1698170196 +0530\ncommitter GitHub <noreply@github.com> 1698170196 +0530\n\nUpdate LICENSE to Apache 2.0",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/429809aff17b5993fef1d4ee812fb6fcb9f26e62",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/429809aff17b5993fef1d4ee812fb6fcb9f26e62",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/429809aff17b5993fef1d4ee812fb6fcb9f26e62/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "88c40bffb01639ff889a3249a5f273b3ef059d97",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/88c40bffb01639ff889a3249a5f273b3ef059d97",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/88c40bffb01639ff889a3249a5f273b3ef059d97"
+        }
+      ]
+    },
+    {
+      "sha": "88c40bffb01639ff889a3249a5f273b3ef059d97",
+      "node_id": "C_kwDOJ3L-itoAKDg4YzQwYmZmYjAxNjM5ZmY4ODlhMzI0OWE1ZjI3M2IzZWYwNTlkOTc",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-16T13:44:52Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-16T13:44:52Z"
+        },
+        "message": "remove .git in the git_url",
+        "tree": {
+          "sha": "003ffe673ad77246f36a0097b46e9a71b0996f77",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/003ffe673ad77246f36a0097b46e9a71b0996f77"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/88c40bffb01639ff889a3249a5f273b3ef059d97",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/88c40bffb01639ff889a3249a5f273b3ef059d97",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/88c40bffb01639ff889a3249a5f273b3ef059d97",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/88c40bffb01639ff889a3249a5f273b3ef059d97/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "76389faed8cd116b0bb48a4fda5ef7fc8512006a",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/76389faed8cd116b0bb48a4fda5ef7fc8512006a",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/76389faed8cd116b0bb48a4fda5ef7fc8512006a"
+        }
+      ]
+    },
+    {
+      "sha": "76389faed8cd116b0bb48a4fda5ef7fc8512006a",
+      "node_id": "C_kwDOJ3L-itoAKDc2Mzg5ZmFlZDhjZDExNmIwYmI0OGE0ZmRhNWVmN2ZjODUxMjAwNmE",
+      "commit": {
+        "author": {
+          "name": "Pavan Narasimha Karthik",
+          "email": "108526358+pnkvalavala@users.noreply.github.com",
+          "date": "2023-10-13T19:38:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-13T19:38:18Z"
+        },
+        "message": "add demo video",
+        "tree": {
+          "sha": "58094a55d55b8727288dd9db2ac770c63a6d0475",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/58094a55d55b8727288dd9db2ac770c63a6d0475"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/76389faed8cd116b0bb48a4fda5ef7fc8512006a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlKZyqCRBK7hj4Ov3rIwAAm1YIABVqC4AnAmkFrBr2hBOIk/k7\ndVJPHKyPnZMZ2o9WNfThzYZPHDX6dwFkWO+t9T4+QGKN5Pg7YKGo39ilBjOC26El\nNlySiOyTh8zaUlkr5REEcLtsmabW9Gql4osluA2v45AmroPnRIAH7v4fRx/5Vgq0\nwniYlM9jDkfhU1iWo4Dq4jF81HNduHte3EUVnY5qhhUJaVX1kgJhdNWtJiFwsqI7\nzfNZKcZhrS/A5EBDAvOXYvBWFfEqij4m8bn9JNkC1up5BshHaoBoeohlN3sFhyfU\nka/HAMg9EYw4Dja9R7ssaGKxIFbKZ3Jb4VnrCL5eIdlg/WlvheQH4uXl4j4LDsg=\n=zp8g\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 58094a55d55b8727288dd9db2ac770c63a6d0475\nparent 847831847a81b56d8d000a156e04550fb1618344\nauthor Pavan Narasimha Karthik <108526358+pnkvalavala@users.noreply.github.com> 1697225898 +0530\ncommitter GitHub <noreply@github.com> 1697225898 +0530\n\nadd demo video",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/76389faed8cd116b0bb48a4fda5ef7fc8512006a",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/76389faed8cd116b0bb48a4fda5ef7fc8512006a",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/76389faed8cd116b0bb48a4fda5ef7fc8512006a/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "847831847a81b56d8d000a156e04550fb1618344",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/847831847a81b56d8d000a156e04550fb1618344",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/847831847a81b56d8d000a156e04550fb1618344"
+        }
+      ]
+    },
+    {
+      "sha": "847831847a81b56d8d000a156e04550fb1618344",
+      "node_id": "C_kwDOJ3L-itoAKDg0NzgzMTg0N2E4MWI1NmQ4ZDAwMGExNTZlMDQ1NTBmYjE2MTgzNDQ",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T18:54:10Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T18:54:10Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "68906aed2426a9e22bc25e7d8261886450fb3adf",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/68906aed2426a9e22bc25e7d8261886450fb3adf"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/847831847a81b56d8d000a156e04550fb1618344",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/847831847a81b56d8d000a156e04550fb1618344",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/847831847a81b56d8d000a156e04550fb1618344",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/847831847a81b56d8d000a156e04550fb1618344/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "94f9be4de41be910121c14a347cc7abf4a946805",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/94f9be4de41be910121c14a347cc7abf4a946805",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/94f9be4de41be910121c14a347cc7abf4a946805"
+        }
+      ]
+    },
+    {
+      "sha": "94f9be4de41be910121c14a347cc7abf4a946805",
+      "node_id": "C_kwDOJ3L-itoAKDk0ZjliZTRkZTQxYmU5MTAxMjFjMTRhMzQ3Y2M3YWJmNGE5NDY4MDU",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T17:59:46Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T17:59:46Z"
+        },
+        "message": "auto delete existing db directory",
+        "tree": {
+          "sha": "c51e4086d200a599c4fa8acad30a3af14a1e2acb",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/c51e4086d200a599c4fa8acad30a3af14a1e2acb"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/94f9be4de41be910121c14a347cc7abf4a946805",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/94f9be4de41be910121c14a347cc7abf4a946805",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/94f9be4de41be910121c14a347cc7abf4a946805",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/94f9be4de41be910121c14a347cc7abf4a946805/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9a536abc74a67b24c88fc4c913182a834b0b4686",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/9a536abc74a67b24c88fc4c913182a834b0b4686",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/9a536abc74a67b24c88fc4c913182a834b0b4686"
+        }
+      ]
+    },
+    {
+      "sha": "9a536abc74a67b24c88fc4c913182a834b0b4686",
+      "node_id": "C_kwDOJ3L-itoAKDlhNTM2YWJjNzRhNjdiMjRjODhmYzRjOTEzMTgyYTgzNGIwYjQ2ODY",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T14:44:54Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T14:44:54Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "31f8191253b7f47898a0b545dc1e56c1f0cbbe3c",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/31f8191253b7f47898a0b545dc1e56c1f0cbbe3c"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/9a536abc74a67b24c88fc4c913182a834b0b4686",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/9a536abc74a67b24c88fc4c913182a834b0b4686",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/9a536abc74a67b24c88fc4c913182a834b0b4686",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/9a536abc74a67b24c88fc4c913182a834b0b4686/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4e707f26e753b6ec46e9dc4f6824ffcc87896673",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/4e707f26e753b6ec46e9dc4f6824ffcc87896673",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/4e707f26e753b6ec46e9dc4f6824ffcc87896673"
+        }
+      ]
+    },
+    {
+      "sha": "4e707f26e753b6ec46e9dc4f6824ffcc87896673",
+      "node_id": "C_kwDOJ3L-itoAKDRlNzA3ZjI2ZTc1M2I2ZWM0NmU5ZGM0ZjY4MjRmZmNjODc4OTY2NzM",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T14:30:06Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-13T14:30:06Z"
+        },
+        "message": "Refactored code to work locally",
+        "tree": {
+          "sha": "f905a806bb8a0b27715abffd8fec9b0d5cde7d57",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/f905a806bb8a0b27715abffd8fec9b0d5cde7d57"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/4e707f26e753b6ec46e9dc4f6824ffcc87896673",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/4e707f26e753b6ec46e9dc4f6824ffcc87896673",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/4e707f26e753b6ec46e9dc4f6824ffcc87896673",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/4e707f26e753b6ec46e9dc4f6824ffcc87896673/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1eca870467c6d20ef0d5fce58e75b83e77340d24",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/1eca870467c6d20ef0d5fce58e75b83e77340d24",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/1eca870467c6d20ef0d5fce58e75b83e77340d24"
+        }
+      ]
+    },
+    {
+      "sha": "1eca870467c6d20ef0d5fce58e75b83e77340d24",
+      "node_id": "C_kwDOJ3L-itoAKDFlY2E4NzA0NjdjNmQyMGVmMGQ1ZmNlNThlNzViODNlNzczNDBkMjQ",
+      "commit": {
+        "author": {
+          "name": "Pavan Narasimha Karthik",
+          "email": "108526358+pnkvalavala@users.noreply.github.com",
+          "date": "2023-10-12T17:31:40Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-12T17:31:40Z"
+        },
+        "message": "Create LICENSE\n\nadd LICENSE",
+        "tree": {
+          "sha": "1c3dc047521c5849c3f9e84a582af8266af4bc48",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/1c3dc047521c5849c3f9e84a582af8266af4bc48"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/1eca870467c6d20ef0d5fce58e75b83e77340d24",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlKC18CRBK7hj4Ov3rIwAAXgkIAGVcthe2NYfU9hbUDoJhUHIZ\n5UBpt5o2KifVgM2f5+NlRAkKz7cJcTZF1asCEwE/E2speKXRjMVYU8b/mpP85jQz\nDfhoK80LIxKWNBmJ3ptyxAomKsKSJ8r6qWwCKkbCQdju3hCX4SiKNZ8yzhmOGgMv\neiC7EO6nQFiRSXEax3ByHfUpo+5Gw6lSVm4hcUqYSZ7quBcgoLWEzpCkoRulJ6Yg\njenosso2y+qRkUKqWrhuPmOcdc7RiIvwOOumlgde3OE7umHd6YJvl1jxFEmNPmBL\nso5ayW/tmYq/7EbDQC9AoBL0szif7Go64EldHjf9g7HNqG2Qri102E1BYGBW28M=\n=GMAo\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1c3dc047521c5849c3f9e84a582af8266af4bc48\nparent 79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2\nauthor Pavan Narasimha Karthik <108526358+pnkvalavala@users.noreply.github.com> 1697131900 +0530\ncommitter GitHub <noreply@github.com> 1697131900 +0530\n\nCreate LICENSE\n\nadd LICENSE",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/1eca870467c6d20ef0d5fce58e75b83e77340d24",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/1eca870467c6d20ef0d5fce58e75b83e77340d24",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/1eca870467c6d20ef0d5fce58e75b83e77340d24/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2"
+        }
+      ]
+    },
+    {
+      "sha": "79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2",
+      "node_id": "C_kwDOJ3L-itoAKDc5ZDgzOTUxNTJlZjM0ZDRkM2FiMjFmNDhiYjQ2ZmQ5NmFhM2E2YjI",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-12T14:34:45Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-10-12T14:34:45Z"
+        },
+        "message": "Support for OpenAI and HF Models via API calls",
+        "tree": {
+          "sha": "253264fb9374012ffdc4552b679dd50ad7195f9e",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/253264fb9374012ffdc4552b679dd50ad7195f9e"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/79d8395152ef34d4d3ab21f48bb46fd96aa3a6b2/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3b875a234c68f8f421f3451139eed82ae8f41f6b",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/3b875a234c68f8f421f3451139eed82ae8f41f6b",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/3b875a234c68f8f421f3451139eed82ae8f41f6b"
+        }
+      ]
+    },
+    {
+      "sha": "3b875a234c68f8f421f3451139eed82ae8f41f6b",
+      "node_id": "C_kwDOJ3L-itoAKDNiODc1YTIzNGM2OGY4ZjQyMWYzNDUxMTM5ZWVkODJhZThmNDFmNmI",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-11T09:21:22Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-11T09:21:22Z"
+        },
+        "message": "Token Validation",
+        "tree": {
+          "sha": "d380bc32b931732607b67751bfa0fc7e3167a0c8",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/d380bc32b931732607b67751bfa0fc7e3167a0c8"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/3b875a234c68f8f421f3451139eed82ae8f41f6b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/3b875a234c68f8f421f3451139eed82ae8f41f6b",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/3b875a234c68f8f421f3451139eed82ae8f41f6b",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/3b875a234c68f8f421f3451139eed82ae8f41f6b/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21c7807ebe49ef3c9d6b83b659b0102281c4e30c",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/21c7807ebe49ef3c9d6b83b659b0102281c4e30c",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/21c7807ebe49ef3c9d6b83b659b0102281c4e30c"
+        }
+      ]
+    },
+    {
+      "sha": "21c7807ebe49ef3c9d6b83b659b0102281c4e30c",
+      "node_id": "C_kwDOJ3L-itoAKDIxYzc4MDdlYmU0OWVmM2M5ZDZiODNiNjU5YjAxMDIyODFjNGUzMGM",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T19:11:01Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T19:11:01Z"
+        },
+        "message": "Update README: Discord Bot for GitHub repositories",
+        "tree": {
+          "sha": "1715242df770cd8eb5b521e75f1c6cd6924029df",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/1715242df770cd8eb5b521e75f1c6cd6924029df"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/21c7807ebe49ef3c9d6b83b659b0102281c4e30c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/21c7807ebe49ef3c9d6b83b659b0102281c4e30c",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/21c7807ebe49ef3c9d6b83b659b0102281c4e30c",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/21c7807ebe49ef3c9d6b83b659b0102281c4e30c/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f8764877813fe5c87ac6abc7142722c5bc9a4ed7",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/f8764877813fe5c87ac6abc7142722c5bc9a4ed7",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/f8764877813fe5c87ac6abc7142722c5bc9a4ed7"
+        }
+      ]
+    },
+    {
+      "sha": "f8764877813fe5c87ac6abc7142722c5bc9a4ed7",
+      "node_id": "C_kwDOJ3L-itoAKGY4NzY0ODc3ODEzZmU1Yzg3YWM2YWJjNzE0MjcyMmM1YmM5YTRlZDc",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T07:04:12Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T07:04:12Z"
+        },
+        "message": "Edit gitignore: cloned_repo",
+        "tree": {
+          "sha": "600817ebe77bd563917ac45bf1f24812111862b6",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/600817ebe77bd563917ac45bf1f24812111862b6"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/f8764877813fe5c87ac6abc7142722c5bc9a4ed7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/f8764877813fe5c87ac6abc7142722c5bc9a4ed7",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/f8764877813fe5c87ac6abc7142722c5bc9a4ed7",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/f8764877813fe5c87ac6abc7142722c5bc9a4ed7/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "77ec8b3757d54fad5f7c82b1c414b3788bfcb637",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/77ec8b3757d54fad5f7c82b1c414b3788bfcb637",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/77ec8b3757d54fad5f7c82b1c414b3788bfcb637"
+        }
+      ]
+    },
+    {
+      "sha": "77ec8b3757d54fad5f7c82b1c414b3788bfcb637",
+      "node_id": "C_kwDOJ3L-itoAKDc3ZWM4YjM3NTdkNTRmYWQ1ZjdjODJiMWM0MTRiMzc4OGJmY2I2Mzc",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T03:23:29Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T03:23:29Z"
+        },
+        "message": "Check for git form",
+        "tree": {
+          "sha": "74d0c675c0884a387fb1f6bcee35c26cfe870908",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/74d0c675c0884a387fb1f6bcee35c26cfe870908"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/77ec8b3757d54fad5f7c82b1c414b3788bfcb637",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/77ec8b3757d54fad5f7c82b1c414b3788bfcb637",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/77ec8b3757d54fad5f7c82b1c414b3788bfcb637",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/77ec8b3757d54fad5f7c82b1c414b3788bfcb637/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b3215b1fc37f095ddf85cf2c379a4b41d86e2f09",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/b3215b1fc37f095ddf85cf2c379a4b41d86e2f09",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/b3215b1fc37f095ddf85cf2c379a4b41d86e2f09"
+        }
+      ]
+    },
+    {
+      "sha": "b3215b1fc37f095ddf85cf2c379a4b41d86e2f09",
+      "node_id": "C_kwDOJ3L-itoAKGIzMjE1YjFmYzM3ZjA5NWRkZjg1Y2YyYzM3OWE0YjQxZDg2ZTJmMDk",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T02:25:55Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T02:25:55Z"
+        },
+        "message": "Fix bug: Ensure user-specific results are obtained",
+        "tree": {
+          "sha": "fa74befd1bd2c0e26d19110e68386a0060dd63f3",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/fa74befd1bd2c0e26d19110e68386a0060dd63f3"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/b3215b1fc37f095ddf85cf2c379a4b41d86e2f09",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/b3215b1fc37f095ddf85cf2c379a4b41d86e2f09",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/b3215b1fc37f095ddf85cf2c379a4b41d86e2f09",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/b3215b1fc37f095ddf85cf2c379a4b41d86e2f09/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a84520613c89af833ab602d0a83fc1287f040b9c",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a84520613c89af833ab602d0a83fc1287f040b9c",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/a84520613c89af833ab602d0a83fc1287f040b9c"
+        }
+      ]
+    },
+    {
+      "sha": "a84520613c89af833ab602d0a83fc1287f040b9c",
+      "node_id": "C_kwDOJ3L-itoAKGE4NDUyMDYxM2M4OWFmODMzYWI2MDJkMGE4M2ZjMTI4N2YwNDBiOWM",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T00:03:26Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-07T00:03:26Z"
+        },
+        "message": "Add package dependency",
+        "tree": {
+          "sha": "070b76ea112dbc6bccacab92bb1e749a82fed679",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/070b76ea112dbc6bccacab92bb1e749a82fed679"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/a84520613c89af833ab602d0a83fc1287f040b9c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a84520613c89af833ab602d0a83fc1287f040b9c",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/a84520613c89af833ab602d0a83fc1287f040b9c",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a84520613c89af833ab602d0a83fc1287f040b9c/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a92763ae021495f797904bcae19b722848053350",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a92763ae021495f797904bcae19b722848053350",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/a92763ae021495f797904bcae19b722848053350"
+        }
+      ]
+    },
+    {
+      "sha": "a92763ae021495f797904bcae19b722848053350",
+      "node_id": "C_kwDOJ3L-itoAKGE5Mjc2M2FlMDIxNDk1Zjc5NzkwNGJjYWUxOWI3MjI4NDgwNTMzNTA",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-06T23:57:41Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-06T23:57:41Z"
+        },
+        "message": "Add package dependency",
+        "tree": {
+          "sha": "02e5fbe390d433949a45320d4ae723e0c8910569",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/02e5fbe390d433949a45320d4ae723e0c8910569"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/a92763ae021495f797904bcae19b722848053350",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a92763ae021495f797904bcae19b722848053350",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/a92763ae021495f797904bcae19b722848053350",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/a92763ae021495f797904bcae19b722848053350/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6cc84d71635b2576d976b5257177e9b4f2943c03",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/6cc84d71635b2576d976b5257177e9b4f2943c03",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/6cc84d71635b2576d976b5257177e9b4f2943c03"
+        }
+      ]
+    },
+    {
+      "sha": "6cc84d71635b2576d976b5257177e9b4f2943c03",
+      "node_id": "C_kwDOJ3L-itoAKDZjYzg0ZDcxNjM1YjI1NzZkOTc2YjUyNTcxNzdlOWI0ZjI5NDNjMDM",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-06T23:50:12Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-06T23:50:12Z"
+        },
+        "message": "Add chat feature and integrate LLM model",
+        "tree": {
+          "sha": "cc846417a4ea47c8dbb01efe0adaa2f66a4e6600",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/cc846417a4ea47c8dbb01efe0adaa2f66a4e6600"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/6cc84d71635b2576d976b5257177e9b4f2943c03",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/6cc84d71635b2576d976b5257177e9b4f2943c03",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/6cc84d71635b2576d976b5257177e9b4f2943c03",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/6cc84d71635b2576d976b5257177e9b4f2943c03/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2cf70d170810df2e5a955fd51d71700ec4cf50dd",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/2cf70d170810df2e5a955fd51d71700ec4cf50dd",
+          "html_url": "https://github.com/pnkvalavala/repochat/commit/2cf70d170810df2e5a955fd51d71700ec4cf50dd"
+        }
+      ]
+    },
+    {
+      "sha": "2cf70d170810df2e5a955fd51d71700ec4cf50dd",
+      "node_id": "C_kwDOJ3L-itoAKDJjZjcwZDE3MDgxMGRmMmU1YTk1NWZkNTFkNzE3MDBlYzRjZjUwZGQ",
+      "commit": {
+        "author": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-03T19:48:54Z"
+        },
+        "committer": {
+          "name": "Pavan Valavala",
+          "email": "karthikvalavala9@gmail.com",
+          "date": "2023-07-03T19:48:54Z"
+        },
+        "message": "Initial Commit",
+        "tree": {
+          "sha": "c6e5ad62198f0cfac9ebe301d68558e0488a4147",
+          "url": "https://api.github.com/repos/pnkvalavala/repochat/git/trees/c6e5ad62198f0cfac9ebe301d68558e0488a4147"
+        },
+        "url": "https://api.github.com/repos/pnkvalavala/repochat/git/commits/2cf70d170810df2e5a955fd51d71700ec4cf50dd",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/pnkvalavala/repochat/commits/2cf70d170810df2e5a955fd51d71700ec4cf50dd",
+      "html_url": "https://github.com/pnkvalavala/repochat/commit/2cf70d170810df2e5a955fd51d71700ec4cf50dd",
+      "comments_url": "https://api.github.com/repos/pnkvalavala/repochat/commits/2cf70d170810df2e5a955fd51d71700ec4cf50dd/comments",
+      "author": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "pnkvalavala",
+        "id": 108526358,
+        "node_id": "U_kgDOBnf7Fg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/pnkvalavala",
+        "html_url": "https://github.com/pnkvalavala",
+        "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+        "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+        "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+        "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+        "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+        "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "pnkvalavala",
+      "id": 108526358,
+      "node_id": "U_kgDOBnf7Fg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108526358?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pnkvalavala",
+      "html_url": "https://github.com/pnkvalavala",
+      "followers_url": "https://api.github.com/users/pnkvalavala/followers",
+      "following_url": "https://api.github.com/users/pnkvalavala/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pnkvalavala/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pnkvalavala/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pnkvalavala/subscriptions",
+      "organizations_url": "https://api.github.com/users/pnkvalavala/orgs",
+      "repos_url": "https://api.github.com/users/pnkvalavala/repos",
+      "events_url": "https://api.github.com/users/pnkvalavala/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pnkvalavala/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 20
+    },
+    {
+      "login": "saisarathv",
+      "id": 85224118,
+      "node_id": "MDQ6VXNlcjg1MjI0MTE4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85224118?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/saisarathv",
+      "html_url": "https://github.com/saisarathv",
+      "followers_url": "https://api.github.com/users/saisarathv/followers",
+      "following_url": "https://api.github.com/users/saisarathv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/saisarathv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/saisarathv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/saisarathv/subscriptions",
+      "organizations_url": "https://api.github.com/users/saisarathv/orgs",
+      "repos_url": "https://api.github.com/users/saisarathv/repos",
+      "events_url": "https://api.github.com/users/saisarathv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/saisarathv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 9286
+  },
+  "readme_html": "<h1 id=\"user-content-repochat---github-repository-interactive-chatbot\">Repochat - GitHub Repository Interactive Chatbot</h1>\n<p>Repochat is an interactive chatbot project designed to engage in conversations about GitHub repositories using a Large Language Model (LLM). It allows users to have meaningful discussions, ask questions, and retrieve relevant information from a GitHub repository. This README provides step-by-step instructions for setting up and using Repochat on your local machine.</p>\n<p><a href=\"https://github.com/pnkvalavala/repochat/assets/108526358/91819459-ddbf-4985-ab84-81c8c67da0e6\">https://github.com/pnkvalavala/repochat/assets/108526358/91819459-ddbf-4985-ab84-81c8c67da0e6</a></p>\n<h2 id=\"user-content-table-of-contents\">Table of Contents</h2>\n<ul>\n<li><a href=\"#branches\">Branches</a></li>\n<li><a href=\"#installation\">Installation</a></li>\n<li><a href=\"#usage\">Usage</a></li>\n<li><a href=\"#chatbot-functionality\">Chatbot Functionality</a></li>\n<li><a href=\"#raising-issues\">Issues</a></li>\n<li><a href=\"#license\">License</a></li>\n</ul>\n<h2 id=\"user-content-branches\">Branches</h2>\n<p>Repochat offers 2 branches with distinct functionalities:</p>\n<h3 id=\"user-content-main-branch\">Main Branch</h3>\n<p>The <a href=\"https://github.com/pnkvalavala/repochat\">main</a> branch of Repochat is designed to run entirely on your local machine. This version of Repochat doesn't rely on external API calls and offers greater control over your data. If you're looking for a self-contained solution, the <code>main</code> branch is the way to go.</p>\n<h3 id=\"user-content-cloud-branch\">Cloud Branch</h3>\n<p>The <a href=\"https://github.com/pnkvalavala/repochat/tree/cloud\">cloud</a> branch of Repochat primarily relies on API calls to external services for model inference and storage. It's well-suited for those who prefer a cloud-based solution and don't want to set up a local environment.</p>\n<h2 id=\"user-content-installation\">Installation</h2>\n<p>To get started with Repochat, you'll need to follow these installation steps:</p>\n<ol>\n<li>\n<p>Create a virtual environment and activate on your local machine to isolate the project's dependencies.</p>\n<pre><code class=\"language-bash\">python -m venv repochat-env\nsource repochat-env/bin/activate\n</code></pre>\n</li>\n<li>\n<p>Clone the Repochat repository and navigate to the project directory.</p>\n<pre><code class=\"language-bash\">git clone https://github.com/pnkvalavala/repochat.git\ncd repochat\n</code></pre>\n</li>\n<li>\n<p>Install the required Python packages using <code>pip</code>.</p>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n</li>\n<li>\n<p>Install the \"llama-cpp-python\" library.</p>\n<h3 id=\"user-content-installation-without-hardware-acceleration\">Installation without Hardware Acceleration</h3>\n<pre><code class=\"language-bash\">pip install llama-cpp-python\n</code></pre>\n<h3 id=\"user-content-installation-with-hardware-acceleration\">Installation with Hardware Acceleration</h3>\n<p><code>llama.cpp</code> supports multiple BLAS backends for faster processing.</p>\n<p>To install with OpenBLAS, set the <code>LLAMA_BLAS and LLAMA_BLAS_VENDOR</code> environment variables before installing:</p>\n<pre><code class=\"language-bash\">CMAKE_ARGS=\"-DLLAMA_BLAS=ON -DLLAMA_BLAS_VENDOR=OpenBLAS\" pip install llama-cpp-python\n</code></pre>\n<p>To install with cuBLAS, set the <code>LLAMA_CUBLAS=1</code> environment variable before installing:</p>\n<pre><code class=\"language-bash\">CMAKE_ARGS=\"-DLLAMA_CUBLAS=on\" pip install llama-cpp-python\n</code></pre>\n<p>To install with CLBlast, set the <code>LLAMA_CLBLAST=1</code> environment variable before installing:</p>\n<pre><code class=\"language-bash\">CMAKE_ARGS=\"-DLLAMA_CLBLAST=on\" pip install llama-cpp-python\n</code></pre>\n<p>To install with Metal (MPS), set the <code>LLAMA_METAL=on</code> environment variable before installing:</p>\n<pre><code class=\"language-bash\">CMAKE_ARGS=\"-DLLAMA_METAL=on\" pip install llama-cpp-python\n</code></pre>\n<p>To install with hipBLAS / ROCm support for AMD cards, set the <code>LLAMA_HIPBLAS=on</code> environment variable before installing:</p>\n<pre><code class=\"language-bash\">CMAKE_ARGS=\"-DLLAMA_HIPBLAS=on\" pip install llama-cpp-python\n</code></pre>\n<p>To get to know more about Hardware Acceleration, refer to official README from <a href=\"https://github.com/abetlen/llama-cpp-python\">llama-cpp-python</a></p>\n</li>\n<li>\n<p>Create a folder named <code>models</code> in the project directory.</p>\n</li>\n<li>\n<p>Download a Language Model from the Hugging Face Model Hub based on your computer's capabilities. It is recommended using the following model as a starting point: <a href=\"https://huggingface.co/TheBloke/CodeLlama-7B-GGUF/blob/main/codellama-7b.Q4_K_M.gguf\">TheBloke/CodeLlama-7B-GGUF</a>. If you want to quantize a model available on Hugging Face, follow the instructions from <a href=\"https://github.com/ggerganov/llama.cpp\">llama.cpp</a></p>\n</li>\n<li>\n<p>Copy the downloaded model file to the \"models\" folder.</p>\n</li>\n<li>\n<p>Open the <code>models.py</code> file located in the \"repochat\" folder and set the model file location in the <code>code_llama()</code> function as follows:</p>\n<pre><code class=\"language-python\">def code_llama():\n    callbackmanager = CallbackManager([StreamingStdOutCallbackHandler()])\n    llm = LlamaCpp(\n        model_path=\"./models/codellama-7b.Q4_K_M.gguf\",\n        n_ctx=2048,\n        max_tokens=200,\n        n_gpu_layers=1,\n        f16_kv=True,\n        callback_manager=callbackmanager,\n        verbose=True,\n        use_mlock=True\n    )\n    return llm\n</code></pre>\n</li>\n</ol>\n<h2 id=\"user-content-usage\">Usage</h2>\n<ol>\n<li>\n<p>Open your terminal and run the following command to start the Repochat application:</p>\n<pre><code class=\"language-bash\">streamlit run app.py\n</code></pre>\n</li>\n<li>\n<p>You can now input the GitHub repository link.</p>\n</li>\n<li>\n<p>Repochat will fetch all the files from the repository and store them in a folder named \"cloned_repo.\" It will then split the files into smaller chunks and calculate their embeddings using the Sentence Transformers model, specifically <a href=\"https://huggingface.co/sentence-transformers/all-mpnet-base-v2\">sentence-transformers/all-mpnet-base-v2</a>.</p>\n</li>\n<li>\n<p>The embeddings are stored locally in a vector database called ChromaDB.</p>\n</li>\n</ol>\n<h2 id=\"user-content-chatbot-functionality\">Chatbot Functionality</h2>\n<p>Repochat allows you to engage in conversations with the chatbot. You can ask questions or provide input, and the chatbot will retrieve relevant documents from the vector database. It then sends your input, along with the retrieved documents, to the Language Model for generating responses. By default, I've set the model to \"codellama-7b-instruct,\" but you can change it based on your computer's speed, and you can even try the 13b quantized model for responses.</p>\n<p>The chatbot retains memory during the conversation to provide contextually relevant responses.</p>\n<h2 id=\"user-content-raising-issues\">Raising Issues</h2>\n<p>If you encounter any issues, have suggestions, or want to report a bug, please visit the <a href=\"https://github.com/pnkvalavala/repochat/issues\">Issues</a> section of the Repochat repository and create a new issue. Provide detailed information about the problem you're facing, and I'll do my best to assist you.</p>\n<h2 id=\"user-content-license\">License</h2>\n<p>This project is licensed under the <a href=\"http://www.apache.org/licenses/LICENSE-2.0\">Apache License 2.0</a>. For details, see the <a href=\"LICENSE\">LICENSE</a> file.\nPlease note that this is a change from the previous license, and it's important to review the terms and conditions of the new license.</p>",
+  "_fetched_at": "2026-03-11T18:16:28.768Z"
+}

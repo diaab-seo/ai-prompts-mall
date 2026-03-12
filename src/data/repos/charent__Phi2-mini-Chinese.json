@@ -1,0 +1,1983 @@
+{
+  "id": 734557915,
+  "node_id": "R_kgDOK8h22w",
+  "name": "Phi2-mini-Chinese",
+  "full_name": "charent/Phi2-mini-Chinese",
+  "private": false,
+  "owner": {
+    "login": "charent",
+    "id": 19562666,
+    "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/charent",
+    "html_url": "https://github.com/charent",
+    "followers_url": "https://api.github.com/users/charent/followers",
+    "following_url": "https://api.github.com/users/charent/following{/other_user}",
+    "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+    "organizations_url": "https://api.github.com/users/charent/orgs",
+    "repos_url": "https://api.github.com/users/charent/repos",
+    "events_url": "https://api.github.com/users/charent/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/charent/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/charent/Phi2-mini-Chinese",
+  "description": "Phi2-Chinese-0.2B 从0开始训练自己的Phi2中文小模型，支持接入langchain加载本地知识库做检索增强生成RAG。Training your own Phi2 small chat model from scratch.",
+  "fork": false,
+  "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese",
+  "forks_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/forks",
+  "keys_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/teams",
+  "hooks_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/hooks",
+  "issue_events_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/events",
+  "assignees_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/tags",
+  "blobs_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/languages",
+  "stargazers_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/stargazers",
+  "contributors_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/contributors",
+  "subscribers_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/subscribers",
+  "subscription_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/subscription",
+  "commits_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/merges",
+  "archive_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/downloads",
+  "issues_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/labels{/name}",
+  "releases_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/deployments",
+  "created_at": "2023-12-22T02:03:27Z",
+  "updated_at": "2026-03-06T14:25:16Z",
+  "pushed_at": "2024-07-11T15:12:53Z",
+  "git_url": "git://github.com/charent/Phi2-mini-Chinese.git",
+  "ssh_url": "git@github.com:charent/Phi2-mini-Chinese.git",
+  "clone_url": "https://github.com/charent/Phi2-mini-Chinese.git",
+  "svn_url": "https://github.com/charent/Phi2-mini-Chinese",
+  "homepage": "",
+  "size": 183,
+  "stargazers_count": 585,
+  "watchers_count": 585,
+  "language": "Jupyter Notebook",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": true,
+  "forks_count": 66,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 2,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "language-model",
+    "phi-2",
+    "retrieval-augmented-generation",
+    "text-generation"
+  ],
+  "visibility": "public",
+  "forks": 66,
+  "open_issues": 2,
+  "watchers": 585,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "86ed6a6886a4e6bfe88b88ceddda793b9e072380",
+      "node_id": "C_kwDOK8h229oAKDg2ZWQ2YTY4ODZhNGU2YmZlODhiODhjZWRkZGE3OTNiOWUwNzIzODA",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-07-11T15:12:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-11T15:12:47Z"
+        },
+        "message": "Merge pull request #15 from charent/dependabot/pip/transformers-4.38.0\n\nBump transformers from 4.36.2 to 4.38.0",
+        "tree": {
+          "sha": "6b860a7671c59fff6f0df12da83b3816ad84b9fb",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/6b860a7671c59fff6f0df12da83b3816ad84b9fb"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/86ed6a6886a4e6bfe88b88ceddda793b9e072380",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmj/ZvCRC1aQ7uu5UhlAAAQ/EQACKZJ7JiwWFqH32qfY0Mqp7X\nkDuzSJ/hi3uowHwilUeAKogc/hj2dKnnks8MZTjySOrmFmPzxfhKTd8HsDuovV6t\nUoylD//arshOUxp+/Vd2c8WlypNfF/RFBY7618yRkb+BIJ6HuaC1xkLBa7Jif2o7\nA35LrPCaLZWrlYeuXysa5AwGEaLSkUYSSdVr0zhWH9LLLXkte+5iI7fbVW9lHP6I\nZG69M3L7dNrsFM8hp/403CfTH+NbZWkZqW03kZp5nzD0Z763VVkvYGpIuf+dOcKl\ntp/De8IZ6QuJUUZnCn2idm2AOllrmVafrwmV+FAYVuiWhlsBSo82sYdpFX8+axN8\nD0AJAoIVFSyI/gaXSYaiDso+9jxr7TVjpAffsBTvJsNcSKwDgu2Wqr8f2L192P5q\nkxou4MF7PeIMo8+Iog1I0XioEyOLG2aUu6+dfToxmc5uKcYMRFxK0s14aEGD8RXm\n8oOFg2nrsQBMeVW9tHC9Y8aZFXQK3TQmunHUpegl/8rZq8SJ0LGVxkk+Xputn6zs\nZs2HDYMGqHd/EqtDgHhl42oWJ8uhxnKVpRNcO0M2+ZTcW+FuAsP8Do5YWeoR/YuA\nWLs60WTrovYVXgemiw1OilR+oDsn1bMJisqYNMJDWM+OWZCenEMv5CEYOwxDwTSN\nePuqLzSsCKZ+M1rn0cXi\n=GAe1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6b860a7671c59fff6f0df12da83b3816ad84b9fb\nparent 2aaa7285e3286a37827cd48d615460040c3aaf42\nparent 60b066c840f03ac0cc5654463fb61687938a05eb\nauthor Charent <19562666+charent@users.noreply.github.com> 1720710767 +0800\ncommitter GitHub <noreply@github.com> 1720710767 +0800\n\nMerge pull request #15 from charent/dependabot/pip/transformers-4.38.0\n\nBump transformers from 4.36.2 to 4.38.0",
+          "verified_at": "2024-11-06T16:21:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/86ed6a6886a4e6bfe88b88ceddda793b9e072380",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/86ed6a6886a4e6bfe88b88ceddda793b9e072380",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/86ed6a6886a4e6bfe88b88ceddda793b9e072380/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2aaa7285e3286a37827cd48d615460040c3aaf42",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/2aaa7285e3286a37827cd48d615460040c3aaf42",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/2aaa7285e3286a37827cd48d615460040c3aaf42"
+        },
+        {
+          "sha": "60b066c840f03ac0cc5654463fb61687938a05eb",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/60b066c840f03ac0cc5654463fb61687938a05eb",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/60b066c840f03ac0cc5654463fb61687938a05eb"
+        }
+      ]
+    },
+    {
+      "sha": "60b066c840f03ac0cc5654463fb61687938a05eb",
+      "node_id": "C_kwDOK8h229oAKDYwYjA2NmM4NDBmMDNhYzBjYzU2NTQ0NjNmYjYxNjg3OTM4YTA1ZWI",
+      "commit": {
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2024-07-11T15:12:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-11T15:12:27Z"
+        },
+        "message": "Bump transformers from 4.36.2 to 4.38.0\n\nBumps [transformers](https://github.com/huggingface/transformers) from 4.36.2 to 4.38.0.\n- [Release notes](https://github.com/huggingface/transformers/releases)\n- [Commits](https://github.com/huggingface/transformers/compare/v4.36.2...v4.38.0)\n\n---\nupdated-dependencies:\n- dependency-name: transformers\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "tree": {
+          "sha": "6b860a7671c59fff6f0df12da83b3816ad84b9fb",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/6b860a7671c59fff6f0df12da83b3816ad84b9fb"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/60b066c840f03ac0cc5654463fb61687938a05eb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmj/ZbCRC1aQ7uu5UhlAAAgdcQAIm6ubZ370QLPUbMrndyO1qT\nY7lxvcclKLYmTK8RVughLwuoziHi/Qn7fQpzlnWNnM1Kb9hlWN6AMw6hcdgBuIJk\nb8vuC/xzZwuZosj6GmTo5n4wi6KoZNEkbzR71fbGkQ3hzZt5MqFxsBZiqAy+30+/\n2//lwXTz4ihfw5J35hJ59LvLpBpIlEuqRcA9Qp3yEN55Nbo0+pkJvOwPBpJRFFog\n/VOF7OPYezvRimioa3gHI92q7s9bRjxRhzkIL5U34J2PQOQvAe3JfD/f1SDfbDhn\nsPjYZT4JOk5hc2/rMYBCKlQBORC2cTo2ZEtXvIto1IVf2HepVZuENkayI6G78Azd\nt7an4JW6+SQgEtVG1kAqWU30x9nR6sWrrjfFSNBHk18/W0kHkfgG/mOqqCwJczM/\n40OQrB/lDax+YN14U8TD/ERuLqtg7LYzNONGo3MUtHcL+1HKMhH1WLg2cP2EvWXz\nfWlQ5BiM3vst2UQQYRiGMOJqlqXSU/Z00mHQOLqfMrBeuy3ZRUXxF/oKT7op1r+P\nFfM3cjeUfV5uX17KDZEUliEezRCM5p1mW7i5+4dZkAmIgKsOm7YJaxfavgRDGEak\nnWVwgt33147q7FZvuByDbUgpeWjz4DzKJ6kh9zgIjNe5F9QrcRpc5oD4xncgcSuS\n8yaHTPiCP60ycR7iOoUz\n=bHR/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6b860a7671c59fff6f0df12da83b3816ad84b9fb\nparent 2aaa7285e3286a37827cd48d615460040c3aaf42\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1720710747 +0000\ncommitter GitHub <noreply@github.com> 1720710747 +0000\n\nBump transformers from 4.36.2 to 4.38.0\n\nBumps [transformers](https://github.com/huggingface/transformers) from 4.36.2 to 4.38.0.\n- [Release notes](https://github.com/huggingface/transformers/releases)\n- [Commits](https://github.com/huggingface/transformers/compare/v4.36.2...v4.38.0)\n\n---\nupdated-dependencies:\n- dependency-name: transformers\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "verified_at": "2024-11-06T16:21:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/60b066c840f03ac0cc5654463fb61687938a05eb",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/60b066c840f03ac0cc5654463fb61687938a05eb",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/60b066c840f03ac0cc5654463fb61687938a05eb/comments",
+      "author": {
+        "login": "dependabot[bot]",
+        "id": 49699333,
+        "node_id": "MDM6Qm90NDk2OTkzMzM=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+        "html_url": "https://github.com/apps/dependabot",
+        "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2aaa7285e3286a37827cd48d615460040c3aaf42",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/2aaa7285e3286a37827cd48d615460040c3aaf42",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/2aaa7285e3286a37827cd48d615460040c3aaf42"
+        }
+      ]
+    },
+    {
+      "sha": "2aaa7285e3286a37827cd48d615460040c3aaf42",
+      "node_id": "C_kwDOK8h229oAKDJhYWE3Mjg1ZTMyODZhMzc4MjdjZDQ4ZDYxNTQ2MDA0MGMzYWFmNDI",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-02-03T07:20:43Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-02-03T07:20:43Z"
+        },
+        "message": "add c-eval",
+        "tree": {
+          "sha": "a7e46366f8222a5517290ba3cb86f11a65fd4ffb",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/a7e46366f8222a5517290ba3cb86f11a65fd4ffb"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/2aaa7285e3286a37827cd48d615460040c3aaf42",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/2aaa7285e3286a37827cd48d615460040c3aaf42",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/2aaa7285e3286a37827cd48d615460040c3aaf42",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/2aaa7285e3286a37827cd48d615460040c3aaf42/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "87bc3a054b9eb2b9381eeac9edbf7e7bad934326",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/87bc3a054b9eb2b9381eeac9edbf7e7bad934326",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/87bc3a054b9eb2b9381eeac9edbf7e7bad934326"
+        }
+      ]
+    },
+    {
+      "sha": "87bc3a054b9eb2b9381eeac9edbf7e7bad934326",
+      "node_id": "C_kwDOK8h229oAKDg3YmMzYTA1NGI5ZWIyYjkzODFlZWFjOWVkYmY3ZTdiYWQ5MzQzMjY",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-02-03T07:18:57Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-02-03T07:18:57Z"
+        },
+        "message": "add c-eval",
+        "tree": {
+          "sha": "ea788b5a7edc47cadff255d3a293a5d70d29ce74",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/ea788b5a7edc47cadff255d3a293a5d70d29ce74"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/87bc3a054b9eb2b9381eeac9edbf7e7bad934326",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/87bc3a054b9eb2b9381eeac9edbf7e7bad934326",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/87bc3a054b9eb2b9381eeac9edbf7e7bad934326",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/87bc3a054b9eb2b9381eeac9edbf7e7bad934326/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3419b1202d953613a64293320c6f8fd85bc5c159",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/3419b1202d953613a64293320c6f8fd85bc5c159",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/3419b1202d953613a64293320c6f8fd85bc5c159"
+        }
+      ]
+    },
+    {
+      "sha": "3419b1202d953613a64293320c6f8fd85bc5c159",
+      "node_id": "C_kwDOK8h229oAKDM0MTliMTIwMmQ5NTM2MTNhNjQyOTMzMjBjNmY4ZmQ4NWJjNWMxNTk",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-02-01T15:25:25Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-02-01T15:25:25Z"
+        },
+        "message": "bug fixed",
+        "tree": {
+          "sha": "75356c4496a0fb33365a86d62ff3beb69dc6b4fa",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/75356c4496a0fb33365a86d62ff3beb69dc6b4fa"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/3419b1202d953613a64293320c6f8fd85bc5c159",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/3419b1202d953613a64293320c6f8fd85bc5c159",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/3419b1202d953613a64293320c6f8fd85bc5c159",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/3419b1202d953613a64293320c6f8fd85bc5c159/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8b71b814de054a6394b26788ac2285d52f20561d",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/8b71b814de054a6394b26788ac2285d52f20561d",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/8b71b814de054a6394b26788ac2285d52f20561d"
+        }
+      ]
+    },
+    {
+      "sha": "8b71b814de054a6394b26788ac2285d52f20561d",
+      "node_id": "C_kwDOK8h229oAKDhiNzFiODE0ZGUwNTRhNjM5NGIyNjc4OGFjMjI4NWQ1MmYyMDU2MWQ",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-25T12:37:28Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-25T12:37:28Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "c642e7b1c8dbf3d53d5a656241b12ac66a06ef24",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/c642e7b1c8dbf3d53d5a656241b12ac66a06ef24"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/8b71b814de054a6394b26788ac2285d52f20561d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/8b71b814de054a6394b26788ac2285d52f20561d",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/8b71b814de054a6394b26788ac2285d52f20561d",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/8b71b814de054a6394b26788ac2285d52f20561d/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "89451b94780c7ea25452f53e5c1bae7652a9cd0a",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/89451b94780c7ea25452f53e5c1bae7652a9cd0a",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/89451b94780c7ea25452f53e5c1bae7652a9cd0a"
+        }
+      ]
+    },
+    {
+      "sha": "89451b94780c7ea25452f53e5c1bae7652a9cd0a",
+      "node_id": "C_kwDOK8h229oAKDg5NDUxYjk0NzgwYzdlYTI1NDUyZjUzZTVjMWJhZTc2NTJhOWNkMGE",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-17T08:29:55Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-17T08:29:55Z"
+        },
+        "message": "add web_demo",
+        "tree": {
+          "sha": "db6e75dfd5f3166a2a23a89dac5d1670b18310aa",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/db6e75dfd5f3166a2a23a89dac5d1670b18310aa"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/89451b94780c7ea25452f53e5c1bae7652a9cd0a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/89451b94780c7ea25452f53e5c1bae7652a9cd0a",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/89451b94780c7ea25452f53e5c1bae7652a9cd0a",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/89451b94780c7ea25452f53e5c1bae7652a9cd0a/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f70cb977528e5810163a83881d7d9f52c44cc89d",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/f70cb977528e5810163a83881d7d9f52c44cc89d",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/f70cb977528e5810163a83881d7d9f52c44cc89d"
+        }
+      ]
+    },
+    {
+      "sha": "f70cb977528e5810163a83881d7d9f52c44cc89d",
+      "node_id": "C_kwDOK8h229oAKGY3MGNiOTc3NTI4ZTU4MTAxNjNhODM4ODFkN2Q5ZjUyYzQ0Y2M4OWQ",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-12T03:37:47Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-12T03:37:47Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "de9c99061875d941d002cc38c8ae891fc338ab64",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/de9c99061875d941d002cc38c8ae891fc338ab64"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/f70cb977528e5810163a83881d7d9f52c44cc89d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/f70cb977528e5810163a83881d7d9f52c44cc89d",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/f70cb977528e5810163a83881d7d9f52c44cc89d",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/f70cb977528e5810163a83881d7d9f52c44cc89d/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f741e1d7327846fe30d71c3330e5765e3ce6d39f",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/f741e1d7327846fe30d71c3330e5765e3ce6d39f",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/f741e1d7327846fe30d71c3330e5765e3ce6d39f"
+        }
+      ]
+    },
+    {
+      "sha": "f741e1d7327846fe30d71c3330e5765e3ce6d39f",
+      "node_id": "C_kwDOK8h229oAKGY3NDFlMWQ3MzI3ODQ2ZmUzMGQ3MWMzMzMwZTU3NjVlM2NlNmQzOWY",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-12T03:35:18Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-12T03:35:18Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "50f24e2bcf620179b31051eb1db0aed0ecb766e5",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/50f24e2bcf620179b31051eb1db0aed0ecb766e5"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/f741e1d7327846fe30d71c3330e5765e3ce6d39f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/f741e1d7327846fe30d71c3330e5765e3ce6d39f",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/f741e1d7327846fe30d71c3330e5765e3ce6d39f",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/f741e1d7327846fe30d71c3330e5765e3ce6d39f/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "26de8d18c29537098848aff6fccd760210028766",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/26de8d18c29537098848aff6fccd760210028766",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/26de8d18c29537098848aff6fccd760210028766"
+        }
+      ]
+    },
+    {
+      "sha": "26de8d18c29537098848aff6fccd760210028766",
+      "node_id": "C_kwDOK8h229oAKDI2ZGU4ZDE4YzI5NTM3MDk4ODQ4YWZmNmZjY2Q3NjAyMTAwMjg3NjY",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-12T03:25:01Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-12T03:25:01Z"
+        },
+        "message": "add rag",
+        "tree": {
+          "sha": "eb669bdd08f7e136023a0f79cbe30a6d33789b71",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/eb669bdd08f7e136023a0f79cbe30a6d33789b71"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/26de8d18c29537098848aff6fccd760210028766",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/26de8d18c29537098848aff6fccd760210028766",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/26de8d18c29537098848aff6fccd760210028766",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/26de8d18c29537098848aff6fccd760210028766/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2ea270c0f5a0337d46b5f5a49986369e5a34ae4f",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/2ea270c0f5a0337d46b5f5a49986369e5a34ae4f",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/2ea270c0f5a0337d46b5f5a49986369e5a34ae4f"
+        }
+      ]
+    },
+    {
+      "sha": "2ea270c0f5a0337d46b5f5a49986369e5a34ae4f",
+      "node_id": "C_kwDOK8h229oAKDJlYTI3MGMwZjVhMDMzN2Q0NmI1ZjVhNDk5ODYzNjllNWEzNGFlNGY",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-05T14:03:49Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-05T14:03:49Z"
+        },
+        "message": "opt data process",
+        "tree": {
+          "sha": "a0036a55a26b1c821667a7452442ec4f4883d05c",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/a0036a55a26b1c821667a7452442ec4f4883d05c"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/2ea270c0f5a0337d46b5f5a49986369e5a34ae4f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/2ea270c0f5a0337d46b5f5a49986369e5a34ae4f",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/2ea270c0f5a0337d46b5f5a49986369e5a34ae4f",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/2ea270c0f5a0337d46b5f5a49986369e5a34ae4f/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "da47e5914eef20cf299a653f9404d9293c0ffca4",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/da47e5914eef20cf299a653f9404d9293c0ffca4",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/da47e5914eef20cf299a653f9404d9293c0ffca4"
+        }
+      ]
+    },
+    {
+      "sha": "da47e5914eef20cf299a653f9404d9293c0ffca4",
+      "node_id": "C_kwDOK8h229oAKGRhNDdlNTkxNGVlZjIwY2YyOTlhNjUzZjk0MDRkOTI5M2MwZmZjYTQ",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-05T12:02:34Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-05T12:02:34Z"
+        },
+        "message": "opt data process",
+        "tree": {
+          "sha": "8df2e40dd4cdbdc587584735e7d12bbe8aee98a0",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/8df2e40dd4cdbdc587584735e7d12bbe8aee98a0"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/da47e5914eef20cf299a653f9404d9293c0ffca4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/da47e5914eef20cf299a653f9404d9293c0ffca4",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/da47e5914eef20cf299a653f9404d9293c0ffca4",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/da47e5914eef20cf299a653f9404d9293c0ffca4/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "aaba799f362b9817e0aea017e4773da05f80a686",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/aaba799f362b9817e0aea017e4773da05f80a686",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/aaba799f362b9817e0aea017e4773da05f80a686"
+        }
+      ]
+    },
+    {
+      "sha": "aaba799f362b9817e0aea017e4773da05f80a686",
+      "node_id": "C_kwDOK8h229oAKGFhYmE3OTlmMzYyYjk4MTdlMGFlYTAxN2U0NzczZGEwNWY4MGE2ODY",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-03T08:16:53Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-03T08:16:53Z"
+        },
+        "message": "update data process",
+        "tree": {
+          "sha": "aca75de2eb333ad88560affd8ccf9daa14766a49",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/aca75de2eb333ad88560affd8ccf9daa14766a49"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/aaba799f362b9817e0aea017e4773da05f80a686",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/aaba799f362b9817e0aea017e4773da05f80a686",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/aaba799f362b9817e0aea017e4773da05f80a686",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/aaba799f362b9817e0aea017e4773da05f80a686/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4a712e1453e1da1431198584b4afcc339b892974",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/4a712e1453e1da1431198584b4afcc339b892974",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/4a712e1453e1da1431198584b4afcc339b892974"
+        }
+      ]
+    },
+    {
+      "sha": "4a712e1453e1da1431198584b4afcc339b892974",
+      "node_id": "C_kwDOK8h229oAKDRhNzEyZTE0NTNlMWRhMTQzMTE5ODU4NGI0YWZjYzMzOWI4OTI5NzQ",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-02T15:29:05Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-02T15:29:05Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "30c735e80f8f3d91ceff7fb3c7c79b0b220cdbcc",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/30c735e80f8f3d91ceff7fb3c7c79b0b220cdbcc"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/4a712e1453e1da1431198584b4afcc339b892974",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/4a712e1453e1da1431198584b4afcc339b892974",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/4a712e1453e1da1431198584b4afcc339b892974",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/4a712e1453e1da1431198584b4afcc339b892974/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9041ef86678c4f2eaa47af64c576c4d3537d7a3f",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/9041ef86678c4f2eaa47af64c576c4d3537d7a3f",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/9041ef86678c4f2eaa47af64c576c4d3537d7a3f"
+        }
+      ]
+    },
+    {
+      "sha": "9041ef86678c4f2eaa47af64c576c4d3537d7a3f",
+      "node_id": "C_kwDOK8h229oAKDkwNDFlZjg2Njc4YzRmMmVhYTQ3YWY2NGM1NzZjNGQzNTM3ZDdhM2Y",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-01T12:26:08Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2024-01-01T12:26:08Z"
+        },
+        "message": "change param",
+        "tree": {
+          "sha": "1844c26311c890b896e972c606c99be84ec7eb08",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/1844c26311c890b896e972c606c99be84ec7eb08"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/9041ef86678c4f2eaa47af64c576c4d3537d7a3f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/9041ef86678c4f2eaa47af64c576c4d3537d7a3f",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/9041ef86678c4f2eaa47af64c576c4d3537d7a3f",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/9041ef86678c4f2eaa47af64c576c4d3537d7a3f/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d75af32def136f6eb9033b123add2050e9fbf199",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/d75af32def136f6eb9033b123add2050e9fbf199",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/d75af32def136f6eb9033b123add2050e9fbf199"
+        }
+      ]
+    },
+    {
+      "sha": "d75af32def136f6eb9033b123add2050e9fbf199",
+      "node_id": "C_kwDOK8h229oAKGQ3NWFmMzJkZWYxMzZmNmViOTAzM2IxMjNhZGQyMDUwZTlmYmYxOTk",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-28T08:04:51Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-28T08:04:51Z"
+        },
+        "message": "constructed",
+        "tree": {
+          "sha": "48b7c21e20d092920a039f488a3c4f586703d3b1",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/48b7c21e20d092920a039f488a3c4f586703d3b1"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/d75af32def136f6eb9033b123add2050e9fbf199",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/d75af32def136f6eb9033b123add2050e9fbf199",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/d75af32def136f6eb9033b123add2050e9fbf199",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/d75af32def136f6eb9033b123add2050e9fbf199/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b0656e85ade272ca16ba0627b46a89e3b01dd923",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/b0656e85ade272ca16ba0627b46a89e3b01dd923",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/b0656e85ade272ca16ba0627b46a89e3b01dd923"
+        }
+      ]
+    },
+    {
+      "sha": "b0656e85ade272ca16ba0627b46a89e3b01dd923",
+      "node_id": "C_kwDOK8h229oAKGIwNjU2ZTg1YWRlMjcyY2ExNmJhMDYyN2I0NmE4OWUzYjAxZGQ5MjM",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-27T13:11:09Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-27T13:11:09Z"
+        },
+        "message": "change pre train dataset",
+        "tree": {
+          "sha": "02cdc12bdc287ae5b8bd76e3572e14b57db68902",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/02cdc12bdc287ae5b8bd76e3572e14b57db68902"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/b0656e85ade272ca16ba0627b46a89e3b01dd923",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/b0656e85ade272ca16ba0627b46a89e3b01dd923",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/b0656e85ade272ca16ba0627b46a89e3b01dd923",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/b0656e85ade272ca16ba0627b46a89e3b01dd923/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d0fdd02b59330172fa0d7c3aa654a72f1863dbee",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/d0fdd02b59330172fa0d7c3aa654a72f1863dbee",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/d0fdd02b59330172fa0d7c3aa654a72f1863dbee"
+        }
+      ]
+    },
+    {
+      "sha": "d0fdd02b59330172fa0d7c3aa654a72f1863dbee",
+      "node_id": "C_kwDOK8h229oAKGQwZmRkMDJiNTkzMzAxNzJmYTBkN2MzYWE2NTRhNzJmMTg2M2RiZWU",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-27T02:45:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-12-27T02:45:53Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "b509d71c260ee21b0d1fa7c0d4d36362dd1e6763",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/b509d71c260ee21b0d1fa7c0d4d36362dd1e6763"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/d0fdd02b59330172fa0d7c3aa654a72f1863dbee",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJli4/hCRBK7hj4Ov3rIwAAAZAIAGAxihEosH4IyTbLEIALCk44\nIljevWA83YkJFBKRJ3TZYDb4R59vayTxVU75rs+uVe8WxkVZC3ikbSsLnqipUxXB\njF0JfjGfGct9f5gFG2A8lnAa/e1cvx1jqch8+JMI5om3j5O2k6QNEppC34BM5rdO\nXIOhzoxq4nDE3A3oHOAcB0mMHJrgzlYT3cqAJgVLICEh3eXCHY+zCwRHjOg+W1K7\nz1E4Yr67oQlHqqRQ9bPKrybx/Q6nr8RpMXPrWT+30H5lnLSyyqeNMRAuNp+3lYdk\nLlyfMobxhGb5slvgBtxGQx49XePIaiwA8bWZ2SSvGbYf3UwQpSpKZe93aNnRKoY=\n=lQ6M\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b509d71c260ee21b0d1fa7c0d4d36362dd1e6763\nparent 060deb1b720b63346a09b16467e42ce918d2387c\nauthor Charent <19562666+charent@users.noreply.github.com> 1703645153 +0800\ncommitter GitHub <noreply@github.com> 1703645153 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T16:21:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/d0fdd02b59330172fa0d7c3aa654a72f1863dbee",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/d0fdd02b59330172fa0d7c3aa654a72f1863dbee",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/d0fdd02b59330172fa0d7c3aa654a72f1863dbee/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "060deb1b720b63346a09b16467e42ce918d2387c",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/060deb1b720b63346a09b16467e42ce918d2387c",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/060deb1b720b63346a09b16467e42ce918d2387c"
+        }
+      ]
+    },
+    {
+      "sha": "060deb1b720b63346a09b16467e42ce918d2387c",
+      "node_id": "C_kwDOK8h229oAKDA2MGRlYjFiNzIwYjYzMzQ2YTA5YjE2NDY3ZTQyY2U5MThkMjM4N2M",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-25T12:01:16Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-25T12:01:16Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "b482dad5b36162dec4523b493102324a7a5b92a7",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/b482dad5b36162dec4523b493102324a7a5b92a7"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/060deb1b720b63346a09b16467e42ce918d2387c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/060deb1b720b63346a09b16467e42ce918d2387c",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/060deb1b720b63346a09b16467e42ce918d2387c",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/060deb1b720b63346a09b16467e42ce918d2387c/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fdd5c36812d546e1119d58aff49e8ba409d84d3f",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/fdd5c36812d546e1119d58aff49e8ba409d84d3f",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/fdd5c36812d546e1119d58aff49e8ba409d84d3f"
+        }
+      ]
+    },
+    {
+      "sha": "fdd5c36812d546e1119d58aff49e8ba409d84d3f",
+      "node_id": "C_kwDOK8h229oAKGZkZDVjMzY4MTJkNTQ2ZTExMTlkNThhZmY0OWU4YmE0MDlkODRkM2Y",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-25T03:55:38Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-25T03:55:38Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "c8fa0f1363d775aa66a95fabc71e199ea15b61f0",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/c8fa0f1363d775aa66a95fabc71e199ea15b61f0"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/fdd5c36812d546e1119d58aff49e8ba409d84d3f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/fdd5c36812d546e1119d58aff49e8ba409d84d3f",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/fdd5c36812d546e1119d58aff49e8ba409d84d3f",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/fdd5c36812d546e1119d58aff49e8ba409d84d3f/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105"
+        }
+      ]
+    },
+    {
+      "sha": "cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105",
+      "node_id": "C_kwDOK8h229oAKGNkZTJkNTdjZWNhYjBlZjM2ZThjYzRjM2Y3YjRmMWJhZDhjNjExMDU",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-25T03:40:36Z"
+        },
+        "committer": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-25T03:40:36Z"
+        },
+        "message": "first commit",
+        "tree": {
+          "sha": "dcec9f90fc6f5bd664b64088d99db0f3c5dfe75a",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/dcec9f90fc6f5bd664b64088d99db0f3c5dfe75a"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/cde2d57cecab0ef36e8cc4c3f7b4f1bad8c61105/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "05fee1269dbbb576af2d8e3a2b9eddacbb907f00",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/05fee1269dbbb576af2d8e3a2b9eddacbb907f00",
+          "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/05fee1269dbbb576af2d8e3a2b9eddacbb907f00"
+        }
+      ]
+    },
+    {
+      "sha": "05fee1269dbbb576af2d8e3a2b9eddacbb907f00",
+      "node_id": "C_kwDOK8h229oAKDA1ZmVlMTI2OWRiYmI1NzZhZjJkOGUzYTJiOWVkZGFjYmI5MDdmMDA",
+      "commit": {
+        "author": {
+          "name": "Charent",
+          "email": "19562666+charent@users.noreply.github.com",
+          "date": "2023-12-22T02:03:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-12-22T02:03:27Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "7c1bcc0493d9ee7bfc9384cabd800776faab13c0",
+          "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/trees/7c1bcc0493d9ee7bfc9384cabd800776faab13c0"
+        },
+        "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/git/commits/05fee1269dbbb576af2d8e3a2b9eddacbb907f00",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlhO5vCRBK7hj4Ov3rIwAA2tUIAFFjN6vyJws9FKtAVduki9XI\ndjOn+VjHqY+A+V85CP/dDEtN+MDgXVSiqnPwoWs8zSx068pqoR2C2QJ7rW6zISpR\nAPAen15iriXcEsl9SW8qcr/lFKTHHo96ayE+0xBro9mHCX7xsVRt+EI9AnSQcoMh\neGMyK2STf65FOruE7TCrI2vsBk9W3JoqtCFsv+27ZVOQ7/XWSdWlrcEEHTk8tV1N\n2V+KzvfCHdOQTrBLe/gKwmrmhbKtdr7Vhc2p8Dof8Goju/xiRCvs+Y6+NgANau/2\n6huoLw7WOxBCQ3FQvgz68jGTSxhWAs2Pe+dQijlASZ7J3OTWaT2ITAjNtezujTo=\n=55G3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7c1bcc0493d9ee7bfc9384cabd800776faab13c0\nauthor Charent <19562666+charent@users.noreply.github.com> 1703210607 +0800\ncommitter GitHub <noreply@github.com> 1703210607 +0800\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/05fee1269dbbb576af2d8e3a2b9eddacbb907f00",
+      "html_url": "https://github.com/charent/Phi2-mini-Chinese/commit/05fee1269dbbb576af2d8e3a2b9eddacbb907f00",
+      "comments_url": "https://api.github.com/repos/charent/Phi2-mini-Chinese/commits/05fee1269dbbb576af2d8e3a2b9eddacbb907f00/comments",
+      "author": {
+        "login": "charent",
+        "id": 19562666,
+        "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/charent",
+        "html_url": "https://github.com/charent",
+        "followers_url": "https://api.github.com/users/charent/followers",
+        "following_url": "https://api.github.com/users/charent/following{/other_user}",
+        "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+        "organizations_url": "https://api.github.com/users/charent/orgs",
+        "repos_url": "https://api.github.com/users/charent/repos",
+        "events_url": "https://api.github.com/users/charent/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/charent/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "charent",
+      "id": 19562666,
+      "node_id": "MDQ6VXNlcjE5NTYyNjY2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19562666?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/charent",
+      "html_url": "https://github.com/charent",
+      "followers_url": "https://api.github.com/users/charent/followers",
+      "following_url": "https://api.github.com/users/charent/following{/other_user}",
+      "gists_url": "https://api.github.com/users/charent/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/charent/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/charent/subscriptions",
+      "organizations_url": "https://api.github.com/users/charent/orgs",
+      "repos_url": "https://api.github.com/users/charent/repos",
+      "events_url": "https://api.github.com/users/charent/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/charent/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 21
+    },
+    {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Jupyter Notebook": 101279,
+    "Python": 20176,
+    "Shell": 210,
+    "Batchfile": 70
+  },
+  "readme_html": "<h1 id=\"user-content-phi2-chinese-02b-从0开始训练自己的phi2中文小模型\">Phi2-Chinese-0.2B 从0开始训练自己的Phi2中文小模型</h1>\n<p><strong>本项目为实验项目，开源代码及模型权重，预训练数据较少，如果需要效果更好的中文小模型，可以参考项目<a href=\"https://github.com/charent/ChatLM-mini-Chinese\">ChatLM-mini-Chinese</a></strong></p>\n<blockquote>\n<p>[!CAUTION]\n本项目为实验性项目，随时会大改，包括训练数据、模型结构、文件目录结构等。\n第一版模型及请查看<code>tag v1.0</code></p>\n</blockquote>\n<ul>\n<li>支持flash attention 2 加速</li>\n</ul>\n<h1 id=\"user-content-1-️数据清洗\">1. ⚗️数据清洗</h1>\n<p>比如句末添加句号、繁体转简体、删除重复的标点符号（比如有些对话语料非常多<code>\"。。。。。\"</code>）、NFKC Unicode标准化（主要是全角转半角及网页数据的\\u3000 \\xa0问题）等等。<br>\n具体的数据清洗过程请参考项目<a href=\"https://github.com/charent/ChatLM-mini-Chinese\">ChatLM-mini-Chinese</a>。</p>\n<h1 id=\"user-content-2-️tokenizer训练\">2. 🗨️tokenizer训练</h1>\n<p>本项目使用<code>byte level</code>的<code>BPE</code>分词器。共提供的两种分词器<code>char level</code> 和<code>byte level</code>的训练代码。</p>\n<p>训练完的tokenizer记得检查词表中是否有常见的特殊符号，如<code>\\t</code>、<code>\\n</code>等，可以尝试编一句包含特殊字符的文本<code>encode</code>、<code>decode</code>看看能不能还原。如果不包含这些特殊字符，通过<code>add_tokens</code>函数添加。使用<code>len(tokenizer)</code>获取词表大小，<code>tokenizer.vocab_size</code>不统计自己通过<code>add_tokens</code>函数添加的字符。</p>\n<p>tokenizer训练非常吃内存：</p>\n<ul>\n<li>\n<p><code>byte level</code>训练1亿个字符至少需要<code>32G</code>内存（其实<code>32G</code>还是不太够，会频繁触发swap），<code>13600k</code>训练时长大概1个小时。</p>\n</li>\n<li>\n<p><code>char level</code>训练6.5亿个字符（刚好是中文wiki百科的数据量）至少需要32G内存，因为多次触发了swap，实际使用量远不止32G，<code>13600K</code>训练时长约半个小时。</p>\n</li>\n</ul>\n<p>所以大数据集时（GB级别），建议训练<code>tokenizer</code>时从数据集中进行采样。</p>\n<h1 id=\"user-content-3-️clm因果模型预训练\">3. ⛏️CLM因果模型预训练</h1>\n<p>用大量文本进行无监督预训练，主要使用<code>bell open source</code>的数据集<a href=\"https://github.com/LianjiaTech/BELLE\">BELLE</a>。</p>\n<p>数据集格式：一个样本一句话，太长的可以截断分为多个样本。</p>\n<p>CLM预训练过程中，模型输入和输出是一样的，计算交叉熵损失的时候，要错开一位（<code>shift</code>）。</p>\n<p>处理百科语料时，建议在每个词条结束后加上<code>'[EOS]'</code>标记。其他语料处理也类似，一个<code>doc</code>的结束（可以时一篇文章结束或者段落结束）都要加上<code>'[EOS]'</code>标记。开始标记<code>'[BOS]'</code>可加可不加。</p>\n<h1 id=\"user-content-4-️sft指令微调\">4. ⚒️SFT指令微调</h1>\n<p>主要使用<code>bell open source</code>的数据集。感谢大佬<a href=\"https://github.com/LianjiaTech/BELLE\">BELLE</a>。</p>\n<p>SFT训练的数据格式如下：</p>\n<pre><code class=\"language-python\">text = f\"##提问:\\n{example['instruction']}\\n##回答:\\n{example['output'][EOS]\"\n</code></pre>\n<p>模型计算损失时会忽略标记<code>\"##回答:\"</code>之前的部分（<code>\"##回答:\"</code>也会被忽略），从<code>\"##回答:\"</code>后面开始。</p>\n<p>记得添加<code>EOS</code>句子结束特殊标记，否则模型<code>decode</code>的时候不知道要什么时候停下来。<code>BOS</code>句子开始标记可填可不填。</p>\n<h1 id=\"user-content-5-rlhf优化\">5. 📝RLHF优化</h1>\n<p>采用更简单、更节省显存的dpo偏好优化方法。</p>\n<p>根据个人喜好对SFT模型微调，数据集要构造三列<code>prompt</code>、<code>chosen</code>和 <code>rejected</code>，<code>rejected</code>这一列有部分数据我是从sft阶段初级模型（比如sft训练4个<code>epoch</code>，取0.5个<code>epoch</code>检查点的模型）生成，如果生成的<code>rejected</code>和<code>chosen</code>相似度在0.9以上，则不要这条数据。</p>\n<p>DPO过程中要有两个模型，一个是要训练的模型，一个是参考的模型，在加载的时候其实是同一个模型，只不过参考模型不参与参数更新。</p>\n<h1 id=\"user-content-6-本项目模型使用方法\">6. 📑本项目模型使用方法</h1>\n<h2 id=\"user-content-61-普通对话能力\">6.1 普通对话能力</h2>\n<p>模型权重<code>huggingface</code>仓库：<a href=\"https://huggingface.co/charent/Phi2-Chinese-0.2B\">Phi2-Chinese-0.2B</a></p>\n<pre><code class=\"language-python\">from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig\nimport torch\n\ndevice = torch.device(\"cuda\") if torch.cuda.is_available() else torch.device(\"cpu\")\n\ntokenizer = AutoTokenizer.from_pretrained('charent/Phi2-Chinese-0.2B')\nmodel = AutoModelForCausalLM.from_pretrained('charent/Phi2-Chinese-0.2B').to(device)\n\ntxt = '感冒了要怎么办？'\nprompt = f\"##提问:\\n{txt}\\n##回答:\\n\"\n\n# greedy search\ngen_conf = GenerationConfig(\n    num_beams=1,\n    do_sample=False,\n    max_length=320,\n    max_new_tokens=256,\n    no_repeat_ngram_size=4,\n    eos_token_id=tokenizer.eos_token_id,\n    pad_token_id=tokenizer.pad_token_id,\n)\n\ntokend = tokenizer.encode_plus(text=prompt)\ninput_ids, attention_mask = torch.LongTensor([tokend.input_ids]).to(device), \\\n    torch.LongTensor([tokend.attention_mask]).to(device)\n\noutputs = model.generate(\n    inputs=input_ids,\n    attention_mask=attention_mask,\n    generation_config=gen_conf,\n)\n\nouts = tokenizer.decode(outputs[0].cpu().numpy(), clean_up_tokenization_spaces=True, skip_special_tokens=True,)\nprint(outs)\n\n</code></pre>\n<pre><code class=\"language-txt\">##提问:\n感冒了要怎么办？\n##回答:\n感冒是由病毒引起的，感冒一般由病毒引起，以下是一些常见感冒的方法：\n- 洗手，特别是在接触其他人或物品后。\n- 咳嗽或打喷嚏时用纸巾或手肘遮住口鼻。\n- 用手触摸口鼻，特别是喉咙和鼻子。\n- 如果咳嗽或打喷嚏，可以用纸巾或手绢来遮住口鼻，但要远离其他人。\n- 如果你感冒了，最好不要触摸自己的眼睛、鼻子和嘴巴。\n- 在感冒期间，最好保持充足的水分和休息，以缓解身体的疲劳。\n- 如果您已经感冒了，可以喝一些温水或盐水来补充体液。\n- 另外，如果感冒了，建议及时就医。\n</code></pre>\n<h2 id=\"user-content-62-检索式生成rag\">6.2 检索式生成（RAG）</h2>\n<p>具体代码见<code>rag_with_langchain.ipynb</code></p>\n<p><img src=\"https://raw.githubusercontent.com/charent/Phi2-mini-Chinese/main/./imgs/rag.png\" alt=\"rag\"></p>\n<h1 id=\"user-content-7引用\">7、🎓引用</h1>\n<p>如果你觉得本项目对你有所帮助，欢迎引用。</p>\n<pre><code class=\"language-conf\">@misc{Charent2023,\n    author={Charent Chen},\n    title={A small Chinese causal language model with 0.2B parameters base on Phi2},\n    year={2023},\n    publisher = {GitHub},\n    journal = {GitHub repository},\n    howpublished = {\\url{https://github.com/charent/Phi2-mini-Chinese}},\n}\n</code></pre>\n<h1 id=\"user-content-8其他事项\">8、🤔其他事项</h1>\n<p>本项目不承担开源模型和代码导致的数据安全、舆情风险或发生任何模型被误导、滥用、传播、不当利用而产生的风险和责任。</p>",
+  "_fetched_at": "2026-03-11T18:15:55.439Z"
+}

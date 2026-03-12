@@ -1,0 +1,2359 @@
+{
+  "id": 697306971,
+  "node_id": "R_kgDOKZAPWw",
+  "name": "clipper.js",
+  "full_name": "philschmid/clipper.js",
+  "private": false,
+  "owner": {
+    "login": "philschmid",
+    "id": 32632186,
+    "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/philschmid",
+    "html_url": "https://github.com/philschmid",
+    "followers_url": "https://api.github.com/users/philschmid/followers",
+    "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+    "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+    "organizations_url": "https://api.github.com/users/philschmid/orgs",
+    "repos_url": "https://api.github.com/users/philschmid/repos",
+    "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/philschmid/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/philschmid/clipper.js",
+  "description": "HTML to Markdown converter and crawler. ",
+  "fork": false,
+  "url": "https://api.github.com/repos/philschmid/clipper.js",
+  "forks_url": "https://api.github.com/repos/philschmid/clipper.js/forks",
+  "keys_url": "https://api.github.com/repos/philschmid/clipper.js/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/philschmid/clipper.js/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/philschmid/clipper.js/teams",
+  "hooks_url": "https://api.github.com/repos/philschmid/clipper.js/hooks",
+  "issue_events_url": "https://api.github.com/repos/philschmid/clipper.js/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/philschmid/clipper.js/events",
+  "assignees_url": "https://api.github.com/repos/philschmid/clipper.js/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/philschmid/clipper.js/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/philschmid/clipper.js/tags",
+  "blobs_url": "https://api.github.com/repos/philschmid/clipper.js/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/philschmid/clipper.js/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/philschmid/clipper.js/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/philschmid/clipper.js/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/philschmid/clipper.js/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/philschmid/clipper.js/languages",
+  "stargazers_url": "https://api.github.com/repos/philschmid/clipper.js/stargazers",
+  "contributors_url": "https://api.github.com/repos/philschmid/clipper.js/contributors",
+  "subscribers_url": "https://api.github.com/repos/philschmid/clipper.js/subscribers",
+  "subscription_url": "https://api.github.com/repos/philschmid/clipper.js/subscription",
+  "commits_url": "https://api.github.com/repos/philschmid/clipper.js/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/philschmid/clipper.js/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/philschmid/clipper.js/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/philschmid/clipper.js/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/philschmid/clipper.js/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/philschmid/clipper.js/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/philschmid/clipper.js/merges",
+  "archive_url": "https://api.github.com/repos/philschmid/clipper.js/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/philschmid/clipper.js/downloads",
+  "issues_url": "https://api.github.com/repos/philschmid/clipper.js/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/philschmid/clipper.js/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/philschmid/clipper.js/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/philschmid/clipper.js/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/philschmid/clipper.js/labels{/name}",
+  "releases_url": "https://api.github.com/repos/philschmid/clipper.js/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/philschmid/clipper.js/deployments",
+  "created_at": "2023-09-27T13:15:42Z",
+  "updated_at": "2026-03-11T08:26:07Z",
+  "pushed_at": "2024-01-09T20:38:48Z",
+  "git_url": "git://github.com/philschmid/clipper.js.git",
+  "ssh_url": "git@github.com:philschmid/clipper.js.git",
+  "clone_url": "https://github.com/philschmid/clipper.js.git",
+  "svn_url": "https://github.com/philschmid/clipper.js",
+  "homepage": "",
+  "size": 690,
+  "stargazers_count": 614,
+  "watchers_count": 614,
+  "language": "TypeScript",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 39,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 6,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "crawl",
+    "html-to-markdown",
+    "markdown",
+    "nlp",
+    "retrieval-augmented-generation",
+    "search"
+  ],
+  "visibility": "public",
+  "forks": 39,
+  "open_issues": 6,
+  "watchers": 614,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "91787087891350d5c15dc0f43ce00c916e307d2f",
+      "node_id": "C_kwDOKZAPW9oAKDkxNzg3MDg3ODkxMzUwZDVjMTVkYzBmNDNjZTAwYzkxNmUzMDdkMmY",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2024-01-09T20:38:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-09T20:38:48Z"
+        },
+        "message": "Update package.json",
+        "tree": {
+          "sha": "090667374b02e52ef25619cfcddd3387253e6feb",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/090667374b02e52ef25619cfcddd3387253e6feb"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/91787087891350d5c15dc0f43ce00c916e307d2f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlna7YCRBK7hj4Ov3rIwAAdycIAHM2ZkkhNbTLmDLDnzyrwq1N\nyyVtRdoHW/2Y+5Mxsoct1aOhh/u21qS1UkTHPCw7S3EadeIRDYM9qo8U2XImh6dV\nGyk6A3dmVl8gRul4I4eTnGR9gd+ZbwWfgIMMtatOENeOOs7oDv06bhtBVr4oxKR5\n5eF+kztTLZ0vn5JXQg7EgfCGbfqKg9V8xzM61tV+6essua8eItmZ4HduaEJhlF6P\n5mk+paxr3YL7Y4J3UEWv5XR2NILtxn3QcjWL7Px0Wdx2tss7ENwOpyg/RYuoHknD\nGzDGJ9f7ehzUwFuaYnyw0L2XYkb3OBbwszM9XIZ/8mWwWpmlyc1ZILcmdxZNVE4=\n=aemj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 090667374b02e52ef25619cfcddd3387253e6feb\nparent 3102606d1fda75b3d9699fa2749b64616e239a32\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1704832728 +0100\ncommitter GitHub <noreply@github.com> 1704832728 +0100\n\nUpdate package.json",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/91787087891350d5c15dc0f43ce00c916e307d2f",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/91787087891350d5c15dc0f43ce00c916e307d2f",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/91787087891350d5c15dc0f43ce00c916e307d2f/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3102606d1fda75b3d9699fa2749b64616e239a32",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/3102606d1fda75b3d9699fa2749b64616e239a32",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/3102606d1fda75b3d9699fa2749b64616e239a32"
+        }
+      ]
+    },
+    {
+      "sha": "3102606d1fda75b3d9699fa2749b64616e239a32",
+      "node_id": "C_kwDOKZAPW9oAKDMxMDI2MDZkMWZkYTc1YjNkOTY5OWZhMjc0OWI2NDYxNmUyMzlhMzI",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2024-01-09T20:37:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-09T20:37:55Z"
+        },
+        "message": "Merge pull request #7 from philschmid/support-input-directories\n\nadd directory support",
+        "tree": {
+          "sha": "8e9abc4dba27edee9010ca4c8a889646aa63e28b",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/8e9abc4dba27edee9010ca4c8a889646aa63e28b"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/3102606d1fda75b3d9699fa2749b64616e239a32",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlna6jCRBK7hj4Ov3rIwAAjswIACa6wU/8E5s6PhOAH8d47pY0\nGF7RdSL5czTXrJUMSz982SoJ3jQ7DQOxYhH0hTyuvDbECAJZQnT0T6TgFSASJTjA\n6DpHcHFs5JQUG2MNnekugbhV5ttfBVq552AP5b0Q6/iGPku6fWVaqWnMGttuuBIw\naCN/SIOvHHO2CneAmhwWkxpV+LipVNJe2VdUPUcmm+WwOD8+/RBTTnyGemtVbQVq\nJS498FdsMnADXxu7+0VBEb0r3Fq3YPfvK8Vv1CjVqWLwXI9qal0G4AwlwxViSLWN\n+GTtBW8xi4o6K7FDC4dki/U5Nc7i4Is653RwYmtE/tyCREh9JFTXl40nTVpk3sM=\n=DjZ2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8e9abc4dba27edee9010ca4c8a889646aa63e28b\nparent fe4f2198975497e3ca185a7c2aa4a4be7eac3803\nparent ceec19ff80fcb9163273463b874e24b0d70d7f40\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1704832675 +0100\ncommitter GitHub <noreply@github.com> 1704832675 +0100\n\nMerge pull request #7 from philschmid/support-input-directories\n\nadd directory support",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/3102606d1fda75b3d9699fa2749b64616e239a32",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/3102606d1fda75b3d9699fa2749b64616e239a32",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/3102606d1fda75b3d9699fa2749b64616e239a32/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/fe4f2198975497e3ca185a7c2aa4a4be7eac3803"
+        },
+        {
+          "sha": "ceec19ff80fcb9163273463b874e24b0d70d7f40",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/ceec19ff80fcb9163273463b874e24b0d70d7f40",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/ceec19ff80fcb9163273463b874e24b0d70d7f40"
+        }
+      ]
+    },
+    {
+      "sha": "ceec19ff80fcb9163273463b874e24b0d70d7f40",
+      "node_id": "C_kwDOKZAPW9oAKGNlZWMxOWZmODBmY2I5MTYzMjczNDYzYjg3NGUyNGIwZDcwZDdmNDA",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2024-01-09T20:37:32Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2024-01-09T20:37:32Z"
+        },
+        "message": "add directory support",
+        "tree": {
+          "sha": "8e9abc4dba27edee9010ca4c8a889646aa63e28b",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/8e9abc4dba27edee9010ca4c8a889646aa63e28b"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/ceec19ff80fcb9163273463b874e24b0d70d7f40",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/ceec19ff80fcb9163273463b874e24b0d70d7f40",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/ceec19ff80fcb9163273463b874e24b0d70d7f40",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/ceec19ff80fcb9163273463b874e24b0d70d7f40/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/fe4f2198975497e3ca185a7c2aa4a4be7eac3803"
+        }
+      ]
+    },
+    {
+      "sha": "fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+      "node_id": "C_kwDOKZAPW9oAKGZlNGYyMTk4OTc1NDk3ZTNjYTE4NWE3YzJhYTRhNGJlN2VhYzM4MDM",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2024-01-09T20:13:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-09T20:13:26Z"
+        },
+        "message": "Merge pull request #6 from philschmid/add-pdf-support\n\nupdated packages and added process for pdf to md",
+        "tree": {
+          "sha": "48b781aaa287d1a01b825549c99d3555ebef8b97",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/48b781aaa287d1a01b825549c99d3555ebef8b97"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlnajmCRBK7hj4Ov3rIwAA+rgIAFIgm41p9CcWLT8STRAeKugP\n0MJ+9H94puap90j3iYztx96LqOW6EZWqTzmnOOdq+4xvw6jTOfnbGKf066urfOfR\njkCYhert8wO9jAud7En8MCxK9u5se0LlBTejD3XGivzTyXeky9psEHSh6VZZ1mp9\nVlZ23tq5D0++zYPyB+dS9v0uZiyHbzyaBhjlTqNBtZhfae2MOPeCvih1DRjWg/jF\nDryr5XYJ01tw8AmykqT7ISh2POpS03sVgaDXCUfouoczJxpBmxdKtLwgmKY0Tk2o\nPHl2XUeEmVbyS/4yrXmZfbH4YkZdPa1JLl8Efef/oLiriN7S/t2y/DiYi/hYn9Y=\n=Nx+L\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 48b781aaa287d1a01b825549c99d3555ebef8b97\nparent 9f7c6cef35f3187e4778006299b0faa970587e35\nparent 80f686806fc84fddfd1b9cd74601ce3d1c16b3d3\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1704831206 +0100\ncommitter GitHub <noreply@github.com> 1704831206 +0100\n\nMerge pull request #6 from philschmid/add-pdf-support\n\nupdated packages and added process for pdf to md",
+          "verified_at": "2024-11-08T07:47:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/fe4f2198975497e3ca185a7c2aa4a4be7eac3803",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/fe4f2198975497e3ca185a7c2aa4a4be7eac3803/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9f7c6cef35f3187e4778006299b0faa970587e35",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/9f7c6cef35f3187e4778006299b0faa970587e35",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/9f7c6cef35f3187e4778006299b0faa970587e35"
+        },
+        {
+          "sha": "80f686806fc84fddfd1b9cd74601ce3d1c16b3d3",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/80f686806fc84fddfd1b9cd74601ce3d1c16b3d3",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/80f686806fc84fddfd1b9cd74601ce3d1c16b3d3"
+        }
+      ]
+    },
+    {
+      "sha": "80f686806fc84fddfd1b9cd74601ce3d1c16b3d3",
+      "node_id": "C_kwDOKZAPW9oAKDgwZjY4NjgwNmZjODRmZGRmZDFiOWNkNzQ2MDFjZTNkMWMxNmIzZDM",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2024-01-09T20:11:57Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2024-01-09T20:11:57Z"
+        },
+        "message": "updated packages and added process for pdf to md",
+        "tree": {
+          "sha": "48b781aaa287d1a01b825549c99d3555ebef8b97",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/48b781aaa287d1a01b825549c99d3555ebef8b97"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/80f686806fc84fddfd1b9cd74601ce3d1c16b3d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/80f686806fc84fddfd1b9cd74601ce3d1c16b3d3",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/80f686806fc84fddfd1b9cd74601ce3d1c16b3d3",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/80f686806fc84fddfd1b9cd74601ce3d1c16b3d3/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9f7c6cef35f3187e4778006299b0faa970587e35",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/9f7c6cef35f3187e4778006299b0faa970587e35",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/9f7c6cef35f3187e4778006299b0faa970587e35"
+        }
+      ]
+    },
+    {
+      "sha": "9f7c6cef35f3187e4778006299b0faa970587e35",
+      "node_id": "C_kwDOKZAPW9oAKDlmN2M2Y2VmMzVmMzE4N2U0Nzc4MDA2Mjk5YjBmYWE5NzA1ODdlMzU",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:08:44Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:08:44Z"
+        },
+        "message": "next v",
+        "tree": {
+          "sha": "6f057a09bea501fd929af83612213cf112ff3e1f",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/6f057a09bea501fd929af83612213cf112ff3e1f"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/9f7c6cef35f3187e4778006299b0faa970587e35",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/9f7c6cef35f3187e4778006299b0faa970587e35",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/9f7c6cef35f3187e4778006299b0faa970587e35",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/9f7c6cef35f3187e4778006299b0faa970587e35/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8e0a76544d37516d15037afd003467c1b7fc6037",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/8e0a76544d37516d15037afd003467c1b7fc6037",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/8e0a76544d37516d15037afd003467c1b7fc6037"
+        }
+      ]
+    },
+    {
+      "sha": "8e0a76544d37516d15037afd003467c1b7fc6037",
+      "node_id": "C_kwDOKZAPW9oAKDhlMGE3NjU0NGQzNzUxNmQxNTAzN2FmZDAwMzQ2N2MxYjdmYzYwMzc",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:08:07Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:08:07Z"
+        },
+        "message": "0.1.3",
+        "tree": {
+          "sha": "e151cc9f59ce605c69e7be069a7e492e05b2ff7d",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/e151cc9f59ce605c69e7be069a7e492e05b2ff7d"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/8e0a76544d37516d15037afd003467c1b7fc6037",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/8e0a76544d37516d15037afd003467c1b7fc6037",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/8e0a76544d37516d15037afd003467c1b7fc6037",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/8e0a76544d37516d15037afd003467c1b7fc6037/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6fc0f24d19ff32ce295665ca0f7dfa681891cf51",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/6fc0f24d19ff32ce295665ca0f7dfa681891cf51",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/6fc0f24d19ff32ce295665ca0f7dfa681891cf51"
+        }
+      ]
+    },
+    {
+      "sha": "6fc0f24d19ff32ce295665ca0f7dfa681891cf51",
+      "node_id": "C_kwDOKZAPW9oAKDZmYzBmMjRkMTlmZjMyY2UyOTU2NjVjYTBmN2RmYTY4MTg5MWNmNTE",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2023-10-05T14:02:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-05T14:02:43Z"
+        },
+        "message": "Update package.json",
+        "tree": {
+          "sha": "dc0db19e6b132c138591f00f3c22fe2d23238a48",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/dc0db19e6b132c138591f00f3c22fe2d23238a48"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/6fc0f24d19ff32ce295665ca0f7dfa681891cf51",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlHsIDCRBK7hj4Ov3rIwAAsRQIAFSxuWAbxrzWuYiVs7uKMTmB\nuy1Q4NXiEH4Kr9L1co7bMTS2IACwEwAfJN6UbmQ2HqHc+ZLVTgtsyavhrNZI7Fto\nxZIrzcC2MEkbk4UOOPa827jYEfE9Re8TySpW5e1yi5JFNVK2wwKBo8LsVQqDhMf/\n22XRnRyMdHCJj/JHoEerTxm5DDKcf7NYlpKGuk38NruToEaM2NoLGvSYoJg6SrWJ\nqIt06k14YjrGmmIagk3FATdTk14/qJMZRY1629QO6MyUcBEsVwhfzX92lF7Bjy+Z\ncaZSE1fbWvkjxreAKaJ9xtZerPa1B/zPOe4PbN5poq9o/ABvUGpADeT/mNqYEDA=\n=0JCr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dc0db19e6b132c138591f00f3c22fe2d23238a48\nparent ef3787807657f1bce9f057472f310b97760b2b7c\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1696514563 +0200\ncommitter GitHub <noreply@github.com> 1696514563 +0200\n\nUpdate package.json",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/6fc0f24d19ff32ce295665ca0f7dfa681891cf51",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/6fc0f24d19ff32ce295665ca0f7dfa681891cf51",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/6fc0f24d19ff32ce295665ca0f7dfa681891cf51/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ef3787807657f1bce9f057472f310b97760b2b7c",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/ef3787807657f1bce9f057472f310b97760b2b7c",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/ef3787807657f1bce9f057472f310b97760b2b7c"
+        }
+      ]
+    },
+    {
+      "sha": "ef3787807657f1bce9f057472f310b97760b2b7c",
+      "node_id": "C_kwDOKZAPW9oAKGVmMzc4NzgwNzY1N2YxYmNlOWYwNTc0NzJmMzEwYjk3NzYwYjJiN2M",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:01:21Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:01:21Z"
+        },
+        "message": "Merge branch 'main' of https://github.com/philschmid/clipper.js",
+        "tree": {
+          "sha": "c265256fe4b873b244dc38ec9c753df31f1d4db9",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/c265256fe4b873b244dc38ec9c753df31f1d4db9"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/ef3787807657f1bce9f057472f310b97760b2b7c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/ef3787807657f1bce9f057472f310b97760b2b7c",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/ef3787807657f1bce9f057472f310b97760b2b7c",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/ef3787807657f1bce9f057472f310b97760b2b7c/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b815c63d691a303e1ec954ee30c66a520a54eceb",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/b815c63d691a303e1ec954ee30c66a520a54eceb",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/b815c63d691a303e1ec954ee30c66a520a54eceb"
+        },
+        {
+          "sha": "72f5874fb784893cd318f4577f5dd84b22523967",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/72f5874fb784893cd318f4577f5dd84b22523967",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/72f5874fb784893cd318f4577f5dd84b22523967"
+        }
+      ]
+    },
+    {
+      "sha": "b815c63d691a303e1ec954ee30c66a520a54eceb",
+      "node_id": "C_kwDOKZAPW9oAKGI4MTVjNjNkNjkxYTMwM2UxZWM5NTRlZTMwYzY2YTUyMGE1NGVjZWI",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:01:04Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-05T14:01:04Z"
+        },
+        "message": "add package lock",
+        "tree": {
+          "sha": "95592c738fe920a4b4c2c50194c1ec8c353a1121",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/95592c738fe920a4b4c2c50194c1ec8c353a1121"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/b815c63d691a303e1ec954ee30c66a520a54eceb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/b815c63d691a303e1ec954ee30c66a520a54eceb",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/b815c63d691a303e1ec954ee30c66a520a54eceb",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/b815c63d691a303e1ec954ee30c66a520a54eceb/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b2918cacab5908d20c04980a919d30dbccde9010",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/b2918cacab5908d20c04980a919d30dbccde9010",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/b2918cacab5908d20c04980a919d30dbccde9010"
+        }
+      ]
+    },
+    {
+      "sha": "72f5874fb784893cd318f4577f5dd84b22523967",
+      "node_id": "C_kwDOKZAPW9oAKDcyZjU4NzRmYjc4NDg5M2NkMzE4ZjQ1NzdmNWRkODRiMjI1MjM5Njc",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2023-10-02T08:37:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-02T08:37:25Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "6d148e00618f955d44d01ef5823015e547c4625f",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/6d148e00618f955d44d01ef5823015e547c4625f"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/72f5874fb784893cd318f4577f5dd84b22523967",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlGoFFCRBK7hj4Ov3rIwAA/vAIABvfYN5y8LUxhGeGoLs2jVRd\nj919mwTzWmPenss9DQIorP+2wUIWcN6NFqx/Eby5sZftVCk36yoV8P1p3BzZ6TFj\nyGXDRCDdDEzFk8fAZUs3YBqce5Qv09hnKGjysr+UPPYjKwVwprrwtT4ISpvALCF5\nm54MQp4iq/rzTgXr8O3+ziNICUiXFt8yzWXwm/zVi4zEHRUK/imvdh+UR/fcDfbO\nBuGCzfE2/KitNzw7oOQXH+t8LGjJ4Z9QUB9HGQ3lwsCyC8aZXeMKzKzREEbt37HL\nPUTPnAJebYTtTo5fss0DzxDeWZRpGwK0XZITadXBygOik+RJhkCZJeMWMsau4C8=\n=woNO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6d148e00618f955d44d01ef5823015e547c4625f\nparent b2918cacab5908d20c04980a919d30dbccde9010\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1696235845 +0200\ncommitter GitHub <noreply@github.com> 1696235845 +0200\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/72f5874fb784893cd318f4577f5dd84b22523967",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/72f5874fb784893cd318f4577f5dd84b22523967",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/72f5874fb784893cd318f4577f5dd84b22523967/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b2918cacab5908d20c04980a919d30dbccde9010",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/b2918cacab5908d20c04980a919d30dbccde9010",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/b2918cacab5908d20c04980a919d30dbccde9010"
+        }
+      ]
+    },
+    {
+      "sha": "b2918cacab5908d20c04980a919d30dbccde9010",
+      "node_id": "C_kwDOKZAPW9oAKGIyOTE4Y2FjYWI1OTA4ZDIwYzA0OTgwYTkxOWQzMGRiY2NkZTkwMTA",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:35:16Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:35:16Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "dbe3d5e2674d8af607b496b8ed12e7563b9d569b",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/dbe3d5e2674d8af607b496b8ed12e7563b9d569b"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/b2918cacab5908d20c04980a919d30dbccde9010",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/b2918cacab5908d20c04980a919d30dbccde9010",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/b2918cacab5908d20c04980a919d30dbccde9010",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/b2918cacab5908d20c04980a919d30dbccde9010/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8c816186dd6cb1db1c79baa1021096d41e1f272e",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/8c816186dd6cb1db1c79baa1021096d41e1f272e",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/8c816186dd6cb1db1c79baa1021096d41e1f272e"
+        }
+      ]
+    },
+    {
+      "sha": "8c816186dd6cb1db1c79baa1021096d41e1f272e",
+      "node_id": "C_kwDOKZAPW9oAKDhjODE2MTg2ZGQ2Y2IxZGIxYzc5YmFhMTAyMTA5NmQ0MWUxZjI3MmU",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:33:55Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:33:55Z"
+        },
+        "message": "fix types",
+        "tree": {
+          "sha": "eef7642c1635ae8b8963c9150af1c06f067c1bcf",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/eef7642c1635ae8b8963c9150af1c06f067c1bcf"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/8c816186dd6cb1db1c79baa1021096d41e1f272e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/8c816186dd6cb1db1c79baa1021096d41e1f272e",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/8c816186dd6cb1db1c79baa1021096d41e1f272e",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/8c816186dd6cb1db1c79baa1021096d41e1f272e/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "22594112db93183abc222804eb0210a84aff1467",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/22594112db93183abc222804eb0210a84aff1467",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/22594112db93183abc222804eb0210a84aff1467"
+        }
+      ]
+    },
+    {
+      "sha": "22594112db93183abc222804eb0210a84aff1467",
+      "node_id": "C_kwDOKZAPW9oAKDIyNTk0MTEyZGI5MzE4M2FiYzIyMjgwNGViMDIxMGE4NGFmZjE0Njc",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:21:31Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:21:31Z"
+        },
+        "message": "update version",
+        "tree": {
+          "sha": "4beee15e2bec88f17a47689387f68f722439026e",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/4beee15e2bec88f17a47689387f68f722439026e"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/22594112db93183abc222804eb0210a84aff1467",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/22594112db93183abc222804eb0210a84aff1467",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/22594112db93183abc222804eb0210a84aff1467",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/22594112db93183abc222804eb0210a84aff1467/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d61a6eaa9897eb392a6f95ed32dedc96f312777e",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/d61a6eaa9897eb392a6f95ed32dedc96f312777e",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/d61a6eaa9897eb392a6f95ed32dedc96f312777e"
+        }
+      ]
+    },
+    {
+      "sha": "d61a6eaa9897eb392a6f95ed32dedc96f312777e",
+      "node_id": "C_kwDOKZAPW9oAKGQ2MWE2ZWFhOTg5N2ViMzkyYTZmOTVlZDMyZGVkYzk2ZjMxMjc3N2U",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:20:47Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:20:47Z"
+        },
+        "message": "updated version",
+        "tree": {
+          "sha": "a62cc831c2ab186786b8d9b5c2d140859b574af4",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/a62cc831c2ab186786b8d9b5c2d140859b574af4"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/d61a6eaa9897eb392a6f95ed32dedc96f312777e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/d61a6eaa9897eb392a6f95ed32dedc96f312777e",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/d61a6eaa9897eb392a6f95ed32dedc96f312777e",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/d61a6eaa9897eb392a6f95ed32dedc96f312777e/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4f862b289d69e3ad034a1b34e2a8c6d5f556aa56",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/4f862b289d69e3ad034a1b34e2a8c6d5f556aa56",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/4f862b289d69e3ad034a1b34e2a8c6d5f556aa56"
+        }
+      ]
+    },
+    {
+      "sha": "4f862b289d69e3ad034a1b34e2a8c6d5f556aa56",
+      "node_id": "C_kwDOKZAPW9oAKDRmODYyYjI4OWQ2OWUzYWQwMzRhMWIzNGUyYThjNmQ1ZjU1NmFhNTY",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:16:25Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-10-02T08:16:25Z"
+        },
+        "message": "clean",
+        "tree": {
+          "sha": "08414060e81e1c642168ccf6d867493158f6fdd6",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/08414060e81e1c642168ccf6d867493158f6fdd6"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/4f862b289d69e3ad034a1b34e2a8c6d5f556aa56",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/4f862b289d69e3ad034a1b34e2a8c6d5f556aa56",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/4f862b289d69e3ad034a1b34e2a8c6d5f556aa56",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/4f862b289d69e3ad034a1b34e2a8c6d5f556aa56/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cf52b44281e5f5d8c781c6181f0892605a77c9d3",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/cf52b44281e5f5d8c781c6181f0892605a77c9d3",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/cf52b44281e5f5d8c781c6181f0892605a77c9d3"
+        }
+      ]
+    },
+    {
+      "sha": "cf52b44281e5f5d8c781c6181f0892605a77c9d3",
+      "node_id": "C_kwDOKZAPW9oAKGNmNTJiNDQyODFlNWY1ZDhjNzgxYzYxODFmMDg5MjYwNWE3N2M5ZDM",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2023-10-02T08:08:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-02T08:08:27Z"
+        },
+        "message": "Create LICENSE",
+        "tree": {
+          "sha": "6756d95ea21ce6803f5f46546dc834884447a085",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/6756d95ea21ce6803f5f46546dc834884447a085"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/cf52b44281e5f5d8c781c6181f0892605a77c9d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlGnp7CRBK7hj4Ov3rIwAAEVcIAELRxxX7WHADEndFMMnkTM4o\noXYF7u5wLHA3lL7F36n+0/3NIyVz7Wd4n6S3uzS2PmVGRQdxW6zwL2hBfqoxgcK+\nHP5kt5f2v9qAMtrib37+ZiTIx4F8PYZf+4Iransusv7UJ+S3N+GWmP+umuMdczX7\nFiCA9Yb+s9iExCmOenrvc+q2JLewv7nmeViJNqVli1kCK5+rQ9vj5UOfPX0yTHe6\nucfS6P9bb5g2IRLszHj0mne3rd2Ipxomxd+NohGUs+FxAxZjyn5Ni58RDA+FLTWz\nqZgVB+iGpWJU/cBrdUu/dThQz5nMdtJBwPya39xE5ElaV1WZr8ucP1aiZ0kFeBs=\n=FD7A\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6756d95ea21ce6803f5f46546dc834884447a085\nparent d85f2b6cefc258599587d55213804d50af65b12e\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1696234107 +0200\ncommitter GitHub <noreply@github.com> 1696234107 +0200\n\nCreate LICENSE",
+          "verified_at": "2024-11-08T07:47:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/cf52b44281e5f5d8c781c6181f0892605a77c9d3",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/cf52b44281e5f5d8c781c6181f0892605a77c9d3",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/cf52b44281e5f5d8c781c6181f0892605a77c9d3/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d85f2b6cefc258599587d55213804d50af65b12e",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/d85f2b6cefc258599587d55213804d50af65b12e",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/d85f2b6cefc258599587d55213804d50af65b12e"
+        }
+      ]
+    },
+    {
+      "sha": "d85f2b6cefc258599587d55213804d50af65b12e",
+      "node_id": "C_kwDOKZAPW9oAKGQ4NWYyYjZjZWZjMjU4NTk5NTg3ZDU1MjEzODA0ZDUwYWY2NWIxMmU",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2023-10-02T08:07:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-02T08:07:18Z"
+        },
+        "message": "Delete LICENSE",
+        "tree": {
+          "sha": "10d8be7499f4bf82d0f1cf2988ee2e8c632b4066",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/10d8be7499f4bf82d0f1cf2988ee2e8c632b4066"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/d85f2b6cefc258599587d55213804d50af65b12e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlGno2CRBK7hj4Ov3rIwAAMLAIABOFJY/vOA0iAk5pp/4w/onM\nF+Mt36bAjI4M0JPJU6WZ6dKPy0gW4BXPb8NhyDF6MVBAOLx2cRdo8a+npm6WLA5J\nutZvgG8Au7nn0PcvySHLfqWIWtog2DVf7/qkPjWH24riTqBQtzwncu9dfFMcS8V7\nsF+jmqVPxuvGMCNmHsQFj4lGww5iOk4g6PDujOxoJCoPM+JFazv0FI0+zzXAQ7Qi\niGfeEc9AyM7nonYtYD0P9b5BKxbyguxfGh7kaieS161I+YnEqkhlXI9e03ss75lu\nyTk2KnmC0/MllyeKlzBTw/YciS4zM8Q6JgjIuMKQcdaFfsAz7CE0Mmfg33xr3YA=\n=iQyV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 10d8be7499f4bf82d0f1cf2988ee2e8c632b4066\nparent cbbc0cae9de705ad88ca7db2c625d1112ac12b54\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1696234038 +0200\ncommitter GitHub <noreply@github.com> 1696234038 +0200\n\nDelete LICENSE",
+          "verified_at": "2024-11-08T07:47:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/d85f2b6cefc258599587d55213804d50af65b12e",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/d85f2b6cefc258599587d55213804d50af65b12e",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/d85f2b6cefc258599587d55213804d50af65b12e/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cbbc0cae9de705ad88ca7db2c625d1112ac12b54",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/cbbc0cae9de705ad88ca7db2c625d1112ac12b54",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/cbbc0cae9de705ad88ca7db2c625d1112ac12b54"
+        }
+      ]
+    },
+    {
+      "sha": "cbbc0cae9de705ad88ca7db2c625d1112ac12b54",
+      "node_id": "C_kwDOKZAPW9oAKGNiYmMwY2FlOWRlNzA1YWQ4OGNhN2RiMmM2MjVkMTExMmFjMTJiNTQ",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-29T19:49:08Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-29T19:49:08Z"
+        },
+        "message": "working clipper",
+        "tree": {
+          "sha": "6c8dd03bdf57190cf9cdc7cd17dafce7d9a5f443",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/6c8dd03bdf57190cf9cdc7cd17dafce7d9a5f443"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/cbbc0cae9de705ad88ca7db2c625d1112ac12b54",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/cbbc0cae9de705ad88ca7db2c625d1112ac12b54",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/cbbc0cae9de705ad88ca7db2c625d1112ac12b54",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/cbbc0cae9de705ad88ca7db2c625d1112ac12b54/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a"
+        }
+      ]
+    },
+    {
+      "sha": "6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a",
+      "node_id": "C_kwDOKZAPW9oAKDZhOTRlZjJmNWY4NGM3YWIwYmYyOWUyMmZiOTQxZjUxY2Q1YWI1MmE",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T19:29:08Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T19:29:08Z"
+        },
+        "message": "wip",
+        "tree": {
+          "sha": "5631939eedf9f78c82e9e237f09bd55ed9e0c999",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/5631939eedf9f78c82e9e237f09bd55ed9e0c999"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/6a94ef2f5f84c7ab0bf29e22fb941f51cd5ab52a/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "254660ef352f09e6d7ee80458d0723fd460c82f3",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/254660ef352f09e6d7ee80458d0723fd460c82f3",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/254660ef352f09e6d7ee80458d0723fd460c82f3"
+        }
+      ]
+    },
+    {
+      "sha": "254660ef352f09e6d7ee80458d0723fd460c82f3",
+      "node_id": "C_kwDOKZAPW9oAKDI1NDY2MGVmMzUyZjA5ZTZkN2VlODA0NThkMDcyM2ZkNDYwYzgyZjM",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T15:29:56Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T15:29:56Z"
+        },
+        "message": "tsconfig",
+        "tree": {
+          "sha": "e011b032e5f1ba698bb0af222d921f33aee56a16",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/e011b032e5f1ba698bb0af222d921f33aee56a16"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/254660ef352f09e6d7ee80458d0723fd460c82f3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/254660ef352f09e6d7ee80458d0723fd460c82f3",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/254660ef352f09e6d7ee80458d0723fd460c82f3",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/254660ef352f09e6d7ee80458d0723fd460c82f3/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f703d6b6c0d23e2bf2a1629f456327b1173add55",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/f703d6b6c0d23e2bf2a1629f456327b1173add55",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/f703d6b6c0d23e2bf2a1629f456327b1173add55"
+        }
+      ]
+    },
+    {
+      "sha": "f703d6b6c0d23e2bf2a1629f456327b1173add55",
+      "node_id": "C_kwDOKZAPW9oAKGY3MDNkNmI2YzBkMjNlMmJmMmExNjI5ZjQ1NjMyN2IxMTczYWRkNTU",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T15:12:34Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T15:12:34Z"
+        },
+        "message": "clipper 1",
+        "tree": {
+          "sha": "bcdd84de54cf2ad9909c23def1f4a88eb6f80eca",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/bcdd84de54cf2ad9909c23def1f4a88eb6f80eca"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/f703d6b6c0d23e2bf2a1629f456327b1173add55",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/f703d6b6c0d23e2bf2a1629f456327b1173add55",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/f703d6b6c0d23e2bf2a1629f456327b1173add55",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/f703d6b6c0d23e2bf2a1629f456327b1173add55/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "431c9d99c7a99f56d5b6dc31ddccdd0e2621911b",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/431c9d99c7a99f56d5b6dc31ddccdd0e2621911b",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/431c9d99c7a99f56d5b6dc31ddccdd0e2621911b"
+        }
+      ]
+    },
+    {
+      "sha": "431c9d99c7a99f56d5b6dc31ddccdd0e2621911b",
+      "node_id": "C_kwDOKZAPW9oAKDQzMWM5ZDk5YzdhOTlmNTZkNWI2ZGMzMWRkY2NkZDBlMjYyMTkxMWI",
+      "commit": {
+        "author": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T15:03:26Z"
+        },
+        "committer": {
+          "name": "philschmid",
+          "email": "schmidphilipp1995@gmail.com",
+          "date": "2023-09-27T15:03:26Z"
+        },
+        "message": "init",
+        "tree": {
+          "sha": "72164af007a20021aca9efac84149b8056a2602b",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/72164af007a20021aca9efac84149b8056a2602b"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/431c9d99c7a99f56d5b6dc31ddccdd0e2621911b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/431c9d99c7a99f56d5b6dc31ddccdd0e2621911b",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/431c9d99c7a99f56d5b6dc31ddccdd0e2621911b",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/431c9d99c7a99f56d5b6dc31ddccdd0e2621911b/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e981082e544707b518513e700396a55906d022ab",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/commits/e981082e544707b518513e700396a55906d022ab",
+          "html_url": "https://github.com/philschmid/clipper.js/commit/e981082e544707b518513e700396a55906d022ab"
+        }
+      ]
+    },
+    {
+      "sha": "e981082e544707b518513e700396a55906d022ab",
+      "node_id": "C_kwDOKZAPW9oAKGU5ODEwODJlNTQ0NzA3YjUxODUxM2U3MDAzOTZhNTU5MDZkMDIyYWI",
+      "commit": {
+        "author": {
+          "name": "Philipp Schmid",
+          "email": "32632186+philschmid@users.noreply.github.com",
+          "date": "2023-09-27T13:15:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-09-27T13:15:42Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "0979a34ace4cb6206faa0f315248661a7b4fa8b2",
+          "url": "https://api.github.com/repos/philschmid/clipper.js/git/trees/0979a34ace4cb6206faa0f315248661a7b4fa8b2"
+        },
+        "url": "https://api.github.com/repos/philschmid/clipper.js/git/commits/e981082e544707b518513e700396a55906d022ab",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlFCr+CRBK7hj4Ov3rIwAAS14IACFzt44g2SGs+kvfBBMXFI4S\nU0MfB2jWVKH5rqFJhI2yq9AefuT/hWCDIYgSES4dwHeqddFS0378MhX7rE4xBp+k\nIv9g03DsIqVJbiFaQtALOfuevZV/fLAjfrzU8RmlQ3QuHhhnQENqL7nhvinvVdUh\nzC3Ju2gFrilKCA413hOgbKfihRItVid0qCmYrCCdzYS/RaKAGXbCGumth54+qVRX\naboCOkdq2Uq6TVytCUJwHSP9hnkE7xgXeBOTU7acWCcbpxik9tlLQlCHio+13r3v\n75wXmhnV4DZsvp6yPHMm72FnfXz4wqEhXpwbdV9WkiGzDr6V60VHslr4UUGhUV4=\n=07FQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0979a34ace4cb6206faa0f315248661a7b4fa8b2\nauthor Philipp Schmid <32632186+philschmid@users.noreply.github.com> 1695820542 +0200\ncommitter GitHub <noreply@github.com> 1695820542 +0200\n\nInitial commit",
+          "verified_at": "2024-11-08T07:47:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/philschmid/clipper.js/commits/e981082e544707b518513e700396a55906d022ab",
+      "html_url": "https://github.com/philschmid/clipper.js/commit/e981082e544707b518513e700396a55906d022ab",
+      "comments_url": "https://api.github.com/repos/philschmid/clipper.js/commits/e981082e544707b518513e700396a55906d022ab/comments",
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "philschmid",
+      "id": 32632186,
+      "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/philschmid",
+      "html_url": "https://github.com/philschmid",
+      "followers_url": "https://api.github.com/users/philschmid/followers",
+      "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+      "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+      "organizations_url": "https://api.github.com/users/philschmid/orgs",
+      "repos_url": "https://api.github.com/users/philschmid/repos",
+      "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/philschmid/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 24
+    }
+  ],
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/philschmid/clipper.js/releases/136393158",
+      "assets_url": "https://api.github.com/repos/philschmid/clipper.js/releases/136393158/assets",
+      "upload_url": "https://uploads.github.com/repos/philschmid/clipper.js/releases/136393158/assets{?name,label}",
+      "html_url": "https://github.com/philschmid/clipper.js/releases/tag/v0.2.0",
+      "id": 136393158,
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOKZAPW84IITHG",
+      "tag_name": "v0.2.0",
+      "target_commitish": "main",
+      "name": "V0.2.0",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2024-01-09T20:37:55Z",
+      "updated_at": "2024-01-09T20:38:16Z",
+      "published_at": "2024-01-09T20:38:16Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/philschmid/clipper.js/tarball/v0.2.0",
+      "zipball_url": "https://api.github.com/repos/philschmid/clipper.js/zipball/v0.2.0",
+      "body": "## What's Changed\r\n* updated packages and added process for pdf to md by @philschmid in https://github.com/philschmid/clipper.js/pull/6\r\n* add directory support by @philschmid in https://github.com/philschmid/clipper.js/pull/7\r\n\r\n## New Contributors\r\n* @philschmid made their first contribution in https://github.com/philschmid/clipper.js/pull/6\r\n\r\n**Full Changelog**: https://github.com/philschmid/clipper.js/compare/v0.1.3...v0.2.0",
+      "reactions": {
+        "url": "https://api.github.com/repos/philschmid/clipper.js/releases/136393158/reactions",
+        "total_count": 1,
+        "+1": 1,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "mentions_count": 1
+    },
+    {
+      "url": "https://api.github.com/repos/philschmid/clipper.js/releases/123873782",
+      "assets_url": "https://api.github.com/repos/philschmid/clipper.js/releases/123873782/assets",
+      "upload_url": "https://uploads.github.com/repos/philschmid/clipper.js/releases/123873782/assets{?name,label}",
+      "html_url": "https://github.com/philschmid/clipper.js/releases/tag/v0.1.3",
+      "id": 123873782,
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOKZAPW84HYin2",
+      "tag_name": "v0.1.3",
+      "target_commitish": "main",
+      "name": "v0.1.3",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-10-05T14:08:07Z",
+      "updated_at": "2024-01-05T15:06:20Z",
+      "published_at": "2023-10-05T14:08:30Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/philschmid/clipper.js/tarball/v0.1.3",
+      "zipball_url": "https://api.github.com/repos/philschmid/clipper.js/zipball/v0.1.3",
+      "body": "**Full Changelog**: https://github.com/philschmid/clipper.js/compare/v0.1.2...v0.1.3"
+    },
+    {
+      "url": "https://api.github.com/repos/philschmid/clipper.js/releases/123872698",
+      "assets_url": "https://api.github.com/repos/philschmid/clipper.js/releases/123872698/assets",
+      "upload_url": "https://uploads.github.com/repos/philschmid/clipper.js/releases/123872698/assets{?name,label}",
+      "html_url": "https://github.com/philschmid/clipper.js/releases/tag/v0.1.2",
+      "id": 123872698,
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOKZAPW84HYiW6",
+      "tag_name": "v0.1.2",
+      "target_commitish": "main",
+      "name": "v0.1.2",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-10-05T14:01:21Z",
+      "updated_at": "2023-10-05T14:02:18Z",
+      "published_at": "2023-10-05T14:02:18Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/philschmid/clipper.js/tarball/v0.1.2",
+      "zipball_url": "https://api.github.com/repos/philschmid/clipper.js/zipball/v0.1.2",
+      "body": "**Full Changelog**: https://github.com/philschmid/clipper.js/compare/v0.1.1...v0.1.2"
+    },
+    {
+      "url": "https://api.github.com/repos/philschmid/clipper.js/releases/123297147",
+      "assets_url": "https://api.github.com/repos/philschmid/clipper.js/releases/123297147/assets",
+      "upload_url": "https://uploads.github.com/repos/philschmid/clipper.js/releases/123297147/assets{?name,label}",
+      "html_url": "https://github.com/philschmid/clipper.js/releases/tag/v0.1.1",
+      "id": 123297147,
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOKZAPW84HWV17",
+      "tag_name": "v0.1.1",
+      "target_commitish": "main",
+      "name": "v0.1.1",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-10-02T08:33:55Z",
+      "updated_at": "2023-10-02T08:35:07Z",
+      "published_at": "2023-10-02T08:35:07Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/philschmid/clipper.js/tarball/v0.1.1",
+      "zipball_url": "https://api.github.com/repos/philschmid/clipper.js/zipball/v0.1.1",
+      "body": "**Full Changelog**: https://github.com/philschmid/clipper.js/compare/v0.1.0...v0.1.1"
+    },
+    {
+      "url": "https://api.github.com/repos/philschmid/clipper.js/releases/123295218",
+      "assets_url": "https://api.github.com/repos/philschmid/clipper.js/releases/123295218/assets",
+      "upload_url": "https://uploads.github.com/repos/philschmid/clipper.js/releases/123295218/assets{?name,label}",
+      "html_url": "https://github.com/philschmid/clipper.js/releases/tag/v0.1.0",
+      "id": 123295218,
+      "author": {
+        "login": "philschmid",
+        "id": 32632186,
+        "node_id": "MDQ6VXNlcjMyNjMyMTg2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/32632186?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/philschmid",
+        "html_url": "https://github.com/philschmid",
+        "followers_url": "https://api.github.com/users/philschmid/followers",
+        "following_url": "https://api.github.com/users/philschmid/following{/other_user}",
+        "gists_url": "https://api.github.com/users/philschmid/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/philschmid/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/philschmid/subscriptions",
+        "organizations_url": "https://api.github.com/users/philschmid/orgs",
+        "repos_url": "https://api.github.com/users/philschmid/repos",
+        "events_url": "https://api.github.com/users/philschmid/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/philschmid/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOKZAPW84HWVXy",
+      "tag_name": "v0.1.0",
+      "target_commitish": "main",
+      "name": "v0.1.0",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-10-02T08:20:47Z",
+      "updated_at": "2023-10-02T08:21:02Z",
+      "published_at": "2023-10-02T08:21:02Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/philschmid/clipper.js/tarball/v0.1.0",
+      "zipball_url": "https://api.github.com/repos/philschmid/clipper.js/zipball/v0.1.0",
+      "body": "**Full Changelog**: https://github.com/philschmid/clipper.js/commits/v0.1.0"
+    }
+  ],
+  "languages": {
+    "TypeScript": 6410,
+    "JavaScript": 2389
+  },
+  "readme_html": "<h1 id=\"user-content-clipper\">Clipper</h1>\n<p>Clipper is a Node.js command line tool that allows you to easily clip content from web pages and convert it to Markdown. It uses <a href=\"https://github.com/mozilla/readability\">Mozilla's Readability library</a> and <a href=\"https://github.com/mixmark-io/turndown\">Turndown</a> under the hood to parse web page content and convert it to Markdown.</p>\n<p>Clipper provides a quick and simple way to save bits of content from the web for personal archival or note taking purposes, similar to browser extensions like Evernote Web Clipper or Notion Web Clipper. However, Clipper runs entirely in the terminal so you don't need to install any extensions or sign up for accounts.</p>\n<table>\n<thead>\n<tr>\n<th>HTML</th>\n<th>Markdown</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><img src=\"https://raw.githubusercontent.com/philschmid/clipper.js/main/assets/html.png\" alt=\"Screenshot of HTMl\"></td>\n<td><img src=\"https://raw.githubusercontent.com/philschmid/clipper.js/main/assets/markdown.png\" alt=\"Screenshot of Markdown\"></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-installation\">Installation</h2>\n<pre><code>npm install -g @philschmid/clipper\n</code></pre>\n<p><em>note: for crawling you need <code>playwright</code> and the browser dependencies.</em></p>\n<h2 id=\"user-content-usage\">Usage</h2>\n<h3 id=\"user-content-clip\">Clip</h3>\n<p><strong>Options:</strong></p>\n<ul>\n<li><code>-i, --input &#x3C;file> | &#x3C;directory></code> - Input file (html) or directory to clip content from. If a directory is provided, all files in the directory will be clipped.</li>\n<li><code>-u, --url &#x3C;url></code> - URL to clip content from</li>\n<li><code>-f, --format &#x3C;format></code> - Output format (markdown, json) (default: markdown)</li>\n<li><code>-o, --output &#x3C;file></code> - Output file for clipped content (default: output.md)</li>\n</ul>\n<p><strong>Examples:</strong></p>\n<ol>\n<li>Clip content from a URL:</li>\n</ol>\n<pre><code>clipper clip -u &#x3C;url>\n</code></pre>\n<ol start=\"2\">\n<li>Clip content from a file:</li>\n</ol>\n<pre><code>clipper clip -i &#x3C;file>\n</code></pre>\n<ol start=\"3\">\n<li>Clip content from a directory, convert a directory of HTML files to a jsonl file:</li>\n</ol>\n<pre><code>clipper clip -i &#x3C;directory> -f json -o dataset.jsonl\n</code></pre>\n<h3 id=\"user-content-crawl\">Crawl</h3>\n<blockquote>\n<p>[!WARNING]<br>\nOnly use this command if you know what you're doing. Crawling websites can be resource intensive and may cause issues for the website owner. Use at your own risk.</p>\n</blockquote>\n<p><strong>Options:</strong></p>\n<ul>\n<li><code>-u, --url &#x3C;url></code> - URL to crawl</li>\n<li><code>-g, --glob &#x3C;glob></code> - Glob pattern to match URLs against</li>\n<li><code>-o, --output &#x3C;file></code> - Output file for crawled content (default: dataset.jsonl)</li>\n</ul>\n<p><strong>Examples:</strong></p>\n<p>Crawl a site and clip all pages:</p>\n<pre><code>clipper crawl -u &#x3C;url>\n</code></pre>\n<p>Results will be saved in <code>dataset.jsonl</code> file in the current directory.</p>\n<h2 id=\"user-content-alternative-use-cases\">Alternative use cases</h2>\n<h3 id=\"user-content-convert-pdf-to-markdown\">Convert PDF to Markdown</h3>\n<p>If you want to convert a PDF to Markdown you can use <a href=\"https://wiki.ubuntuusers.de/poppler-utils/\">poppler</a> to convert the PDF to HTML and then use Clipper to convert the HTML to Markdown.</p>\n<pre><code>pdftohtml -c -s -noframes test.pdf test.html\nclipper clip -i test.html\n</code></pre>\n<h2 id=\"user-content-local-development\">Local Development</h2>\n<ul>\n<li>Clone the repo</li>\n<li>Run <code>npm install</code></li>\n<li>Run <code>npm run test -- clip -u https://huggingface.co/docs/transformers/index</code> to test the CLI</li>\n<li>Run <code>npm run test -- clip -i examples/</code> to test the CLI with directory input</li>\n<li>Run <code>npm run test -- crawl -u https://awsdocs-neuron.readthedocs-hosted.com/en/v2.14.1/index.html -g https://awsdocs-neuron.readthedocs-hosted.com/en/v2.14.1/\\*\\*/\\*</code> to crawl the AWS Neuron docs</li>\n<li>Run <code>npm run build</code> to build for production</li>\n<li>Run <code>npm install -g .</code> to symlink the CLI for local testing</li>\n<li>Run <code>clipper clip -u https://huggingface.co/docs/transformers/index</code> to build for development</li>\n<li>Remove the symlink with <code>npm r clipper -g</code></li>\n</ul>\n<h2 id=\"user-content-credits\">Credits</h2>\n<p>Clipper uses the following open source libraries:</p>\n<ul>\n<li><a href=\"https://github.com/mozilla/readability\">Mozilla Readability</a> - For parsing article content</li>\n<li><a href=\"https://github.com/mixmark-io/turndown\">Turndown</a> - For converting HTML to Markdown</li>\n<li><a href=\"https://crawlee.dev/\">Crawlee</a> - For crawling websites</li>\n</ul>\n<h2 id=\"user-content-license\">License</h2>\n<ul>\n<li>Apache 2.0</li>\n</ul>\n<h2 id=\"user-content-release-to-npm\">Release to npm</h2>\n<ol>\n<li>Remove old build files with <code>rm -rf dist</code></li>\n<li>Update the version in <code>package.json</code> if minor or major version</li>\n<li>Run <code>npm run build</code></li>\n<li>Run <code>npm publish --access public</code></li>\n<li>Create a new release on GitHub</li>\n<li>Update the version in <code>package.json</code> to the next patch version</li>\n</ol>",
+  "_fetched_at": "2026-03-11T18:15:54.751Z"
+}

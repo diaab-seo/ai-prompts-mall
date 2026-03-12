@@ -1,0 +1,2781 @@
+{
+  "id": 927939456,
+  "node_id": "R_kgDON087gA",
+  "name": "neo4j-ai-experiments",
+  "full_name": "ErickWendel/neo4j-ai-experiments",
+  "private": false,
+  "owner": {
+    "login": "ErickWendel",
+    "id": 8060102,
+    "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ErickWendel",
+    "html_url": "https://github.com/ErickWendel",
+    "followers_url": "https://api.github.com/users/ErickWendel/followers",
+    "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+    "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+    "repos_url": "https://api.github.com/users/ErickWendel/repos",
+    "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments",
+  "description": "Examples of my tutorial on how to use Neo4j for empowering AI RAG systems",
+  "fork": false,
+  "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments",
+  "forks_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/forks",
+  "keys_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/teams",
+  "hooks_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/hooks",
+  "issue_events_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/events",
+  "assignees_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/tags",
+  "blobs_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/languages",
+  "stargazers_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/stargazers",
+  "contributors_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/contributors",
+  "subscribers_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/subscribers",
+  "subscription_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/subscription",
+  "commits_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/merges",
+  "archive_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/downloads",
+  "issues_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/labels{/name}",
+  "releases_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/deployments",
+  "created_at": "2025-02-05T19:42:27Z",
+  "updated_at": "2026-02-12T01:22:19Z",
+  "pushed_at": "2026-01-08T02:21:10Z",
+  "git_url": "git://github.com/ErickWendel/neo4j-ai-experiments.git",
+  "ssh_url": "git@github.com:ErickWendel/neo4j-ai-experiments.git",
+  "clone_url": "https://github.com/ErickWendel/neo4j-ai-experiments.git",
+  "svn_url": "https://github.com/ErickWendel/neo4j-ai-experiments",
+  "homepage": "https://ewbr.cc/rag-ai-neo4j",
+  "size": 113,
+  "stargazers_count": 74,
+  "watchers_count": 74,
+  "language": "JavaScript",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 35,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "deepseek-coder",
+    "gemma-7b",
+    "javascript",
+    "langchain-js",
+    "langchain4j",
+    "neo4j",
+    "rag",
+    "retrieval-augmented-generation",
+    "similarity-search",
+    "vector-database"
+  ],
+  "visibility": "public",
+  "forks": 35,
+  "open_issues": 0,
+  "watchers": 74,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "11479fb06fab1a9a95507365bcdd883f5dc8012e",
+      "node_id": "C_kwDON087gNoAKDExNDc5ZmIwNmZhYjFhOWE5NTUwNzM2NWJjZGQ4ODNmNWRjODAxMmU",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:54:26Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:54:26Z"
+        },
+        "message": "update readme\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "fc67f18f1d3d20e047778af37837ca40e1baf3a2",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/fc67f18f1d3d20e047778af37837ca40e1baf3a2"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/11479fb06fab1a9a95507365bcdd883f5dc8012e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/11479fb06fab1a9a95507365bcdd883f5dc8012e",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/11479fb06fab1a9a95507365bcdd883f5dc8012e",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/11479fb06fab1a9a95507365bcdd883f5dc8012e/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b02b7d1c2d59794b38068f25da0bedada114327b",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b02b7d1c2d59794b38068f25da0bedada114327b",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/b02b7d1c2d59794b38068f25da0bedada114327b"
+        }
+      ]
+    },
+    {
+      "sha": "b02b7d1c2d59794b38068f25da0bedada114327b",
+      "node_id": "C_kwDON087gNoAKGIwMmI3ZDFjMmQ1OTc5NGIzODA2OGYyNWRhMGJlZGFkYTExNDMyN2I",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:47:44Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:47:44Z"
+        },
+        "message": "add readme\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "ad5528d597aebee4ba841c9a4398ff0349053f84",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/ad5528d597aebee4ba841c9a4398ff0349053f84"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/b02b7d1c2d59794b38068f25da0bedada114327b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b02b7d1c2d59794b38068f25da0bedada114327b",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/b02b7d1c2d59794b38068f25da0bedada114327b",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b02b7d1c2d59794b38068f25da0bedada114327b/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "01674c71bf3d1f667cc3f230461b809a43f3b861",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/01674c71bf3d1f667cc3f230461b809a43f3b861",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/01674c71bf3d1f667cc3f230461b809a43f3b861"
+        }
+      ]
+    },
+    {
+      "sha": "01674c71bf3d1f667cc3f230461b809a43f3b861",
+      "node_id": "C_kwDON087gNoAKDAxNjc0YzcxYmYzZDFmNjY3Y2MzZjIzMDQ2MWI4MDlhNDNmM2I4NjE",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:05:09Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:05:09Z"
+        },
+        "message": "move files to main directory\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "9f2ebe90340f49be8a4e00cafa4a4bdd5e6d3f94",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/9f2ebe90340f49be8a4e00cafa4a4bdd5e6d3f94"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/01674c71bf3d1f667cc3f230461b809a43f3b861",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/01674c71bf3d1f667cc3f230461b809a43f3b861",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/01674c71bf3d1f667cc3f230461b809a43f3b861",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/01674c71bf3d1f667cc3f230461b809a43f3b861/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "90005149b3bdde39f3331d7e0198170d7919890f",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/90005149b3bdde39f3331d7e0198170d7919890f",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/90005149b3bdde39f3331d7e0198170d7919890f"
+        }
+      ]
+    },
+    {
+      "sha": "90005149b3bdde39f3331d7e0198170d7919890f",
+      "node_id": "C_kwDON087gNoAKDkwMDA1MTQ5YjNiZGRlMzlmMzMzMWQ3ZTAxOTgxNzBkNzkxOTg5MGY",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:03:30Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-17T11:03:30Z"
+        },
+        "message": "move files to main directory\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "04cd11c6496b63f9ac76ba2fdd24d99ef79a48db",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/04cd11c6496b63f9ac76ba2fdd24d99ef79a48db"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/90005149b3bdde39f3331d7e0198170d7919890f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/90005149b3bdde39f3331d7e0198170d7919890f",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/90005149b3bdde39f3331d7e0198170d7919890f",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/90005149b3bdde39f3331d7e0198170d7919890f/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "17cb52b03e55eee55cd6320a9a566c71d8eb4925",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/17cb52b03e55eee55cd6320a9a566c71d8eb4925",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/17cb52b03e55eee55cd6320a9a566c71d8eb4925"
+        }
+      ]
+    },
+    {
+      "sha": "17cb52b03e55eee55cd6320a9a566c71d8eb4925",
+      "node_id": "C_kwDON087gNoAKDE3Y2I1MmIwM2U1NWVlZTU1Y2Q2MzIwYTlhNTY2YzcxZDhlYjQ5MjU",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-15T00:54:21Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-15T00:54:21Z"
+        },
+        "message": "in class examples",
+        "tree": {
+          "sha": "884b1d4d24a819637e5d1c29ea4506e06ddff24d",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/884b1d4d24a819637e5d1c29ea4506e06ddff24d"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/17cb52b03e55eee55cd6320a9a566c71d8eb4925",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/17cb52b03e55eee55cd6320a9a566c71d8eb4925",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/17cb52b03e55eee55cd6320a9a566c71d8eb4925",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/17cb52b03e55eee55cd6320a9a566c71d8eb4925/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ebe3b8b05e3f27156ca4cf715dafb9657dccef35",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/ebe3b8b05e3f27156ca4cf715dafb9657dccef35",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/ebe3b8b05e3f27156ca4cf715dafb9657dccef35"
+        }
+      ]
+    },
+    {
+      "sha": "ebe3b8b05e3f27156ca4cf715dafb9657dccef35",
+      "node_id": "C_kwDON087gNoAKGViZTNiOGIwNWUzZjI3MTU2Y2E0Y2Y3MTVkYWZiOTY1N2RjY2VmMzU",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:57:20Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:57:20Z"
+        },
+        "message": "rename file\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "23a6a04d8df6084edbb3774ba9f658cbfefca4dd",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/23a6a04d8df6084edbb3774ba9f658cbfefca4dd"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/ebe3b8b05e3f27156ca4cf715dafb9657dccef35",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/ebe3b8b05e3f27156ca4cf715dafb9657dccef35",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/ebe3b8b05e3f27156ca4cf715dafb9657dccef35",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/ebe3b8b05e3f27156ca4cf715dafb9657dccef35/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c0b218f2e3025bb0baf101ced3da8330886a1019",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/c0b218f2e3025bb0baf101ced3da8330886a1019",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/c0b218f2e3025bb0baf101ced3da8330886a1019"
+        }
+      ]
+    },
+    {
+      "sha": "c0b218f2e3025bb0baf101ced3da8330886a1019",
+      "node_id": "C_kwDON087gNoAKGMwYjIxOGYyZTMwMjViYjBiYWYxMDFjZWQzZGE4MzMwODg2YTEwMTk",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:56:51Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:56:51Z"
+        },
+        "message": "rm file\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "932e186975b72aac7ca33655f4133fc130be22bc",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/932e186975b72aac7ca33655f4133fc130be22bc"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/c0b218f2e3025bb0baf101ced3da8330886a1019",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/c0b218f2e3025bb0baf101ced3da8330886a1019",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/c0b218f2e3025bb0baf101ced3da8330886a1019",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/c0b218f2e3025bb0baf101ced3da8330886a1019/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad"
+        }
+      ]
+    },
+    {
+      "sha": "3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad",
+      "node_id": "C_kwDON087gNoAKDNlMGY1MjVmMGZhOWJkNWQ0YmYxODFhODIzZDRjN2VlYmNiNmMyYWQ",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:37:49Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:37:49Z"
+        },
+        "message": "fix demo\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "4d72aeda37fab889b4874b62d16eb30deeaaf524",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/4d72aeda37fab889b4874b62d16eb30deeaaf524"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/3e0f525f0fa9bd5d4bf181a823d4c7eebcb6c2ad/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad"
+        }
+      ]
+    },
+    {
+      "sha": "ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad",
+      "node_id": "C_kwDON087gNoAKGNjZjhlZjQzYTlhMzM5ZjAzY2Y2NGIxYWMyNzJiY2M3M2E5MjE3YWQ",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:12:37Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:12:37Z"
+        },
+        "message": "working",
+        "tree": {
+          "sha": "24b4b959302bb868f3cbc77221d5f1f7124a9532",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/24b4b959302bb868f3cbc77221d5f1f7124a9532"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/ccf8ef43a9a339f03cf64b1ac272bcc73a9217ad/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e"
+        }
+      ]
+    },
+    {
+      "sha": "e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e",
+      "node_id": "C_kwDON087gNoAKGU2MjUzYjYyYzg5YTJjNTliYWMxYjBmZmEwZTRhYTIwOTE3YzdkMGU",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:02:20Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T22:02:20Z"
+        },
+        "message": "add consultancy example\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "35e1dbf2080334f8e97708d217a6889b31850266",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/35e1dbf2080334f8e97708d217a6889b31850266"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/e6253b62c89a2c59bac1b0ffa0e4aa20917c7d0e/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4f16f2090dce71047dbb22fc762a7c5705cdafae",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/4f16f2090dce71047dbb22fc762a7c5705cdafae",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/4f16f2090dce71047dbb22fc762a7c5705cdafae"
+        }
+      ]
+    },
+    {
+      "sha": "4f16f2090dce71047dbb22fc762a7c5705cdafae",
+      "node_id": "C_kwDON087gNoAKDRmMTZmMjA5MGRjZTcxMDQ3ZGJiMjJmYzc2MmE3YzU3MDVjZGFmYWU",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T16:28:17Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T16:28:17Z"
+        },
+        "message": "refactoring",
+        "tree": {
+          "sha": "7664f2d2009cdbba9649bcccc1cf07ee4cdb19c6",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/7664f2d2009cdbba9649bcccc1cf07ee4cdb19c6"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/4f16f2090dce71047dbb22fc762a7c5705cdafae",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/4f16f2090dce71047dbb22fc762a7c5705cdafae",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/4f16f2090dce71047dbb22fc762a7c5705cdafae",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/4f16f2090dce71047dbb22fc762a7c5705cdafae/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "816182d32d921c1e6fa6136eb13c32b5b495f8e7",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/816182d32d921c1e6fa6136eb13c32b5b495f8e7",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/816182d32d921c1e6fa6136eb13c32b5b495f8e7"
+        }
+      ]
+    },
+    {
+      "sha": "816182d32d921c1e6fa6136eb13c32b5b495f8e7",
+      "node_id": "C_kwDON087gNoAKDgxNjE4MmQzMmQ5MjFjMWU2ZmE2MTM2ZWIxM2MzMmI1YjQ5NWY4ZTc",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T16:18:20Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-14T16:18:20Z"
+        },
+        "message": "add rag example\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "dbadb4eafa50d2a2470658fd6c67c16a58fd4f03",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/dbadb4eafa50d2a2470658fd6c67c16a58fd4f03"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/816182d32d921c1e6fa6136eb13c32b5b495f8e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/816182d32d921c1e6fa6136eb13c32b5b495f8e7",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/816182d32d921c1e6fa6136eb13c32b5b495f8e7",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/816182d32d921c1e6fa6136eb13c32b5b495f8e7/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5c302b62e4e73f626d0aea3902c9ce5b58e81b8f",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/5c302b62e4e73f626d0aea3902c9ce5b58e81b8f",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/5c302b62e4e73f626d0aea3902c9ce5b58e81b8f"
+        }
+      ]
+    },
+    {
+      "sha": "5c302b62e4e73f626d0aea3902c9ce5b58e81b8f",
+      "node_id": "C_kwDON087gNoAKDVjMzAyYjYyZTRlNzNmNjI2ZDBhZWEzOTAyYzljZTViNThlODFiOGY",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T22:36:30Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T22:36:30Z"
+        },
+        "message": "add more use cases\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "2bf2717214d3ace79259094911b3036f360998ee",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/2bf2717214d3ace79259094911b3036f360998ee"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/5c302b62e4e73f626d0aea3902c9ce5b58e81b8f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/5c302b62e4e73f626d0aea3902c9ce5b58e81b8f",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/5c302b62e4e73f626d0aea3902c9ce5b58e81b8f",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/5c302b62e4e73f626d0aea3902c9ce5b58e81b8f/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7fa09b721f5a2e69e295454fcc3a68126e96e076",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/7fa09b721f5a2e69e295454fcc3a68126e96e076",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/7fa09b721f5a2e69e295454fcc3a68126e96e076"
+        }
+      ]
+    },
+    {
+      "sha": "7fa09b721f5a2e69e295454fcc3a68126e96e076",
+      "node_id": "C_kwDON087gNoAKDdmYTA5YjcyMWY1YTJlNjllMjk1NDU0ZmNjM2E2ODEyNmU5NmUwNzY",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T22:35:59Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T22:35:59Z"
+        },
+        "message": "rm console\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "90ec43051051154435cc3337339cc38f133696f1",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/90ec43051051154435cc3337339cc38f133696f1"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/7fa09b721f5a2e69e295454fcc3a68126e96e076",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/7fa09b721f5a2e69e295454fcc3a68126e96e076",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/7fa09b721f5a2e69e295454fcc3a68126e96e076",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/7fa09b721f5a2e69e295454fcc3a68126e96e076/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e3014a607674ba9704bba3085d1c0aa295f5635d",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/e3014a607674ba9704bba3085d1c0aa295f5635d",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/e3014a607674ba9704bba3085d1c0aa295f5635d"
+        }
+      ]
+    },
+    {
+      "sha": "e3014a607674ba9704bba3085d1c0aa295f5635d",
+      "node_id": "C_kwDON087gNoAKGUzMDE0YTYwNzY3NGJhOTcwNGJiYTMwODVkMWMwYWEyOTVmNTYzNWQ",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T21:50:54Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T21:50:54Z"
+        },
+        "message": "updating\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "c602672f4d4b3f38b778f9710b274a631cda1a10",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/c602672f4d4b3f38b778f9710b274a631cda1a10"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/e3014a607674ba9704bba3085d1c0aa295f5635d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/e3014a607674ba9704bba3085d1c0aa295f5635d",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/e3014a607674ba9704bba3085d1c0aa295f5635d",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/e3014a607674ba9704bba3085d1c0aa295f5635d/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "86d16deb4095330c30f21ffa66fbba5873627656",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/86d16deb4095330c30f21ffa66fbba5873627656",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/86d16deb4095330c30f21ffa66fbba5873627656"
+        }
+      ]
+    },
+    {
+      "sha": "86d16deb4095330c30f21ffa66fbba5873627656",
+      "node_id": "C_kwDON087gNoAKDg2ZDE2ZGViNDA5NTMzMGMzMGYyMWZmYTY2ZmJiYTU4NzM2Mjc2NTY",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T20:25:30Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-08T20:25:38Z"
+        },
+        "message": "adjust api\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "0e711ce602c55ad5a2b1703b427cf3eddd131bae",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/0e711ce602c55ad5a2b1703b427cf3eddd131bae"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/86d16deb4095330c30f21ffa66fbba5873627656",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/86d16deb4095330c30f21ffa66fbba5873627656",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/86d16deb4095330c30f21ffa66fbba5873627656",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/86d16deb4095330c30f21ffa66fbba5873627656/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "eae3d1e666692b3681b13c89c3d2d6eed968eb3c",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/eae3d1e666692b3681b13c89c3d2d6eed968eb3c",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/eae3d1e666692b3681b13c89c3d2d6eed968eb3c"
+        }
+      ]
+    },
+    {
+      "sha": "eae3d1e666692b3681b13c89c3d2d6eed968eb3c",
+      "node_id": "C_kwDON087gNoAKGVhZTNkMWU2NjY2OTJiMzY4MWIxM2M4OWMzZDJkNmVlZDk2OGViM2M",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T22:07:19Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T22:07:19Z"
+        },
+        "message": "updating\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "1752b4399dc0f81ade00997ba1e89f655d690744",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/1752b4399dc0f81ade00997ba1e89f655d690744"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/eae3d1e666692b3681b13c89c3d2d6eed968eb3c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/eae3d1e666692b3681b13c89c3d2d6eed968eb3c",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/eae3d1e666692b3681b13c89c3d2d6eed968eb3c",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/eae3d1e666692b3681b13c89c3d2d6eed968eb3c/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6c8d1ff6fda272ae942231ed4e1f0c97224d8f02",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/6c8d1ff6fda272ae942231ed4e1f0c97224d8f02",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/6c8d1ff6fda272ae942231ed4e1f0c97224d8f02"
+        }
+      ]
+    },
+    {
+      "sha": "6c8d1ff6fda272ae942231ed4e1f0c97224d8f02",
+      "node_id": "C_kwDON087gNoAKDZjOGQxZmY2ZmRhMjcyYWU5NDIyMzFlZDRlMWYwYzk3MjI0ZDhmMDI",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T18:52:41Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T18:52:41Z"
+        },
+        "message": "updating\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "2d92caaeb16e5598bfb71d2245b2d3db584acd63",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/2d92caaeb16e5598bfb71d2245b2d3db584acd63"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/6c8d1ff6fda272ae942231ed4e1f0c97224d8f02",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/6c8d1ff6fda272ae942231ed4e1f0c97224d8f02",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/6c8d1ff6fda272ae942231ed4e1f0c97224d8f02",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/6c8d1ff6fda272ae942231ed4e1f0c97224d8f02/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cb14e3259cb4b861e28be3f6eb92296402b505c8",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/cb14e3259cb4b861e28be3f6eb92296402b505c8",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/cb14e3259cb4b861e28be3f6eb92296402b505c8"
+        }
+      ]
+    },
+    {
+      "sha": "cb14e3259cb4b861e28be3f6eb92296402b505c8",
+      "node_id": "C_kwDON087gNoAKGNiMTRlMzI1OWNiNGI4NjFlMjhiZTNmNmViOTIyOTY0MDJiNTA1Yzg",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T18:52:09Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T18:52:09Z"
+        },
+        "message": "updating\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "abbd2bcdb32bebdb8ec1c938758f590d42880e7d",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/abbd2bcdb32bebdb8ec1c938758f590d42880e7d"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/cb14e3259cb4b861e28be3f6eb92296402b505c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/cb14e3259cb4b861e28be3f6eb92296402b505c8",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/cb14e3259cb4b861e28be3f6eb92296402b505c8",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/cb14e3259cb4b861e28be3f6eb92296402b505c8/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "be9dd73d2e2fa486dfcc0d777c058dee78f2459c",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/be9dd73d2e2fa486dfcc0d777c058dee78f2459c",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/be9dd73d2e2fa486dfcc0d777c058dee78f2459c"
+        }
+      ]
+    },
+    {
+      "sha": "be9dd73d2e2fa486dfcc0d777c058dee78f2459c",
+      "node_id": "C_kwDON087gNoAKGJlOWRkNzNkMmUyZmE0ODZkZmNjMGQ3NzdjMDU4ZGVlNzhmMjQ1OWM",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T15:49:03Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T15:49:03Z"
+        },
+        "message": "rm folder\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "da1b51c0668720dd77e0885fc034599477895d0b",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/da1b51c0668720dd77e0885fc034599477895d0b"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/be9dd73d2e2fa486dfcc0d777c058dee78f2459c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/be9dd73d2e2fa486dfcc0d777c058dee78f2459c",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/be9dd73d2e2fa486dfcc0d777c058dee78f2459c",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/be9dd73d2e2fa486dfcc0d777c058dee78f2459c/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6e781997717dfba18f15f1979a0ca8757956c3f3",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/6e781997717dfba18f15f1979a0ca8757956c3f3",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/6e781997717dfba18f15f1979a0ca8757956c3f3"
+        }
+      ]
+    },
+    {
+      "sha": "6e781997717dfba18f15f1979a0ca8757956c3f3",
+      "node_id": "C_kwDON087gNoAKDZlNzgxOTk3NzE3ZGZiYTE4ZjE1ZjE5NzlhMGNhODc1Nzk1NmMzZjM",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T15:48:51Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T15:48:51Z"
+        },
+        "message": "add backup\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "ecc26f5d5b6b5244b01a92f6e9b3b15f2f0b9265",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/ecc26f5d5b6b5244b01a92f6e9b3b15f2f0b9265"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/6e781997717dfba18f15f1979a0ca8757956c3f3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/6e781997717dfba18f15f1979a0ca8757956c3f3",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/6e781997717dfba18f15f1979a0ca8757956c3f3",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/6e781997717dfba18f15f1979a0ca8757956c3f3/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "33a7ebeb8c0712a6f97a597680921f5893ecc4aa",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/33a7ebeb8c0712a6f97a597680921f5893ecc4aa",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/33a7ebeb8c0712a6f97a597680921f5893ecc4aa"
+        }
+      ]
+    },
+    {
+      "sha": "33a7ebeb8c0712a6f97a597680921f5893ecc4aa",
+      "node_id": "C_kwDON087gNoAKDMzYTdlYmViOGMwNzEyYTZmOTdhNTk3NjgwOTIxZjU4OTNlY2M0YWE",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T15:26:48Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-07T15:26:48Z"
+        },
+        "message": "update to new context\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "58325d6ca3999586c5678bc6fcf3c84f41390390",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/58325d6ca3999586c5678bc6fcf3c84f41390390"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/33a7ebeb8c0712a6f97a597680921f5893ecc4aa",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/33a7ebeb8c0712a6f97a597680921f5893ecc4aa",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/33a7ebeb8c0712a6f97a597680921f5893ecc4aa",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/33a7ebeb8c0712a6f97a597680921f5893ecc4aa/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0d938bcf53dce73adce1a039505c44ea38fa69f1",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/0d938bcf53dce73adce1a039505c44ea38fa69f1",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/0d938bcf53dce73adce1a039505c44ea38fa69f1"
+        }
+      ]
+    },
+    {
+      "sha": "0d938bcf53dce73adce1a039505c44ea38fa69f1",
+      "node_id": "C_kwDON087gNoAKDBkOTM4YmNmNTNkY2U3M2FkY2UxYTAzOTUwNWM0NGVhMzhmYTY5ZjE",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T21:02:08Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T21:02:08Z"
+        },
+        "message": "gen code for ew.academy\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "c6f98b897c0045435ef397e54bd7bcc0c6c8fc49",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/c6f98b897c0045435ef397e54bd7bcc0c6c8fc49"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/0d938bcf53dce73adce1a039505c44ea38fa69f1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/0d938bcf53dce73adce1a039505c44ea38fa69f1",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/0d938bcf53dce73adce1a039505c44ea38fa69f1",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/0d938bcf53dce73adce1a039505c44ea38fa69f1/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "321caddb6318d519475c5b86d980c2c5eb9f2677",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/321caddb6318d519475c5b86d980c2c5eb9f2677",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/321caddb6318d519475c5b86d980c2c5eb9f2677"
+        }
+      ]
+    },
+    {
+      "sha": "321caddb6318d519475c5b86d980c2c5eb9f2677",
+      "node_id": "C_kwDON087gNoAKDMyMWNhZGRiNjMxOGQ1MTk0NzVjNWI4NmQ5ODBjMmM1ZWI5ZjI2Nzc",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T20:17:29Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T20:17:29Z"
+        },
+        "message": "add chainging\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "684b98962927049902368e62225a5c67a7843bd0",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/684b98962927049902368e62225a5c67a7843bd0"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/321caddb6318d519475c5b86d980c2c5eb9f2677",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/321caddb6318d519475c5b86d980c2c5eb9f2677",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/321caddb6318d519475c5b86d980c2c5eb9f2677",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/321caddb6318d519475c5b86d980c2c5eb9f2677/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b5b605313f91c041f5650a5bf14bdb7ff289ce3f",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b5b605313f91c041f5650a5bf14bdb7ff289ce3f",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/b5b605313f91c041f5650a5bf14bdb7ff289ce3f"
+        }
+      ]
+    },
+    {
+      "sha": "b5b605313f91c041f5650a5bf14bdb7ff289ce3f",
+      "node_id": "C_kwDON087gNoAKGI1YjYwNTMxM2Y5MWMwNDFmNTY1MGE1YmYxNGJkYjdmZjI4OWNlM2Y",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T17:03:53Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T17:03:53Z"
+        },
+        "message": "add score to the similarity search\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "4222183c05e2885d2c87a8ffd570d35b426c239b",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/4222183c05e2885d2c87a8ffd570d35b426c239b"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/b5b605313f91c041f5650a5bf14bdb7ff289ce3f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b5b605313f91c041f5650a5bf14bdb7ff289ce3f",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/b5b605313f91c041f5650a5bf14bdb7ff289ce3f",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b5b605313f91c041f5650a5bf14bdb7ff289ce3f/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dde37ff039b4d701a7482f06cae148820d0b521c",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/dde37ff039b4d701a7482f06cae148820d0b521c",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/dde37ff039b4d701a7482f06cae148820d0b521c"
+        }
+      ]
+    },
+    {
+      "sha": "dde37ff039b4d701a7482f06cae148820d0b521c",
+      "node_id": "C_kwDON087gNoAKGRkZTM3ZmYwMzliNGQ3MDFhNzQ4MmYwNmNhZTE0ODgyMGQwYjUyMWM",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T13:01:57Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T13:01:57Z"
+        },
+        "message": "add score to the similarity search\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "b8d03f00da18e541c5b201f2fb05835e6fc350f1",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/b8d03f00da18e541c5b201f2fb05835e6fc350f1"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/dde37ff039b4d701a7482f06cae148820d0b521c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/dde37ff039b4d701a7482f06cae148820d0b521c",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/dde37ff039b4d701a7482f06cae148820d0b521c",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/dde37ff039b4d701a7482f06cae148820d0b521c/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b34303772cad2811648250dc05e7b76bebb67f0c",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b34303772cad2811648250dc05e7b76bebb67f0c",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/b34303772cad2811648250dc05e7b76bebb67f0c"
+        }
+      ]
+    },
+    {
+      "sha": "b34303772cad2811648250dc05e7b76bebb67f0c",
+      "node_id": "C_kwDON087gNoAKGIzNDMwMzc3MmNhZDI4MTE2NDgyNTBkYzA1ZTdiNzZiZWJiNjdmMGM",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T01:32:35Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T01:32:35Z"
+        },
+        "message": "add vector example, missing similarity score\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "04ca77f68ad3a60ee566de2053c2d7515836311d",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/04ca77f68ad3a60ee566de2053c2d7515836311d"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/b34303772cad2811648250dc05e7b76bebb67f0c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b34303772cad2811648250dc05e7b76bebb67f0c",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/b34303772cad2811648250dc05e7b76bebb67f0c",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/b34303772cad2811648250dc05e7b76bebb67f0c/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a83852bf6c7d15ba92324c16a384da5061797911",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/a83852bf6c7d15ba92324c16a384da5061797911",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/a83852bf6c7d15ba92324c16a384da5061797911"
+        }
+      ]
+    },
+    {
+      "sha": "a83852bf6c7d15ba92324c16a384da5061797911",
+      "node_id": "C_kwDON087gNoAKGE4Mzg1MmJmNmM3ZDE1YmE5MjMyNGMxNmEzODRkYTUwNjE3OTc5MTE",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T00:12:05Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-06T00:12:05Z"
+        },
+        "message": "fix neo4j example\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "d674bb490bac61066b664fefc733dd33d7e6ec9b",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/d674bb490bac61066b664fefc733dd33d7e6ec9b"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/a83852bf6c7d15ba92324c16a384da5061797911",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/a83852bf6c7d15ba92324c16a384da5061797911",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/a83852bf6c7d15ba92324c16a384da5061797911",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/a83852bf6c7d15ba92324c16a384da5061797911/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8a7f420cbd9201bd171b2900857163e18a99071c",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/8a7f420cbd9201bd171b2900857163e18a99071c",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/8a7f420cbd9201bd171b2900857163e18a99071c"
+        }
+      ]
+    },
+    {
+      "sha": "8a7f420cbd9201bd171b2900857163e18a99071c",
+      "node_id": "C_kwDON087gNoAKDhhN2Y0MjBjYmQ5MjAxYmQxNzFiMjkwMDg1NzE2M2UxOGE5OTA3MWM",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T22:41:41Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T22:41:41Z"
+        },
+        "message": "add vector working",
+        "tree": {
+          "sha": "01aca65e696bfc225c4b856e33125e64486264ad",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/01aca65e696bfc225c4b856e33125e64486264ad"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/8a7f420cbd9201bd171b2900857163e18a99071c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/8a7f420cbd9201bd171b2900857163e18a99071c",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/8a7f420cbd9201bd171b2900857163e18a99071c",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/8a7f420cbd9201bd171b2900857163e18a99071c/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "168b0e5ffafcaee757d85345c70fa46c52085471",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/168b0e5ffafcaee757d85345c70fa46c52085471",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/168b0e5ffafcaee757d85345c70fa46c52085471"
+        }
+      ]
+    },
+    {
+      "sha": "168b0e5ffafcaee757d85345c70fa46c52085471",
+      "node_id": "C_kwDON087gNoAKDE2OGIwZTVmZmFmY2FlZTc1N2Q4NTM0NWM3MGZhNDZjNTIwODU0NzE",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T21:46:46Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T21:46:46Z"
+        },
+        "message": "add env example\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "870b4fa3b58b447d21f599eea7bc6f88e993a57b",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/870b4fa3b58b447d21f599eea7bc6f88e993a57b"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/168b0e5ffafcaee757d85345c70fa46c52085471",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/168b0e5ffafcaee757d85345c70fa46c52085471",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/168b0e5ffafcaee757d85345c70fa46c52085471",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/168b0e5ffafcaee757d85345c70fa46c52085471/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a9757cf7087a732a3c4249070a93a4ff30bddc82",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/a9757cf7087a732a3c4249070a93a4ff30bddc82",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/a9757cf7087a732a3c4249070a93a4ff30bddc82"
+        }
+      ]
+    },
+    {
+      "sha": "a9757cf7087a732a3c4249070a93a4ff30bddc82",
+      "node_id": "C_kwDON087gNoAKGE5NzU3Y2Y3MDg3YTczMmEzYzQyNDkwNzBhOTNhNGZmMzBiZGRjODI",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T21:45:56Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T21:45:56Z"
+        },
+        "message": "adjust index.js\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "3c0dfda56994237ea0a6b402bad7b681683876d3",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/3c0dfda56994237ea0a6b402bad7b681683876d3"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/a9757cf7087a732a3c4249070a93a4ff30bddc82",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/a9757cf7087a732a3c4249070a93a4ff30bddc82",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/a9757cf7087a732a3c4249070a93a4ff30bddc82",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/a9757cf7087a732a3c4249070a93a4ff30bddc82/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "54b067dbddb9a4afa58829e659fb839a013e4bb0",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/54b067dbddb9a4afa58829e659fb839a013e4bb0",
+          "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/54b067dbddb9a4afa58829e659fb839a013e4bb0"
+        }
+      ]
+    },
+    {
+      "sha": "54b067dbddb9a4afa58829e659fb839a013e4bb0",
+      "node_id": "C_kwDON087gNoAKDU0YjA2N2RiZGRiOWE0YWZhNTg4MjllNjU5ZmI4MzlhMDEzZTRiYjA",
+      "commit": {
+        "author": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T19:44:12Z"
+        },
+        "committer": {
+          "name": "Erick Wendel",
+          "email": "erick.workspace@gmail.com",
+          "date": "2025-02-05T19:44:12Z"
+        },
+        "message": "add initial code\n\nSigned-off-by: Erick Wendel <erick.workspace@gmail.com>",
+        "tree": {
+          "sha": "e058c4b2dd8f25ebda55e71bdd3734460f647c72",
+          "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/trees/e058c4b2dd8f25ebda55e71bdd3734460f647c72"
+        },
+        "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/git/commits/54b067dbddb9a4afa58829e659fb839a013e4bb0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/54b067dbddb9a4afa58829e659fb839a013e4bb0",
+      "html_url": "https://github.com/ErickWendel/neo4j-ai-experiments/commit/54b067dbddb9a4afa58829e659fb839a013e4bb0",
+      "comments_url": "https://api.github.com/repos/ErickWendel/neo4j-ai-experiments/commits/54b067dbddb9a4afa58829e659fb839a013e4bb0/comments",
+      "author": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ErickWendel",
+        "id": 8060102,
+        "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ErickWendel",
+        "html_url": "https://github.com/ErickWendel",
+        "followers_url": "https://api.github.com/users/ErickWendel/followers",
+        "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+        "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+        "repos_url": "https://api.github.com/users/ErickWendel/repos",
+        "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ErickWendel",
+      "id": 8060102,
+      "node_id": "MDQ6VXNlcjgwNjAxMDI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ErickWendel",
+      "html_url": "https://github.com/ErickWendel",
+      "followers_url": "https://api.github.com/users/ErickWendel/followers",
+      "following_url": "https://api.github.com/users/ErickWendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ErickWendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ErickWendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ErickWendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/ErickWendel/orgs",
+      "repos_url": "https://api.github.com/users/ErickWendel/repos",
+      "events_url": "https://api.github.com/users/ErickWendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ErickWendel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 32
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "JavaScript": 19608,
+    "Cypher": 5191,
+    "Shell": 1785
+  },
+  "readme_html": "<h1 id=\"user-content-neo4j-ai-powered-query-system\">Neo4j AI-Powered Query System</h1>\n<h2 id=\"user-content-overview\">Overview</h2>\n<p>This project integrates Neo4j with AI models to generate Cypher queries from natural language prompts. It utilizes local AI models for natural language processing and a vector database approach for efficient querying.</p>\n<p>This is the source code shown on my <a href=\"https://ewbr.cc/rag-ai-neo4j\">video tutorial</a>, consider watching it first!</p>\n<h2 id=\"user-content-folder-structure\">Folder Structure</h2>\n<pre><code>.\n├── README.md                  # Project documentation\n├── data                        # Database-related files\n│   ├── courses.json            # Course data\n│   └── seed.js                 # Database seeding script\n├── docker-compose.yml          # Configuration for running Neo4j\n├── other-examples              # Additional use cases\n│   ├── neo4j-vector.js         # Example using vector search in Neo4j\n│   └── rag                     # Retrieval-Augmented Generation example\n│       ├── data                # Sample data for RAG\n│       │   └── javascript.txt  # Text data for queries\n│       ├── index.js            # Implementation for RAG\n│       ├── package-lock.json   # Dependency lock file\n│       └── package.json        # Dependencies\n├── package-lock.json           # Dependency lock file\n├── package.json                # Project dependencies\n├── prompts                     # AI-related prompts\n│   ├── context.md              # Context prompt template\n│   ├── nlpToCypher.md          # NLP to Cypher prompt template\n│   └── responseTemplateFromJson.md # Response formatting template\n├── references.txt              # Related documentation/references\n├── request.sh                  # Script for testing caching mechanism\n├── script.txt                  # Miscellaneous script\n└── src                         # Source code\n    ├── ai.js                   # AI model interaction logic\n    └── index.js                # Main application entry point\n</code></pre>\n<h2 id=\"user-content-setup-instructions\">Setup Instructions</h2>\n<h3 id=\"user-content-prerequisites\">Prerequisites</h3>\n<p>Ensure you have the following installed:</p>\n<ul>\n<li><a href=\"https://ollama.ai\">Ollama</a> for running local AI models</li>\n<li><a href=\"https://www.docker.com\">Docker</a> for running Neo4j</li>\n<li><a href=\"https://nodejs.org\">Node.js</a> (v22+ recommended)</li>\n</ul>\n<h3 id=\"user-content-installation-steps\">Installation Steps</h3>\n<ol>\n<li><strong>Start Ollama</strong>\n<pre><code class=\"language-sh\">ollama serve\n</code></pre>\n</li>\n<li><strong>Download AI models</strong>\n<pre><code class=\"language-sh\">ollama pull gemma:7b\nollama pull deepseek-coder:6.7b\n</code></pre>\n</li>\n<li><strong>Start Neo4j</strong>\n<pre><code class=\"language-sh\">docker-compose up -d\n</code></pre>\n</li>\n<li><strong>Install dependencies</strong>\n<pre><code class=\"language-sh\">npm ci\n</code></pre>\n</li>\n<li><strong>Seed the database</strong>\n<pre><code class=\"language-sh\">npm run seed\n</code></pre>\n</li>\n<li><strong>Run the application</strong>\n<pre><code class=\"language-sh\">npm run dev\n</code></pre>\n</li>\n<li><strong>Test caching mechanism</strong> (Run twice to observe caching behavior)\n<pre><code class=\"language-sh\">sh request.sh\n</code></pre>\n</li>\n</ol>\n<h2 id=\"user-content-features\">Features</h2>\n<ul>\n<li>AI-powered natural language to Cypher query conversion</li>\n<li>Neo4j integration with vector search capabilities</li>\n<li>RAG (Retrieval-Augmented Generation) example included</li>\n<li>Database seeding for reproducible testing</li>\n<li>Dockerized Neo4j instance</li>\n</ul>\n<h2 id=\"user-content-usage\">Usage</h2>\n<p>Once the application is running, you can send natural language queries to the AI, which will convert them into optimized Cypher queries for Neo4j. The system caches responses for better performance on repeated queries.</p>\n<h2 id=\"user-content-contributing\">Contributing</h2>\n<p>Feel free to open issues and submit PRs for enhancements!</p>\n<h2 id=\"user-content-license\">License</h2>\n<p>MIT License</p>",
+  "_fetched_at": "2026-03-11T18:18:05.833Z"
+}

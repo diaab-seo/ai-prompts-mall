@@ -1,0 +1,16 @@
+---
+// ReleaseTimeline widget
+interface Release { tag_name: string; published_at: string; html_url: string; name?: string }
+interface Props { releases: Release[] }
+const { releases } = Astro.props;
+---
+<ol class="release-timeline">
+  {releases.slice(0, 5).map((r) => (
+    <li>
+      <a href={r.html_url} rel="noopener noreferrer" target="_blank">
+        {r.name || r.tag_name}
+      </a>
+      <time datetime={r.published_at}>{new Date(r.published_at).toLocaleDateString()}</time>
+    </li>
+  ))}
+</ol>

@@ -1,0 +1,904 @@
+{
+  "id": 719164408,
+  "node_id": "R_kgDOKt2T-A",
+  "name": "hallucination-index",
+  "full_name": "rungalileo/hallucination-index",
+  "private": false,
+  "owner": {
+    "login": "rungalileo",
+    "id": 81123343,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjgxMTIzMzQz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/81123343?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/rungalileo",
+    "html_url": "https://github.com/rungalileo",
+    "followers_url": "https://api.github.com/users/rungalileo/followers",
+    "following_url": "https://api.github.com/users/rungalileo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/rungalileo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/rungalileo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/rungalileo/subscriptions",
+    "organizations_url": "https://api.github.com/users/rungalileo/orgs",
+    "repos_url": "https://api.github.com/users/rungalileo/repos",
+    "events_url": "https://api.github.com/users/rungalileo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/rungalileo/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/rungalileo/hallucination-index",
+  "description": "Initiative to evaluate and rank the most popular LLMs across common task types based on their propensity to hallucinate. ",
+  "fork": false,
+  "url": "https://api.github.com/repos/rungalileo/hallucination-index",
+  "forks_url": "https://api.github.com/repos/rungalileo/hallucination-index/forks",
+  "keys_url": "https://api.github.com/repos/rungalileo/hallucination-index/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/rungalileo/hallucination-index/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/rungalileo/hallucination-index/teams",
+  "hooks_url": "https://api.github.com/repos/rungalileo/hallucination-index/hooks",
+  "issue_events_url": "https://api.github.com/repos/rungalileo/hallucination-index/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/rungalileo/hallucination-index/events",
+  "assignees_url": "https://api.github.com/repos/rungalileo/hallucination-index/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/rungalileo/hallucination-index/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/rungalileo/hallucination-index/tags",
+  "blobs_url": "https://api.github.com/repos/rungalileo/hallucination-index/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/rungalileo/hallucination-index/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/rungalileo/hallucination-index/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/rungalileo/hallucination-index/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/rungalileo/hallucination-index/languages",
+  "stargazers_url": "https://api.github.com/repos/rungalileo/hallucination-index/stargazers",
+  "contributors_url": "https://api.github.com/repos/rungalileo/hallucination-index/contributors",
+  "subscribers_url": "https://api.github.com/repos/rungalileo/hallucination-index/subscribers",
+  "subscription_url": "https://api.github.com/repos/rungalileo/hallucination-index/subscription",
+  "commits_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/rungalileo/hallucination-index/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/rungalileo/hallucination-index/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/rungalileo/hallucination-index/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/rungalileo/hallucination-index/merges",
+  "archive_url": "https://api.github.com/repos/rungalileo/hallucination-index/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/rungalileo/hallucination-index/downloads",
+  "issues_url": "https://api.github.com/repos/rungalileo/hallucination-index/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/rungalileo/hallucination-index/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/rungalileo/hallucination-index/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/rungalileo/hallucination-index/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/rungalileo/hallucination-index/labels{/name}",
+  "releases_url": "https://api.github.com/repos/rungalileo/hallucination-index/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/rungalileo/hallucination-index/deployments",
+  "created_at": "2023-11-15T15:34:16Z",
+  "updated_at": "2025-11-27T05:34:51Z",
+  "pushed_at": "2025-07-28T18:28:09Z",
+  "git_url": "git://github.com/rungalileo/hallucination-index.git",
+  "ssh_url": "git@github.com:rungalileo/hallucination-index.git",
+  "clone_url": "https://github.com/rungalileo/hallucination-index.git",
+  "svn_url": "https://github.com/rungalileo/hallucination-index",
+  "homepage": "https://www.rungalileo.io/hallucinationindex",
+  "size": 1563,
+  "stargazers_count": 116,
+  "watchers_count": 116,
+  "language": null,
+  "has_issues": false,
+  "has_projects": false,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 9,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 1,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "hallucinations",
+    "large-language-models",
+    "llm",
+    "llm-evaluation",
+    "openai",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 9,
+  "open_issues": 1,
+  "watchers": 116,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-evaluation",
+  "commits": [
+    {
+      "sha": "549b1706bca5e2c995e317b717ebc8d9d51355d3",
+      "node_id": "C_kwDOKt2T-NoAKDU0OWIxNzA2YmNhNWUyYzk5NWUzMTdiNzE3ZWJjOGQ5ZDUxMzU1ZDM",
+      "commit": {
+        "author": {
+          "name": "Erin Mikail Staples",
+          "email": "54031531+erinmikailstaples@users.noreply.github.com",
+          "date": "2025-07-28T18:28:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-28T18:28:09Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "59acb5c67907d3c3dc912811700d13420d6769ad",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/59acb5c67907d3c3dc912811700d13420d6769ad"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/549b1706bca5e2c995e317b717ebc8d9d51355d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoh8E5CRC1aQ7uu5UhlAAAq4UQAC2W72uZ73irUqVBBluDhDG2\nrUnlA6SpJyGtFZFvYl7uh4CRqrtZfKpM5Op7+H2E70RmBn64lLa4oPrWsuvXyTor\nNVXWVwsEVdieYxTtm2+2CBgGOgEbahGWI0gnPHmhmm1rmYZQhTBtMWkMasVb10d1\nVBVOXsyxS6D7Y47+bLQBrLoPoi3OxwOjSFZGcsRZNL3FYzInmXMGeIstZziAeMsl\n8L9AIop0b/fnbEqR8sJ0Idyf5SBgjKwtDUP6Qt8mVhQ0c9u5OrGC/sxBXC7bURV/\nDXHWUB2SbHPAIunEpB1eCSoq+wBY4i3+gMb0WpCewfl0QmRbY739H/nYONOPLpgw\nAFgp1haygQc2OqOjPVf98xnI+XwfhhlTaE/WRWE+zzjzUCdHCHN7lzj5QILE8ipg\no3eNlLHsPELO2X8Bs8RYtBV2aQE0gMjp9HGw7qKcm/iOxuCFflpgBGhRVVGzgUNt\nrI3hKiguyaCC7a5uwG7Gj59PcX7pPuFS3tv+Nk+16h0oTWqqtz1bGqMDADPeX4QR\nJc4DoKq7sT6JgaBlAksB+tVomJRbufdCbELtyd+epsXn11+ykk6/PZslYne4y62F\nDMObKqcE098psXw15dSRx2c6tMufhAvX8OV4JoWoqTHNl9481T4fmIBfvZWEDLD1\n+QTvLscFm9tMLY2C2Nsr\n=QnIp\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 59acb5c67907d3c3dc912811700d13420d6769ad\nparent 252d728b7c583e296375b0d5aab08df6bbc278b4\nauthor Erin Mikail Staples <54031531+erinmikailstaples@users.noreply.github.com> 1753727289 -0400\ncommitter GitHub <noreply@github.com> 1753727289 -0400\n\nUpdate README.md",
+          "verified_at": "2025-07-28T18:28:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/549b1706bca5e2c995e317b717ebc8d9d51355d3",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/549b1706bca5e2c995e317b717ebc8d9d51355d3",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/549b1706bca5e2c995e317b717ebc8d9d51355d3/comments",
+      "author": {
+        "login": "erinmikailstaples",
+        "id": 54031531,
+        "node_id": "MDQ6VXNlcjU0MDMxNTMx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/54031531?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/erinmikailstaples",
+        "html_url": "https://github.com/erinmikailstaples",
+        "followers_url": "https://api.github.com/users/erinmikailstaples/followers",
+        "following_url": "https://api.github.com/users/erinmikailstaples/following{/other_user}",
+        "gists_url": "https://api.github.com/users/erinmikailstaples/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/erinmikailstaples/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/erinmikailstaples/subscriptions",
+        "organizations_url": "https://api.github.com/users/erinmikailstaples/orgs",
+        "repos_url": "https://api.github.com/users/erinmikailstaples/repos",
+        "events_url": "https://api.github.com/users/erinmikailstaples/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/erinmikailstaples/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "252d728b7c583e296375b0d5aab08df6bbc278b4",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/252d728b7c583e296375b0d5aab08df6bbc278b4",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/252d728b7c583e296375b0d5aab08df6bbc278b4"
+        }
+      ]
+    },
+    {
+      "sha": "252d728b7c583e296375b0d5aab08df6bbc278b4",
+      "node_id": "C_kwDOKt2T-NoAKDI1MmQ3MjhiN2M1ODNlMjk2Mzc1YjBkNWFhYjA4ZGY2YmJjMjc4YjQ",
+      "commit": {
+        "author": {
+          "name": "Erin Mikail Staples",
+          "email": "54031531+erinmikailstaples@users.noreply.github.com",
+          "date": "2025-07-28T18:26:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-28T18:26:48Z"
+        },
+        "message": "Update images + links (#4)",
+        "tree": {
+          "sha": "6227cb6e29213b21d272761838055c78c032ddc8",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/6227cb6e29213b21d272761838055c78c032ddc8"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/252d728b7c583e296375b0d5aab08df6bbc278b4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoh8DoCRC1aQ7uu5UhlAAA7CwQAKbZssr+zN6q7UMpBMQ66Jox\nCycWkgFlGFCVKVRVsyDVnqvsLLMFdktoYgzqtZCe1cpml1Owo6ddFn1xFIGFkoMh\n/5LbkP2RZ6Tq5vwjNtpEE6zL67ytErRBqv50EsSGJulHM6yIoyrO2Zu5QaaCMi8P\nDqMuicO2HNogPDvKdTBhThape3MgL9zcaQNl1XvI/Yhj/uMTFH8fZASFhBGUu1zG\nPWfy7o3BM7JaEzG4V+XTBKpDbSKEXT5qD1PT0AvSvNliqDjqDvqVA7cXXJAHExbs\nrl2xOaX1TRjjM8EBuKwidPnNyU6TzAkDeWUCNzOyB9a3/vsLWJLVmkKrwy6tatI6\nPe2yNRasdPVoiKntH51G7bOGqjGvGMYU78oQ2RDaCxlkg+pWLYj+aStmX6yPBPa+\n/aXvSaLvaABT1MNaOMQbXhearhHK8KPsFa2O1FvHypU3xGzKSB9UOhPV4Ao40Qyz\nvWq7U9OckALbDnLOW83RzG2jB4GwWLattML4ZE0L1TjWlQl5P7bYu+l1/Fp4fsR7\njeLxLtB+314yaqlc45iPsc87MqeGXh2rfScXLwEQIG5BPX8f8Eyws0qJ+RDdC1l2\nYqA5faC5CNyrgjoGU2HdV0u3l8kipr5kz5fCyVAtuQ3LmdX+DWIg56V0oIUCleKg\nomv2jaw4TrQwBSb37l8z\n=FBo0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6227cb6e29213b21d272761838055c78c032ddc8\nparent 12e078e978ccb3805dbcb0563510dc8df48a6156\nauthor Erin Mikail Staples <54031531+erinmikailstaples@users.noreply.github.com> 1753727208 -0400\ncommitter GitHub <noreply@github.com> 1753727208 -0400\n\nUpdate images + links (#4)\n\n",
+          "verified_at": "2025-07-28T18:26:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/252d728b7c583e296375b0d5aab08df6bbc278b4",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/252d728b7c583e296375b0d5aab08df6bbc278b4",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/252d728b7c583e296375b0d5aab08df6bbc278b4/comments",
+      "author": {
+        "login": "erinmikailstaples",
+        "id": 54031531,
+        "node_id": "MDQ6VXNlcjU0MDMxNTMx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/54031531?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/erinmikailstaples",
+        "html_url": "https://github.com/erinmikailstaples",
+        "followers_url": "https://api.github.com/users/erinmikailstaples/followers",
+        "following_url": "https://api.github.com/users/erinmikailstaples/following{/other_user}",
+        "gists_url": "https://api.github.com/users/erinmikailstaples/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/erinmikailstaples/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/erinmikailstaples/subscriptions",
+        "organizations_url": "https://api.github.com/users/erinmikailstaples/orgs",
+        "repos_url": "https://api.github.com/users/erinmikailstaples/repos",
+        "events_url": "https://api.github.com/users/erinmikailstaples/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/erinmikailstaples/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "12e078e978ccb3805dbcb0563510dc8df48a6156",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/12e078e978ccb3805dbcb0563510dc8df48a6156",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/12e078e978ccb3805dbcb0563510dc8df48a6156"
+        }
+      ]
+    },
+    {
+      "sha": "12e078e978ccb3805dbcb0563510dc8df48a6156",
+      "node_id": "C_kwDOKt2T-NoAKDEyZTA3OGU5NzhjY2IzODA1ZGJjYjA1NjM1MTBkYzhkZjQ4YTYxNTY",
+      "commit": {
+        "author": {
+          "name": "promptinspector",
+          "email": "138050654+promptinspector@users.noreply.github.com",
+          "date": "2024-09-13T02:32:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-13T02:32:27Z"
+        },
+        "message": "Delete .DS_Store",
+        "tree": {
+          "sha": "4db975df9040bce4419fabd092b1d39723b20c92",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/4db975df9040bce4419fabd092b1d39723b20c92"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/12e078e978ccb3805dbcb0563510dc8df48a6156",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm46Q7CRC1aQ7uu5UhlAAADpMQABaYL0RZPkhUrHDzpc2JhoWH\nkCvDws1o6Z3gPvsA6wZtnZmpflyoYkebe4hyK0za286tlYnDa/+kdaOhxYpmFKHA\nxNqfZBhJTWIdH+OLCWJHDB0v7dZurp16BWaYVANczSPnSnI9mRlXFhD6C1XSaHXW\n0W/NlfTN55Yq+yN+FFK0NiIfy4RK2i/erRaEBXVQwgG+yA3WVl6sQl33fJQtVJbI\n0/mXP7Eqn3zqQ5zG5GpIjLOVXf+SOa1RTcGLKEtlP5NCnZuwBfyHezakG0uV09/t\nBugaeP2pSydbbkmXXpjO2Q8AcY2fmcP5gp8YF3U1cfsfBV4BwnLooulZ50UoLjNv\nE7D8tYKNevC2IzlZN3jC+xhAM67qrk66B2se3YCEQEZigNtoBkBdTmyoONf0WqW2\nICiyzAGeLhKxc0lR4ouVblWUO5IkKM01l5fYcKnu99bN88tkR7tBOwBFQAWOJKYx\nrT4jE+cgt1WBIdFmRk9Hs5AiTNWD2hXWY1PPF2ybJXAMolCLvckZ1ZEukJPLqR7c\nB0+MANUHyVDJSAkv2i2hvxBhDb1WETz8Wj3lnGfPif2z9Ufj+kjLeGYQ0O/2fTd5\n5Dx/b+J3o6WXsoj/4JhYtCDShNr68FE41ZMMtsqdMzkSKBQtwRe4KUCnkWDctchX\nyVrITZF247SRvJNYdxJf\n=kiw5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4db975df9040bce4419fabd092b1d39723b20c92\nparent fc0a57f15d5b938461aa18f7106184774cefda0a\nauthor promptinspector <138050654+promptinspector@users.noreply.github.com> 1726194747 +0530\ncommitter GitHub <noreply@github.com> 1726194747 +0530\n\nDelete .DS_Store",
+          "verified_at": "2024-11-10T05:21:09Z"
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/12e078e978ccb3805dbcb0563510dc8df48a6156",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/12e078e978ccb3805dbcb0563510dc8df48a6156",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/12e078e978ccb3805dbcb0563510dc8df48a6156/comments",
+      "author": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fc0a57f15d5b938461aa18f7106184774cefda0a",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/fc0a57f15d5b938461aa18f7106184774cefda0a",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/fc0a57f15d5b938461aa18f7106184774cefda0a"
+        }
+      ]
+    },
+    {
+      "sha": "fc0a57f15d5b938461aa18f7106184774cefda0a",
+      "node_id": "C_kwDOKt2T-NoAKGZjMGE1N2YxNWQ1YjkzODQ2MWFhMThmNzEwNjE4NDc3NGNlZmRhMGE",
+      "commit": {
+        "author": {
+          "name": "promptinspector",
+          "email": "138050654+promptinspector@users.noreply.github.com",
+          "date": "2024-07-29T12:50:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-29T12:50:50Z"
+        },
+        "message": "update image links",
+        "tree": {
+          "sha": "fdc70a0cef8bb3113e76b61086cd6d6f910ec155",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/fdc70a0cef8bb3113e76b61086cd6d6f910ec155"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/fc0a57f15d5b938461aa18f7106184774cefda0a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmp5AqCRC1aQ7uu5UhlAAAEYoQACYETgT0fVwOEGrKWJh3hTDM\nJeoX7Ismq8CldcFOK5l5klmm+nGsQjTBv7dPxGUOem9iTMiK/NU1faq3vRQpetEQ\n3jg5ospIZxlhT/qgnQdw+z5IUOyL09tJd7+La7GC6BNWayaAyzLvq/0KysWfYJXx\nKl5W/89qD30Px/EJ/oPgUYZYABoVp5/VDhOSQXiRN2dwb7vYlKMfSf50sWxqvPv+\nM8zDHb7bo5Lt6RgANcsfcyhzMo4Z9C3SCYAi+t+oBOq7u4Q3+jzxuw5lKHmiI898\n7Tp6SUdZBwZksN4F9OTj51qhNuWWXu4xVq5anJGI1gyGQbmETjUKHr8sgRLlze4g\nNYvgeBY7Uf4QBpLrWiRQ+4+fBOCqW17u3Cvk7PXai9+PHlLy6t7DYRQBgN54P/Xm\nQHL7k5Dz5esgcX0mm6XI7pxEuwJ3A5hNdqLeWN5+ZaIAxT0R2cciGsPKiiABUHnp\nnXO7qZ4cwneBHRf6Ym7rLRHhwv9AY8MjE97XbL44nvgCshwA6K6ruAO+J3cubbUu\nuYAdIVtsanvFkxw3dpt/UxkhPD7rgW3grfX91l1fcVsWHzvLBM/s9SQ8CBkf7tBU\nN/vJItIuL4TUE5Y2axP9HDAXiqSEESt1h8eLqf1q2v+k+cmrUb08T8jvk1dZpKcT\nAgl5QUG9hnDjBjVzr2wn\n=FzpU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fdc70a0cef8bb3113e76b61086cd6d6f910ec155\nparent c3c8957a35e379f69c3ac6036d4bbdcde01a1c83\nauthor promptinspector <138050654+promptinspector@users.noreply.github.com> 1722257450 +0530\ncommitter GitHub <noreply@github.com> 1722257450 +0530\n\nupdate image links\n\n",
+          "verified_at": "2024-11-15T01:08:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/fc0a57f15d5b938461aa18f7106184774cefda0a",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/fc0a57f15d5b938461aa18f7106184774cefda0a",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/fc0a57f15d5b938461aa18f7106184774cefda0a/comments",
+      "author": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c3c8957a35e379f69c3ac6036d4bbdcde01a1c83",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/c3c8957a35e379f69c3ac6036d4bbdcde01a1c83",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/c3c8957a35e379f69c3ac6036d4bbdcde01a1c83"
+        }
+      ]
+    },
+    {
+      "sha": "c3c8957a35e379f69c3ac6036d4bbdcde01a1c83",
+      "node_id": "C_kwDOKt2T-NoAKGMzYzg5NTdhMzVlMzc5ZjY5YzNhYzYwMzZkNGJiZGNkZTAxYTFjODM",
+      "commit": {
+        "author": {
+          "name": "Pratik Bhavsar",
+          "email": "pratik@rungalileo.io",
+          "date": "2024-07-29T12:13:55Z"
+        },
+        "committer": {
+          "name": "Pratik Bhavsar",
+          "email": "pratik@rungalileo.io",
+          "date": "2024-07-29T12:13:55Z"
+        },
+        "message": "updated readme",
+        "tree": {
+          "sha": "636bb245b3afba675412a3124e58a2a2ac86f351",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/636bb245b3afba675412a3124e58a2a2ac86f351"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/c3c8957a35e379f69c3ac6036d4bbdcde01a1c83",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/c3c8957a35e379f69c3ac6036d4bbdcde01a1c83",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/c3c8957a35e379f69c3ac6036d4bbdcde01a1c83",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/c3c8957a35e379f69c3ac6036d4bbdcde01a1c83/comments",
+      "author": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "38526be3b600d90b01d7144a8307b0aa06207c43",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/38526be3b600d90b01d7144a8307b0aa06207c43",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/38526be3b600d90b01d7144a8307b0aa06207c43"
+        }
+      ]
+    },
+    {
+      "sha": "38526be3b600d90b01d7144a8307b0aa06207c43",
+      "node_id": "C_kwDOKt2T-NoAKDM4NTI2YmUzYjYwMGQ5MGIwMWQ3MTQ0YTgzMDdiMGFhMDYyMDdjNDM",
+      "commit": {
+        "author": {
+          "name": "promptinspector",
+          "email": "138050654+promptinspector@users.noreply.github.com",
+          "date": "2024-07-29T12:07:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-29T12:07:12Z"
+        },
+        "message": "index v2",
+        "tree": {
+          "sha": "c7a8aa366f4251cf9c2d72b03fcc5d699a3edce7",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/c7a8aa366f4251cf9c2d72b03fcc5d699a3edce7"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/38526be3b600d90b01d7144a8307b0aa06207c43",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmp4XwCRC1aQ7uu5UhlAAA5U4QAH7hCtdwEalSW+3IjhoyhSK3\nbgAkeydin/0vYbdg2/H8bHZDjw7Glcvb05fM+kFa0NfmvBijYKnA9w7f45or68ex\nHm6vW96dhpmRHUOl1Yhl8RHdKsYGLhskijAPctpaoFOLrIaiEBF7lHA4pF6fbMUr\nUIoqm8GYLaRH7wdXoQQGp+TH9DMbHPbOoIK5qhUm6SXRmfGdQSJlOi2odkbKWZaU\nXJgoJlV9r/6cndDYDBRKNRrycz4mk+HQTQNX8gcl/dvavrtUdp2AVL1QrehRJrNg\nossWn3GB1Kcqgd2Fgv2et/oDGRQErnX57g8G/Vpg1Tmmg6xvknUPczenbhvKZIr3\nn6a+cu5RKxqO3niuuuup9rQts1howabTKxhWV7w6S9ZgUHksHrPuu+PIhXvB81g6\n7jZB5G5mr5WUK9S17oj++8VpWS3wytF6qKlwhfjOc0vN3Gkl3dsDch8n5zR71mRV\n5Yo7Z2jIarPgs87iZtYHwwc0COJyYq0/PgYKwzWb1K3NhrWOHK0V2Q+ZndcVvZqV\npVx0jSrxHF5BNk3jW3A4+flpGLplbNXDPDVrXuhoGVL1wEs6VLY5KYtFd1SRcG3X\nUoj9oUO0xYAn8IvfTX9i7lafPpSdjCQNjjWquMhOMLZ6oRsaw6XgsBQa5mK1tXPA\nbmDLg+CHVfzfEYLDDzoK\n=gWXF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c7a8aa366f4251cf9c2d72b03fcc5d699a3edce7\nparent 4b4c5c358ef52542902b4972e84e6319ddd647c8\nauthor promptinspector <138050654+promptinspector@users.noreply.github.com> 1722254832 +0530\ncommitter GitHub <noreply@github.com> 1722254832 +0530\n\nindex v2 \n\n",
+          "verified_at": "2024-11-15T01:08:09Z"
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/38526be3b600d90b01d7144a8307b0aa06207c43",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/38526be3b600d90b01d7144a8307b0aa06207c43",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/38526be3b600d90b01d7144a8307b0aa06207c43/comments",
+      "author": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4b4c5c358ef52542902b4972e84e6319ddd647c8",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/4b4c5c358ef52542902b4972e84e6319ddd647c8",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/4b4c5c358ef52542902b4972e84e6319ddd647c8"
+        }
+      ]
+    },
+    {
+      "sha": "4b4c5c358ef52542902b4972e84e6319ddd647c8",
+      "node_id": "C_kwDOKt2T-NoAKDRiNGM1YzM1OGVmNTI1NDI5MDJiNDk3MmU4NGU2MzE5ZGRkNjQ3Yzg",
+      "commit": {
+        "author": {
+          "name": "promptinspector",
+          "email": "pratik@rungalileo.io",
+          "date": "2023-11-15T15:49:58Z"
+        },
+        "committer": {
+          "name": "promptinspector",
+          "email": "pratik@rungalileo.io",
+          "date": "2023-11-15T15:49:58Z"
+        },
+        "message": "added cover image",
+        "tree": {
+          "sha": "2d26c61f3a3aa3d2db47664624060b97dd778ef2",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/2d26c61f3a3aa3d2db47664624060b97dd778ef2"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/4b4c5c358ef52542902b4972e84e6319ddd647c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/4b4c5c358ef52542902b4972e84e6319ddd647c8",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/4b4c5c358ef52542902b4972e84e6319ddd647c8",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/4b4c5c358ef52542902b4972e84e6319ddd647c8/comments",
+      "author": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3391943d68a4eb8167f00dc8a91d35852cce26f5",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/3391943d68a4eb8167f00dc8a91d35852cce26f5",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/3391943d68a4eb8167f00dc8a91d35852cce26f5"
+        }
+      ]
+    },
+    {
+      "sha": "3391943d68a4eb8167f00dc8a91d35852cce26f5",
+      "node_id": "C_kwDOKt2T-NoAKDMzOTE5NDNkNjhhNGViODE2N2YwMGRjOGE5MWQzNTg1MmNjZTI2ZjU",
+      "commit": {
+        "author": {
+          "name": "promptinspector",
+          "email": "pratik@rungalileo.io",
+          "date": "2023-11-15T15:40:48Z"
+        },
+        "committer": {
+          "name": "promptinspector",
+          "email": "pratik@rungalileo.io",
+          "date": "2023-11-15T15:40:48Z"
+        },
+        "message": "added rankings",
+        "tree": {
+          "sha": "ea294445063f00e9c29ae0c63d59b6601780fd79",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/ea294445063f00e9c29ae0c63d59b6601780fd79"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/3391943d68a4eb8167f00dc8a91d35852cce26f5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/3391943d68a4eb8167f00dc8a91d35852cce26f5",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/3391943d68a4eb8167f00dc8a91d35852cce26f5",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/3391943d68a4eb8167f00dc8a91d35852cce26f5/comments",
+      "author": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "48a5ca4263830547e4193bde72c43613dda00a1f",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/48a5ca4263830547e4193bde72c43613dda00a1f",
+          "html_url": "https://github.com/rungalileo/hallucination-index/commit/48a5ca4263830547e4193bde72c43613dda00a1f"
+        }
+      ]
+    },
+    {
+      "sha": "48a5ca4263830547e4193bde72c43613dda00a1f",
+      "node_id": "C_kwDOKt2T-NoAKDQ4YTVjYTQyNjM4MzA1NDdlNDE5M2JkZTcyYzQzNjEzZGRhMDBhMWY",
+      "commit": {
+        "author": {
+          "name": "promptinspector",
+          "email": "138050654+promptinspector@users.noreply.github.com",
+          "date": "2023-11-15T15:34:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-15T15:34:16Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "5a540e94b9b0eb1f6486e2aa1d5d1b796e95c678",
+          "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/trees/5a540e94b9b0eb1f6486e2aa1d5d1b796e95c678"
+        },
+        "url": "https://api.github.com/repos/rungalileo/hallucination-index/git/commits/48a5ca4263830547e4193bde72c43613dda00a1f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlVOT4CRBK7hj4Ov3rIwAAedkIACdEhA38nd8nTjKC1M5SMXj7\nNaqAoQX2O6VYHsajNR6sSVTmrfPWw2CX/B03u6CNUMyuKhClcOHvdYJPnSi+Q5Qe\nxD2tB/jrl1hX3bcxRclscc9xsgGdXJ7lpE4ghCjD1lUWc0C+hjKKqt+1UfY4qb5I\nGjY5nBkPZUnLr1oZndS1cMJPDtL16ljmzsKfN9XzO+KwQCY7zIRVcZUx7fFlMJ88\nKCVJ2i96N78KD5dbWLIaeiOaMgBoq+18otXLxzV5D8jzCkeeczMh4mIMWOdi4xk+\nysmgEiVraA/C1Yq61rhKFTuqx1nSweLLGw1RblANELvMVdHza6ymguixW3IxLRQ=\n=inpm\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5a540e94b9b0eb1f6486e2aa1d5d1b796e95c678\nauthor promptinspector <138050654+promptinspector@users.noreply.github.com> 1700062456 +0530\ncommitter GitHub <noreply@github.com> 1700062456 +0530\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/48a5ca4263830547e4193bde72c43613dda00a1f",
+      "html_url": "https://github.com/rungalileo/hallucination-index/commit/48a5ca4263830547e4193bde72c43613dda00a1f",
+      "comments_url": "https://api.github.com/repos/rungalileo/hallucination-index/commits/48a5ca4263830547e4193bde72c43613dda00a1f/comments",
+      "author": {
+        "login": "promptinspector",
+        "id": 138050654,
+        "node_id": "U_kgDOCDp8Xg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/promptinspector",
+        "html_url": "https://github.com/promptinspector",
+        "followers_url": "https://api.github.com/users/promptinspector/followers",
+        "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+        "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+        "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+        "repos_url": "https://api.github.com/users/promptinspector/repos",
+        "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "promptinspector",
+      "id": 138050654,
+      "node_id": "U_kgDOCDp8Xg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138050654?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/promptinspector",
+      "html_url": "https://github.com/promptinspector",
+      "followers_url": "https://api.github.com/users/promptinspector/followers",
+      "following_url": "https://api.github.com/users/promptinspector/following{/other_user}",
+      "gists_url": "https://api.github.com/users/promptinspector/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/promptinspector/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/promptinspector/subscriptions",
+      "organizations_url": "https://api.github.com/users/promptinspector/orgs",
+      "repos_url": "https://api.github.com/users/promptinspector/repos",
+      "events_url": "https://api.github.com/users/promptinspector/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/promptinspector/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 7
+    },
+    {
+      "login": "erinmikailstaples",
+      "id": 54031531,
+      "node_id": "MDQ6VXNlcjU0MDMxNTMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54031531?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erinmikailstaples",
+      "html_url": "https://github.com/erinmikailstaples",
+      "followers_url": "https://api.github.com/users/erinmikailstaples/followers",
+      "following_url": "https://api.github.com/users/erinmikailstaples/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erinmikailstaples/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erinmikailstaples/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erinmikailstaples/subscriptions",
+      "organizations_url": "https://api.github.com/users/erinmikailstaples/orgs",
+      "repos_url": "https://api.github.com/users/erinmikailstaples/repos",
+      "events_url": "https://api.github.com/users/erinmikailstaples/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erinmikailstaples/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    }
+  ],
+  "releases": [],
+  "languages": {},
+  "readme_html": "<h1 id=\"user-content--llm-hallucination-index---rag-special-\">🌟 LLM Hallucination Index - RAG Special 🌟</h1>\n<h1 id=\"user-content-about-the-index\">About the Index</h1>\n<h1 id=\"user-content-attributes-tested\">Attributes Tested</h1>\n<p>There were two key LLM attributes we wanted to test as part of this Index - context length and open vs. closed-source.</p>\n<h2 id=\"user-content-context-length\">Context Length</h2>\n<p>With the rising popularity of RAG, we wanted to see how context length affects model performance. Providing an LLM with context data is akin to giving a student a cheat sheet for an open-book exam. We tested three scenarios:</p>\n<table>\n<thead>\n<tr>\n<th>Context Length</th>\n<th>Task Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Short Context</td>\n<td>Provide the LLM with &#x3C; 5k tokens of context data, equivalent to a few pages of information.</td>\n</tr>\n<tr>\n<td>Medium Context</td>\n<td>Provide the LLM with 5k - 25k tokens of context data, equivalent to a book chapter.</td>\n</tr>\n<tr>\n<td>Long Context</td>\n<td>Provide the LLM with 40k - 100k tokens of context data, equivalent to an entire book.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-open-vs-closed-source\">Open vs. Closed Source</h2>\n<p>The open-source vs. closed-source software debate has waged on since the Free Software Movement (FSM) in the late 1980s. This debate has reached a fever pitch during the LLM Arms Race. The assumption is closed-source LLMs, with their access to proprietary training data, will perform better, but we wanted to put this assumption to the test.</p>\n<h2 id=\"user-content-prompting-techniques\">Prompting Techniques</h2>\n<p>We experimented with a prompting technique known as Chain-of-Note, which has shown promise for enhancing performance in short-context scenarios, to see if it similarly benefits medium and long contexts.</p>\n<h1 id=\"user-content-models-evaluated\">Models Evaluated</h1>\n<p>We tested 22 models, 10 closed-source models and 12 open-source models, from leading foundation model brands like OpenAI, Anthropic, Meta, Google, Mistral, and more.</p>\n<h1 id=\"user-content-major-trends\">Major Trends</h1>\n<h1 id=\"user-content-overall-winners\">Overall Winners</h1>\n<h1 id=\"user-content-short-context-rag-insights\">Short Context RAG Insights</h1>\n<h1 id=\"user-content-medium-context-rag-insights\">Medium Context RAG Insights</h1>\n<h1 id=\"user-content-long-context-rag-insights\">Long Context RAG Insights</h1>\n<h1 id=\"user-content-methodology\">Methodology</h1>\n<h2 id=\"user-content-short-context-rag-scr\">Short Context RAG (SCR)</h2>\n<p>We evaluated SCR using a rigorous set of datasets to test the model's robustness in handling short contexts. One of our key methodologies was Chainpoll with GPT-4o. This involves polling the model multiple times using a chain of thought technique, allowing us to:</p>\n<ol>\n<li>Quantify potential hallucinations.</li>\n<li>Offer context-based explanations, a crucial feature for RAG systems.</li>\n</ol>\n<h2 id=\"user-content-medium-and-long-context-rag-mcr--lcr\">Medium and Long Context RAG (MCR &#x26; LCR)</h2>\n<p>Our focus here was on assessing models’ ability to comprehensively understand extensive texts in medium and long contexts. The procedure involved:</p>\n<ul>\n<li>Extracting text from 10,000 recent documents of a company.</li>\n<li>Dividing the text into chunks and designating one as the \"needle chunk.\"</li>\n<li>Constructing retrieval questions answerable using the needle chunk embedded in the context.</li>\n</ul>\n<h3 id=\"user-content-context-lengths-evaluated\">Context Lengths Evaluated</h3>\n<ul>\n<li><strong>Medium</strong>: 5k, 10k, 15k, 20k, 25k tokens</li>\n<li><strong>Long</strong>: 40k, 60k, 80k, 100k tokens</li>\n</ul>\n<h3 id=\"user-content-task-design-considerations\">Task Design Considerations</h3>\n<ol>\n<li>All text in context must be from a single domain.</li>\n<li>Responses should be correct even with short context, confirming the influence of longer contexts.</li>\n<li>Questions should not be answerable from pre-training memory or general knowledge.</li>\n<li>Measure the influence of information position by keeping everything constant except the location of the needle.</li>\n<li>Avoid standard datasets to prevent test leakage.</li>\n</ol>\n<h3 id=\"user-content-effect-of-prompting-technique-on-performance\">Effect of Prompting Technique on Performance</h3>\n<p>We experimented with a prompting technique known as Chain-of-Note, which has shown promise for enhancing performance in short-context scenarios, to see if it similarly benefits medium and long contexts.</p>\n<h3 id=\"user-content-evaluation\">Evaluation</h3>\n<p>Adherence to context was evaluated using a custom LLM-based assessment, checking for the relevant answer within the response.</p>\n<h1 id=\"user-content-hallucination-detection\">Hallucination Detection</h1>\n<p>To evaluate a model’s propensity to hallucinate, we employed a high-performance evaluation technique to assess contextual adherence and factual accuracy. Learn more about Galileo’s <a href=\"https://www.rungalileo.io/research\">Context Adherence</a> and <a href=\"https://www.rungalileo.io/blog/chainpoll\">ChainPoll</a>.</p>\n<h1 id=\"user-content-inner-working-of-chainpoll\">Inner Working of ChainPoll</h1>\n<h1 id=\"user-content-about-galileo\">About Galileo</h1>\n<h1 id=\"user-content-get-the-full-report-with-more-insights-\">Get the Full Report with More Insights 🌟</h1>\n<p>For an in-depth understanding, we recommend checking out <a href=\"https://www.rungalileo.io/hallucinationindex\">https://www.rungalileo.io/hallucinationindex</a>.</p>",
+  "_fetched_at": "2026-03-11T18:17:31.174Z"
+}

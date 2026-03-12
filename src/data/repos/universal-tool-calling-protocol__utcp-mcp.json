@@ -1,0 +1,3094 @@
+{
+  "id": 1021369428,
+  "node_id": "R_kgDOPODcVA",
+  "name": "utcp-mcp",
+  "full_name": "universal-tool-calling-protocol/utcp-mcp",
+  "private": false,
+  "owner": {
+    "login": "universal-tool-calling-protocol",
+    "id": 217755609,
+    "node_id": "O_kgDODPqv2Q",
+    "avatar_url": "https://avatars.githubusercontent.com/u/217755609?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/universal-tool-calling-protocol",
+    "html_url": "https://github.com/universal-tool-calling-protocol",
+    "followers_url": "https://api.github.com/users/universal-tool-calling-protocol/followers",
+    "following_url": "https://api.github.com/users/universal-tool-calling-protocol/following{/other_user}",
+    "gists_url": "https://api.github.com/users/universal-tool-calling-protocol/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/universal-tool-calling-protocol/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/universal-tool-calling-protocol/subscriptions",
+    "organizations_url": "https://api.github.com/users/universal-tool-calling-protocol/orgs",
+    "repos_url": "https://api.github.com/users/universal-tool-calling-protocol/repos",
+    "events_url": "https://api.github.com/users/universal-tool-calling-protocol/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/universal-tool-calling-protocol/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp",
+  "description": "All-in-one MCP server that can connect your AI agents to any native endpoint, powered by UTCP",
+  "fork": false,
+  "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp",
+  "forks_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/forks",
+  "keys_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/teams",
+  "hooks_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/hooks",
+  "issue_events_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/events",
+  "assignees_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/tags",
+  "blobs_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/languages",
+  "stargazers_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/stargazers",
+  "contributors_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/contributors",
+  "subscribers_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/subscribers",
+  "subscription_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/subscription",
+  "commits_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/merges",
+  "archive_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/downloads",
+  "issues_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/labels{/name}",
+  "releases_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/deployments",
+  "created_at": "2025-07-17T09:43:59Z",
+  "updated_at": "2026-03-01T15:25:25Z",
+  "pushed_at": "2025-11-27T14:51:29Z",
+  "git_url": "git://github.com/universal-tool-calling-protocol/utcp-mcp.git",
+  "ssh_url": "git@github.com:universal-tool-calling-protocol/utcp-mcp.git",
+  "clone_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp.git",
+  "svn_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp",
+  "homepage": "",
+  "size": 140,
+  "stargazers_count": 193,
+  "watchers_count": 193,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 21,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 1,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "ai-agent",
+    "developer-tools",
+    "llm",
+    "mcp",
+    "model-context-protocol",
+    "python",
+    "utcp"
+  ],
+  "visibility": "public",
+  "forks": 21,
+  "open_issues": 1,
+  "watchers": 193,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "large-language-models",
+  "commits": [
+    {
+      "sha": "5ed1f04660cd276879d0e6bba365dd0a490948dc",
+      "node_id": "C_kwDOPODcVNoAKDVlZDFmMDQ2NjBjZDI3Njg3OWQwZTZiYmEzNjVkZDBhNDkwOTQ4ZGM",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-27T14:51:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-27T14:51:28Z"
+        },
+        "message": "Merge pull request #14 from universal-tool-calling-protocol/rust-mcp-bridge\n\nfeat: add rust mcp bridge",
+        "tree": {
+          "sha": "46f09597170127a78d220cb460c58c496da80c62",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/46f09597170127a78d220cb460c58c496da80c62"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/5ed1f04660cd276879d0e6bba365dd0a490948dc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKGVwCRC1aQ7uu5UhlAAAl2IQAFCTQAjG3ttSzcLSUAD8BWPs\no9WkwkQuBIHLYsUCy3266NxtOWV+hvST2J0Gzwx9RYmz5iWPvBb8jXIgjo04yTD9\nLQ1OIUH4lhA5h3Snh1zJwaWSZGXkrWqQZmZi7NTHf/02+Ny9ok1GRIhYS9KdpZVr\nVkquAeB5QT2AgQzur/lxHhHZC4G+JX5Mx2I8acqlfJFSLqOesQE02vFx+qp+47Y7\nqZrAfYi1fZx1qNtEQHDUOTLz4m9pI2gkOqgWApJOpcvxVY2MAzVnckSowxt7Vg3w\n7Ym14lqjVQlPYqHNpgPv1k0BuoKfP8mBlPVru8G/GwKIgTnAfVCwWCN2qb+IAJbR\nF9l0NXoJrqbG7LYRuanN9iyDRwgtotZ7g382D/ZFk5GzwnvzSQMUXkku4/SZVapo\nJ3X2/ng6WHv7KOSU4EuVs1S0uRItemRaui2Vr3sAYDG4+XamVTwcHxM+x0tvWoeM\nk9Z5iFaC0pAfrCy6U6W32hwP6mDjTFoTPES2JC1JWC8SfqeC72bbnd6IV9+qkNGH\nCoD2WwWlufda0IurMGWmebsqbm1OKogXzp0MFQTT0dDpkvh8sP+vUi+v4gcFadTP\n/r0OVuAyQsjQrVSfbAMdajFVfcHZexJsqnJaDs/i+xcKZBXjxVBMfjPKUxHwnR6Q\nhAd6q3qppcdb1Mhozc24\n=NQJq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 46f09597170127a78d220cb460c58c496da80c62\nparent f0e5fc752325091443c9eff0496d7f72243e1ddc\nparent fe8c5b66ab43a818ecbc6424975b7a5916a55fdf\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1764255088 +0100\ncommitter GitHub <noreply@github.com> 1764255088 +0100\n\nMerge pull request #14 from universal-tool-calling-protocol/rust-mcp-bridge\n\nfeat: add rust mcp bridge",
+          "verified_at": "2025-11-27T14:51:29Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5ed1f04660cd276879d0e6bba365dd0a490948dc",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5ed1f04660cd276879d0e6bba365dd0a490948dc",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5ed1f04660cd276879d0e6bba365dd0a490948dc/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f0e5fc752325091443c9eff0496d7f72243e1ddc",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/f0e5fc752325091443c9eff0496d7f72243e1ddc",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/f0e5fc752325091443c9eff0496d7f72243e1ddc"
+        },
+        {
+          "sha": "fe8c5b66ab43a818ecbc6424975b7a5916a55fdf",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/fe8c5b66ab43a818ecbc6424975b7a5916a55fdf",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/fe8c5b66ab43a818ecbc6424975b7a5916a55fdf"
+        }
+      ]
+    },
+    {
+      "sha": "fe8c5b66ab43a818ecbc6424975b7a5916a55fdf",
+      "node_id": "C_kwDOPODcVNoAKGZlOGM1YjY2YWI0M2E4MThlY2JjNjQyNDk3NWI3YTU5MTZhNTVmZGY",
+      "commit": {
+        "author": {
+          "name": "Kamil Mosciszko",
+          "email": "kamil.mazurek319@gmail.com",
+          "date": "2025-11-27T14:48:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-27T14:48:59Z"
+        },
+        "message": "Update rust_mcp_bridge/Cargo.toml\n\nCo-authored-by: cubic-dev-ai[bot] <191113872+cubic-dev-ai[bot]@users.noreply.github.com>",
+        "tree": {
+          "sha": "46f09597170127a78d220cb460c58c496da80c62",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/46f09597170127a78d220cb460c58c496da80c62"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/fe8c5b66ab43a818ecbc6424975b7a5916a55fdf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKGTcCRC1aQ7uu5UhlAAAXcoQAIzH4khyuqPNGpZWmrVOKeAl\nWdeQXv6yQjfymIvCQzrgg0AwaoipJ0nWZHVurLVlFs4OzLqsUwWsxD/YjzOrtNFx\nXi7EJyfRNocdNquEkcwWw+PGWWzfy1LfCJpJM+1QgfkEaImBECBANypds/XIcUDL\nlBbzkoKamhOp/YUzLcr8M4JqTJM1beoXCWgh+NIrPtG+Jd6QopoV33YdxxgZbne+\nAO4JN0uQE6dyWmM4mJr8fdZeFvqEwZ92bmJRpHlt1qlx0++ram2008c6AH3kewcl\nlp0xJX/CI4GOh4RdoC5ZIcOnzDBWJaryEvHPnn13w05lMv4dCfZP18KcDRJRNn6v\nAVRk85Yl/PZhg+rOIy8tbL4oDgIRWTOtEvrmlxkfFndCKXfcI4pAXbU3HrsxzPWF\njPvjwXu4r8eQ9Oemht48XCGBimZAOWuXMigXpYBHCsD5wmckkp93yce+ROcnS9qW\n37X9O2s4zHhqRcqF7og+aOhgVJAmNfb75LB7xA1z37BXUZq9plNFgVEepp9mGdxL\nzb9eva46O55DbeaMRIocnuJLbgt6Xi0HJ/sE10Ly6/qtd8s6Imm9nt7RWqBgvUX/\n2y8hHvFX/Dy/DostZLkgpc/YAsvGNN+AWLVfw4sdXruengUghzjxlZTlF5NwXIXz\ntmVB/OOKjoAtHIrgCOqI\n=IAIq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 46f09597170127a78d220cb460c58c496da80c62\nparent ab37aa85e5b47a244bcec1df738ec19784ccbd2f\nauthor Kamil Mosciszko <kamil.mazurek319@gmail.com> 1764254939 +0100\ncommitter GitHub <noreply@github.com> 1764254939 +0100\n\nUpdate rust_mcp_bridge/Cargo.toml\n\nCo-authored-by: cubic-dev-ai[bot] <191113872+cubic-dev-ai[bot]@users.noreply.github.com>",
+          "verified_at": "2025-11-27T14:49:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/fe8c5b66ab43a818ecbc6424975b7a5916a55fdf",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/fe8c5b66ab43a818ecbc6424975b7a5916a55fdf",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/fe8c5b66ab43a818ecbc6424975b7a5916a55fdf/comments",
+      "author": {
+        "login": "Raezil",
+        "id": 170965471,
+        "node_id": "U_kgDOCjC53w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/170965471?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raezil",
+        "html_url": "https://github.com/Raezil",
+        "followers_url": "https://api.github.com/users/Raezil/followers",
+        "following_url": "https://api.github.com/users/Raezil/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raezil/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raezil/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raezil/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raezil/orgs",
+        "repos_url": "https://api.github.com/users/Raezil/repos",
+        "events_url": "https://api.github.com/users/Raezil/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raezil/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ab37aa85e5b47a244bcec1df738ec19784ccbd2f",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/ab37aa85e5b47a244bcec1df738ec19784ccbd2f",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/ab37aa85e5b47a244bcec1df738ec19784ccbd2f"
+        }
+      ]
+    },
+    {
+      "sha": "ab37aa85e5b47a244bcec1df738ec19784ccbd2f",
+      "node_id": "C_kwDOPODcVNoAKGFiMzdhYTg1ZTViNDdhMjQ0YmNlYzFkZjczOGVjMTk3ODRjY2JkMmY",
+      "commit": {
+        "author": {
+          "name": "Raezil",
+          "email": "kamil.mazurek319@gmail.com",
+          "date": "2025-11-27T14:20:07Z"
+        },
+        "committer": {
+          "name": "Raezil",
+          "email": "kamil.mazurek319@gmail.com",
+          "date": "2025-11-27T14:20:07Z"
+        },
+        "message": "feat: add rust mcp bridge",
+        "tree": {
+          "sha": "2f6993cc40affbb55be68b8407f4e168b907f57d",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/2f6993cc40affbb55be68b8407f4e168b907f57d"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/ab37aa85e5b47a244bcec1df738ec19784ccbd2f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/ab37aa85e5b47a244bcec1df738ec19784ccbd2f",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/ab37aa85e5b47a244bcec1df738ec19784ccbd2f",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/ab37aa85e5b47a244bcec1df738ec19784ccbd2f/comments",
+      "author": {
+        "login": "Raezil",
+        "id": 170965471,
+        "node_id": "U_kgDOCjC53w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/170965471?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raezil",
+        "html_url": "https://github.com/Raezil",
+        "followers_url": "https://api.github.com/users/Raezil/followers",
+        "following_url": "https://api.github.com/users/Raezil/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raezil/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raezil/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raezil/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raezil/orgs",
+        "repos_url": "https://api.github.com/users/Raezil/repos",
+        "events_url": "https://api.github.com/users/Raezil/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raezil/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raezil",
+        "id": 170965471,
+        "node_id": "U_kgDOCjC53w",
+        "avatar_url": "https://avatars.githubusercontent.com/u/170965471?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raezil",
+        "html_url": "https://github.com/Raezil",
+        "followers_url": "https://api.github.com/users/Raezil/followers",
+        "following_url": "https://api.github.com/users/Raezil/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raezil/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raezil/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raezil/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raezil/orgs",
+        "repos_url": "https://api.github.com/users/Raezil/repos",
+        "events_url": "https://api.github.com/users/Raezil/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raezil/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f0e5fc752325091443c9eff0496d7f72243e1ddc",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/f0e5fc752325091443c9eff0496d7f72243e1ddc",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/f0e5fc752325091443c9eff0496d7f72243e1ddc"
+        }
+      ]
+    },
+    {
+      "sha": "f0e5fc752325091443c9eff0496d7f72243e1ddc",
+      "node_id": "C_kwDOPODcVNoAKGYwZTVmYzc1MjMyNTA5MTQ0M2M5ZWZmMDQ5NmQ3ZjcyMjQzZTFkZGM",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-13T18:25:04Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-13T18:25:04Z"
+        },
+        "message": "Update code mode",
+        "tree": {
+          "sha": "c90e43c1515dcc2e2e073537d5a349a2c14de32f",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/c90e43c1515dcc2e2e073537d5a349a2c14de32f"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/f0e5fc752325091443c9eff0496d7f72243e1ddc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/f0e5fc752325091443c9eff0496d7f72243e1ddc",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/f0e5fc752325091443c9eff0496d7f72243e1ddc",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/f0e5fc752325091443c9eff0496d7f72243e1ddc/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "33b1a30bb80c928d86c43282b1f444c078555fbb",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/33b1a30bb80c928d86c43282b1f444c078555fbb",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/33b1a30bb80c928d86c43282b1f444c078555fbb"
+        }
+      ]
+    },
+    {
+      "sha": "33b1a30bb80c928d86c43282b1f444c078555fbb",
+      "node_id": "C_kwDOPODcVNoAKDMzYjFhMzBiYjgwYzkyOGQ4NmM0MzI4MmIxZjQ0NGMwNzg1NTVmYmI",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-11T09:33:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-11T09:33:19Z"
+        },
+        "message": "Merge pull request #12 from Prikalel/VELIKIY_PRIKALEL\n\nfix bugs",
+        "tree": {
+          "sha": "0b7b78008866a498abc66bfb57a8a2965787aef1",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/0b7b78008866a498abc66bfb57a8a2965787aef1"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/33b1a30bb80c928d86c43282b1f444c078555fbb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpEwLfCRC1aQ7uu5UhlAAArYgQAB26emhSongUjDCcnpN6xT3n\n4NJ77JB8V50pD3XxQQZXzI9YFaD6Gyqyu+1gAOeKji+SdkPWCuhBDeoEC1xKai1w\ngAcg6mya9LYmsAGlOwGgpQPdq+0r/B6FnH09seirLeIpOgJ396AzK24G3YHWZOYm\ngBKDrtxtd7gCD23YEuS/VbWEIAlm4g9NuJ6W8LWpaq/vOzH63TUaJ6wGY+JX5v6m\nZMYsUGj4DFt0KBWl1Z/ag1ajc3la6WT4ufqrkX8qDHONQsNJSfJVXkDT6ajRiahg\nYZUeyPc+RF1JBxaWFwEBBpcAwLHGLTyb5zVAD7MVBn5rEZORTvY3ugT5mMNZISzY\nociXMY60kax9djvuUy6SFySTHwybe00r1dvtvcH4EkJs6JMNnztaELazoaK0RW2c\nWRNdo2MIeO29IQ0sDggF/cKssI13gnjByq+sJfwy4gDVWlbvlQgj/fX6Q9jpTkFH\n+pcOGEFYzKjJK2tHvhut+XFxrjc0vOdG/xaxieWueCsa6SdOsUw6JlRk3QOXCcDO\nfHoDxBYLc9vWdlCbdaulM2BSIaBSX/cZjLF5WyEit0noeKHLv+u6iUdi+EhpOaS/\n1sooZCFyL8SMb7l9m5xAigjHri15/FxwE/39kmwZPrmCnJ8B5OxIgGPqOAxEeAYZ\njEDHZntEapkI+d0P/fSa\n=WefJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0b7b78008866a498abc66bfb57a8a2965787aef1\nparent 5eb3aaf714bae5e8b743dea3baccc3f428b600b3\nparent c59f3487f0d10e75309a6b094b3b950212b9b407\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1762853599 +0100\ncommitter GitHub <noreply@github.com> 1762853599 +0100\n\nMerge pull request #12 from Prikalel/VELIKIY_PRIKALEL\n\nfix bugs",
+          "verified_at": "2025-11-11T09:33:19Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/33b1a30bb80c928d86c43282b1f444c078555fbb",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/33b1a30bb80c928d86c43282b1f444c078555fbb",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/33b1a30bb80c928d86c43282b1f444c078555fbb/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5eb3aaf714bae5e8b743dea3baccc3f428b600b3",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5eb3aaf714bae5e8b743dea3baccc3f428b600b3",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5eb3aaf714bae5e8b743dea3baccc3f428b600b3"
+        },
+        {
+          "sha": "c59f3487f0d10e75309a6b094b3b950212b9b407",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/c59f3487f0d10e75309a6b094b3b950212b9b407",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/c59f3487f0d10e75309a6b094b3b950212b9b407"
+        }
+      ]
+    },
+    {
+      "sha": "5eb3aaf714bae5e8b743dea3baccc3f428b600b3",
+      "node_id": "C_kwDOPODcVNoAKDVlYjNhYWY3MTRiYWU1ZThiNzQzZGVhM2JhY2NjM2Y0MjhiNjAwYjM",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-08T16:48:01Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-08T16:48:01Z"
+        },
+        "message": "Add code mode mcp server",
+        "tree": {
+          "sha": "8672f1b17e351f28c9ccc83daa6bcf8a2da3d693",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/8672f1b17e351f28c9ccc83daa6bcf8a2da3d693"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/5eb3aaf714bae5e8b743dea3baccc3f428b600b3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5eb3aaf714bae5e8b743dea3baccc3f428b600b3",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5eb3aaf714bae5e8b743dea3baccc3f428b600b3",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5eb3aaf714bae5e8b743dea3baccc3f428b600b3/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd"
+        }
+      ]
+    },
+    {
+      "sha": "8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd",
+      "node_id": "C_kwDOPODcVNoAKDhjZTYxMjBmYzcyMGI2NWJjOGUzNGE1NWMxYWExMGE3M2I1ZDZmZGQ",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-05T12:28:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-05T12:28:56Z"
+        },
+        "message": "Merge pull request #13 from universal-tool-calling-protocol/feat/add_ts_bridge\n\nAdd TS utcp-mcp bridge",
+        "tree": {
+          "sha": "1168cea78294169fa127b16b3ad8ba5b6601aff3",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/1168cea78294169fa127b16b3ad8ba5b6601aff3"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpC0MICRC1aQ7uu5UhlAAA1rIQADaTpJm6MrBqv8HCDqNOGpNi\ni27BM3okGYCx5O2t0BktX/AEow5R6T2IcYNcoP0U0UXWjpTJKPX7Vc+RW5EvVscV\nrzbDgqG84AiSQNA9V5gLfG7XtYlFGr/FArTWVIr6evaPUy7TwLFxODuRQqlLn93g\ncclaBWGn+dUsThY2Ofl4iQ8T+/iZTaQc6tW4tZrDU1YCFOa4k/roFHU1IFye1O1Y\nkHGdXEDhJjO5JS2XdlceJN3xPqpo2c2QGH74WRdhGsF8sFKtjpbBz8LQXwplo9mp\njUoJhm8SJugda9ApetlMamFnsxj6Em6aS5d17ey4o3YRQKcyIRRRNyYcclK0csCq\nVb0KXLCImqf4utKhxSoKUwdsDnIe0wkFm1G14ek5kGBI0eMXXZia8X4NLGCTR8z7\nklJmc872QU9DdwY/ho9w21QUOMlFJ11dWVn2fVL4nA97HhA3RQMOgZiQvTbNEbLH\nRjr2qR08E2xl8UunKah8GjkHqGkN5GYtL+JWKkECiD+0BD69y0gTExyQHUns8u5d\njPgjnRMaydAl+e6KixL86ZoU9/0/OGFvh4lTGiz9/Nhx+29efnuAdkfqmk43scdT\ntRi4quq+4LQbftCWIYVm1iR3qVX2NkQZgo2M8KWyTvtIeeRb5DtK1Be5WsyDOZuI\nyNdqi+EFF7tu0Uv5GLb0\n=xOlO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1168cea78294169fa127b16b3ad8ba5b6601aff3\nparent 6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148\nparent 948a3cab75120f088945554676822168bfb3ebc8\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1762345736 +0100\ncommitter GitHub <noreply@github.com> 1762345736 +0100\n\nMerge pull request #13 from universal-tool-calling-protocol/feat/add_ts_bridge\n\nAdd TS utcp-mcp bridge",
+          "verified_at": "2025-11-05T12:28:57Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/8ce6120fc720b65bc8e34a55c1aa10a73b5d6fdd/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148"
+        },
+        {
+          "sha": "948a3cab75120f088945554676822168bfb3ebc8",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/948a3cab75120f088945554676822168bfb3ebc8",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/948a3cab75120f088945554676822168bfb3ebc8"
+        }
+      ]
+    },
+    {
+      "sha": "948a3cab75120f088945554676822168bfb3ebc8",
+      "node_id": "C_kwDOPODcVNoAKDk0OGEzY2FiNzUxMjBmMDg4OTQ1NTU0Njc2ODIyMTY4YmZiM2ViYzg",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-05T12:28:15Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-11-05T12:28:15Z"
+        },
+        "message": "move python to separate folder, and make typescript version executable via npx",
+        "tree": {
+          "sha": "1168cea78294169fa127b16b3ad8ba5b6601aff3",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/1168cea78294169fa127b16b3ad8ba5b6601aff3"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/948a3cab75120f088945554676822168bfb3ebc8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/948a3cab75120f088945554676822168bfb3ebc8",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/948a3cab75120f088945554676822168bfb3ebc8",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/948a3cab75120f088945554676822168bfb3ebc8/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2e1a23b9656e3ad229abe74a8f2d4ae9247997be",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/2e1a23b9656e3ad229abe74a8f2d4ae9247997be",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/2e1a23b9656e3ad229abe74a8f2d4ae9247997be"
+        }
+      ]
+    },
+    {
+      "sha": "2e1a23b9656e3ad229abe74a8f2d4ae9247997be",
+      "node_id": "C_kwDOPODcVNoAKDJlMWEyM2I5NjU2ZTNhZDIyOWFiZTc0YThmMmQ0YWU5MjQ3OTk3YmU",
+      "commit": {
+        "author": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T11:51:30Z"
+        },
+        "committer": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T11:51:30Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "20130ca92459cd5a2a32907e9dcd724a22fd8fe9",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/20130ca92459cd5a2a32907e9dcd724a22fd8fe9"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/2e1a23b9656e3ad229abe74a8f2d4ae9247997be",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/2e1a23b9656e3ad229abe74a8f2d4ae9247997be",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/2e1a23b9656e3ad229abe74a8f2d4ae9247997be",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/2e1a23b9656e3ad229abe74a8f2d4ae9247997be/comments",
+      "author": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7"
+        }
+      ]
+    },
+    {
+      "sha": "4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7",
+      "node_id": "C_kwDOPODcVNoAKDRhZjAxMmQ0OGIyZjJkMGNjZjZlMDlkOWZlYTcwOTRjMTZiMGZkYzc",
+      "commit": {
+        "author": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T06:04:33Z"
+        },
+        "committer": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T06:04:33Z"
+        },
+        "message": "fix pkg imports",
+        "tree": {
+          "sha": "a801139f53f8e38d5095dfd7e94f1e710bb1ccee",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/a801139f53f8e38d5095dfd7e94f1e710bb1ccee"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/4af012d48b2f2d0ccf6e09d9fea7094c16b0fdc7/comments",
+      "author": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9"
+        }
+      ]
+    },
+    {
+      "sha": "e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9",
+      "node_id": "C_kwDOPODcVNoAKGU0MjZiM2M3ZTNhZDhiNTMwNjhhODc0NWJhNjViNWQ1ZjQ4YzFhYTk",
+      "commit": {
+        "author": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T06:02:24Z"
+        },
+        "committer": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T06:02:24Z"
+        },
+        "message": "update docs",
+        "tree": {
+          "sha": "3d1eea743285d3a5a7dd0fcc3ace616938dba0b8",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/3d1eea743285d3a5a7dd0fcc3ace616938dba0b8"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/e426b3c7e3ad8b53068a8745ba65b5d5f48c1aa9/comments",
+      "author": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "276a8741ebc74719eda0d7e9e9da7a71d322827d",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/276a8741ebc74719eda0d7e9e9da7a71d322827d",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/276a8741ebc74719eda0d7e9e9da7a71d322827d"
+        }
+      ]
+    },
+    {
+      "sha": "276a8741ebc74719eda0d7e9e9da7a71d322827d",
+      "node_id": "C_kwDOPODcVNoAKDI3NmE4NzQxZWJjNzQ3MTllZGEwZDdlOWU5ZGE3YTcxZDMyMjgyN2Q",
+      "commit": {
+        "author": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T05:39:26Z"
+        },
+        "committer": {
+          "name": "PylotLight",
+          "email": "lochois@gmail.com",
+          "date": "2025-11-01T05:39:26Z"
+        },
+        "message": "add ts utcp-mcp bridge",
+        "tree": {
+          "sha": "b71855f898df9ff454d315671bdba8a7f10d8bcf",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/b71855f898df9ff454d315671bdba8a7f10d8bcf"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/276a8741ebc74719eda0d7e9e9da7a71d322827d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/276a8741ebc74719eda0d7e9e9da7a71d322827d",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/276a8741ebc74719eda0d7e9e9da7a71d322827d",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/276a8741ebc74719eda0d7e9e9da7a71d322827d/comments",
+      "author": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "PylotLight",
+        "id": 7006124,
+        "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/PylotLight",
+        "html_url": "https://github.com/PylotLight",
+        "followers_url": "https://api.github.com/users/PylotLight/followers",
+        "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+        "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+        "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+        "repos_url": "https://api.github.com/users/PylotLight/repos",
+        "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148"
+        }
+      ]
+    },
+    {
+      "sha": "c59f3487f0d10e75309a6b094b3b950212b9b407",
+      "node_id": "C_kwDOPODcVNoAKGM1OWYzNDg3ZjBkMTBlNzUzMDlhNmIwOTRiM2I5NTAyMTJiOWI0MDc",
+      "commit": {
+        "author": {
+          "name": "Poklonsky Alex",
+          "email": "Aleksey.Poklonsky@infotecs.ru",
+          "date": "2025-09-10T20:42:10Z"
+        },
+        "committer": {
+          "name": "Poklonsky Alex",
+          "email": "Aleksey.Poklonsky@infotecs.ru",
+          "date": "2025-09-10T20:42:10Z"
+        },
+        "message": "fix bugs",
+        "tree": {
+          "sha": "76151194f0f8fee08ec400530f61381685effd50",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/76151194f0f8fee08ec400530f61381685effd50"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/c59f3487f0d10e75309a6b094b3b950212b9b407",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/c59f3487f0d10e75309a6b094b3b950212b9b407",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/c59f3487f0d10e75309a6b094b3b950212b9b407",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/c59f3487f0d10e75309a6b094b3b950212b9b407/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148"
+        }
+      ]
+    },
+    {
+      "sha": "6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+      "node_id": "C_kwDOPODcVNoAKDZhYzY4NmE2ZTJkZWQ1YzBkNGYxZWQ5NDY3YWExYjE0YjRkZmQxNDg",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-09-02T14:45:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-09-02T14:45:10Z"
+        },
+        "message": "Merge pull request #1 from perrozzi/main\n\nadd example and README for utcp-mcp proxy using strands agents",
+        "tree": {
+          "sha": "863983e790b53883fe606bb5ae3d46f5236e64b4",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/863983e790b53883fe606bb5ae3d46f5236e64b4"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJotwL2CRC1aQ7uu5UhlAAAgYwQAKCM5SHyYh+RuphvMUFupPLC\nxPInKOkrOxtBWdkVvU0AxvbHoGuIzlj0MjWKIDKXymK8q1jQR/wimOlwfmfllrpm\nZVR6MNcRzs6s81EHM0yS2uLTuLUU8vCgiF8HfL6dtId6XTjzEgibNb0Mtxju1AyB\nKclq1TBLA7B74k6Io0Qe8dQRzp6gLuMLmfWsqdIHb4NOcd5XDXHSEe/pmhq9kLXZ\ncflL2xdVODnJA3jEyucAqkzhVj2J7cVM54vCzMVU3kN3cxrIL4fCmmc6ILxXE3Sc\ntg2J5zOs5M/GBFz3FM+heRSoYAkKpoZorQ9r8dIw/Nu+gZsRAkKqoFTXi830qbd1\npylKeuV9LRVljKXjwQdupOpHvS2stpLO4Rbr0JKFhtoac6siNjWGQazWyb/DMjWn\ndT8915vTbF9e4ErRnMYPaxwXOU8INfum6T80kPfFGYGBu8GOAFVtzYL1H5EXJKV4\nNnCZVtZ0KaVykCpjfP7lQ2SG1ZxX2uGdkUOxbsiER0WdTaw2ZnGPN2GyLMnVhmYk\niIZ1TSiBlCeWlLj/HXrrMDjbcn3aZuSe9DbHPxxQFvwZDOKYyq0dlFrDPkOrXTko\nlioOZbi77xR37M8JZMIFkmIPhzb416jvwi018DXYSB7gZYKf+VCVy1ilDH+40nCF\nre59aq6tlOqoCzHPMR4l\n=doBS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 863983e790b53883fe606bb5ae3d46f5236e64b4\nparent 58f0fd2e804430e502d1807e494ee0edb6b360b3\nparent 57cd7ddf429fdc84c823a4fa81718a5308b313db\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1756824310 +0200\ncommitter GitHub <noreply@github.com> 1756824310 +0200\n\nMerge pull request #1 from perrozzi/main\n\nadd example and README for utcp-mcp proxy using strands agents",
+          "verified_at": "2025-09-02T14:45:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/6ac686a6e2ded5c0d4f1ed9467aa1b14b4dfd148/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "58f0fd2e804430e502d1807e494ee0edb6b360b3",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/58f0fd2e804430e502d1807e494ee0edb6b360b3",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/58f0fd2e804430e502d1807e494ee0edb6b360b3"
+        },
+        {
+          "sha": "57cd7ddf429fdc84c823a4fa81718a5308b313db",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/57cd7ddf429fdc84c823a4fa81718a5308b313db",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/57cd7ddf429fdc84c823a4fa81718a5308b313db"
+        }
+      ]
+    },
+    {
+      "sha": "58f0fd2e804430e502d1807e494ee0edb6b360b3",
+      "node_id": "C_kwDOPODcVNoAKDU4ZjBmZDJlODA0NDMwZTUwMmQxODA3ZTQ5NGVlMGVkYjZiMzYwYjM",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-09-02T14:44:40Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-09-02T14:44:40Z"
+        },
+        "message": "Merge pull request #8 from universal-tool-calling-protocol/edujuan-patch-3\n\nUpdate README.md",
+        "tree": {
+          "sha": "cb5921f12cce01346709b7cb65b0f72f9da5b215",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/cb5921f12cce01346709b7cb65b0f72f9da5b215"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/58f0fd2e804430e502d1807e494ee0edb6b360b3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJotwLYCRC1aQ7uu5UhlAAACE0QAHAD6Vno9Onb5zHCH0cFouBJ\nfLjfvYR/W2+2ZTsLqXx/FnRMGHeERltdkjzsYiYeLVnxVkV/FjN+cLVYufZ1rmkT\nm0rsuYpBEXkXAN9Ky9LjI+G30DbqgyFzRDnrfPWBPJCV8IcZehQxEExDSFPhgIxq\nJcI4CfMplakXwoPdUTonU0jrfIoS2p8W/w5hCaMec23tW3eQVdGoha9ojMKV1BLZ\nke60TV5ZweDBkDxLBTo3yDj4Pp1Hw0oXzZucHbncKuYg6JiMzudvhRvYp02czelC\nlb8r5bx5wOrY9NEgQoRqj1aT3qHKKs0qeWxCNYBcLIQ+tMGNB8ClcYLw6U9jIVy4\nzvwsq41tK872hMoys0ljt8ZrZWVwokqzWFDy86Ao+T16rsbbBGSD0mZwhTENE8ZA\ngQUaOiQ5g/wVBVfcfkPH7nOqGhYtrWWGTYILhyxSCSQoeSr9Pg3EztD749iK0yzh\nL+etUwRsj97CicRkPk4Mi2qZLsDU7SZO2ciStSCbrVcZeoilzCV1indxyQ6WKGyD\nNAifXYy9Xon4LDZGdJtji90/CDl+RQ2pVEnEgxABsXS2Ppduo57d6f8JVG9RyfZR\nPcbRASu4ELFfHbQ17CKEevOcEtOUvr6QxeJ7yBFEw23pYRKBrIgxhY41oa/wPYHu\n8BBs5mnMr2VRs2qFmzzQ\n=mmBI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cb5921f12cce01346709b7cb65b0f72f9da5b215\nparent 14fae18b5694447886fd02385dedab124517dc00\nparent 4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1756824280 +0200\ncommitter GitHub <noreply@github.com> 1756824280 +0200\n\nMerge pull request #8 from universal-tool-calling-protocol/edujuan-patch-3\n\nUpdate README.md",
+          "verified_at": "2025-09-02T14:44:40Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/58f0fd2e804430e502d1807e494ee0edb6b360b3",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/58f0fd2e804430e502d1807e494ee0edb6b360b3",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/58f0fd2e804430e502d1807e494ee0edb6b360b3/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "14fae18b5694447886fd02385dedab124517dc00",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/14fae18b5694447886fd02385dedab124517dc00",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/14fae18b5694447886fd02385dedab124517dc00"
+        },
+        {
+          "sha": "4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2"
+        }
+      ]
+    },
+    {
+      "sha": "14fae18b5694447886fd02385dedab124517dc00",
+      "node_id": "C_kwDOPODcVNoAKDE0ZmFlMThiNTY5NDQ0Nzg4NmZkMDIzODVkZWRhYjEyNDUxN2RjMDA",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-25T10:15:23Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-25T10:15:23Z"
+        },
+        "message": "Update the utcp mcp server to 1.0.0",
+        "tree": {
+          "sha": "b44a920922a4827772bb7f13a92f9fdeb2138d3b",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/b44a920922a4827772bb7f13a92f9fdeb2138d3b"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/14fae18b5694447886fd02385dedab124517dc00",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/14fae18b5694447886fd02385dedab124517dc00",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/14fae18b5694447886fd02385dedab124517dc00",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/14fae18b5694447886fd02385dedab124517dc00/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5a4f5932f7c959a64cb68cae5616d8d217e35cc7"
+        }
+      ]
+    },
+    {
+      "sha": "4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2",
+      "node_id": "C_kwDOPODcVNoAKDRlODA0ZWQyY2E1Y2RiZWU2ZmIxZDY4ZGRiOGZjODBmNmVmNDY0ZDI",
+      "commit": {
+        "author": {
+          "name": "Juan V.",
+          "email": "69489757+edujuan@users.noreply.github.com",
+          "date": "2025-08-07T13:53:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-07T13:53:37Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "dd1157feee981e902f8c9f6e556c3cd8480abde1",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/dd1157feee981e902f8c9f6e556c3cd8480abde1"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJolK/hCRC1aQ7uu5UhlAAAykQQABQUaVxXimG2DOxqe/UkzrFZ\n4dsEvBt3K5fAEEl9cO8FZknNhO/KjjKwhtx4PqU/YPEaVPBJzjlkl87A3UM3GhIU\ndnzL3BZO8+VJlXvdGEtCcxC0WFxXIlXEGnzWk/GQHJeJCkyqMDOu1BV47lqUpT+K\nlgaXxwfMlJNJW4GctIhwM90pHVh0k+JhVRY/AfGs0FGucwUeSV0XnOGwX8kKiDoP\nkoiTCdeAnnDBWAomz5HF526gUZeer2vJHKgr5RS+khAzWVF4k7zNY2inCEgULVua\nk0sjk2KXaAoH5ghyIKrnbeEc+WNf6BLPkslfhWISH5kFwMZpb9acdzSz/IVO/nie\nHiI0s3ipzEX/iijer9dbH+C5F8WLsoR8/bCSn9IUHFru4JUkCZs24/JU52t9mvlN\n4l1f6WTH9uu5ecbTTh3ilSurvKPPSO1kTWCF2K2JhbwjnVqdX66nxOrRRlnAF1OI\nTw21+G547vdxQZhNkk4Y4rxSYTRcv3AWtqhhd1f5iLk4jLLesTOIkjqyuFAKjdI7\nNmAOfmhmA1Nt9sKIa1tRfG3TdxMw/jT+0cx7hWWlxjn1U8w2Uh5pMTXuEpy8R5P8\n/54GplY0V/kkSaGWI7r3Vyb+ksUsgWXlE0h8oIbNAJsTO6kN4yiedKHtnXyOnkj5\nlaIcQVYOL0uWdp9OW1aH\n=NESB\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dd1157feee981e902f8c9f6e556c3cd8480abde1\nparent 5a4f5932f7c959a64cb68cae5616d8d217e35cc7\nauthor Juan V. <69489757+edujuan@users.noreply.github.com> 1754574817 +0200\ncommitter GitHub <noreply@github.com> 1754574817 +0200\n\nUpdate README.md",
+          "verified_at": "2025-08-07T13:53:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/4e804ed2ca5cdbee6fb1d68ddb8fc80f6ef464d2/comments",
+      "author": {
+        "login": "edujuan",
+        "id": 69489757,
+        "node_id": "MDQ6VXNlcjY5NDg5NzU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69489757?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/edujuan",
+        "html_url": "https://github.com/edujuan",
+        "followers_url": "https://api.github.com/users/edujuan/followers",
+        "following_url": "https://api.github.com/users/edujuan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/edujuan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/edujuan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/edujuan/subscriptions",
+        "organizations_url": "https://api.github.com/users/edujuan/orgs",
+        "repos_url": "https://api.github.com/users/edujuan/repos",
+        "events_url": "https://api.github.com/users/edujuan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/edujuan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5a4f5932f7c959a64cb68cae5616d8d217e35cc7"
+        }
+      ]
+    },
+    {
+      "sha": "5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+      "node_id": "C_kwDOPODcVNoAKDVhNGY1OTMyZjdjOTU5YTY0Y2I2OGNhZTU2MTZkOGQyMTdlMzVjYzc",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T13:23:17Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T13:23:17Z"
+        },
+        "message": "Merge branch 'main' of https://github.com/universal-tool-calling-protocol/utcp-mcp",
+        "tree": {
+          "sha": "67c6a18e74b05f329703065e3c993ae7ac716508",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/67c6a18e74b05f329703065e3c993ae7ac716508"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5a4f5932f7c959a64cb68cae5616d8d217e35cc7",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5a4f5932f7c959a64cb68cae5616d8d217e35cc7/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ba0819e4ee7d20e41162dc56de392fb7b1ed7789",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/ba0819e4ee7d20e41162dc56de392fb7b1ed7789",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/ba0819e4ee7d20e41162dc56de392fb7b1ed7789"
+        },
+        {
+          "sha": "b510a1e88fb4edb538ad660a0b9faa31929372ee",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/b510a1e88fb4edb538ad660a0b9faa31929372ee",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/b510a1e88fb4edb538ad660a0b9faa31929372ee"
+        }
+      ]
+    },
+    {
+      "sha": "ba0819e4ee7d20e41162dc56de392fb7b1ed7789",
+      "node_id": "C_kwDOPODcVNoAKGJhMDgxOWU0ZWU3ZDIwZTQxMTYyZGM1NmRlMzkyZmI3YjFlZDc3ODk",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T13:23:14Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T13:23:14Z"
+        },
+        "message": "Smaller search and tool to get all tool info",
+        "tree": {
+          "sha": "389960a3547f7fae84fc58ee78a9332ff44988e5",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/389960a3547f7fae84fc58ee78a9332ff44988e5"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/ba0819e4ee7d20e41162dc56de392fb7b1ed7789",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/ba0819e4ee7d20e41162dc56de392fb7b1ed7789",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/ba0819e4ee7d20e41162dc56de392fb7b1ed7789",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/ba0819e4ee7d20e41162dc56de392fb7b1ed7789/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/8411db78b62d044f8947274a2b0ed1a4c6f62f32"
+        }
+      ]
+    },
+    {
+      "sha": "b510a1e88fb4edb538ad660a0b9faa31929372ee",
+      "node_id": "C_kwDOPODcVNoAKGI1MTBhMWU4OGZiNGVkYjUzOGFkNjYwYTBiOWZhYTMxOTI5MzcyZWU",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T12:56:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-07T12:56:30Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "76b63699f26d8a55c5a3313ecf755595f3d93289",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/76b63699f26d8a55c5a3313ecf755595f3d93289"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/b510a1e88fb4edb538ad660a0b9faa31929372ee",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJolKJ+CRC1aQ7uu5UhlAAA8M4QAAFGaklnCW+Fvs/vJfsOxZGk\nTl0RUG1Tov0O99IBelYuiE4IfxNraNawKS5hZ0gYFbF6o16zh3e+krY8GcCLFscI\nAz/G/phLfKhjqX7W2uGUqlLxxY4+E5XINvBSlcg+3lPvXKZwgRd8VrnEY+0MTKaB\nYtIuWquXvOwPOOgMu/bDaf8STreM/OzruvF5D6HB+Z/s2JFRWyxAK+V3/VkKOUBP\n3ZgKFUGZYLVTjwzjHZ3O85oqE/+HDDAJkcPho/NnLQRqx2UzQ5lh6AW8qyFb7MXx\nEsKYoYh+tLKEfdVV8E6S3qprHsg5An6z1mlU4O2xdECm1g+fT9wheNrQhWDgf/Ns\ncBroKwHCjtjidbX0y+0VFhCbo/p5t9wFRvbq9B3Qeci6xs8X34Y/jiWCDTXxk0Zf\nZZe/Yrc2lcjKj09huJWTjY7tG5hJCferbJ8aH7TjsAzdbGOkYnEsZJz9R5we1k0s\nnVq3KsbTl3fgXUCTyIIDjTMhZr3cd2YscnK/DniteXrzMEF7hVbLNHAu2DtJ9492\nIcb056pVRjmr7X8RQlVU2ceTkVwUPzcrFUI7i0OeSoZUEnOpyQz6/RrSORnUDJnr\nS7GmczGPwFlacgJiSYrLwyRu7S4iJaypGaTVrOLL28P3IkCost6UR1D6rVwYTPJb\nRfljRSD/3ld4fsDPYWUB\n=TzXA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 76b63699f26d8a55c5a3313ecf755595f3d93289\nparent 8411db78b62d044f8947274a2b0ed1a4c6f62f32\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1754571390 +0200\ncommitter GitHub <noreply@github.com> 1754571390 +0200\n\nUpdate README.md",
+          "verified_at": "2025-08-07T12:56:31Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/b510a1e88fb4edb538ad660a0b9faa31929372ee",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/b510a1e88fb4edb538ad660a0b9faa31929372ee",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/b510a1e88fb4edb538ad660a0b9faa31929372ee/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/8411db78b62d044f8947274a2b0ed1a4c6f62f32"
+        }
+      ]
+    },
+    {
+      "sha": "8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+      "node_id": "C_kwDOPODcVNoAKDg0MTFkYjc4YjYyZDA0NGY4OTQ3Mjc0YTJiMGVkMWE0YzZmNjJmMzI",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T12:43:20Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T12:43:20Z"
+        },
+        "message": "Update readme",
+        "tree": {
+          "sha": "71e786406f99052be45491150dfe7b444502ecb3",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/71e786406f99052be45491150dfe7b444502ecb3"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/8411db78b62d044f8947274a2b0ed1a4c6f62f32",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/8411db78b62d044f8947274a2b0ed1a4c6f62f32/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e5fe0c64de8ea4eb4cf567703b9999db66e46b46",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/e5fe0c64de8ea4eb4cf567703b9999db66e46b46",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/e5fe0c64de8ea4eb4cf567703b9999db66e46b46"
+        }
+      ]
+    },
+    {
+      "sha": "e5fe0c64de8ea4eb4cf567703b9999db66e46b46",
+      "node_id": "C_kwDOPODcVNoAKGU1ZmUwYzY0ZGU4ZWE0ZWI0Y2Y1Njc3MDNiOTk5OWRiNjZlNDZiNDY",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T09:30:43Z"
+        },
+        "committer": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-08-07T09:30:43Z"
+        },
+        "message": "Add simple utcp-client mcp",
+        "tree": {
+          "sha": "2d1306b336758401589708943f1771b54a5db562",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/2d1306b336758401589708943f1771b54a5db562"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/e5fe0c64de8ea4eb4cf567703b9999db66e46b46",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/e5fe0c64de8ea4eb4cf567703b9999db66e46b46",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/e5fe0c64de8ea4eb4cf567703b9999db66e46b46",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/e5fe0c64de8ea4eb4cf567703b9999db66e46b46/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0aa28fd21192d9ea8da59ed3d594e48dfc052ede",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/0aa28fd21192d9ea8da59ed3d594e48dfc052ede",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/0aa28fd21192d9ea8da59ed3d594e48dfc052ede"
+        }
+      ]
+    },
+    {
+      "sha": "0aa28fd21192d9ea8da59ed3d594e48dfc052ede",
+      "node_id": "C_kwDOPODcVNoAKDBhYTI4ZmQyMTE5MmQ5ZWE4ZGE1OWVkM2Q1OTRlNDhkZmMwNTJlZGU",
+      "commit": {
+        "author": {
+          "name": "Juan V.",
+          "email": "69489757+edujuan@users.noreply.github.com",
+          "date": "2025-07-31T15:48:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-31T15:48:25Z"
+        },
+        "message": "Merge pull request #7 from universal-tool-calling-protocol/edujuan-patch-2\n\nUpdate README.md",
+        "tree": {
+          "sha": "e98babf8ee045aee6d597769c32401701c42ca01",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/e98babf8ee045aee6d597769c32401701c42ca01"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/0aa28fd21192d9ea8da59ed3d594e48dfc052ede",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoi5BJCRC1aQ7uu5UhlAAAoDsQAHRj+SCo3Y/p8YNa5yUWwraY\n7KxFL28DV0Ja7WttdG1TVFvIns6P2Ry+YbNlya3SCWCEPjz99/V3b5PLSPXEoZ1z\nATqRtQchflwTCFs0J8YRXCDlKQ+8twIysjTCuqzHioATtBd5p5m2Ry9IscEVGF2t\n4ZQzHq2D5JGpEqVuemcwNCsFyHxSdzG7abGdab7cnIsF4tA8KP9rKL2aQq1lMuMX\nsUpDF7nqmbLCeEPED17U9HDcTfF7llHr2hMOxkmGnuT8y/PcMFc8OFnLhwpCvf4X\ntf9oSSqSncvW43W8/5MuGODQKExVU2qymC7bPh1VvRyQUEFA8IZAp8zVbm96bs73\nFJ27KZZnjclLon61HY9SBzvwJ337SFAb2Kqn7yC2Mr5q0i8R5mjys3P5LsDyLUML\n2qmoqcZ/NV8FUL7XJy19pW9mYiZkViVQeCliDtY2TOc8fPoijpFkR0+oT+z+LM+X\nVziEhbmFCo4AsdkG2vH/TDZXwquj/DoicdwTyCg1OAB3L89xYzDD9MeRZrWlYrKh\nUnjz3O/JXWCvbBFGNW5II65X/tW5uksCeKu+EoCVz3nvP5evj8BgaJFxT6y6q4BT\najNym/LB8jz0K6ZxuMC1/GeLnF0MdTagroPQKltROe3CII8bCkPGu+sDtfdf55aM\nQI0JnaBtWDIVYorMqfpT\n=CMca\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e98babf8ee045aee6d597769c32401701c42ca01\nparent 48c6060747f7426b8fd7ceadb695ab1abcf8e5cf\nparent 648f6af94f0346e760dba35152a33ceb1bbecd06\nauthor Juan V. <69489757+edujuan@users.noreply.github.com> 1753976905 +0200\ncommitter GitHub <noreply@github.com> 1753976905 +0200\n\nMerge pull request #7 from universal-tool-calling-protocol/edujuan-patch-2\n\nUpdate README.md",
+          "verified_at": "2025-07-31T15:48:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/0aa28fd21192d9ea8da59ed3d594e48dfc052ede",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/0aa28fd21192d9ea8da59ed3d594e48dfc052ede",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/0aa28fd21192d9ea8da59ed3d594e48dfc052ede/comments",
+      "author": {
+        "login": "edujuan",
+        "id": 69489757,
+        "node_id": "MDQ6VXNlcjY5NDg5NzU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69489757?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/edujuan",
+        "html_url": "https://github.com/edujuan",
+        "followers_url": "https://api.github.com/users/edujuan/followers",
+        "following_url": "https://api.github.com/users/edujuan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/edujuan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/edujuan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/edujuan/subscriptions",
+        "organizations_url": "https://api.github.com/users/edujuan/orgs",
+        "repos_url": "https://api.github.com/users/edujuan/repos",
+        "events_url": "https://api.github.com/users/edujuan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/edujuan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf"
+        },
+        {
+          "sha": "648f6af94f0346e760dba35152a33ceb1bbecd06",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/648f6af94f0346e760dba35152a33ceb1bbecd06",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/648f6af94f0346e760dba35152a33ceb1bbecd06"
+        }
+      ]
+    },
+    {
+      "sha": "648f6af94f0346e760dba35152a33ceb1bbecd06",
+      "node_id": "C_kwDOPODcVNoAKDY0OGY2YWY5NGYwMzQ2ZTc2MGRiYTM1MTUyYTMzY2ViMWJiZWNkMDY",
+      "commit": {
+        "author": {
+          "name": "Juan V.",
+          "email": "69489757+edujuan@users.noreply.github.com",
+          "date": "2025-07-31T15:48:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-31T15:48:02Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "e98babf8ee045aee6d597769c32401701c42ca01",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/e98babf8ee045aee6d597769c32401701c42ca01"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/648f6af94f0346e760dba35152a33ceb1bbecd06",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoi5AyCRC1aQ7uu5UhlAAALC8QAB6VzwwPoXfD0BmAbr6IGKac\n4swYapSiWEEA3z9XxROUScl4prZ50EMdv73/EM0Grl8ATW7KX2uEc+vLY83/4riR\ncZ5FGW7NZUAEJX0UFpVIIwJVq78QX6z1mpJWvvUHaYOYlH4NG4OAMl/DnnB65G8L\n36FTsm/yEaiyX5NQg6CdUiQoxtem9ND0M7rlcsIgziiahOjcva32FGoaiJSgCzQw\nJo3S6E819XBSuwmj3kJ08jlqsOFnOLvxPxRQXIA2OHoeS8IQ3dT5oLd3yU0K34wN\n/cU8+RaQI476qyZyV7xtk6NdSmW62rLt7JXavJQqA7qHmgkVXNx65xrcRpSrz5AO\nr3Wt1wlSH9JVgy6RuLYnVoLZeZF3zTMSlJ5sALN5jBWm0cEBmCv7uco1t+w7/ZT1\ndk8m2EHFu4GhXMpt+TKEBYMnMTdriKzL4NUuwpyL+AeFckYiHqwBWF1WkUrEU7rG\nZoRs1EEoxGZjg8Rg+P+oUpWcZ3pzPVDsY9CtmUuq/PW4ekIeDueXKVmj+XDcpRA5\nLzsvtWqc2ZeAOyOHrO3hxj0PfLeOuZKNyQ71dKv124SkaxFQVUIS3QXSwbd0s584\nvPBeBJgGjGNSMAOi3XyVUnNDGJ37gibRpcp5aWEwAPV/9HEQz6k2d0vV9LrOxjB/\nVzQXoQ4lZTivKaqVIF9V\n=8+u9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e98babf8ee045aee6d597769c32401701c42ca01\nparent 48c6060747f7426b8fd7ceadb695ab1abcf8e5cf\nauthor Juan V. <69489757+edujuan@users.noreply.github.com> 1753976882 +0200\ncommitter GitHub <noreply@github.com> 1753976882 +0200\n\nUpdate README.md",
+          "verified_at": "2025-07-31T15:48:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/648f6af94f0346e760dba35152a33ceb1bbecd06",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/648f6af94f0346e760dba35152a33ceb1bbecd06",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/648f6af94f0346e760dba35152a33ceb1bbecd06/comments",
+      "author": {
+        "login": "edujuan",
+        "id": 69489757,
+        "node_id": "MDQ6VXNlcjY5NDg5NzU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69489757?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/edujuan",
+        "html_url": "https://github.com/edujuan",
+        "followers_url": "https://api.github.com/users/edujuan/followers",
+        "following_url": "https://api.github.com/users/edujuan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/edujuan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/edujuan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/edujuan/subscriptions",
+        "organizations_url": "https://api.github.com/users/edujuan/orgs",
+        "repos_url": "https://api.github.com/users/edujuan/repos",
+        "events_url": "https://api.github.com/users/edujuan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/edujuan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf"
+        }
+      ]
+    },
+    {
+      "sha": "48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+      "node_id": "C_kwDOPODcVNoAKDQ4YzYwNjA3NDdmNzQyNmI4ZmQ3Y2VhZGI2OTVhYjFhYmNmOGU1Y2Y",
+      "commit": {
+        "author": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-31T09:55:48Z"
+        },
+        "committer": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-31T09:55:48Z"
+        },
+        "message": "feat: add vs code example to readme, change localhost ip",
+        "tree": {
+          "sha": "5703070c039f639fb929e1aff12581fe7159dcc7",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/5703070c039f639fb929e1aff12581fe7159dcc7"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/48c6060747f7426b8fd7ceadb695ab1abcf8e5cf/comments",
+      "author": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2520c38e885d6e95c7021555426e9f6c91d0d97e",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/2520c38e885d6e95c7021555426e9f6c91d0d97e",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/2520c38e885d6e95c7021555426e9f6c91d0d97e"
+        }
+      ]
+    },
+    {
+      "sha": "2520c38e885d6e95c7021555426e9f6c91d0d97e",
+      "node_id": "C_kwDOPODcVNoAKDI1MjBjMzhlODg1ZDZlOTVjNzAyMTU1NTQyNmU5ZjZjOTFkMGQ5N2U",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-07-31T09:39:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-31T09:39:24Z"
+        },
+        "message": "Merge pull request #5 from Prikalel/main\n\nfeat: add powershell script to run the application",
+        "tree": {
+          "sha": "b5d9d9b0d73173ad4d86415d615279a6329c09c2",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/b5d9d9b0d73173ad4d86415d615279a6329c09c2"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/2520c38e885d6e95c7021555426e9f6c91d0d97e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoiznMCRC1aQ7uu5UhlAAAivAQAF0mVlUcSByky8hT8a5+tX6o\nSB6jETRCqATWX5pED2k7jb61/c/8WT0U6EFHpjIhpwHNwYEaZj86+Iglo+BgM5ke\nlPvfm5/0UpNbHWcUZmvdku0DyH98vgAgzxVGc8PB0pFvQxmluyf7X2Xar+T1By18\n2hdaMX0f6eWN+QBUogsIiCMZYzRCJE9Ivlzb5kPA0mZgK0eektTlJNOBF2Ia4qNj\nxRdKDYflJ8WKb1pEiM3BQa71v8ohu3BUZNcxdhqDUdGisV89Y+UqCrFa75+QkOnO\nCVIHNBnC8oLOxkipBcBUEEp8uYypNrUIxXh7ElFkmAOGGqmXQjqy6qa0jVNjzyiW\nPomBFOeHbE/c1+cRRrawfcg7xuLd2xjCDvNC6jJPqHyxmwmq8E2hkOimLzQLIe7c\nTD2+5yZlstmwLmapn7+eDlGKacOHMuMpBpPlAo+YLY+4TKZsMdbLePKRPuIYu/6l\nYNs5BxQZ05GtFVsoMvos9h4USqTYWGMQFBwqdB6gsf7yaYB9WrWM3/C+WfHPsxis\nN0PPL5EbYTwBsEZhYT0Z4QzctqZuPqqDRVsy+I79PeA8hn39nb9RWYXI8svOeqZY\nxk88zSognRv6NBA15q4rmuXCy1AUiyWMyuqOvMvs7rZVIlXkAKDIaRAaxz5JDfMq\ngZjUUGA1xJMqCUnYZu98\n=IRqO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b5d9d9b0d73173ad4d86415d615279a6329c09c2\nparent a0904d5732443e87aa071ef0373cbd3f9753e864\nparent 49bebf8c700919bd0832bf546d43152fd04dcb56\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1753954764 +0200\ncommitter GitHub <noreply@github.com> 1753954764 +0200\n\nMerge pull request #5 from Prikalel/main\n\nfeat: add powershell script to run the application",
+          "verified_at": "2025-07-31T09:39:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/2520c38e885d6e95c7021555426e9f6c91d0d97e",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/2520c38e885d6e95c7021555426e9f6c91d0d97e",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/2520c38e885d6e95c7021555426e9f6c91d0d97e/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a0904d5732443e87aa071ef0373cbd3f9753e864",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/a0904d5732443e87aa071ef0373cbd3f9753e864",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/a0904d5732443e87aa071ef0373cbd3f9753e864"
+        },
+        {
+          "sha": "49bebf8c700919bd0832bf546d43152fd04dcb56",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/49bebf8c700919bd0832bf546d43152fd04dcb56",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/49bebf8c700919bd0832bf546d43152fd04dcb56"
+        }
+      ]
+    },
+    {
+      "sha": "49bebf8c700919bd0832bf546d43152fd04dcb56",
+      "node_id": "C_kwDOPODcVNoAKDQ5YmViZjhjNzAwOTE5YmQwODMyYmY1NDZkNDMxNTJmZDA0ZGNiNTY",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-07-31T09:38:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-31T09:38:46Z"
+        },
+        "message": "Set localhost IP not all address IP",
+        "tree": {
+          "sha": "b5d9d9b0d73173ad4d86415d615279a6329c09c2",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/b5d9d9b0d73173ad4d86415d615279a6329c09c2"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/49bebf8c700919bd0832bf546d43152fd04dcb56",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoizmmCRC1aQ7uu5UhlAAA/jsQAFWM27M2LRNyctwm6hwJP4ep\n37S1lQ32O7Xm0xvwckvfHPz98qWrNC01OIFqSCqNmAM3SoPWUIv79V0zkb52b88o\nosaWNJdyW/I2ghm1JHX8jwUeN/JB1elQepNMu8DFM7dVHghz9wxgZUQtENAgRevL\nDK9mvhLiuT/i0PDqJL+gPoy8Z7J/ouzD19+wZnrns0OF1xCfPoWzyobxSOfHOs+S\nzhhZbipcmp3jgca5wNXoG1bZNMDNGrxMYMlge+FwuYEqZsfMYC4DKHMUbbV8Fanz\nf1A76VPQyfK1pmf76kwInr8bl6K9pzQWCEC6/jBxYNaLcmoOSCBUIh01iLo/5YMz\nykXfZecmPY3TXDnwuDNoMjNsro6IxOmoWVqBk3x/uM1FmhgtN8cz+mFmaarzcEDS\nbZViW50otadjt7utv7JCi8JmXrR12zM4lk0DLrBIUVdd1Xsq5pw5v6bSlKfMKsya\newsFzXEnCChAhAR/eQlk0g91uGwk4s0Cye81CQsRB6yq/uwFBRVYDh1isv0OKysW\nCoBQ4XvJtBSLnVvdlruRNpIDaItIufmgz9oGgbBiyNKt74O0DJAadug5dpqD2m1H\n7c1wDXwz9WojCrN8Te0ye89KqKoCG37ofCds0CZgNuJ3Ac7eju8pbaicOMD52t2q\nawN/aLc60V/24NY/O+JG\n=/Sfa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b5d9d9b0d73173ad4d86415d615279a6329c09c2\nparent 591a753fd73a42a21634d8a8c4403faa43605b83\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1753954726 +0200\ncommitter GitHub <noreply@github.com> 1753954726 +0200\n\nSet localhost IP not all address IP",
+          "verified_at": "2025-07-31T09:38:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/49bebf8c700919bd0832bf546d43152fd04dcb56",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/49bebf8c700919bd0832bf546d43152fd04dcb56",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/49bebf8c700919bd0832bf546d43152fd04dcb56/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "591a753fd73a42a21634d8a8c4403faa43605b83",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/591a753fd73a42a21634d8a8c4403faa43605b83",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/591a753fd73a42a21634d8a8c4403faa43605b83"
+        }
+      ]
+    },
+    {
+      "sha": "591a753fd73a42a21634d8a8c4403faa43605b83",
+      "node_id": "C_kwDOPODcVNoAKDU5MWE3NTNmZDczYTQyYTIxNjM0ZDhhOGM0NDAzZmFhNDM2MDViODM",
+      "commit": {
+        "author": {
+          "name": "Razvan Radulescu",
+          "email": "43811028+h3xxit@users.noreply.github.com",
+          "date": "2025-07-31T09:10:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-31T09:10:51Z"
+        },
+        "message": "Update run.ps1\n\nCo-authored-by: cubic-dev-ai[bot] <191113872+cubic-dev-ai[bot]@users.noreply.github.com>",
+        "tree": {
+          "sha": "3a95100186fabe2a4c207b8220a44a86266e097d",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/3a95100186fabe2a4c207b8220a44a86266e097d"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/591a753fd73a42a21634d8a8c4403faa43605b83",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoizMbCRC1aQ7uu5UhlAAApaMQAHdAjm+vuYpFdGKkRfAbVZk4\nF+1ARkOO4ek4Xyn3tDu5qVHwL3GLl9XBje8Bc8iunaQoJNQzvCEgBLOd+i71n9gN\nudCRpKoRVBhZOI4BMP2BdOwNvkiikG+umEpQKhjr0cU502UGt+goCOsZodZ+C4qs\nLcBwTQFdhYNVJb8V+Ql86p5IDi+Jtwyd6vxVLbgdt1OxvO4uOKsCFe0k5Yr+rydt\ntniPqyo8sdynAG5iB1XCwwqnSNr8OdNrOuwNbRtxOxpWSR21OOql49lHwgPsW0bI\nIJM5ZclFMW16IACSrzU3rDWRIl8GlwFRMqlADEHoYLWO6zLezS8vKX03SdAEBRAV\nq7J+erhuP7NDJF9samJCD+3lZQv49Sd9wPRNSSAo4CcMkhtGJcBWKz6SccEtb714\nKaJaYucooDINdu/S0ysoRtjhvYhH+rC50X+K1sDsApq8qZaMOEW9XByam1poyLDf\nOw9Bj0ZsXO1AGR16m6ZQVpElOWpZPXOAZlcCt0LyrCBcabrcQhrbmR/Mrr/fXSLI\nZUKhRqYohyTElz3VHrAcA3Aj9c8/5jS+pG1Lw79tl68hJi5dBN4qJhyUl1Cjvc6g\nBO97dMRCPX6uUeuBlTTccKolD75hlLr61UDMND0PohnME8FQijo5xD6l28fMMOyT\n6mjR7e/pDZLdBQr9Ooxx\n=GVfm\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3a95100186fabe2a4c207b8220a44a86266e097d\nparent b684955190c08dd3859f7fa8d4f48137f2aeab8b\nauthor Razvan Radulescu <43811028+h3xxit@users.noreply.github.com> 1753953051 +0200\ncommitter GitHub <noreply@github.com> 1753953051 +0200\n\nUpdate run.ps1\n\nCo-authored-by: cubic-dev-ai[bot] <191113872+cubic-dev-ai[bot]@users.noreply.github.com>",
+          "verified_at": "2025-07-31T09:10:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/591a753fd73a42a21634d8a8c4403faa43605b83",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/591a753fd73a42a21634d8a8c4403faa43605b83",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/591a753fd73a42a21634d8a8c4403faa43605b83/comments",
+      "author": {
+        "login": "h3xxit",
+        "id": 43811028,
+        "node_id": "MDQ6VXNlcjQzODExMDI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/h3xxit",
+        "html_url": "https://github.com/h3xxit",
+        "followers_url": "https://api.github.com/users/h3xxit/followers",
+        "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+        "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+        "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+        "repos_url": "https://api.github.com/users/h3xxit/repos",
+        "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b684955190c08dd3859f7fa8d4f48137f2aeab8b",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/b684955190c08dd3859f7fa8d4f48137f2aeab8b",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/b684955190c08dd3859f7fa8d4f48137f2aeab8b"
+        }
+      ]
+    },
+    {
+      "sha": "b684955190c08dd3859f7fa8d4f48137f2aeab8b",
+      "node_id": "C_kwDOPODcVNoAKGI2ODQ5NTUxOTBjMDhkZDM4NTlmN2ZhOGQ0ZjQ4MTM3ZjJhZWFiOGI",
+      "commit": {
+        "author": {
+          "name": "Alex Poklonsky",
+          "email": "admin@velikiy-prikalel.ru",
+          "date": "2025-07-31T06:04:57Z"
+        },
+        "committer": {
+          "name": "Alex Poklonsky",
+          "email": "admin@velikiy-prikalel.ru",
+          "date": "2025-07-31T06:04:57Z"
+        },
+        "message": "feat: add powershell script to run the application",
+        "tree": {
+          "sha": "91bec603eca3b963f5f47110fdab74f7d3da304e",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/91bec603eca3b963f5f47110fdab74f7d3da304e"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/b684955190c08dd3859f7fa8d4f48137f2aeab8b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/b684955190c08dd3859f7fa8d4f48137f2aeab8b",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/b684955190c08dd3859f7fa8d4f48137f2aeab8b",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/b684955190c08dd3859f7fa8d4f48137f2aeab8b/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a0904d5732443e87aa071ef0373cbd3f9753e864",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/a0904d5732443e87aa071ef0373cbd3f9753e864",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/a0904d5732443e87aa071ef0373cbd3f9753e864"
+        }
+      ]
+    },
+    {
+      "sha": "a0904d5732443e87aa071ef0373cbd3f9753e864",
+      "node_id": "C_kwDOPODcVNoAKGEwOTA0ZDU3MzI0NDNlODdhYTA3MWVmMDM3M2NiZDNmOTc1M2U4NjQ",
+      "commit": {
+        "author": {
+          "name": "Juan V.",
+          "email": "69489757+edujuan@users.noreply.github.com",
+          "date": "2025-07-30T15:54:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T15:54:33Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7e134854bef7d9047eb584dd076e9ee69352e799",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/7e134854bef7d9047eb584dd076e9ee69352e799"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/a0904d5732443e87aa071ef0373cbd3f9753e864",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoikA5CRC1aQ7uu5UhlAAA4isQAGnqhJfw7TwrBzsHYJoxBQg/\n4ag2y7pwvt01lrhrzEILHZEZZRRskM8vPjsTMMVapUFLsbqxOXi7+VPror9+NXWx\n/Mbdkq77+X4ZpX1O/FcFF8BKvHoSWPJ/CF+nCWfg5Hh7uMucSPnDeUYhpTx25HGx\nIRvFJ7zheCQrjhx1ebAz1glMcmW0WcURfL2MK2rsOyYQ8qysDKL5h2DFa/PgrhSg\nPhELvXHDUdcN2c6cmaAgf2NIA360ekWngSyBEzCo6wXve3sxNrVKnGcnrIOk/Z3C\nmNI16ZUg/WHpxqUNR8dxxw7nOU6cVYbgfDJIcdOddnRe7QdnrNN4/yQFS9lJi6H6\n92ngtEXN3+TlskDiOJygQ14PRKoDv3/nQApjEpk9VAzRkVCOrSykCZandbDhikng\n+sEVLhGtJzFxcGSgOb+xTG1tecA1AAGU8+pJxqU6Rr2x9+1iKwORMcOCXe+IdcfG\nfquQ1edtuvinUJjwhUewn4qzMOymoomXdBDNX+r9Iid/ugpLBjoSoQNtkAFg03Wh\nLhYOGHVWkHqRrW04qW7EBCDqwZk7Wc/8/I/Xxf/lWwGyzSUmZxXmnY2nW1HRdNWU\nHVf1Az3UPhs0dkb/vCMTwNUsrGDceAGihRjOE+pJHAEx6aDHlY+4s3xoV59QxTas\njs95rYkRmPiZEx6H6C4O\n=bal2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7e134854bef7d9047eb584dd076e9ee69352e799\nparent 66d7c4b9c5f4539392cf987e0da6de73c63ab46d\nauthor Juan V. <69489757+edujuan@users.noreply.github.com> 1753890873 +0200\ncommitter GitHub <noreply@github.com> 1753890873 +0200\n\nUpdate README.md",
+          "verified_at": "2025-07-30T15:54:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/a0904d5732443e87aa071ef0373cbd3f9753e864",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/a0904d5732443e87aa071ef0373cbd3f9753e864",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/a0904d5732443e87aa071ef0373cbd3f9753e864/comments",
+      "author": {
+        "login": "edujuan",
+        "id": 69489757,
+        "node_id": "MDQ6VXNlcjY5NDg5NzU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69489757?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/edujuan",
+        "html_url": "https://github.com/edujuan",
+        "followers_url": "https://api.github.com/users/edujuan/followers",
+        "following_url": "https://api.github.com/users/edujuan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/edujuan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/edujuan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/edujuan/subscriptions",
+        "organizations_url": "https://api.github.com/users/edujuan/orgs",
+        "repos_url": "https://api.github.com/users/edujuan/repos",
+        "events_url": "https://api.github.com/users/edujuan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/edujuan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "66d7c4b9c5f4539392cf987e0da6de73c63ab46d",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/66d7c4b9c5f4539392cf987e0da6de73c63ab46d",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/66d7c4b9c5f4539392cf987e0da6de73c63ab46d"
+        }
+      ]
+    },
+    {
+      "sha": "66d7c4b9c5f4539392cf987e0da6de73c63ab46d",
+      "node_id": "C_kwDOPODcVNoAKDY2ZDdjNGI5YzVmNDUzOTM5MmNmOTg3ZTBkYTZkZTczYzYzYWI0NmQ",
+      "commit": {
+        "author": {
+          "name": "Juan V.",
+          "email": "69489757+edujuan@users.noreply.github.com",
+          "date": "2025-07-30T15:52:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T15:52:33Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "df317e2b4856e8fc284cefca0c9b192ed228102a",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/df317e2b4856e8fc284cefca0c9b192ed228102a"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/66d7c4b9c5f4539392cf987e0da6de73c63ab46d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoij/BCRC1aQ7uu5UhlAAA4RoQAFcuA/KIjoa1K4dmL+iJXTkG\n61221INuvIYLrUyx7cEUJ8fL4AqQxLnuo6d6o30HMhMLm0QUliKYIZxTxLE0TgaA\na9xEB/eSs/ZAu8fuvtaqBcgclz5Q6qrBCvKAxrsJf8eJ4NUY1Red+y2lBPut5cbI\nPu3zKwScMao4KNr+NIRTgFg/n4CJZ0qNhwEZLXoUf/Pe7H3UBvTzFls8MinSTobU\noMP9XW2+OmToM1UUZV4Mqy6j5htFg+UloGtXytp3SIibrfAPRJ20MKC/ttLKOj0b\n6JinGJJFZFj/nrCBOAV1aZVdugCNwmr/lLKpDQBAJSSTivGCiTs56XKhAyAP10Xh\nQzYiJ0ulg4NcL36rG+eX9SSVLsH8+POVS66LmBHY4wEVxepG/mNmzZE3i8jMollt\njq8KLQrNUwlfJCjq4J0tP++85pND2XFaRPSgPlvCYHMgQO/EyBTJ2bH45JAUL2Hn\nYZy6Q6+1zCqttXQV7mnE2/9ZpocBKWa30RNFZruYmvuPoU6BPSYZGZF5IMoeQ2Ve\njsDcPWWEB+wt3FW4dYlQvtgxa39vBaplaXhs6y8WcwcC8dzD1Yzlg3hQedzXeuGU\ns0d3Z6lQ29/IJ46ITlaGh1BaLAOgcBtaBS0Vr+pPxPMxUu7qP7zqpvT+dXqLKRPu\nka03HJwIuc/jk2Aw/P17\n=QeTu\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree df317e2b4856e8fc284cefca0c9b192ed228102a\nparent 5c564987cf89c2deeec0991fbc0db020be129d79\nauthor Juan V. <69489757+edujuan@users.noreply.github.com> 1753890753 +0200\ncommitter GitHub <noreply@github.com> 1753890753 +0200\n\nUpdate README.md",
+          "verified_at": "2025-07-30T15:52:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/66d7c4b9c5f4539392cf987e0da6de73c63ab46d",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/66d7c4b9c5f4539392cf987e0da6de73c63ab46d",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/66d7c4b9c5f4539392cf987e0da6de73c63ab46d/comments",
+      "author": {
+        "login": "edujuan",
+        "id": 69489757,
+        "node_id": "MDQ6VXNlcjY5NDg5NzU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69489757?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/edujuan",
+        "html_url": "https://github.com/edujuan",
+        "followers_url": "https://api.github.com/users/edujuan/followers",
+        "following_url": "https://api.github.com/users/edujuan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/edujuan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/edujuan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/edujuan/subscriptions",
+        "organizations_url": "https://api.github.com/users/edujuan/orgs",
+        "repos_url": "https://api.github.com/users/edujuan/repos",
+        "events_url": "https://api.github.com/users/edujuan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/edujuan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5c564987cf89c2deeec0991fbc0db020be129d79",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5c564987cf89c2deeec0991fbc0db020be129d79",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5c564987cf89c2deeec0991fbc0db020be129d79"
+        }
+      ]
+    },
+    {
+      "sha": "5c564987cf89c2deeec0991fbc0db020be129d79",
+      "node_id": "C_kwDOPODcVNoAKDVjNTY0OTg3Y2Y4OWMyZGVlZWMwOTkxZmJjMGRiMDIwYmUxMjlkNzk",
+      "commit": {
+        "author": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-30T14:02:04Z"
+        },
+        "committer": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-30T14:02:04Z"
+        },
+        "message": "feat: add providers registering deregistering in runtime via web interface",
+        "tree": {
+          "sha": "bb6177db5397a792773aaadfe307dbda418b4249",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/bb6177db5397a792773aaadfe307dbda418b4249"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/5c564987cf89c2deeec0991fbc0db020be129d79",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5c564987cf89c2deeec0991fbc0db020be129d79",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/5c564987cf89c2deeec0991fbc0db020be129d79",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/5c564987cf89c2deeec0991fbc0db020be129d79/comments",
+      "author": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b"
+        }
+      ]
+    },
+    {
+      "sha": "57cd7ddf429fdc84c823a4fa81718a5308b313db",
+      "node_id": "C_kwDOPODcVNoAKDU3Y2Q3ZGRmNDI5ZmRjODRjODIzYTRmYTgxNzE4YTUzMDhiMzEzZGI",
+      "commit": {
+        "author": {
+          "name": "Luca Perrozzi",
+          "email": "ilperrozzi@gmail.com",
+          "date": "2025-07-24T11:43:04Z"
+        },
+        "committer": {
+          "name": "Luca Perrozzi",
+          "email": "ilperrozzi@gmail.com",
+          "date": "2025-07-24T11:43:04Z"
+        },
+        "message": "add example and README for utcp-mcp proxy",
+        "tree": {
+          "sha": "7c7aa15d743a2ec395d78bdd709dbe05a8103d16",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/7c7aa15d743a2ec395d78bdd709dbe05a8103d16"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/57cd7ddf429fdc84c823a4fa81718a5308b313db",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/57cd7ddf429fdc84c823a4fa81718a5308b313db",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/57cd7ddf429fdc84c823a4fa81718a5308b313db",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/57cd7ddf429fdc84c823a4fa81718a5308b313db/comments",
+      "author": {
+        "login": "perrozzi",
+        "id": 5594869,
+        "node_id": "MDQ6VXNlcjU1OTQ4Njk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5594869?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/perrozzi",
+        "html_url": "https://github.com/perrozzi",
+        "followers_url": "https://api.github.com/users/perrozzi/followers",
+        "following_url": "https://api.github.com/users/perrozzi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/perrozzi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/perrozzi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/perrozzi/subscriptions",
+        "organizations_url": "https://api.github.com/users/perrozzi/orgs",
+        "repos_url": "https://api.github.com/users/perrozzi/repos",
+        "events_url": "https://api.github.com/users/perrozzi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/perrozzi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "perrozzi",
+        "id": 5594869,
+        "node_id": "MDQ6VXNlcjU1OTQ4Njk=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/5594869?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/perrozzi",
+        "html_url": "https://github.com/perrozzi",
+        "followers_url": "https://api.github.com/users/perrozzi/followers",
+        "following_url": "https://api.github.com/users/perrozzi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/perrozzi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/perrozzi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/perrozzi/subscriptions",
+        "organizations_url": "https://api.github.com/users/perrozzi/orgs",
+        "repos_url": "https://api.github.com/users/perrozzi/repos",
+        "events_url": "https://api.github.com/users/perrozzi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/perrozzi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b"
+        }
+      ]
+    },
+    {
+      "sha": "d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+      "node_id": "C_kwDOPODcVNoAKGQwNTcwZDYxYmZhOWQ4M2JjMDRiZjI5ZDZhYzRmNjljZTNhNThiOGI",
+      "commit": {
+        "author": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-22T11:43:49Z"
+        },
+        "committer": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-22T11:43:49Z"
+        },
+        "message": "chore: add MCP client connection instructions in README",
+        "tree": {
+          "sha": "7b30075ba63bc7aff002506f521c4f3dd6dc388a",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/7b30075ba63bc7aff002506f521c4f3dd6dc388a"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/d0570d61bfa9d83bc04bf29d6ac4f69ce3a58b8b/comments",
+      "author": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9a7d54f82b27e309e4248c869644506401df114e",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/9a7d54f82b27e309e4248c869644506401df114e",
+          "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/9a7d54f82b27e309e4248c869644506401df114e"
+        }
+      ]
+    },
+    {
+      "sha": "9a7d54f82b27e309e4248c869644506401df114e",
+      "node_id": "C_kwDOPODcVNoAKDlhN2Q1NGY4MmIyN2UzMDllNDI0OGM4Njk2NDQ1MDY0MDFkZjExNGU",
+      "commit": {
+        "author": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-17T15:53:19Z"
+        },
+        "committer": {
+          "name": "Ulugbek Isroilov",
+          "email": "ulughbecki@gmail.com",
+          "date": "2025-07-17T15:53:19Z"
+        },
+        "message": "initial commit",
+        "tree": {
+          "sha": "56fdb48958bb74c7ae964790b544a05a4001ab0c",
+          "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/trees/56fdb48958bb74c7ae964790b544a05a4001ab0c"
+        },
+        "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/git/commits/9a7d54f82b27e309e4248c869644506401df114e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/9a7d54f82b27e309e4248c869644506401df114e",
+      "html_url": "https://github.com/universal-tool-calling-protocol/utcp-mcp/commit/9a7d54f82b27e309e4248c869644506401df114e",
+      "comments_url": "https://api.github.com/repos/universal-tool-calling-protocol/utcp-mcp/commits/9a7d54f82b27e309e4248c869644506401df114e/comments",
+      "author": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ulughbeck",
+        "id": 46451363,
+        "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ulughbeck",
+        "html_url": "https://github.com/ulughbeck",
+        "followers_url": "https://api.github.com/users/ulughbeck/followers",
+        "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+        "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+        "repos_url": "https://api.github.com/users/ulughbeck/repos",
+        "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "h3xxit",
+      "id": 43811028,
+      "node_id": "MDQ6VXNlcjQzODExMDI4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43811028?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/h3xxit",
+      "html_url": "https://github.com/h3xxit",
+      "followers_url": "https://api.github.com/users/h3xxit/followers",
+      "following_url": "https://api.github.com/users/h3xxit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/h3xxit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/h3xxit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/h3xxit/subscriptions",
+      "organizations_url": "https://api.github.com/users/h3xxit/orgs",
+      "repos_url": "https://api.github.com/users/h3xxit/repos",
+      "events_url": "https://api.github.com/users/h3xxit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/h3xxit/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 17
+    },
+    {
+      "login": "edujuan",
+      "id": 69489757,
+      "node_id": "MDQ6VXNlcjY5NDg5NzU3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69489757?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/edujuan",
+      "html_url": "https://github.com/edujuan",
+      "followers_url": "https://api.github.com/users/edujuan/followers",
+      "following_url": "https://api.github.com/users/edujuan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/edujuan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/edujuan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/edujuan/subscriptions",
+      "organizations_url": "https://api.github.com/users/edujuan/orgs",
+      "repos_url": "https://api.github.com/users/edujuan/repos",
+      "events_url": "https://api.github.com/users/edujuan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/edujuan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 5
+    },
+    {
+      "login": "PylotLight",
+      "id": 7006124,
+      "node_id": "MDQ6VXNlcjcwMDYxMjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7006124?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PylotLight",
+      "html_url": "https://github.com/PylotLight",
+      "followers_url": "https://api.github.com/users/PylotLight/followers",
+      "following_url": "https://api.github.com/users/PylotLight/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PylotLight/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PylotLight/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PylotLight/subscriptions",
+      "organizations_url": "https://api.github.com/users/PylotLight/orgs",
+      "repos_url": "https://api.github.com/users/PylotLight/repos",
+      "events_url": "https://api.github.com/users/PylotLight/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PylotLight/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 4
+    },
+    {
+      "login": "ulughbeck",
+      "id": 46451363,
+      "node_id": "MDQ6VXNlcjQ2NDUxMzYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46451363?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ulughbeck",
+      "html_url": "https://github.com/ulughbeck",
+      "followers_url": "https://api.github.com/users/ulughbeck/followers",
+      "following_url": "https://api.github.com/users/ulughbeck/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ulughbeck/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ulughbeck/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ulughbeck/subscriptions",
+      "organizations_url": "https://api.github.com/users/ulughbeck/orgs",
+      "repos_url": "https://api.github.com/users/ulughbeck/repos",
+      "events_url": "https://api.github.com/users/ulughbeck/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ulughbeck/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 4
+    },
+    {
+      "login": "Raezil",
+      "id": 170965471,
+      "node_id": "U_kgDOCjC53w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/170965471?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Raezil",
+      "html_url": "https://github.com/Raezil",
+      "followers_url": "https://api.github.com/users/Raezil/followers",
+      "following_url": "https://api.github.com/users/Raezil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Raezil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Raezil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Raezil/subscriptions",
+      "organizations_url": "https://api.github.com/users/Raezil/orgs",
+      "repos_url": "https://api.github.com/users/Raezil/repos",
+      "events_url": "https://api.github.com/users/Raezil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Raezil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    },
+    {
+      "login": "perrozzi",
+      "id": 5594869,
+      "node_id": "MDQ6VXNlcjU1OTQ4Njk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5594869?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/perrozzi",
+      "html_url": "https://github.com/perrozzi",
+      "followers_url": "https://api.github.com/users/perrozzi/followers",
+      "following_url": "https://api.github.com/users/perrozzi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/perrozzi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/perrozzi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/perrozzi/subscriptions",
+      "organizations_url": "https://api.github.com/users/perrozzi/orgs",
+      "repos_url": "https://api.github.com/users/perrozzi/repos",
+      "events_url": "https://api.github.com/users/perrozzi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/perrozzi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 32273,
+    "JavaScript": 20018,
+    "Rust": 19964,
+    "HTML": 17848,
+    "TypeScript": 9091,
+    "PowerShell": 2849,
+    "Shell": 1602,
+    "Dockerfile": 1018
+  },
+  "readme_html": "<h1 id=\"user-content-utcp-mcp-bridge\">UTCP-MCP Bridge</h1>\n<p><strong>The last MCP server you'll ever need.</strong></p>\n<p>A universal, all-in-one MCP server that brings the full power of the Universal Tool Calling Protocol (UTCP) to the MCP ecosystem.</p>\n<h2 id=\"user-content--quick-start\">🚀 Quick Start</h2>\n<p>Add this configuration to your MCP client (Claude Desktop, etc.):</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"utcp\": {\n      \"command\": \"npx\",\n      \"args\": [\"@utcp/mcp-bridge\"],\n      \"env\": {\n        \"UTCP_CONFIG_FILE\": \"/path/to/your/.utcp_config.json\"\n      }\n    }\n  }\n}\n</code></pre>\n<p><strong>That's it!</strong> No installation required. The bridge will automatically:</p>\n<ul>\n<li>Download and run the latest version via npx</li>\n<li>Load your UTCP configuration from the specified path</li>\n<li>Register all your UTCP manuals as MCP tools</li>\n<li>Provide a unified interface to manage your tool ecosystem</li>\n</ul>\n<h2 id=\"user-content--configuration\">🔧 Configuration</h2>\n<p>Create a <code>.utcp_config.json</code> file to configure your tools and services:</p>\n<pre><code class=\"language-json\">{\n    \"load_variables_from\": [\n      {\n        \"variable_loader_type\": \"dotenv\",\n        \"env_file_path\": \".env\"\n      }\n    ],\n    \"manual_call_templates\": [\n      {\n          \"name\": \"openlibrary\",\n          \"call_template_type\": \"http\",\n          \"http_method\": \"GET\", \n          \"url\": \"https://openlibrary.org/static/openapi.json\",\n          \"content_type\": \"application/json\"\n      }\n    ],\n    \"post_processing\": [\n      {\n          \"tool_post_processor_type\": \"filter_dict\",\n          \"only_include_keys\": [\"name\", \"description\"],\n          \"only_include_tools\": [\"openlibrary.*\"]\n      }\n    ],\n    \"tool_repository\": {\n      \"tool_repository_type\": \"in_memory\"\n    },\n    \"tool_search_strategy\": {\n      \"tool_search_strategy_type\": \"tag_and_description_word_match\"\n    }\n}\n</code></pre>\n<h2 id=\"user-content-️-available-mcp-tools\">🛠️ Available MCP Tools</h2>\n<p>The bridge exposes these MCP tools for managing your UTCP ecosystem:</p>\n<ul>\n<li><strong><code>register_manual</code></strong> - Register new UTCP manuals/APIs</li>\n<li><strong><code>deregister_manual</code></strong> - Remove registered manuals</li>\n<li><strong><code>call_tool</code></strong> - Execute any registered UTCP tool</li>\n<li><strong><code>search_tools</code></strong> - Find tools by description</li>\n<li><strong><code>list_tools</code></strong> - List all registered tool names</li>\n<li><strong><code>get_required_keys_for_tool</code></strong> - Get required environment variables</li>\n<li><strong><code>tool_info</code></strong> - Get complete tool information and schema</li>\n</ul>\n<h2 id=\"user-content--what-is-utcp\">📁 What is UTCP?</h2>\n<p>The Universal Tool Calling Protocol (UTCP) allows you to:</p>\n<ul>\n<li><strong>Connect to any API</strong> via HTTP, OpenAPI specs, or custom formats</li>\n<li><strong>Use command-line tools</strong> with automatic argument parsing</li>\n<li><strong>Process text and files</strong> with built-in utilities</li>\n<li><strong>Chain and combine</strong> multiple tools seamlessly</li>\n</ul>\n<p>With this MCP bridge, all your UTCP tools become available in Claude Desktop and other MCP clients.</p>\n<h2 id=\"user-content--features\">🌟 Features</h2>\n<ul>\n<li>✅ <strong>Zero installation</strong> - Works via npx</li>\n<li>✅ <strong>Universal compatibility</strong> - Works with any MCP client</li>\n<li>✅ <strong>Dynamic configuration</strong> - Update tools without restarting</li>\n<li>✅ <strong>Environment isolation</strong> - Each project can have its own config</li>\n<li>✅ <strong>Comprehensive tool management</strong> - Register, search, call, and inspect tools</li>\n<li>✅ <strong>Web interface available</strong> - See <a href=\"web_ui_utcp_mcp_bridge/\">web_ui_utcp_mcp_bridge/</a></li>\n</ul>\n<h2 id=\"user-content--python-version\">🐍 Python Version</h2>\n<p>For Python users, see the standalone Python implementation in <a href=\"python_mcp_bridge/\"><code>python_mcp_bridge/</code></a></p>\n<h2 id=\"user-content--web-interface\">🌐 Web Interface</h2>\n<p>For advanced management with a web UI, check out <a href=\"web_ui_utcp_mcp_bridge/\"><code>web_ui_utcp_mcp_bridge/</code></a></p>\n<hr>",
+  "_fetched_at": "2026-03-11T18:09:01.866Z"
+}

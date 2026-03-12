@@ -1,0 +1,971 @@
+{
+  "id": 1162165194,
+  "node_id": "R_kgDORUU7yg",
+  "name": "api2cli",
+  "full_name": "alexknowshtml/api2cli",
+  "private": false,
+  "owner": {
+    "login": "alexknowshtml",
+    "id": 3707,
+    "node_id": "MDQ6VXNlcjM3MDc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alexknowshtml",
+    "html_url": "https://github.com/alexknowshtml",
+    "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+    "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+    "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+    "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+    "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/alexknowshtml/api2cli",
+  "description": "Audience-aware CLI patterns for Node.js + Commander.js. Build CLIs for humans, AI agents, or both.",
+  "fork": false,
+  "url": "https://api.github.com/repos/alexknowshtml/api2cli",
+  "forks_url": "https://api.github.com/repos/alexknowshtml/api2cli/forks",
+  "keys_url": "https://api.github.com/repos/alexknowshtml/api2cli/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/alexknowshtml/api2cli/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/alexknowshtml/api2cli/teams",
+  "hooks_url": "https://api.github.com/repos/alexknowshtml/api2cli/hooks",
+  "issue_events_url": "https://api.github.com/repos/alexknowshtml/api2cli/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/alexknowshtml/api2cli/events",
+  "assignees_url": "https://api.github.com/repos/alexknowshtml/api2cli/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/alexknowshtml/api2cli/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/alexknowshtml/api2cli/tags",
+  "blobs_url": "https://api.github.com/repos/alexknowshtml/api2cli/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/alexknowshtml/api2cli/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/alexknowshtml/api2cli/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/alexknowshtml/api2cli/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/alexknowshtml/api2cli/languages",
+  "stargazers_url": "https://api.github.com/repos/alexknowshtml/api2cli/stargazers",
+  "contributors_url": "https://api.github.com/repos/alexknowshtml/api2cli/contributors",
+  "subscribers_url": "https://api.github.com/repos/alexknowshtml/api2cli/subscribers",
+  "subscription_url": "https://api.github.com/repos/alexknowshtml/api2cli/subscription",
+  "commits_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/alexknowshtml/api2cli/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/alexknowshtml/api2cli/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/alexknowshtml/api2cli/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/alexknowshtml/api2cli/merges",
+  "archive_url": "https://api.github.com/repos/alexknowshtml/api2cli/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/alexknowshtml/api2cli/downloads",
+  "issues_url": "https://api.github.com/repos/alexknowshtml/api2cli/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/alexknowshtml/api2cli/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/alexknowshtml/api2cli/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/alexknowshtml/api2cli/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/alexknowshtml/api2cli/labels{/name}",
+  "releases_url": "https://api.github.com/repos/alexknowshtml/api2cli/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/alexknowshtml/api2cli/deployments",
+  "created_at": "2026-02-19T23:58:56Z",
+  "updated_at": "2026-03-10T14:53:56Z",
+  "pushed_at": "2026-02-20T00:59:15Z",
+  "git_url": "git://github.com/alexknowshtml/api2cli.git",
+  "ssh_url": "git@github.com:alexknowshtml/api2cli.git",
+  "clone_url": "https://github.com/alexknowshtml/api2cli.git",
+  "svn_url": "https://github.com/alexknowshtml/api2cli",
+  "homepage": null,
+  "size": 29,
+  "stargazers_count": 379,
+  "watchers_count": 379,
+  "language": null,
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 12,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai-agent",
+    "api",
+    "claude-code",
+    "cli-generator",
+    "commander-js",
+    "nodejs",
+    "skill",
+    "typescript"
+  ],
+  "visibility": "public",
+  "forks": 12,
+  "open_issues": 0,
+  "watchers": 379,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "fde6f88f26298cc7af6e0b3a09c6f606430e1b9f",
+      "node_id": "C_kwDORUU7ytoAKGZkZTZmODhmMjYyOThjYzdhZjZlMGIzYTA5YzZmNjA2NDMwZTFiOWY",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:59:14Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:59:14Z"
+        },
+        "message": "Add Resend example, requires Claude Code callout, .gitignore, repo topics\n\n- Full walkthrough showing api2cli pointed at the Resend API:\n  discovery, CLI output (human + agent modes), and generated skill\n- \"Requires Claude Code\" callout near the top of README\n- .gitignore for Node/TS projects\n- GitHub topics: claude-code, cli-generator, api, commander-js, etc.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "91c2c9b997b725b9354459173a8bce5f1cc6f12c",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/91c2c9b997b725b9354459173a8bce5f1cc6f12c"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/fde6f88f26298cc7af6e0b3a09c6f606430e1b9f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/fde6f88f26298cc7af6e0b3a09c6f606430e1b9f",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/fde6f88f26298cc7af6e0b3a09c6f606430e1b9f",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/fde6f88f26298cc7af6e0b3a09c6f606430e1b9f/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7104ed72b2aa746897446183fab9ef47957b03e8",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/7104ed72b2aa746897446183fab9ef47957b03e8",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/7104ed72b2aa746897446183fab9ef47957b03e8"
+        }
+      ]
+    },
+    {
+      "sha": "7104ed72b2aa746897446183fab9ef47957b03e8",
+      "node_id": "C_kwDORUU7ytoAKDcxMDRlZDcyYjJhYTc0Njg5NzQ0NjE4M2ZhYjllZjQ3OTU3YjAzZTg",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:41:26Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:41:26Z"
+        },
+        "message": "Add skill generation as Step 6\n\nThe full pipeline now goes API → CLI → Skill. After generating the\nCLI, api2cli creates a SKILL.md that teaches Claude how to use it\nwith commands, examples, workflows, and trigger phrases.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "e65089645add42606c5ddd54cef170dcab5374c8",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/e65089645add42606c5ddd54cef170dcab5374c8"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/7104ed72b2aa746897446183fab9ef47957b03e8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/7104ed72b2aa746897446183fab9ef47957b03e8",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/7104ed72b2aa746897446183fab9ef47957b03e8",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/7104ed72b2aa746897446183fab9ef47957b03e8/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7fd48bb2759a9ab3dace011f1534869140e1941b",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/7fd48bb2759a9ab3dace011f1534869140e1941b",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/7fd48bb2759a9ab3dace011f1534869140e1941b"
+        }
+      ]
+    },
+    {
+      "sha": "7fd48bb2759a9ab3dace011f1534869140e1941b",
+      "node_id": "C_kwDORUU7ytoAKDdmZDQ4YmIyNzU5YTlhYjNkYWNlMDExZjE1MzQ4NjkxNDBlMTk0MWI",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:37:45Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:37:45Z"
+        },
+        "message": "Rewrite credits with actual origin story\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "63a994c32b474958714376c2facdca28cd3d82d5",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/63a994c32b474958714376c2facdca28cd3d82d5"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/7fd48bb2759a9ab3dace011f1534869140e1941b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/7fd48bb2759a9ab3dace011f1534869140e1941b",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/7fd48bb2759a9ab3dace011f1534869140e1941b",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/7fd48bb2759a9ab3dace011f1534869140e1941b/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d"
+        }
+      ]
+    },
+    {
+      "sha": "9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d",
+      "node_id": "C_kwDORUU7ytoAKDllNTI0ZGEwODVkNThkMDQ2OGJkYmI0YmJjOGY1ZWEyZmZhOTk4M2Q",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:30:59Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:30:59Z"
+        },
+        "message": "Fix credits to first person voice\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "cafeb715d041d03fe91e008ba53fe6561b31a4fd",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/cafeb715d041d03fe91e008ba53fe6561b31a4fd"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/9e524da085d58d0468bdbb4bbc8f5ea2ffa9983d/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f3472fcf7dc7b6ca24393cace5348fa8d5109b14",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/f3472fcf7dc7b6ca24393cace5348fa8d5109b14",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/f3472fcf7dc7b6ca24393cace5348fa8d5109b14"
+        }
+      ]
+    },
+    {
+      "sha": "f3472fcf7dc7b6ca24393cace5348fa8d5109b14",
+      "node_id": "C_kwDORUU7ytoAKGYzNDcyZmNmN2RjN2I2Y2EyNDM5M2NhY2U1MzQ4ZmE4ZDUxMDliMTQ",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:30:04Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:30:04Z"
+        },
+        "message": "Rewrite credits as narrative, Alex's work first\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "c31f7b160a09aeaaa7ec248654f4dadee68bae08",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/c31f7b160a09aeaaa7ec248654f4dadee68bae08"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/f3472fcf7dc7b6ca24393cace5348fa8d5109b14",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/f3472fcf7dc7b6ca24393cace5348fa8d5109b14",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/f3472fcf7dc7b6ca24393cace5348fa8d5109b14",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/f3472fcf7dc7b6ca24393cace5348fa8d5109b14/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "704f11ad91d4e521010ae9e4eee9caafc5ce9170",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/704f11ad91d4e521010ae9e4eee9caafc5ce9170",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/704f11ad91d4e521010ae9e4eee9caafc5ce9170"
+        }
+      ]
+    },
+    {
+      "sha": "704f11ad91d4e521010ae9e4eee9caafc5ce9170",
+      "node_id": "C_kwDORUU7ytoAKDcwNGYxMWFkOTFkNGU1MjEwMTBhZTllNGVlZTljYWFmYzVjZTkxNzA",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:29:00Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:29:00Z"
+        },
+        "message": "Clarify credits: Alex's audience routing predates Joel's agent-first work\n\nJoel Hooks inspired the agent-first output patterns. The audience-aware\nrouting, CLI generation, and API discovery pipeline are Alex Hillman's\noriginal contributions.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "288c2f7f140cb38e9322198b5f2f7d953d7f7a8a",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/288c2f7f140cb38e9322198b5f2f7d953d7f7a8a"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/704f11ad91d4e521010ae9e4eee9caafc5ce9170",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/704f11ad91d4e521010ae9e4eee9caafc5ce9170",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/704f11ad91d4e521010ae9e4eee9caafc5ce9170",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/704f11ad91d4e521010ae9e4eee9caafc5ce9170/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9cf4f2a5443cac3d21e195fcd99364863d2d9d58",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/9cf4f2a5443cac3d21e195fcd99364863d2d9d58",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/9cf4f2a5443cac3d21e195fcd99364863d2d9d58"
+        }
+      ]
+    },
+    {
+      "sha": "9cf4f2a5443cac3d21e195fcd99364863d2d9d58",
+      "node_id": "C_kwDORUU7ytoAKDljZjRmMmE1NDQzY2FjM2QyMWUxOTVmY2Q5OTM2NDg2M2QyZDlkNTg",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:25:22Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:25:22Z"
+        },
+        "message": "Credit Joel Hooks for agent-first CLI patterns\n\nAgent-first patterns (JSON envelope, HATEOAS, self-documenting root,\nfix suggestions) based on Joel Hooks' design. api2cli adds audience\nrouting (human/agent/dual-mode) and the API discovery pipeline.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "38b7bf9f016e8f5d4dfce44f7a7223fd6eb52a7a",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/38b7bf9f016e8f5d4dfce44f7a7223fd6eb52a7a"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/9cf4f2a5443cac3d21e195fcd99364863d2d9d58",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/9cf4f2a5443cac3d21e195fcd99364863d2d9d58",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/9cf4f2a5443cac3d21e195fcd99364863d2d9d58",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/9cf4f2a5443cac3d21e195fcd99364863d2d9d58/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8"
+        }
+      ]
+    },
+    {
+      "sha": "8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8",
+      "node_id": "C_kwDORUU7ytoAKDhhMWE5OGNhOWVjN2M3YWM2YmFjNDNmZDg1NTk3NzE1ZWUwOWU0YTg",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:17:53Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:17:53Z"
+        },
+        "message": "Rebuild as API-to-CLI generator skill\n\napi2cli is now a Claude Code skill that generates working CLIs from\nany API. Discovers endpoints via docs parsing, active probing, or\npeek-api captures. Generates dual-mode Commander.js CLIs with\nfull-featured API clients (pagination, retry, rate limiting, caching).\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "a110033ec2d0302e1443c920aa0eddf1724cc8e9",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/a110033ec2d0302e1443c920aa0eddf1724cc8e9"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/8a1a98ca9ec7c7ac6bac43fd85597715ee09e4a8/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4c733ddce66d27531d57315f4d4daae0f1a0157d",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/4c733ddce66d27531d57315f4d4daae0f1a0157d",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/4c733ddce66d27531d57315f4d4daae0f1a0157d"
+        }
+      ]
+    },
+    {
+      "sha": "4c733ddce66d27531d57315f4d4daae0f1a0157d",
+      "node_id": "C_kwDORUU7ytoAKDRjNzMzZGRjZTY2ZDI3NTMxZDU3MzE1ZjRkNGRhYWUwZjFhMDE1N2Q",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:03:27Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-20T00:03:27Z"
+        },
+        "message": "Restructure: separate README from skill content\n\nREADME is now a concise project intro. Skill content lives in\nskill/SKILL.md with skill/references/ so people can drop the\nfolder directly into .claude/skills/.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "362795f229348e2bd6edffdf1125dd96ae3ba4b5",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/362795f229348e2bd6edffdf1125dd96ae3ba4b5"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/4c733ddce66d27531d57315f4d4daae0f1a0157d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/4c733ddce66d27531d57315f4d4daae0f1a0157d",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/4c733ddce66d27531d57315f4d4daae0f1a0157d",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/4c733ddce66d27531d57315f4d4daae0f1a0157d/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2",
+          "html_url": "https://github.com/alexknowshtml/api2cli/commit/4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2"
+        }
+      ]
+    },
+    {
+      "sha": "4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2",
+      "node_id": "C_kwDORUU7ytoAKDRjNjRlYmZiNDIzMTdjNzdlOTBkMDJhM2RiZTYyYWIzZTNjOTE3YTI",
+      "commit": {
+        "author": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-19T23:58:52Z"
+        },
+        "committer": {
+          "name": "Alex Hillman",
+          "email": "alex@indyhall.org",
+          "date": "2026-02-19T23:58:52Z"
+        },
+        "message": "Initial commit: api2cli - audience-aware CLI patterns\n\nGuide for building Node.js CLI tools with Commander.js that are\noptimized for humans, AI agents, or both. Includes reference docs\nfor advanced Commander patterns, API client templates, and\nagent-first design patterns.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "5b4422d6ef30c8d294707a8c040bf7b9fa7b0fc9",
+          "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/trees/5b4422d6ef30c8d294707a8c040bf7b9fa7b0fc9"
+        },
+        "url": "https://api.github.com/repos/alexknowshtml/api2cli/git/commits/4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2",
+      "html_url": "https://github.com/alexknowshtml/api2cli/commit/4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2",
+      "comments_url": "https://api.github.com/repos/alexknowshtml/api2cli/commits/4c64ebfb42317c77e90d02a3dbe62ab3e3c917a2/comments",
+      "author": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "alexknowshtml",
+        "id": 3707,
+        "node_id": "MDQ6VXNlcjM3MDc=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/alexknowshtml",
+        "html_url": "https://github.com/alexknowshtml",
+        "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+        "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+        "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+        "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+        "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "alexknowshtml",
+      "id": 3707,
+      "node_id": "MDQ6VXNlcjM3MDc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3707?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexknowshtml",
+      "html_url": "https://github.com/alexknowshtml",
+      "followers_url": "https://api.github.com/users/alexknowshtml/followers",
+      "following_url": "https://api.github.com/users/alexknowshtml/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexknowshtml/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexknowshtml/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexknowshtml/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexknowshtml/orgs",
+      "repos_url": "https://api.github.com/users/alexknowshtml/repos",
+      "events_url": "https://api.github.com/users/alexknowshtml/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexknowshtml/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 10
+    }
+  ],
+  "releases": [],
+  "languages": {},
+  "readme_html": "<h1 id=\"user-content-api2cli\">api2cli</h1>\n<p>A <a href=\"https://docs.anthropic.com/en/docs/claude-code\">Claude Code</a> skill that turns any API into a working CLI, then wraps that CLI in a skill. Point it at API docs, a live URL, or a <a href=\"https://github.com/alexknowshtml/peek-api\">peek-api</a> capture and get a dual-mode Commander.js CLI plus a ready-to-use Claude Code skill -- so any future Claude session can pick it up and use it without reading the code.</p>\n<blockquote>\n<p><strong>Requires <a href=\"https://docs.anthropic.com/en/docs/claude-code\">Claude Code</a></strong> -- this is a skill, not a standalone tool. Claude handles the discovery, generation, and wiring.</p>\n</blockquote>\n<h2 id=\"user-content-what-it-does\">What It Does</h2>\n<ol>\n<li><strong>Discovers endpoints</strong> from API docs pages, live probing, or peek-api network captures</li>\n<li><strong>Builds an endpoint catalog</strong> with auth, pagination, and rate limit info</li>\n<li><strong>Generates a CLI</strong> with one subcommand per endpoint, a full-featured API client, and dual-mode output (human-readable in terminal, JSON envelope when piped)</li>\n<li><strong>Generates a skill</strong> -- a SKILL.md that teaches Claude how to use the CLI, with commands, examples, and common workflows</li>\n</ol>\n<h2 id=\"user-content-example-resend-api\">Example: Resend API</h2>\n<p>Here's what it looks like when you point api2cli at the <a href=\"https://resend.com\">Resend</a> email API.</p>\n<p><strong>You say:</strong></p>\n<pre><code>Build me a CLI for the Resend API. Here are the docs: https://resend.com/docs/api-reference\n</code></pre>\n<p><strong>Claude discovers 15 endpoints across 5 resources:</strong></p>\n<pre><code>Found 15 endpoints across 5 resources:\n  emails (3 endpoints): send, get, batch\n  domains (4 endpoints): list, get, create, delete\n  api-keys (3 endpoints): list, create, delete\n  audiences (3 endpoints): list, get, create\n  contacts (2 endpoints): list, create\n\nReady to generate the CLI?\n</code></pre>\n<p><strong>Claude generates a CLI at <code>scripts/resend.ts</code>:</strong></p>\n<pre><code class=\"language-bash\"># See all commands\n$ npx tsx scripts/resend.ts\n{\n  \"ok\": true,\n  \"command\": \"resend\",\n  \"result\": {\n    \"description\": \"Resend email API CLI\",\n    \"commands\": [\n      { \"command\": \"resend emails send\", \"description\": \"Send an email\" },\n      { \"command\": \"resend emails get &#x3C;id>\", \"description\": \"Get email by ID\" },\n      { \"command\": \"resend domains list\", \"description\": \"List all domains\" },\n      ...\n    ]\n  }\n}\n\n# Send an email\n$ npx tsx scripts/resend.ts emails send \\\n    --to user@example.com \\\n    --subject \"Hello\" \\\n    --html \"&#x3C;p>Hi there&#x3C;/p>\"\n\n# List domains (human-readable in terminal)\n$ npx tsx scripts/resend.ts domains list\nID          Domain              Status\nre_abc123   example.com         verified\nre_def456   staging.example.com pending\n\n# Same command piped to an agent (auto-detects, returns JSON)\n$ npx tsx scripts/resend.ts domains list | cat\n{\n  \"ok\": true,\n  \"command\": \"resend domains list\",\n  \"result\": { \"domains\": [...], \"count\": 2 },\n  \"next_actions\": [\n    { \"command\": \"resend domains get re_abc123\", \"description\": \"View domain details\" },\n    { \"command\": \"resend emails send --from noreply@example.com\", \"description\": \"Send from verified domain\" }\n  ]\n}\n</code></pre>\n<p><strong>Claude also generates a skill at <code>.claude/skills/resend/SKILL.md</code>:</strong></p>\n<pre><code class=\"language-markdown\">---\nname: resend\ndescription: Interact with the Resend email API via CLI. Use when user wants to\n  send emails, manage domains, create API keys, manage audiences and contacts.\n  Commands: resend emails send, resend domains list, resend contacts create.\n---\n\n# Resend CLI\n\n## Setup\nexport RESEND_API_KEY=re_your_key_here\n\n## Commands\n### emails send --to &#x3C;email> --subject &#x3C;text> --html &#x3C;html>\n### domains list | get &#x3C;id> | create --name &#x3C;domain>\n### contacts list --audience-id &#x3C;id> | create --email &#x3C;email>\n...\n</code></pre>\n<p>From here, any Claude session in your project can send emails, manage domains, and work with contacts -- without knowing anything about the Resend API.</p>\n<h2 id=\"user-content-install\">Install</h2>\n<p>Copy the <code>skill/</code> folder into your Claude Code project:</p>\n<pre><code class=\"language-bash\"># Clone this repo\ngit clone https://github.com/alexknowshtml/api2cli.git\n\n# Copy the skill into your project\ncp -r api2cli/skill/ /path/to/your/project/.claude/skills/api2cli/\n</code></pre>\n<h2 id=\"user-content-usage\">Usage</h2>\n<p>In Claude Code, tell Claude what API you want to wrap:</p>\n<pre><code>\"Build me a CLI for the Resend API\"\n\"Generate a CLI from these docs: https://docs.example.com/api\"\n\"Turn this peek-api capture into a CLI\"\n</code></pre>\n<p>Claude will:</p>\n<ol>\n<li>Ask what API and how to access it</li>\n<li>Discover endpoints (parses docs, probes live endpoints, reads peek-api captures)</li>\n<li>Show you the endpoint catalog for review</li>\n<li>Generate the CLI -- you choose: scaffold into your project or standalone</li>\n<li>Test that it works</li>\n<li>Generate a skill folder so Claude can use the CLI in future sessions</li>\n</ol>\n<h2 id=\"user-content-what-gets-generated\">What Gets Generated</h2>\n<p><strong>A CLI</strong> -- Commander.js with:</p>\n<ul>\n<li><strong>Dual-mode output</strong> -- human-readable in terminal, JSON with <code>next_actions</code> when piped</li>\n<li><strong>Self-documenting root</strong> -- run with no args to see all commands</li>\n<li><strong>Full API client</strong> -- auth, pagination, retry with backoff, rate limiting, caching</li>\n<li><strong>One subcommand per endpoint</strong> -- <code>mycli customers list</code>, <code>mycli customers get &#x3C;id></code></li>\n<li><strong>Error handling</strong> -- agent-friendly errors with <code>fix</code> suggestions</li>\n</ul>\n<p><strong>A skill</strong> -- a <code>.claude/skills/{service}/SKILL.md</code> that:</p>\n<ul>\n<li>Lists all available commands with examples</li>\n<li>Includes common multi-step workflows</li>\n<li>Has the right trigger phrases so Claude auto-activates when relevant</li>\n<li>Documents auth setup and agent usage</li>\n</ul>\n<h2 id=\"user-content-discovery-methods\">Discovery Methods</h2>\n<table>\n<thead>\n<tr>\n<th>Method</th>\n<th>Best For</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Docs parsing</strong></td>\n<td>Public APIs with documentation pages</td>\n</tr>\n<tr>\n<td><strong>Active probing</strong></td>\n<td>APIs where you have a base URL and credentials</td>\n</tr>\n<tr>\n<td><strong>peek-api capture</strong></td>\n<td>Sites where you need to sniff network traffic to find endpoints</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-whats-inside\">What's Inside</h2>\n<pre><code>skill/\n  SKILL.md                                # Main skill instructions\n  references/\n    discovery-strategies.md               # Endpoint discovery patterns and probing techniques\n    api-client-template.md                # API client with pagination, retry, rate limiting, caching\n    agent-first-patterns.md               # Agent JSON envelope, HATEOAS, context-safe output\n    commander-patterns.md                 # Commander.js advanced patterns\n</code></pre>\n<h2 id=\"user-content-credits\">Credits</h2>\n<p>This came from a pattern of wanting to give my AI agent access to apps and discovering it loved working with CLIs. I wanted an easy way to turn any API into a CLI, then wrap that CLI in a skill. The audience routing (human-first, agent-first, dual-mode), the API discovery pipeline (<a href=\"https://github.com/alexknowshtml/peek-api\">peek-api</a>, docs parsing, active probing), and the generation approach all came from that.</p>\n<p>The agent-side output patterns -- JSON envelope, HATEOAS-style <code>next_actions</code>, self-documenting root commands, and <code>fix</code> suggestions on errors -- were inspired by <a href=\"https://github.com/joelhooks/joelclaw/blob/main/.agents/skills/cli-design/SKILL.md\">Joel Hooks' agent-first CLI design</a>.</p>\n<h2 id=\"user-content-related\">Related</h2>\n<ul>\n<li><a href=\"https://github.com/alexknowshtml/peek-api\">peek-api</a> -- Discover internal APIs from any website by monitoring network traffic</li>\n</ul>\n<h2 id=\"user-content-license\">License</h2>\n<p>MIT</p>",
+  "_fetched_at": "2026-03-11T18:08:21.401Z"
+}

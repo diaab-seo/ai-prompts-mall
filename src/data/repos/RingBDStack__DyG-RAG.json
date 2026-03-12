@@ -1,0 +1,1993 @@
+{
+  "id": 1018588174,
+  "node_id": "R_kgDOPLZsDg",
+  "name": "DyG-RAG",
+  "full_name": "RingBDStack/DyG-RAG",
+  "private": false,
+  "owner": {
+    "login": "RingBDStack",
+    "id": 23651771,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjIzNjUxNzcx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/23651771?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/RingBDStack",
+    "html_url": "https://github.com/RingBDStack",
+    "followers_url": "https://api.github.com/users/RingBDStack/followers",
+    "following_url": "https://api.github.com/users/RingBDStack/following{/other_user}",
+    "gists_url": "https://api.github.com/users/RingBDStack/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/RingBDStack/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/RingBDStack/subscriptions",
+    "organizations_url": "https://api.github.com/users/RingBDStack/orgs",
+    "repos_url": "https://api.github.com/users/RingBDStack/repos",
+    "events_url": "https://api.github.com/users/RingBDStack/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/RingBDStack/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/RingBDStack/DyG-RAG",
+  "description": "Code implementation for DyG-RAG: Dynamic Graph Retrieval-Augmented Generation with Event-Centric Reasoning.",
+  "fork": false,
+  "url": "https://api.github.com/repos/RingBDStack/DyG-RAG",
+  "forks_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/forks",
+  "keys_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/teams",
+  "hooks_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/events",
+  "assignees_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/tags",
+  "blobs_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/languages",
+  "stargazers_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/subscription",
+  "commits_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/merges",
+  "archive_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/downloads",
+  "issues_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/deployments",
+  "created_at": "2025-07-12T15:30:58Z",
+  "updated_at": "2026-03-11T07:24:03Z",
+  "pushed_at": "2025-08-28T13:40:31Z",
+  "git_url": "git://github.com/RingBDStack/DyG-RAG.git",
+  "ssh_url": "git@github.com:RingBDStack/DyG-RAG.git",
+  "clone_url": "https://github.com/RingBDStack/DyG-RAG.git",
+  "svn_url": "https://github.com/RingBDStack/DyG-RAG",
+  "homepage": "",
+  "size": 1156,
+  "stargazers_count": 52,
+  "watchers_count": 52,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": true,
+  "has_discussions": false,
+  "forks_count": 7,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 4,
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "graphrag",
+    "large-language-models",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 7,
+  "open_issues": 4,
+  "watchers": 52,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "ca37e449f0bfba188644bd5e66809473578c30bf",
+      "node_id": "C_kwDOPLZsDtoAKGNhMzdlNDQ5ZjBiZmJhMTg4NjQ0YmQ1ZTY2ODA5NDczNTc4YzMwYmY",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-28T13:40:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-28T13:40:31Z"
+        },
+        "message": "Merge pull request #11 from AIcling/main\n\nReproduce Guidance",
+        "tree": {
+          "sha": "e9fe50f42facae89ff2cfa645ac2fa24735247af",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/e9fe50f42facae89ff2cfa645ac2fa24735247af"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/ca37e449f0bfba188644bd5e66809473578c30bf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJosFxPCRC1aQ7uu5UhlAAAjNYQAACi/Ku/PlagEf/0+qQ7RLZZ\nIP4dVGo8OdPT4GLN9mk9VJFCwWT/4Fup1V00c9W9mFZUBDSLBWD+hgKCOM1ToK48\nUzKt47OGy++ptLVdadEYs4XId2e3vJEl/P4bWn1bx11KUiqvqzAaCm4VhWX0XaKM\nvuqQwUpeDhnEa43L2j7ZeGG/TIT0eZ83bjrZZmLNqmYy0p5zFAuwQIYHPyXmZodC\nzF6l7/WkOfTn9yok5hFgBqtLGYA6LLJc7XsTTZWunsfBCImmVlrjoqRgYTMhL/kE\nL1phErxQK3SqK8UaPlLuN5m4QiI1OCiS+MnY+mfWyzER6RaFznuvqt6/6zdFsJHQ\nm81/3nXyOFFFGUsxurT1Dl4zmn0IotJqkmQWa6iZ/sT6aO4u8rDBJ6rnyLdCD8Jg\nh3agiFn7STRBhe9XqxcowBUflfkUQCjFxAuVBAaxQzgEpwbytT5QkaXp/nrwyKU4\nNUA/Hxa9Bbma6T5wzX2jounhQLHXXMfKtuKCQMHtstKLGtunhyfjwMhwFhlFaNvC\nDfEwIWbTVeLVin5r+9VBeenrpJWAdkQ22ok8dxcDMKSQ6q8zulikc4IrkCkGn6VE\nhO5I7i4SdotdGq2x8z3yKafLScwsVdQO1QsEMGnfpBkuQmNs0EsCnG333XFSar00\nAjp7mnoqXKVi0IUUXNd7\n=He9j\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e9fe50f42facae89ff2cfa645ac2fa24735247af\nparent 6a156aa7c7c101259746cf74fcdec0eef01b35db\nparent b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4\nauthor Jiaqi Yuan <2460058215@qq.com> 1756388431 +0800\ncommitter GitHub <noreply@github.com> 1756388431 +0800\n\nMerge pull request #11 from AIcling/main\n\nReproduce Guidance",
+          "verified_at": "2025-08-28T13:40:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/ca37e449f0bfba188644bd5e66809473578c30bf",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/ca37e449f0bfba188644bd5e66809473578c30bf",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/ca37e449f0bfba188644bd5e66809473578c30bf/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6a156aa7c7c101259746cf74fcdec0eef01b35db",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/6a156aa7c7c101259746cf74fcdec0eef01b35db",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/6a156aa7c7c101259746cf74fcdec0eef01b35db"
+        },
+        {
+          "sha": "b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4"
+        }
+      ]
+    },
+    {
+      "sha": "b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4",
+      "node_id": "C_kwDOPLZsDtoAKGIzYzNjZTM3ZDE2ZDJmM2JkMmFiZTAzMjg5ZWFiZDRmMDc5NjhmYjQ",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-28T13:38:18Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-28T13:38:18Z"
+        },
+        "message": "Reproduce Guidance",
+        "tree": {
+          "sha": "2147a8119309c5312a005e2b190ff8cf7890f922",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/2147a8119309c5312a005e2b190ff8cf7890f922"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/b3c3ce37d16d2f3bd2abe03289eabd4f07968fb4/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c9b0fc146bb8acbef088f1e8239d570fa27a17f9",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/c9b0fc146bb8acbef088f1e8239d570fa27a17f9",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/c9b0fc146bb8acbef088f1e8239d570fa27a17f9"
+        }
+      ]
+    },
+    {
+      "sha": "c9b0fc146bb8acbef088f1e8239d570fa27a17f9",
+      "node_id": "C_kwDOPLZsDtoAKGM5YjBmYzE0NmJiOGFjYmVmMDg4ZjFlODIzOWQ1NzBmYTI3YTE3Zjk",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-28T13:36:31Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-28T13:36:31Z"
+        },
+        "message": "Reproduce Guidance",
+        "tree": {
+          "sha": "99141ccf53b86cf9362552315d6e48c993664744",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/99141ccf53b86cf9362552315d6e48c993664744"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/c9b0fc146bb8acbef088f1e8239d570fa27a17f9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/c9b0fc146bb8acbef088f1e8239d570fa27a17f9",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/c9b0fc146bb8acbef088f1e8239d570fa27a17f9",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/c9b0fc146bb8acbef088f1e8239d570fa27a17f9/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7d8d049c3c30ae5f3be764b501f640825002b878",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/7d8d049c3c30ae5f3be764b501f640825002b878",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/7d8d049c3c30ae5f3be764b501f640825002b878"
+        }
+      ]
+    },
+    {
+      "sha": "7d8d049c3c30ae5f3be764b501f640825002b878",
+      "node_id": "C_kwDOPLZsDtoAKDdkOGQwNDljM2MzMGFlNWYzYmU3NjRiNTAxZjY0MDgyNTAwMmI4Nzg",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-28T13:26:04Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-28T13:26:04Z"
+        },
+        "message": "fix eval",
+        "tree": {
+          "sha": "3c57e63f6100b8d7b48e01a5a1f50c384431b958",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/3c57e63f6100b8d7b48e01a5a1f50c384431b958"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/7d8d049c3c30ae5f3be764b501f640825002b878",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/7d8d049c3c30ae5f3be764b501f640825002b878",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/7d8d049c3c30ae5f3be764b501f640825002b878",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/7d8d049c3c30ae5f3be764b501f640825002b878/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf"
+        }
+      ]
+    },
+    {
+      "sha": "6a156aa7c7c101259746cf74fcdec0eef01b35db",
+      "node_id": "C_kwDOPLZsDtoAKDZhMTU2YWE3YzdjMTAxMjU5NzQ2Y2Y3NGZjZGVjMGVlZjAxYjM1ZGI",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-06T10:01:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-06T10:01:16Z"
+        },
+        "message": "Merge pull request #9 from AIcling/main\n\nrequirements.txt",
+        "tree": {
+          "sha": "1a6f751f9504cdcc8f351d115a3bf41b201a00fe",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/1a6f751f9504cdcc8f351d115a3bf41b201a00fe"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/6a156aa7c7c101259746cf74fcdec0eef01b35db",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJokyfsCRC1aQ7uu5UhlAAAs2MQACtBUtnTB9xASDpwMZihgyob\n/4yDpUNzfVWu9GGdR5LAi3GiUYMs0wBc0EU7krL0b4rDK+1sjChmVu3bTsiFcnGk\naEKfHtN7iZQVE6Fhdm7uIJOdaqLYyGgQzaU8eSlLGcxGnMSlKj7IX45dvgPz8DDs\nCOUdJu+hp7BnowCMInpEOaRY5MaQSvyQyIax6HomMtoJap+uEvOwb6OLQ3Jtue3B\n51hq78ZCmfB5QMBr0SEUhkLynEUV9GgJHVyxwdbH0jV24nYOkV6ODF4vRpfc1oav\nNy22qT4ExsH/sjBRb9WehW0hqM03Esrc0vr9qn/SmWvK5/ZyjBd75w8db2gEnNdd\ndVTtlxse4VF7qh/t8CBmIElcOyK30C90kcrBnHHnwlAzlfeSzA/Is5XyX9JcUj9F\nLD1o5hoxXeuuCdfyhF0c+Ar8a1nJfEVkQhfrU/ZMxzdi/OS/bcJgSgcf8e5IjRvo\nGJcik1+WmCAvx8NBrzCF3qvz19RFKcTyZbmNc5C7ti/5KhMgf7rzCG5/OVU/OPtB\ncbfbIGZ3puxUudxgvMxShu4YrKCrSWwsYKAsPROxMI1lCAWUeuVbUgnGk02S/Bpm\nbDB6mY6JqiOCAo4DsNOpLfbGKe+XDEV8VJ1z+95fBMxdZN+ZAzFfU0EfkoqSDOIB\nff95/aJfwF7KN76d+yze\n=S0yP\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1a6f751f9504cdcc8f351d115a3bf41b201a00fe\nparent aa0ccfe191eefaf47b822f120b2478f1d6dc002e\nparent 91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf\nauthor Jiaqi Yuan <2460058215@qq.com> 1754474476 +0800\ncommitter GitHub <noreply@github.com> 1754474476 +0800\n\nMerge pull request #9 from AIcling/main\n\nrequirements.txt",
+          "verified_at": "2025-08-06T10:01:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/6a156aa7c7c101259746cf74fcdec0eef01b35db",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/6a156aa7c7c101259746cf74fcdec0eef01b35db",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/6a156aa7c7c101259746cf74fcdec0eef01b35db/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "aa0ccfe191eefaf47b822f120b2478f1d6dc002e",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/aa0ccfe191eefaf47b822f120b2478f1d6dc002e",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/aa0ccfe191eefaf47b822f120b2478f1d6dc002e"
+        },
+        {
+          "sha": "91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf"
+        }
+      ]
+    },
+    {
+      "sha": "91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+      "node_id": "C_kwDOPLZsDtoAKDkxYzUwYTFkNjMwODIyMWM0NGNjZDBlNzhhZTVmMzllNWFmMmY5YmY",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-06T09:59:24Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-08-06T09:59:24Z"
+        },
+        "message": "requirements.txt",
+        "tree": {
+          "sha": "f2c247b4f6321d9be636152f7386a1fa8d03a734",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/f2c247b4f6321d9be636152f7386a1fa8d03a734"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/91c50a1d6308221c44ccd0e78ae5f39e5af2f9bf/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/624a89e5b512b0e2356eb91b1bb81b6f8e54045a"
+        }
+      ]
+    },
+    {
+      "sha": "aa0ccfe191eefaf47b822f120b2478f1d6dc002e",
+      "node_id": "C_kwDOPLZsDtoAKGFhMGNjZmUxOTFlZWZhZjQ3YjgyMmYxMjBiMjQ3OGYxZDZkYzAwMmU",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-22T13:27:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-22T13:27:57Z"
+        },
+        "message": "Merge pull request #6 from AIcling/main\n\nUpdate README",
+        "tree": {
+          "sha": "c3141a8e40116c23e1f2dad60c44a40de0503424",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/c3141a8e40116c23e1f2dad60c44a40de0503424"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/aa0ccfe191eefaf47b822f120b2478f1d6dc002e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJof5HdCRC1aQ7uu5UhlAAAVdMQAAei3tExddKSIQCk7ncKNG8C\ntjx8OvjAAaY8Eowz0pyx1nZ2E96NlzDQdASRvWFdyO2w2mWn+N93LnKs9JjZwLgy\njFLUjCxqGrPXIPMyFudnWZXeb0ReKdsUA9NF1EHNIXA/BWJXy1KtWSXhUor0X2Jm\n7q3uEl+k2YS329aOfTkPWG0oZO2SV+cu2KmtUUokZx8x3pufRHy++EBdKEv94BOn\n60FFBCbSZz6/KiWIHoVTNH05HIkOt4N87aHoR/jWpZaP3qSbrM9k9Jnv7VZMht0Z\nrr5cPd9xn4rH++MigQVs6Xfd5VUJuYfgOT1Jp/j0LqMDGKM2dUqa7P7Iqdbl9m8Y\n9D1y1CIuUYYBCQo+XldcSorOn1r05i2av+j5IJt4A0+hs3Ltn8Bja1foO6fQfc2E\nlININaI0dG4/+EHGJLRmjsx0lua6L1hNP9q9ppteVDoHpK956qOoivfske1QTMjX\ns/vPnpt+0aYDzd18fxUfM5Ls8fQIzL/ZgHxt2bC0I5XFZBVwuU4vFiKTxcq7/CG5\nk45BGTI1Q3T17hVLbszVRj3iugeMfPUlho3jxndXXLMP8YumlhH+QkRkN14tIH2Y\nE/6CCKasLgkIF/GJ/9SoO7vhHp+iJ4xZehjJfSnlAS5drnbE7aRl4IYOj7s3Q01N\njNy/Ef0Z6rSCDJ3iW++b\n=Ofzy\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c3141a8e40116c23e1f2dad60c44a40de0503424\nparent 812af17fde70fe9e294603e192021539e24022d1\nparent 624a89e5b512b0e2356eb91b1bb81b6f8e54045a\nauthor Jiaqi Yuan <2460058215@qq.com> 1753190877 +0800\ncommitter GitHub <noreply@github.com> 1753190877 +0800\n\nMerge pull request #6 from AIcling/main\n\nUpdate README",
+          "verified_at": "2025-07-22T13:27:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/aa0ccfe191eefaf47b822f120b2478f1d6dc002e",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/aa0ccfe191eefaf47b822f120b2478f1d6dc002e",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/aa0ccfe191eefaf47b822f120b2478f1d6dc002e/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "812af17fde70fe9e294603e192021539e24022d1",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/812af17fde70fe9e294603e192021539e24022d1",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/812af17fde70fe9e294603e192021539e24022d1"
+        },
+        {
+          "sha": "624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/624a89e5b512b0e2356eb91b1bb81b6f8e54045a"
+        }
+      ]
+    },
+    {
+      "sha": "624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+      "node_id": "C_kwDOPLZsDtoAKDYyNGE4OWU1YjUxMmIwZTIzNTZlYjkxYjFiYjgxYjZmOGU1NDA0NWE",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-22T13:26:15Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-22T13:26:15Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "ec516fc55e394ac855f5a2824c227d62fc1b2d20",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/ec516fc55e394ac855f5a2824c227d62fc1b2d20"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/624a89e5b512b0e2356eb91b1bb81b6f8e54045a",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/624a89e5b512b0e2356eb91b1bb81b6f8e54045a/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e625407b233d5c4066b890e993ba106642e8204f",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/e625407b233d5c4066b890e993ba106642e8204f",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/e625407b233d5c4066b890e993ba106642e8204f"
+        }
+      ]
+    },
+    {
+      "sha": "812af17fde70fe9e294603e192021539e24022d1",
+      "node_id": "C_kwDOPLZsDtoAKDgxMmFmMTdmZGU3MGZlOWUyOTQ2MDNlMTkyMDIxNTM5ZTI0MDIyZDE",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:59:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T11:59:23Z"
+        },
+        "message": "Create datasets.html",
+        "tree": {
+          "sha": "a23bbe1eb4bbe7a85c3c83db68c99b4d85149df8",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/a23bbe1eb4bbe7a85c3c83db68c99b4d85149df8"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/812af17fde70fe9e294603e192021539e24022d1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod5QbCRC1aQ7uu5UhlAAAgQQQAHNR31dBzhBZ+JbLOMkCFWnd\nIRxCLWVZR1gGvUm7U37ebZooyfWUrMizzXlQbLsttQYpsDOyS08hcbpvk7pNJe85\nRose9u2pwVcMo7x0n19jKODIbKMXlE28RZlIMAkzao8fOu6+uVdqQ++eGohJQyJN\nfffIQj46gsqoH/p4I26hGOGLa6zYglHs78dio1YpsRPps46aoYyRO9TOm6BIGFs8\nuiuQTEe5WlM2Tiqpq8LzToa79tgg6RlTnQ3eELcR+24L8aRhPsWb5wQhIMIlWVBs\nR3NZao5FzMmuodoB2cqjmolUEyJSlHK0bBhHlNLzY6MgqYnl4w5/5dHvb/swAOmn\n1OsND9MmalXruncc5acOvSpK/swD7eK1lS/M+sGPC5TRKmW9my+xO4sWyY4IwG19\nTlU2Qyl+kcx5UzHcBmqkK3nj12gk9I/E528I1k18ZIvVp+BKObN8oc4mhyBlYIQz\npR8aQ9XjbPjA9pvtTUIPZhSMQOX4X5qZKJ2HJAp4p7lSo0VSqz1hRyWfQjhMYnw2\nby+WfpjBKk2zK0qfZrqSFnqopmQPv8GVXuplbg30AxGQdzKOTG5KCJ7umK9pJqyC\n5YOd47tNo3dzn7+9cJ78tJSntvCPQiGTM65/Gyy8GK41StGKmWXZ2gYl82HZ6Hpg\nN32wAdrcOtJtIQ9fczqa\n=cK7C\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a23bbe1eb4bbe7a85c3c83db68c99b4d85149df8\nparent 7b35489a4eb3dcec1d3c8496e237056fa40715df\nauthor Jiaqi Yuan <2460058215@qq.com> 1752667163 +0800\ncommitter GitHub <noreply@github.com> 1752667163 +0800\n\nCreate datasets.html",
+          "verified_at": "2025-07-16T11:59:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/812af17fde70fe9e294603e192021539e24022d1",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/812af17fde70fe9e294603e192021539e24022d1",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/812af17fde70fe9e294603e192021539e24022d1/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7b35489a4eb3dcec1d3c8496e237056fa40715df",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/7b35489a4eb3dcec1d3c8496e237056fa40715df",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/7b35489a4eb3dcec1d3c8496e237056fa40715df"
+        }
+      ]
+    },
+    {
+      "sha": "7b35489a4eb3dcec1d3c8496e237056fa40715df",
+      "node_id": "C_kwDOPLZsDtoAKDdiMzU0ODlhNGViM2RjZWMxZDNjODQ5NmUyMzcwNTZmYTQwNzE1ZGY",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:50:34Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T11:50:34Z"
+        },
+        "message": "Merge pull request #5 from AIcling/main\n\ndatasets link",
+        "tree": {
+          "sha": "37f9d5aa15a32b3f8d4b2b356049778ddb3d9b44",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/37f9d5aa15a32b3f8d4b2b356049778ddb3d9b44"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/7b35489a4eb3dcec1d3c8496e237056fa40715df",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod5IKCRC1aQ7uu5UhlAAAaVsQAD6bSl9cXGVF0ONmba5u91Ci\n/R2+kc+mUgDpefDUFEllAI/RGXvDuUzNHtg2nh2Q7ObtydK3z22kVu59dfpQlFLN\n+sd2elsvAfDvRvADz1bOnZoLTdJ8LUZp2bH3Ar8vvLIyeySvt7/Gfz0FT8h5SRQY\ns/gGR7L0q5yzDq3DGgGtlGpNbrFw6EKfLZf8PV4vSN5JN+T26Q5JL/QKkAq9xWu4\nih1QI2fM/duBDEUjDASOddGrrApq5/5tz1rlEj6twoZhDD+WmvmK+2yhTm+fmYeS\nX/PYRGaqlTk6nWCfoZBs6CZFaWSq1i5YmP1fPXwBrxuT9UlBClYGkwFy0szlzf5S\nFbIj34WQ0CqoVDmdq9A06aAObt8Xa33Ksy/SetGWOKH8wwLLTB3H4ruDCblbRVGo\nwjABIbM35dH0fW1mzk43uX1n0AzeWMeA+uORPJhrxPCuIk7sue9G/aSXDzGlXIUJ\nO8uOf3+dgPpD5UgRSlX3tWKNIqu+hstWtASS3bRsawHDy3ggo3qVr4NJqSrYrNGF\nrzXlNs8DZlyMy6G+Lrlt4eVpiJsYwAMylHPqC6dkq9el86B7ATht21iz7+BY8D3R\nxGky4rEIQVPq5tu600yVNm2FZLULvHEifibXLn6qUmw8sTzL6v4sUGHKlqio00YF\n+pIiNwnCE1/ZTUaKEIPo\n=o7e0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 37f9d5aa15a32b3f8d4b2b356049778ddb3d9b44\nparent cbaa4a58d9c7004738b4e778271ef49f09756b81\nparent e625407b233d5c4066b890e993ba106642e8204f\nauthor Jiaqi Yuan <2460058215@qq.com> 1752666634 +0800\ncommitter GitHub <noreply@github.com> 1752666634 +0800\n\nMerge pull request #5 from AIcling/main\n\ndatasets link",
+          "verified_at": "2025-07-16T11:50:35Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/7b35489a4eb3dcec1d3c8496e237056fa40715df",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/7b35489a4eb3dcec1d3c8496e237056fa40715df",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/7b35489a4eb3dcec1d3c8496e237056fa40715df/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cbaa4a58d9c7004738b4e778271ef49f09756b81",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/cbaa4a58d9c7004738b4e778271ef49f09756b81",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/cbaa4a58d9c7004738b4e778271ef49f09756b81"
+        },
+        {
+          "sha": "e625407b233d5c4066b890e993ba106642e8204f",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/e625407b233d5c4066b890e993ba106642e8204f",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/e625407b233d5c4066b890e993ba106642e8204f"
+        }
+      ]
+    },
+    {
+      "sha": "e625407b233d5c4066b890e993ba106642e8204f",
+      "node_id": "C_kwDOPLZsDtoAKGU2MjU0MDdiMjMzZDVjNDA2NmI4OTBlOTkzYmExMDY2NDJlODIwNGY",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:49:15Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:49:15Z"
+        },
+        "message": "datasets link",
+        "tree": {
+          "sha": "37f9d5aa15a32b3f8d4b2b356049778ddb3d9b44",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/37f9d5aa15a32b3f8d4b2b356049778ddb3d9b44"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/e625407b233d5c4066b890e993ba106642e8204f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/e625407b233d5c4066b890e993ba106642e8204f",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/e625407b233d5c4066b890e993ba106642e8204f",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/e625407b233d5c4066b890e993ba106642e8204f/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5"
+        }
+      ]
+    },
+    {
+      "sha": "cbaa4a58d9c7004738b4e778271ef49f09756b81",
+      "node_id": "C_kwDOPLZsDtoAKGNiYWE0YTU4ZDljNzAwNDczOGI0ZTc3ODI3MWVmNDlmMDk3NTZiODE",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:19:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T11:19:49Z"
+        },
+        "message": "Merge pull request #4 from AIcling/main\n\ndownload model",
+        "tree": {
+          "sha": "44622e0d175adcdd17f66761347415ee79b974e3",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/44622e0d175adcdd17f66761347415ee79b974e3"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/cbaa4a58d9c7004738b4e778271ef49f09756b81",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod4rVCRC1aQ7uu5UhlAAAwHMQAHaXhQRK2IYa2Rep8IZevd7y\nU8pIKV1cYNmqo/GrGWzQ55FYIlrrJaumRz2g1LNeViIxKctUuo0gjPxWpwIF/ASM\n2h2EOOtoIJdeDPlswOOXgbO0WuJgviR06DZSFR9dWBzRGmw/COtbRf7iiguW9Oii\ntoYGRbqi0oRKaT1DL1QGQYfF0OAGwsaGZjkTIr5EDMAIjmdwLjuInvMpZoIPqHXZ\nQib3xw/0s1FVOXFOALZYpXh2ac17G4qEssElpfT/qDrE5q9uPfc08YXhs1K4L91s\nrhfSKtJgEsbVllaVCwm6PWLCCh0zwni1MPOd5NoS/xynbQzObPLpP9mYjqxRofTC\n/AOybn5XLywyBa96MlbUyIG0tSGJIWXHNQCHsuSLqEbd2XUR+ulJZtkSYypxUGkX\nEPgNxm6zpcaI0r9CxOj/tPvSm4rsT8j3AsY00bk5mpZ2vKSd7sjplMt/mbSW4wFC\nklPPLPGxNvk4QX8Z4NHXY60Eo2BbGGV8ZBuMBNcfjWsVioYBidtKltcOa9AeTYeA\nSuRJ+Zq4ObGyt/AsXqYt14ZJEs1NnWtKcyXaqJfkIPd9+BtuJRmk8VsqS07kTa88\n+5Ji43I6Oy+WZSg0e2398echyBCuxq4t2H4us+2PO+H69y73vZJU/5JHBiIHI3o7\n34YAjuQacIRjZNA77yjp\n=RfKR\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 44622e0d175adcdd17f66761347415ee79b974e3\nparent 00338d4deb55c63bf94a2fc2e1ef671b9a11ab15\nparent 0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5\nauthor Jiaqi Yuan <2460058215@qq.com> 1752664789 +0800\ncommitter GitHub <noreply@github.com> 1752664789 +0800\n\nMerge pull request #4 from AIcling/main\n\ndownload model",
+          "verified_at": "2025-07-16T11:19:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/cbaa4a58d9c7004738b4e778271ef49f09756b81",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/cbaa4a58d9c7004738b4e778271ef49f09756b81",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/cbaa4a58d9c7004738b4e778271ef49f09756b81/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "00338d4deb55c63bf94a2fc2e1ef671b9a11ab15",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/00338d4deb55c63bf94a2fc2e1ef671b9a11ab15",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/00338d4deb55c63bf94a2fc2e1ef671b9a11ab15"
+        },
+        {
+          "sha": "0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5"
+        }
+      ]
+    },
+    {
+      "sha": "0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+      "node_id": "C_kwDOPLZsDtoAKDBmMDc1ZDk5ZjEyMzZiYzYxZDhmMTk1YmZlZjNhMWM3Y2Y4N2QzZDU",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:18:38Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:18:38Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "44622e0d175adcdd17f66761347415ee79b974e3",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/44622e0d175adcdd17f66761347415ee79b974e3"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/0f075d99f1236bc61d8f195bfef3a1c7cf87d3d5/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/ca6741a91819a7b845d6aeebbd1a75bdacfb104d"
+        }
+      ]
+    },
+    {
+      "sha": "00338d4deb55c63bf94a2fc2e1ef671b9a11ab15",
+      "node_id": "C_kwDOPLZsDtoAKDAwMzM4ZDRkZWI1NWM2M2JmOTRhMmZjMmUxZWY2NzFiOWExMWFiMTU",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:15:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T11:15:26Z"
+        },
+        "message": "Merge pull request #3 from AIcling/main\n\nupdate readme",
+        "tree": {
+          "sha": "7d9fa7361edcd20c02a2f79ce6016852500cdc1e",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/7d9fa7361edcd20c02a2f79ce6016852500cdc1e"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/00338d4deb55c63bf94a2fc2e1ef671b9a11ab15",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod4nOCRC1aQ7uu5UhlAAA2DgQAJ5KhC+Ntb6vYvj2BxGJqab7\nfOgp7eTAbx5zqMw37hrrZTHBw50Oygv0QekCy4V8tq1+Oyk2I73UVStK1krpYl5l\n2giIB49CuJVI2v+wzlCZ3XIEStD+4R8qb/B05JBipeN836uBCO4dKvB6lhy/E1YN\nNBCVv8YiEGwsW6Yck10Q/2WufP4jpGV/RATiu0MZTjAO7V693mj0GKmHI+2KOEp8\nxNtUHhCf1lYE9a/M8/b8qD5HWC1sJp9LJQaMKciEGmAMux42FZyuBs2A5+rCtvDi\nTzGNObAPA8UocBVuChuWnW/lG/ayqhoTBcHVF3CHBF8WjVVIjYDTXshU/VfAQqb9\nN5YD7qxt3K3h+6X22UceFHYy9ASpiUCDHlcQF3YVZPiYw/cQXSrTRT58WlTCsNZG\n+5LS3GMYOQbVv3wrgtHLsBs22sW7jZ6Kra0KI2oZIgYTxb0TQ5zH8mOfuIZ4WnVE\nbPxi0PG75mDfKqlXIJZo+mDbiel3T+j9VAzvdZBPbg3M3Twyvgmu3jOCDGWdKHvw\n6s9XO5w4HVZwQUN6Hc+ot7N5v6rYfCWm0t6wSNsOcImokfT7ida3yv6W0YnfgiR1\nop3LLTicleFb48xwMaqYqHjiD7CQg7TlA0mZvIhSxHDMSOjTCXE9JWqmfDKBsD7J\nAWxaB/HdfL7L2ab8DX3o\n=myq5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7d9fa7361edcd20c02a2f79ce6016852500cdc1e\nparent 1b972310d412be37456e2e0412ca272926c19897\nparent ca6741a91819a7b845d6aeebbd1a75bdacfb104d\nauthor Jiaqi Yuan <2460058215@qq.com> 1752664526 +0800\ncommitter GitHub <noreply@github.com> 1752664526 +0800\n\nMerge pull request #3 from AIcling/main\n\nupdate readme",
+          "verified_at": "2025-07-16T11:15:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/00338d4deb55c63bf94a2fc2e1ef671b9a11ab15",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/00338d4deb55c63bf94a2fc2e1ef671b9a11ab15",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/00338d4deb55c63bf94a2fc2e1ef671b9a11ab15/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1b972310d412be37456e2e0412ca272926c19897",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/1b972310d412be37456e2e0412ca272926c19897",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/1b972310d412be37456e2e0412ca272926c19897"
+        },
+        {
+          "sha": "ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/ca6741a91819a7b845d6aeebbd1a75bdacfb104d"
+        }
+      ]
+    },
+    {
+      "sha": "ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+      "node_id": "C_kwDOPLZsDtoAKGNhNjc0MWE5MTgxOWE3Yjg0NWQ2YWVlYmJkMWE3NWJkYWNmYjEwNGQ",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:13:37Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-16T11:13:37Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "7d9fa7361edcd20c02a2f79ce6016852500cdc1e",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/7d9fa7361edcd20c02a2f79ce6016852500cdc1e"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/ca6741a91819a7b845d6aeebbd1a75bdacfb104d",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/ca6741a91819a7b845d6aeebbd1a75bdacfb104d/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6a2ed30ba586e82603064e25690b91b4e5776126",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/6a2ed30ba586e82603064e25690b91b4e5776126",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/6a2ed30ba586e82603064e25690b91b4e5776126"
+        }
+      ]
+    },
+    {
+      "sha": "6a2ed30ba586e82603064e25690b91b4e5776126",
+      "node_id": "C_kwDOPLZsDtoAKDZhMmVkMzBiYTU4NmU4MjYwMzA2NGUyNTY5MGI5MWI0ZTU3NzYxMjY",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-14T15:19:54Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-14T15:19:54Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "54782142a4dd83cd4ad7566408ff4cbf170c9d40",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/54782142a4dd83cd4ad7566408ff4cbf170c9d40"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/6a2ed30ba586e82603064e25690b91b4e5776126",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/6a2ed30ba586e82603064e25690b91b4e5776126",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/6a2ed30ba586e82603064e25690b91b4e5776126",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/6a2ed30ba586e82603064e25690b91b4e5776126/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "65121e360078caaf0b5b71aa40d6c9ea5a3597a5",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/65121e360078caaf0b5b71aa40d6c9ea5a3597a5",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/65121e360078caaf0b5b71aa40d6c9ea5a3597a5"
+        }
+      ]
+    },
+    {
+      "sha": "65121e360078caaf0b5b71aa40d6c9ea5a3597a5",
+      "node_id": "C_kwDOPLZsDtoAKDY1MTIxZTM2MDA3OGNhYWYwYjViNzFhYTQwZDZjOWVhNWEzNTk3YTU",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-13T08:18:02Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-13T08:18:02Z"
+        },
+        "message": "Update Readme",
+        "tree": {
+          "sha": "d599ffbd9828cf0e285dffe534bdae584f2e0f4e",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/d599ffbd9828cf0e285dffe534bdae584f2e0f4e"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/65121e360078caaf0b5b71aa40d6c9ea5a3597a5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/65121e360078caaf0b5b71aa40d6c9ea5a3597a5",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/65121e360078caaf0b5b71aa40d6c9ea5a3597a5",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/65121e360078caaf0b5b71aa40d6c9ea5a3597a5/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1b972310d412be37456e2e0412ca272926c19897",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/1b972310d412be37456e2e0412ca272926c19897",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/1b972310d412be37456e2e0412ca272926c19897"
+        }
+      ]
+    },
+    {
+      "sha": "1b972310d412be37456e2e0412ca272926c19897",
+      "node_id": "C_kwDOPLZsDtoAKDFiOTcyMzEwZDQxMmJlMzc0NTZlMmUwNDEyY2EyNzI5MjZjMTk4OTc",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-12T23:50:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T23:50:19Z"
+        },
+        "message": "Merge pull request #2 from AIcling/main\n\nexample code",
+        "tree": {
+          "sha": "af84b9ef8fc351bbb56929154fc8425b303187bd",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/af84b9ef8fc351bbb56929154fc8425b303187bd"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/1b972310d412be37456e2e0412ca272926c19897",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocvS7CRC1aQ7uu5UhlAAA0xEQAIALgB6wLhVWUxdHRv9bbE8o\nN9+DAcnhqIiYjXuBurO8Sqe+lmKhhDIxWlHz7vbCFMSw29fvdxHD66gyeJUjGMiz\nOEhDWxFtFkumtZai32rDdTKV+dnYSLK2Qbh4S6Fq73x+sfqCbcaeK2KBr7zu0mKO\nmFoqrMLIDquUi1D2ECBMtn1XTmQ4ESy/THWbFOMoAGC3XqwrsH76VZJyaZB+xcIl\ns43BMPvD6QhZMlR5xURQ1gbTxeCiYeXULBF5+n78kAJMAmVkYNzr4yPZUBeEYO/f\nE+nS/MusgY0LOjoy0+LMkeFSFqj7PfFT2hFSQZJnEV04jC0YNRYoGKh/zfhBrqE9\nFLkle4yO/ktcm035ChGEmOs1OAvu/8Y0RtMoLfquj0fhxuemVKfdu53LYPpxROFm\nGyiaWaLVfRZVap/7y+zTpyl6otE2NBfUO/BPB+LzXQ+6unUJuaiqA4iOzISucIwC\n7D6M3rZRYvY3tWIHZ2ZPUA8Eeh5zg2T7AaUW2D9QNOTTh6FK3JlkoyxJ/gOsSmMz\nx6WL431wsPpU5alSeZVqFmm758fhBNQI87VV1ZKCpFAIBslZaMWT6BX3VJNkzLpn\nq9OCkpqQVKtPRJ2KBZJeo03mmhyRiaVr06jVGJt93klE0BgoGLSBXV/ObNpLpAUl\nDF8r3byLxVlg5J8l7M2z\n=6O3n\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree af84b9ef8fc351bbb56929154fc8425b303187bd\nparent 8b6fd4f7f9eba296c6065ab899ca8178f3c67f34\nparent 0de716600290232e71305a758283193d47625815\nauthor Jiaqi Yuan <2460058215@qq.com> 1752364219 +0800\ncommitter GitHub <noreply@github.com> 1752364219 +0800\n\nMerge pull request #2 from AIcling/main\n\nexample code",
+          "verified_at": "2025-07-12T23:50:19Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/1b972310d412be37456e2e0412ca272926c19897",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/1b972310d412be37456e2e0412ca272926c19897",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/1b972310d412be37456e2e0412ca272926c19897/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8b6fd4f7f9eba296c6065ab899ca8178f3c67f34",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/8b6fd4f7f9eba296c6065ab899ca8178f3c67f34",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/8b6fd4f7f9eba296c6065ab899ca8178f3c67f34"
+        },
+        {
+          "sha": "0de716600290232e71305a758283193d47625815",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/0de716600290232e71305a758283193d47625815",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/0de716600290232e71305a758283193d47625815"
+        }
+      ]
+    },
+    {
+      "sha": "0de716600290232e71305a758283193d47625815",
+      "node_id": "C_kwDOPLZsDtoAKDBkZTcxNjYwMDI5MDIzMmU3MTMwNWE3NTgyODMxOTNkNDc2MjU4MTU",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-12T23:48:34Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-12T23:48:34Z"
+        },
+        "message": "example code",
+        "tree": {
+          "sha": "af84b9ef8fc351bbb56929154fc8425b303187bd",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/af84b9ef8fc351bbb56929154fc8425b303187bd"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/0de716600290232e71305a758283193d47625815",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/0de716600290232e71305a758283193d47625815",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/0de716600290232e71305a758283193d47625815",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/0de716600290232e71305a758283193d47625815/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9"
+        }
+      ]
+    },
+    {
+      "sha": "8b6fd4f7f9eba296c6065ab899ca8178f3c67f34",
+      "node_id": "C_kwDOPLZsDtoAKDhiNmZkNGY3ZjllYmEyOTZjNjA2NWFiODk5Y2E4MTc4ZjNjNjdmMzQ",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-12T15:43:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T15:43:59Z"
+        },
+        "message": "Merge pull request #1 from AIcling/main\n\ninit code",
+        "tree": {
+          "sha": "684bd825d9be8bc21bd526d6d0755a60fd84adcc",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/684bd825d9be8bc21bd526d6d0755a60fd84adcc"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/8b6fd4f7f9eba296c6065ab899ca8178f3c67f34",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocoK/CRC1aQ7uu5UhlAAAZyQQAH6zRwK2T7SlLYjBxbR100QA\n6RPUvGyWm1cwmHjeCOG5Fq2GY/xQsElkQmkNFI3DSpH/Jik5m3+sjtgiNfs7mCgC\nBbpyqsjWb5NB/ak7llbMJSexOiyVmapaIq6qGpMzETFmiQbs6bsdfH7f/5rzF/Vb\n+IQh9z2+8ka5OHEpAKI+BhqHaaKduptAUx73fDow+DpvHZfGEOAkDkHhHn7yuxPa\nZNRBOoXKr8j0LEvgMxaCJAjhdF3amFiO+M4DoRMap66+EoNWgV8XRgjmeanAG7uR\nl/PEqYVGS76b7jV5u2tUvaCyRMnI9U6vzbv2HM4vde6uetJhbrrYopo0k8bgvHji\nh09tELR/abxTumkIoRcTjWFvd5b0bFRLZqs02B6aSsK0AD0R7HDvABKtgoUtlQ0Y\nZBuC45kzvJptFVjzskWgpcufiDPHb6/CJwxlgKAUoR5FCz0Sx+h327co4OUoBz+Q\noagOCqHBH7xLk2P5xvgTsoLGs9THm/DNsps5U+rE+rr2poUX6zf717B6j/6Z9qEh\nUfou28dsCfW85eimzZovydWwxYAUPEiUsgeWbOAf5tohaG4qvYHip5FZbuG0a5fv\n+SgJkrMwk8WXQ3TgZ2oF8QdVtFn6Riy+KVH3UsrysINlhAdB24OVJGcr1lk/tZiR\ncK/Z8gHf65Shcnux8J/u\n=CqJT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 684bd825d9be8bc21bd526d6d0755a60fd84adcc\nparent 80868a8ea04b01178ed5ae2b93dfd4a620be0da3\nparent b0367961f8f126761c5df0c9947aa1a5a9bf5dc9\nauthor Jiaqi Yuan <2460058215@qq.com> 1752335039 +0800\ncommitter GitHub <noreply@github.com> 1752335039 +0800\n\nMerge pull request #1 from AIcling/main\n\ninit code",
+          "verified_at": "2025-07-12T15:44:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/8b6fd4f7f9eba296c6065ab899ca8178f3c67f34",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/8b6fd4f7f9eba296c6065ab899ca8178f3c67f34",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/8b6fd4f7f9eba296c6065ab899ca8178f3c67f34/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/80868a8ea04b01178ed5ae2b93dfd4a620be0da3"
+        },
+        {
+          "sha": "b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9"
+        }
+      ]
+    },
+    {
+      "sha": "b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+      "node_id": "C_kwDOPLZsDtoAKGIwMzY3OTYxZjhmMTI2NzYxYzVkZjBjOTk0N2FhMWE1YTliZjVkYzk",
+      "commit": {
+        "author": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-12T15:40:27Z"
+        },
+        "committer": {
+          "name": "AICling",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-12T15:40:27Z"
+        },
+        "message": "init code",
+        "tree": {
+          "sha": "684bd825d9be8bc21bd526d6d0755a60fd84adcc",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/684bd825d9be8bc21bd526d6d0755a60fd84adcc"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/b0367961f8f126761c5df0c9947aa1a5a9bf5dc9/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+          "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/80868a8ea04b01178ed5ae2b93dfd4a620be0da3"
+        }
+      ]
+    },
+    {
+      "sha": "80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+      "node_id": "C_kwDOPLZsDtoAKDgwODY4YThlYTA0YjAxMTc4ZWQ1YWUyYjkzZGZkNGE2MjBiZTBkYTM",
+      "commit": {
+        "author": {
+          "name": "Jiaqi Yuan",
+          "email": "2460058215@qq.com",
+          "date": "2025-07-12T15:30:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T15:30:58Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "cf18b35f756391adba704da9c6a4ab0f77a34f21",
+          "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/trees/cf18b35f756391adba704da9c6a4ab0f77a34f21"
+        },
+        "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/git/commits/80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocn+yCRC1aQ7uu5UhlAAAILEQAHs2WDJphIvBpW3vuMrG3ZPe\n7enwWbzUSwJbeIboy4TnCt8JDbZLtsdczERJWyZWUT3mM4d4ROea9/7UK1XWJ4mr\ntV/nDJ+4f0JS5ypN5thWCRDgpWKbskjKa1b/jIDl215+EZhuLZ/HPW5VE9W4daG/\n57dA6+ArV4kpS8uBRxRfjBwdY3eyZIcIChb4APHwyO2BI8YBQ0bb8tgOUAPcVkt9\n5+P/g/8A+TkLF8ZDQLd/tLFLi/xQHFqMCmi+rilTEeqhtqoUicr/r9oNrmL+qS8K\npK8mhAxvUZ7nu1G/61QwHId9Mn1dn+1FAz3c17xwKXTYw1VgIZp/LqaADY0EtdGY\nQUhmbDoqf8FniIp4MG2gFP6fIpOI5m/wIUD+fC/ecdO8F0ZPLSfy6JwhFuaz6f+V\nrdr+C01dOlf06kqC33uY44lQufk6b53nmS8OtEzy6dMnUX/e+5iwmv0aYN5Zh+HU\nmFZiZpp7dEdyr01tKB9JQhNxCwvxtLPXVFMT/H8sQY8vK4qOW78kdfpPWIVi/KJm\ndJun5VtEciCZ7ZFiLZStABPn6uawLCFnZVDflrPXNySVFzpXdOqwOtFC2XC1Chkq\nsm1d2Gy3Ht6PKoT0gNkLjUEVl2Fkb7IyM266fw14aUvJ/bEGFys1wzSN2Z/u3yJe\nr+7roTtdvZbFD6vSip00\n=aTCi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cf18b35f756391adba704da9c6a4ab0f77a34f21\nauthor Jiaqi Yuan <2460058215@qq.com> 1752334258 +0800\ncommitter GitHub <noreply@github.com> 1752334258 +0800\n\nInitial commit",
+          "verified_at": "2025-07-12T15:30:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+      "html_url": "https://github.com/RingBDStack/DyG-RAG/commit/80868a8ea04b01178ed5ae2b93dfd4a620be0da3",
+      "comments_url": "https://api.github.com/repos/RingBDStack/DyG-RAG/commits/80868a8ea04b01178ed5ae2b93dfd4a620be0da3/comments",
+      "author": {
+        "login": "AIcling",
+        "id": 111028754,
+        "node_id": "U_kgDOBp4qEg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/AIcling",
+        "html_url": "https://github.com/AIcling",
+        "followers_url": "https://api.github.com/users/AIcling/followers",
+        "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+        "organizations_url": "https://api.github.com/users/AIcling/orgs",
+        "repos_url": "https://api.github.com/users/AIcling/repos",
+        "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/AIcling/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "AIcling",
+      "id": 111028754,
+      "node_id": "U_kgDOBp4qEg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111028754?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AIcling",
+      "html_url": "https://github.com/AIcling",
+      "followers_url": "https://api.github.com/users/AIcling/followers",
+      "following_url": "https://api.github.com/users/AIcling/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AIcling/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AIcling/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AIcling/subscriptions",
+      "organizations_url": "https://api.github.com/users/AIcling/orgs",
+      "repos_url": "https://api.github.com/users/AIcling/repos",
+      "events_url": "https://api.github.com/users/AIcling/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AIcling/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 22
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 316472
+  },
+  "readme_html": "<h1 id=\"user-content--dyg-rag-dynamic-graph-retrieval-augmented-generation-with-event-centric-reasoning-pdf\">⭐ DyG-RAG: Dynamic Graph Retrieval-Augmented Generation with Event-Centric Reasoning (<a href=\"https://www.arxiv.org/abs/2507.13396\">PDF</a>)</h1>\n<p>DyG-RAG is <strong>the first event-centric dynamic graph retrieval-augmented generation framework</strong> specifically designed to capture, organize, and reason over temporal knowledge embedded within unstructured text data. By explicitly modeling the temporal dynamics of events as graph-structured representations, DyG-RAG facilitates enhanced temporal reasoning, yielding substantial accuracy improvement in temporal QA task.</p>\n<h3 id=\"user-content-the-overall-framework-of-dyg-rag\">The overall framework of DyG-RAG:</h3>\n<hr>\n<h2 id=\"user-content--key-contributions\">✨ Key Contributions</h2>\n<ol>\n<li><strong>First Dynamic Graph Structure for Temporal Textual Knowledge</strong>: We introduce the first dynamic graph retrieval-augmented generation system that structures and stores temporal textual knowledge from an event-centric perspective.</li>\n<li><strong>Event Granularity with Explicit Temporal Encoding</strong>: We propose a novel dynamic event unit (DEU) granularity that explicitly embeds temporal information into the knowledge organization stage, enabling fine-grained temporal encoding.</li>\n<li><strong>RAG-Reasoning Integration for Downstream Tasks</strong>: The construction of DyG naturally supports the integration of retrieval-augmented generation with temporal reasoning for downstream temporal QA tasks, enabling the Time-CoT prompting approach.</li>\n<li><strong>Empirical Validation</strong>: We have verified DyG-RAG's superior performance across three distinct types of temporal question-answering datasets, demonstrating its effectiveness in real-world scenarios.</li>\n</ol>\n<h2 id=\"user-content--quick-start\">🚀 Quick Start</h2>\n<h3 id=\"user-content-1-environment-setup\">1. Environment Setup</h3>\n<pre><code class=\"language-bash\">cd DyG-RAG\nconda create -n dygrag python=3.10\nconda activate dygrag\n# Install dependencies\npip install -r requirements.txt\n</code></pre>\n<h3 id=\"user-content-2-openai-configuration\">2. OpenAI Configuration</h3>\n<p>Set your OpenAI API key:</p>\n<pre><code class=\"language-bash\"># Option 1: API-Environment variable\nexport OPENAI_API_KEY=\"your_api_key_here\"\n</code></pre>\n<h3 id=\"user-content-3-download-models\">3. Download Models</h3>\n<pre><code class=\"language-bash\"># Download required models\ncd models\npython download.py\n</code></pre>\n<p><strong>Downloaded Models:</strong></p>\n<p>The script downloads two essential models:</p>\n<ol>\n<li>\n<p><strong>Cross-Encoder Model</strong>:</p>\n<ul>\n<li>Model name: <code>cross-encoder/ms-marco-TinyBERT-L-2-v2</code></li>\n<li>Local path: <code>./models/cross-encoder_ms-marco-TinyBERT-L-2-v2/</code></li>\n<li>Size: ~67MB</li>\n</ul>\n</li>\n<li>\n<p><strong>NER Model</strong>:</p>\n<ul>\n<li>Model name: <code>dslim/bert-base-NER</code></li>\n<li>Local path: <code>./models/dslim_bert_base_ner/</code></li>\n<li>Size: ~1.2GB</li>\n</ul>\n</li>\n</ol>\n<h3 id=\"user-content-4-local-model-configurationoptional\">4. Local Model Configuration[optional]</h3>\n<p>If you want to use local models instead of OpenAI, you can set up environment variables for the local embedding and LLM configuration (using BGE and Qwen as examples):</p>\n<pre><code class=\"language-bash\"># Local BGE embedding model path (example: BGE-M3)\nexport LOCAL_BGE_PATH=\"/path/to/your/bge-m3\"\n\n# VLLM API service URL (example: local VLLM server)\nexport VLLM_BASE_URL=\"http://127.0.0.1:8000/v1\"\n\n# Model name for LLM (example: Qwen model)\nexport QWEN_BEST=\"qwen-14b\"\n</code></pre>\n<h3 id=\"user-content-5-run-examples\">5. Run Examples</h3>\n<pre><code class=\"language-bash\"># Basic usage with OpenAI\ncd examples\npython openai_all.py\n\n# Using local models\npython local_BGE_local_LLM.py\n</code></pre>\n<h2 id=\"user-content--code-structure\">📁 Code Structure</h2>\n<pre><code>DyG-RAG/\n├── requirements.txt  # Dependencies\n├── examples/         # Usage examples\n├── graphrag/         # src codes of DyG-RAG\n├── demo/             # TimeQA dataset example\n├── datasets/         # three types of temporal QA datasets\n└── models/           # Downloaded models\n</code></pre>\n<h2 id=\"user-content--todo\">📝 TODO</h2>\n<ol>\n<li>Support for More Model Choices</li>\n<li>Support for Diverse Vector Databases</li>\n<li>Support for Diverse Graph Databases</li>\n</ol>\n<h2 id=\"user-content--acknowledgments\">🙏 Acknowledgments</h2>\n<p>This project is built upon the excellent work of <a href=\"https://github.com/gusye1234/nano-graphrag\">nano-graphrag</a> by Gustavo Ye. We extend our sincere gratitude to the original author for providing a simple, easy-to-hack GraphRAG implementation that serves as the foundation for our DyG-RAG system.</p>",
+  "_fetched_at": "2026-03-11T18:18:23.973Z"
+}

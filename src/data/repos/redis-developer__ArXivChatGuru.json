@@ -1,0 +1,1662 @@
+{
+  "id": 600223950,
+  "node_id": "R_kgDOI8awzg",
+  "name": "ArXivChatGuru",
+  "full_name": "redis-developer/ArXivChatGuru",
+  "private": false,
+  "owner": {
+    "login": "redis-developer",
+    "id": 69006381,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5MDA2Mzgx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/69006381?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/redis-developer",
+    "html_url": "https://github.com/redis-developer",
+    "followers_url": "https://api.github.com/users/redis-developer/followers",
+    "following_url": "https://api.github.com/users/redis-developer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/redis-developer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/redis-developer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/redis-developer/subscriptions",
+    "organizations_url": "https://api.github.com/users/redis-developer/orgs",
+    "repos_url": "https://api.github.com/users/redis-developer/repos",
+    "events_url": "https://api.github.com/users/redis-developer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/redis-developer/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/redis-developer/ArXivChatGuru",
+  "description": "Use ArXiv ChatGuru to talk to research papers. This app uses LangChain, OpenAI, Streamlit, and Redis as a vector database/semantic cache.",
+  "fork": false,
+  "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru",
+  "forks_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/forks",
+  "keys_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/teams",
+  "hooks_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/hooks",
+  "issue_events_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/events",
+  "assignees_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/tags",
+  "blobs_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/languages",
+  "stargazers_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/stargazers",
+  "contributors_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/contributors",
+  "subscribers_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/subscribers",
+  "subscription_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/subscription",
+  "commits_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/merges",
+  "archive_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/downloads",
+  "issues_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/labels{/name}",
+  "releases_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/deployments",
+  "created_at": "2023-02-10T21:36:09Z",
+  "updated_at": "2026-02-27T11:53:19Z",
+  "pushed_at": "2025-04-15T20:57:00Z",
+  "git_url": "git://github.com/redis-developer/ArXivChatGuru.git",
+  "ssh_url": "git@github.com:redis-developer/ArXivChatGuru.git",
+  "clone_url": "https://github.com/redis-developer/ArXivChatGuru.git",
+  "svn_url": "https://github.com/redis-developer/ArXivChatGuru",
+  "homepage": "",
+  "size": 3090,
+  "stargazers_count": 554,
+  "watchers_count": 554,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": false,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 74,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 7,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "arxiv",
+    "langchain",
+    "machine-learning",
+    "openai",
+    "python",
+    "question-answering",
+    "rag",
+    "redis",
+    "retrieval",
+    "retrieval-augmented-generation",
+    "streamlit",
+    "vector-database",
+    "vector-search"
+  ],
+  "visibility": "public",
+  "forks": 74,
+  "open_issues": 7,
+  "watchers": 554,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "d32aca478504b4b0032914f2b990131891b415f8",
+      "node_id": "C_kwDOI8awztoAKGQzMmFjYTQ3ODUwNGI0YjAwMzI5MTRmMmI5OTAxMzE4OTFiNDE1Zjg",
+      "commit": {
+        "author": {
+          "name": "Robert Shelton",
+          "email": "robert.shelton@redis.com",
+          "date": "2025-04-15T20:56:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-04-15T20:56:51Z"
+        },
+        "message": "remove redis ventures (#27)",
+        "tree": {
+          "sha": "d661b18ef68d6441ea8213527f9d6f7f0e1eb97a",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/d661b18ef68d6441ea8213527f9d6f7f0e1eb97a"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/d32aca478504b4b0032914f2b990131891b415f8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn/sgUCRC1aQ7uu5UhlAAAOpoQAKSbt9aH5w+cQWzbc00w6iIc\nnD8L7bGqIiscujUTnp5JY9R1HQsCgvx4m1U7X8siGs9qxtnfntbYR8nJ5UXk4qIr\nVvtpSFjNDMObXmwNmqTO8K5BR6/DIHbh9bpZt0SUIFy0cVX1xfgDFBPRNwSxcUZF\nVoESt1FEBuY9sJqjZZcwxVKct3ZivPdsT3dahovFYZssVHT6rNZltVa0Qa+dTs6i\n000uGXrl0CUyCUilkU221CNeLA0g1DfcAbTjJtrKaTQJB80uMouVBJxKWCm1Wbfs\nmJxR22FbjqkzdMyp4TRgRlZ11rs/RHnjhFz0p9NJBtjhDmVR55gQXgvbUyxIws4Y\nE4wKTZz3nlG+bliZFmY5Jd2FZJzcUFpGzOjozDFQgPWs34LqPiRNucAKJYCw3KQw\nWbHxOfld0sihpP3sTfFc7o6ZlwIwkDxvfdEKF6AXvWyh1BMIt+sKBc3N4aW+9YM/\nz9ybE4h6zoOujauh2qea8Cf0X+3uJIuUOckOWCFLB32ooSvzvKFbJ97evRiokwbE\nw5kCWUrWOnaTbBu7R1mKisP1DO8JgqRC4V0sQ8VBdj0riYlLSaGB0bwsuhSkmOGH\nnIXkXBi0pRs8gbPe7PrZd4CcWRaIHfW22uGo3yj0xS4NSOCrFm82qHHeQSNB9Tmv\ngi2U9+peR0CcmVmYjaYO\n=Lxq8\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d661b18ef68d6441ea8213527f9d6f7f0e1eb97a\nparent 9016877c579f2b251b36ea726a08879daa9a8766\nauthor Robert Shelton <robert.shelton@redis.com> 1744750611 -0400\ncommitter GitHub <noreply@github.com> 1744750611 -0400\n\nremove redis ventures (#27)\n\n",
+          "verified_at": "2025-04-15T21:01:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/d32aca478504b4b0032914f2b990131891b415f8",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/d32aca478504b4b0032914f2b990131891b415f8",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/d32aca478504b4b0032914f2b990131891b415f8/comments",
+      "author": {
+        "login": "rbs333",
+        "id": 24654394,
+        "node_id": "MDQ6VXNlcjI0NjU0Mzk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24654394?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rbs333",
+        "html_url": "https://github.com/rbs333",
+        "followers_url": "https://api.github.com/users/rbs333/followers",
+        "following_url": "https://api.github.com/users/rbs333/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rbs333/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rbs333/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rbs333/subscriptions",
+        "organizations_url": "https://api.github.com/users/rbs333/orgs",
+        "repos_url": "https://api.github.com/users/rbs333/repos",
+        "events_url": "https://api.github.com/users/rbs333/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rbs333/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9016877c579f2b251b36ea726a08879daa9a8766",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/9016877c579f2b251b36ea726a08879daa9a8766",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/9016877c579f2b251b36ea726a08879daa9a8766"
+        }
+      ]
+    },
+    {
+      "sha": "9016877c579f2b251b36ea726a08879daa9a8766",
+      "node_id": "C_kwDOI8awztoAKDkwMTY4NzdjNTc5ZjJiMjUxYjM2ZWE3MjZhMDg4NzlkYWE5YTg3NjY",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2025-02-25T13:55:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-02-25T13:55:02Z"
+        },
+        "message": "Upgrade redisvl and langchain versions (#26)\n\nupdate poetry environment",
+        "tree": {
+          "sha": "1c19e769f782df4a749680c645fc2c9419fb509b",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/1c19e769f782df4a749680c645fc2c9419fb509b"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/9016877c579f2b251b36ea726a08879daa9a8766",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnvcu2CRC1aQ7uu5UhlAAAWDsQADNe8VIHXHLXUcFwkJdgcAmp\nMk7qblCTeNy4nUyqLAUl/cIDrcxPS+Ry3j600LFn24pvJfYA97TmXw2unD3YqLVk\nnaWjM7srJ/KVoZMQtiqXZ3q//EtJQJ2qAorDfRuOFePMgYviX2gaF6cQ5vQvLvRf\nEkAJM8Wlm5dQD0JOFf701hszpglF9aJXl6Bf6Z3NlqC0xxBPb5J9/5DQRjTp7nIw\n1wmrNFQnj3ZxHz3e/5YbbBElCTMG8t3WYQuu0PytaQjNCTudxH2TOVfZv6BMHgrM\nA7sCSyhcW9JmTtsNymZIok1ogFK5Gc7YUnuIlxxsq3fqVdS8QwFiceWuBdHHLlbu\n+Vvbw+imyysBfwzrDTyXQDn/tQmuSP9RvTxlT6WnvMvo9oz63bPCEaSL8aKYQ3Kt\n8CfhPbbBUTr1IkinvZy/l4ZAEObL69HQ8NM8c4bgjnUcCUxy78TB2rRugkFYOjQK\noCw+HRQFmQxJUXuxKfNBPJaM/1wSWBlZWIX+Kd4MlNWfudJRCUFmDVwA0uRd8kDy\njHZ09COd1LZL33UcPbzUp9b6RLVptmLjtQUEIfTlN8KIaQYRaAlqka15xKHKiIV6\nKaZq2xuaMI/zblpokbBmGJM+kv6RPOEwPP4vgClR8KMBMy5+jJErnuHRGCU9MW98\nXPr+GUrXCi2kfIJ53jqU\n=l2ec\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1c19e769f782df4a749680c645fc2c9419fb509b\nparent 065b0209887ac7174bcf87929aeb009acf382701\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1740491702 -0500\ncommitter GitHub <noreply@github.com> 1740491702 -0500\n\nUpgrade redisvl and langchain versions (#26)\n\nupdate poetry environment",
+          "verified_at": "2025-02-25T14:00:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/9016877c579f2b251b36ea726a08879daa9a8766",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/9016877c579f2b251b36ea726a08879daa9a8766",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/9016877c579f2b251b36ea726a08879daa9a8766/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "065b0209887ac7174bcf87929aeb009acf382701",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/065b0209887ac7174bcf87929aeb009acf382701",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/065b0209887ac7174bcf87929aeb009acf382701"
+        }
+      ]
+    },
+    {
+      "sha": "065b0209887ac7174bcf87929aeb009acf382701",
+      "node_id": "C_kwDOI8awztoAKDA2NWIwMjA5ODg3YWM3MTc0YmNmODc5MjlhZWIwMDlhY2YzODI3MDE",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2024-11-06T21:56:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-06T21:56:09Z"
+        },
+        "message": "Update app dependencies (#25)\n\n* update to use poetry and cleanup app\r\n\r\n* use search index schema, persist index across conversations, remove cache\r\n\r\n* adjust href\r\n\r\n* fix redis url, poetry env, and env templates\r\n\r\n* update readme\r\n\r\n* Remove old container workflows",
+        "tree": {
+          "sha": "46e7fc79ca4e9fd9da3cf134a0b9ed91e6c60be4",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/46e7fc79ca4e9fd9da3cf134a0b9ed91e6c60be4"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/065b0209887ac7174bcf87929aeb009acf382701",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnK+X5CRC1aQ7uu5UhlAAA2oQQAJ7HfyopmqE2rApChPsn380N\n9RHVTBX6MyIPl4n+nklJKEW9dvSgpxBTvtsPNIgWh7u7OgssndPgjwRYqW8d2GAn\n2x2QqWoi3l4PBlnEC/lDOI8H69D63fPU3RnP7y+r/ByhdacOij8rKc/rTPdFI9XO\nnBItalwZKOrFId4UMS2c6VyPvMT2zDR/RQyKzMHOzJ2uR9h5LnMwCWsqeJWTkyE3\nHmTNlQmY2THVDk2FR87X+H5TXgTdB/zt8gBeGHfj7vs7Q336vFDPSXFmU1nUqVwn\nWbzNKQ36Tcsbxjwyx6hVzQUxt+cwMs+HX+MS7KynjtY1xljIuX+Glyb1dTwdVcfx\nlrYj0jcmSYLxP7mw6HeKaokh2hdExvFHpDftnyN0pnLTK+gGVnqHQc+IXMKSDc2F\njaCeVDhlcJ/quPNZaUiNDTES0Dk8NKjOae2fX+S9npVd9J7LwuEl0fZFV33k8XS/\nMT49o5nHeoLfM7bZQ/LZIrP4J7A31JdigznjM/d2fzVi5YVQ3OlcuQWy6STMpxMe\nJQeUREuQIYQmxHNaPwqLSWkVRxMMey9mMQ+mAioommZZ4b2pnyadNG0yt7NnKZJT\nQI3/PvJsNUv73ufNuduGBnxCxH5uL8EVPBNM59ia4+CkTVYHenFjPZxvmz6yO6D/\n4C4hS+lP8I1kT3++QJ+U\n=I6Sh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 46e7fc79ca4e9fd9da3cf134a0b9ed91e6c60be4\nparent be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1730930169 -0500\ncommitter GitHub <noreply@github.com> 1730930169 -0500\n\nUpdate app dependencies (#25)\n\n* update to use poetry and cleanup app\r\n\r\n* use search index schema, persist index across conversations, remove cache\r\n\r\n* adjust href\r\n\r\n* fix redis url, poetry env, and env templates\r\n\r\n* update readme\r\n\r\n* Remove old container workflows",
+          "verified_at": "2024-11-06T22:01:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/065b0209887ac7174bcf87929aeb009acf382701",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/065b0209887ac7174bcf87929aeb009acf382701",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/065b0209887ac7174bcf87929aeb009acf382701/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6"
+        }
+      ]
+    },
+    {
+      "sha": "be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6",
+      "node_id": "C_kwDOI8awztoAKGJlMjViNTAyMGZiMzA0OGViNmI0ZjhlOGVhNDJlYTRkMDU4ODdhZTY",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-11-10T22:05:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-10T22:05:42Z"
+        },
+        "message": "Pin openai version (#22)",
+        "tree": {
+          "sha": "827939638d78484d700445fb6edbc771781da8ec",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/827939638d78484d700445fb6edbc771781da8ec"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlTqk2CRBK7hj4Ov3rIwAAev8IAH/bknQ2I+JW/PCY6IdvRGKw\nxVtY6UPyDhzfMOpJK+7doj1N/ol2IuD9sOsYoQstXB/SAK6AacE59JIWrWDMxRn0\nHPL67POjbMQYftzL+6vh2hRrlwhSyT4mi3RotRy0cCATMzR4vQHZWuYBJXW9SmoR\nEnR+UhV8vhIpk7knMfAdX+FYM89J9iBK8gcqi9do7giYCC6bppZ45jYNdndtmO/V\nKh4hl8+dFGNxXPwOAKcQ7l0dPZgFIGlU3TxRpnb1ufVtOFcxNjUn2Pqoq1WDBkGY\nXdH/mPQvImBJB/6RHE5VUn+ejACyKnJ6M8/N6ePJliNkzBLzPqeuzc3fLLoP8yY=\n=o2EZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 827939638d78484d700445fb6edbc771781da8ec\nparent 0ab921086ac5324a2033b066d7210fd84bb6f045\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1699653942 -0500\ncommitter GitHub <noreply@github.com> 1699653942 -0500\n\nPin openai version (#22)\n\n",
+          "verified_at": "2024-11-06T19:04:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/be25b5020fb3048eb6b4f8e8ea42ea4d05887ae6/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0ab921086ac5324a2033b066d7210fd84bb6f045",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/0ab921086ac5324a2033b066d7210fd84bb6f045",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/0ab921086ac5324a2033b066d7210fd84bb6f045"
+        }
+      ]
+    },
+    {
+      "sha": "0ab921086ac5324a2033b066d7210fd84bb6f045",
+      "node_id": "C_kwDOI8awztoAKDBhYjkyMTA4NmFjNTMyNGEyMDMzYjA2NmQ3MjEwZmQ4NGJiNmYwNDU",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-11-02T19:19:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-02T19:19:35Z"
+        },
+        "message": "update workflow repo owner tag (#21)\n\n* update workflow repo owner tag",
+        "tree": {
+          "sha": "35f5a4ea4a64cc7c503edd1a38326c7ab3553b94",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/35f5a4ea4a64cc7c503edd1a38326c7ab3553b94"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/0ab921086ac5324a2033b066d7210fd84bb6f045",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlQ/ZHCRBK7hj4Ov3rIwAAc8cIAAeZ9YetCWKDp+WmF8PgXHGr\niHi1Ksq0SX2fMS6jD1b0V+GNLtYRGf3YQo1qC16Jf5YIqjAGcY9NBpN7E56/a83p\njkzI4XD9DLLpH6iEERmMYb0LjfYCi5hWePu1U/cHrIpITrvndFNOfcLy/pePuQm3\niza7Exc4+dvli0gcuarSi05dsXi34kOyTEntC5z+sGoENEioP922r0cNL2aJvbN2\npbL7keVp/9XfDSL0n7vlg4YJQKe0Hk1beePwZMVpP0doLBuwLFHgmoWEBI9W2caf\nf4SjXtr/fTPcqtD1RH40b4SUrkGUtYMiq6M/19jr2JVmjV6iHjwStSJNHdK9wL8=\n=u/3e\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 35f5a4ea4a64cc7c503edd1a38326c7ab3553b94\nparent 590eeadce0054d9256e731c28dc84ad39689f542\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1698952775 -0400\ncommitter GitHub <noreply@github.com> 1698952775 -0400\n\nupdate workflow repo owner tag (#21)\n\n* update workflow repo owner tag",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/0ab921086ac5324a2033b066d7210fd84bb6f045",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/0ab921086ac5324a2033b066d7210fd84bb6f045",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/0ab921086ac5324a2033b066d7210fd84bb6f045/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "590eeadce0054d9256e731c28dc84ad39689f542",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/590eeadce0054d9256e731c28dc84ad39689f542",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/590eeadce0054d9256e731c28dc84ad39689f542"
+        }
+      ]
+    },
+    {
+      "sha": "590eeadce0054d9256e731c28dc84ad39689f542",
+      "node_id": "C_kwDOI8awztoAKDU5MGVlYWRjZTAwNTRkOTI1NmU3MzFjMjhkYzg0YWQzOTY4OWY1NDI",
+      "commit": {
+        "author": {
+          "name": "luisalrp",
+          "email": "31384138+luisalrp@users.noreply.github.com",
+          "date": "2023-11-02T16:11:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-02T16:11:09Z"
+        },
+        "message": "Github action to build and upload the image to ghcr (#20)\n\n* Add workflow to build and push container image\r\n* Fix Dockerfile. Copy /app files from host to docker image\r\n* Fix Dockerfile. rename in Dockerfile App.py to app.py\r\n* Add Label into Dockerfile.",
+        "tree": {
+          "sha": "1a407710d2b1e2776754154981abaf92af4660a9",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/1a407710d2b1e2776754154981abaf92af4660a9"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/590eeadce0054d9256e731c28dc84ad39689f542",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlQ8odCRBK7hj4Ov3rIwAApjgIACha2a3ICU7+0YegtBY0CBj2\nNYVNMC6nu+W0IEgIKs3ts7vyhSOGv1yvzWd7ImCV4/YMafsq9ocu6jCthjwLV3+H\nWHJacmELfHDHOByPGX05rFCNqcwS27E+6tUZTNM/QFEabwgHpXYM4gh4s6W1jn6Z\nr7LV+MCCHqcc9m3tKEHuDdzEBHUrtkB0EQ2j4nNLukMkWf7XUM2Sv1lZ81nW1Kb9\nPDoYXNexYi9Mf9cq6iBuB6jtDHpWkbrcX52QOwfSo+pOks5Ovbrryp+UOz1qjups\nkU+EmBykB9dYp8qjuzCAayyTHRK8nSEmKHN8cMB516evbXwgBRtDTGQzROUFAt8=\n=bhoZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1a407710d2b1e2776754154981abaf92af4660a9\nparent fea82247a681e78cd1be293080f4357abd50577f\nauthor luisalrp <31384138+luisalrp@users.noreply.github.com> 1698941469 +0100\ncommitter GitHub <noreply@github.com> 1698941469 -0400\n\nGithub action to build and upload the image to ghcr (#20)\n\n* Add workflow to build and push container image\r\n* Fix Dockerfile. Copy /app files from host to docker image\r\n* Fix Dockerfile. rename in Dockerfile App.py to app.py\r\n* Add Label into Dockerfile.",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/590eeadce0054d9256e731c28dc84ad39689f542",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/590eeadce0054d9256e731c28dc84ad39689f542",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/590eeadce0054d9256e731c28dc84ad39689f542/comments",
+      "author": {
+        "login": "luisalrp",
+        "id": 31384138,
+        "node_id": "MDQ6VXNlcjMxMzg0MTM4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31384138?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/luisalrp",
+        "html_url": "https://github.com/luisalrp",
+        "followers_url": "https://api.github.com/users/luisalrp/followers",
+        "following_url": "https://api.github.com/users/luisalrp/following{/other_user}",
+        "gists_url": "https://api.github.com/users/luisalrp/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/luisalrp/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/luisalrp/subscriptions",
+        "organizations_url": "https://api.github.com/users/luisalrp/orgs",
+        "repos_url": "https://api.github.com/users/luisalrp/repos",
+        "events_url": "https://api.github.com/users/luisalrp/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/luisalrp/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fea82247a681e78cd1be293080f4357abd50577f",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/fea82247a681e78cd1be293080f4357abd50577f",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/fea82247a681e78cd1be293080f4357abd50577f"
+        }
+      ]
+    },
+    {
+      "sha": "fea82247a681e78cd1be293080f4357abd50577f",
+      "node_id": "C_kwDOI8awztoAKGZlYTgyMjQ3YTY4MWU3OGNkMWJlMjkzMDgwZjQzNTdhYmQ1MDU3N2Y",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-10-12T19:29:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-12T19:29:30Z"
+        },
+        "message": "Create LICENSE (#16)",
+        "tree": {
+          "sha": "a11a9ccadd587010277fd5c927f02369cccc6993",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/a11a9ccadd587010277fd5c927f02369cccc6993"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/fea82247a681e78cd1be293080f4357abd50577f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlKEkaCRBK7hj4Ov3rIwAATWwIADCwm2/GJ35RHAGO8HsH0myU\n1/uleRU7xawP2nu2fkyA6vHVjGNf+qVJ4aGPOkSfRAYehsEundkk5dyqFC4NcQcC\nLB25NWWgsp5lncFZIqRs8kid1f4kwUfLrrlm4wlrI79o9KPhEYBPz5AKdljkfrEY\nlRvwcf44g59RUT8S8vtb05QwjYU2JATQE92Mrty0rirLtVHeva7DzuU2tSBpMneo\n2h2bwIYXYs6mOScdwUJDMKp8FWrnhMV94l8p1ysxdPuoKJccHswDJZNLoNP55+Hs\nHNzmDalbpL2GPqsXLcO1JWnZz0s9FvS9kjNneAOyR0TyvuxHr6mFOKBLhRtcZvM=\n=9JMx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a11a9ccadd587010277fd5c927f02369cccc6993\nparent 251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf\nauthor Sam Partee <sam.partee@redis.com> 1697138970 -0700\ncommitter GitHub <noreply@github.com> 1697138970 -0700\n\nCreate LICENSE (#16)\n\n",
+          "verified_at": "2024-11-06T19:04:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/fea82247a681e78cd1be293080f4357abd50577f",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/fea82247a681e78cd1be293080f4357abd50577f",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/fea82247a681e78cd1be293080f4357abd50577f/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf"
+        }
+      ]
+    },
+    {
+      "sha": "251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf",
+      "node_id": "C_kwDOI8awztoAKDI1MWNhZTdlMWEwNmQ1Y2Q2NjBmNWFjNDBhZTFhMDk3Yjc5YmJkY2Y",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-10-12T19:12:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-12T19:12:27Z"
+        },
+        "message": "Change to Arxiv Data (#12)\n\n* Update Langchain version\r\n\r\n* Use Arxiv data\r\n\r\n* Update to arxiv version\r\n\r\n* Updates to interface and add rvl stats\r\n\r\n* cleanup and logo\r\n\r\n* logo",
+        "tree": {
+          "sha": "73fae230ed9f93e95f597fd4e8d1aa1496d439c7",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/73fae230ed9f93e95f597fd4e8d1aa1496d439c7"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlKEUbCRBK7hj4Ov3rIwAAAr0IAFFi0wJaoTA+9c98jnsc9tb3\nQvMHre1hELYvBRdxa84Zo7Z8H8BDCQ6hJyg3z8JNmIRo3BrcfqEoo9y6CWUKwh39\nkZWI6Iou5+WMiZjgUXT+bsAWf1k55tJFcubDmnecYdUNdX/1466vlK74NGtQON5e\n3B8Cg7Yapr/u34i/sUAEFSG8Ot3EFUcDvuzzs2e7UIwDRY+Qfpe7PyBOmoVTfDtt\nenb29bK3FSmORSqdipuiPF2BuxybeFCo76KhAo6mp73i4J9rdV6K4kh7dJxHBMQ+\nuyXE+rhzbzGzWXmJLsb0lgNCft+NT2zwkIgwCDFu7GTArxdaGuSKAH448kLUMHA=\n=KB4R\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 73fae230ed9f93e95f597fd4e8d1aa1496d439c7\nparent 6d94e0f8781f071926ffdf9f546b5137820b7b2a\nauthor Sam Partee <sam.partee@redis.com> 1697137947 -0700\ncommitter GitHub <noreply@github.com> 1697137947 -0700\n\nChange to Arxiv Data (#12)\n\n* Update Langchain version\r\n\r\n* Use Arxiv data\r\n\r\n* Update to arxiv version\r\n\r\n* Updates to interface and add rvl stats\r\n\r\n* cleanup and logo\r\n\r\n* logo",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/251cae7e1a06d5cd660f5ac40ae1a097b79bbdcf/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6d94e0f8781f071926ffdf9f546b5137820b7b2a",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/6d94e0f8781f071926ffdf9f546b5137820b7b2a",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/6d94e0f8781f071926ffdf9f546b5137820b7b2a"
+        }
+      ]
+    },
+    {
+      "sha": "6d94e0f8781f071926ffdf9f546b5137820b7b2a",
+      "node_id": "C_kwDOI8awztoAKDZkOTRlMGY4NzgxZjA3MTkyNmZmZGY5ZjU0NmI1MTM3ODIwYjdiMmE",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-17T15:41:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-17T15:41:52Z"
+        },
+        "message": "Change embeddings temp (#6)",
+        "tree": {
+          "sha": "efe9841322e72114fb44d5c0e1a4a8f13fa2a69e",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/efe9841322e72114fb44d5c0e1a4a8f13fa2a69e"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/6d94e0f8781f071926ffdf9f546b5137820b7b2a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkZPXACRBK7hj4Ov3rIwAAT+sIACnI77vTChzKK2Ohp+FFrJXg\nQ5lb73SDyxrB0wUQ3PAQTbJwKPkvF8/VblmRXlxK+PjHCoLr/zEcIedR/pLEnztb\n9cArj3sx5XbnkhVw4S/IeTxvtpXTYfE45dAvaSrtqY6x9/H/e8s2WM6XItrIvXnz\nb8H9okduXBi+4hQkFZ4E9sgU3q+lGo4BCoIA9+W1ns5pI7lamJnGX7QNrAt0YezE\nw4HpewOPONOvaiyOA9FA8JZTcFGq47Ygsx75NxqhBeoDvvWwfDnVMLAr6QerVQ0h\n9/1Jv2sWRJ2ruX1Fei9CUB9YUEIa0z5/38BgUHO17HChc3vQEV5/X8rQfzU0Hfs=\n=TkxX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree efe9841322e72114fb44d5c0e1a4a8f13fa2a69e\nparent 475045b78b13584842b694e9b59e73790ce36ec9\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1684338112 -0400\ncommitter GitHub <noreply@github.com> 1684338112 -0400\n\nChange embeddings temp (#6)\n\n",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/6d94e0f8781f071926ffdf9f546b5137820b7b2a",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/6d94e0f8781f071926ffdf9f546b5137820b7b2a",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/6d94e0f8781f071926ffdf9f546b5137820b7b2a/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "475045b78b13584842b694e9b59e73790ce36ec9",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/475045b78b13584842b694e9b59e73790ce36ec9",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/475045b78b13584842b694e9b59e73790ce36ec9"
+        }
+      ]
+    },
+    {
+      "sha": "475045b78b13584842b694e9b59e73790ce36ec9",
+      "node_id": "C_kwDOI8awztoAKDQ3NTA0NWI3OGIxMzU4NDg0MmI2OTRlOWI1OWU3Mzc5MGNlMzZlYzk",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-17T14:41:27Z"
+        },
+        "committer": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-17T14:41:27Z"
+        },
+        "message": "fix env and readme notes",
+        "tree": {
+          "sha": "5935abfe9db0aeb7e2162de0eb35a805d3a001de",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/5935abfe9db0aeb7e2162de0eb35a805d3a001de"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/475045b78b13584842b694e9b59e73790ce36ec9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/475045b78b13584842b694e9b59e73790ce36ec9",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/475045b78b13584842b694e9b59e73790ce36ec9",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/475045b78b13584842b694e9b59e73790ce36ec9/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a8ed428c81818b1062bccac198f8c212de6703f7",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/a8ed428c81818b1062bccac198f8c212de6703f7",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/a8ed428c81818b1062bccac198f8c212de6703f7"
+        }
+      ]
+    },
+    {
+      "sha": "a8ed428c81818b1062bccac198f8c212de6703f7",
+      "node_id": "C_kwDOI8awztoAKGE4ZWQ0MjhjODE4MThiMTA2MmJjY2FjMTk4ZjhjMjEyZGU2NzAzZjc",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-17T14:25:02Z"
+        },
+        "committer": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-17T14:25:02Z"
+        },
+        "message": "readme updates",
+        "tree": {
+          "sha": "b1acb86a6378616a98f937781efe57452652660a",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/b1acb86a6378616a98f937781efe57452652660a"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/a8ed428c81818b1062bccac198f8c212de6703f7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/a8ed428c81818b1062bccac198f8c212de6703f7",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/a8ed428c81818b1062bccac198f8c212de6703f7",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/a8ed428c81818b1062bccac198f8c212de6703f7/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ce5fa39e7bd44bf06e28a612f879f905a4b0cbec",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/ce5fa39e7bd44bf06e28a612f879f905a4b0cbec",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/ce5fa39e7bd44bf06e28a612f879f905a4b0cbec"
+        }
+      ]
+    },
+    {
+      "sha": "ce5fa39e7bd44bf06e28a612f879f905a4b0cbec",
+      "node_id": "C_kwDOI8awztoAKGNlNWZhMzllN2JkNDRiZjA2ZTI4YTYxMmY4NzlmOTA1YTRiMGNiZWM",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-17T14:02:51Z"
+        },
+        "committer": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-17T14:02:51Z"
+        },
+        "message": "mount code as volume for realtime updates",
+        "tree": {
+          "sha": "3b418a91c12fa75b130e39e22cc739b5aa865907",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/3b418a91c12fa75b130e39e22cc739b5aa865907"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/ce5fa39e7bd44bf06e28a612f879f905a4b0cbec",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/ce5fa39e7bd44bf06e28a612f879f905a4b0cbec",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/ce5fa39e7bd44bf06e28a612f879f905a4b0cbec",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/ce5fa39e7bd44bf06e28a612f879f905a4b0cbec/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1a851243c6005d33ce82d5a6044c32cdd7c3a3c6",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/1a851243c6005d33ce82d5a6044c32cdd7c3a3c6",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/1a851243c6005d33ce82d5a6044c32cdd7c3a3c6"
+        }
+      ]
+    },
+    {
+      "sha": "1a851243c6005d33ce82d5a6044c32cdd7c3a3c6",
+      "node_id": "C_kwDOI8awztoAKDFhODUxMjQzYzYwMDVkMzNjZTgyZDVhNjA0NGMzMmNkZDdjM2EzYzY",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-05-15T17:59:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-15T17:59:11Z"
+        },
+        "message": "Expand redis cache implementations (#5)\n\n* add caching handler\r\n* update env",
+        "tree": {
+          "sha": "ed6ebcbad0a413fe0cad83ef7f09ac34cb5c3a87",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/ed6ebcbad0a413fe0cad83ef7f09ac34cb5c3a87"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/1a851243c6005d33ce82d5a6044c32cdd7c3a3c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkYnLvCRBK7hj4Ov3rIwAAQvkIAA5YEpxQfXvmmmLHfhtL5+Aj\nnSvIIicuMZ8bQICnfwzgj4ZY2hIFZO4NNifU99r6pDqSpg5lakmUT2aOokd3GHd0\nydyQmaIB5rRSP+MWpzOGoYf0TTe4iz7ZrKFpRCcqbZBm1OeeMoZwzSowyz99z9BT\n6+9rwnlJsKLMIdSu1SRcBbm0dOMlTw75aLA89X6jifhgXRJPWBi8uZFpBCqLiE5q\nEOzHBhQuM2YI82KYQWhz2AE3z4m3CZsFQGuD6j1+Kn/zZrpX1Vv3WxZjJkIQMcSV\na03H/nWmVsbzFcPhZStS9cTa8Gm1p49v5Rlxv6IMhvwOCQUNOtV9xctb3mXaO8s=\n=6B8I\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ed6ebcbad0a413fe0cad83ef7f09ac34cb5c3a87\nparent f2ffe59e3a290ed2795dde2d316e544b4021b717\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1684173551 -0400\ncommitter GitHub <noreply@github.com> 1684173551 -0400\n\nExpand redis cache implementations (#5)\n\n* add caching handler\r\n* update env",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/1a851243c6005d33ce82d5a6044c32cdd7c3a3c6",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/1a851243c6005d33ce82d5a6044c32cdd7c3a3c6",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/1a851243c6005d33ce82d5a6044c32cdd7c3a3c6/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f2ffe59e3a290ed2795dde2d316e544b4021b717",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/f2ffe59e3a290ed2795dde2d316e544b4021b717",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/f2ffe59e3a290ed2795dde2d316e544b4021b717"
+        }
+      ]
+    },
+    {
+      "sha": "f2ffe59e3a290ed2795dde2d316e544b4021b717",
+      "node_id": "C_kwDOI8awztoAKGYyZmZlNTllM2EyOTBlZDI3OTVkZGUyZDMxNmU1NDRiNDAyMWI3MTc",
+      "commit": {
+        "author": {
+          "name": "Anton Umnikov",
+          "email": "aumnikov@gmail.com",
+          "date": "2023-05-08T14:17:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-08T14:17:59Z"
+        },
+        "message": "Add AzureOpenAI support (#4)\n\n* Add AzureOpenAI support\r\n* Implement get_embeddings() and get_llm()",
+        "tree": {
+          "sha": "7bb2c85b9bc9a703efef767b2d981f497c73f595",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/7bb2c85b9bc9a703efef767b2d981f497c73f595"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/f2ffe59e3a290ed2795dde2d316e544b4021b717",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkWQSXCRBK7hj4Ov3rIwAA7ywIAARcCW9mqPZuQPMCqzT+yxwA\nI4UmUdpqc6bDjizg/m9uINbejCvwx8wGxhf/Z9txYfJ5ozbdrpj4Mb7f3AEJbWG3\ncVdn26zOpolvuz5YIJW6cGeQu/1txMnPl8KOkcxBZRjPI/0NcjKYkTyPmLhWDDdp\npmvA7vEEf68F5q8TzLBf8G31/bLjhLtV5gwdCNe5ReA/Qpb9L03OLBYIcziIqKBe\n48wqsUxhDnSku4xJN0J15BuakmSijgWDtAnE3w9fuuxYPnOszqPqZIsjbWOM7Ag9\nQ5FKlIJbMI+CpKqYeEdwqyC/lGqLaiL89++1iOy5n3/LnaplBS7ymzMQpCfFNU8=\n=3JmR\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7bb2c85b9bc9a703efef767b2d981f497c73f595\nparent cdcb494137523a9a7713052a130b083e0eec53ba\nauthor Anton Umnikov <aumnikov@gmail.com> 1683555479 -0400\ncommitter GitHub <noreply@github.com> 1683555479 -0400\n\nAdd AzureOpenAI support (#4)\n\n* Add AzureOpenAI support\r\n* Implement get_embeddings() and get_llm()",
+          "verified_at": "2024-11-05T17:33:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/f2ffe59e3a290ed2795dde2d316e544b4021b717",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/f2ffe59e3a290ed2795dde2d316e544b4021b717",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/f2ffe59e3a290ed2795dde2d316e544b4021b717/comments",
+      "author": {
+        "login": "antonum",
+        "id": 13168232,
+        "node_id": "MDQ6VXNlcjEzMTY4MjMy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13168232?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/antonum",
+        "html_url": "https://github.com/antonum",
+        "followers_url": "https://api.github.com/users/antonum/followers",
+        "following_url": "https://api.github.com/users/antonum/following{/other_user}",
+        "gists_url": "https://api.github.com/users/antonum/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/antonum/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/antonum/subscriptions",
+        "organizations_url": "https://api.github.com/users/antonum/orgs",
+        "repos_url": "https://api.github.com/users/antonum/repos",
+        "events_url": "https://api.github.com/users/antonum/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/antonum/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cdcb494137523a9a7713052a130b083e0eec53ba",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/cdcb494137523a9a7713052a130b083e0eec53ba",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/cdcb494137523a9a7713052a130b083e0eec53ba"
+        }
+      ]
+    },
+    {
+      "sha": "cdcb494137523a9a7713052a130b083e0eec53ba",
+      "node_id": "C_kwDOI8awztoAKGNkY2I0OTQxMzc1MjNhOWE3NzEzMDUyYTEzMGIwODNlMGVlYzUzYmE",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-04-28T19:10:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-04-28T19:10:33Z"
+        },
+        "message": "Langchain integration (#3)\n\n* use langchain\r\n* finish integration",
+        "tree": {
+          "sha": "65d5c16661b8173f667b1c9fc284de0b8c694fb6",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/65d5c16661b8173f667b1c9fc284de0b8c694fb6"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/cdcb494137523a9a7713052a130b083e0eec53ba",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkTBopCRBK7hj4Ov3rIwAAjhMIADd6ZFrdRadpf9GaKbAqmRSk\nLIWBkNRuqK5cA1MC8HxqlkLO8Qhly9gsJZ0c/U3dzNlFfrd4hJcoJ5KyxeC/W4IW\n/Kv7d4s0qTmO9zO/hbNEIkm2KmlXZCZdcaluBVig5+GXrkMS8ftRU4j2LYkHyI96\nNdSwzHwpRy7ppvNvz+6mJu53a9Fu1lmQ4ASS2oUZ661ti96IG1AvI8M5HvAi5Dyz\n1M9CrmZQiCkK4HjK41WUrKFeALq9Pld9cXbMGAcnLes4PUm6OJIwe5eFkxlPuyG1\nAGsOLd307fJ6cp5FZ9VGXKIvgIEkMzyG5+E2kznl1C1UIUQR6GUj10jpJp2o0pM=\n=SfQ3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 65d5c16661b8173f667b1c9fc284de0b8c694fb6\nparent b747e11582e8a829a5c5c8f7666852d51506bf36\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1682709033 -0400\ncommitter GitHub <noreply@github.com> 1682709033 -0400\n\nLangchain integration (#3)\n\n* use langchain\r\n* finish integration",
+          "verified_at": "2024-11-05T17:33:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/cdcb494137523a9a7713052a130b083e0eec53ba",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/cdcb494137523a9a7713052a130b083e0eec53ba",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/cdcb494137523a9a7713052a130b083e0eec53ba/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b747e11582e8a829a5c5c8f7666852d51506bf36",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/b747e11582e8a829a5c5c8f7666852d51506bf36",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/b747e11582e8a829a5c5c8f7666852d51506bf36"
+        }
+      ]
+    },
+    {
+      "sha": "b747e11582e8a829a5c5c8f7666852d51506bf36",
+      "node_id": "C_kwDOI8awztoAKGI3NDdlMTE1ODJlOGE4MjlhNWM1YzhmNzY2Njg1MmQ1MTUwNmJmMzY",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-02-15T18:11:47Z"
+        },
+        "committer": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-02-15T18:11:47Z"
+        },
+        "message": "UI improvements and suppress other warnings",
+        "tree": {
+          "sha": "ca8c9be713bf636cda9d00124e8a08051e68db05",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/ca8c9be713bf636cda9d00124e8a08051e68db05"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/b747e11582e8a829a5c5c8f7666852d51506bf36",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/b747e11582e8a829a5c5c8f7666852d51506bf36",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/b747e11582e8a829a5c5c8f7666852d51506bf36",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/b747e11582e8a829a5c5c8f7666852d51506bf36/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a7abcf075cd33f44281ab3095b0d48dd9982a10d",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/a7abcf075cd33f44281ab3095b0d48dd9982a10d",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/a7abcf075cd33f44281ab3095b0d48dd9982a10d"
+        }
+      ]
+    },
+    {
+      "sha": "a7abcf075cd33f44281ab3095b0d48dd9982a10d",
+      "node_id": "C_kwDOI8awztoAKGE3YWJjZjA3NWNkMzNmNDQyODFhYjMwOTViMGQ0OGRkOTk4MmExMGQ",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-02-15T16:28:19Z"
+        },
+        "committer": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-02-15T16:28:19Z"
+        },
+        "message": "add ref architecture v0",
+        "tree": {
+          "sha": "ed0b2fbdc24c72d44d122cbbe78c5876186dc9df",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/ed0b2fbdc24c72d44d122cbbe78c5876186dc9df"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/a7abcf075cd33f44281ab3095b0d48dd9982a10d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/a7abcf075cd33f44281ab3095b0d48dd9982a10d",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/a7abcf075cd33f44281ab3095b0d48dd9982a10d",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/a7abcf075cd33f44281ab3095b0d48dd9982a10d/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fdcb0a0624013f319f6e5d60a24b789de3481777",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/fdcb0a0624013f319f6e5d60a24b789de3481777",
+          "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/fdcb0a0624013f319f6e5d60a24b789de3481777"
+        }
+      ]
+    },
+    {
+      "sha": "fdcb0a0624013f319f6e5d60a24b789de3481777",
+      "node_id": "C_kwDOI8awztoAKGZkY2IwYTA2MjQwMTNmMzE5ZjZlNWQ2MGEyNGI3ODlkZTM0ODE3Nzc",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-02-14T15:53:20Z"
+        },
+        "committer": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-02-14T15:53:20Z"
+        },
+        "message": "initial app",
+        "tree": {
+          "sha": "52137e0d66f0e32bf22c69229c1788a78b62aa0d",
+          "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/trees/52137e0d66f0e32bf22c69229c1788a78b62aa0d"
+        },
+        "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/git/commits/fdcb0a0624013f319f6e5d60a24b789de3481777",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/fdcb0a0624013f319f6e5d60a24b789de3481777",
+      "html_url": "https://github.com/redis-developer/ArXivChatGuru/commit/fdcb0a0624013f319f6e5d60a24b789de3481777",
+      "comments_url": "https://api.github.com/repos/redis-developer/ArXivChatGuru/commits/fdcb0a0624013f319f6e5d60a24b789de3481777/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "tylerhutcherson",
+      "id": 20304844,
+      "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tylerhutcherson",
+      "html_url": "https://github.com/tylerhutcherson",
+      "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+      "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+      "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+      "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+      "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 13
+    },
+    {
+      "login": "antonum",
+      "id": 13168232,
+      "node_id": "MDQ6VXNlcjEzMTY4MjMy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13168232?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antonum",
+      "html_url": "https://github.com/antonum",
+      "followers_url": "https://api.github.com/users/antonum/followers",
+      "following_url": "https://api.github.com/users/antonum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antonum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antonum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antonum/subscriptions",
+      "organizations_url": "https://api.github.com/users/antonum/orgs",
+      "repos_url": "https://api.github.com/users/antonum/repos",
+      "events_url": "https://api.github.com/users/antonum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antonum/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "rbs333",
+      "id": 24654394,
+      "node_id": "MDQ6VXNlcjI0NjU0Mzk0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24654394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rbs333",
+      "html_url": "https://github.com/rbs333",
+      "followers_url": "https://api.github.com/users/rbs333/followers",
+      "following_url": "https://api.github.com/users/rbs333/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rbs333/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rbs333/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rbs333/subscriptions",
+      "organizations_url": "https://api.github.com/users/rbs333/orgs",
+      "repos_url": "https://api.github.com/users/rbs333/repos",
+      "events_url": "https://api.github.com/users/rbs333/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rbs333/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "luisalrp",
+      "id": 31384138,
+      "node_id": "MDQ6VXNlcjMxMzg0MTM4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31384138?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/luisalrp",
+      "html_url": "https://github.com/luisalrp",
+      "followers_url": "https://api.github.com/users/luisalrp/followers",
+      "following_url": "https://api.github.com/users/luisalrp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/luisalrp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/luisalrp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/luisalrp/subscriptions",
+      "organizations_url": "https://api.github.com/users/luisalrp/orgs",
+      "repos_url": "https://api.github.com/users/luisalrp/repos",
+      "events_url": "https://api.github.com/users/luisalrp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/luisalrp/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 14368,
+    "Dockerfile": 796
+  },
+  "readme_html": "<h1 id=\"user-content-arxiv-chatguru\">ArXiv ChatGuru</h1>\n<p>Welcome to <strong>ArXiv ChatGuru</strong>. This tool harnesses <code>LangChain</code> and <code>Redis</code> to make ArXiv's vast collection of scientific papers more interactive. Through this approach, we aim to make accessing and understanding research easier and more engaging, but also just to teach about how Retrieval Augmented Generation (RAG) systems work.</p>\n<h2 id=\"user-content--how-it-works\">📖 How it Works</h2>\n<p>This diagram shows the process how ArXiv ChatGuru works. The user submits a topic, which is used to retrieve relevant papers from ArXiv. These papers are then chunked into smaller pieces, for which embeddings are generated. These embeddings are stored in Redis, which is used as a vector database. The user can then ask questions about the papers retrieved by the topic they submitted, and the system will return the most relevant answer.</p>\n<p><img src=\"https://raw.githubusercontent.com/redis-developer/ArXivChatGuru/main/app/assets/diagram.png#gh-light-mode-only\" alt=\"ref arch\">\n<img src=\"https://raw.githubusercontent.com/redis-developer/ArXivChatGuru/main/app/assets/diagram-dark.png#gh-dark-mode-only\" alt=\"ref arch\"></p>\n<h2 id=\"user-content--components\">🛠 Components</h2>\n<ol>\n<li><strong>LangChain's ArXiv Loader</strong>: Efficiently pull scientific literature directly from ArXiv.</li>\n<li><strong>Chunking + Embedding</strong>: Using LangChain, we segment lengthy papers into manageable pieces (rather arbitrarily currently), for which we then generate embeddings.</li>\n<li><strong>Redis</strong>: Demonstrating fast and efficient vector storage, indexing, and retrieval for RAG.</li>\n<li><strong>RetrievalQA</strong>: Building on LangChain's RetrievalQA and OpenAI models, users can write queries about papers retrieved by the topic they submit.</li>\n<li><strong>Python Libraries</strong>: Making use of tools such as <a href=\"https://redisvl.com\"><code>redisvl</code></a>, <a href=\"https://www.langchain.com/\"><code>Langchain</code></a>, <a href=\"https://streamlit.io/\"><code>Streamlit</code></a>, etc</li>\n</ol>\n<h2 id=\"user-content--learning-outcomes-with-arxiv-chatguru\">💡 Learning Outcomes with ArXiv ChatGuru</h2>\n<ul>\n<li><strong>Context Window Exploration</strong>: Learn about the importance of context window size and how it influences interaction results.</li>\n<li><strong>Vector Distance Insights</strong>: Understand the role of vector distance in context retrieval for RAG and see how adjustments can change response specificity.</li>\n<li><strong>Document Retrieval Dynamics</strong>: Observe how the number of documents retrieved can influence the performance of a RAG (Retriever-Augmented Generation) system.</li>\n<li><strong>Using Redis as a Vector DB and Semantic Cache</strong>: Learn how to use Redis as a vector database for RAG systems and how to use it as a semantic cache for RAG systems.</li>\n</ul>\n<p><strong>Note</strong>: This <strong>is not</strong> a production application. It's a learning tool more than anything. We're using Streamlit to make it easy to interact with, but it's not meant to be a scalable application. It's meant to be a learning tool for understanding how RAG systems work, and how they can be used to make scientific literature more interactive. We will continue to make this better over time.</p>\n<p>🌟 If you love what we're doing, give us a star! Contributions and feedback are always welcome. 🌌🔭</p>\n<h2 id=\"user-content-up-next\">Up Next</h2>\n<p>What we want to do next (ideas welcome!):</p>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" checked disabled> Pin stable versions of dependencies using poetry</li>\n<li>Filters for Year, Author, etc.</li>\n<li>More efficient chunking</li>\n<li>Various LLM caching toggles</li>\n<li>Chat history and conversational memory in Redis</li>\n</ul>\n<hr>\n<h2 id=\"user-content-run-the-app\">Run the App</h2>\n<h3 id=\"user-content-run-locally\">Run Locally</h3>\n<ol>\n<li>\n<p>First, clone this repo and cd into it.</p>\n<pre><code class=\"language-bash\">$ git clone https://github.com/redis-developer/ArXivChatGuru.git &#x26;&#x26; cd ArxivChatGuru\n</code></pre>\n</li>\n<li>\n<p>Create your env file:</p>\n<pre><code class=\"language-bash\">$ cp .env.template .env\n</code></pre>\n<p><em>fill out values, most importantly, your <code>OPENAI_API_KEY</code>.</em></p>\n</li>\n<li>\n<p>Install dependencies with Poetry:</p>\n<pre><code class=\"language-bash\">$ poetry install --no-root\n</code></pre>\n</li>\n<li>\n<p>Run the app:</p>\n<pre><code class=\"language-bash\">$ poetry run streamlit run app.py --server.fileWatcherType none --browser.gatherUsageStats false --server.enableXsrfProtection false --server.address 0.0.0.0\n</code></pre>\n</li>\n<li>\n<p>Navigate to:</p>\n<pre><code>http://localhost:8501/\n</code></pre>\n</li>\n</ol>\n<h3 id=\"user-content-docker-compose\">Docker Compose</h3>\n<p>First, clone the repo like above.</p>\n<ol>\n<li>\n<p>Create your env file:</p>\n<pre><code class=\"language-bash\">$ cp .env.template .env\n</code></pre>\n<p><em>fill out values, most importantly, your <code>OPENAI_API_KEY</code>.</em></p>\n</li>\n<li>\n<p>Run with docker compose:</p>\n<pre><code class=\"language-bash\">$ docker compose up\n</code></pre>\n<p><em>add <code>-d</code> option to daemonize the processes to the background if you wish.</em></p>\n<p>Issues with dependencies? Try force-building with no-cache:</p>\n<pre><code>$ docker compose build --no-cache\n</code></pre>\n</li>\n<li>\n<p>Navigate to:</p>\n<pre><code>http://localhost:8501/\n</code></pre>\n</li>\n</ol>",
+  "_fetched_at": "2026-03-11T18:15:58.342Z"
+}

@@ -1,0 +1,102 @@
+---
+/**
+ * ContributorGrid.astro — Avatar grid linking to /owner/[login]
+ */
+interface Contributor {
+  login: string;
+  avatar_url: string;
+  contributions: number;
+  html_url?: string;
+}
+interface Props {
+  contributors: Contributor[];
+  maxShow?: number;
+}
+const { contributors, maxShow = 12 } = Astro.props;
+const shown = contributors.slice(0, maxShow);
+const overflow = contributors.length - maxShow;
+---
+
+{shown.length > 0 && (
+  <div class="contributor-grid">
+    <p class="cg-label">Contributors ({contributors.length})</p>
+    <ul class="cg-list" role="list" aria-label="Top contributors">
+      {shown.map((c) => (
+        <li>
+          <a
+            href={`/owner/${c.login}`}
+            class="cg-avatar-link"
+            title={`${c.login} — ${c.contributions.toLocaleString()} contributions`}
+            aria-label={`${c.login}: ${c.contributions} contributions`}
+          >
+            <img
+              src={`${c.avatar_url}&s=64`}
+              alt={c.login}
+              width="32"
+              height="32"
+              loading="lazy"
+              decoding="async"
+              class="cg-avatar"
+            />
+          </a>
+        </li>
+      ))}
+      {overflow > 0 && (
+        <li class="cg-overflow" aria-label={`${overflow} more contributors`}>
+          +{overflow}
+        </li>
+      )}
+    </ul>
+  </div>
+)}
+
+<style>
+  .contributor-grid {
+    margin-top: 0;
+  }
+  .cg-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.625rem;
+  }
+  .cg-list {
+    display: flex;
+    
+    gap: 0.375rem;
+    list-style: none;
+  }
+  .cg-avatar-link {
+    display: block;
+    border-radius: 50%;
+    transition: transform 0.15s, box-shadow 0.15s;
+    outline-offset: 2px;
+  }
+  .cg-avatar-link:hover {
+    transform: scale(1.15);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  }
+  .cg-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid var(--color-surface);
+    background: var(--color-surface-2);
+    display: block;
+  }
+  .cg-overflow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--color-surface-2);
+    border: 2px solid var(--color-border);
+    font-size: 0.625rem;
+    font-weight: 700;
+    color: var(--color-text-muted);
+  }
+</style>

@@ -1,0 +1,878 @@
+{
+  "id": 637645000,
+  "node_id": "R_kgDOJgGwyA",
+  "name": "LLM-Document-Chat",
+  "full_name": "redis-developer/LLM-Document-Chat",
+  "private": false,
+  "owner": {
+    "login": "redis-developer",
+    "id": 69006381,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5MDA2Mzgx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/69006381?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/redis-developer",
+    "html_url": "https://github.com/redis-developer",
+    "followers_url": "https://api.github.com/users/redis-developer/followers",
+    "following_url": "https://api.github.com/users/redis-developer/following{/other_user}",
+    "gists_url": "https://api.github.com/users/redis-developer/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/redis-developer/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/redis-developer/subscriptions",
+    "organizations_url": "https://api.github.com/users/redis-developer/orgs",
+    "repos_url": "https://api.github.com/users/redis-developer/repos",
+    "events_url": "https://api.github.com/users/redis-developer/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/redis-developer/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/redis-developer/LLM-Document-Chat",
+  "description": "Using LlamaIndex, Redis, and OpenAI to chat with PDF documents. Supplementary material for blog post on Microsoft Developer Blog",
+  "fork": false,
+  "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat",
+  "forks_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/forks",
+  "keys_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/teams",
+  "hooks_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/hooks",
+  "issue_events_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/events",
+  "assignees_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/tags",
+  "blobs_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/languages",
+  "stargazers_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/stargazers",
+  "contributors_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/contributors",
+  "subscribers_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/subscribers",
+  "subscription_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/subscription",
+  "commits_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/merges",
+  "archive_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/downloads",
+  "issues_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/labels{/name}",
+  "releases_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/deployments",
+  "created_at": "2023-05-08T05:38:42Z",
+  "updated_at": "2026-03-11T07:54:07Z",
+  "pushed_at": "2023-11-09T18:09:42Z",
+  "git_url": "git://github.com/redis-developer/LLM-Document-Chat.git",
+  "ssh_url": "git@github.com:redis-developer/LLM-Document-Chat.git",
+  "clone_url": "https://github.com/redis-developer/LLM-Document-Chat.git",
+  "svn_url": "https://github.com/redis-developer/LLM-Document-Chat",
+  "homepage": "",
+  "size": 2707,
+  "stargazers_count": 114,
+  "watchers_count": 114,
+  "language": "Jupyter Notebook",
+  "has_issues": true,
+  "has_projects": false,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 23,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "llm",
+    "rag",
+    "redis",
+    "retrieval-augmented-generation",
+    "vector-database",
+    "vectorstore"
+  ],
+  "visibility": "public",
+  "forks": 23,
+  "open_issues": 0,
+  "watchers": 114,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "4468f7b5b243e7fdeb36a8e53a75efc77e89a92b",
+      "node_id": "C_kwDOJgGwyNoAKDQ0NjhmN2I1YjI0M2U3ZmRlYjM2YThlNTNhNzVlZmM3N2U4OWE5MmI",
+      "commit": {
+        "author": {
+          "name": "shpathak",
+          "email": "47904667+shpathak-msft@users.noreply.github.com",
+          "date": "2023-11-09T18:09:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-09T18:09:42Z"
+        },
+        "message": "Add bicep template for creating Azure resources (#8)\n\n* Add bicep template\r\n* Add instruction to delete",
+        "tree": {
+          "sha": "c766c8f33121eca03233546afe1b142cb89d55b5",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/c766c8f33121eca03233546afe1b142cb89d55b5"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/4468f7b5b243e7fdeb36a8e53a75efc77e89a92b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlTSBmCRBK7hj4Ov3rIwAAfjUIAI3xhBPe1tVBrZ5QGXXnjBtr\npVwlM+KrOWWQLBzYXH9z47RluR57BVJ7J9EqjHVCVeS9JoSRq/lDnPMemjnpdE3u\nS5WEmo2j0+avQrVnNBTru/iOYXnPM4Uo8SoXfQum6gLL3beDr0IzJ7ptIyUna8B4\n0VU1rZyC7vBXmygVaobpk3zJ80sc3Fzz6IjKbk0JYUo+RtCWawiVYavti9DRgt64\nt7vRMd/FJ4QyJ2Bik5I8LRTqM9cNhqz2eq3wef1dBtEl07a9l4pObOAvZ2XwZr71\nidEofHElCX5YZmjhMNGWnfck6ekawkZ5IVSG+sCwk7DJFhR5ImSIY55pTEjb5gk=\n=04c5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c766c8f33121eca03233546afe1b142cb89d55b5\nparent e8d1570a9ae26a34196495987f982cacb93c2fd8\nauthor shpathak <47904667+shpathak-msft@users.noreply.github.com> 1699553382 -0800\ncommitter GitHub <noreply@github.com> 1699553382 -0500\n\nAdd bicep template for creating Azure resources (#8)\n\n* Add bicep template\r\n* Add instruction to delete",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/4468f7b5b243e7fdeb36a8e53a75efc77e89a92b",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/4468f7b5b243e7fdeb36a8e53a75efc77e89a92b",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/4468f7b5b243e7fdeb36a8e53a75efc77e89a92b/comments",
+      "author": {
+        "login": "shpathak-msft",
+        "id": 47904667,
+        "node_id": "MDQ6VXNlcjQ3OTA0NjY3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47904667?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/shpathak-msft",
+        "html_url": "https://github.com/shpathak-msft",
+        "followers_url": "https://api.github.com/users/shpathak-msft/followers",
+        "following_url": "https://api.github.com/users/shpathak-msft/following{/other_user}",
+        "gists_url": "https://api.github.com/users/shpathak-msft/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/shpathak-msft/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/shpathak-msft/subscriptions",
+        "organizations_url": "https://api.github.com/users/shpathak-msft/orgs",
+        "repos_url": "https://api.github.com/users/shpathak-msft/repos",
+        "events_url": "https://api.github.com/users/shpathak-msft/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/shpathak-msft/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e8d1570a9ae26a34196495987f982cacb93c2fd8",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/e8d1570a9ae26a34196495987f982cacb93c2fd8",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/e8d1570a9ae26a34196495987f982cacb93c2fd8"
+        }
+      ]
+    },
+    {
+      "sha": "e8d1570a9ae26a34196495987f982cacb93c2fd8",
+      "node_id": "C_kwDOJgGwyNoAKGU4ZDE1NzBhOWFlMjZhMzQxOTY0OTU5ODdmOTgyY2FjYjkzYzJmZDg",
+      "commit": {
+        "author": {
+          "name": "Tyler Hutcherson",
+          "email": "tyler.hutcherson@redis.com",
+          "date": "2023-11-07T14:37:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-07T14:37:27Z"
+        },
+        "message": "Improve LLM doc chat user exp (#9)\n\n* cleanup notebook and dependencies\r\n* updates to readme and structure\r\n* pin openai SDK version",
+        "tree": {
+          "sha": "4b373efbb8673178694e6d1a62a8ddf8d2f02ee9",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/4b373efbb8673178694e6d1a62a8ddf8d2f02ee9"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/e8d1570a9ae26a34196495987f982cacb93c2fd8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlSkunCRBK7hj4Ov3rIwAA5rgIAAzc0Vq7Z2WK/IpmwdXabXoi\nNtosohFSdhngiI2pi/3WRaD7i4OlPV9wK0KDY3mMzoONCDd8gd8AdTXMtj36HS+L\npwO5BnHwP/vyg5i8gFbsQhSDv9y8XaSry9VXMyJ0Gu6aK3NakJEEAh50N72lzvTp\nLTVPlo37eqehVZ/1p/IMrksP54mLGdKKNGl6WLbXPwpgEgL0J3/UaGueayMBDo+L\n5wfK+evFuyCcldDau7uOaSH+TYgIR4nLtaLInA2tL9kcMFx8L/uS1GWNAZh+MTFQ\n2JqKUzY2cPPdO0muJawVaUVRTjoPT5jtja4q9xVUqHgMHrUmpobakW++RRza8Q0=\n=sqjZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4b373efbb8673178694e6d1a62a8ddf8d2f02ee9\nparent cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0\nauthor Tyler Hutcherson <tyler.hutcherson@redis.com> 1699367847 -0500\ncommitter GitHub <noreply@github.com> 1699367847 -0500\n\nImprove LLM doc chat user exp (#9)\n\n* cleanup notebook and dependencies\r\n* updates to readme and structure\r\n* pin openai SDK version",
+          "verified_at": "2024-11-11T07:42:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/e8d1570a9ae26a34196495987f982cacb93c2fd8",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/e8d1570a9ae26a34196495987f982cacb93c2fd8",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/e8d1570a9ae26a34196495987f982cacb93c2fd8/comments",
+      "author": {
+        "login": "tylerhutcherson",
+        "id": 20304844,
+        "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tylerhutcherson",
+        "html_url": "https://github.com/tylerhutcherson",
+        "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+        "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+        "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+        "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+        "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0"
+        }
+      ]
+    },
+    {
+      "sha": "cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0",
+      "node_id": "C_kwDOJgGwyNoAKGNjNzY5ZmUzZGRjNjkwYjc1YmNmYTRjNWFkYjRkZDA1OTFlODQxZTA",
+      "commit": {
+        "author": {
+          "name": "Anton Umnikov",
+          "email": "aumnikov@gmail.com",
+          "date": "2023-09-18T05:04:44Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-09-18T05:04:44Z"
+        },
+        "message": "fix issue #6 (#7)\n\nchanges:\r\n* fix issue #6\r\n* add OPENAI_API_VERSION\r\n* update defaults in .env file",
+        "tree": {
+          "sha": "dca8768bae41d1e8c764db4a7c190f0f666d135b",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/dca8768bae41d1e8c764db4a7c190f0f666d135b"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlB9psCRBK7hj4Ov3rIwAA1ZEIAGxFNyG5PqkdggGSis9xmBcK\nauqMLPMiyTUwPZeVf/SBq1vTWW9o2URxB4ItGQoFhBv9otL61O4cHCzdRgh8wEW+\nKrL6sjtiBJABp05/TxowC5I0SqFWM33Tk2HMuy03r2KL8Zp0N68Z+169agJmkKOP\nmvwVKaJbB9omzPzzYegn1Jy0v2QET8D9zG2+R8joXlzz5fc9Ro/NJgNA9pNA8WWO\n5uwyKZ9iXhTWsiuCOmL5jK2NIHkNtdwGLiSG5GI6FNBY/lRvgfkioINX5hqLLzs+\n3QsW9MGjL+nqaFETnVhFMzEXoU8cTLf8YjJf+jlO+mngpJkoLnYRDQZC5aBlYcI=\n=oi+2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dca8768bae41d1e8c764db4a7c190f0f666d135b\nparent 889608176c813987464f89099decc8ad04b7578f\nauthor Anton Umnikov <aumnikov@gmail.com> 1695013484 -0400\ncommitter GitHub <noreply@github.com> 1695013484 -0400\n\nfix issue #6 (#7)\n\nchanges:\r\n* fix issue #6\r\n* add OPENAI_API_VERSION\r\n* update defaults in .env file",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/cc769fe3ddc690b75bcfa4c5adb4dd0591e841e0/comments",
+      "author": {
+        "login": "antonum",
+        "id": 13168232,
+        "node_id": "MDQ6VXNlcjEzMTY4MjMy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13168232?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/antonum",
+        "html_url": "https://github.com/antonum",
+        "followers_url": "https://api.github.com/users/antonum/followers",
+        "following_url": "https://api.github.com/users/antonum/following{/other_user}",
+        "gists_url": "https://api.github.com/users/antonum/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/antonum/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/antonum/subscriptions",
+        "organizations_url": "https://api.github.com/users/antonum/orgs",
+        "repos_url": "https://api.github.com/users/antonum/repos",
+        "events_url": "https://api.github.com/users/antonum/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/antonum/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "889608176c813987464f89099decc8ad04b7578f",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/889608176c813987464f89099decc8ad04b7578f",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/889608176c813987464f89099decc8ad04b7578f"
+        }
+      ]
+    },
+    {
+      "sha": "889608176c813987464f89099decc8ad04b7578f",
+      "node_id": "C_kwDOJgGwyNoAKDg4OTYwODE3NmM4MTM5ODc0NjRmODkwOTlkZWNjOGFkMDRiNzU3OGY",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-22T20:29:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-22T20:29:52Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "0d77dafba9d7b186d42ab7db19119ca66e8ad253",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/0d77dafba9d7b186d42ab7db19119ca66e8ad253"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/889608176c813987464f89099decc8ad04b7578f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJka9DACRBK7hj4Ov3rIwAACcsIAGZZrG28X4BwNN1bBcwl6aXU\ntS4zI82fEz4RhROCX7RAvb90Ic13CPKRPgV8i1HAJjKmuBzmBawhjUp31qlDD1Ei\nNO2ucms+wXWVBxNZMdfNVnQqor6sRh3MlRrI7UaO7SHLKyIHEPbSmSnjYc9tSyJP\nbAuuEmcgWlS1ojn7OHSkUDXQzkyJOJdBBvBZS4DJbX0QySsfBc8fq4Ko04tngD3n\nOyKEfFlFem4LesEIkhpm/9OeESWVWFHG6Ey4OE0xdfyGdkMXsNMu9X4PrnxaNwkZ\nRsSQQc7aH9RDZtlsghIlMQdmGVYdSEzK8sNP7wF4OK7PjaVE1Wy48Lh99lnMbNE=\n=oFbN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0d77dafba9d7b186d42ab7db19119ca66e8ad253\nparent 8ccdb125be5329441226a23ec385d104dd0ade29\nauthor Sam Partee <sam.partee@redis.com> 1684787392 -0700\ncommitter GitHub <noreply@github.com> 1684787392 -0700\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/889608176c813987464f89099decc8ad04b7578f",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/889608176c813987464f89099decc8ad04b7578f",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/889608176c813987464f89099decc8ad04b7578f/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8ccdb125be5329441226a23ec385d104dd0ade29",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/8ccdb125be5329441226a23ec385d104dd0ade29",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/8ccdb125be5329441226a23ec385d104dd0ade29"
+        }
+      ]
+    },
+    {
+      "sha": "8ccdb125be5329441226a23ec385d104dd0ade29",
+      "node_id": "C_kwDOJgGwyNoAKDhjY2RiMTI1YmU1MzI5NDQxMjI2YTIzZWMzODVkMTA0ZGQwYWRlMjk",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-17T01:31:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-17T01:31:00Z"
+        },
+        "message": "LlamaIndex version Update (#4)\n\n* Update Llama Index",
+        "tree": {
+          "sha": "618d4fe64a62ef7ef2d218f02cddbe93cf53eeca",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/618d4fe64a62ef7ef2d218f02cddbe93cf53eeca"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/8ccdb125be5329441226a23ec385d104dd0ade29",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkZC5UCRBK7hj4Ov3rIwAA+jAIAFJYchtZQMeriDWkabx+CRaX\n+8diLHKJsmU/ItFGsoCoyqrja8qilMdiW+3RNkoTSXiVnuJI10DUwYPLPIRT2JYy\ncxMF7AwmoIzckywMkVgTe4LJMQUe1yp3yyIbv5l64SoCNN+QXGZYnAVfM8scwemT\nM5L7deEVbwEfcsNKgw5q5MJq0Q7lf2nKv2rf8Nfla+fGJCHs5opcPrN0X0g7ZkcQ\nBDExJ8SIzCpkg2H0q+/psH636NXWAHh6EtSOlEKBVa3gRtoXd4SNn4flt88kc7H2\nkRq1p787sL+Lt6mp/9WkyUD6FuMYfP8na6LF3sXln9gymR1npT2MI/dsoYYJNnE=\n=X9S+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 618d4fe64a62ef7ef2d218f02cddbe93cf53eeca\nparent 01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183\nauthor Sam Partee <sam.partee@redis.com> 1684287060 -0700\ncommitter GitHub <noreply@github.com> 1684287060 -0700\n\nLlamaIndex version Update (#4)\n\n* Update Llama Index\r\n",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/8ccdb125be5329441226a23ec385d104dd0ade29",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/8ccdb125be5329441226a23ec385d104dd0ade29",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/8ccdb125be5329441226a23ec385d104dd0ade29/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183"
+        }
+      ]
+    },
+    {
+      "sha": "01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183",
+      "node_id": "C_kwDOJgGwyNoAKDAxYzlkMmNkYmQ5ZDcyZDgxY2ExZTViYTNkY2ViNjdmZDA5ZDUxODM",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-12T22:23:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-12T22:23:09Z"
+        },
+        "message": "Azure Revision (#2)\n\nAdd Azure configuration capability",
+        "tree": {
+          "sha": "60a8db58a2a2cc0b39b21c20262ee228af39f69d",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/60a8db58a2a2cc0b39b21c20262ee228af39f69d"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkXrxNCRBK7hj4Ov3rIwAAn5MIAEM5f4m2jIgXlBwPjCaJipsl\nDM8UHpUJmMA50xehk0BM2BXMG4iGNsVihRjpvCzORgC7OL3dJHqXujLyQqhfO/BK\nVbblo7TsVt0zRft66ZESVYlWuQNfU3idafz4j8VdDewyy4TKZHEpkyyQZpzUtzov\n2rKUboRFkWMnaJKR6WXhYpw8AaHi49DCCltz6gKoMfptHODf8ao4HKavjdk3UxaL\nCQPoKMckl+DmzFjdLo5s3YC7fhZT6Tfv2uy6INJhHe2PBH4cVZ2u6qXY3R705gxD\nOfJVow3kCszDOXUjj8Gxz+Hh8M7KoFRyF9lCc4K0xqqgQUAkY2ynPk9U7iruc0o=\n=DllM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 60a8db58a2a2cc0b39b21c20262ee228af39f69d\nparent c9173578e02ac51de2aeb8f014604c4f233452a8\nauthor Sam Partee <sam.partee@redis.com> 1683930189 -0700\ncommitter GitHub <noreply@github.com> 1683930189 -0700\n\nAzure Revision (#2)\n\nAdd Azure configuration capability",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/01c9d2cdbd9d72d81ca1e5ba3dceb67fd09d5183/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c9173578e02ac51de2aeb8f014604c4f233452a8",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/c9173578e02ac51de2aeb8f014604c4f233452a8",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/c9173578e02ac51de2aeb8f014604c4f233452a8"
+        }
+      ]
+    },
+    {
+      "sha": "c9173578e02ac51de2aeb8f014604c4f233452a8",
+      "node_id": "C_kwDOJgGwyNoAKGM5MTczNTc4ZTAyYWM1MWRlMmFlYjhmMDE0NjA0YzRmMjMzNDUyYTg",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-09T05:37:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-09T05:37:43Z"
+        },
+        "message": "Update README.md\n\nAdd video",
+        "tree": {
+          "sha": "706523599f7603bd24f914a222beb656160f5927",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/706523599f7603bd24f914a222beb656160f5927"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/c9173578e02ac51de2aeb8f014604c4f233452a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkWdwnCRBK7hj4Ov3rIwAAYM8IAIT5LqP2Wf/Yvpnd4yt0BYTq\nF7QZ+C/XyrKudpfjZlmR7vNWuqF0bg2W6XSn/eMb1Jfxr0UxVIc5mBsdcepqR8co\n+kdQXEwOXm7AStsgL85hkU8i2Bjg+IWFua+4FS2t0CgbPHTFDcxVhLZmJTzztEO0\npG2wZsbssuK85ZJ+7wxMiOcdo7aB62qUW5HQFqZqTUmcfGm9weZ1SnGZhuCaKj9C\nRQP2mW/+eYpBWRqXydDNcbb6yAMm//YZlVSZTf1UuuIqBSSU3tQpiAKxGCfz4ozR\nLhMGreAddg1XKcWV0AlH3uCp2eMnGAW0cQs+24uiHG3QlxCoTY778KsmlB1lEFE=\n=RqrW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 706523599f7603bd24f914a222beb656160f5927\nparent 276eacc0d5373df8dfdb0805ede938c4367fb9a9\nauthor Sam Partee <sam.partee@redis.com> 1683610663 -0700\ncommitter GitHub <noreply@github.com> 1683610663 -0700\n\nUpdate README.md\n\nAdd video",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/c9173578e02ac51de2aeb8f014604c4f233452a8",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/c9173578e02ac51de2aeb8f014604c4f233452a8",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/c9173578e02ac51de2aeb8f014604c4f233452a8/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "276eacc0d5373df8dfdb0805ede938c4367fb9a9",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/276eacc0d5373df8dfdb0805ede938c4367fb9a9",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/276eacc0d5373df8dfdb0805ede938c4367fb9a9"
+        }
+      ]
+    },
+    {
+      "sha": "276eacc0d5373df8dfdb0805ede938c4367fb9a9",
+      "node_id": "C_kwDOJgGwyNoAKDI3NmVhY2MwZDUzNzNkZjhkZmRiMDgwNWVkZTkzOGM0MzY3ZmI5YTk",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-09T05:29:34Z"
+        },
+        "committer": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-09T05:29:34Z"
+        },
+        "message": "Update notebook",
+        "tree": {
+          "sha": "21d8b3d77cc6f8e65569f490a2f61f54197f0096",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/21d8b3d77cc6f8e65569f490a2f61f54197f0096"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/276eacc0d5373df8dfdb0805ede938c4367fb9a9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/276eacc0d5373df8dfdb0805ede938c4367fb9a9",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/276eacc0d5373df8dfdb0805ede938c4367fb9a9",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/276eacc0d5373df8dfdb0805ede938c4367fb9a9/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "29f3f4eb4c2ca7262b2e86459d3d27ca23be481c",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/29f3f4eb4c2ca7262b2e86459d3d27ca23be481c",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/29f3f4eb4c2ca7262b2e86459d3d27ca23be481c"
+        }
+      ]
+    },
+    {
+      "sha": "29f3f4eb4c2ca7262b2e86459d3d27ca23be481c",
+      "node_id": "C_kwDOJgGwyNoAKDI5ZjNmNGViNGMyY2E3MjYyYjJlODY0NTlkM2QyN2NhMjNiZTQ4MWM",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-08T05:40:26Z"
+        },
+        "committer": {
+          "name": "Sam Partee",
+          "email": "sam.partee@redis.com",
+          "date": "2023-05-08T05:40:26Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "20a40276b3f23fae764bf0b37fd09e18ea69599f",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/20a40276b3f23fae764bf0b37fd09e18ea69599f"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/29f3f4eb4c2ca7262b2e86459d3d27ca23be481c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/29f3f4eb4c2ca7262b2e86459d3d27ca23be481c",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/29f3f4eb4c2ca7262b2e86459d3d27ca23be481c",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/29f3f4eb4c2ca7262b2e86459d3d27ca23be481c/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "4a2eeb6e5d77de9bd44533e489ec1939c68f8532",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/4a2eeb6e5d77de9bd44533e489ec1939c68f8532",
+          "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/4a2eeb6e5d77de9bd44533e489ec1939c68f8532"
+        }
+      ]
+    },
+    {
+      "sha": "4a2eeb6e5d77de9bd44533e489ec1939c68f8532",
+      "node_id": "C_kwDOJgGwyNoAKDRhMmVlYjZlNWQ3N2RlOWJkNDQ1MzNlNDg5ZWMxOTM5YzY4Zjg1MzI",
+      "commit": {
+        "author": {
+          "name": "Sam Partee",
+          "email": "Partees21@gmail.com",
+          "date": "2023-05-08T05:38:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-05-08T05:38:42Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "c4ad0bc3ebf71914893ec12a8f3257d8b3c41765",
+          "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/trees/c4ad0bc3ebf71914893ec12a8f3257d8b3c41765"
+        },
+        "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/git/commits/4a2eeb6e5d77de9bd44533e489ec1939c68f8532",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkWIriCRBK7hj4Ov3rIwAA3rQIACVuCEWysXCcKOFVpNcizskw\nAbSxHhZukrR5YGxsT9mH7fN3eUceVX6lse6dgzNZx4DBi6hC2zrxseGcGBxQ4CIe\nQO+UDKbcvUfvfZIuvuicf9+//SQce8B9GqvGmQeMixcMPIRxF7eVmN1ZPiLZB8Vz\nhqgy5kzpetQE2QDtvaAC2L3xMFPCWCGHnUCHtI4/03qOLIH3JYGzTGSLxgDGXQNn\nr+6XThEyg4XShVnq7Ec+nMVEN1bk3TQPBnlvXuNognapbm+LIAviVH47fX8Zfmo2\nEpji4/b2xrcXzyHi9TD2doBF/vBr6XbBqeP075RarkmpwnQl0GeZr3yOWSaNQ9A=\n=GIwI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c4ad0bc3ebf71914893ec12a8f3257d8b3c41765\nauthor Sam Partee <Partees21@gmail.com> 1683524322 -0700\ncommitter GitHub <noreply@github.com> 1683524322 -0700\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/4a2eeb6e5d77de9bd44533e489ec1939c68f8532",
+      "html_url": "https://github.com/redis-developer/LLM-Document-Chat/commit/4a2eeb6e5d77de9bd44533e489ec1939c68f8532",
+      "comments_url": "https://api.github.com/repos/redis-developer/LLM-Document-Chat/commits/4a2eeb6e5d77de9bd44533e489ec1939c68f8532/comments",
+      "author": {
+        "login": "Spartee",
+        "id": 13009163,
+        "node_id": "MDQ6VXNlcjEzMDA5MTYz",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13009163?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Spartee",
+        "html_url": "https://github.com/Spartee",
+        "followers_url": "https://api.github.com/users/Spartee/followers",
+        "following_url": "https://api.github.com/users/Spartee/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Spartee/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Spartee/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Spartee/subscriptions",
+        "organizations_url": "https://api.github.com/users/Spartee/orgs",
+        "repos_url": "https://api.github.com/users/Spartee/repos",
+        "events_url": "https://api.github.com/users/Spartee/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Spartee/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "antonum",
+      "id": 13168232,
+      "node_id": "MDQ6VXNlcjEzMTY4MjMy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13168232?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antonum",
+      "html_url": "https://github.com/antonum",
+      "followers_url": "https://api.github.com/users/antonum/followers",
+      "following_url": "https://api.github.com/users/antonum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/antonum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/antonum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/antonum/subscriptions",
+      "organizations_url": "https://api.github.com/users/antonum/orgs",
+      "repos_url": "https://api.github.com/users/antonum/repos",
+      "events_url": "https://api.github.com/users/antonum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/antonum/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "Spartee",
+      "id": 13009163,
+      "node_id": "MDQ6VXNlcjEzMDA5MTYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13009163?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Spartee",
+      "html_url": "https://github.com/Spartee",
+      "followers_url": "https://api.github.com/users/Spartee/followers",
+      "following_url": "https://api.github.com/users/Spartee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Spartee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Spartee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Spartee/subscriptions",
+      "organizations_url": "https://api.github.com/users/Spartee/orgs",
+      "repos_url": "https://api.github.com/users/Spartee/repos",
+      "events_url": "https://api.github.com/users/Spartee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Spartee/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "tylerhutcherson",
+      "id": 20304844,
+      "node_id": "MDQ6VXNlcjIwMzA0ODQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20304844?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tylerhutcherson",
+      "html_url": "https://github.com/tylerhutcherson",
+      "followers_url": "https://api.github.com/users/tylerhutcherson/followers",
+      "following_url": "https://api.github.com/users/tylerhutcherson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tylerhutcherson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tylerhutcherson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tylerhutcherson/subscriptions",
+      "organizations_url": "https://api.github.com/users/tylerhutcherson/orgs",
+      "repos_url": "https://api.github.com/users/tylerhutcherson/repos",
+      "events_url": "https://api.github.com/users/tylerhutcherson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tylerhutcherson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "shpathak-msft",
+      "id": 47904667,
+      "node_id": "MDQ6VXNlcjQ3OTA0NjY3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47904667?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shpathak-msft",
+      "html_url": "https://github.com/shpathak-msft",
+      "followers_url": "https://api.github.com/users/shpathak-msft/followers",
+      "following_url": "https://api.github.com/users/shpathak-msft/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shpathak-msft/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shpathak-msft/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shpathak-msft/subscriptions",
+      "organizations_url": "https://api.github.com/users/shpathak-msft/orgs",
+      "repos_url": "https://api.github.com/users/shpathak-msft/repos",
+      "events_url": "https://api.github.com/users/shpathak-msft/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shpathak-msft/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Jupyter Notebook": 35081,
+    "Bicep": 2695
+  },
+  "readme_html": "<h1 id=\"user-content-redis-llm-document-chat\">Redis-LLM-Document-Chat</h1>\n<p>This repository provides the materials for the joint Redis/Microsoft blog post <a href=\"https://techcommunity.microsoft.com/t5/azure-developer-community-blog/vector-similarity-search-with-azure-cache-for-redis-enterprise/ba-p/3822059\">here</a>. It contains a Jupyter notebook that demonstrates how to use Redis as a vector database to store and retrieve document vectors. The notebook also shows how to use LlamaIndex to perform semantic search for context within documents\nand provide a chatbot-like experience using OpenAI.</p>\n<p><a href=\"https://user-images.githubusercontent.com/13009163/237002719-26e3118d-77ee-4ded-96f5-6ba801cae66c.mov\">https://user-images.githubusercontent.com/13009163/237002719-26e3118d-77ee-4ded-96f5-6ba801cae66c.mov</a></p>\n<h2 id=\"user-content-getting-started\">Getting Started</h2>\n<p>The LLM Document Chat tutorial is <strong>intended to run on a dockerized Jupyter lab environment</strong> to ensure ideal experience and minimal Python environment hickups. At a minimum, you will need to install <a href=\"https://www.docker.com/products/docker-desktop/\">Docker Desktop</a> (<em>which comes with Docker Compose</em>) to run this example.</p>\n<p>The project maintains a <code>.env.template</code> with the following variables pre-defined:</p>\n<pre><code class=\"language-bash\"># General OpenAI Env Vars\nOPENAI_TEXT_MODEL=gpt-35-turbo\nOPENAI_EMBEDDING_MODEL=text-embedding-ada-002\nOPENAI_TEMPERATURE=0.7\nOPENAI_MAX_TOKENS=50\n\n# OpenAI Direct Env Vars\nOPENAI_API_KEY=&#x3C;your key here>\nOPENAI_API_BASE=https://api.openai.com/v1/\n\n# Azure OpenAI Env Vars\n#OPENAI_API_VERSION=2023-05-15 # use OPENAI_API_VERSION only with Azure OpenAI\nAZURE_EMBED_MODEL_DEPLOYMENT_NAME=&#x3C;your deployment name here>\nAZURE_TEXT_MODEL_DEPLOYMENT_NAME=&#x3C;your deployment name here>\nAZURE_OPENAI_API_BASE=https://&#x3C;your deployment name>.openai.azure.com/\n\n# General Env Vars\nCHUNK_SIZE=500\nCHUNK_OVERLAP=0.2\n\n# Redis Env Vars\nREDIS_HOST=redis\nREDIS_PORT=6379\nREDIS_PASSWORD=\n</code></pre>\n<p>Make a copy of this file to create <code>.env</code> as follows:</p>\n<pre><code class=\"language-bash\">$ cp .env.template .env\n</code></pre>\n<p>Update portions of the env file based on your choices below:</p>\n<ol>\n<li><strong><a href=\"#choose-your-openai-provider\">Choose your OpenAI provider</a></strong></li>\n<li><strong><a href=\"#choose-your-redis-provider\">Choose your Redis provider</a></strong></li>\n</ol>\n<hr>\n<p><strong>NOTE</strong> If you are hosting this sample on Azure, you can quickly deploy Azure OpenAI and Azure Cache for Redis Enterprise instance with the right configurations by running the following commands:</p>\n<pre><code class=\"language-bash\">az group create -n LLMDocChatRG -l eastus\n\naz deployment group create --template-file infra\\bicep\\main.bicep -g LLMDocChatRG\n</code></pre>\n<p>To remove all Azure resources, simply delete the resource group using:</p>\n<pre><code class=\"language-bash\">az group delete -n LLMDocChatRG\n\n</code></pre>\n<h2 id=\"user-content-alternately-you-can-choose-to-use-openai-or-other-redis-providers-as-documented-below\">Alternately, you can choose to use OpenAI or other Redis providers as documented below.</h2>\n<h3 id=\"user-content-choose-your-openai-provider\">Choose your OpenAI provider</h3>\n<p>You can choose between <strong><a href=\"#to-use-azure-openai\">Azure OpenAI Service</a></strong> (fully hosted and managed by Azure) and <strong><a href=\"#to-use-openai\">OpenAI</a></strong> direct.</p>\n<h4 id=\"user-content-to-use-azure-openai-recommended\">To Use Azure OpenAI (Recommended)</h4>\n<p>To use Azure OpenAI, you will need to follow these instructions</p>\n<ol>\n<li>Create an Azure OpenAI resource.</li>\n<li>Create model deployments for the text and embedding models.</li>\n<li>Configure the <code>.env</code> file adding the specific values for your deployments.</li>\n</ol>\n<pre><code class=\"language-bash\">AZURE_EMBED_MODEL_DEPLOYMENT_NAME=&#x3C;your deployment name here>\nAZURE_TEXT_MODEL_DEPLOYMENT_NAME=&#x3C;your deployment name here>\nAZURE_OPENAI_API_BASE=https://&#x3C;your deployment name>.openai.azure.com/\n</code></pre>\n<h4 id=\"user-content-to-use-openai\">To Use OpenAI</h4>\n<p>To use OpenAI, you will need to follow these instructions</p>\n<ol>\n<li>Create an OpenAI account.</li>\n<li>Create an OpenAI API key.</li>\n<li>Configure the <code>.env</code> file adding the specific values for your deployments.</li>\n</ol>\n<pre><code class=\"language-bash\">OPENAI_API_KEY=&#x3C;your key here>\n</code></pre>\n<h3 id=\"user-content-choose-your-redis-provider\">Choose your Redis provider</h3>\n<p>The tutorial will require the usage of the Redis Search &#x26; Query features, including support for Vector Similarity Search. There are three options for running Redis:</p>\n<ol>\n<li><a href=\"https://redis.com/try-free\">Redis Enterprise Cloud - Free Instance</a></li>\n<li>Azure Redis Enterprise (ACRE)</li>\n<li>Redis Stack (local docker)</li>\n</ol>\n<p>For each, the following options are <strong>required</strong> and must be updated in your local <code>.env</code> file:</p>\n<pre><code class=\"language-bash\">REDIS_PASSWORD=&#x3C;your password here>\nREDIS_HOST=&#x3C;your redis host address here>\nREDIS_PORT=&#x3C;your redis port here>\n</code></pre>\n<p>There are some <code>docker-compose.yml</code> files in the <code>docker</code> directory that will help spin up\nredis-stack locally and redisinsight in the case where a remote Redis is being used (like ACRE).</p>\n<h2 id=\"user-content-run\">Run</h2>\n<p>To open the jupyter environment through docker, follow these steps:</p>\n<ol>\n<li>\n<p>Clone this repository to your local machine.</p>\n</li>\n<li>\n<p>Copy the <code>.env.template</code> to <code>.env</code> and configure the values as outlined above.</p>\n</li>\n<li>\n<p>Run with Docker Compose:</p>\n<p><strong>For Cloud or Azure Redis Enterprise</strong></p>\n<pre><code class=\"language-bash\">docker compose -f docker/cloud/docker-compose.yml up\n</code></pre>\n<p><strong>For Local (Docker) Redis Stack</strong></p>\n<pre><code class=\"language-bash\">docker compose -f docker/local/docker-compose.yml up\n</code></pre>\n</li>\n<li>\n<p>Open the Jupyter lab session in your browser at <code>http://127.0.0.1:8888/lab?token={YOUR GENERATED TOKEN}</code>. <em>Check the terminal logs for the token string.</em></p>\n</li>\n</ol>",
+  "_fetched_at": "2026-03-11T18:17:32.908Z"
+}

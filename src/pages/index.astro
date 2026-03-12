@@ -1,0 +1,605 @@
+---
+import Base from '../layouts/Base.astro';
+import { buildWebsiteSchema } from '../utils/schema';
+import categories from '../data/categories.json';
+import manifestRaw from '../data/manifest.json';
+
+// ── Load manifest (bundled at build time via JSON import) ──
+const manifest: Array<{
+  full_name: string; owner: string; repo: string; stars: number;
+  forks: number; language?: string; topics: string[];
+  primary_category: string; pushed_at: string; description?: string;
+}> = manifestRaw as any;
+
+// ── Featured repos: top 6 by stars across all categories ──
+const featured = manifest
+  .slice()
+  .sort((a, b) => b.stars - a.stars)
+  .slice(0, 6);
+
+// ── Stats ──
+const totalRepos = manifest.length;
+const totalCategories = categories.length;
+const totalStars = manifest.reduce((s, r) => s + (r.stars ?? 0), 0);
+function fmtNum(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K`;
+  return String(n);
+}
+
+// ── Per-category: count + top repo ──
+const categoryStats = categories.map((cat) => {
+  const repos = manifest.filter((r) => r.primary_category === cat.slug);
+  const topRepo = repos.sort((a, b) => b.stars - a.stars)[0] ?? null;
+  return { ...cat, count: repos.length, topRepo };
+});
+
+// ── Schema ──
+const schema = buildWebsiteSchema();
+
+const ICONS: Record<string, string> = {
+  'large-language-models': '🧠',
+  'ai-agents':             '🤖',
+  'rag-retrieval':         '🔍',
+  'vector-databases':      '🗄️',
+  'prompt-engineering':    '✍️',
+  'fine-tuning':           '🎛️',
+  'multimodal-ai':         '🖼️',
+  'ai-infrastructure':     '⚙️',
+  'ai-frameworks':         '🧩',
+  'open-source-llms':      '🦙',
+  'ai-datasets':           '📦',
+  'ai-evaluation':         '📊',
+  'ai-safety':             '🛡️',
+  'ai-applications':       '🚀',
+};
+---
+
+<Base
+  title="AI Prompts Mall — Open-Source AI Tools Directory | aipromptsmall.shop"
+  description="Discover 10,000+ open-source AI tools, LLMs, agents, RAG frameworks, and prompt libraries on GitHub — curated, ranked by stars, and searchable."
+  canonical="https://aipromptsmall.shop"
+  pageType="homepage"
+  schemas={[schema]}
+>
+
+  <!-- ═══════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════ -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="container hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Updated from GitHub — {fmtNum(totalRepos)} repos indexed</span>
+      </div>
+
+      <h1 id="hero-heading" class="hero-title">
+        The Open-Source
+        <span class="hero-title-gradient">AI Tools</span>
+        Directory
+      </h1>
+
+      <p class="hero-subtitle">
+        Find the best LLMs, AI agents, RAG systems, prompt libraries, and more —
+        all sourced from GitHub and ranked by community stars.
+      </p>
+
+      <div class="hero-actions">
+        <a href="/search" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          Search All Tools
+        </a>
+        <a href="/trending" class="btn btn-secondary">
+          🔥 View Trending
+        </a>
+      </div>
+
+      <!-- Hero stats bar -->
+      <dl class="hero-stats">
+        <div class="hero-stat">
+          <dt>Repos Indexed</dt>
+          <dd>{fmtNum(totalRepos)}</dd>
+        </div>
+        <div class="hero-stat">
+          <dt>AI Categories</dt>
+          <dd>{totalCategories}</dd>
+        </div>
+        <div class="hero-stat">
+          <dt>Total GitHub Stars</dt>
+          <dd>{fmtNum(totalStars)}</dd>
+        </div>
+        <div class="hero-stat">
+          <dt>Updated</dt>
+          <dd>Daily</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       FEATURED REPOS (top 6 by stars)
+  ═══════════════════════════════════════ -->
+  {featured.length > 0 && (
+    <section class="section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="featured-heading" class="section-title">⭐ Featured Repositories</h2>
+          <a href="/trending" class="section-link">View all trending →</a>
+        </div>
+        <ul class="repo-grid" role="list">
+          {featured.map((repo) => (
+            <li>
+              <a href={`/repo/${repo.owner}/${repo.repo}`} class="repo-card" data-pagefind-ignore>
+                <div class="repo-card-header">
+                  <span class="repo-card-name">{repo.owner}/<strong>{repo.repo}</strong></span>
+                  <span class="repo-card-stars" aria-label={`${repo.stars.toLocaleString()} stars`}>
+                    ⭐ {repo.stars >= 1000 ? `${(repo.stars/1000).toFixed(1)}k` : repo.stars}
+                  </span>
+                </div>
+                {repo.description && (
+                  <p class="repo-card-desc">
+                    {repo.description.length > 110 ? repo.description.slice(0, 110) + '…' : repo.description}
+                  </p>
+                )}
+                <div class="repo-card-meta">
+                  {repo.language && <span class="lang-pill">{repo.language}</span>}
+                  {repo.primary_category && (
+                    <span class="cat-pill">
+                      {ICONS[repo.primary_category] ?? '🤖'} {categories.find(c => c.slug === repo.primary_category)?.label ?? repo.primary_category}
+                    </span>
+                  )}
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )}
+
+  <!-- ═══════════════════════════════════════
+       CATEGORY HUB — 14 categories
+  ═══════════════════════════════════════ -->
+  <section class="section section--alt" aria-labelledby="categories-heading" data-pagefind-body>
+    <div class="container">
+      <div class="section-header">
+        <h2 id="categories-heading" class="section-title">Browse by Category</h2>
+        <p class="section-subtitle">14 AI verticals, {fmtNum(totalRepos)}+ repositories</p>
+      </div>
+
+      <ul class="category-hub" role="list">
+        {categoryStats.map((cat) => (
+          <li>
+            <a href={`/category/${cat.slug}`} class="category-card">
+              <span class="category-card-icon" aria-hidden="true">{ICONS[cat.slug] ?? '🤖'}</span>
+              <div class="category-card-body">
+                <strong class="category-card-name">{cat.label}</strong>
+                <p class="category-card-desc">
+                  {cat.description.length > 85 ? cat.description.slice(0, 85) + '…' : cat.description}
+                </p>
+                {cat.count > 0 && (
+                  <span class="category-card-count">{cat.count.toLocaleString()} repos</span>
+                )}
+              </div>
+              <svg class="category-card-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       HOW IT WORKS
+  ═══════════════════════════════════════ -->
+  <section class="section" aria-labelledby="how-heading">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <h2 id="how-heading" class="section-title">Why AI Prompts Mall?</h2>
+        <p class="section-subtitle">The fastest way to discover battle-tested AI open-source tools</p>
+      </div>
+      <ul class="features-grid" role="list">
+        <li class="feature-card">
+          <span class="feature-icon" aria-hidden="true">⚡</span>
+          <strong>Real GitHub Data</strong>
+          <p>All repositories sourced directly from the GitHub API — stars, forks, commits, contributors, and README content.</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-icon" aria-hidden="true">🗂️</span>
+          <strong>14 AI Verticals</strong>
+          <p>Browse by LLMs, AI agents, RAG, vector databases, prompt engineering, fine-tuning, and more.</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-icon" aria-hidden="true">🔍</span>
+          <strong>Full-Text Search</strong>
+          <p>PageFind-powered static search indexes every repo name, description, and README — blazing-fast, no server.</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-icon" aria-hidden="true">📊</span>
+          <strong>Compare Tools</strong>
+          <p>Side-by-side comparison of any two repositories — stars, forks, activity, language, contributors.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       CTA BANNER
+  ═══════════════════════════════════════ -->
+  <section class="cta-banner" aria-labelledby="cta-heading">
+    <div class="container cta-inner">
+      <h2 id="cta-heading">Find your next AI stack — free, forever</h2>
+      <p>No sign-up required. All data from GitHub's public API.</p>
+      <div class="hero-actions">
+        <a href="/search" class="btn btn-primary">Start Exploring</a>
+        <a href="/category/large-language-models" class="btn btn-secondary">Browse LLMs →</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  /* ── Hero ── */
+  .hero {
+    padding-block: clamp(3rem, 8vw, 7rem);
+    background:
+      radial-gradient(ellipse 80% 60% at 50% -10%, color-mix(in srgb, var(--color-accent) 12%, transparent), transparent),
+      var(--color-bg);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hero-inner { max-width: 760px; margin-inline: auto; }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.9rem;
+    background: var(--color-accent-light);
+    border: 1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    margin-bottom: 1.5rem;
+  }
+  .badge-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    animation: pulse-dot 2s ease-in-out infinite;
+  }
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+  }
+
+  .hero-title {
+    font-size: clamp(2.25rem, 6vw, 3.75rem);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.25rem;
+    color: var(--color-text);
+  }
+  .hero-title-gradient {
+    background: linear-gradient(135deg, var(--color-accent), #a78bfa, #38bdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.1875rem);
+    color: var(--color-text-muted);
+    line-height: 1.65;
+    max-width: 600px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.875rem;
+    
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+    white-space: nowrap;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn-primary {
+    background: var(--color-accent);
+    color: #fff;
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--color-accent) 40%, transparent);
+  }
+  .btn-primary:hover {
+    opacity: 0.92;
+    box-shadow: 0 6px 24px color-mix(in srgb, var(--color-accent) 50%, transparent);
+  }
+  .btn-secondary {
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+  }
+  .btn-secondary:hover { background: var(--color-surface-2); }
+
+  /* Stats */
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .hero-stat {
+    flex: 1;
+    min-width: 130px;
+    padding: 1.25rem 1rem;
+    text-align: center;
+    border-right: 1px solid var(--color-border);
+  }
+  .hero-stat:last-child { border-right: none; }
+  .hero-stat dt {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.25rem;
+  }
+  .hero-stat dd {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-text);
+    letter-spacing: -0.02em;
+  }
+
+  /* ── Sections ── */
+  .section { padding-block: clamp(3rem, 6vw, 5rem); }
+  .section--alt { background: var(--color-surface); }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    
+    margin-bottom: 2rem;
+  }
+  .section-header--center {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .section-title {
+    font-size: clamp(1.375rem, 3vw, 1.875rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--color-text);
+  }
+  .section-subtitle {
+    font-size: 0.9375rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+  }
+  .section-link {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .section-link:hover { text-decoration: underline; }
+
+  /* ── Featured repo grid ── */
+  .repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    list-style: none;
+  }
+  .repo-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 1.25rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+    flex: 1;
+  }
+  .repo-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--color-accent) 12%, transparent);
+    transform: translateY(-2px);
+  }
+  .repo-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .repo-card-name {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    word-break: break-all;
+  }
+  .repo-card-name strong { color: var(--color-text); }
+  .repo-card-stars {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .repo-card-desc {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+    flex: 1;
+  }
+  .repo-card-meta {
+    display: flex;
+    gap: 0.5rem;
+    
+    
+  }
+  .lang-pill, .cat-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+    font-size: 0.6875rem;
+    font-weight: 600;
+  }
+  .lang-pill {
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+  }
+  .cat-pill {
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+  }
+
+  /* ── Category hub ── */
+  .category-hub {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    list-style: none;
+  }
+  .category-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  .category-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--color-accent) 10%, transparent);
+    transform: translateY(-2px);
+  }
+  .category-card-icon {
+    font-size: 1.75rem;
+    flex-shrink: 0;
+    line-height: 1;
+    margin-top: 0.1rem;
+  }
+  .category-card-body { flex: 1; min-width: 0; }
+  .category-card-name {
+    display: block;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 0.25rem;
+  }
+  .category-card-desc {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  .category-card-count {
+    display: inline-block;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    background: var(--color-accent-light);
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+  }
+  .category-card-arrow {
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    transition: transform 0.15s;
+    margin-top: 0.2rem;
+  }
+  .category-card:hover .category-card-arrow {
+    transform: translateX(4px);
+    color: var(--color-accent);
+  }
+
+  /* ── Features ── */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    margin-top: 2.5rem;
+  }
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+  }
+  .feature-icon { font-size: 1.75rem; }
+  .feature-card strong {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .feature-card p {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  /* ── CTA Banner ── */
+  .cta-banner {
+    padding-block: clamp(3rem, 6vw, 5rem);
+    background: linear-gradient(135deg,
+      color-mix(in srgb, var(--color-accent) 8%, var(--color-bg)),
+      color-mix(in srgb, #a78bfa 8%, var(--color-bg))
+    );
+    border-top: 1px solid var(--color-border);
+  }
+  .cta-inner {
+    text-align: center;
+    max-width: 600px;
+    margin-inline: auto;
+  }
+  .cta-inner h2 {
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+  }
+  .cta-inner p {
+    color: var(--color-text-muted);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+</style>

@@ -1,0 +1,15 @@
+---
+// JumpLinks — in-page anchor links from TOC
+interface TocItem { id: string; text: string; level: number }
+interface Props { items: TocItem[] }
+const { items } = Astro.props;
+---
+<aside id="toc" aria-label="Table of contents">
+  <ol>
+    {items.map((item) => (
+      <li style={`padding-left: ${(item.level - 2) * 1}rem`}>
+        <a href={`#${item.id}`}>{item.text}</a>
+      </li>
+    ))}
+  </ol>
+</aside>

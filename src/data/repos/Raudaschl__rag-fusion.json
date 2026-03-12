@@ -1,0 +1,1103 @@
+{
+  "id": 696503950,
+  "node_id": "R_kgDOKYPOjg",
+  "name": "rag-fusion",
+  "full_name": "Raudaschl/rag-fusion",
+  "private": false,
+  "owner": {
+    "login": "Raudaschl",
+    "id": 6103284,
+    "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Raudaschl",
+    "html_url": "https://github.com/Raudaschl",
+    "followers_url": "https://api.github.com/users/Raudaschl/followers",
+    "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+    "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+    "repos_url": "https://api.github.com/users/Raudaschl/repos",
+    "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/Raudaschl/rag-fusion",
+  "description": "RAG-Fusion: multi-query generation + Reciprocal Rank Fusion for better retrieval-augmented generation. Includes evaluation harness with NFCorpus/BEIR.",
+  "fork": false,
+  "url": "https://api.github.com/repos/Raudaschl/rag-fusion",
+  "forks_url": "https://api.github.com/repos/Raudaschl/rag-fusion/forks",
+  "keys_url": "https://api.github.com/repos/Raudaschl/rag-fusion/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/Raudaschl/rag-fusion/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/Raudaschl/rag-fusion/teams",
+  "hooks_url": "https://api.github.com/repos/Raudaschl/rag-fusion/hooks",
+  "issue_events_url": "https://api.github.com/repos/Raudaschl/rag-fusion/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/Raudaschl/rag-fusion/events",
+  "assignees_url": "https://api.github.com/repos/Raudaschl/rag-fusion/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/Raudaschl/rag-fusion/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/Raudaschl/rag-fusion/tags",
+  "blobs_url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/Raudaschl/rag-fusion/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/Raudaschl/rag-fusion/languages",
+  "stargazers_url": "https://api.github.com/repos/Raudaschl/rag-fusion/stargazers",
+  "contributors_url": "https://api.github.com/repos/Raudaschl/rag-fusion/contributors",
+  "subscribers_url": "https://api.github.com/repos/Raudaschl/rag-fusion/subscribers",
+  "subscription_url": "https://api.github.com/repos/Raudaschl/rag-fusion/subscription",
+  "commits_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/Raudaschl/rag-fusion/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/Raudaschl/rag-fusion/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/Raudaschl/rag-fusion/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/Raudaschl/rag-fusion/merges",
+  "archive_url": "https://api.github.com/repos/Raudaschl/rag-fusion/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/Raudaschl/rag-fusion/downloads",
+  "issues_url": "https://api.github.com/repos/Raudaschl/rag-fusion/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/Raudaschl/rag-fusion/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/Raudaschl/rag-fusion/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/Raudaschl/rag-fusion/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/Raudaschl/rag-fusion/labels{/name}",
+  "releases_url": "https://api.github.com/repos/Raudaschl/rag-fusion/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/deployments",
+  "created_at": "2023-09-25T21:58:31Z",
+  "updated_at": "2026-03-11T07:41:50Z",
+  "pushed_at": "2026-03-07T11:42:39Z",
+  "git_url": "git://github.com/Raudaschl/rag-fusion.git",
+  "ssh_url": "git@github.com:Raudaschl/rag-fusion.git",
+  "clone_url": "https://github.com/Raudaschl/rag-fusion.git",
+  "svn_url": "https://github.com/Raudaschl/rag-fusion",
+  "homepage": null,
+  "size": 30,
+  "stargazers_count": 908,
+  "watchers_count": 908,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 110,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "chromadb",
+    "information-retrieval",
+    "openai",
+    "python",
+    "rag",
+    "rag-fusion",
+    "reciprocal-rank-fusion",
+    "retrieval-augmented-generation",
+    "vector-search"
+  ],
+  "visibility": "public",
+  "forks": 110,
+  "open_issues": 0,
+  "watchers": 908,
+  "default_branch": "master",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "bd1fe653b53fcd7b72781fa6b8470bb2671ae9ec",
+      "node_id": "C_kwDOKYPOjtoAKGJkMWZlNjUzYjUzZmNkN2I3Mjc4MWZhNmI4NDcwYmIyNjcxYWU5ZWM",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-07T11:42:35Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-07T11:42:35Z"
+        },
+        "message": "Enhance retrieval methods and update evaluation script in evaluate.py and retrieval.py\n\n- Introduced BM25 retrieval method and hybrid search combining BM25 and vector search.\n- Added support for diverse query generation in hybrid retrieval.\n- Updated evaluation script to include new retrieval methods and modified command-line options.\n- Enhanced README with updated installation instructions and evaluation results for new methods.",
+        "tree": {
+          "sha": "960719a475e27bfab843eda466f2aa4268395b71",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/960719a475e27bfab843eda466f2aa4268395b71"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/bd1fe653b53fcd7b72781fa6b8470bb2671ae9ec",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/bd1fe653b53fcd7b72781fa6b8470bb2671ae9ec",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/bd1fe653b53fcd7b72781fa6b8470bb2671ae9ec",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/bd1fe653b53fcd7b72781fa6b8470bb2671ae9ec/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d3d6aaeb1040f2131d43db140415bc9137f1b2f7",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/d3d6aaeb1040f2131d43db140415bc9137f1b2f7",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/d3d6aaeb1040f2131d43db140415bc9137f1b2f7"
+        }
+      ]
+    },
+    {
+      "sha": "d3d6aaeb1040f2131d43db140415bc9137f1b2f7",
+      "node_id": "C_kwDOKYPOjtoAKGQzZDZhYWViMTA0MGYyMTMxZDQzZGIxNDA0MTViYzkxMzdmMWIyZjc",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T23:26:46Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T23:26:46Z"
+        },
+        "message": "Enhance evaluation and retrieval methods in evaluate.py and main.py\n\n- Added support for diverse query generation and weighted retrieval methods in RAG-Fusion.\n- Updated the evaluation script to handle multiple retrieval methods dynamically.\n- Refactored the comparison table to include results from new retrieval methods.\n- Enhanced README with updated evaluation instructions and results for new methods.",
+        "tree": {
+          "sha": "79ea6803aec69ad2a9c1088018d61f363e9298ba",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/79ea6803aec69ad2a9c1088018d61f363e9298ba"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/d3d6aaeb1040f2131d43db140415bc9137f1b2f7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/d3d6aaeb1040f2131d43db140415bc9137f1b2f7",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/d3d6aaeb1040f2131d43db140415bc9137f1b2f7",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/d3d6aaeb1040f2131d43db140415bc9137f1b2f7/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "844522af123ef90cbcdb79e45bc731bab2080171",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/844522af123ef90cbcdb79e45bc731bab2080171",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/844522af123ef90cbcdb79e45bc731bab2080171"
+        }
+      ]
+    },
+    {
+      "sha": "844522af123ef90cbcdb79e45bc731bab2080171",
+      "node_id": "C_kwDOKYPOjtoAKDg0NDUyMmFmMTIzZWY5MGNiY2RiNzllNDViYzczMWJhYjIwODAxNzE",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T23:07:54Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T23:07:54Z"
+        },
+        "message": "Enhance evaluation script with input validation and dataset handling improvements\n\n- Added a positive integer type for argparse to ensure k values are greater than 0.\n- Updated the main function to reflect the new k value validation.\n- Modified the database path handling in load_into_chromadb to scope the persistent index to the selected dataset directory.\n- Added error handling in metrics.py to raise a ValueError for non-positive k values.",
+        "tree": {
+          "sha": "71d622f78ff73639df2028a40970d5d7f24b8543",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/71d622f78ff73639df2028a40970d5d7f24b8543"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/844522af123ef90cbcdb79e45bc731bab2080171",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/844522af123ef90cbcdb79e45bc731bab2080171",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/844522af123ef90cbcdb79e45bc731bab2080171",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/844522af123ef90cbcdb79e45bc731bab2080171/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "04691ef2548e942a1f24dde5721a5afe24d2847d",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/04691ef2548e942a1f24dde5721a5afe24d2847d",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/04691ef2548e942a1f24dde5721a5afe24d2847d"
+        }
+      ]
+    },
+    {
+      "sha": "04691ef2548e942a1f24dde5721a5afe24d2847d",
+      "node_id": "C_kwDOKYPOjtoAKDA0NjkxZWYyNTQ4ZTk0MmExZjI0ZGRlNTcyMWE1YWZlMjRkMjg0N2Q",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T23:02:18Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T23:02:18Z"
+        },
+        "message": "Add evaluation script and dataset handling for RAG-Fusion\n\n- Introduced evaluate.py as a CLI entry point for evaluating RAG-Fusion against NFCorpus.\n- Added dataset.py for downloading, loading, and ingesting the NFCorpus dataset.\n- Implemented metrics.py to compute evaluation metrics such as precision, recall, NDCG, and MRR.\n- Updated main.py to support dynamic result retrieval count in vector_search.\n- Enhanced README with detailed project structure and evaluation instructions.\n- Updated .gitignore to include new dataset directories.",
+        "tree": {
+          "sha": "12be84a34ee55f8a9dd6eb5203ac3d16de586122",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/12be84a34ee55f8a9dd6eb5203ac3d16de586122"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/04691ef2548e942a1f24dde5721a5afe24d2847d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/04691ef2548e942a1f24dde5721a5afe24d2847d",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/04691ef2548e942a1f24dde5721a5afe24d2847d",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/04691ef2548e942a1f24dde5721a5afe24d2847d/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7dda87e37fcad9fcf60a52084716fa04af427f04",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/7dda87e37fcad9fcf60a52084716fa04af427f04",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/7dda87e37fcad9fcf60a52084716fa04af427f04"
+        }
+      ]
+    },
+    {
+      "sha": "7dda87e37fcad9fcf60a52084716fa04af427f04",
+      "node_id": "C_kwDOKYPOjtoAKDdkZGE4N2UzN2ZjYWQ5ZmNmNjBhNTIwODQ3MTZmYTA0YWY0MjdmMDQ",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T22:47:10Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T22:47:10Z"
+        },
+        "message": "Refactor OpenAI client initialization and enhance generate_output function\n\n- Implemented lazy initialization for the OpenAI client to improve performance.\n- Updated the generate_output function to accept new parameters for better flexibility, allowing for LLM-based responses.\n- Adjusted the model used in API calls to the latest version.\n- Modified main execution logic to search the original query alongside generated queries.",
+        "tree": {
+          "sha": "944ad792af83ee4a98f6c03c8649a60dbaecf903",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/944ad792af83ee4a98f6c03c8649a60dbaecf903"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/7dda87e37fcad9fcf60a52084716fa04af427f04",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/7dda87e37fcad9fcf60a52084716fa04af427f04",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/7dda87e37fcad9fcf60a52084716fa04af427f04",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/7dda87e37fcad9fcf60a52084716fa04af427f04/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6f7dda96feb20d192b89d3888b0fe424d8ea5e80",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/6f7dda96feb20d192b89d3888b0fe424d8ea5e80",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/6f7dda96feb20d192b89d3888b0fe424d8ea5e80"
+        }
+      ]
+    },
+    {
+      "sha": "6f7dda96feb20d192b89d3888b0fe424d8ea5e80",
+      "node_id": "C_kwDOKYPOjtoAKDZmN2RkYTk2ZmViMjBkMTkyYjg5ZDM4ODhiMGZlNDI0ZDhlYTVlODA",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T22:32:42Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T22:32:42Z"
+        },
+        "message": "Update .gitignore to include .claude directory and remove settings.local.json file",
+        "tree": {
+          "sha": "5ca4e03c5636247c75977520fc533baec6b7485c",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/5ca4e03c5636247c75977520fc533baec6b7485c"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/6f7dda96feb20d192b89d3888b0fe424d8ea5e80",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/6f7dda96feb20d192b89d3888b0fe424d8ea5e80",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/6f7dda96feb20d192b89d3888b0fe424d8ea5e80",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/6f7dda96feb20d192b89d3888b0fe424d8ea5e80/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8be9f45e6a869d55c67f1c0ea35d625034fdd408",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/8be9f45e6a869d55c67f1c0ea35d625034fdd408",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/8be9f45e6a869d55c67f1c0ea35d625034fdd408"
+        }
+      ]
+    },
+    {
+      "sha": "8be9f45e6a869d55c67f1c0ea35d625034fdd408",
+      "node_id": "C_kwDOKYPOjtoAKDhiZTlmNDVlNmE4NjlkNTVjNjdmMWMwZWEzNWQ2MjUwMzRmZGQ0MDg",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T22:30:19Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2026-03-05T22:31:00Z"
+        },
+        "message": "Add .env.example and .gitignore; refactor main.py for ChromaDB integration and update README\n\n- Introduced .env.example for OpenAI API key configuration.\n- Added .gitignore to exclude unnecessary files and directories.\n- Refactored main.py to utilize ChromaDB for vector searches and improved OpenAI client initialization.\n- Updated README with installation instructions and test guidelines.",
+        "tree": {
+          "sha": "aa4d27240a9af1af2b889e7c78ad95e33f5821b0",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/aa4d27240a9af1af2b889e7c78ad95e33f5821b0"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/8be9f45e6a869d55c67f1c0ea35d625034fdd408",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/8be9f45e6a869d55c67f1c0ea35d625034fdd408",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/8be9f45e6a869d55c67f1c0ea35d625034fdd408",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/8be9f45e6a869d55c67f1c0ea35d625034fdd408/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7de27202dd1deb22b6a7688ae8fbb842f17f92a4",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/7de27202dd1deb22b6a7688ae8fbb842f17f92a4",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/7de27202dd1deb22b6a7688ae8fbb842f17f92a4"
+        }
+      ]
+    },
+    {
+      "sha": "7de27202dd1deb22b6a7688ae8fbb842f17f92a4",
+      "node_id": "C_kwDOKYPOjtoAKDdkZTI3MjAyZGQxZGViMjJiNmE3Njg4YWU4ZmJiODQyZjE3ZjkyYTQ",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2024-10-26T18:23:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-26T18:23:55Z"
+        },
+        "message": "Create LICENSE",
+        "tree": {
+          "sha": "172a9e3c9c44ae651a534b3a791fcaabfa9ebf17",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/172a9e3c9c44ae651a534b3a791fcaabfa9ebf17"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/7de27202dd1deb22b6a7688ae8fbb842f17f92a4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnHTO7CRC1aQ7uu5UhlAAACeoQAJB1qng3CMXwnICNZWFYY1BZ\nbEnG0yWjXCeuWNvTzMnML0aGPnI52PGiQNQTCksVxGL5P7HRmV4WrNZBM8+pk8YB\nGEq9iuoVerE5AL37Wt6YAmdzbxITcj8aQnq6+rxwjxdKqIFNqwTgSPBf65YlumYF\nWTpQFfmKa7Twpjd7xGjIXU2u2qpqsRoHL3KRmreGe6L71QMfVVAkbGD3gpGwKwPc\nScrEih3U2/i0jPDz6Et9+ZCrAV/fm0jpy63Y46baZjSYFgTwpigVN5grRVtEBQ9i\nNrUH3MOEVogaOxSkaF7DZS0tJWfG1Jocs29N8s/uUO0Wn6Xgmj8P7E+WtsGdd6X8\nm09Psq8rr0ot9c6HR69tkENTpBWWytg2j6J6U8hC2vZXoV6VzIXGtHs/urgCQy4Z\nOA+m3KXyHpOe3lRkkXXRreuhJyNnZx0G8P5xnqh2VXrdZcO+a1KMs5qB/+fMyIjB\nIiE39uuY8su5jQ6Yp/SoPanHCxevCrxZjytpQpsWB0JIUVWgu1Zzn/NnnSFoEexD\nGkoHcXK9L5ZLQ+WUM5dp27xfIf0fx5i8UkayqDQoEfLKPI0ZClEC2sE9tihswfxQ\nMsdJ9QycIt70LrnExOPU+YwiIParMZbXTzP5vNjpPEl+f+jliQ1/Y6t0j8VeHiA5\nzrlK9Sq3N44C8/kl+MdJ\n=tZbK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 172a9e3c9c44ae651a534b3a791fcaabfa9ebf17\nparent d2c326152c014580e6bd3d0cb059ab424dc4a25f\nauthor Adrian Raudaschl <raudaschl@gmail.com> 1729967035 +0100\ncommitter GitHub <noreply@github.com> 1729967035 +0100\n\nCreate LICENSE",
+          "verified_at": "2024-11-05T19:24:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/7de27202dd1deb22b6a7688ae8fbb842f17f92a4",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/7de27202dd1deb22b6a7688ae8fbb842f17f92a4",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/7de27202dd1deb22b6a7688ae8fbb842f17f92a4/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d2c326152c014580e6bd3d0cb059ab424dc4a25f",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/d2c326152c014580e6bd3d0cb059ab424dc4a25f",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/d2c326152c014580e6bd3d0cb059ab424dc4a25f"
+        }
+      ]
+    },
+    {
+      "sha": "d2c326152c014580e6bd3d0cb059ab424dc4a25f",
+      "node_id": "C_kwDOKYPOjtoAKGQyYzMyNjE1MmMwMTQ1ODBlNmJkM2QwY2IwNTlhYjQyNGRjNGEyNWY",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2023-10-15T09:08:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-15T09:08:33Z"
+        },
+        "message": "Merge pull request #2 from richardwhiteii/rag-fusion-rw-001-api-capture\n\nUpdated the way the openai key is ingested.",
+        "tree": {
+          "sha": "600916f733c153d949d1203d6c1d9e6cceab6099",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/600916f733c153d949d1203d6c1d9e6cceab6099"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/d2c326152c014580e6bd3d0cb059ab424dc4a25f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlK6wRCRBK7hj4Ov3rIwAAl0oIAAM/4x/B2A9kYj/29zrEg24V\nnssu1fT1q8kTOs87TvmRi4BU2dT44QOLclC/b1VV7n7+DprrnmW3FQIUc8m73fZX\nrq8j2GBXYt7yZu5u+vH/RvZw2t3lFy1YLTPhdXkQHHBaE0HoUoUTEmbHqqgko6JM\nINM1PkDn6fsFfEHDB0dqJThlRqY49h33IYKNOod5zmahAdSNIo6jk2mEA4/urfIB\ni7eHi13wjLXV8Q/LELGCgs3gQo6BD0VhY/oFOks0MnyWqbx/bAF6ASTHfWWG3R45\nNuFyz72G3pMHQVwFzwtZt5ye4GTqbESVP0xKd9NX2A/AZTDVuga26MP+KtPPb5Y=\n=flfc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 600916f733c153d949d1203d6c1d9e6cceab6099\nparent fc1c4c868668a88784c080dfac2a19e51fbe0427\nparent 254a853c28e1111f8706f6f3dd35b67f0feb335f\nauthor Adrian Raudaschl <raudaschl@gmail.com> 1697360913 +0100\ncommitter GitHub <noreply@github.com> 1697360913 +0100\n\nMerge pull request #2 from richardwhiteii/rag-fusion-rw-001-api-capture\n\nUpdated the way the openai key is ingested.",
+          "verified_at": "2024-11-05T19:24:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/d2c326152c014580e6bd3d0cb059ab424dc4a25f",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/d2c326152c014580e6bd3d0cb059ab424dc4a25f",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/d2c326152c014580e6bd3d0cb059ab424dc4a25f/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fc1c4c868668a88784c080dfac2a19e51fbe0427",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/fc1c4c868668a88784c080dfac2a19e51fbe0427",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/fc1c4c868668a88784c080dfac2a19e51fbe0427"
+        },
+        {
+          "sha": "254a853c28e1111f8706f6f3dd35b67f0feb335f",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/254a853c28e1111f8706f6f3dd35b67f0feb335f",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/254a853c28e1111f8706f6f3dd35b67f0feb335f"
+        }
+      ]
+    },
+    {
+      "sha": "254a853c28e1111f8706f6f3dd35b67f0feb335f",
+      "node_id": "C_kwDOKYPOjtoAKDI1NGE4NTNjMjhlMTExMWY4NzA2ZjZmM2RkMzViNjdmMGZlYjMzNWY",
+      "commit": {
+        "author": {
+          "name": "Richard",
+          "email": "richard@me",
+          "date": "2023-10-14T15:49:28Z"
+        },
+        "committer": {
+          "name": "Richard",
+          "email": "richard@me",
+          "date": "2023-10-14T15:49:28Z"
+        },
+        "message": "Updated the way the openai key is ingested.",
+        "tree": {
+          "sha": "600916f733c153d949d1203d6c1d9e6cceab6099",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/600916f733c153d949d1203d6c1d9e6cceab6099"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/254a853c28e1111f8706f6f3dd35b67f0feb335f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/254a853c28e1111f8706f6f3dd35b67f0feb335f",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/254a853c28e1111f8706f6f3dd35b67f0feb335f",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/254a853c28e1111f8706f6f3dd35b67f0feb335f/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "fc1c4c868668a88784c080dfac2a19e51fbe0427",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/fc1c4c868668a88784c080dfac2a19e51fbe0427",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/fc1c4c868668a88784c080dfac2a19e51fbe0427"
+        }
+      ]
+    },
+    {
+      "sha": "fc1c4c868668a88784c080dfac2a19e51fbe0427",
+      "node_id": "C_kwDOKYPOjtoAKGZjMWM0Yzg2ODY2OGE4ODc4NGMwODBkZmFjMmExOWU1MWZiZTA0Mjc",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2023-09-25T22:02:31Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2023-09-25T22:02:31Z"
+        },
+        "message": "readme for rag fusion",
+        "tree": {
+          "sha": "f47636ad3c0c064790f2d74954f175f9f452e869",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/f47636ad3c0c064790f2d74954f175f9f452e869"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/fc1c4c868668a88784c080dfac2a19e51fbe0427",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/fc1c4c868668a88784c080dfac2a19e51fbe0427",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/fc1c4c868668a88784c080dfac2a19e51fbe0427",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/fc1c4c868668a88784c080dfac2a19e51fbe0427/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b5835b5e0a07a5468a87988e37645298455cfd43",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/b5835b5e0a07a5468a87988e37645298455cfd43",
+          "html_url": "https://github.com/Raudaschl/rag-fusion/commit/b5835b5e0a07a5468a87988e37645298455cfd43"
+        }
+      ]
+    },
+    {
+      "sha": "b5835b5e0a07a5468a87988e37645298455cfd43",
+      "node_id": "C_kwDOKYPOjtoAKGI1ODM1YjVlMGEwN2E1NDY4YTg3OTg4ZTM3NjQ1Mjk4NDU1Y2ZkNDM",
+      "commit": {
+        "author": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2023-09-25T21:58:44Z"
+        },
+        "committer": {
+          "name": "Adrian Raudaschl",
+          "email": "raudaschl@gmail.com",
+          "date": "2023-09-25T21:58:44Z"
+        },
+        "message": "RAG Fusion example",
+        "tree": {
+          "sha": "605c81f8810dfdafa4470aa2b58ac628daa1ab21",
+          "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/trees/605c81f8810dfdafa4470aa2b58ac628daa1ab21"
+        },
+        "url": "https://api.github.com/repos/Raudaschl/rag-fusion/git/commits/b5835b5e0a07a5468a87988e37645298455cfd43",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/b5835b5e0a07a5468a87988e37645298455cfd43",
+      "html_url": "https://github.com/Raudaschl/rag-fusion/commit/b5835b5e0a07a5468a87988e37645298455cfd43",
+      "comments_url": "https://api.github.com/repos/Raudaschl/rag-fusion/commits/b5835b5e0a07a5468a87988e37645298455cfd43/comments",
+      "author": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Raudaschl",
+        "id": 6103284,
+        "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Raudaschl",
+        "html_url": "https://github.com/Raudaschl",
+        "followers_url": "https://api.github.com/users/Raudaschl/followers",
+        "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+        "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+        "repos_url": "https://api.github.com/users/Raudaschl/repos",
+        "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "Raudaschl",
+      "id": 6103284,
+      "node_id": "MDQ6VXNlcjYxMDMyODQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6103284?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Raudaschl",
+      "html_url": "https://github.com/Raudaschl",
+      "followers_url": "https://api.github.com/users/Raudaschl/followers",
+      "following_url": "https://api.github.com/users/Raudaschl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Raudaschl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Raudaschl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Raudaschl/subscriptions",
+      "organizations_url": "https://api.github.com/users/Raudaschl/orgs",
+      "repos_url": "https://api.github.com/users/Raudaschl/repos",
+      "events_url": "https://api.github.com/users/Raudaschl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Raudaschl/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 11
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 24758
+  },
+  "readme_html": "<h1 id=\"user-content-rag-fusion-the-next-frontier-of-search-technology\">RAG-Fusion: The Next Frontier of Search Technology</h1>\n<h2 id=\"user-content-overview\">Overview</h2>\n<p>RAG-Fusion is a search methodology that aims to bridge the gap between traditional search paradigms and the multifaceted dimensions of human queries. Where Retrieval Augmented Generation (RAG) fuses vector search with generative models, RAG-Fusion goes a step further — employing multiple query generation and Reciprocal Rank Fusion to re-rank search results. The overarching goal is to move closer to unearthing that elusive 90% of transformative knowledge that often remains hidden behind top search results.</p>\n<p>For the full story behind the approach, see the article: <a href=\"https://adrianraudaschl.com/blog/forget-rag-the-future-is-rag-fusion/\">Forget RAG, the Future is RAG-Fusion</a>.</p>\n<h2 id=\"user-content-how-it-works\">How It Works</h2>\n<pre><code>                    ┌─────────────────┐\n                    │  Original Query  │\n                    └────────┬────────┘\n                             │\n                    ┌────────▼────────┐\n                    │   LLM generates  │\n                    │  multiple queries │\n                    └────────┬────────┘\n                             │\n              ┌──────────────┼──────────────┐\n              │              │              │\n        ┌─────▼─────┐ ┌─────▼─────┐ ┌─────▼─────┐\n        │  Vector    │ │  Vector    │ │  Vector    │\n        │  Search 1  │ │  Search 2  │ │  Search N  │\n        └─────┬─────┘ └─────┬─────┘ └─────┬─────┘\n              │              │              │\n              └──────────────┼──────────────┘\n                             │\n                    ┌────────▼────────┐\n                    │  Reciprocal Rank │\n                    │     Fusion       │\n                    └────────┬────────┘\n                             │\n                    ┌────────▼────────┐\n                    │  Re-ranked Docs   │\n                    └──────────────────┘\n</code></pre>\n<ol>\n<li>\n<p><strong>Query Generation</strong> — Takes a user's query and uses OpenAI's GPT to generate multiple search query variations that capture different facets of the original intent.</p>\n</li>\n<li>\n<p><strong>Vector Search</strong> — Conducts vector-based searches using ChromaDB on each query, casting a wider net across the document space.</p>\n</li>\n<li>\n<p><strong>Reciprocal Rank Fusion</strong> — Combines the ranked results from all searches, boosting documents that appear consistently across multiple query perspectives.</p>\n</li>\n<li>\n<p><strong>Output Generation</strong> — Produces a final re-ranked list of documents, optionally synthesised into a natural language answer via LLM.</p>\n</li>\n</ol>\n<h2 id=\"user-content-project-structure\">Project Structure</h2>\n<pre><code>├── main.py              # Core RAG-Fusion pipeline\n├── evaluate.py          # Evaluation CLI entry point\n├── test_main.py         # Unit tests\n├── eval/\n│   ├── dataset.py       # NFCorpus download &#x26; loading\n│   ├── metrics.py       # IR metrics (Precision, Recall, NDCG, MRR)\n│   └── retrieval.py     # Retrieval methods (BM25, vector, hybrid, RAG-Fusion variants)\n└── .env.example         # Environment template\n</code></pre>\n<h2 id=\"user-content-getting-started\">Getting Started</h2>\n<ol>\n<li>\n<p>Install dependencies:</p>\n<pre><code class=\"language-bash\">pip install openai chromadb python-dotenv tqdm tabulate rank_bm25\n</code></pre>\n</li>\n<li>\n<p>Set up your OpenAI API key:</p>\n<pre><code class=\"language-bash\">cp .env.example .env\n</code></pre>\n<p>Then edit <code>.env</code> and replace <code>your-key-here</code> with your actual key.</p>\n</li>\n<li>\n<p>Run the demo:</p>\n<pre><code class=\"language-bash\">python main.py\n</code></pre>\n</li>\n<li>\n<p>Run the tests (no API key needed):</p>\n<pre><code class=\"language-bash\">python -m pytest test_main.py -v\n</code></pre>\n</li>\n</ol>\n<h2 id=\"user-content-evaluation\">Evaluation</h2>\n<p>To move beyond toy examples, the repo includes a quantitative evaluation harness that compares multiple retrieval strategies on a real dataset. It uses <a href=\"https://www.cl.uni-heidelberg.de/statnlpgroup/nfcorpus/\">NFCorpus</a> (3,633 medical/nutrition documents, 323 test queries with graded relevance judgments) from the <a href=\"https://github.com/beir-cellar/beir\">BEIR benchmark</a>.</p>\n<h3 id=\"user-content-results-50-queries-seed42\">Results (50 queries, seed=42)</h3>\n<table>\n<thead>\n<tr>\n<th>Metric</th>\n<th>k</th>\n<th>BM25</th>\n<th>Baseline</th>\n<th>Hybrid</th>\n<th>RAG-Fusion</th>\n<th>+Diverse</th>\n<th>Hybrid+Diverse</th>\n<th>vs Baseline</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Precision</td>\n<td>5</td>\n<td>0.264</td>\n<td>0.272</td>\n<td>0.264</td>\n<td>0.276</td>\n<td>0.288</td>\n<td><strong>0.312</strong></td>\n<td>+14.7%</td>\n</tr>\n<tr>\n<td>Precision</td>\n<td>10</td>\n<td>0.202</td>\n<td>0.226</td>\n<td>0.228</td>\n<td>0.226</td>\n<td>0.242</td>\n<td><strong>0.254</strong></td>\n<td>+12.4%</td>\n</tr>\n<tr>\n<td>Precision</td>\n<td>20</td>\n<td>0.146</td>\n<td>0.183</td>\n<td>0.175</td>\n<td>0.194</td>\n<td>0.197</td>\n<td><strong>0.203</strong></td>\n<td>+10.9%</td>\n</tr>\n<tr>\n<td>Recall</td>\n<td>5</td>\n<td>0.135</td>\n<td>0.130</td>\n<td>0.126</td>\n<td>0.118</td>\n<td>0.145</td>\n<td><strong>0.169</strong></td>\n<td>+30.0%</td>\n</tr>\n<tr>\n<td>Recall</td>\n<td>10</td>\n<td>0.156</td>\n<td>0.153</td>\n<td>0.164</td>\n<td>0.185</td>\n<td>0.182</td>\n<td><strong>0.214</strong></td>\n<td>+39.9%</td>\n</tr>\n<tr>\n<td>Recall</td>\n<td>20</td>\n<td>0.172</td>\n<td>0.205</td>\n<td>0.192</td>\n<td>0.231</td>\n<td>0.225</td>\n<td><strong>0.249</strong></td>\n<td>+21.5%</td>\n</tr>\n<tr>\n<td>NDCG</td>\n<td>5</td>\n<td>0.337</td>\n<td>0.329</td>\n<td>0.341</td>\n<td>0.325</td>\n<td>0.359</td>\n<td><strong>0.402</strong></td>\n<td>+22.2%</td>\n</tr>\n<tr>\n<td>NDCG</td>\n<td>10</td>\n<td>0.304</td>\n<td>0.309</td>\n<td>0.326</td>\n<td>0.312</td>\n<td>0.341</td>\n<td><strong>0.381</strong></td>\n<td>+23.3%</td>\n</tr>\n<tr>\n<td>NDCG</td>\n<td>20</td>\n<td>0.276</td>\n<td>0.302</td>\n<td>0.304</td>\n<td>0.311</td>\n<td>0.330</td>\n<td><strong>0.364</strong></td>\n<td>+20.5%</td>\n</tr>\n<tr>\n<td>MRR</td>\n<td>-</td>\n<td>0.463</td>\n<td>0.461</td>\n<td>0.500</td>\n<td>0.443</td>\n<td>0.481</td>\n<td><strong>0.578</strong></td>\n<td>+25.4%</td>\n</tr>\n</tbody>\n</table>\n<p>Six methods are compared:</p>\n<ul>\n<li><strong>BM25</strong> — classic keyword search using BM25Okapi. Competitive on NDCG@5 thanks to exact term matching on NFCorpus's medical vocabulary, but falls behind at higher k values where semantic understanding matters more.</li>\n<li><strong>Baseline</strong> — single vector search with the original query using ChromaDB's default embedding model (<code>all-MiniLM-L6-v2</code>).</li>\n<li><strong>Hybrid</strong> — BM25 + vector search fused via RRF (no LLM calls). A strong \"free lunch\" — runs as fast as baseline with no API costs, and notably improves MRR.</li>\n<li><strong>RAG-Fusion</strong> — original + 4 LLM-generated queries, combined via Reciprocal Rank Fusion.</li>\n<li><strong>RAG-Fusion +Diverse</strong> — RAG-Fusion with an improved prompt that explicitly asks for different angles, synonyms, and varied specificity. Improves recall and NDCG over standard RAG-Fusion.</li>\n<li><strong>Hybrid+Diverse</strong> — the best of both: runs RAG-Fusion (diverse prompt) but searches each query with both BM25 and vector search, then fuses all results via RRF. Best overall performer with <strong>+22% NDCG@5</strong>, <strong>+40% recall@10</strong>, and <strong>+25% MRR</strong> over baseline.</li>\n</ul>\n<p>Three key insights emerge. First, <strong>hybrid search is a free lunch</strong> — fusing BM25 and vector results via RRF costs nothing extra and improves ranking quality, especially MRR. Second, the <strong>diverse prompt</strong> outperforms standard RAG-Fusion by forcing the LLM to explore genuinely different angles rather than generating semantically close variations. Third, <strong>the two techniques are fully complementary</strong> — hybrid's keyword precision and diverse's semantic breadth combine cleanly through RRF, producing the strongest results across every metric.</p>\n<h3 id=\"user-content-running-the-evaluation\">Running the evaluation</h3>\n<pre><code class=\"language-bash\"># Baseline only (no API key needed)\npython evaluate.py --sample 10 --methods baseline\n\n# Default comparison (requires OPENAI_API_KEY)\npython evaluate.py --sample 50\n\n# All methods\npython evaluate.py --sample 50 --methods bm25 baseline hybrid rag-fusion rag-fusion-diverse hybrid-diverse\n\n# Custom parameters\npython evaluate.py --sample 100 --k 5 10 --data-dir ./datasets\n</code></pre>\n<p>The NFCorpus dataset (~3MB) is downloaded automatically on first run. ChromaDB embeddings are persisted locally so subsequent runs skip ingestion.</p>",
+  "_fetched_at": "2026-03-11T18:15:00.300Z"
+}

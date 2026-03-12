@@ -1,0 +1,1013 @@
+{
+  "id": 801634614,
+  "node_id": "R_kgDOL8f5Ng",
+  "name": "MRAG",
+  "full_name": "spcl/MRAG",
+  "private": false,
+  "owner": {
+    "login": "spcl",
+    "id": 31108244,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjMxMTA4MjQ0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/31108244?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/spcl",
+    "html_url": "https://github.com/spcl",
+    "followers_url": "https://api.github.com/users/spcl/followers",
+    "following_url": "https://api.github.com/users/spcl/following{/other_user}",
+    "gists_url": "https://api.github.com/users/spcl/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/spcl/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/spcl/subscriptions",
+    "organizations_url": "https://api.github.com/users/spcl/orgs",
+    "repos_url": "https://api.github.com/users/spcl/repos",
+    "events_url": "https://api.github.com/users/spcl/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/spcl/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/spcl/MRAG",
+  "description": "Official Implementation of \"Multi-Head RAG: Solving Multi-Aspect Problems with LLMs\"",
+  "fork": false,
+  "url": "https://api.github.com/repos/spcl/MRAG",
+  "forks_url": "https://api.github.com/repos/spcl/MRAG/forks",
+  "keys_url": "https://api.github.com/repos/spcl/MRAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/spcl/MRAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/spcl/MRAG/teams",
+  "hooks_url": "https://api.github.com/repos/spcl/MRAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/spcl/MRAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/spcl/MRAG/events",
+  "assignees_url": "https://api.github.com/repos/spcl/MRAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/spcl/MRAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/spcl/MRAG/tags",
+  "blobs_url": "https://api.github.com/repos/spcl/MRAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/spcl/MRAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/spcl/MRAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/spcl/MRAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/spcl/MRAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/spcl/MRAG/languages",
+  "stargazers_url": "https://api.github.com/repos/spcl/MRAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/spcl/MRAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/spcl/MRAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/spcl/MRAG/subscription",
+  "commits_url": "https://api.github.com/repos/spcl/MRAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/spcl/MRAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/spcl/MRAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/spcl/MRAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/spcl/MRAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/spcl/MRAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/spcl/MRAG/merges",
+  "archive_url": "https://api.github.com/repos/spcl/MRAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/spcl/MRAG/downloads",
+  "issues_url": "https://api.github.com/repos/spcl/MRAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/spcl/MRAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/spcl/MRAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/spcl/MRAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/spcl/MRAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/spcl/MRAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/spcl/MRAG/deployments",
+  "created_at": "2024-05-16T16:00:08Z",
+  "updated_at": "2026-02-28T10:34:38Z",
+  "pushed_at": "2026-02-26T07:29:31Z",
+  "git_url": "git://github.com/spcl/MRAG.git",
+  "ssh_url": "git@github.com:spcl/MRAG.git",
+  "clone_url": "https://github.com/spcl/MRAG.git",
+  "svn_url": "https://github.com/spcl/MRAG",
+  "homepage": "http://arxiv.org/abs/2406.05085",
+  "size": 10115,
+  "stargazers_count": 240,
+  "watchers_count": 240,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 25,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 3,
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdx_id": "NOASSERTION",
+    "url": null,
+    "node_id": "MDc6TGljZW5zZTA="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "llm",
+    "multi-aspect",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 25,
+  "open_issues": 3,
+  "watchers": 240,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "a6ee1b30517084861f3b970d617f3bc17db78dac",
+      "node_id": "C_kwDOL8f5NtoAKGE2ZWUxYjMwNTE3MDg0ODYxZjNiOTcwZDYxN2YzYmMxN2RiNzhkYWM",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "gerstenberger.robert@gmail.com",
+          "date": "2026-02-26T07:28:58Z"
+        },
+        "committer": {
+          "name": "Robert Gerstenberger",
+          "email": "gerstenberger.robert@gmail.com",
+          "date": "2026-02-26T07:28:58Z"
+        },
+        "message": "updated date of publication of the arXiv paper",
+        "tree": {
+          "sha": "c7c0c0fbd51dc984f931aee14f534c15f52bedf3",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/c7c0c0fbd51dc984f931aee14f534c15f52bedf3"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/a6ee1b30517084861f3b970d617f3bc17db78dac",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/a6ee1b30517084861f3b970d617f3bc17db78dac",
+      "html_url": "https://github.com/spcl/MRAG/commit/a6ee1b30517084861f3b970d617f3bc17db78dac",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/a6ee1b30517084861f3b970d617f3bc17db78dac/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "38acc4cb43f412f50920288e40b6cac942ba1f21",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/38acc4cb43f412f50920288e40b6cac942ba1f21",
+          "html_url": "https://github.com/spcl/MRAG/commit/38acc4cb43f412f50920288e40b6cac942ba1f21"
+        }
+      ]
+    },
+    {
+      "sha": "38acc4cb43f412f50920288e40b6cac942ba1f21",
+      "node_id": "C_kwDOL8f5NtoAKDM4YWNjNGNiNDNmNDEyZjUwOTIwMjg4ZTQwYjZjYWM5NDJiYTFmMjE",
+      "commit": {
+        "author": {
+          "name": "Yi Zhu",
+          "email": "46778564+SkyWorld117@users.noreply.github.com",
+          "date": "2026-02-20T09:18:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-02-20T09:18:57Z"
+        },
+        "message": "Add per head analysis (#14)\n\n---------\n\nCo-authored-by: Robert Gerstenberger <gerstenberger.robert@gmail.com>",
+        "tree": {
+          "sha": "4fba755d24d359c810efd8b922edbd97fc0717d3",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/4fba755d24d359c810efd8b922edbd97fc0717d3"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/38acc4cb43f412f50920288e40b6cac942ba1f21",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpmCcBCRC1aQ7uu5UhlAAAApwQACN02phYc3c2yImAQBT5/0dQ\nibEQaHDIjMX6S0tEX6qXCgaXdgglMlk83hklbk4euYc872ng1851ClVFpnQ/omu2\nCjzzfb2/68BtSxqO5AqXg6mPlpZPtxofT2BKuprpGDpilONt+A6xQcnjOn3ycUhH\n04mcONJ2m5t8mck9hWNsgXt1n41aHVzHl+P6k2DYIHVRVmFQpaNKATK36phWIzv2\nX+DcFqHnt67CbP5iTSlcbJ+jB+m3SWYRinn1C2D0ceuK8PDNa2Jm/Kgi7BzlypHP\nvfAPtr7MBlUz+AXJibA0Kaptm76jDF320NUjCIRl7JxqeMR+5JsL16wOzdZlCMMJ\n/R2eAEY4IRnOk30Il7rY63RsgPH7Fv6ljdqhZ+FiKfjGj380Ba0Ivtj7iv7gfk7F\nAPuutbtxtszlhS0I86OZ/GtJsfIVcJujCh2WTiOd2VmePG5VSQU8sCSZUzCGqR6E\nsnjH8iLOqzKK7Bu/RmJFFSKEnH4y4rK9ndI3vX9DuAAjo1S6FJeTUHCiukzMLNCv\nboPvoz5PTdnb9sAo2c1TNZcxRjuMEqQHwIf63lRovAS4mg/BnlLt16lKvwjfdchH\n3IVAePo+5oLvJfqgWvkWwPbuY9ZcUJi3cW9uKlizORi/Fo/L8/anVz5ztGs87rok\nK7C0TeXTFsj3Ynag1YB2\n=igL+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4fba755d24d359c810efd8b922edbd97fc0717d3\nparent b8a8b8bfbe268b9cc150cf64d71752d011e41f05\nauthor Yi Zhu <46778564+SkyWorld117@users.noreply.github.com> 1771579137 +0100\ncommitter GitHub <noreply@github.com> 1771579137 +0100\n\nAdd per head analysis (#14)\n\n---------\n\nCo-authored-by: Robert Gerstenberger <gerstenberger.robert@gmail.com>",
+          "verified_at": "2026-02-20T09:18:57Z"
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/38acc4cb43f412f50920288e40b6cac942ba1f21",
+      "html_url": "https://github.com/spcl/MRAG/commit/38acc4cb43f412f50920288e40b6cac942ba1f21",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/38acc4cb43f412f50920288e40b6cac942ba1f21/comments",
+      "author": {
+        "login": "SkyWorld117",
+        "id": 46778564,
+        "node_id": "MDQ6VXNlcjQ2Nzc4NTY0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46778564?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SkyWorld117",
+        "html_url": "https://github.com/SkyWorld117",
+        "followers_url": "https://api.github.com/users/SkyWorld117/followers",
+        "following_url": "https://api.github.com/users/SkyWorld117/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SkyWorld117/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SkyWorld117/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SkyWorld117/subscriptions",
+        "organizations_url": "https://api.github.com/users/SkyWorld117/orgs",
+        "repos_url": "https://api.github.com/users/SkyWorld117/repos",
+        "events_url": "https://api.github.com/users/SkyWorld117/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SkyWorld117/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b8a8b8bfbe268b9cc150cf64d71752d011e41f05",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/b8a8b8bfbe268b9cc150cf64d71752d011e41f05",
+          "html_url": "https://github.com/spcl/MRAG/commit/b8a8b8bfbe268b9cc150cf64d71752d011e41f05"
+        }
+      ]
+    },
+    {
+      "sha": "b8a8b8bfbe268b9cc150cf64d71752d011e41f05",
+      "node_id": "C_kwDOL8f5NtoAKGI4YThiOGJmYmUyNjhiOWNjMTUwY2Y2NGQ3MTc1MmQwMTFlNDFmMDU",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "47847858+rgersten@users.noreply.github.com",
+          "date": "2025-10-01T10:54:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-10-01T10:54:48Z"
+        },
+        "message": "updated release month (#12)",
+        "tree": {
+          "sha": "68b7d7820935dad80109528ab99b43f989aca21f",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/68b7d7820935dad80109528ab99b43f989aca21f"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/b8a8b8bfbe268b9cc150cf64d71752d011e41f05",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo3Qh4CRC1aQ7uu5UhlAAAApwQABNjE1MW1R0534l3uOqKgnzV\nHgZK+Ucl8VFkieWTv0lLSb60BJVeLcvmF4PSGJHE5KYpRQWnU0Lxdt6/NP9/s7p6\ngctaZ03cRqcsk0mDgrNvqy4CLvRHn2x6iOVKcJKeyr9nwHYNGrOOGL0+PzbxFSM2\n84NG3FQDELLWBhCb3O2d1JbqXJ0/fZJxwzyB0AnlElNEDdnN6g25rye2ni1hI5MT\nswGWmJ6KaRt9rO2coxU5/qLQUyKMVK/8uFEE6+eFB4grZ/ig5LEt4io4r5NY+xai\nYuZrWCnC/iZdUYT0t8KzVMBXeelCJ6ikRCg7R4IQHEEg55lyVq0zXfByQusqnYiP\n6VA7EcxXwiqbz14tIuJ2qcTNzkaj61yySxAhbmjXZ1rbadXNNtJ7XNipvlMfzTZu\n2Pz7WFbH/sJHc6X1qHU3VFIfgfK4ZOBve5vmqwSQStv4UPUs3ibDdfQQ2n5QP4dp\nIwemC3ovPdQtGq4Ygg8Cu9C6hFbwHmxTwC94j1b23G5zLg85hJgCQqwzhw2CnWru\nuqE9OIsnXR/o6epu1tIwXR3PuL6qLlh17CuMhfvV7U55P1UgtPp2w+ubBsrNeUCE\nJsFbgWoXXiEKRy4icXgLIgyKadb5E9l1yQRPtHMj0B998gH5P1tUIpbtbUGyNqyt\n0+7hQOxaoH0jdnbDuA7s\n=cfXp\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 68b7d7820935dad80109528ab99b43f989aca21f\nparent 618c024ecd49f07a19e264678a5d55b9557e4fb7\nauthor Robert Gerstenberger <47847858+rgersten@users.noreply.github.com> 1759316088 +0200\ncommitter GitHub <noreply@github.com> 1759316088 +0200\n\nupdated release month (#12)\n\n",
+          "verified_at": "2025-10-01T10:54:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/b8a8b8bfbe268b9cc150cf64d71752d011e41f05",
+      "html_url": "https://github.com/spcl/MRAG/commit/b8a8b8bfbe268b9cc150cf64d71752d011e41f05",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/b8a8b8bfbe268b9cc150cf64d71752d011e41f05/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "618c024ecd49f07a19e264678a5d55b9557e4fb7",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/618c024ecd49f07a19e264678a5d55b9557e4fb7",
+          "html_url": "https://github.com/spcl/MRAG/commit/618c024ecd49f07a19e264678a5d55b9557e4fb7"
+        }
+      ]
+    },
+    {
+      "sha": "618c024ecd49f07a19e264678a5d55b9557e4fb7",
+      "node_id": "C_kwDOL8f5NtoAKDYxOGMwMjRlY2Q0OWYwN2ExOWUyNjQ2NzhhNWQ1NWI5NTU3ZTRmYjc",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "47847858+rgersten@users.noreply.github.com",
+          "date": "2025-06-18T06:54:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-18T06:54:27Z"
+        },
+        "message": "updated authors and year of the arXiv paper (#11)",
+        "tree": {
+          "sha": "0cfac4a85a7e047e8c8c9105892eb678713afd72",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/0cfac4a85a7e047e8c8c9105892eb678713afd72"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/618c024ecd49f07a19e264678a5d55b9557e4fb7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUmKjCRC1aQ7uu5UhlAAA9kAQABknWz+UoHYvEmPyHJ+S7Rci\nzh4JVcZ93CzzxjkaAkRSYFaMkl8uF0emhhRoQv7/X2XcfTfRL4SXRRVPhUrIA5ag\nX+rImBCTF0a7yMe5tDUX6/P3l/AGVy1ui7U5uV346ulBnIF87D5+ic8Jq9CNl40v\n6JrX3ItbqoYFMd5JV26K2onSSauR8UKcpxThP++aEZcGoPN4duliu/gSycKbcAD+\nNvc515U9HkBfohFGew8cO7f7es4c6Oju2V3YtLFf/9ikgYzmFzTYM6t1BPnNEqv8\nU0rZkB8jN6iEldnI2Ek+PMgDTEY/GCOzDSDWqruceQ9a9AGKbtPzWeLkfcD6tQnv\njAAk6Nt1ulro/mCzYEEJcqmZCGm/Meol7EBbJCobMXOAjvTyaPEpE2lT1DjBoXba\nnYF0zyr0QXOvt3QkZC+cqbOP98EPwG+S3eS/Wt7Cdxp0aG3KSt2+XQso/3jGOgFs\nByce8foR2kpKLxeYZyRcfNI92Un6brHB5TOgTgj8xny7o6DSXknDshIdRhe+kpPm\nvdfDyd+GgrxhwLbl/c32ihQQGNg0cde9FwJGR6za9zosAVPUVBSvKcJEWvQAnljE\n++Nj1QOwPv+eMjI2i469zgEYdtHx3d34n+TwDt6iWVu2+jde7c6ArrJL0dR0NzVs\nfMt57AJwN/zRcVDxiA7b\n=/byl\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0cfac4a85a7e047e8c8c9105892eb678713afd72\nparent 812a17c7d2e8d95e17920381bf14ae9c7428dd64\nauthor Robert Gerstenberger <47847858+rgersten@users.noreply.github.com> 1750229667 +0200\ncommitter GitHub <noreply@github.com> 1750229667 +0200\n\nupdated authors and year of the arXiv paper (#11)\n\n",
+          "verified_at": "2025-06-18T06:54:27Z"
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/618c024ecd49f07a19e264678a5d55b9557e4fb7",
+      "html_url": "https://github.com/spcl/MRAG/commit/618c024ecd49f07a19e264678a5d55b9557e4fb7",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/618c024ecd49f07a19e264678a5d55b9557e4fb7/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "812a17c7d2e8d95e17920381bf14ae9c7428dd64",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/812a17c7d2e8d95e17920381bf14ae9c7428dd64",
+          "html_url": "https://github.com/spcl/MRAG/commit/812a17c7d2e8d95e17920381bf14ae9c7428dd64"
+        }
+      ]
+    },
+    {
+      "sha": "812a17c7d2e8d95e17920381bf14ae9c7428dd64",
+      "node_id": "C_kwDOL8f5NtoAKDgxMmExN2M3ZDJlOGQ5NWUxNzkyMDM4MWJmMTRhZTljNzQyOGRkNjQ",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "47847858+rgersten@users.noreply.github.com",
+          "date": "2025-05-24T08:09:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-05-24T08:09:30Z"
+        },
+        "message": "addition of new datasets (#10)\n\n- removed commented code\n- fixed small issue in the documentation\n- json -> JSON\n- added information on the used code from Fusion RAG to the license file\n- added new datasets",
+        "tree": {
+          "sha": "b1a1be6e6c561953f093df8b6db1c54a04cf1649",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/b1a1be6e6c561953f093df8b6db1c54a04cf1649"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/812a17c7d2e8d95e17920381bf14ae9c7428dd64",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoMX66CRC1aQ7uu5UhlAAAIx4QAFgcidltm5y6VyGbFMDLwCPG\ne2n6mCpX6KLHRDiAhZ3FHCkQ6i82+Z4gcJh+oCG6WUDEArCLgaW1DV5FxoS0Jidu\nmrGX1SvHGIxa5ui8t4OJSLRP24tkKrgWxNC7DB2gFeUhwTG+AePnRdLItVltTyRt\niE+hp1S6IOYgUG7HJCfM7QuorEQVI8rjXMf972oR172cb0Bkp7uPa1Wapwebh7we\nReBsWA+YdfoXLX0mvtunbN7rxOLaJKPy+/x4aF3ZDpc1PdbhM+AJ/sXtyvPXaRGy\nfUVo00GDuGbJW+pzX4R83MgHYUE4BiyaejvAPsLuI12F/WJY6DHQjXv9Xh2XnzjA\njIIs8ku808dJDiCIB4WV9EQg0s5SZ+WJX7swTCZuUs4v9WX7jggQXtckbXVnwK2I\nA1I67DBAV/iY9vwVi4o+G2m/KUf24Mwffd8YmAWCfu5FQF65qu9aVi5z8bamueBe\nh30sB86To9Hb35fLtkrGzQ7ltv4sJfd/KqU149phoP2L8eH4GykS0ymijGOE+CKX\n0go1yzUypP+jqTCBiUGLFgFxpb1SigkrdvciOGDPM2VIJJ/DDJ2DPfH04yE16f4s\n46xEGqeJbHJcmHI/a5GIF0lZ4DmavsC181mkidkrgg8oIVUjAUPcmRykdZD9Pyxi\n+CCAGCsDBQ+tQs6tlc/G\n=kwAT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b1a1be6e6c561953f093df8b6db1c54a04cf1649\nparent 2d199bff8ba0986c49826a7fb42a365200bdf20a\nauthor Robert Gerstenberger <47847858+rgersten@users.noreply.github.com> 1748074170 +0200\ncommitter GitHub <noreply@github.com> 1748074170 +0200\n\naddition of new datasets (#10)\n\n- removed commented code\n- fixed small issue in the documentation\n- json -> JSON\n- added information on the used code from Fusion RAG to the license file\n- added new datasets",
+          "verified_at": "2025-05-24T08:14:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/812a17c7d2e8d95e17920381bf14ae9c7428dd64",
+      "html_url": "https://github.com/spcl/MRAG/commit/812a17c7d2e8d95e17920381bf14ae9c7428dd64",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/812a17c7d2e8d95e17920381bf14ae9c7428dd64/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2d199bff8ba0986c49826a7fb42a365200bdf20a",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/2d199bff8ba0986c49826a7fb42a365200bdf20a",
+          "html_url": "https://github.com/spcl/MRAG/commit/2d199bff8ba0986c49826a7fb42a365200bdf20a"
+        }
+      ]
+    },
+    {
+      "sha": "2d199bff8ba0986c49826a7fb42a365200bdf20a",
+      "node_id": "C_kwDOL8f5NtoAKDJkMTk5YmZmOGJhMDk4NmM0OTgyNmE3ZmI0MmEzNjUyMDBiZGYyMGE",
+      "commit": {
+        "author": {
+          "name": "ghabdidabdi",
+          "email": "roman.niggli@netwings.ch",
+          "date": "2025-05-21T08:52:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-05-21T08:52:21Z"
+        },
+        "message": "Extend dataset (#9)\n\n* add support for category-pages\n* add 55 categories\n* improve default settings for query generation\n\n---------\n\nCo-authored-by: nigglir <nigglir@student.ethz.ch>",
+        "tree": {
+          "sha": "e2b6c56286feb633d8ff6bb1f021123157338298",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/e2b6c56286feb633d8ff6bb1f021123157338298"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/2d199bff8ba0986c49826a7fb42a365200bdf20a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoLZRFCRC1aQ7uu5UhlAAAdHgQAJzEooW+Hqsd4WCJg+nRiFyf\nQ15FW2vzN4JPFgRoxe+5RjwT0vggT3gQlIXPPdZHmkPtAzaudwnBw/tMbjkpOCsH\nlwSClK6zHnBK38j1bvZa5LokhkyGA3VovQrSKjYn+hEFGJ7iPDiYp7+E5qjb6x3M\nkKhPHLuu/L0WIRYTcqfC9zZyPUyD8yO2SL//FHHBhV6lIDRffFgRR18Y1omgMsUV\n1m9pNhiRalCrHuLbNRdoFDf42Lg11xI5zraKdRlTyhwnO3t+E7G9YtBJyFQtSTdl\nlWFDI8me+arMihWaP33MX02SdwvQ0yKghe/OgoFwpLSnwbsf7z6+vau5gUtmzrk/\nCqr9nyhRWh+jx9GQh+mAmqdP6XJI48lnd9KJ+mft/MmNc8HO8pyTvtfGa93qZzKA\n7GsBwpeg+mJoCG2tmy/O+jISEcAzU3PPlqqgvzUIILdYD/6dOUBS3KzRKuqysz4E\n93UTYbvkQjqZGO8k6wyj6oBA1EOFFJs7b6s6A0zudl4v7dsh5ZU1Ya7fH6n3+azf\njqbRrEgZh5FJRF+4F2EiduXKHptqEvc30gp9koEqmnrx4kriABfsqvIDZHOhDFhZ\nVp2XnhK9fVs96lf7x+DbvrrIinDZUAERumtRAMii1yc+F4TlcUTp6Zsf6AG1XI5V\n1J1TTXSUODjm08XlF6ob\n=7qf9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e2b6c56286feb633d8ff6bb1f021123157338298\nparent 66bb475b42603832e7f4ff60bd4da68f285827bd\nauthor ghabdidabdi <roman.niggli@netwings.ch> 1747817541 +0200\ncommitter GitHub <noreply@github.com> 1747817541 +0200\n\nExtend dataset (#9)\n\n* add support for category-pages\n* add 55 categories\n* improve default settings for query generation\n\n---------\n\nCo-authored-by: nigglir <nigglir@student.ethz.ch>",
+          "verified_at": "2025-05-21T08:57:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/2d199bff8ba0986c49826a7fb42a365200bdf20a",
+      "html_url": "https://github.com/spcl/MRAG/commit/2d199bff8ba0986c49826a7fb42a365200bdf20a",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/2d199bff8ba0986c49826a7fb42a365200bdf20a/comments",
+      "author": {
+        "login": "ghabdidabdi",
+        "id": 25749869,
+        "node_id": "MDQ6VXNlcjI1NzQ5ODY5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25749869?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ghabdidabdi",
+        "html_url": "https://github.com/ghabdidabdi",
+        "followers_url": "https://api.github.com/users/ghabdidabdi/followers",
+        "following_url": "https://api.github.com/users/ghabdidabdi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ghabdidabdi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ghabdidabdi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ghabdidabdi/subscriptions",
+        "organizations_url": "https://api.github.com/users/ghabdidabdi/orgs",
+        "repos_url": "https://api.github.com/users/ghabdidabdi/repos",
+        "events_url": "https://api.github.com/users/ghabdidabdi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ghabdidabdi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "66bb475b42603832e7f4ff60bd4da68f285827bd",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/66bb475b42603832e7f4ff60bd4da68f285827bd",
+          "html_url": "https://github.com/spcl/MRAG/commit/66bb475b42603832e7f4ff60bd4da68f285827bd"
+        }
+      ]
+    },
+    {
+      "sha": "66bb475b42603832e7f4ff60bd4da68f285827bd",
+      "node_id": "C_kwDOL8f5NtoAKDY2YmI0NzViNDI2MDM4MzJlN2Y0ZmY2MGJkNGRhNjhmMjg1ODI3YmQ",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "47847858+rgersten@users.noreply.github.com",
+          "date": "2024-11-01T15:55:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-01T15:55:11Z"
+        },
+        "message": "typos (#7)\n\nfixed typos and inconsistencies",
+        "tree": {
+          "sha": "b2a2cbff7c4c5bb39d25ffb90385e61ace26ece0",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/b2a2cbff7c4c5bb39d25ffb90385e61ace26ece0"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/66bb475b42603832e7f4ff60bd4da68f285827bd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJPnfCRC1aQ7uu5UhlAAAipkQALEtbZTNLL3oDRB2iK0pb8qC\nl50XFZvc4t/WB03io7pZlIhsj/ip3Nr/1saDxzXF8v+CFSUaAiideDxX0psg6w/S\nt3zB+kFoef0qtRYhvxQFVvjzrOVsX2zqaK5a3JHYTNMeMYZ44Qogru6m8rU11HTA\ntN5J01WLRCeiicap5HzhER2BzW8wngcvA/PXbpj14a9In6iwlBJdC2HR9ZwNDXoH\nEKdRIoXjb852sK4YAkwQgRlIiSIdvHaBf903sc4l6201aUSoN/Pfv4aPI9c/11aH\nOLh6Jxv4Y1kGTQ28jqsngzekhLkEuH1qudXXuQ1tPHEXHcdobM6+3ttaSDEFKNMI\nR/6br2gPTjktturPDWwLE12+iM5WdIZV6Eaz1sN9TpxkjcpQrNMDvLEDg6iIPYPC\nfL4+1CR/wo9e+LB698mi+szOAZE43X4Y9NmalSQ3rpTA29q2nSJ9UxkqyeyUPwe8\n1MAB7Pd9Ottuovs25ee/zFCCEwqhuAclZMrEPP7tLmLM1kFydh2ntZgV4KCis7qg\ngMl6BH06QDJuP3VckoiYVvJfR/0HyNwefXb+1mTSxW6RIAwaEs/DmDS1dZqPlczl\nRA3E376m8youIqm6pW3/ZYe+BXqAzxLGG4PrkWaO/eOnah3zznDnA5WL3Y3xVT+P\n8jflxYaw7ty82lADOqQo\n=kZDB\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b2a2cbff7c4c5bb39d25ffb90385e61ace26ece0\nparent e7311a3b52653cb7dd9928867103ea69c6da6cc2\nauthor Robert Gerstenberger <47847858+rgersten@users.noreply.github.com> 1730476511 +0100\ncommitter GitHub <noreply@github.com> 1730476511 +0100\n\ntypos (#7)\n\nfixed typos and inconsistencies",
+          "verified_at": "2024-11-05T15:28:19Z"
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/66bb475b42603832e7f4ff60bd4da68f285827bd",
+      "html_url": "https://github.com/spcl/MRAG/commit/66bb475b42603832e7f4ff60bd4da68f285827bd",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/66bb475b42603832e7f4ff60bd4da68f285827bd/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e7311a3b52653cb7dd9928867103ea69c6da6cc2",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/e7311a3b52653cb7dd9928867103ea69c6da6cc2",
+          "html_url": "https://github.com/spcl/MRAG/commit/e7311a3b52653cb7dd9928867103ea69c6da6cc2"
+        }
+      ]
+    },
+    {
+      "sha": "e7311a3b52653cb7dd9928867103ea69c6da6cc2",
+      "node_id": "C_kwDOL8f5NtoAKGU3MzExYTNiNTI2NTNjYjdkZDk5Mjg4NjcxMDNlYTY5YzZkYTZjYzI",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "47847858+rgersten@users.noreply.github.com",
+          "date": "2024-11-01T14:15:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-01T14:15:48Z"
+        },
+        "message": "added legal and chemical accident datasets (#6)\n\n- cherry picked commit from pull request dataset addition #5\r\n- Ales already reviewed that commit for the original pull request",
+        "tree": {
+          "sha": "6a4a76d5c82565c410f5881e97073e6057c4e88c",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/6a4a76d5c82565c410f5881e97073e6057c4e88c"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/e7311a3b52653cb7dd9928867103ea69c6da6cc2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnJOKUCRC1aQ7uu5UhlAAA+s8QADldTJQVWBohoe/NXY5NMjCj\n/BVGHjwBRPinqb2l/ukSfs6iyS418FboICvmj/jR6exAgCZdz0sgFbHXCDIZ3+fq\ny6ctp8CSDd+/ifxP5hvPn2IvDB8aOQ0jbGxqM20Hgp0WU4LikpqoZgCeQQkayCcg\nt9rA12JSOXWNezkD+IEiZ95Q7smzHsArAHCIrcan6lt8h9tm4BSRcx9RN/GOy423\nZlGi8j4QJ5z86yeUyuIF/rRWGlyYJYNN2u6mtTbO5kADwFXxcisRQRlYJ9go13T0\nm3UIuFZbElVSrMcMwiUDAqF2sxoxhF/Yfzn8RLwmtfraP0Dl1PM8TuOVisVpJEX6\nBUBR3SiPoOvVQJVa6mVhBfIUt1ztXgjaFfrs9AUprFVoVKR/uMn3UGTcGK+chx4o\nWmDMX9zmu7lk1qEOhdsHCic2CbJXb1qjrDdMkxQgbkuBLUr7DdX03O6vCQ+jq+yZ\nInu02Bhkuvq4+j6H2g8O+z6giZVOHDyCx5WAb7I9Yewpv3kNssvPOqBcOdpn9Zn2\nDCi1OHI0ezOboiWtvVJMoIxibZRw1B1F605rzPCyPS0ajvAah7Tj8ZHwirC6dj5j\nKswzxEAF65+dDerb3HopApX00uF9KihPJ/CWj2KA8iYcTEAfK/C2+yAS5hJ4PcO0\nr7jSZRpwbQJz4vWDbtW8\n=NJDg\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6a4a76d5c82565c410f5881e97073e6057c4e88c\nparent 4963d5223bf316b512f5c59431b264185e5c7d22\nauthor Robert Gerstenberger <47847858+rgersten@users.noreply.github.com> 1730470548 +0100\ncommitter GitHub <noreply@github.com> 1730470548 +0100\n\nadded legal and chemical accident datasets (#6)\n\n- cherry picked commit from pull request dataset addition #5\r\n- Ales already reviewed that commit for the original pull request",
+          "verified_at": "2024-11-05T15:28:19Z"
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/e7311a3b52653cb7dd9928867103ea69c6da6cc2",
+      "html_url": "https://github.com/spcl/MRAG/commit/e7311a3b52653cb7dd9928867103ea69c6da6cc2",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/e7311a3b52653cb7dd9928867103ea69c6da6cc2/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4963d5223bf316b512f5c59431b264185e5c7d22",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/4963d5223bf316b512f5c59431b264185e5c7d22",
+          "html_url": "https://github.com/spcl/MRAG/commit/4963d5223bf316b512f5c59431b264185e5c7d22"
+        }
+      ]
+    },
+    {
+      "sha": "4963d5223bf316b512f5c59431b264185e5c7d22",
+      "node_id": "C_kwDOL8f5NtoAKDQ5NjNkNTIyM2JmMzE2YjUxMmY1YzU5NDMxYjI2NDE4NWU1YzdkMjI",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "gerstenberger.robert@gmail.com",
+          "date": "2024-06-10T07:22:47Z"
+        },
+        "committer": {
+          "name": "Robert Gerstenberger",
+          "email": "gerstenberger.robert@gmail.com",
+          "date": "2024-06-10T07:22:47Z"
+        },
+        "message": "added arXiv references",
+        "tree": {
+          "sha": "585f387fcab309ef4b26403959efb6568bfb1e2a",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/585f387fcab309ef4b26403959efb6568bfb1e2a"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/4963d5223bf316b512f5c59431b264185e5c7d22",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/4963d5223bf316b512f5c59431b264185e5c7d22",
+      "html_url": "https://github.com/spcl/MRAG/commit/4963d5223bf316b512f5c59431b264185e5c7d22",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/4963d5223bf316b512f5c59431b264185e5c7d22/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e6c513b9c95cc8b118170ef84ff66e14cd03b0c4",
+          "url": "https://api.github.com/repos/spcl/MRAG/commits/e6c513b9c95cc8b118170ef84ff66e14cd03b0c4",
+          "html_url": "https://github.com/spcl/MRAG/commit/e6c513b9c95cc8b118170ef84ff66e14cd03b0c4"
+        }
+      ]
+    },
+    {
+      "sha": "e6c513b9c95cc8b118170ef84ff66e14cd03b0c4",
+      "node_id": "C_kwDOL8f5NtoAKGU2YzUxM2I5Yzk1Y2M4YjExODE3MGVmODRmZjY2ZTE0Y2QwM2IwYzQ",
+      "commit": {
+        "author": {
+          "name": "Robert Gerstenberger",
+          "email": "gerstenberger.robert@gmail.com",
+          "date": "2024-06-09T20:02:06Z"
+        },
+        "committer": {
+          "name": "Robert Gerstenberger",
+          "email": "gerstenberger.robert@gmail.com",
+          "date": "2024-06-09T20:02:06Z"
+        },
+        "message": "initial commit",
+        "tree": {
+          "sha": "ab4081d233c33ae29ed1928b909c04b402eaf896",
+          "url": "https://api.github.com/repos/spcl/MRAG/git/trees/ab4081d233c33ae29ed1928b909c04b402eaf896"
+        },
+        "url": "https://api.github.com/repos/spcl/MRAG/git/commits/e6c513b9c95cc8b118170ef84ff66e14cd03b0c4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/spcl/MRAG/commits/e6c513b9c95cc8b118170ef84ff66e14cd03b0c4",
+      "html_url": "https://github.com/spcl/MRAG/commit/e6c513b9c95cc8b118170ef84ff66e14cd03b0c4",
+      "comments_url": "https://api.github.com/repos/spcl/MRAG/commits/e6c513b9c95cc8b118170ef84ff66e14cd03b0c4/comments",
+      "author": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "rgersten",
+        "id": 47847858,
+        "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rgersten",
+        "html_url": "https://github.com/rgersten",
+        "followers_url": "https://api.github.com/users/rgersten/followers",
+        "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+        "organizations_url": "https://api.github.com/users/rgersten/orgs",
+        "repos_url": "https://api.github.com/users/rgersten/repos",
+        "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rgersten/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "rgersten",
+      "id": 47847858,
+      "node_id": "MDQ6VXNlcjQ3ODQ3ODU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47847858?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rgersten",
+      "html_url": "https://github.com/rgersten",
+      "followers_url": "https://api.github.com/users/rgersten/followers",
+      "following_url": "https://api.github.com/users/rgersten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rgersten/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rgersten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rgersten/subscriptions",
+      "organizations_url": "https://api.github.com/users/rgersten/orgs",
+      "repos_url": "https://api.github.com/users/rgersten/repos",
+      "events_url": "https://api.github.com/users/rgersten/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rgersten/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 8
+    },
+    {
+      "login": "SkyWorld117",
+      "id": 46778564,
+      "node_id": "MDQ6VXNlcjQ2Nzc4NTY0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46778564?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SkyWorld117",
+      "html_url": "https://github.com/SkyWorld117",
+      "followers_url": "https://api.github.com/users/SkyWorld117/followers",
+      "following_url": "https://api.github.com/users/SkyWorld117/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SkyWorld117/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SkyWorld117/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SkyWorld117/subscriptions",
+      "organizations_url": "https://api.github.com/users/SkyWorld117/orgs",
+      "repos_url": "https://api.github.com/users/SkyWorld117/repos",
+      "events_url": "https://api.github.com/users/SkyWorld117/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SkyWorld117/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "ghabdidabdi",
+      "id": 25749869,
+      "node_id": "MDQ6VXNlcjI1NzQ5ODY5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25749869?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghabdidabdi",
+      "html_url": "https://github.com/ghabdidabdi",
+      "followers_url": "https://api.github.com/users/ghabdidabdi/followers",
+      "following_url": "https://api.github.com/users/ghabdidabdi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghabdidabdi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghabdidabdi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghabdidabdi/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghabdidabdi/orgs",
+      "repos_url": "https://api.github.com/users/ghabdidabdi/repos",
+      "events_url": "https://api.github.com/users/ghabdidabdi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghabdidabdi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 175244
+  },
+  "readme_html": "<h1 id=\"user-content-multi-head-rag-mrag\">Multi-Head RAG (MRAG)</h1>\n<p>This is the official implementation of <a href=\"https://arxiv.org/pdf/2406.05085.pdf\">Multi-Head RAG: Solving Multi-Aspect Problems with LLMs</a>.</p>\n<p>This framework implements Multi-Head RAG (MRAG), a novel scheme focused on\nqueries that may require fetching multiple documents with substantially\ndifferent contents. Such queries occur frequently, but are challenging because\nthe embeddings of these documents may be distant in the embedding space, making\nit hard to retrieve them all. The idea of MRAG is simple yet powerful:\nleveraging activations of Transformer's multi-head attention layer, instead of\nthe decoder layer, as keys for fetching multi-aspect documents. The driving\nmotivation is that different attention heads can learn to capture different\ndata aspects. Harnessing the corresponding activations results in embeddings\nthat represent various facets of data items and queries, improving the\nretrieval accuracy for complex queries.</p>\n<h2 id=\"user-content-setup-guide\">Setup Guide</h2>\n<p>In order to use this framework, you need to have a working installation of Python 3.9 or newer.</p>\n<h3 id=\"user-content-installing-mrag\">Installing MRAG</h3>\n<p>Before running either of the following two installation methods, make sure to activate your Python environment (if any) beforehand.\nIf you are a user and you just want to use <code>MRAG</code>, you can install it from source:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/spcl/MRAG.git\ncd MRAG\npip install .\napt-get install docker-compose\n</code></pre>\n<p>If you are a developer and you want to modify the code, you can install it in editable mode from source:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/spcl/MRAG.git\ncd MRAG\npip install -e .\napt-get install docker-compose\n</code></pre>\n<h2 id=\"user-content-quick-start\">Quick Start</h2>\n<p>The first steps are the generation of a synthetic datasets as well as synthetic queries.</p>\n<pre><code>multirag-cli datagen\nexport OPENAI_API_KEY=&#x3C;api key>\nmultirag-cli querygen\n</code></pre>\n<p>These three commands will recreate a synthetic dataset with the same number of categories and documents in\neach category as used during the evaluation in the paper. The same goes for the synthetic query generation.\nPlease note that the generation of the synthetic queries uses OpenAI LLMs, which incur a cost.\nIf you wish to use different parameter, please read the documentation of the command line interface of both commands:</p>\n<ul>\n<li><a href=\"multirag/dataset/README.md#synthetic-dataset-generation\">datagen</a></li>\n<li><a href=\"multirag/dataset/README.md#synthetic-query-generation\">querygen</a></li>\n</ul>\n<p>If you want to avoid those costs or do not want to wait for the generation (roughly 40 minutes for both), you can use the already prepared Wikipedia-based dataset and queries in the <a href=\"datasets\">datasets</a> folder.</p>\n<p>The next step is the generation of the embeddings for the dataset and the queries.</p>\n<pre><code>multirag-cli embed\n</code></pre>\n<p>The command above will use the Salesforce/SFR-Embedding-Mistral embedding model and only generates the attention head embeddings for the last layer.\nThe documentation of the command line interface can be found <a href=\"multirag/embed/README.md\">here</a>.</p>\n<pre><code>multirag-cli db start\nmultirag-cli db import\n</code></pre>\n<p>After setting up the vector database, the embedding data is imported into the vector database.\nThe documentation of the command line interface can be found <a href=\"multirag/storage/README.md#command-line-interfaces\">here</a>.</p>\n<pre><code>multirag-cli evaluate\n</code></pre>\n<p>The evaluation command will run several different strategies on the query embeddings and the document embedddings in the vector database.\nThe documentation of the command line interface can be found <a href=\"multirag/evaluation/README.md\">here</a>.</p>\n<pre><code>multirag-cli plot\n</code></pre>\n<p>The plot command generates various plots to visualize the evaluation data.\nIts command line interface is described in the documentation of <a href=\"multirag/plot/README.md\">Plot</a> module.</p>\n<h2 id=\"user-content-documentation\">Documentation</h2>\n<p>The paper gives a high-level overview of the framework and its components.\nIn order to understand the framework in more detail, you can read the documentation of the individual modules.\nThe <a href=\"multirag/dataset/README.md\">Dataset</a> module describes the generation of the synthetic dataset as well as the generation of the synthetic queries.\nThe <a href=\"multirag/embed/README.md\">Embed</a> module describes the embedding generation for the dataset and the queries.\nThe <a href=\"multirag/storage/README.md\">Storage</a> module describes how to interact with the vector database.\nThe <a href=\"multirag/evaluation/README.md\">Evaluation</a> module describes the various strategies used during the evaluation.\nThe <a href=\"multirag/plot/README.md\">Plot</a> module describes the visualization of the evaluation data.</p>\n<h2 id=\"user-content-paper-results\">Paper Results</h2>\n<p>The <a href=\"datasets\">datasets</a> directory contains the datasets that we used to evaluate MRAG, which generated the results presented in the paper.\nThey can serve as starting point for learning how to use the framework.\nHowever, if you just want to inspect and replot the results, you can use the <a href=\"paper\">paper</a> directory.</p>\n<h2 id=\"user-content-citations\">Citations</h2>\n<p>If you find this repository valuable, please give it a star!\nGot any questions or feedback? Feel free to reach out and open an issue.\nUsing this in your work? Please reference us using the provided citation:</p>\n<pre><code class=\"language-bibtex\">@misc{besta2025multihead,\n  title = {{Multi-Head RAG: Solving Multi-Aspect Problems with LLMs}},\n  author = {Besta, Maciej and Kubicek, Ales and Gerstenberger, Robert and Chrapek, Marcin and Niggli, Roman and Okanovic, Patrik and Zhu, Yi and Iff, Patrick and Podstawksi, Michal and Weitzendorf, Lucas and Chi, Mingyuan and Gajda, Joanna and Nyczyk, Piotr and M\\\"{u}ller, J\\\"{u}rgen and Niewiadomski, Hubert and Hoefler, Torsten},\n  year = 2026,\n  month = Feb,\n  eprinttype = {arXiv},\n  eprint = {2406.05085}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:16:41.862Z"
+}

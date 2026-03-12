@@ -1,0 +1,13 @@
+---
+// OwnerCard widget
+interface Props { login: string; avatarUrl: string; bio?: string; type: 'User' | 'Organization' }
+const { login, avatarUrl, bio, type } = Astro.props;
+---
+<div class="owner-card">
+  <a href={`/owner/${login.toLowerCase()}`}>
+    <img src={avatarUrl} alt={login} width="64" height="64" loading="lazy" />
+    <strong>{login}</strong>
+  </a>
+  {bio && <p>{bio}</p>}
+  <span class="owner-type">{type}</span>
+</div>

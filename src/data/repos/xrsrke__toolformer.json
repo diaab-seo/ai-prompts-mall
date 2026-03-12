@@ -1,0 +1,2552 @@
+{
+  "id": 601459770,
+  "node_id": "R_kgDOI9mMOg",
+  "name": "toolformer",
+  "full_name": "xrsrke/toolformer",
+  "private": false,
+  "owner": {
+    "login": "xrsrke",
+    "id": 22252984,
+    "node_id": "MDQ6VXNlcjIyMjUyOTg0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/22252984?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xrsrke",
+    "html_url": "https://github.com/xrsrke",
+    "followers_url": "https://api.github.com/users/xrsrke/followers",
+    "following_url": "https://api.github.com/users/xrsrke/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xrsrke/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xrsrke/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xrsrke/subscriptions",
+    "organizations_url": "https://api.github.com/users/xrsrke/orgs",
+    "repos_url": "https://api.github.com/users/xrsrke/repos",
+    "events_url": "https://api.github.com/users/xrsrke/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xrsrke/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/xrsrke/toolformer",
+  "description": "Implementation of Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "fork": false,
+  "url": "https://api.github.com/repos/xrsrke/toolformer",
+  "forks_url": "https://api.github.com/repos/xrsrke/toolformer/forks",
+  "keys_url": "https://api.github.com/repos/xrsrke/toolformer/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/xrsrke/toolformer/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/xrsrke/toolformer/teams",
+  "hooks_url": "https://api.github.com/repos/xrsrke/toolformer/hooks",
+  "issue_events_url": "https://api.github.com/repos/xrsrke/toolformer/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/xrsrke/toolformer/events",
+  "assignees_url": "https://api.github.com/repos/xrsrke/toolformer/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/xrsrke/toolformer/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/xrsrke/toolformer/tags",
+  "blobs_url": "https://api.github.com/repos/xrsrke/toolformer/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/xrsrke/toolformer/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/xrsrke/toolformer/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/xrsrke/toolformer/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/xrsrke/toolformer/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/xrsrke/toolformer/languages",
+  "stargazers_url": "https://api.github.com/repos/xrsrke/toolformer/stargazers",
+  "contributors_url": "https://api.github.com/repos/xrsrke/toolformer/contributors",
+  "subscribers_url": "https://api.github.com/repos/xrsrke/toolformer/subscribers",
+  "subscription_url": "https://api.github.com/repos/xrsrke/toolformer/subscription",
+  "commits_url": "https://api.github.com/repos/xrsrke/toolformer/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/xrsrke/toolformer/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/xrsrke/toolformer/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/xrsrke/toolformer/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/xrsrke/toolformer/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/xrsrke/toolformer/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/xrsrke/toolformer/merges",
+  "archive_url": "https://api.github.com/repos/xrsrke/toolformer/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/xrsrke/toolformer/downloads",
+  "issues_url": "https://api.github.com/repos/xrsrke/toolformer/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/xrsrke/toolformer/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/xrsrke/toolformer/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/xrsrke/toolformer/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/xrsrke/toolformer/labels{/name}",
+  "releases_url": "https://api.github.com/repos/xrsrke/toolformer/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/xrsrke/toolformer/deployments",
+  "created_at": "2023-02-14T05:27:21Z",
+  "updated_at": "2026-02-25T02:20:34Z",
+  "pushed_at": "2023-04-05T06:23:25Z",
+  "git_url": "git://github.com/xrsrke/toolformer.git",
+  "ssh_url": "git@github.com:xrsrke/toolformer.git",
+  "clone_url": "https://github.com/xrsrke/toolformer.git",
+  "svn_url": "https://github.com/xrsrke/toolformer",
+  "homepage": "",
+  "size": 1396,
+  "stargazers_count": 144,
+  "watchers_count": 144,
+  "language": "Jupyter Notebook",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 15,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 2,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "deep-learning",
+    "langchain",
+    "language-model",
+    "large-language-model",
+    "pytorch",
+    "toolformer"
+  ],
+  "visibility": "public",
+  "forks": 15,
+  "open_issues": 2,
+  "watchers": 144,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "d3642b2aef8f913cd0fd4e4e2efb6e6cd5ba3fe8",
+      "node_id": "C_kwDOI9mMOtoAKGQzNjQyYjJhZWY4ZjkxM2NkMGZkNGU0ZTJlZmI2ZTZjZDViYTNmZTg",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-05T06:20:12Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-05T06:20:12Z"
+        },
+        "message": "bumb to 0.0.4",
+        "tree": {
+          "sha": "c0d9218b2ca3961d8924e3839a09833466de74c5",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/c0d9218b2ca3961d8924e3839a09833466de74c5"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/d3642b2aef8f913cd0fd4e4e2efb6e6cd5ba3fe8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/d3642b2aef8f913cd0fd4e4e2efb6e6cd5ba3fe8",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/d3642b2aef8f913cd0fd4e4e2efb6e6cd5ba3fe8",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/d3642b2aef8f913cd0fd4e4e2efb6e6cd5ba3fe8/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "8923a8e6b7acda16e163c7c536c40bfd7acaa2c7",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8923a8e6b7acda16e163c7c536c40bfd7acaa2c7",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/8923a8e6b7acda16e163c7c536c40bfd7acaa2c7"
+        }
+      ]
+    },
+    {
+      "sha": "8923a8e6b7acda16e163c7c536c40bfd7acaa2c7",
+      "node_id": "C_kwDOI9mMOtoAKDg5MjNhOGU2YjdhY2RhMTZlMTYzYzdjNTM2YzQwYmZkN2FjYWEyYzc",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-05T06:18:40Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-05T06:18:40Z"
+        },
+        "message": "add infernece",
+        "tree": {
+          "sha": "18dd61b2d5e10a3099411997fac161b92ecef6de",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/18dd61b2d5e10a3099411997fac161b92ecef6de"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/8923a8e6b7acda16e163c7c536c40bfd7acaa2c7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8923a8e6b7acda16e163c7c536c40bfd7acaa2c7",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/8923a8e6b7acda16e163c7c536c40bfd7acaa2c7",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/8923a8e6b7acda16e163c7c536c40bfd7acaa2c7/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "345238ce88e8860eefa4b2055410cad0fd80261b",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/345238ce88e8860eefa4b2055410cad0fd80261b",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/345238ce88e8860eefa4b2055410cad0fd80261b"
+        }
+      ]
+    },
+    {
+      "sha": "345238ce88e8860eefa4b2055410cad0fd80261b",
+      "node_id": "C_kwDOI9mMOtoAKDM0NTIzOGNlODhlODg2MGVlZmE0YjIwNTU0MTBjYWQwZmQ4MDI2MWI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-03T03:59:27Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-03T03:59:27Z"
+        },
+        "message": "bumb to 0.0.3",
+        "tree": {
+          "sha": "274696480a888642fca9921dd73252957853b2f1",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/274696480a888642fca9921dd73252957853b2f1"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/345238ce88e8860eefa4b2055410cad0fd80261b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/345238ce88e8860eefa4b2055410cad0fd80261b",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/345238ce88e8860eefa4b2055410cad0fd80261b",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/345238ce88e8860eefa4b2055410cad0fd80261b/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "684d1cb3ef69d666dd5146c86e5bb1dd528a833e",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/684d1cb3ef69d666dd5146c86e5bb1dd528a833e",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/684d1cb3ef69d666dd5146c86e5bb1dd528a833e"
+        }
+      ]
+    },
+    {
+      "sha": "684d1cb3ef69d666dd5146c86e5bb1dd528a833e",
+      "node_id": "C_kwDOI9mMOtoAKDY4NGQxY2IzZWY2OWQ2NjZkZDUxNDZjODZlNWJiMWRkNTI4YTgzM2U",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-03T03:56:14Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-03T03:56:14Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "8fa5fe5539346fbb06fb6fd40f7408c4050783bd",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/8fa5fe5539346fbb06fb6fd40f7408c4050783bd"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/684d1cb3ef69d666dd5146c86e5bb1dd528a833e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/684d1cb3ef69d666dd5146c86e5bb1dd528a833e",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/684d1cb3ef69d666dd5146c86e5bb1dd528a833e",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/684d1cb3ef69d666dd5146c86e5bb1dd528a833e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "8eded8bad67a0a852f21ed69fbfd3d55ee525249",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8eded8bad67a0a852f21ed69fbfd3d55ee525249",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/8eded8bad67a0a852f21ed69fbfd3d55ee525249"
+        }
+      ]
+    },
+    {
+      "sha": "8eded8bad67a0a852f21ed69fbfd3d55ee525249",
+      "node_id": "C_kwDOI9mMOtoAKDhlZGVkOGJhZDY3YTBhODUyZjIxZWQ2OWZiZmQzZDU1ZWU1MjUyNDk",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-03T03:49:45Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-04-03T03:49:45Z"
+        },
+        "message": "WIP inference",
+        "tree": {
+          "sha": "65da04739414d981c0130c197f3418a6c29e7d47",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/65da04739414d981c0130c197f3418a6c29e7d47"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/8eded8bad67a0a852f21ed69fbfd3d55ee525249",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8eded8bad67a0a852f21ed69fbfd3d55ee525249",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/8eded8bad67a0a852f21ed69fbfd3d55ee525249",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/8eded8bad67a0a852f21ed69fbfd3d55ee525249/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "d930795a7f586b54236c89139439fd7faacc7375",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/d930795a7f586b54236c89139439fd7faacc7375",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/d930795a7f586b54236c89139439fd7faacc7375"
+        }
+      ]
+    },
+    {
+      "sha": "d930795a7f586b54236c89139439fd7faacc7375",
+      "node_id": "C_kwDOI9mMOtoAKGQ5MzA3OTVhN2Y1ODZiNTQyMzZjODkxMzk0MzlmZDdmYWFjYzczNzU",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-26T03:38:49Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-26T03:38:49Z"
+        },
+        "message": "fix API",
+        "tree": {
+          "sha": "a12abdc8d225853e1000db68b0ca5a8f3791b212",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/a12abdc8d225853e1000db68b0ca5a8f3791b212"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/d930795a7f586b54236c89139439fd7faacc7375",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/d930795a7f586b54236c89139439fd7faacc7375",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/d930795a7f586b54236c89139439fd7faacc7375",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/d930795a7f586b54236c89139439fd7faacc7375/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "048cf0e363855aaf5fd757d1ad43bfcdeef1a709",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/048cf0e363855aaf5fd757d1ad43bfcdeef1a709",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/048cf0e363855aaf5fd757d1ad43bfcdeef1a709"
+        }
+      ]
+    },
+    {
+      "sha": "048cf0e363855aaf5fd757d1ad43bfcdeef1a709",
+      "node_id": "C_kwDOI9mMOtoAKDA0OGNmMGUzNjM4NTVhYWY1ZmQ3NTdkMWFkNDNiZmNkZWVmMWE3MDk",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-17T07:54:12Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-17T07:54:12Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "8199de8c91f895e9007d06a96686afacfe5542ed",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/8199de8c91f895e9007d06a96686afacfe5542ed"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/048cf0e363855aaf5fd757d1ad43bfcdeef1a709",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/048cf0e363855aaf5fd757d1ad43bfcdeef1a709",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/048cf0e363855aaf5fd757d1ad43bfcdeef1a709",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/048cf0e363855aaf5fd757d1ad43bfcdeef1a709/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "154e6c49dc7212d932a542915fb953483eaadbf1",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/154e6c49dc7212d932a542915fb953483eaadbf1",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/154e6c49dc7212d932a542915fb953483eaadbf1"
+        }
+      ]
+    },
+    {
+      "sha": "154e6c49dc7212d932a542915fb953483eaadbf1",
+      "node_id": "C_kwDOI9mMOtoAKDE1NGU2YzQ5ZGM3MjEyZDkzMmE1NDI5MTVmYjk1MzQ4M2VhYWRiZjE",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-17T07:50:15Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-17T07:50:15Z"
+        },
+        "message": "edit",
+        "tree": {
+          "sha": "9a5f521eab947d5fb5b1f69ecc091af3601ab4b8",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/9a5f521eab947d5fb5b1f69ecc091af3601ab4b8"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/154e6c49dc7212d932a542915fb953483eaadbf1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/154e6c49dc7212d932a542915fb953483eaadbf1",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/154e6c49dc7212d932a542915fb953483eaadbf1",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/154e6c49dc7212d932a542915fb953483eaadbf1/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "dcb37b268fbb160854dda779ca4982d33b34f3f9",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/dcb37b268fbb160854dda779ca4982d33b34f3f9",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/dcb37b268fbb160854dda779ca4982d33b34f3f9"
+        }
+      ]
+    },
+    {
+      "sha": "dcb37b268fbb160854dda779ca4982d33b34f3f9",
+      "node_id": "C_kwDOI9mMOtoAKGRjYjM3YjI2OGZiYjE2MDg1NGRkYTc3OWNhNDk4MmQzM2IzNGYzZjk",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-17T07:47:05Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-17T07:47:05Z"
+        },
+        "message": "add inference (no execute api) and fix bugs",
+        "tree": {
+          "sha": "ecb67a8542099feddd3d7c85e979902b7b73a4bd",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/ecb67a8542099feddd3d7c85e979902b7b73a4bd"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/dcb37b268fbb160854dda779ca4982d33b34f3f9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/dcb37b268fbb160854dda779ca4982d33b34f3f9",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/dcb37b268fbb160854dda779ca4982d33b34f3f9",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/dcb37b268fbb160854dda779ca4982d33b34f3f9/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "db190fcd9e20affc6cedeb163994517d3041a450",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/db190fcd9e20affc6cedeb163994517d3041a450",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/db190fcd9e20affc6cedeb163994517d3041a450"
+        }
+      ]
+    },
+    {
+      "sha": "db190fcd9e20affc6cedeb163994517d3041a450",
+      "node_id": "C_kwDOI9mMOtoAKGRiMTkwZmNkOWUyMGFmZmM2Y2VkZWIxNjM5OTQ1MTdkMzA0MWE0NTA",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T07:54:42Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T07:54:42Z"
+        },
+        "message": "add custom api call + colab to readme",
+        "tree": {
+          "sha": "ba21dbaf114f41b78a2a7488e21a37d0b461a302",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/ba21dbaf114f41b78a2a7488e21a37d0b461a302"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/db190fcd9e20affc6cedeb163994517d3041a450",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/db190fcd9e20affc6cedeb163994517d3041a450",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/db190fcd9e20affc6cedeb163994517d3041a450",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/db190fcd9e20affc6cedeb163994517d3041a450/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "920468a1cb5e1300566566f348f67148e70fcb85",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/920468a1cb5e1300566566f348f67148e70fcb85",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/920468a1cb5e1300566566f348f67148e70fcb85"
+        }
+      ]
+    },
+    {
+      "sha": "920468a1cb5e1300566566f348f67148e70fcb85",
+      "node_id": "C_kwDOI9mMOtoAKDkyMDQ2OGExY2I1ZTEzMDA1NjY1NjZmMzQ4ZjY3MTQ4ZTcwZmNiODU",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T07:29:02Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T07:29:02Z"
+        },
+        "message": "add example",
+        "tree": {
+          "sha": "478a7321834a2e1789b3005098754f263037fcf7",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/478a7321834a2e1789b3005098754f263037fcf7"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/920468a1cb5e1300566566f348f67148e70fcb85",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/920468a1cb5e1300566566f348f67148e70fcb85",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/920468a1cb5e1300566566f348f67148e70fcb85",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/920468a1cb5e1300566566f348f67148e70fcb85/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "8071bd990e4ec1daaee7a88502a57df8b733c612",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8071bd990e4ec1daaee7a88502a57df8b733c612",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/8071bd990e4ec1daaee7a88502a57df8b733c612"
+        }
+      ]
+    },
+    {
+      "sha": "8071bd990e4ec1daaee7a88502a57df8b733c612",
+      "node_id": "C_kwDOI9mMOtoAKDgwNzFiZDk5MGU0ZWMxZGFhZWU3YTg4NTAyYTU3ZGY4YjczM2M2MTI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T07:21:12Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T07:21:12Z"
+        },
+        "message": "clean",
+        "tree": {
+          "sha": "eeded60f7efc2925a9c563235f47fed504d69f72",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/eeded60f7efc2925a9c563235f47fed504d69f72"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/8071bd990e4ec1daaee7a88502a57df8b733c612",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8071bd990e4ec1daaee7a88502a57df8b733c612",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/8071bd990e4ec1daaee7a88502a57df8b733c612",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/8071bd990e4ec1daaee7a88502a57df8b733c612/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "7c1d71d23ff9107a2f1721bffd2668f73fa0605c",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/7c1d71d23ff9107a2f1721bffd2668f73fa0605c",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/7c1d71d23ff9107a2f1721bffd2668f73fa0605c"
+        }
+      ]
+    },
+    {
+      "sha": "7c1d71d23ff9107a2f1721bffd2668f73fa0605c",
+      "node_id": "C_kwDOI9mMOtoAKDdjMWQ3MWQyM2ZmOTEwN2EyZjE3MjFiZmZkMjY2OGY3M2ZhMDYwNWM",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T05:25:47Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-15T05:25:47Z"
+        },
+        "message": "fixed bugs",
+        "tree": {
+          "sha": "da3e8922f4ba6fb7303d0a2db1a1cc59adbd0940",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/da3e8922f4ba6fb7303d0a2db1a1cc59adbd0940"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/7c1d71d23ff9107a2f1721bffd2668f73fa0605c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/7c1d71d23ff9107a2f1721bffd2668f73fa0605c",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/7c1d71d23ff9107a2f1721bffd2668f73fa0605c",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/7c1d71d23ff9107a2f1721bffd2668f73fa0605c/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "2d278c307f2aaffc2f163611e7cdd210fe2152da",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/2d278c307f2aaffc2f163611e7cdd210fe2152da",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/2d278c307f2aaffc2f163611e7cdd210fe2152da"
+        }
+      ]
+    },
+    {
+      "sha": "2d278c307f2aaffc2f163611e7cdd210fe2152da",
+      "node_id": "C_kwDOI9mMOtoAKDJkMjc4YzMwN2YyYWFmZmMyZjE2MzYxMWU3Y2RkMjEwZmUyMTUyZGE",
+      "commit": {
+        "author": {
+          "name": "XλRI-U5",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-14T04:14:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-03-14T04:14:19Z"
+        },
+        "message": "Merge pull request #1 from xrsrke/fix-loss\n\nrefactor filtering api calls",
+        "tree": {
+          "sha": "2641273287df5d81b1490ff437a10305ac313fba",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/2641273287df5d81b1490ff437a10305ac313fba"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/2d278c307f2aaffc2f163611e7cdd210fe2152da",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkD/SbCRBK7hj4Ov3rIwAAFnMIABTk68+JueyRXvy9SjWiLAZo\n3iN0fSlAVNFAARxDPM+32f+v5/ObUTpL96KLO6K9ViaNyD11+qiu12sP3rkwx5Th\nAmAZMsmI1t3/T0/s5H2Ff26V2KEL2Bd1QgFvZ4kZfPu12WLy4orgzY03rFQwDzyj\nYzBt8nnPDMO38dUVXQqUbGbbcdJHd1dMciSsl58Po6TpqlVk0oC7KJXya8FWJoBu\n8wPgpEhfocVxBR5E/CPT05k+9u+korSNKXzCZvrJCi6QzQbPhKhFTcVhctxTssyM\nb6R6fmLQ6vQ4w8jTfTGaQJudtnGYqTo37isbzw+cofv2bXGnw+6tSeE7sOA6FjQ=\n=e/zo\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2641273287df5d81b1490ff437a10305ac313fba\nparent 303d2098df9f86224949cc1314d6dc4d7a55b8d2\nparent 1063f37c304da98fe1fca8d15368d5445d680814\nauthor XλRI-U5 <xariusdrake@hotmail.com> 1678767259 +0700\ncommitter GitHub <noreply@github.com> 1678767259 +0700\n\nMerge pull request #1 from xrsrke/fix-loss\n\nrefactor filtering api calls",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/2d278c307f2aaffc2f163611e7cdd210fe2152da",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/2d278c307f2aaffc2f163611e7cdd210fe2152da",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/2d278c307f2aaffc2f163611e7cdd210fe2152da/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/303d2098df9f86224949cc1314d6dc4d7a55b8d2"
+        },
+        {
+          "sha": "1063f37c304da98fe1fca8d15368d5445d680814",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/1063f37c304da98fe1fca8d15368d5445d680814",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/1063f37c304da98fe1fca8d15368d5445d680814"
+        }
+      ]
+    },
+    {
+      "sha": "1063f37c304da98fe1fca8d15368d5445d680814",
+      "node_id": "C_kwDOI9mMOtoAKDEwNjNmMzdjMzA0ZGE5OGZlMWZjYThkMTUzNjhkNTQ0NWQ2ODA4MTQ",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-14T04:12:01Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-14T04:12:01Z"
+        },
+        "message": "refactor filtering apim calls",
+        "tree": {
+          "sha": "2641273287df5d81b1490ff437a10305ac313fba",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/2641273287df5d81b1490ff437a10305ac313fba"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/1063f37c304da98fe1fca8d15368d5445d680814",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/1063f37c304da98fe1fca8d15368d5445d680814",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/1063f37c304da98fe1fca8d15368d5445d680814",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/1063f37c304da98fe1fca8d15368d5445d680814/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/303d2098df9f86224949cc1314d6dc4d7a55b8d2"
+        }
+      ]
+    },
+    {
+      "sha": "303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+      "node_id": "C_kwDOI9mMOtoAKDMwM2QyMDk4ZGY5Zjg2MjI0OTQ5Y2MxMzE0ZDZkYzRkN2E1NWI4ZDI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-08T04:57:53Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-08T04:57:53Z"
+        },
+        "message": "add sampling threshold to sampling api calls",
+        "tree": {
+          "sha": "d9e74c1034450e48b451e9bf0e1976dd869ce2ac",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/d9e74c1034450e48b451e9bf0e1976dd869ce2ac"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/303d2098df9f86224949cc1314d6dc4d7a55b8d2",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/303d2098df9f86224949cc1314d6dc4d7a55b8d2/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "c362251c0bdfe14d9c3dde208fc456a9696f9446",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/c362251c0bdfe14d9c3dde208fc456a9696f9446",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/c362251c0bdfe14d9c3dde208fc456a9696f9446"
+        }
+      ]
+    },
+    {
+      "sha": "c362251c0bdfe14d9c3dde208fc456a9696f9446",
+      "node_id": "C_kwDOI9mMOtoAKGMzNjIyNTFjMGJkZmUxNGQ5YzNkZGUyMDhmYzQ1NmE5Njk2Zjk0NDY",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T07:57:51Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T07:57:51Z"
+        },
+        "message": "refactor filtering api calls",
+        "tree": {
+          "sha": "4bcc6755d6c9877e71df429a393ec45e401beed4",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/4bcc6755d6c9877e71df429a393ec45e401beed4"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/c362251c0bdfe14d9c3dde208fc456a9696f9446",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/c362251c0bdfe14d9c3dde208fc456a9696f9446",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/c362251c0bdfe14d9c3dde208fc456a9696f9446",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/c362251c0bdfe14d9c3dde208fc456a9696f9446/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "8865618f20a04512454ca96b4091925f12cee872",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8865618f20a04512454ca96b4091925f12cee872",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/8865618f20a04512454ca96b4091925f12cee872"
+        }
+      ]
+    },
+    {
+      "sha": "8865618f20a04512454ca96b4091925f12cee872",
+      "node_id": "C_kwDOI9mMOtoAKDg4NjU2MThmMjBhMDQ1MTI0NTRjYTk2YjQwOTE5MjVmMTJjZWU4NzI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T05:28:11Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T05:28:11Z"
+        },
+        "message": "refactor tests",
+        "tree": {
+          "sha": "505799191193f373713c0133ad7cb5e9387d047a",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/505799191193f373713c0133ad7cb5e9387d047a"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/8865618f20a04512454ca96b4091925f12cee872",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/8865618f20a04512454ca96b4091925f12cee872",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/8865618f20a04512454ca96b4091925f12cee872",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/8865618f20a04512454ca96b4091925f12cee872/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "31902465d0d27cdd5df78e5971a23158961cab9e",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/31902465d0d27cdd5df78e5971a23158961cab9e",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/31902465d0d27cdd5df78e5971a23158961cab9e"
+        }
+      ]
+    },
+    {
+      "sha": "31902465d0d27cdd5df78e5971a23158961cab9e",
+      "node_id": "C_kwDOI9mMOtoAKDMxOTAyNDY1ZDBkMjdjZGQ1ZGY3OGU1OTcxYTIzMTU4OTYxY2FiOWU",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T05:06:58Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T05:06:58Z"
+        },
+        "message": "pass test and clean trash",
+        "tree": {
+          "sha": "63ef23dcf759ccf92bb424027ff98426c01f8a5f",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/63ef23dcf759ccf92bb424027ff98426c01f8a5f"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/31902465d0d27cdd5df78e5971a23158961cab9e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/31902465d0d27cdd5df78e5971a23158961cab9e",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/31902465d0d27cdd5df78e5971a23158961cab9e",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/31902465d0d27cdd5df78e5971a23158961cab9e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "ba33265e5f104ad803c3d346ca8f966560bf8d9e",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/ba33265e5f104ad803c3d346ca8f966560bf8d9e",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/ba33265e5f104ad803c3d346ca8f966560bf8d9e"
+        }
+      ]
+    },
+    {
+      "sha": "ba33265e5f104ad803c3d346ca8f966560bf8d9e",
+      "node_id": "C_kwDOI9mMOtoAKGJhMzMyNjVlNWYxMDRhZDgwM2MzZDM0NmNhOGY5NjY1NjBiZjhkOWU",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:53:04Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:53:04Z"
+        },
+        "message": "fix",
+        "tree": {
+          "sha": "f5d6a64fd5ae2004ae9e3fa6b54183f0903810b0",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/f5d6a64fd5ae2004ae9e3fa6b54183f0903810b0"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/ba33265e5f104ad803c3d346ca8f966560bf8d9e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/ba33265e5f104ad803c3d346ca8f966560bf8d9e",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/ba33265e5f104ad803c3d346ca8f966560bf8d9e",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/ba33265e5f104ad803c3d346ca8f966560bf8d9e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "be7c59ce117060d69b3d8e5df5e11eb5da96c6a8",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/be7c59ce117060d69b3d8e5df5e11eb5da96c6a8",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/be7c59ce117060d69b3d8e5df5e11eb5da96c6a8"
+        }
+      ]
+    },
+    {
+      "sha": "be7c59ce117060d69b3d8e5df5e11eb5da96c6a8",
+      "node_id": "C_kwDOI9mMOtoAKGJlN2M1OWNlMTE3MDYwZDY5YjNkOGU1ZGY1ZTExZWI1ZGE5NmM2YTg",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:51:57Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:51:57Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "79207ed55d61640fd2b5a448f6fe55b84d7606d4",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/79207ed55d61640fd2b5a448f6fe55b84d7606d4"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/be7c59ce117060d69b3d8e5df5e11eb5da96c6a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/be7c59ce117060d69b3d8e5df5e11eb5da96c6a8",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/be7c59ce117060d69b3d8e5df5e11eb5da96c6a8",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/be7c59ce117060d69b3d8e5df5e11eb5da96c6a8/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e"
+        }
+      ]
+    },
+    {
+      "sha": "f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e",
+      "node_id": "C_kwDOI9mMOtoAKGY2ZDhkNWVjNGFkNWZiNTEzMWFmNTIyZDJiODc4ZjY4NjRhN2E0MmU",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:46:49Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:46:49Z"
+        },
+        "message": "add pytests",
+        "tree": {
+          "sha": "189e7ed306bba07d13d1284658d047bacb375c89",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/189e7ed306bba07d13d1284658d047bacb375c89"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/f6d8d5ec4ad5fb5131af522d2b878f6864a7a42e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "0cbffd0a49ae7e63dca7291dd0450b101883b13d",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/0cbffd0a49ae7e63dca7291dd0450b101883b13d",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/0cbffd0a49ae7e63dca7291dd0450b101883b13d"
+        }
+      ]
+    },
+    {
+      "sha": "0cbffd0a49ae7e63dca7291dd0450b101883b13d",
+      "node_id": "C_kwDOI9mMOtoAKDBjYmZmZDBhNDlhZTdlNjNkY2E3MjkxZGQwNDUwYjEwMTg4M2IxM2Q",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:45:50Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:45:50Z"
+        },
+        "message": "update todo",
+        "tree": {
+          "sha": "8c600d3c218d54b270d8834f8043f59765b4856c",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/8c600d3c218d54b270d8834f8043f59765b4856c"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/0cbffd0a49ae7e63dca7291dd0450b101883b13d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/0cbffd0a49ae7e63dca7291dd0450b101883b13d",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/0cbffd0a49ae7e63dca7291dd0450b101883b13d",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/0cbffd0a49ae7e63dca7291dd0450b101883b13d/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "9541b529cd1bfcad437f3febb9c4c1751f63fb09",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/9541b529cd1bfcad437f3febb9c4c1751f63fb09",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/9541b529cd1bfcad437f3febb9c4c1751f63fb09"
+        }
+      ]
+    },
+    {
+      "sha": "9541b529cd1bfcad437f3febb9c4c1751f63fb09",
+      "node_id": "C_kwDOI9mMOtoAKDk1NDFiNTI5Y2QxYmZjYWQ0MzdmM2ZlYmI5YzRjMTc1MWY2M2ZiMDk",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:44:01Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-07T04:44:01Z"
+        },
+        "message": "add filtering API candidates",
+        "tree": {
+          "sha": "0f0412ec8e7b92372bcd85cec41caa3a0ecb312a",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/0f0412ec8e7b92372bcd85cec41caa3a0ecb312a"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/9541b529cd1bfcad437f3febb9c4c1751f63fb09",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/9541b529cd1bfcad437f3febb9c4c1751f63fb09",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/9541b529cd1bfcad437f3febb9c4c1751f63fb09",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/9541b529cd1bfcad437f3febb9c4c1751f63fb09/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "fb92a52dbd18596cc55d2a34815027b22c65a972",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/fb92a52dbd18596cc55d2a34815027b22c65a972",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/fb92a52dbd18596cc55d2a34815027b22c65a972"
+        }
+      ]
+    },
+    {
+      "sha": "fb92a52dbd18596cc55d2a34815027b22c65a972",
+      "node_id": "C_kwDOI9mMOtoAKGZiOTJhNTJkYmQxODU5NmNjNTVkMmEzNDgxNTAyN2IyMmM2NWE5NzI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T06:01:06Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T06:01:06Z"
+        },
+        "message": "refactor generate conditioning api and fix all bugs",
+        "tree": {
+          "sha": "d61739d847869817351bd383216201889b67e4f7",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/d61739d847869817351bd383216201889b67e4f7"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/fb92a52dbd18596cc55d2a34815027b22c65a972",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/fb92a52dbd18596cc55d2a34815027b22c65a972",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/fb92a52dbd18596cc55d2a34815027b22c65a972",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/fb92a52dbd18596cc55d2a34815027b22c65a972/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "73b40b7194965ba885b17e4fb5878839a8b78339",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/73b40b7194965ba885b17e4fb5878839a8b78339",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/73b40b7194965ba885b17e4fb5878839a8b78339"
+        }
+      ]
+    },
+    {
+      "sha": "73b40b7194965ba885b17e4fb5878839a8b78339",
+      "node_id": "C_kwDOI9mMOtoAKDczYjQwYjcxOTQ5NjViYTg4NWIxN2U0ZmI1ODc4ODM5YThiNzgzMzk",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T05:50:50Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T05:50:50Z"
+        },
+        "message": "refactor sampling & obtaining api calls",
+        "tree": {
+          "sha": "cd3b028cf14f31c2a82d2b7fc9f9cfc4657b9885",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/cd3b028cf14f31c2a82d2b7fc9f9cfc4657b9885"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/73b40b7194965ba885b17e4fb5878839a8b78339",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/73b40b7194965ba885b17e4fb5878839a8b78339",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/73b40b7194965ba885b17e4fb5878839a8b78339",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/73b40b7194965ba885b17e4fb5878839a8b78339/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "f2140b91b08193af5c01c654c120c9a4daf23b3c",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/f2140b91b08193af5c01c654c120c9a4daf23b3c",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/f2140b91b08193af5c01c654c120c9a4daf23b3c"
+        }
+      ]
+    },
+    {
+      "sha": "f2140b91b08193af5c01c654c120c9a4daf23b3c",
+      "node_id": "C_kwDOI9mMOtoAKGYyMTQwYjkxYjA4MTkzYWY1YzAxYzY1NGMxMjBjOWE0ZGFmMjNiM2M",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T02:10:56Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T02:10:56Z"
+        },
+        "message": "add tests",
+        "tree": {
+          "sha": "8616941fae0fdb433a5d00735f41d5cec0f85635",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/8616941fae0fdb433a5d00735f41d5cec0f85635"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/f2140b91b08193af5c01c654c120c9a4daf23b3c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/f2140b91b08193af5c01c654c120c9a4daf23b3c",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/f2140b91b08193af5c01c654c120c9a4daf23b3c",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/f2140b91b08193af5c01c654c120c9a4daf23b3c/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "d4a0ff7c885ae15dd554fe17078cc87403e0bf2d",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/d4a0ff7c885ae15dd554fe17078cc87403e0bf2d",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/d4a0ff7c885ae15dd554fe17078cc87403e0bf2d"
+        }
+      ]
+    },
+    {
+      "sha": "d4a0ff7c885ae15dd554fe17078cc87403e0bf2d",
+      "node_id": "C_kwDOI9mMOtoAKGQ0YTBmZjdjODg1YWUxNWRkNTU0ZmUxNzA3OGNjODc0MDNlMGJmMmQ",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T02:03:15Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-04T02:03:15Z"
+        },
+        "message": "add augmented api with response, api without response and no api",
+        "tree": {
+          "sha": "121576108ae4369ab624c647fff881f405cc7346",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/121576108ae4369ab624c647fff881f405cc7346"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/d4a0ff7c885ae15dd554fe17078cc87403e0bf2d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/d4a0ff7c885ae15dd554fe17078cc87403e0bf2d",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/d4a0ff7c885ae15dd554fe17078cc87403e0bf2d",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/d4a0ff7c885ae15dd554fe17078cc87403e0bf2d/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe"
+        }
+      ]
+    },
+    {
+      "sha": "2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe",
+      "node_id": "C_kwDOI9mMOtoAKDJhNjdhYWE3OGRlNWU5ZDVjMDc0OTJjNmExMjBmZjk3ZDM4YTNiZmU",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T07:51:37Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T07:51:37Z"
+        },
+        "message": "refactor",
+        "tree": {
+          "sha": "725edf9ec8e492ae1d7e8403d41d76ea0a32c809",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/725edf9ec8e492ae1d7e8403d41d76ea0a32c809"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/2a67aaa78de5e9d5c07492c6a120ff97d38a3bfe/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "5d774bc3d895e88cce76b5c5b8d6e15400962401",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/5d774bc3d895e88cce76b5c5b8d6e15400962401",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/5d774bc3d895e88cce76b5c5b8d6e15400962401"
+        }
+      ]
+    },
+    {
+      "sha": "5d774bc3d895e88cce76b5c5b8d6e15400962401",
+      "node_id": "C_kwDOI9mMOtoAKDVkNzc0YmMzZDg5NWU4OGNjZTc2YjVjNWI4ZDZlMTU0MDA5NjI0MDE",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T07:41:21Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T07:41:21Z"
+        },
+        "message": "add bloom citation",
+        "tree": {
+          "sha": "8b684bcdec881a831b109be6d0136f2fbe8a3921",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/8b684bcdec881a831b109be6d0136f2fbe8a3921"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/5d774bc3d895e88cce76b5c5b8d6e15400962401",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/5d774bc3d895e88cce76b5c5b8d6e15400962401",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/5d774bc3d895e88cce76b5c5b8d6e15400962401",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/5d774bc3d895e88cce76b5c5b8d6e15400962401/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "334e24a1dbee4802dc2c82171bdfa33ffed67efc",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/334e24a1dbee4802dc2c82171bdfa33ffed67efc",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/334e24a1dbee4802dc2c82171bdfa33ffed67efc"
+        }
+      ]
+    },
+    {
+      "sha": "334e24a1dbee4802dc2c82171bdfa33ffed67efc",
+      "node_id": "C_kwDOI9mMOtoAKDMzNGUyNGExZGJlZTQ4MDJkYzJjODIxNzFiZGZhMzNmZmVkNjdlZmM",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T07:38:24Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T07:38:24Z"
+        },
+        "message": "add padding to conditioning_prompts & wolframe prompt",
+        "tree": {
+          "sha": "327c98793fc51d93b0a31d8285c01aa5d169203c",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/327c98793fc51d93b0a31d8285c01aa5d169203c"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/334e24a1dbee4802dc2c82171bdfa33ffed67efc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/334e24a1dbee4802dc2c82171bdfa33ffed67efc",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/334e24a1dbee4802dc2c82171bdfa33ffed67efc",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/334e24a1dbee4802dc2c82171bdfa33ffed67efc/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "db17481503aa5172918bafcc036a132d71e39d97",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/db17481503aa5172918bafcc036a132d71e39d97",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/db17481503aa5172918bafcc036a132d71e39d97"
+        }
+      ]
+    },
+    {
+      "sha": "db17481503aa5172918bafcc036a132d71e39d97",
+      "node_id": "C_kwDOI9mMOtoAKGRiMTc0ODE1MDNhYTUxNzI5MThiYWZjYzAzNmExMzJkNzFlMzlkOTc",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T06:59:16Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-03T06:59:16Z"
+        },
+        "message": "add executing api and conditioning prompt",
+        "tree": {
+          "sha": "04cc80975ba01096397e0f9ce6034e15b3c1104d",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/04cc80975ba01096397e0f9ce6034e15b3c1104d"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/db17481503aa5172918bafcc036a132d71e39d97",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/db17481503aa5172918bafcc036a132d71e39d97",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/db17481503aa5172918bafcc036a132d71e39d97",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/db17481503aa5172918bafcc036a132d71e39d97/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a8e87487f78eb1b37b01ffafef97eb55bb9e340e",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/a8e87487f78eb1b37b01ffafef97eb55bb9e340e",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/a8e87487f78eb1b37b01ffafef97eb55bb9e340e"
+        }
+      ]
+    },
+    {
+      "sha": "a8e87487f78eb1b37b01ffafef97eb55bb9e340e",
+      "node_id": "C_kwDOI9mMOtoAKGE4ZTg3NDg3Zjc4ZWIxYjM3YjAxZmZhZmVmOTdlYjU1YmI5ZTM0MGU",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T08:11:31Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T08:11:31Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "518d5c952ecd3f1b1fdfd8a61e58e62b6bb428d4",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/518d5c952ecd3f1b1fdfd8a61e58e62b6bb428d4"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/a8e87487f78eb1b37b01ffafef97eb55bb9e340e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/a8e87487f78eb1b37b01ffafef97eb55bb9e340e",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/a8e87487f78eb1b37b01ffafef97eb55bb9e340e",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/a8e87487f78eb1b37b01ffafef97eb55bb9e340e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "6df62b05d8d95f6e0a1eba452274b42c4fe02eb4",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/6df62b05d8d95f6e0a1eba452274b42c4fe02eb4",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/6df62b05d8d95f6e0a1eba452274b42c4fe02eb4"
+        }
+      ]
+    },
+    {
+      "sha": "6df62b05d8d95f6e0a1eba452274b42c4fe02eb4",
+      "node_id": "C_kwDOI9mMOtoAKDZkZjYyYjA1ZDhkOTVmNmUwYTFlYmE0NTIyNzRiNDJjNGZlMDJlYjQ",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T08:11:10Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T08:11:10Z"
+        },
+        "message": "fix link",
+        "tree": {
+          "sha": "fd708fa9283d73d1c324fa0b26a3df24fc0757b5",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/fd708fa9283d73d1c324fa0b26a3df24fc0757b5"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/6df62b05d8d95f6e0a1eba452274b42c4fe02eb4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/6df62b05d8d95f6e0a1eba452274b42c4fe02eb4",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/6df62b05d8d95f6e0a1eba452274b42c4fe02eb4",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/6df62b05d8d95f6e0a1eba452274b42c4fe02eb4/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a7395ef6f368635a1c312a967a66148e65a81de6",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/a7395ef6f368635a1c312a967a66148e65a81de6",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/a7395ef6f368635a1c312a967a66148e65a81de6"
+        }
+      ]
+    },
+    {
+      "sha": "a7395ef6f368635a1c312a967a66148e65a81de6",
+      "node_id": "C_kwDOI9mMOtoAKGE3Mzk1ZWY2ZjM2ODYzNWExYzMxMmE5NjdhNjYxNDhlNjVhODFkZTY",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:20:20Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:20:20Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "e6ba87b2a52036f0115c7461bc0d2065dd0fc4b9",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/e6ba87b2a52036f0115c7461bc0d2065dd0fc4b9"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/a7395ef6f368635a1c312a967a66148e65a81de6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/a7395ef6f368635a1c312a967a66148e65a81de6",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/a7395ef6f368635a1c312a967a66148e65a81de6",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/a7395ef6f368635a1c312a967a66148e65a81de6/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738"
+        }
+      ]
+    },
+    {
+      "sha": "5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738",
+      "node_id": "C_kwDOI9mMOtoAKDVkZGJjZmI3YzVhNDEwZWQxZGEyZDY3YWExMzBlYzNhNmEzYTg3Mzg",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:19:39Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:19:39Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "1ac1887692a27361eb8a878ce2c5ec27aa2c1124",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/1ac1887692a27361eb8a878ce2c5ec27aa2c1124"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/5ddbcfb7c5a410ed1da2d67aa130ec3a6a3a8738/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "3b05be4004d531cf286dff5b6f476792628ace7f",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/3b05be4004d531cf286dff5b6f476792628ace7f",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/3b05be4004d531cf286dff5b6f476792628ace7f"
+        }
+      ]
+    },
+    {
+      "sha": "3b05be4004d531cf286dff5b6f476792628ace7f",
+      "node_id": "C_kwDOI9mMOtoAKDNiMDViZTQwMDRkNTMxY2YyODZkZmY1YjZmNDc2NzkyNjI4YWNlN2Y",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:15:56Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:15:56Z"
+        },
+        "message": "remove unnecessary",
+        "tree": {
+          "sha": "22efbf9a808bba2d475a60d595523b0b5a100ebf",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/22efbf9a808bba2d475a60d595523b0b5a100ebf"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/3b05be4004d531cf286dff5b6f476792628ace7f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/3b05be4004d531cf286dff5b6f476792628ace7f",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/3b05be4004d531cf286dff5b6f476792628ace7f",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/3b05be4004d531cf286dff5b6f476792628ace7f/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "35cbf16d72a36cce4af69cf2115a378bb088c35f",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/35cbf16d72a36cce4af69cf2115a378bb088c35f",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/35cbf16d72a36cce4af69cf2115a378bb088c35f"
+        }
+      ]
+    },
+    {
+      "sha": "35cbf16d72a36cce4af69cf2115a378bb088c35f",
+      "node_id": "C_kwDOI9mMOtoAKDM1Y2JmMTZkNzJhMzZjY2U0YWY2OWNmMjExNWEzNzhiYjA4OGMzNWY",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:12:48Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:12:48Z"
+        },
+        "message": "add citations",
+        "tree": {
+          "sha": "25550fa832d5c8b98f8b1639551289c8d7bf86a8",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/25550fa832d5c8b98f8b1639551289c8d7bf86a8"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/35cbf16d72a36cce4af69cf2115a378bb088c35f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/35cbf16d72a36cce4af69cf2115a378bb088c35f",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/35cbf16d72a36cce4af69cf2115a378bb088c35f",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/35cbf16d72a36cce4af69cf2115a378bb088c35f/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "c09c07342bd6bf72175e2bba900dfb20fd59e920",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/c09c07342bd6bf72175e2bba900dfb20fd59e920",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/c09c07342bd6bf72175e2bba900dfb20fd59e920"
+        }
+      ]
+    },
+    {
+      "sha": "c09c07342bd6bf72175e2bba900dfb20fd59e920",
+      "node_id": "C_kwDOI9mMOtoAKGMwOWMwNzM0MmJkNmJmNzIxNzVlMmJiYTkwMGRmYjIwZmQ1OWU5MjA",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:09:57Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T07:09:57Z"
+        },
+        "message": "add generate api candidates",
+        "tree": {
+          "sha": "7c02bfef6c43285cb4876342f6e5d718dde9cb24",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/7c02bfef6c43285cb4876342f6e5d718dde9cb24"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/c09c07342bd6bf72175e2bba900dfb20fd59e920",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/c09c07342bd6bf72175e2bba900dfb20fd59e920",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/c09c07342bd6bf72175e2bba900dfb20fd59e920",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/c09c07342bd6bf72175e2bba900dfb20fd59e920/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "14bcc313d5d2297fb8404f326fe0115a48b9d007",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/14bcc313d5d2297fb8404f326fe0115a48b9d007",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/14bcc313d5d2297fb8404f326fe0115a48b9d007"
+        }
+      ]
+    },
+    {
+      "sha": "14bcc313d5d2297fb8404f326fe0115a48b9d007",
+      "node_id": "C_kwDOI9mMOtoAKDE0YmNjMzEzZDVkMjI5N2ZiODQwNGYzMjZmZTAxMTVhNDhiOWQwMDc",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T05:32:57Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T05:32:57Z"
+        },
+        "message": "refactor",
+        "tree": {
+          "sha": "32804a766dce43b8d10a4a317c038f9db32ea348",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/32804a766dce43b8d10a4a317c038f9db32ea348"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/14bcc313d5d2297fb8404f326fe0115a48b9d007",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/14bcc313d5d2297fb8404f326fe0115a48b9d007",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/14bcc313d5d2297fb8404f326fe0115a48b9d007",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/14bcc313d5d2297fb8404f326fe0115a48b9d007/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "1c05a49881b0e2e43f3af8577758ef3d56ad3e27",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/1c05a49881b0e2e43f3af8577758ef3d56ad3e27",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/1c05a49881b0e2e43f3af8577758ef3d56ad3e27"
+        }
+      ]
+    },
+    {
+      "sha": "1c05a49881b0e2e43f3af8577758ef3d56ad3e27",
+      "node_id": "C_kwDOI9mMOtoAKDFjMDVhNDk4ODFiMGUyZTQzZjNhZjg1Nzc3NThlZjNkNTZhZDNlMjc",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T05:23:48Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T05:23:48Z"
+        },
+        "message": "fix sampling",
+        "tree": {
+          "sha": "6955d3c51bb66020d9b4be36db8bbc1e426b655f",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/6955d3c51bb66020d9b4be36db8bbc1e426b655f"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/1c05a49881b0e2e43f3af8577758ef3d56ad3e27",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/1c05a49881b0e2e43f3af8577758ef3d56ad3e27",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/1c05a49881b0e2e43f3af8577758ef3d56ad3e27",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/1c05a49881b0e2e43f3af8577758ef3d56ad3e27/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "ca1ecb1e09757dc16e825ebd805651f91456bac4",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/ca1ecb1e09757dc16e825ebd805651f91456bac4",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/ca1ecb1e09757dc16e825ebd805651f91456bac4"
+        }
+      ]
+    },
+    {
+      "sha": "ca1ecb1e09757dc16e825ebd805651f91456bac4",
+      "node_id": "C_kwDOI9mMOtoAKGNhMWVjYjFlMDk3NTdkYzE2ZTgyNWViZDgwNTY1MWY5MTQ1NmJhYzQ",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T03:52:35Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T03:52:35Z"
+        },
+        "message": "ignore .DS_Store",
+        "tree": {
+          "sha": "7390634012ee1d08e4a8b00345920762bd248078",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/7390634012ee1d08e4a8b00345920762bd248078"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/ca1ecb1e09757dc16e825ebd805651f91456bac4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/ca1ecb1e09757dc16e825ebd805651f91456bac4",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/ca1ecb1e09757dc16e825ebd805651f91456bac4",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/ca1ecb1e09757dc16e825ebd805651f91456bac4/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "4e1647e6b64c95145199e0d8123d7638c9c82d81",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/4e1647e6b64c95145199e0d8123d7638c9c82d81",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/4e1647e6b64c95145199e0d8123d7638c9c82d81"
+        }
+      ]
+    },
+    {
+      "sha": "4e1647e6b64c95145199e0d8123d7638c9c82d81",
+      "node_id": "C_kwDOI9mMOtoAKDRlMTY0N2U2YjY0Yzk1MTQ1MTk5ZTBkODEyM2Q3NjM4YzljODJkODE",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T03:51:38Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T03:51:38Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "23bef93a2e1eeabd2929f0b10acd8d59b369dbc5",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/23bef93a2e1eeabd2929f0b10acd8d59b369dbc5"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/4e1647e6b64c95145199e0d8123d7638c9c82d81",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/4e1647e6b64c95145199e0d8123d7638c9c82d81",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/4e1647e6b64c95145199e0d8123d7638c9c82d81",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/4e1647e6b64c95145199e0d8123d7638c9c82d81/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "13275c8801f07e41784532f81c6d1a888f572bf2",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/13275c8801f07e41784532f81c6d1a888f572bf2",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/13275c8801f07e41784532f81c6d1a888f572bf2"
+        }
+      ]
+    },
+    {
+      "sha": "13275c8801f07e41784532f81c6d1a888f572bf2",
+      "node_id": "C_kwDOI9mMOtoAKDEzMjc1Yzg4MDFmMDdlNDE3ODQ1MzJmODFjNmQxYTg4OGY1NzJiZjI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T03:49:56Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-02T03:49:56Z"
+        },
+        "message": "add 1/2 sampling API",
+        "tree": {
+          "sha": "42d568d22539c0941be1884ea3884df42e4f8617",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/42d568d22539c0941be1884ea3884df42e4f8617"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/13275c8801f07e41784532f81c6d1a888f572bf2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/13275c8801f07e41784532f81c6d1a888f572bf2",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/13275c8801f07e41784532f81c6d1a888f572bf2",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/13275c8801f07e41784532f81c6d1a888f572bf2/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "c3337c2209439aa6b6b4748e8fbc3f88d673775b",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/c3337c2209439aa6b6b4748e8fbc3f88d673775b",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/c3337c2209439aa6b6b4748e8fbc3f88d673775b"
+        }
+      ]
+    },
+    {
+      "sha": "c3337c2209439aa6b6b4748e8fbc3f88d673775b",
+      "node_id": "C_kwDOI9mMOtoAKGMzMzM3YzIyMDk0MzlhYTZiNmI0NzQ4ZThmYmMzZjg4ZDY3Mzc3NWI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T06:40:14Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T06:40:14Z"
+        },
+        "message": "fix api and add test for DataGenerator",
+        "tree": {
+          "sha": "5eb410b09d54ce5e8d0616f2360f2d2415e91ed1",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/5eb410b09d54ce5e8d0616f2360f2d2415e91ed1"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/c3337c2209439aa6b6b4748e8fbc3f88d673775b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/c3337c2209439aa6b6b4748e8fbc3f88d673775b",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/c3337c2209439aa6b6b4748e8fbc3f88d673775b",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/c3337c2209439aa6b6b4748e8fbc3f88d673775b/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "060ce45e66f15cccae1b4736a21bf0e7c40288e6",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/060ce45e66f15cccae1b4736a21bf0e7c40288e6",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/060ce45e66f15cccae1b4736a21bf0e7c40288e6"
+        }
+      ]
+    },
+    {
+      "sha": "060ce45e66f15cccae1b4736a21bf0e7c40288e6",
+      "node_id": "C_kwDOI9mMOtoAKDA2MGNlNDVlNjZmMTVjY2NhZTFiNDczNmEyMWJmMGU3YzQwMjg4ZTY",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:55:33Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:55:33Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "722eb94513654431c3349fc9c711f5a046f30c13",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/722eb94513654431c3349fc9c711f5a046f30c13"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/060ce45e66f15cccae1b4736a21bf0e7c40288e6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/060ce45e66f15cccae1b4736a21bf0e7c40288e6",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/060ce45e66f15cccae1b4736a21bf0e7c40288e6",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/060ce45e66f15cccae1b4736a21bf0e7c40288e6/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea"
+        }
+      ]
+    },
+    {
+      "sha": "89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea",
+      "node_id": "C_kwDOI9mMOtoAKDg5ODY4YTFjNTg4ZjBjYjVlMDYzNWU3YzcxMGU5ZTFiZDdiZDY2ZWE",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:55:16Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:55:16Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "0a264c15b293ff90977ef059ca836bf116c26f41",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/0a264c15b293ff90977ef059ca836bf116c26f41"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/89868a1c588f0cb5e0635e7c710e9e1bd7bd66ea/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "bd7d0744d76fbe939e9987c09a065ac2dd58366d",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/bd7d0744d76fbe939e9987c09a065ac2dd58366d",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/bd7d0744d76fbe939e9987c09a065ac2dd58366d"
+        }
+      ]
+    },
+    {
+      "sha": "bd7d0744d76fbe939e9987c09a065ac2dd58366d",
+      "node_id": "C_kwDOI9mMOtoAKGJkN2QwNzQ0ZDc2ZmJlOTM5ZTk5ODdjMDlhMDY1YWMyZGQ1ODM2NmQ",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:52:40Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:52:40Z"
+        },
+        "message": "clean & add git ignore",
+        "tree": {
+          "sha": "f3f7212908324689f30c35053f067201b3e8b90b",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/f3f7212908324689f30c35053f067201b3e8b90b"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/bd7d0744d76fbe939e9987c09a065ac2dd58366d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/bd7d0744d76fbe939e9987c09a065ac2dd58366d",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/bd7d0744d76fbe939e9987c09a065ac2dd58366d",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/bd7d0744d76fbe939e9987c09a065ac2dd58366d/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "6355badd8ceceeabd48f8e19559a0ca11e8a436c",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/6355badd8ceceeabd48f8e19559a0ca11e8a436c",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/6355badd8ceceeabd48f8e19559a0ca11e8a436c"
+        }
+      ]
+    },
+    {
+      "sha": "6355badd8ceceeabd48f8e19559a0ca11e8a436c",
+      "node_id": "C_kwDOI9mMOtoAKDYzNTViYWRkOGNlY2VlYWJkNDhmOGUxOTU1OWEwY2ExMWU4YTQzNmM",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:51:24Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-03-01T05:51:24Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "8be40a16ea9ac75d20aa3645fefd7215b9c7009a",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/8be40a16ea9ac75d20aa3645fefd7215b9c7009a"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/6355badd8ceceeabd48f8e19559a0ca11e8a436c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/6355badd8ceceeabd48f8e19559a0ca11e8a436c",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/6355badd8ceceeabd48f8e19559a0ca11e8a436c",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/6355badd8ceceeabd48f8e19559a0ca11e8a436c/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "f90cecb24327f9fdab7b42a755e20a04157ce19b",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/f90cecb24327f9fdab7b42a755e20a04157ce19b",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/f90cecb24327f9fdab7b42a755e20a04157ce19b"
+        }
+      ]
+    },
+    {
+      "sha": "f90cecb24327f9fdab7b42a755e20a04157ce19b",
+      "node_id": "C_kwDOI9mMOtoAKGY5MGNlY2IyNDMyN2Y5ZmRhYjdiNDJhNzU1ZTIwYTA0MTU3Y2UxOWI",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-02-27T05:59:01Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-02-27T05:59:01Z"
+        },
+        "message": "add calculator api",
+        "tree": {
+          "sha": "5701860e959304c12911ee03bb4a52df73bd5c6f",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/5701860e959304c12911ee03bb4a52df73bd5c6f"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/f90cecb24327f9fdab7b42a755e20a04157ce19b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/f90cecb24327f9fdab7b42a755e20a04157ce19b",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/f90cecb24327f9fdab7b42a755e20a04157ce19b",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/f90cecb24327f9fdab7b42a755e20a04157ce19b/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "b6627712e6951c3a6bb607d13ca1109adeee9954",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/b6627712e6951c3a6bb607d13ca1109adeee9954",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/b6627712e6951c3a6bb607d13ca1109adeee9954"
+        }
+      ]
+    },
+    {
+      "sha": "b6627712e6951c3a6bb607d13ca1109adeee9954",
+      "node_id": "C_kwDOI9mMOtoAKGI2NjI3NzEyZTY5NTFjM2E2YmI2MDdkMTNjYTExMDlhZGVlZTk5NTQ",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-02-15T05:37:07Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-02-15T05:37:07Z"
+        },
+        "message": "bias",
+        "tree": {
+          "sha": "0ed69d85c451703a6979762c41d292359c938da4",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/0ed69d85c451703a6979762c41d292359c938da4"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/b6627712e6951c3a6bb607d13ca1109adeee9954",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/b6627712e6951c3a6bb607d13ca1109adeee9954",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/b6627712e6951c3a6bb607d13ca1109adeee9954",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/b6627712e6951c3a6bb607d13ca1109adeee9954/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "1fea5d2ed88fd20a034483a9080a0a2441bf2661",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/1fea5d2ed88fd20a034483a9080a0a2441bf2661",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/1fea5d2ed88fd20a034483a9080a0a2441bf2661"
+        }
+      ]
+    },
+    {
+      "sha": "1fea5d2ed88fd20a034483a9080a0a2441bf2661",
+      "node_id": "C_kwDOI9mMOtoAKDFmZWE1ZDJlZDg4ZmQyMGEwMzQ0ODNhOTA4MGEwYTI0NDFiZjI2NjE",
+      "commit": {
+        "author": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-02-15T05:13:42Z"
+        },
+        "committer": {
+          "name": "xrsrke",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-02-15T05:13:42Z"
+        },
+        "message": "init nbdev",
+        "tree": {
+          "sha": "4a5cd44720bd472d5cbf54b11dea4a69247043fa",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/4a5cd44720bd472d5cbf54b11dea4a69247043fa"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/1fea5d2ed88fd20a034483a9080a0a2441bf2661",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/1fea5d2ed88fd20a034483a9080a0a2441bf2661",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/1fea5d2ed88fd20a034483a9080a0a2441bf2661",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/1fea5d2ed88fd20a034483a9080a0a2441bf2661/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "bac54198aa4789227d7255374423e3618ad028f2",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/commits/bac54198aa4789227d7255374423e3618ad028f2",
+          "html_url": "https://github.com/xrsrke/toolformer/commit/bac54198aa4789227d7255374423e3618ad028f2"
+        }
+      ]
+    },
+    {
+      "sha": "bac54198aa4789227d7255374423e3618ad028f2",
+      "node_id": "C_kwDOI9mMOtoAKGJhYzU0MTk4YWE0Nzg5MjI3ZDcyNTUzNzQ0MjNlMzYxOGFkMDI4ZjI",
+      "commit": {
+        "author": {
+          "name": "XλRI-U5",
+          "email": "xariusdrake@hotmail.com",
+          "date": "2023-02-14T05:27:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-02-14T05:27:22Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "00741a9c4efdd424ebcdf0fc4b54f1265dd8d990",
+          "url": "https://api.github.com/repos/xrsrke/toolformer/git/trees/00741a9c4efdd424ebcdf0fc4b54f1265dd8d990"
+        },
+        "url": "https://api.github.com/repos/xrsrke/toolformer/git/commits/bac54198aa4789227d7255374423e3618ad028f2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj6xu6CRBK7hj4Ov3rIwAASDkIADk2u6enli/+JWpLaSKYq65l\nXFt+17riIb23qFT8WMGXI/JX/02q3eJYii5JNi1Ehq7Y+bopkKBCbzzBanFfgbYa\nRgWrJtBH7FVsI5osTY4dfPsf1tEzANgy+uEX7Cif1mREjbFul3CrgR5yeaAswvSM\nKRXr933e36kdmMMv4HDDxsbjeXWzUf68vgVBmCRvxgCEw3nDv7xXJlrIMPwTNNta\n6gbs4a6YLW/B2D2o/CdRosYzaWEMBp7tKWbuX1z5VKzP4+1/CtHBmvQvIwIi9CM3\nrKAEhoC99odTiyJVatJE4c8vTCIuW+Az1aHiDra2mdY3BhFunpyovZ0bldNCsqI=\n=3lVx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 00741a9c4efdd424ebcdf0fc4b54f1265dd8d990\nauthor XλRI-U5 <xariusdrake@hotmail.com> 1676352442 +0700\ncommitter GitHub <noreply@github.com> 1676352442 +0700\n\nInitial commit",
+          "verified_at": "2024-11-06T17:07:57Z"
+        }
+      },
+      "url": "https://api.github.com/repos/xrsrke/toolformer/commits/bac54198aa4789227d7255374423e3618ad028f2",
+      "html_url": "https://github.com/xrsrke/toolformer/commit/bac54198aa4789227d7255374423e3618ad028f2",
+      "comments_url": "https://api.github.com/repos/xrsrke/toolformer/commits/bac54198aa4789227d7255374423e3618ad028f2/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [],
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/xrsrke/toolformer/releases/98143197",
+      "assets_url": "https://api.github.com/repos/xrsrke/toolformer/releases/98143197/assets",
+      "upload_url": "https://uploads.github.com/repos/xrsrke/toolformer/releases/98143197/assets{?name,label}",
+      "html_url": "https://github.com/xrsrke/toolformer/releases/tag/0.0.4",
+      "id": 98143197,
+      "author": {
+        "login": "xrsrke",
+        "id": 22252984,
+        "node_id": "MDQ6VXNlcjIyMjUyOTg0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22252984?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xrsrke",
+        "html_url": "https://github.com/xrsrke",
+        "followers_url": "https://api.github.com/users/xrsrke/followers",
+        "following_url": "https://api.github.com/users/xrsrke/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xrsrke/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xrsrke/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xrsrke/subscriptions",
+        "organizations_url": "https://api.github.com/users/xrsrke/orgs",
+        "repos_url": "https://api.github.com/users/xrsrke/repos",
+        "events_url": "https://api.github.com/users/xrsrke/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xrsrke/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOI9mMOs4F2Yvd",
+      "tag_name": "0.0.4",
+      "target_commitish": "main",
+      "name": "V0.0.4",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-04-05T06:20:12Z",
+      "updated_at": "2023-04-05T06:21:20Z",
+      "published_at": "2023-04-05T06:21:20Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/xrsrke/toolformer/tarball/0.0.4",
+      "zipball_url": "https://api.github.com/repos/xrsrke/toolformer/zipball/0.0.4",
+      "body": "Added inference!! "
+    },
+    {
+      "url": "https://api.github.com/repos/xrsrke/toolformer/releases/97792640",
+      "assets_url": "https://api.github.com/repos/xrsrke/toolformer/releases/97792640/assets",
+      "upload_url": "https://uploads.github.com/repos/xrsrke/toolformer/releases/97792640/assets{?name,label}",
+      "html_url": "https://github.com/xrsrke/toolformer/releases/tag/0.0.3",
+      "id": 97792640,
+      "author": {
+        "login": "xrsrke",
+        "id": 22252984,
+        "node_id": "MDQ6VXNlcjIyMjUyOTg0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22252984?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xrsrke",
+        "html_url": "https://github.com/xrsrke",
+        "followers_url": "https://api.github.com/users/xrsrke/followers",
+        "following_url": "https://api.github.com/users/xrsrke/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xrsrke/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xrsrke/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xrsrke/subscriptions",
+        "organizations_url": "https://api.github.com/users/xrsrke/orgs",
+        "repos_url": "https://api.github.com/users/xrsrke/repos",
+        "events_url": "https://api.github.com/users/xrsrke/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xrsrke/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOI9mMOs4F1DKA",
+      "tag_name": "0.0.3",
+      "target_commitish": "main",
+      "name": "V0.0.3",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-04-03T03:59:27Z",
+      "updated_at": "2023-04-03T04:00:03Z",
+      "published_at": "2023-04-03T04:00:03Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/xrsrke/toolformer/tarball/0.0.3",
+      "zipball_url": "https://api.github.com/repos/xrsrke/toolformer/zipball/0.0.3",
+      "body": "Fixed more bugs!",
+      "reactions": {
+        "url": "https://api.github.com/repos/xrsrke/toolformer/releases/97792640/reactions",
+        "total_count": 1,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 1,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      }
+    },
+    {
+      "url": "https://api.github.com/repos/xrsrke/toolformer/releases/95657096",
+      "assets_url": "https://api.github.com/repos/xrsrke/toolformer/releases/95657096/assets",
+      "upload_url": "https://uploads.github.com/repos/xrsrke/toolformer/releases/95657096/assets{?name,label}",
+      "html_url": "https://github.com/xrsrke/toolformer/releases/tag/release",
+      "id": 95657096,
+      "author": {
+        "login": "xrsrke",
+        "id": 22252984,
+        "node_id": "MDQ6VXNlcjIyMjUyOTg0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22252984?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/xrsrke",
+        "html_url": "https://github.com/xrsrke",
+        "followers_url": "https://api.github.com/users/xrsrke/followers",
+        "following_url": "https://api.github.com/users/xrsrke/following{/other_user}",
+        "gists_url": "https://api.github.com/users/xrsrke/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/xrsrke/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/xrsrke/subscriptions",
+        "organizations_url": "https://api.github.com/users/xrsrke/orgs",
+        "repos_url": "https://api.github.com/users/xrsrke/repos",
+        "events_url": "https://api.github.com/users/xrsrke/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/xrsrke/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOI9mMOs4Fs5yI",
+      "tag_name": "release",
+      "target_commitish": "main",
+      "name": "V0.0.2",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-03-15T05:25:47Z",
+      "updated_at": "2023-03-15T07:00:38Z",
+      "published_at": "2023-03-15T07:00:38Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/xrsrke/toolformer/tarball/release",
+      "zipball_url": "https://api.github.com/repos/xrsrke/toolformer/zipball/release",
+      "body": "This is the first stable release",
+      "reactions": {
+        "url": "https://api.github.com/repos/xrsrke/toolformer/releases/95657096/reactions",
+        "total_count": 2,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 2,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      }
+    }
+  ],
+  "languages": {
+    "Jupyter Notebook": 761401,
+    "Python": 44309,
+    "CSS": 600
+  },
+  "readme_html": "<h1 id=\"user-content-️-toolformer-pytorch\">🛠️ ToolFormer (Pytorch)</h1>\n<p><a href=\"https://github.com/xrsrke/toolformer\"></a>\n<a href=\"https://github.com/xrsrke/toolformer\"><img src=\"https://github.com/vwxyzjn/cleanrl/actions/workflows/tests.yaml/badge.svg\" alt=\"tests\"></a>\n<a href=\"https://colab.research.google.com/drive/1zKscWqwnXrpSllY-dZKR4ZsMfSbPsl-s?usp=sharing\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In\nColab\"></a></p>\n<p><img src=\"https://raw.githubusercontent.com/xrsrke/toolformer/main/index_files/figure-commonmark/08f39f23-1-image.png\" alt=\"image.png\"></p>\n<p>Paper: <a href=\"https://arxiv.org/abs/2302.04761\">Toolformer: Language Models Can Teach Themselves to Use\nTools</a></p>\n<p><strong>I’m implementing ToolFormer on stream. Wanna watch it in action? Go:\n<a href=\"https://twitch.tv/xrsrke\">twitch.tv/xrsrke</a></strong></p>\n<h3 id=\"user-content-todo\">TODO</h3>\n<ul class=\"contains-task-list\">\n<li>✅ Augment data with batch size 1 :)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Support agument a batch of text</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Execute API calls in parallel</li>\n<li>✅ Inference with batch size 1 :)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Inference with batch size more than 1 :)</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Support Data Generation to GPU</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Add 🤗 Accelerate</li>\n</ul>\n<p><strong>API</strong></p>\n<ul>\n<li>✅ Support add custom API</li>\n<li>✅ Calculator API</li>\n<li>✅ WolframeAlpha API</li>\n</ul>\n<h3 id=\"user-content-install\">Install</h3>\n<p>Install from PipPy</p>\n<pre><code class=\"language-sh\">pip install toolformer\n</code></pre>\n<p>Install directly from the source code</p>\n<pre><code class=\"language-sh\">git clone https://github.com/xrsrke/toolformer.git\ncd toolformer\npip install -e .\n</code></pre>\n<h3 id=\"user-content--data-generation\">🤖 Data Generation</h3>\n<pre><code class=\"language-python\">from transformers import AutoModelForCausalLM, AutoTokenizer\n\nfrom toolformer.data_generator import DataGenerator\nfrom toolformer.api import CalculatorAPI\nfrom toolformer.prompt import calculator_prompt\nfrom toolformer.utils import yaml2dict\n</code></pre>\n<pre><code class=\"language-python\">config = yaml2dict('../configs/default.yaml')\ncalculator_api = CalculatorAPI(\n    \"Calculator\", calculator_prompt,\n    sampling_threshold=0.2, filtering_threshold=0.2\n)\n\nmodel = AutoModelForCausalLM.from_pretrained(\"bigscience/bloom-560m\")\ntokenizer = AutoTokenizer.from_pretrained(\"bigscience/bloom-560m\")\n</code></pre>\n<pre><code class=\"language-python\">text = \"From this, we have 10 - 5 minutes = 5 minutes.\"\napis = [calculator_api]\ngenerator = DataGenerator(config, model, tokenizer, apis=apis)\n</code></pre>\n<pre><code class=\"language-python\">augumented_text_ids = generator.generate(text)\n</code></pre>\n<pre><code class=\"language-python\">print(tokenizer.decode(augumented_text_ids[0][0], skip_special_tokens=True))\n</code></pre>\n<pre><code>From this, we have 10 - 5 minutes = [Calculator(10 - 5)] 5 minutes.\n</code></pre>\n<h3 id=\"user-content-add-a-custom-api\">Add a Custom API?</h3>\n<p>First, you need to add a new API.</p>\n<pre><code class=\"language-python\">from toolformer.api import BaseAPI\n\nclass WikiSearchAPI(BaseAPI):\n    def execute(self, text):\n        # your custom api endpoint or whatever\n        output = YourCustomAPIEndPoint(text)\n        return output\n</code></pre>\n<p>Then, create a new prompt template following the form. That’s all!</p>\n<pre><code class=\"language-python\">from toolformer.prompt import calculator_prompt\nprint(calculator_prompt)\n</code></pre>\n<pre><code>Your task is to add calls to a Calculator API to a piece of text. The API call should help you get information required to complete the text. \n\nYou can call the API by writing \"Calculator(operation)!\" where \"operation\" is the type of calculation you want to perform. Here are some examples of API calls:\n\nInput: John has 5 apples and his friend gave him 3 more. John now has 8 apples.\nOuput: John has 5 apples and his friend gave him 3 more. John now has [Calculator(\"5 + 3\")] 8 apples.\n\nInput: Jane needs to divide 24 pieces of candy equally among 6 kids. Each kid will get 4 pieces of candy.\nOutput: Jane needs to divide 24 pieces of candy equally among 6 kids. Each kid will get [Calculator(24 / 6)] 4 pieces of candy.\n\nInput: From this, we have 4 * 30 minutes = 120 minutes.\nOutput: From this, we have 4 * 30 minutes = [Calculator(4 * 30)] 120 minutes.\n\nInput: {input}\nOutput:\n</code></pre>\n<h3 id=\"user-content-resources\">Resources</h3>\n<p>Here’re resources that i used to implement this</p>\n<ul>\n<li>How to sampling APIs call: <a href=\"https://www.youtube.com/live/RLcr4bqGsEQ\">https://www.youtube.com/live/RLcr4bqGsEQ</a></li>\n<li>How to calculate the loss: <a href=\"https://youtu.be/lQI9S5ngfHQ\">https://youtu.be/lQI9S5ngfHQ</a></li>\n</ul>\n<h3 id=\"user-content-citations\">Citations</h3>\n<pre><code class=\"language-bibtex\">@inproceedings{Schick2023ToolformerLM,\n    title   = {Toolformer: Language Models Can Teach Themselves to Use Tools},\n    author  = {Timo Schick and Jane Dwivedi-Yu and Roberto Dessi and Roberta Raileanu and Maria Lomeli and Luke Zettlemoyer and Nicola Cancedda and Thomas Scialom},\n    year    = {2023}\n}\n</code></pre>\n<pre><code class=\"language-bibtex\">@misc{https://doi.org/10.48550/arxiv.2211.05100,\n  title = {BLOOM: A 176B-Parameter Open-Access Multilingual Language Model},  \n  author = {Workshop, BigScience and {:} and Scao, Teven Le and Fan, Angela and Akiki, Christopher and Pavlick, Ellie and Ilić, Suzana and Hesslow, Daniel and Castagné, Roman and Luccioni, Alexandra Sasha and Yvon, François and Gallé, Matthias and Tow, Jonathan and Rush, Alexander M. and Biderman, Stella and Webson, Albert and Ammanamanchi, Pawan Sasanka and Wang, Thomas and Sagot, Benoît and Muennighoff, Niklas and del Moral, Albert Villanova and Ruwase, Olatunji and Bawden, Rachel and Bekman, Stas and McMillan-Major, Angelina and Beltagy, Iz and Nguyen, Huu and Saulnier, Lucile and Tan, Samson and Suarez, Pedro Ortiz and Sanh, Victor and Laurençon, Hugo and Jernite, Yacine and Launay, Julien and Mitchell, Margaret and Raffel, Colin and Gokaslan, Aaron and Simhi, Adi and Soroa, Aitor and Aji, Alham Fikri and Alfassy, Amit and Rogers, Anna and Nitzav, Ariel Kreisberg and Xu, Canwen and Mou, Chenghao and Emezue, Chris and Klamm, Christopher and Leong, Colin and van Strien, Daniel and Adelani, David Ifeoluwa and Radev, Dragomir and Ponferrada, Eduardo González and Levkovizh, Efrat and Kim, Ethan and Natan, Eyal Bar and De Toni, Francesco and Dupont, Gérard and Kruszewski, Germán and Pistilli, Giada and Elsahar, Hady and Benyamina, Hamza and Tran, Hieu and Yu, Ian and Abdulmumin, Idris and Johnson, Isaac and Gonzalez-Dios, Itziar and de la Rosa, Javier and Chim, Jenny and Dodge, Jesse and Zhu, Jian and Chang, Jonathan and Frohberg, Jörg and Tobing, Joseph and Bhattacharjee, Joydeep and Almubarak, Khalid and Chen, Kimbo and Lo, Kyle and Von Werra, Leandro and Weber, Leon and Phan, Long and allal, Loubna Ben and Tanguy, Ludovic and Dey, Manan and Muñoz, Manuel Romero and Masoud, Maraim and Grandury, María and Šaško, Mario and Huang, Max and Coavoux, Maximin and Singh, Mayank and Jiang, Mike Tian-Jian and Vu, Minh Chien and Jauhar, Mohammad A. and Ghaleb, Mustafa and Subramani, Nishant and Kassner, Nora and Khamis, Nurulaqilla and Nguyen, Olivier and Espejel, Omar and de Gibert, Ona and Villegas, Paulo and Henderson, Peter and Colombo, Pierre and Amuok, Priscilla and Lhoest, Quentin and Harliman, Rheza and Bommasani, Rishi and López, Roberto Luis and Ribeiro, Rui and Osei, Salomey and Pyysalo, Sampo and Nagel, Sebastian and Bose, Shamik and Muhammad, Shamsuddeen Hassan and Sharma, Shanya and Longpre, Shayne and Nikpoor, Somaieh and Silberberg, Stanislav and Pai, Suhas and Zink, Sydney and Torrent, Tiago Timponi and Schick, Timo and Thrush, Tristan and Danchev, Valentin and Nikoulina, Vassilina and Laippala, Veronika and Lepercq, Violette and Prabhu, Vrinda and Alyafeai, Zaid and Talat, Zeerak and Raja, Arun and Heinzerling, Benjamin and Si, Chenglei and Taşar, Davut Emre and Salesky, Elizabeth and Mielke, Sabrina J. and Lee, Wilson Y. and Sharma, Abheesht and Santilli, Andrea and Chaffin, Antoine and Stiegler, Arnaud and Datta, Debajyoti and Szczechla, Eliza and Chhablani, Gunjan and Wang, Han and Pandey, Harshit and Strobelt, Hendrik and Fries, Jason Alan and Rozen, Jos and Gao, Leo and Sutawika, Lintang and Bari, M Saiful and Al-shaibani, Maged S. and Manica, Matteo and Nayak, Nihal and Teehan, Ryan and Albanie, Samuel and Shen, Sheng and Ben-David, Srulik and Bach, Stephen H. and Kim, Taewoon and Bers, Tali and Fevry, Thibault and Neeraj, Trishala and Thakker, Urmish and Raunak, Vikas and Tang, Xiangru and Yong, Zheng-Xin and Sun, Zhiqing and Brody, Shaked and Uri, Yallow and Tojarieh, Hadar and Roberts, Adam and Chung, Hyung Won and Tae, Jaesung and Phang, Jason and Press, Ofir and Li, Conglong and Narayanan, Deepak and Bourfoune, Hatim and Casper, Jared and Rasley, Jeff and Ryabinin, Max and Mishra, Mayank and Zhang, Minjia and Shoeybi, Mohammad and Peyrounette, Myriam and Patry, Nicolas and Tazi, Nouamane and Sanseviero, Omar and von Platen, Patrick and Cornette, Pierre and Lavallée, Pierre François and Lacroix, Rémi and Rajbhandari, Samyam and Gandhi, Sanchit and Smith, Shaden and Requena, Stéphane and Patil, Suraj and Dettmers, Tim and Baruwa, Ahmed and Singh, Amanpreet and Cheveleva, Anastasia and Ligozat, Anne-Laure and Subramonian, Arjun and Névéol, Aurélie and Lovering, Charles and Garrette, Dan and Tunuguntla, Deepak and Reiter, Ehud and Taktasheva, Ekaterina and Voloshina, Ekaterina and Bogdanov, Eli and Winata, Genta Indra and Schoelkopf, Hailey and Kalo, Jan-Christoph and Novikova, Jekaterina and Forde, Jessica Zosa and Clive, Jordan and Kasai, Jungo and Kawamura, Ken and Hazan, Liam and Carpuat, Marine and Clinciu, Miruna and Kim, Najoung and Cheng, Newton and Serikov, Oleg and Antverg, Omer and van der Wal, Oskar and Zhang, Rui and Zhang, Ruochen and Gehrmann, Sebastian and Mirkin, Shachar and Pais, Shani and Shavrina, Tatiana and Scialom, Thomas and Yun, Tian and Limisiewicz, Tomasz and Rieser, Verena and Protasov, Vitaly and Mikhailov, Vladislav and Pruksachatkun, Yada and Belinkov, Yonatan and Bamberger, Zachary and Kasner, Zdeněk and Rueda, Alice and Pestana, Amanda and Feizpour, Amir and Khan, Ammar and Faranak, Amy and Santos, Ana and Hevia, Anthony and Unldreaj, Antigona and Aghagol, Arash and Abdollahi, Arezoo and Tammour, Aycha and HajiHosseini, Azadeh and Behroozi, Bahareh and Ajibade, Benjamin and Saxena, Bharat and Ferrandis, Carlos Muñoz and Contractor, Danish and Lansky, David and David, Davis and Kiela, Douwe and Nguyen, Duong A. and Tan, Edward and Baylor, Emi and Ozoani, Ezinwanne and Mirza, Fatima and Ononiwu, Frankline and Rezanejad, Habib and Jones, Hessie and Bhattacharya, Indrani and Solaiman, Irene and Sedenko, Irina and Nejadgholi, Isar and Passmore, Jesse and Seltzer, Josh and Sanz, Julio Bonis and Dutra, Livia and Samagaio, Mairon and Elbadri, Maraim and Mieskes, Margot and Gerchick, Marissa and Akinlolu, Martha and McKenna, Michael and Qiu, Mike and Ghauri, Muhammed and Burynok, Mykola and Abrar, Nafis and Rajani, Nazneen and Elkott, Nour and Fahmy, Nour and Samuel, Olanrewaju and An, Ran and Kromann, Rasmus and Hao, Ryan and Alizadeh, Samira and Shubber, Sarmad and Wang, Silas and Roy, Sourav and Viguier, Sylvain and Le, Thanh and Oyebade, Tobi and Le, Trieu and Yang, Yoyo and Nguyen, Zach and Kashyap, Abhinav Ramesh and Palasciano, Alfredo and Callahan, Alison and Shukla, Anima and Miranda-Escalada, Antonio and Singh, Ayush and Beilharz, Benjamin and Wang, Bo and Brito, Caio and Zhou, Chenxi and Jain, Chirag and Xu, Chuxin and Fourrier, Clémentine and Periñán, Daniel León and Molano, Daniel and Yu, Dian and Manjavacas, Enrique and Barth, Fabio and Fuhrimann, Florian and Altay, Gabriel and Bayrak, Giyaseddin and Burns, Gully and Vrabec, Helena U. and Bello, Imane and Dash, Ishani and Kang, Jihyun and Giorgi, John and Golde, Jonas and Posada, Jose David and Sivaraman, Karthik Rangasai and Bulchandani, Lokesh and Liu, Lu and Shinzato, Luisa and de Bykhovetz, Madeleine Hahn and Takeuchi, Maiko and Pàmies, Marc and Castillo, Maria A and Nezhurina, Marianna and Sänger, Mario and Samwald, Matthias and Cullan, Michael and Weinberg, Michael and De Wolf, Michiel and Mihaljcic, Mina and Liu, Minna and Freidank, Moritz and Kang, Myungsun and Seelam, Natasha and Dahlberg, Nathan and Broad, Nicholas Michio and Muellner, Nikolaus and Fung, Pascale and Haller, Patrick and Chandrasekhar, Ramya and Eisenberg, Renata and Martin, Robert and Canalli, Rodrigo and Su, Rosaline and Su, Ruisi and Cahyawijaya, Samuel and Garda, Samuele and Deshmukh, Shlok S and Mishra, Shubhanshu and Kiblawi, Sid and Ott, Simon and Sang-aroonsiri, Sinee and Kumar, Srishti and Schweter, Stefan and Bharati, Sushil and Laud, Tanmay and Gigant, Théo and Kainuma, Tomoya and Kusa, Wojciech and Labrak, Yanis and Bajaj, Yash Shailesh and Venkatraman, Yash and Xu, Yifan and Xu, Yingxin and Xu, Yu and Tan, Zhe and Xie, Zhongli and Ye, Zifan and Bras, Mathilde and Belkada, Younes and Wolf, Thomas},title = {BLOOM: A 176B-Parameter Open-Access Multilingual Language Model},\n  year = {2022},\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:04:44.844Z"
+}

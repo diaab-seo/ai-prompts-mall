@@ -1,0 +1,9 @@
+---
+// ForkBar widget
+interface Props { forks: number }
+const { forks } = Astro.props;
+const formatted = forks >= 1000 ? `${(forks/1000).toFixed(1)}K` : String(forks);
+---
+<div class="fork-bar" aria-label={`${forks.toLocaleString()} forks`}>
+  🍴 {formatted} forks
+</div>
