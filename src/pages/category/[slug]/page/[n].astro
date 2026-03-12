@@ -7,36 +7,6 @@ import { buildCollectionPageSchema } from '../../../../utils/schema';
 import categories from '../../../../data/categories.json';
 import manifestRaw from '../../../../data/manifest.json';
 
-const PER_PAGE = 24;
-
-export async function getStaticPaths() {
-  const PER_PAGE = 24; // duplicated due to Vite worker isolation
-  const manifest: RepoEntry[] = manifestRaw as any;
-
-  const paths = [];
-  for (const cat of categories) {
-    const repos = manifest
-      .filter((r) => r.primary_category === cat.slug)
-      .sort((a, b) => b.stars - a.stars);
-    const totalPages = Math.ceil(repos.length / PER_PAGE);
-
-    // Generate pages 2..N (page 1 is handled by [slug].astro)
-    for (let n = 2; n <= totalPages; n++) {
-      paths.push({
-        params: { slug: cat.slug, n: String(n) },
-        props: {
-          category: cat,
-          repos: repos.slice((n - 1) * PER_PAGE, n * PER_PAGE),
-          totalPages,
-          currentPage: n,
-          totalRepos: repos.length,
-        },
-      });
-    }
-  }
-  return paths;
-}
-
 interface RepoEntry {
   full_name: string;
   owner: string;
@@ -50,15 +20,43 @@ interface RepoEntry {
   description?: string;
 }
 
-interface Props {
-  category: { slug: string; label: string; description: string; githubQuery: string; estRepos: number };
-  repos: RepoEntry[];
-  totalPages: number;
-  currentPage: number;
-  totalRepos: number;
+export async function getStaticPaths() {
+  const PER_PAGE = 24;
+  const manifest: RepoEntry[] = manifestRaw as any;
+  const paths = [];
+
+  for (const cat of categories) {
+    const reposCount = manifest.filter(r => r.primary_category === cat.slug).length;
+    const totalPages = Math.ceil(reposCount / PER_PAGE);
+    for (let n = 2; n <= totalPages; n++) {
+      paths.push({
+        params: { slug: cat.slug, n: String(n) },
+        props: { slug: cat.slug, n: String(n) }
+      });
+    }
+  }
+  return paths;
 }
 
-const { category, repos, totalPages, currentPage, totalRepos } = Astro.props;
+interface Props {
+  slug: string;
+  n: string;
+}
+
+const { slug, n } = Astro.props;
+const currentPage = Number(n);
+const PER_PAGE = 24;
+const manifest: RepoEntry[] = manifestRaw as any;
+
+const category = categories.find(c => c.slug === slug)!;
+const allReposForCat = manifest
+  .filter((r) => r.primary_category === slug)
+  .sort((a, b) => b.stars - a.stars);
+
+const totalRepos = allReposForCat.length;
+const totalPages = Math.ceil(totalRepos / PER_PAGE);
+const repos = allReposForCat.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
+
 const SITE = 'https://aipromptsmall.shop';
 const canonical = `${SITE}/category/${category.slug}/page/${currentPage}`;
 
@@ -173,7 +171,6 @@ function relativeDate(iso: string) {
   </div>
 </Base>
 
-<!-- Reuse styles from [slug].astro via global class names -->
 <style>
   .category-layout { display: grid; grid-template-columns: 220px 1fr; gap: 2.5rem; padding-block: 1.5rem 4rem; align-items: start; }
   .cat-sidebar { position: sticky; top: 80px; }

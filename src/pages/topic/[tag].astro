@@ -20,57 +20,43 @@ interface RepoEntry {
 interface TopicEntry { tag: string; count: number; }
 
 export async function getStaticPaths() {
-  const PER_PAGE = 30; // duplicated due to Vite worker isolation
-  const manifest: RepoEntry[] = manifestRaw as any;
   const topics: TopicEntry[] = topicsRaw as any;
-
-  // Inline helper (must be inside getStaticPaths due to Vite worker isolation)
-  function getRelatedTags(repos: RepoEntry[], currentTag: string): string[] {
-    const freq: Record<string, number> = {};
-    for (const r of repos) {
-      for (const t of r.topics) {
-        if (t !== currentTag) freq[t] = (freq[t] ?? 0) + 1;
-      }
-    }
-    return Object.entries(freq)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 12)
-      .map(([t]) => t);
-  }
-
   // Only generate pages for topics that appear in at least 2 repos
   const eligibleTopics = topics.filter((t) => t.count >= 2).slice(0, 500);
 
-  return eligibleTopics.map(({ tag }) => {
-    const repos = manifest
-      .filter((r) => r.topics.includes(tag))
-      .sort((a, b) => b.stars - a.stars);
-
-    return {
-      params: { tag },
-      props: {
-        tag,
-        repos: repos.slice(0, PER_PAGE),
-        totalRepos: repos.length,
-        totalPages: Math.max(1, Math.ceil(repos.length / PER_PAGE)),
-        currentPage: 1,
-        relatedTags: getRelatedTags(repos, tag),
-      },
-    };
-  });
+  return eligibleTopics.map(({ tag }) => ({
+    params: { tag },
+    props: { tag }
+  }));
 }
 
-
-interface Props {
-  tag: string;
-  repos: RepoEntry[];
-  totalRepos: number;
-  totalPages: number;
-  currentPage: number;
-  relatedTags: string[];
+// ── Shared logic outside getStaticPaths ──
+function getRelatedTags(repos: RepoEntry[], currentTag: string): string[] {
+  const freq: Record<string, number> = {};
+  for (const r of repos) {
+    if (!r.topics) continue;
+    for (const t of r.topics) {
+      if (t !== currentTag) freq[t] = (freq[t] ?? 0) + 1;
+    }
+  }
+  return Object.entries(freq)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 12)
+    .map(([t]) => t);
 }
 
-const { tag, repos, totalRepos, totalPages, currentPage, relatedTags } = Astro.props;
+const { tag } = Astro.props;
+const manifest: RepoEntry[] = manifestRaw as any;
+
+const allReposForTopic = manifest
+  .filter((r) => r.topics.includes(tag))
+  .sort((a, b) => b.stars - a.stars);
+
+const totalRepos = allReposForTopic.length;
+const totalPages = Math.max(1, Math.ceil(totalRepos / PER_PAGE));
+const currentPage = 1;
+const repos = allReposForTopic.slice(0, PER_PAGE);
+const relatedTags = getRelatedTags(allReposForTopic, tag);
 
 const SITE = 'https://aipromptsmall.shop';
 const canonical = `${SITE}/topic/${tag}`;

@@ -10,56 +10,25 @@ import topicsRaw from '../../../../data/topics.json';
 import { buildCollectionPageSchema } from '../../../../utils/schema';
 
 export async function getStaticPaths() {
-  const manifest: RepoEntry[] = manifestRaw as any;
   const topics: { tag: string; count: number }[] = topicsRaw as any;
+  const manifest: RepoEntry[] = manifestRaw as any;
   const PER_PAGE = 30;
-
-  // helper inline due to worker isolation
-  function getRelatedTags(allRepos: RepoEntry[], currentTag: string): string[] {
-    const counts: Record<string, number> = {};
-    for (const r of allRepos) {
-      if (!r.topics) continue;
-      if (!r.topics.includes(currentTag)) continue;
-      for (const t of r.topics) {
-        if (t !== currentTag) counts[t] = (counts[t] || 0) + 1;
-      }
-    }
-    return Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 10)
-      .map(entry => entry[0]);
-  }
 
   const paths = [];
   const eligibleTopics = topics.filter(t => t.count >= 2).slice(0, 500);
 
   for (const { tag } of eligibleTopics) {
-    const repos = manifest
-      .filter(r => r.topics?.includes(tag))
-      .sort((a, b) => b.stars - a.stars);
-      
-    if (repos.length === 0) continue;
-    
-    const totalPages = Math.ceil(repos.length / PER_PAGE);
+    const reposCount = manifest.filter(r => r.topics?.includes(tag)).length;
+    const totalPages = Math.ceil(reposCount / PER_PAGE);
     if (totalPages < 2) continue;
-
-    const relatedTags = getRelatedTags(repos, tag);
 
     for (let n = 2; n <= totalPages; n++) {
       paths.push({
         params: { tag, n: String(n) },
-        props: {
-          tag,
-          repos: repos.slice((n - 1) * PER_PAGE, n * PER_PAGE),
-          totalRepos: repos.length,
-          totalPages,
-          currentPage: n,
-          relatedTags,
-        },
+        props: { tag, n }
       });
     }
   }
-
   return paths;
 }
 
@@ -71,14 +40,38 @@ interface RepoEntry {
 
 interface Props {
   tag: string;
-  repos: RepoEntry[];
-  totalRepos: number;
-  totalPages: number;
-  currentPage: number;
-  relatedTags: string[];
+  n: string;
 }
 
-const { tag, repos, totalRepos, totalPages, currentPage, relatedTags } = Astro.props;
+const { tag, n } = Astro.props;
+const currentPage = Number(n);
+const PER_PAGE = 30;
+const manifest: RepoEntry[] = manifestRaw as any;
+
+// ── Shared logic helper ──
+function getRelatedTags(allRepos: RepoEntry[], currentTag: string): string[] {
+  const counts: Record<string, number> = {};
+  for (const r of allRepos) {
+    if (!r.topics) continue;
+    if (!r.topics.includes(currentTag)) continue; // Added this line back for correctness
+    for (const t of r.topics) {
+      if (t !== currentTag) counts[t] = (counts[t] || 0) + 1;
+    }
+  }
+  return Object.entries(counts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+    .map(entry => entry[0]);
+}
+
+const allReposForTopic = manifest
+  .filter(r => r.topics?.includes(tag))
+  .sort((a, b) => b.stars - a.stars);
+
+const totalRepos = allReposForTopic.length;
+const totalPages = Math.ceil(totalRepos / PER_PAGE);
+const repos = allReposForTopic.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
+const relatedTags = getRelatedTags(allReposForTopic, tag);
 
 const SITE = 'https://aipromptsmall.shop';
 const canonical = `${SITE}/topic/${tag}/page/${currentPage}`;

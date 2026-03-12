@@ -16,30 +16,19 @@ interface RepoEntry {
 
 export async function getStaticPaths() {
   const manifest: RepoEntry[] = manifestRaw as any;
-  const ownerMap = new Map<string, RepoEntry[]>();
+  const uniqueLogins = [...new Set(manifest.map(r => r.owner.toLowerCase()))];
 
-  for (const r of manifest) {
-    const login = r.owner.toLowerCase();
-    if (!ownerMap.has(login)) ownerMap.set(login, []);
-    ownerMap.get(login)!.push(r);
-  }
-
-  return [...ownerMap.entries()].map(([login, repos]) => ({
+  return uniqueLogins.map((login) => ({
     params: { login },
-    props: {
-      login,
-      repos: repos.sort((a, b) => b.stars - a.stars),
-    },
+    props: { login }
   }));
 }
 
-interface Props {
-  login?: string;
-  repos?: RepoEntry[];
-}
-const { login: loginProp, repos: reposRaw } = Astro.props;
-const login: string = loginProp ?? Astro.params.login ?? '';
-const repos: RepoEntry[] = reposRaw ?? [];
+const { login } = Astro.props;
+const manifest: RepoEntry[] = manifestRaw as any;
+const repos = manifest
+  .filter(r => r.owner.toLowerCase() === login)
+  .sort((a, b) => b.stars - a.stars);
 
 
 
