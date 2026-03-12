@@ -1,0 +1,2524 @@
+{
+  "id": 839638772,
+  "node_id": "R_kgDOMgve9A",
+  "name": "Medical-Graph-RAG",
+  "full_name": "ImprintLab/Medical-Graph-RAG",
+  "private": false,
+  "owner": {
+    "login": "ImprintLab",
+    "id": 154637406,
+    "node_id": "O_kgDOCTeUXg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/154637406?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ImprintLab",
+    "html_url": "https://github.com/ImprintLab",
+    "followers_url": "https://api.github.com/users/ImprintLab/followers",
+    "following_url": "https://api.github.com/users/ImprintLab/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ImprintLab/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ImprintLab/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ImprintLab/subscriptions",
+    "organizations_url": "https://api.github.com/users/ImprintLab/orgs",
+    "repos_url": "https://api.github.com/users/ImprintLab/repos",
+    "events_url": "https://api.github.com/users/ImprintLab/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ImprintLab/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG",
+  "description": "A Graph RAG System for Evidenced-based Medical Information Retrieval  [ACL 2025]",
+  "fork": false,
+  "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG",
+  "forks_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/forks",
+  "keys_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/teams",
+  "hooks_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/events",
+  "assignees_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/tags",
+  "blobs_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/languages",
+  "stargazers_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/subscription",
+  "commits_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/merges",
+  "archive_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/downloads",
+  "issues_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/deployments",
+  "created_at": "2024-08-08T03:08:30Z",
+  "updated_at": "2026-03-10T03:09:08Z",
+  "pushed_at": "2025-10-18T20:25:42Z",
+  "git_url": "git://github.com/ImprintLab/Medical-Graph-RAG.git",
+  "ssh_url": "git@github.com:ImprintLab/Medical-Graph-RAG.git",
+  "clone_url": "https://github.com/ImprintLab/Medical-Graph-RAG.git",
+  "svn_url": "https://github.com/ImprintLab/Medical-Graph-RAG",
+  "homepage": "https://arxiv.org/html/2408.04187v1",
+  "size": 1497,
+  "stargazers_count": 740,
+  "watchers_count": 740,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 127,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 18,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "deep-learning",
+    "graph-rag",
+    "large-language-model",
+    "large-language-models",
+    "machine-learning",
+    "medical",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 127,
+  "open_issues": 18,
+  "watchers": 740,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "d8040c7485ffbc74ef3cce07492beabb68ae150b",
+      "node_id": "C_kwDOMgve9NoAKGQ4MDQwYzc0ODVmZmJjNzRlZjNjY2UwNzQ5MmJlYWJiNjhhZTE1MGI",
+      "commit": {
+        "author": {
+          "name": "JD Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2025-10-18T20:25:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-10-18T20:25:42Z"
+        },
+        "message": "Merge pull request #24 from dai-weiye/feature/complete-implementation\n\nFix: Complete three-layer implementation with entity descriptions",
+        "tree": {
+          "sha": "3b177707de0688ebc20d8035eaec1d5db390ad11",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/3b177707de0688ebc20d8035eaec1d5db390ad11"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/d8040c7485ffbc74ef3cce07492beabb68ae150b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo8/fGCRC1aQ7uu5UhlAAAKW8QACqB8Xxusm0RT9aHSJl+O3is\nxxpPsTp+EI1YHEaYGEwyv8fBrzmv9t/fqnMm/6cnTUT+7QUgTiCkIAFjNc/EZ7IU\nirSj1zJuD4NzVUOtVcAvgn2gn5KVIVLmTdBJigD2AgNjG4YvvKkcSwcSc04+/EGR\njbTedR7iVkiJDFZs9iBVfG2LOTXzfVrIXW+/VKpZF4cfR8pUxO9Ff8qIKycXzUEm\nCax5Lsfw4KEEB1UFKWwuKFgUViES5AII86Da92o24NqLBn/kOX4oFlzK5c6LywUN\n7HlcyEfgNqwXvtXXvqW0snAC0EU7tePvO+CatPaIfZ5lAYaF7pm/1anfbl2znRQO\nlExnXIu+JxZ1nRn55wEOgNguH4WE8DOyLoFCfIVAwCeoStkYsdFUkJwkcDUPJlNk\ntNypfmeg4+iNb81KLnQeJpmUjzMdyh8Vh6ZbTzzPln/6DR0oFRrYh4j4hsuy5lf/\nmF89CzPOJ/WbwNBDVgMzvdqKUKISqaKRYh/PfmhRzA8FJL/p/UjZH8zzSB3hesMw\nNMVK4X1DGVgOOQBROGU1xCaJw5ehT8ewHB1cP8sToFONkMBMXMC4ZOAtrrGGMrP2\nO+J4BLq0vadcPWBE9Xbep4jvoY1s7IE9e62NLok3jKVwCdksr6sZHtNkrWUI5HrE\nrFQ9LYZmd2w0uAh3lRbV\n=g2+k\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3b177707de0688ebc20d8035eaec1d5db390ad11\nparent 8631c3d16b34098fe2bd70e27f482c638bbadcdf\nparent 43135c140f69b3781e7e4cfb1daf7ed4b51acc15\nauthor JD Wu <izzy843794947@gmail.com> 1760819142 -1000\ncommitter GitHub <noreply@github.com> 1760819142 -1000\n\nMerge pull request #24 from dai-weiye/feature/complete-implementation\n\nFix: Complete three-layer implementation with entity descriptions",
+          "verified_at": "2025-10-18T20:25:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/d8040c7485ffbc74ef3cce07492beabb68ae150b",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/d8040c7485ffbc74ef3cce07492beabb68ae150b",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/d8040c7485ffbc74ef3cce07492beabb68ae150b/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/8631c3d16b34098fe2bd70e27f482c638bbadcdf"
+        },
+        {
+          "sha": "43135c140f69b3781e7e4cfb1daf7ed4b51acc15",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/43135c140f69b3781e7e4cfb1daf7ed4b51acc15",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/43135c140f69b3781e7e4cfb1daf7ed4b51acc15"
+        }
+      ]
+    },
+    {
+      "sha": "43135c140f69b3781e7e4cfb1daf7ed4b51acc15",
+      "node_id": "C_kwDOMgve9NoAKDQzMTM1YzE0MGY2OWIzNzgxZTdlNGNmYjFkYWY3ZWQ0YjUxYWNjMTU",
+      "commit": {
+        "author": {
+          "name": "daiweiye",
+          "email": "daiweiye@daiweiyedeMacBook-Air.local",
+          "date": "2025-10-18T12:55:23Z"
+        },
+        "committer": {
+          "name": "daiweiye",
+          "email": "daiweiye@daiweiyedeMacBook-Air.local",
+          "date": "2025-10-18T12:55:23Z"
+        },
+        "message": "Fix: Complete three-layer implementation with entity descriptions\n\n- Add creat_graph_with_description.py: Fusion implementation using nano_graphrag prompts + Neo4j storage\n- Add three_layer_import.py: Complete three-layer architecture import script\n- Fix entity description extraction: 100% coverage with detailed descriptions\n- Fix three-layer architecture: Support Bottom/Middle/Top layers\n- Fix Trinity cross-layer linking: Complete REFERENCE relationships\n- Update utils.py, summerize.py, nano_graphrag/_llm.py: Add base_url support\n\nThis implementation fully aligns with the ACL 2025 paper requirements:\n✅ Entity descriptions (paper requirement)\n✅ Three-layer architecture (paper description)\n✅ Trinity cross-layer linking (paper method)\n✅ Neo4j graph storage and visualization\n✅ Rich context for LLM inference\n\nResolves: README promises vs code implementation gap\nResolves: Missing entity descriptions in KnowledgeGraphAgent\nResolves: Incomplete three-layer architecture support",
+        "tree": {
+          "sha": "3b177707de0688ebc20d8035eaec1d5db390ad11",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/3b177707de0688ebc20d8035eaec1d5db390ad11"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/43135c140f69b3781e7e4cfb1daf7ed4b51acc15",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/43135c140f69b3781e7e4cfb1daf7ed4b51acc15",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/43135c140f69b3781e7e4cfb1daf7ed4b51acc15",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/43135c140f69b3781e7e4cfb1daf7ed4b51acc15/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/8631c3d16b34098fe2bd70e27f482c638bbadcdf"
+        }
+      ]
+    },
+    {
+      "sha": "8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+      "node_id": "C_kwDOMgve9NoAKDg2MzFjM2QxNmIzNDA5OGZlMmJkNzBlMjdmNDgyYzYzOGJiYWRjZGY",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-12-30T13:09:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-12-30T13:09:59Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7faddec894693220ea37e43f89d0851847c7ebaa",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/7faddec894693220ea37e43f89d0851847c7ebaa"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJncpunCRC1aQ7uu5UhlAAAl1QQAD1uW+ieLL6RW3f5hL9SkydF\nn2pDgLc4pRIfKP0Ili1lphxiKNIpiH88MNnASZZmIiVRJRvV1s4ilwRalMhecqgL\nc+6Nhqhim2eXfhZNOrz4DoRqH63ZG2mRLcW1P9usQoUFPHCf9EjmznQK3edutvYJ\nz6vSNYsASbqhbJ7vn+UDNlgmyFMJdJoLrswEqL+rQNJTPy1oJWLtpUlGkvhnRzSn\nIckud8qH5ibhyN3+VleG28zxSIoGsEChmWT+/Wc+H0wo6BWhPe5nsZ7hiNZ31/xR\np9cuRr49i3SQECFJtQxCDXZkNTOgxoK1Ugm6oH3djaL+QAKgMkl0BWCo5rH5tm8/\nB9C0iOQ/OEx7P1p1ykQ12IikW8RTY36U9IHs4r4M7oLBgZuuzn+RqTMS7Wk1deqg\nXYQdJDatVHLA+tkqzbyR5fIXK2+Pd+CBQaiaIaGkH7htpouINCj58lkiSTNKTzSq\na/joHaeDX6MTmuiHJsoJ4axNzPv+VvVndfZidiRlOTuVY4PYmQdOZttZqV7U0+BV\nCHQ0QjgRRmzZIdppNXHBrY2pUps/MlbVxzi69iZEQq1WxgvlV8uzCWf2CTG6GjRV\ncGkZTyj5OnIn/nkaN7eAUQp2Pk4tdtZ+TwN5BFJoVA1PEB4oOb/RZbhMOi+1ISQc\no7nar9N4/hMhXZ5bNQDm\n=2KIP\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7faddec894693220ea37e43f89d0851847c7ebaa\nparent 512ddc63381c250a823ce9012c91701ab5ae4822\nauthor Junde Wu <izzy843794947@gmail.com> 1735564199 +0200\ncommitter GitHub <noreply@github.com> 1735564199 +0200\n\nUpdate README.md",
+          "verified_at": "2024-12-30T13:15:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/8631c3d16b34098fe2bd70e27f482c638bbadcdf",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/8631c3d16b34098fe2bd70e27f482c638bbadcdf/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "512ddc63381c250a823ce9012c91701ab5ae4822",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/512ddc63381c250a823ce9012c91701ab5ae4822",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/512ddc63381c250a823ce9012c91701ab5ae4822"
+        }
+      ]
+    },
+    {
+      "sha": "512ddc63381c250a823ce9012c91701ab5ae4822",
+      "node_id": "C_kwDOMgve9NoAKDUxMmRkYzYzMzgxYzI1MGE4MjNjZTkwMTJjOTE3MDFhYjVhZTQ4MjI",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-11-27T18:47:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-27T18:47:12Z"
+        },
+        "message": "Merge pull request #14 from LinglongQian/main\n\nAdd gpu environment yml and remove cache files",
+        "tree": {
+          "sha": "97310e1b6b594c15c6415174bf2fb6dd8eaf6f9b",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/97310e1b6b594c15c6415174bf2fb6dd8eaf6f9b"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/512ddc63381c250a823ce9012c91701ab5ae4822",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnR2kwCRC1aQ7uu5UhlAAA37UQAHv2rJE5AFxdd8YuTsvJRM+s\nac4QZ0S4vGAovnWNllR31hPsrJ/v1LCYgrJmkaYp8xMIvtlMmW1TEOC+hbEkNWDl\nfvnU+yDyVlLv6sjkTC/8KZsu38FlFVpfgBSUhUx8tUnUwlcDv58pEBXtBEAwhlKE\n372XRY8vR6TMJCZmlmHOy9yzhub+MX5CyHE2h22aOrKGZM12e7au7XaDkfBQzGHG\nFN6b/kdRMz1QndKB0HilbnKcKZequbovDDAW8iAKwHA876bkjIHVXyiUTDFaGW3L\ngZrGaVbtlW4Rjgs90R/ObFXVLslOSA0Z/TV5Rj4hWeDzWUcCOzdeHNIa6SBRS2Gn\nmTSM9GvVadtUdO/uVj4/QQrEoMC7QDYdQEOuvHhMFhdhaZ2aJ/hBRXYkKxQfX1ge\nK2E+c2z+R6iMG0GRi6+Y/crOtrX/pwynyqH1zRI0BnnzleZzfL6RcQu7MIeDYzNk\nzLvHNZX7rjRGOYWpezyKMgMbFVTd74qSkowB5W1dNJr1WmDCInxKtwLyKt36610/\n+fwXeoXjiiylNhaKTgvmExBOJB/ykR0tQa/NpJAEvKiILllmwin1KfvT3EtwfF9t\nJ6+e01LlWOoaVjd49JSBgNkIPnZpLud6eR3jOK5L5kTo5sg2HPKBCTMwPBJZ6HVd\nZGsMXQZarR22HpZ4uGC9\n=2tPY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 97310e1b6b594c15c6415174bf2fb6dd8eaf6f9b\nparent f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4\nparent 0155ecf79c61445a68607a88ab2a5d7081993c94\nauthor Junde Wu <izzy843794947@gmail.com> 1732733232 +0000\ncommitter GitHub <noreply@github.com> 1732733232 +0000\n\nMerge pull request #14 from LinglongQian/main\n\nAdd gpu environment yml and remove cache files",
+          "verified_at": "2024-11-27T18:52:15Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/512ddc63381c250a823ce9012c91701ab5ae4822",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/512ddc63381c250a823ce9012c91701ab5ae4822",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/512ddc63381c250a823ce9012c91701ab5ae4822/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4"
+        },
+        {
+          "sha": "0155ecf79c61445a68607a88ab2a5d7081993c94",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/0155ecf79c61445a68607a88ab2a5d7081993c94",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/0155ecf79c61445a68607a88ab2a5d7081993c94"
+        }
+      ]
+    },
+    {
+      "sha": "0155ecf79c61445a68607a88ab2a5d7081993c94",
+      "node_id": "C_kwDOMgve9NoAKDAxNTVlY2Y3OWM2MTQ0NWE2ODYwN2E4OGFiMmE1ZDcwODE5OTNjOTQ",
+      "commit": {
+        "author": {
+          "name": "LINGLONGQIAN",
+          "email": "15869023990@163.com",
+          "date": "2024-11-01T22:37:37Z"
+        },
+        "committer": {
+          "name": "LINGLONGQIAN",
+          "email": "15869023990@163.com",
+          "date": "2024-11-01T22:37:37Z"
+        },
+        "message": "remove cache files",
+        "tree": {
+          "sha": "97310e1b6b594c15c6415174bf2fb6dd8eaf6f9b",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/97310e1b6b594c15c6415174bf2fb6dd8eaf6f9b"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/0155ecf79c61445a68607a88ab2a5d7081993c94",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/0155ecf79c61445a68607a88ab2a5d7081993c94",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/0155ecf79c61445a68607a88ab2a5d7081993c94",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/0155ecf79c61445a68607a88ab2a5d7081993c94/comments",
+      "author": {
+        "login": "LinglongQian",
+        "id": 38267728,
+        "node_id": "MDQ6VXNlcjM4MjY3NzI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38267728?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LinglongQian",
+        "html_url": "https://github.com/LinglongQian",
+        "followers_url": "https://api.github.com/users/LinglongQian/followers",
+        "following_url": "https://api.github.com/users/LinglongQian/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LinglongQian/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LinglongQian/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LinglongQian/subscriptions",
+        "organizations_url": "https://api.github.com/users/LinglongQian/orgs",
+        "repos_url": "https://api.github.com/users/LinglongQian/repos",
+        "events_url": "https://api.github.com/users/LinglongQian/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LinglongQian/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "LinglongQian",
+        "id": 38267728,
+        "node_id": "MDQ6VXNlcjM4MjY3NzI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38267728?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LinglongQian",
+        "html_url": "https://github.com/LinglongQian",
+        "followers_url": "https://api.github.com/users/LinglongQian/followers",
+        "following_url": "https://api.github.com/users/LinglongQian/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LinglongQian/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LinglongQian/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LinglongQian/subscriptions",
+        "organizations_url": "https://api.github.com/users/LinglongQian/orgs",
+        "repos_url": "https://api.github.com/users/LinglongQian/repos",
+        "events_url": "https://api.github.com/users/LinglongQian/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LinglongQian/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7"
+        }
+      ]
+    },
+    {
+      "sha": "bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7",
+      "node_id": "C_kwDOMgve9NoAKGJiNmViNGUyMjlhNGMyYTEzMWUwYTI1MTk2YWU3YmIyOGY2ZTU4ZTc",
+      "commit": {
+        "author": {
+          "name": "LINGLONGQIAN",
+          "email": "15869023990@163.com",
+          "date": "2024-11-01T22:34:30Z"
+        },
+        "committer": {
+          "name": "LINGLONGQIAN",
+          "email": "15869023990@163.com",
+          "date": "2024-11-01T22:34:30Z"
+        },
+        "message": "update to ignore cache files",
+        "tree": {
+          "sha": "e93043e28889da65835d52b3c7d096fd316e2d02",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/e93043e28889da65835d52b3c7d096fd316e2d02"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/bb6eb4e229a4c2a131e0a25196ae7bb28f6e58e7/comments",
+      "author": {
+        "login": "LinglongQian",
+        "id": 38267728,
+        "node_id": "MDQ6VXNlcjM4MjY3NzI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38267728?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LinglongQian",
+        "html_url": "https://github.com/LinglongQian",
+        "followers_url": "https://api.github.com/users/LinglongQian/followers",
+        "following_url": "https://api.github.com/users/LinglongQian/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LinglongQian/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LinglongQian/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LinglongQian/subscriptions",
+        "organizations_url": "https://api.github.com/users/LinglongQian/orgs",
+        "repos_url": "https://api.github.com/users/LinglongQian/repos",
+        "events_url": "https://api.github.com/users/LinglongQian/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LinglongQian/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "LinglongQian",
+        "id": 38267728,
+        "node_id": "MDQ6VXNlcjM4MjY3NzI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38267728?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LinglongQian",
+        "html_url": "https://github.com/LinglongQian",
+        "followers_url": "https://api.github.com/users/LinglongQian/followers",
+        "following_url": "https://api.github.com/users/LinglongQian/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LinglongQian/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LinglongQian/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LinglongQian/subscriptions",
+        "organizations_url": "https://api.github.com/users/LinglongQian/orgs",
+        "repos_url": "https://api.github.com/users/LinglongQian/repos",
+        "events_url": "https://api.github.com/users/LinglongQian/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LinglongQian/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b325b8d487317dfd58cbe620e793683b6b34c4fc",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/b325b8d487317dfd58cbe620e793683b6b34c4fc",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/b325b8d487317dfd58cbe620e793683b6b34c4fc"
+        }
+      ]
+    },
+    {
+      "sha": "b325b8d487317dfd58cbe620e793683b6b34c4fc",
+      "node_id": "C_kwDOMgve9NoAKGIzMjViOGQ0ODczMTdkZmQ1OGNiZTYyMGU3OTM2ODNiNmIzNGM0ZmM",
+      "commit": {
+        "author": {
+          "name": "LINGLONGQIAN",
+          "email": "15869023990@163.com",
+          "date": "2024-11-01T22:27:28Z"
+        },
+        "committer": {
+          "name": "LINGLONGQIAN",
+          "email": "15869023990@163.com",
+          "date": "2024-11-01T22:27:28Z"
+        },
+        "message": "add gpu environment yml",
+        "tree": {
+          "sha": "c9336537313000134b2269ec87db60c677d2df7c",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/c9336537313000134b2269ec87db60c677d2df7c"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/b325b8d487317dfd58cbe620e793683b6b34c4fc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/b325b8d487317dfd58cbe620e793683b6b34c4fc",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/b325b8d487317dfd58cbe620e793683b6b34c4fc",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/b325b8d487317dfd58cbe620e793683b6b34c4fc/comments",
+      "author": {
+        "login": "LinglongQian",
+        "id": 38267728,
+        "node_id": "MDQ6VXNlcjM4MjY3NzI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38267728?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LinglongQian",
+        "html_url": "https://github.com/LinglongQian",
+        "followers_url": "https://api.github.com/users/LinglongQian/followers",
+        "following_url": "https://api.github.com/users/LinglongQian/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LinglongQian/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LinglongQian/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LinglongQian/subscriptions",
+        "organizations_url": "https://api.github.com/users/LinglongQian/orgs",
+        "repos_url": "https://api.github.com/users/LinglongQian/repos",
+        "events_url": "https://api.github.com/users/LinglongQian/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LinglongQian/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "LinglongQian",
+        "id": 38267728,
+        "node_id": "MDQ6VXNlcjM4MjY3NzI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/38267728?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LinglongQian",
+        "html_url": "https://github.com/LinglongQian",
+        "followers_url": "https://api.github.com/users/LinglongQian/followers",
+        "following_url": "https://api.github.com/users/LinglongQian/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LinglongQian/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LinglongQian/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LinglongQian/subscriptions",
+        "organizations_url": "https://api.github.com/users/LinglongQian/orgs",
+        "repos_url": "https://api.github.com/users/LinglongQian/repos",
+        "events_url": "https://api.github.com/users/LinglongQian/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LinglongQian/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4"
+        }
+      ]
+    },
+    {
+      "sha": "f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+      "node_id": "C_kwDOMgve9NoAKGYyYTZhNzNkN2UzYTQyMDg5ZmQ1MWQyYTM5ODE3Y2I4MmYxNGUwYjQ",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-25T01:57:23Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-25T01:57:23Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "f0a26a238fb054e0af7b376b8aeef0b168e5a6a5",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/f0a26a238fb054e0af7b376b8aeef0b168e5a6a5"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/f2a6a73d7e3a42089fd51d2a39817cb82f14e0b4/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8c1b2e2294e8f49c96a65c131d44c33531cbda75",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/8c1b2e2294e8f49c96a65c131d44c33531cbda75",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/8c1b2e2294e8f49c96a65c131d44c33531cbda75"
+        }
+      ]
+    },
+    {
+      "sha": "8c1b2e2294e8f49c96a65c131d44c33531cbda75",
+      "node_id": "C_kwDOMgve9NoAKDhjMWIyZTIyOTRlOGY0OWM5NmE2NWMxMzFkNDRjMzM1MzFjYmRhNzU",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-25T01:55:15Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-25T01:55:15Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "e6c2d371df2b7d4a08e12bf921deb25ee378d6cf",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/e6c2d371df2b7d4a08e12bf921deb25ee378d6cf"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/8c1b2e2294e8f49c96a65c131d44c33531cbda75",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/8c1b2e2294e8f49c96a65c131d44c33531cbda75",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/8c1b2e2294e8f49c96a65c131d44c33531cbda75",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/8c1b2e2294e8f49c96a65c131d44c33531cbda75/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "566fd621fe967cd1de25276f29f37db24a4cda61",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/566fd621fe967cd1de25276f29f37db24a4cda61",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/566fd621fe967cd1de25276f29f37db24a4cda61"
+        }
+      ]
+    },
+    {
+      "sha": "566fd621fe967cd1de25276f29f37db24a4cda61",
+      "node_id": "C_kwDOMgve9NoAKDU2NmZkNjIxZmU5NjdjZDFkZTI1Mjc2ZjI5ZjM3ZGIyNGE0Y2RhNjE",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-25T01:46:11Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-25T01:46:11Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "ccb9ce3bcaa64211f4c347f260f59a2da4399ff8",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/ccb9ce3bcaa64211f4c347f260f59a2da4399ff8"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/566fd621fe967cd1de25276f29f37db24a4cda61",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/566fd621fe967cd1de25276f29f37db24a4cda61",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/566fd621fe967cd1de25276f29f37db24a4cda61",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/566fd621fe967cd1de25276f29f37db24a4cda61/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "361438f961f767a5d0583861f04262d50361b1d2",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/361438f961f767a5d0583861f04262d50361b1d2",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/361438f961f767a5d0583861f04262d50361b1d2"
+        }
+      ]
+    },
+    {
+      "sha": "361438f961f767a5d0583861f04262d50361b1d2",
+      "node_id": "C_kwDOMgve9NoAKDM2MTQzOGY5NjFmNzY3YTVkMDU4Mzg2MWYwNDI2MmQ1MDM2MWIxZDI",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-24T19:23:56Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-24T19:23:56Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "4f0acb10442440be72eb6eebdc857e72568c2786",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/4f0acb10442440be72eb6eebdc857e72568c2786"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/361438f961f767a5d0583861f04262d50361b1d2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/361438f961f767a5d0583861f04262d50361b1d2",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/361438f961f767a5d0583861f04262d50361b1d2",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/361438f961f767a5d0583861f04262d50361b1d2/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "05586d092488349218059fcf4722ad6e33a0e8f1",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/05586d092488349218059fcf4722ad6e33a0e8f1",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/05586d092488349218059fcf4722ad6e33a0e8f1"
+        }
+      ]
+    },
+    {
+      "sha": "05586d092488349218059fcf4722ad6e33a0e8f1",
+      "node_id": "C_kwDOMgve9NoAKDA1NTg2ZDA5MjQ4ODM0OTIxODA1OWZjZjQ3MjJhZDZlMzNhMGU4ZjE",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-10-17T14:33:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-17T14:33:03Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "f029600ef810b641bd11bc35e6ae290a97e5447f",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/f029600ef810b641bd11bc35e6ae290a97e5447f"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/05586d092488349218059fcf4722ad6e33a0e8f1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnESAfCRC1aQ7uu5UhlAAAe8wQAKvw37IVCcUELG3g3iOgt9JU\n+MvDHeKSVVXB8KBw4hhTbTZKvno/LwoAGPpWz7tQIEZ3W9l1kU+xsFlMc46twJf3\nrAeLTNrMTTFCjMdIvS7F/s0qOg15M29zZ/HZdDJAzkng+qr7zWSkqzucetaWm9q/\n0TIpGZwDEzGl7RspcaKmmsWi+y8ziOhlHgDNcW3vqPmvO+Q3TNfalqrIdzUopEbk\ngecZHapNJKZ0PngDUmdJm9ZyxwSnohDZWSCCSmWISRDYqWEao1WcWhuXGf6OtcZ4\n7qpkTFsNzP7RTLKKj5hNUWAK3sj7JBJUpBRVRPdvlq8DJS8OsvsTUYESU5H3N5pw\nqWV+PUiMS9pZ/vIx1bWSfyeuB8jK/FaOM8OWRw8PiPtiHKQtUt30oxDxcSMlw7tG\nfuMVBCqcNsevoNlgPEZHn/c0uz7Fc2B29s7Wmf/voY7yqOwaPqdmeB0yVUhPK+S0\nXhxotjw/U3vLdYqzaWIQyzxQQvCCVrczUOGvgxIJGUP+mS0EHhZUoWuxrI1IDW2N\nEd71bXm7hn8xncN24t59ZBkNSwzOtMbjBcOXL/+rPmloh7LBuJTOhCfxfWGYc4OB\nxPdgwmypTItKeUcdABsJCQw1ywVqvva1dXpKGMRVJR1+8f2wiiBJdd2yglz2tX0o\nwmdL9OIHzyzfv0n/QdYj\n=TY1m\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f029600ef810b641bd11bc35e6ae290a97e5447f\nparent e3dde06b910dfa1b7160bb760f34f1aeb9decec0\nauthor Junde Wu <izzy843794947@gmail.com> 1729175583 +0100\ncommitter GitHub <noreply@github.com> 1729175583 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-05T03:20:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/05586d092488349218059fcf4722ad6e33a0e8f1",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/05586d092488349218059fcf4722ad6e33a0e8f1",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/05586d092488349218059fcf4722ad6e33a0e8f1/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e3dde06b910dfa1b7160bb760f34f1aeb9decec0",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/e3dde06b910dfa1b7160bb760f34f1aeb9decec0",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/e3dde06b910dfa1b7160bb760f34f1aeb9decec0"
+        }
+      ]
+    },
+    {
+      "sha": "e3dde06b910dfa1b7160bb760f34f1aeb9decec0",
+      "node_id": "C_kwDOMgve9NoAKGUzZGRlMDZiOTEwZGZhMWI3MTYwYmI3NjBmMzRmMWFlYjlkZWNlYzA",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-09-18T19:24:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-18T19:24:53Z"
+        },
+        "message": "Create LICENSE",
+        "tree": {
+          "sha": "5f9286d90086050afe16ef7ab1f9a3e128f24745",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/5f9286d90086050afe16ef7ab1f9a3e128f24745"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/e3dde06b910dfa1b7160bb760f34f1aeb9decec0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm6ykFCRC1aQ7uu5UhlAAAPEEQAG++pARodmOBK1Iib9MrB2pd\naYTkUOdy/24F9zaJNWmfXBWUF/3/sGDC3Op7jySaGLKjP+h+BcycTie/fuzSj0N+\n1m56BofVJYDrEfAPBbOzQMVWdwy3qy0sY3z//OZI8Pe/mei77ccW6fZRkCq0wPtL\n+gqap1UzZOGm+Paqchphuom0lR6nT30BdHP/9AY+CmUM1AJ7scARvfX+4RSaUZQ5\n90RICh+JUohsFRQpcBtCgwCPeLhH5e/mVKwARvRZpwC574HO4XZNoISFS0scynak\nrCGkaBsVYGdkNLoVhy4u11hp7nhaHjp/ZqKQNcZFaEns8hL7ApWlpqM1eo8luFkv\nIIxC4fPKIxhAOTPVAlGwK3M0pFzZ9QsrnBkKflK6ldHmIQTYW7SSRGm54ZB12hh1\n0mtswwH6iQG5g6TiIel6kB4ZXZzDFhVQ3i7SUwdgs2rFdMfuj+lxSiUK8Drw/Xh4\n220InyQ9WAIJQWQfYaiXUW9rQ99Peel4wpwtj+tKKF/A+FifHsan9AFj4BYbZgnw\nd0pKaxquH2r4V3pinOdJ15/dx1Obfr2E38ziqoSXfWKVQVGUSkTG2KJYYxy8qbNU\nKScp8xPIlEQ+z9pvKi9oQwFaiIvto9261Y2UDkpjZ9EWPswijgE0EqGk/OQwa8dH\n/3wfo7TRitg/9WZCoSB6\n=RJcr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5f9286d90086050afe16ef7ab1f9a3e128f24745\nparent 84ac11c466d3406bd9faba50b4c338ff88e0d6d3\nauthor Junde Wu <izzy843794947@gmail.com> 1726687493 +0100\ncommitter GitHub <noreply@github.com> 1726687493 +0100\n\nCreate LICENSE",
+          "verified_at": "2024-11-05T03:20:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/e3dde06b910dfa1b7160bb760f34f1aeb9decec0",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/e3dde06b910dfa1b7160bb760f34f1aeb9decec0",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/e3dde06b910dfa1b7160bb760f34f1aeb9decec0/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "84ac11c466d3406bd9faba50b4c338ff88e0d6d3",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/84ac11c466d3406bd9faba50b4c338ff88e0d6d3",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/84ac11c466d3406bd9faba50b4c338ff88e0d6d3"
+        }
+      ]
+    },
+    {
+      "sha": "84ac11c466d3406bd9faba50b4c338ff88e0d6d3",
+      "node_id": "C_kwDOMgve9NoAKDg0YWMxMWM0NjZkMzQwNmJkOWZhYmE1MGI0YzMzOGZmODhlMGQ2ZDM",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:16:24Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:16:24Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "812ad708ae1eb1e776733cbc599bce1b2862c68e",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/812ad708ae1eb1e776733cbc599bce1b2862c68e"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/84ac11c466d3406bd9faba50b4c338ff88e0d6d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/84ac11c466d3406bd9faba50b4c338ff88e0d6d3",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/84ac11c466d3406bd9faba50b4c338ff88e0d6d3",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/84ac11c466d3406bd9faba50b4c338ff88e0d6d3/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "90c71b77f954fe87a26672e5cf6da61a0f420e13",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/90c71b77f954fe87a26672e5cf6da61a0f420e13",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/90c71b77f954fe87a26672e5cf6da61a0f420e13"
+        }
+      ]
+    },
+    {
+      "sha": "90c71b77f954fe87a26672e5cf6da61a0f420e13",
+      "node_id": "C_kwDOMgve9NoAKDkwYzcxYjc3Zjk1NGZlODdhMjY2NzJlNWNmNmRhNjFhMGY0MjBlMTM",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:09:43Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:09:43Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "fe68404e399416bbce69e538ec7954b78e9ea78a",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/fe68404e399416bbce69e538ec7954b78e9ea78a"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/90c71b77f954fe87a26672e5cf6da61a0f420e13",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/90c71b77f954fe87a26672e5cf6da61a0f420e13",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/90c71b77f954fe87a26672e5cf6da61a0f420e13",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/90c71b77f954fe87a26672e5cf6da61a0f420e13/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "75ba812d7ab57ad78d16de4da3739d4413792a1c",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/75ba812d7ab57ad78d16de4da3739d4413792a1c",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/75ba812d7ab57ad78d16de4da3739d4413792a1c"
+        }
+      ]
+    },
+    {
+      "sha": "75ba812d7ab57ad78d16de4da3739d4413792a1c",
+      "node_id": "C_kwDOMgve9NoAKDc1YmE4MTJkN2FiNTdhZDc4ZDE2ZGU0ZGEzNzM5ZDQ0MTM3OTJhMWM",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:05:51Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:05:51Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "80870d2ed4487f85d2737d56b09da8249f104e73",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/80870d2ed4487f85d2737d56b09da8249f104e73"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/75ba812d7ab57ad78d16de4da3739d4413792a1c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/75ba812d7ab57ad78d16de4da3739d4413792a1c",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/75ba812d7ab57ad78d16de4da3739d4413792a1c",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/75ba812d7ab57ad78d16de4da3739d4413792a1c/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5d26928b9a8b20cdec4f61ac4da2388e12c53627",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/5d26928b9a8b20cdec4f61ac4da2388e12c53627",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/5d26928b9a8b20cdec4f61ac4da2388e12c53627"
+        }
+      ]
+    },
+    {
+      "sha": "5d26928b9a8b20cdec4f61ac4da2388e12c53627",
+      "node_id": "C_kwDOMgve9NoAKDVkMjY5MjhiOWE4YjIwY2RlYzRmNjFhYzRkYTIzODhlMTJjNTM2Mjc",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:05:02Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-23T00:05:02Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "fa71deac11e86e85a39b4c1b38fdb4ad5e19f8ed",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/fa71deac11e86e85a39b4c1b38fdb4ad5e19f8ed"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/5d26928b9a8b20cdec4f61ac4da2388e12c53627",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/5d26928b9a8b20cdec4f61ac4da2388e12c53627",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/5d26928b9a8b20cdec4f61ac4da2388e12c53627",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/5d26928b9a8b20cdec4f61ac4da2388e12c53627/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b5ea3d3a3759322ca0be2387aed3f5d350da9999",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/b5ea3d3a3759322ca0be2387aed3f5d350da9999",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/b5ea3d3a3759322ca0be2387aed3f5d350da9999"
+        }
+      ]
+    },
+    {
+      "sha": "b5ea3d3a3759322ca0be2387aed3f5d350da9999",
+      "node_id": "C_kwDOMgve9NoAKGI1ZWEzZDNhMzc1OTMyMmNhMGJlMjM4N2FlZDNmNWQzNTBkYTk5OTk",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-22T23:59:54Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-22T23:59:54Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "940eae19b53680ec1cf3e27c0d288d32a29b0d0d",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/940eae19b53680ec1cf3e27c0d288d32a29b0d0d"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/b5ea3d3a3759322ca0be2387aed3f5d350da9999",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/b5ea3d3a3759322ca0be2387aed3f5d350da9999",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/b5ea3d3a3759322ca0be2387aed3f5d350da9999",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/b5ea3d3a3759322ca0be2387aed3f5d350da9999/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "350c4b0ef7f94fd6449cba84a943acca6e0512d9",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/350c4b0ef7f94fd6449cba84a943acca6e0512d9",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/350c4b0ef7f94fd6449cba84a943acca6e0512d9"
+        }
+      ]
+    },
+    {
+      "sha": "350c4b0ef7f94fd6449cba84a943acca6e0512d9",
+      "node_id": "C_kwDOMgve9NoAKDM1MGM0YjBlZjdmOTRmZDY0NDljYmE4NGE5NDNhY2NhNmUwNTEyZDk",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-22T23:59:06Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-22T23:59:06Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "d7bed37919d622dae948e0e523e69ac5bbbde9d6",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/d7bed37919d622dae948e0e523e69ac5bbbde9d6"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/350c4b0ef7f94fd6449cba84a943acca6e0512d9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/350c4b0ef7f94fd6449cba84a943acca6e0512d9",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/350c4b0ef7f94fd6449cba84a943acca6e0512d9",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/350c4b0ef7f94fd6449cba84a943acca6e0512d9/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "80df9468ddc9fd857b6a9718158ffa0868c380b4",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80df9468ddc9fd857b6a9718158ffa0868c380b4",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/80df9468ddc9fd857b6a9718158ffa0868c380b4"
+        }
+      ]
+    },
+    {
+      "sha": "80df9468ddc9fd857b6a9718158ffa0868c380b4",
+      "node_id": "C_kwDOMgve9NoAKDgwZGY5NDY4ZGRjOWZkODU3YjZhOTcxODE1OGZmYTA4NjhjMzgwYjQ",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-22T23:57:32Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-22T23:57:32Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "0af65fba47d319779121d567342dca2a8fdb99ca",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/0af65fba47d319779121d567342dca2a8fdb99ca"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/80df9468ddc9fd857b6a9718158ffa0868c380b4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80df9468ddc9fd857b6a9718158ffa0868c380b4",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/80df9468ddc9fd857b6a9718158ffa0868c380b4",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80df9468ddc9fd857b6a9718158ffa0868c380b4/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1fc2e19d7b74639687f1d46dbb92de6f2cd45a91",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/1fc2e19d7b74639687f1d46dbb92de6f2cd45a91",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/1fc2e19d7b74639687f1d46dbb92de6f2cd45a91"
+        }
+      ]
+    },
+    {
+      "sha": "1fc2e19d7b74639687f1d46dbb92de6f2cd45a91",
+      "node_id": "C_kwDOMgve9NoAKDFmYzJlMTlkN2I3NDYzOTY4N2YxZDQ2ZGJiOTJkZTZmMmNkNDVhOTE",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T01:17:28Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T01:17:28Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "f65323b72f98072093a67da016f6adfb451c0b5e",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/f65323b72f98072093a67da016f6adfb451c0b5e"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/1fc2e19d7b74639687f1d46dbb92de6f2cd45a91",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/1fc2e19d7b74639687f1d46dbb92de6f2cd45a91",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/1fc2e19d7b74639687f1d46dbb92de6f2cd45a91",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/1fc2e19d7b74639687f1d46dbb92de6f2cd45a91/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "857daa49b8067f993af7cc36ada076d91bcbe1d3",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/857daa49b8067f993af7cc36ada076d91bcbe1d3",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/857daa49b8067f993af7cc36ada076d91bcbe1d3"
+        }
+      ]
+    },
+    {
+      "sha": "857daa49b8067f993af7cc36ada076d91bcbe1d3",
+      "node_id": "C_kwDOMgve9NoAKDg1N2RhYTQ5YjgwNjdmOTkzYWY3Y2MzNmFkYTA3NmQ5MWJjYmUxZDM",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T00:48:35Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T00:48:35Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "b146122662c3cfc26648dd4d50d4ec4893afb934",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/b146122662c3cfc26648dd4d50d4ec4893afb934"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/857daa49b8067f993af7cc36ada076d91bcbe1d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/857daa49b8067f993af7cc36ada076d91bcbe1d3",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/857daa49b8067f993af7cc36ada076d91bcbe1d3",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/857daa49b8067f993af7cc36ada076d91bcbe1d3/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "96ba23c2b2870aedeeb27a53d8b96491f865cb18",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/96ba23c2b2870aedeeb27a53d8b96491f865cb18",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/96ba23c2b2870aedeeb27a53d8b96491f865cb18"
+        }
+      ]
+    },
+    {
+      "sha": "96ba23c2b2870aedeeb27a53d8b96491f865cb18",
+      "node_id": "C_kwDOMgve9NoAKDk2YmEyM2MyYjI4NzBhZWRlZWIyN2E1M2Q4Yjk2NDkxZjg2NWNiMTg",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T00:47:48Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T00:47:48Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "69c2e22be3177ebe7ee633d629434d23788e2453",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/69c2e22be3177ebe7ee633d629434d23788e2453"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/96ba23c2b2870aedeeb27a53d8b96491f865cb18",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/96ba23c2b2870aedeeb27a53d8b96491f865cb18",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/96ba23c2b2870aedeeb27a53d8b96491f865cb18",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/96ba23c2b2870aedeeb27a53d8b96491f865cb18/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "80d0e9c6b9fe529e385c50092d15eb600e5fc543",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80d0e9c6b9fe529e385c50092d15eb600e5fc543",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/80d0e9c6b9fe529e385c50092d15eb600e5fc543"
+        }
+      ]
+    },
+    {
+      "sha": "80d0e9c6b9fe529e385c50092d15eb600e5fc543",
+      "node_id": "C_kwDOMgve9NoAKDgwZDBlOWM2YjlmZTUyOWUzODVjNTAwOTJkMTVlYjYwMGU1ZmM1NDM",
+      "commit": {
+        "author": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T00:46:41Z"
+        },
+        "committer": {
+          "name": "WuJunde",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-21T00:46:41Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "c26e6c95404ab2602a0a93cee7190a30b617894b",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/c26e6c95404ab2602a0a93cee7190a30b617894b"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/80d0e9c6b9fe529e385c50092d15eb600e5fc543",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80d0e9c6b9fe529e385c50092d15eb600e5fc543",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/80d0e9c6b9fe529e385c50092d15eb600e5fc543",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80d0e9c6b9fe529e385c50092d15eb600e5fc543/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e28714b3986cd0be58f0a7b353ad793b863135bf",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/e28714b3986cd0be58f0a7b353ad793b863135bf",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/e28714b3986cd0be58f0a7b353ad793b863135bf"
+        }
+      ]
+    },
+    {
+      "sha": "e28714b3986cd0be58f0a7b353ad793b863135bf",
+      "node_id": "C_kwDOMgve9NoAKGUyODcxNGIzOTg2Y2QwYmU1OGYwYTdiMzUzYWQ3OTNiODYzMTM1YmY",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-09T16:44:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-08-09T16:44:37Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "b9bf456c86a4225abd371555c1c2c2646fce72bc",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/b9bf456c86a4225abd371555c1c2c2646fce72bc"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/e28714b3986cd0be58f0a7b353ad793b863135bf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmtkd1CRC1aQ7uu5UhlAAAC8EQACNlCN8O0X+GSxZcADRz8Zk/\nypYGrlWLHmA+9szlZNKMDzIAVIzAQ1wdOjN59J5OKGaX6rCzaHBkE1CKWZU27g8d\nMjk/8CLXxAW8hJtOQxsFU8T6qw8frKwIrfJs7Z9TM+hndph6bVCEYEoqPYyg+PI4\ndCAKCEW7Y1wj1AsIsQf3O5rnsxLjslFOOQp4tB5hNiLEwy20p+GDaqR9I9c4/tio\neKfmq/fEz5KB+dPxr+rgj+svHv35uCNecOsU/IHqExqQXKIyVfsB67y4Ug3Inqr8\nY8a+mvs+oFGIwrfLT3WA7kkWLfva3DAwiCYW1V9twsGeNZqcCTfzLq6KfeZ0u0xc\nA/RnW6h8DG/PiGe+sUTaaadXJH3RLjQb/EbYGB1oNwVoqRRP/XlviQsRgeAcUj+n\nAwjvyL9YJonuKarCYrWYLit70vntqkdNR9htJA1qeTY08I4ZzpNwtLr6OQGNa/KP\nuRFX6C7xsHAPdmFbXcApn/WVjkJ0BDIdLcBKE5bE8cbjanpboocrWTHFF4eqahMv\nAjEoQ/RZ4bCp4xHbMajG+xQYb+EpKeBXv6t9/XWUctP0bSeG/3ln8ARrlMm6Ve37\nFkVzmwQbUBf9/Cm0ibO1ietF10Fz2Q/KJ+aqjVAy3/ABRhjiDDuhrcL+A6r5wVu7\nuQBkMkqF0TNdgEZPX+67\n=CMST\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b9bf456c86a4225abd371555c1c2c2646fce72bc\nparent 5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce\nauthor Junde Wu <izzy843794947@gmail.com> 1723221877 +0100\ncommitter GitHub <noreply@github.com> 1723221877 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-05T03:20:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/e28714b3986cd0be58f0a7b353ad793b863135bf",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/e28714b3986cd0be58f0a7b353ad793b863135bf",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/e28714b3986cd0be58f0a7b353ad793b863135bf/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce"
+        }
+      ]
+    },
+    {
+      "sha": "5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce",
+      "node_id": "C_kwDOMgve9NoAKDVhOTVjMjFjMmVkMzIxZjMwZjRiNmJmMGU1ZDg2ZDQzNGMxMDk2Y2U",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-09T02:10:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-08-09T02:10:58Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d03aebaccce5ea1dff3c5d8fe7666e247dc2c407",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/d03aebaccce5ea1dff3c5d8fe7666e247dc2c407"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmtXqzCRC1aQ7uu5UhlAAAG6MQAAaT8lX3Udo+67dB7046DnCD\n1H4xKKWTENbbkENp4UWTBeDzbS037xaTdPBVeiJf8RWmFfAYT8NZa793b1lZupSm\nVfqocHAc5thC+H4XR8QMoUtOKGazQ8j8DB11qpHrcTAeiCY1YAORSUzX9BrSjV4q\nk7fOr4AmwHVm8SkRMegvpTiQemuKz/ty6qAd3U8QzXhA+RNMl5AqE3TME6gNyX6G\nUDBrJORqN9BxYtIjAU6GZP7AV+g2QIOvPHbMHDt0An7kqoxBkJw/zafiGYblxNJx\nGdfiHJlx8tfK7t9vv6bE1jxY+R775MqbHIiEhijtS54T8Zsnez/iDJLxN3zvRYqW\ngAOIokwP82vIzEMMkNUJVZObxPIs580ONrD7HdOkgJYEY+hEf97y81pg+U/eZd2d\nunqs0ruA2d1yyLVRPUWKhfXA6a9jDl++QL0Zv4DsdMj6nPx8FpGhB9kqXZjoIyFa\nhz90g6QNfHm9bUzrGagY/+9mF4ppT6PmSEzC3tdw0LXwQgq4GDoT98vJioURGy79\ntoMPTqRQu0I5L1aVH/O2obcoEpvgqTDEqx8LNC7+CkKXSrmnuu1zxr/+DuEfCTNP\nfuxwjGtWrcqZvLsjlsxys1+9VZkBwh67qL9Q9l2F4qopjV8AEdgAIIUmvfHnezsS\n0SVXKEuN317ap9dZqNZY\n=XVLw\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d03aebaccce5ea1dff3c5d8fe7666e247dc2c407\nparent 48c74e11cd28581f22f0d7e5a8d819ecae727306\nauthor Junde Wu <izzy843794947@gmail.com> 1723169458 +0100\ncommitter GitHub <noreply@github.com> 1723169458 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-05T03:20:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/5a95c21c2ed321f30f4b6bf0e5d86d434c1096ce/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "48c74e11cd28581f22f0d7e5a8d819ecae727306",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/48c74e11cd28581f22f0d7e5a8d819ecae727306",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/48c74e11cd28581f22f0d7e5a8d819ecae727306"
+        }
+      ]
+    },
+    {
+      "sha": "48c74e11cd28581f22f0d7e5a8d819ecae727306",
+      "node_id": "C_kwDOMgve9NoAKDQ4Yzc0ZTExY2QyODU4MWYyMmYwZDdlNWE4ZDgxOWVjYWU3MjczMDY",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-09T02:10:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-08-09T02:10:48Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "72c0edd3e4d3a598488196da066b256810aeb9f4",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/72c0edd3e4d3a598488196da066b256810aeb9f4"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/48c74e11cd28581f22f0d7e5a8d819ecae727306",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmtXqoCRC1aQ7uu5UhlAAAGbEQAGGcSzoG6kQWirNX7641SORS\n6qkLRFHsDY1rol6a2sHSOF4agIav1AV5Kon3rhAAHdPRQAzNsxfAw9hByzzzvdws\nuPB69/TZWYePst/Ha63lhF+K1KCQFqH61rQYDr8UNMPlWj55J8pQ/s84QIPhXypy\nXHLgvjDshsMz0Sf07zk9dvXgz7Cj8cIRNksRcwNVgtLsJPvUvacrwNFCcwdncDe4\nLcb9TeagNpeUdpU0dYXGHOnFIYK3nyS7gxuHq2Fl6z1HRhDCEhIahulKc+lnydv3\naGcz7Myu87AkNs3icW/9vSR5mOFtxUxuteJBc05f2kh5FmpDowb/9siO1JwL7tkX\nFe77kKwpy661MKVym8PQOLv+dBlva0hVTTP6krBan8qCreNsaIKxtjK+i2s8GlHH\nTVfKHrRzcMgF000EbO/3KAh23nxRuCVQr8ufSyRedr/AAT7NRBCe0LxmMW8EJFQi\noBMJYWLm+pMcgp/t0fIQjsHwBb4m/+qCRBCz5pYuA+ZRCMrcZfzE2PTPKwaak3sj\nMzcMltsDjri5rRJSqqzax8UfJvmcK81ed/5LUS4iXwSEY24b+VRPzbsDh3c19zYH\nM9TBQEmh+tkqL1g/XhSBi5kKGBmqly2XzzMjaf1KHyigXhSsvwChrItTaBakb+k3\n0pOW03vOMyJ3pGOYCRLM\n=yYsj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 72c0edd3e4d3a598488196da066b256810aeb9f4\nparent 4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe\nauthor Junde Wu <izzy843794947@gmail.com> 1723169448 +0100\ncommitter GitHub <noreply@github.com> 1723169448 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-05T03:20:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/48c74e11cd28581f22f0d7e5a8d819ecae727306",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/48c74e11cd28581f22f0d7e5a8d819ecae727306",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/48c74e11cd28581f22f0d7e5a8d819ecae727306/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe"
+        }
+      ]
+    },
+    {
+      "sha": "4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe",
+      "node_id": "C_kwDOMgve9NoAKDRiNWU3Y2NlZTk0ZmU4YTliZmU3MjU5NTYyZWUyY2M3N2FiMjNiYmU",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-08T03:08:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-08-08T03:08:45Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d4f7c91b9c053b394eb516fdc8b9f38657b98bd0",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/d4f7c91b9c053b394eb516fdc8b9f38657b98bd0"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmtDa9CRC1aQ7uu5UhlAAAx1AQAI0xHlaUUBLK+gOm5hGVZuDH\nvuRWzwnVLQsCpn9fD+Uhp+AEkwrn5K4k9AVJlFLek+IlOBudvS8pvpKqjHJZlrTx\n1UtZmMCJr3ICA1C/Hp4BSQE6OYoiyePTLSAEKMQVyxcYDrmqNfYXq+ICzsEoj6vk\nqSOkAvREmoLSsGVUlCsJHx6KEbV6GyT+/Bunj6+pSEXN1fDPChx1vxfcBmut9lwK\nU7R43vxFTUTZnBQD9EuQBq2Yt6UtPil6MtAkHQuDWgtqPDkCINoJCU68+tOn0z+s\n1mf39XlNTv6o13tn2cs+Pt0rKBMc2p8d8+GCQeCDpMZO6Sk35nO7d8yS1e6OZcJh\nanQkTWiMIiMpgt21AfBLBmx/L9O4T451LvkB/+TY10GfUw/rIuZQsOo5V0aDDOi/\nqbai6lCDHxNSaMBomOtih4IUCXRe6kmAj1XfVHmXS4bhPFbPk8H3v/RSfZHWVeMm\nN31rxQ4ve+voDyCKf38H/p9YTA1EYClMGBL69p5D0e6Hm+9gaqFGqV+/EVsOTkGw\nlBalRRqIN4N55lCf5Fy6qbtVtI9/iifZxL2QTFenJOS7FBFIVjhstrijhqdpf8ow\nfK1tUk0oIuEZ3NVoKU0AatB1CafVeOubj38yI5Yrv4TKUGETaVeLguqUExlmfVgX\ngf+RAtEGQ0hkM7ED5iWh\n=UcH4\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d4f7c91b9c053b394eb516fdc8b9f38657b98bd0\nparent 80e91081dca66395ab9f6a63f6fa650ca608c37d\nauthor Junde Wu <izzy843794947@gmail.com> 1723086525 +0100\ncommitter GitHub <noreply@github.com> 1723086525 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-05T03:20:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/4b5e7ccee94fe8a9bfe7259562ee2cc77ab23bbe/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "80e91081dca66395ab9f6a63f6fa650ca608c37d",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80e91081dca66395ab9f6a63f6fa650ca608c37d",
+          "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/80e91081dca66395ab9f6a63f6fa650ca608c37d"
+        }
+      ]
+    },
+    {
+      "sha": "80e91081dca66395ab9f6a63f6fa650ca608c37d",
+      "node_id": "C_kwDOMgve9NoAKDgwZTkxMDgxZGNhNjYzOTVhYjlmNmE2M2Y2ZmE2NTBjYTYwOGMzN2Q",
+      "commit": {
+        "author": {
+          "name": "Junde Wu",
+          "email": "izzy843794947@gmail.com",
+          "date": "2024-08-08T03:08:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-08-08T03:08:31Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "84da74342467088e130f0afc287d2cdd440291a3",
+          "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/trees/84da74342467088e130f0afc287d2cdd440291a3"
+        },
+        "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/git/commits/80e91081dca66395ab9f6a63f6fa650ca608c37d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmtDavCRC1aQ7uu5UhlAAAgX4QAEnS9U4evz8KILbAeDcvGrnR\n9H8kLdej13XjNqmw1oD/4estDEpwhj8QHNN7dwrJCoqmpvSDzIYQDd4ffi/Jyp56\nvTwFwaaxZPHX+DjiJBRd9Fs8NIIXrW6O/q43lmuJubnYVozzmBThJObO89QsbiQ3\nsNZc4274i6O3Jnszndgm34TO2puRFJxIVme/veVKxeZL/NDvj3JdRW5uCcqFLi/y\nISZGOc9GFjRiP517beE2SSOaN1K36f0nSudmIAD4QaT1rFtVWdpeUIRjYvFZsdtV\nDi6M4qXOP7hswZTqF8kCNYqFk6wXc9kHaODNTCWlv6v/rg3w+7fsDRIF+dcsURV8\nqqxHttmrEmu6FUskod3y6AhKRNbAEij+4E1bAd0MfSShXs1osDtMRuOBz15FJh+s\nooWxYRrF4SyOEXJCSeidQxoq/bvuXEEEHv9d5hB3SwiTRbzyMl4aZUqy6uRW3XV+\n6Mn8dtXQOkEnUNKTvWrO1pE9viCiJYJGW5I3Cz8K8kFxDjoOpjC0jEks6Nv/Fiuo\n0zMcCrjmbUOjAolIokUeBWBU0sQr/frc2ghxSvleggqwvnRcDFZKY2ABtRuIQ/bG\nz05SKFelHJDcBbUJ8YnEkf1NzqVPiUZwlB6a0YqqBblQ5H2z1SrqzlWQfAp1Y+IC\njlVvSFAVBi37oMhzQmv0\n=lWix\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 84da74342467088e130f0afc287d2cdd440291a3\nauthor Junde Wu <izzy843794947@gmail.com> 1723086511 +0100\ncommitter GitHub <noreply@github.com> 1723086511 +0100\n\nInitial commit",
+          "verified_at": "2024-11-05T03:20:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80e91081dca66395ab9f6a63f6fa650ca608c37d",
+      "html_url": "https://github.com/ImprintLab/Medical-Graph-RAG/commit/80e91081dca66395ab9f6a63f6fa650ca608c37d",
+      "comments_url": "https://api.github.com/repos/ImprintLab/Medical-Graph-RAG/commits/80e91081dca66395ab9f6a63f6fa650ca608c37d/comments",
+      "author": {
+        "login": "WuJunde",
+        "id": 23454271,
+        "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/WuJunde",
+        "html_url": "https://github.com/WuJunde",
+        "followers_url": "https://api.github.com/users/WuJunde/followers",
+        "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+        "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+        "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+        "repos_url": "https://api.github.com/users/WuJunde/repos",
+        "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "WuJunde",
+      "id": 23454271,
+      "node_id": "MDQ6VXNlcjIzNDU0Mjcx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23454271?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WuJunde",
+      "html_url": "https://github.com/WuJunde",
+      "followers_url": "https://api.github.com/users/WuJunde/followers",
+      "following_url": "https://api.github.com/users/WuJunde/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WuJunde/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WuJunde/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WuJunde/subscriptions",
+      "organizations_url": "https://api.github.com/users/WuJunde/orgs",
+      "repos_url": "https://api.github.com/users/WuJunde/repos",
+      "events_url": "https://api.github.com/users/WuJunde/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WuJunde/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 25
+    },
+    {
+      "login": "LinglongQian",
+      "id": 38267728,
+      "node_id": "MDQ6VXNlcjM4MjY3NzI4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38267728?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LinglongQian",
+      "html_url": "https://github.com/LinglongQian",
+      "followers_url": "https://api.github.com/users/LinglongQian/followers",
+      "following_url": "https://api.github.com/users/LinglongQian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LinglongQian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LinglongQian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LinglongQian/subscriptions",
+      "organizations_url": "https://api.github.com/users/LinglongQian/orgs",
+      "repos_url": "https://api.github.com/users/LinglongQian/repos",
+      "events_url": "https://api.github.com/users/LinglongQian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LinglongQian/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 3
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 1058788,
+    "Dockerfile": 890,
+    "Shell": 56
+  },
+  "readme_html": "<h1 id=\"user-content-medical-graph-rag\">Medical-Graph-RAG</h1>\n<p>We build a Graph RAG System specifically for the medical domain.</p>\n<p>Check our paper here: <a href=\"https://arxiv.org/abs/2408.04187\">https://arxiv.org/abs/2408.04187</a></p>\n<h2 id=\"user-content-demo\">Demo</h2>\n<p>a docker demo is here: <a href=\"https://hub.docker.com/repository/docker/jundewu/medrag-post/general\">https://hub.docker.com/repository/docker/jundewu/medrag-post/general</a></p>\n<p>Use it by: docker run -it --rm --storage-opt size=10G -p 7860:7860 \\ -e OPENAI_API_KEY= your_key -e NCBI_API_KEY= your_key medrag-post</p>\n<p>this demo used web-based searches on PubMed instead of locally storing medical papers and textbooks to detour the license wall.</p>\n<h2 id=\"user-content-quick-start-baseline-a-simple-graph-rag-pipeline-on-medical-data\">Quick Start (Baseline: a simple Graph RAG pipeline on medical data)</h2>\n<ol>\n<li>\n<p>conda env create -f medgraphrag.yml</p>\n</li>\n<li>\n<p>export OPENAI_API_KEY = your OPENAI_API_KEY</p>\n</li>\n<li>\n<p>python run.py -simple True (now using ./dataset_ex/report_0.txt as RAG doc, \"What is the main symptom of the patient?\" as the prompt, change the prompt in run.py as you like.)</p>\n</li>\n</ol>\n<h2 id=\"user-content-build-from-scratch-complete-graph-rag-flow-in-the-paper\">Build from scratch (Complete Graph RAG flow in the paper)</h2>\n<h3 id=\"user-content-about-the-dataset\">About the dataset</h3>\n<h4 id=\"user-content-paper-datasets\">Paper Datasets</h4>\n<p><strong>Top-level Private data (user-provided)</strong>: we used <a href=\"https://physionet.org/content/mimiciv/3.0/\">MIMIC IV dataset</a> as the private data.</p>\n<p><strong>Medium-level Books and Papers</strong>: We used MedC-K as the medium-level data. The dataset sources from <a href=\"https://github.com/allenai/s2orc\">S2ORC</a>. Only those papers with PubMed IDs are deemed as medical-related and used during pretraining. The book is listed in this repo as <a href=\"https://github.com/MedicineToken/Medical-Graph-RAG/blob/main/MedicalBook.xlsx\">MedicalBook.xlsx</a>, due to licenses, we cannot release raw content. For reproducing, pls buy and process the books.</p>\n<p><strong>Bottom-level Dictionary data</strong>: We used <a href=\"https://www.nlm.nih.gov/research/umls/index.html\">Unified Medical Language System (UMLS)</a> as the bottom level data. To access it, you'll need to create an account and apply for usage. It is free and approval is typically fast.</p>\n<p>In the code, we use the 'trinity' argument to enable the hierarchy graph linking function. If set to True, you must also provide a 'gid' (graph ID) to specify which graphs the top-level should link to. UMLS is largely structured as a graph, so minimal effort is required to construct it. However, MedC-K must be constructed as graph data. There are several methods you can use, such as the approach we used to process the top-level in this repo (open-source LLMs are recommended to keep costs down), or you can opt for non-learning-based graph construction algorithms (faster, cheaper, and generally noisier)</p>\n<h4 id=\"user-content-example-datasets\">Example Datasets</h4>\n<p>Recognizing that accessing and processing all the data mentioned may be challenging, we are working to provide simpler example dataset to demonstrate functionality. Currently, we are using the mimic_ex <a href=\"https://huggingface.co/datasets/Morson/mimic_ex\">here</a> here as the Top-level data, which is the processed smaller dataset derived from MIMIC. For Medium-level and Bottom-level data, we are in the process of identifying suitable alternatives to simplify the implementation, welcome for any recommendations.</p>\n<h3 id=\"user-content-1-prepare-the-environment-neo4j-and-llm\">1. Prepare the environment, Neo4j and LLM</h3>\n<ol>\n<li>\n<p>conda env create -f medgraphrag.yml</p>\n</li>\n<li>\n<p>prepare neo4j and LLM (using ChatGPT here for an example), you need to export:</p>\n</li>\n</ol>\n<p>export OPENAI_API_KEY = your OPENAI_API_KEY</p>\n<p>export NEO4J_URL= your NEO4J_URL</p>\n<p>export NEO4J_USERNAME= your NEO4J_USERNAME</p>\n<p>export NEO4J_PASSWORD= your NEO4J_PASSWORD</p>\n<h3 id=\"user-content-2-construct-the-graph-use-mimic_ex-dataset-as-an-example\">2. Construct the graph (use \"mimic_ex\" dataset as an example)</h3>\n<ol>\n<li>\n<p>Download mimic_ex <a href=\"https://huggingface.co/datasets/Morson/mimic_ex\">here</a>, put that under your data path, like ./dataset/mimic_ex</p>\n</li>\n<li>\n<p>python run.py -dataset mimic_ex -data_path ./dataset/mimic_ex(where you put the dataset) -grained_chunk -ingraphmerge -construct_graph</p>\n</li>\n</ol>\n<h3 id=\"user-content-3-model-inference\">3. Model Inference</h3>\n<ol>\n<li>\n<p>put your prompt to ./prompt.txt</p>\n</li>\n<li>\n<p>python run.py -dataset mimic_ex -data_path ./dataset/mimic_ex(where you put the dataset) -inference</p>\n</li>\n</ol>\n<h2 id=\"user-content-acknowledgement\">Acknowledgement</h2>\n<p>We are building on <a href=\"https://github.com/camel-ai/camel\">CAMEL</a>, an awesome framework for construcing multi-agent pipeline.</p>\n<h2 id=\"user-content-cite\">Cite</h2>\n<pre><code>@article{wu2024medical,\n  title={Medical Graph RAG: Towards Safe Medical Large Language Model via Graph Retrieval-Augmented Generation},\n  author={Wu, Junde and Zhu, Jiayuan and Qi, Yunli},\n  journal={arXiv preprint arXiv:2408.04187},\n  year={2024}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:03:53.639Z"
+}

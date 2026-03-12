@@ -1,0 +1,1251 @@
+{
+  "id": 729244487,
+  "node_id": "R_kgDOK3djRw",
+  "name": "LlamaIndex-RAG-WSL-CUDA",
+  "full_name": "marklysze/LlamaIndex-RAG-WSL-CUDA",
+  "private": false,
+  "owner": {
+    "login": "marklysze",
+    "id": 66362098,
+    "node_id": "MDQ6VXNlcjY2MzYyMDk4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/66362098?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/marklysze",
+    "html_url": "https://github.com/marklysze",
+    "followers_url": "https://api.github.com/users/marklysze/followers",
+    "following_url": "https://api.github.com/users/marklysze/following{/other_user}",
+    "gists_url": "https://api.github.com/users/marklysze/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/marklysze/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/marklysze/subscriptions",
+    "organizations_url": "https://api.github.com/users/marklysze/orgs",
+    "repos_url": "https://api.github.com/users/marklysze/repos",
+    "events_url": "https://api.github.com/users/marklysze/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/marklysze/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA",
+  "description": "Examples of RAG using Llamaindex with local LLMs - Gemma, Mixtral 8x7B, Llama 2, Mistral 7B, Orca 2, Phi-2, Neural 7B",
+  "fork": false,
+  "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA",
+  "forks_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/forks",
+  "keys_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/teams",
+  "hooks_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/hooks",
+  "issue_events_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/events",
+  "assignees_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/tags",
+  "blobs_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/languages",
+  "stargazers_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/stargazers",
+  "contributors_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/contributors",
+  "subscribers_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/subscribers",
+  "subscription_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/subscription",
+  "commits_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/merges",
+  "archive_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/downloads",
+  "issues_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/labels{/name}",
+  "releases_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/deployments",
+  "created_at": "2023-12-08T17:49:54Z",
+  "updated_at": "2026-03-08T15:23:23Z",
+  "pushed_at": "2024-02-25T10:11:58Z",
+  "git_url": "git://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA.git",
+  "ssh_url": "git@github.com:marklysze/LlamaIndex-RAG-WSL-CUDA.git",
+  "clone_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA.git",
+  "svn_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA",
+  "homepage": "",
+  "size": 324,
+  "stargazers_count": 132,
+  "watchers_count": 132,
+  "language": "Jupyter Notebook",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": true,
+  "forks_count": 14,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "gemma",
+    "gemma-2b",
+    "gemma-7b",
+    "llama-2",
+    "llamaindex",
+    "microsoft-phi-2",
+    "mistral-7b",
+    "mixtral",
+    "mixtral-8x7b",
+    "neural-7b",
+    "neural-chat-7b",
+    "orca-2",
+    "phi-2",
+    "retrieval-augmented-generation",
+    "windows-10",
+    "windows-11",
+    "wsl2",
+    "yi-34b"
+  ],
+  "visibility": "public",
+  "forks": 14,
+  "open_issues": 0,
+  "watchers": 132,
+  "default_branch": "master",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "open-source-llms",
+  "commits": [
+    {
+      "sha": "54e969ff0af8239908c1b293ebe17a7ff577b4fd",
+      "node_id": "C_kwDOK3djR9oAKDU0ZTk2OWZmMGFmODIzOTkwOGMxYjI5M2ViZTE3YTdmZjU3N2I0ZmQ",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2024-02-24T23:40:08Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2024-02-24T23:40:08Z"
+        },
+        "message": "Updated for LlamaIndex Core + Google Gemma 2B and 7B added",
+        "tree": {
+          "sha": "9b15a76b5e9ece64a6787c24331dd32d42816356",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/9b15a76b5e9ece64a6787c24331dd32d42816356"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/54e969ff0af8239908c1b293ebe17a7ff577b4fd",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/54e969ff0af8239908c1b293ebe17a7ff577b4fd",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/54e969ff0af8239908c1b293ebe17a7ff577b4fd",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/54e969ff0af8239908c1b293ebe17a7ff577b4fd/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3"
+        }
+      ]
+    },
+    {
+      "sha": "5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3",
+      "node_id": "C_kwDOK3djR9oAKDVkNmY2ZTY4ZTBkNDEwODg1OTRmMjhlN2FlMzJhMjhjMmRkZjNjZTM",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "66362098+marklysze@users.noreply.github.com",
+          "date": "2024-01-20T10:11:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-20T10:11:16Z"
+        },
+        "message": "Update README.md\n\nAdded links to other related respositories",
+        "tree": {
+          "sha": "2ad88d840adfd40d287700e854666c29ce098e88",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/2ad88d840adfd40d287700e854666c29ce098e88"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlq5xECRC1aQ7uu5UhlAAAAtcQAAorP97XlUT9ndRxZi3PU2Nb\nbeC3T6/frJHvlvt2xa3c+ZttuGv8w3IgiX/EdHFsRnXCANgyeu9ZqtIjmSUBFABC\nmKj6dWC+XwXudNaNUt6n9fxdR51Gv2eEMVP8g9mtTDeRCG7XcJrhjlQ3GArtCsNz\nnkR0WUQcsrKfa1A2nc8D/nPW+U1BY251CMhULiZC6y7zPV6k1HdSyiYdetmhC6FM\nHf7ukL1uDZi1MA3PbPaU2wUT2KaE/3awHE+qmORAcEEdit8hNYeQGtzs39DZM7hC\nTJS7acQL0XB1DPqfWwnOAdZpTrW+3moOcdCJQKQGzDwTw8qiE372mWcv/Ja++AgD\nZhJc/TIJLnnVv9PFiygI7i2c6P3nPbE/cv/B4u1UzCZCo3Son4neOwpa1tvTp3lb\nToS3ws1YNTVZI9pc4U47JQNtqzNtDhr5M/RjxU8CdR1zAFXkP/vZO7aIBYWy826c\nvUKd1NrKvdcMsHoRz2Eg0oiYB2cdjtxhD4kF6z8MJo3ebt993NJoVCtmHNNMl6PQ\niQkz2yLYUZkBcymjwqcFveYjcJrox3R3CepmyLsvBXWg8qTXpUvNOM22hyUzhhzf\nZSJz+k0CxfBP3cYX3+AkhfeDrgUeY2fz/6nnAHIlAHiJ2MwiSc1IWhSOQ82BRY/R\ne9eE+NvPCKUNPSNT4G8v\n=zXPH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2ad88d840adfd40d287700e854666c29ce098e88\nparent 4c6b446f755a566dc0f5cbe5b541d0c83888e931\nauthor Mark Sze <66362098+marklysze@users.noreply.github.com> 1705745476 +1100\ncommitter GitHub <noreply@github.com> 1705745476 +1100\n\nUpdate README.md\n\nAdded links to other related respositories",
+          "verified_at": "2024-12-26T07:56:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/5d6f6e68e0d41088594f28e7ae32a28c2ddf3ce3/comments",
+      "author": {
+        "login": "marklysze",
+        "id": 66362098,
+        "node_id": "MDQ6VXNlcjY2MzYyMDk4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66362098?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/marklysze",
+        "html_url": "https://github.com/marklysze",
+        "followers_url": "https://api.github.com/users/marklysze/followers",
+        "following_url": "https://api.github.com/users/marklysze/following{/other_user}",
+        "gists_url": "https://api.github.com/users/marklysze/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/marklysze/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/marklysze/subscriptions",
+        "organizations_url": "https://api.github.com/users/marklysze/orgs",
+        "repos_url": "https://api.github.com/users/marklysze/repos",
+        "events_url": "https://api.github.com/users/marklysze/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/marklysze/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4c6b446f755a566dc0f5cbe5b541d0c83888e931",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/4c6b446f755a566dc0f5cbe5b541d0c83888e931",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/4c6b446f755a566dc0f5cbe5b541d0c83888e931"
+        }
+      ]
+    },
+    {
+      "sha": "4c6b446f755a566dc0f5cbe5b541d0c83888e931",
+      "node_id": "C_kwDOK3djR9oAKDRjNmI0NDZmNzU1YTU2NmRjMGY1Y2JlNWI1NDFkMGM4Mzg4OGU5MzE",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-23T07:38:26Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-23T07:38:26Z"
+        },
+        "message": "Solar 10.7B Instruct model added, Mixtral re-run to show output.",
+        "tree": {
+          "sha": "23c596d50279236c954f8ab099a8fe598f2c74bb",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/23c596d50279236c954f8ab099a8fe598f2c74bb"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/4c6b446f755a566dc0f5cbe5b541d0c83888e931",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/4c6b446f755a566dc0f5cbe5b541d0c83888e931",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/4c6b446f755a566dc0f5cbe5b541d0c83888e931",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/4c6b446f755a566dc0f5cbe5b541d0c83888e931/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "74f76b6c6d1249bc908b346d45cf67132b179812",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/74f76b6c6d1249bc908b346d45cf67132b179812",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/74f76b6c6d1249bc908b346d45cf67132b179812"
+        }
+      ]
+    },
+    {
+      "sha": "74f76b6c6d1249bc908b346d45cf67132b179812",
+      "node_id": "C_kwDOK3djR9oAKDc0Zjc2YjZjNmQxMjQ5YmM5MDhiMzQ2ZDQ1Y2Y2NzEzMmIxNzk4MTI",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-23T04:54:56Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-23T04:54:56Z"
+        },
+        "message": "Merge branch 'master' of https://github.com/marklysze/LlamaIndexGeneric",
+        "tree": {
+          "sha": "270078ea3ad3c6ed2f8274c7042315bd38b4f7a0",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/270078ea3ad3c6ed2f8274c7042315bd38b4f7a0"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/74f76b6c6d1249bc908b346d45cf67132b179812",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/74f76b6c6d1249bc908b346d45cf67132b179812",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/74f76b6c6d1249bc908b346d45cf67132b179812",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/74f76b6c6d1249bc908b346d45cf67132b179812/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "00c8da715a77f7420861d21e56b12f8b9e8e8348",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/00c8da715a77f7420861d21e56b12f8b9e8e8348",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/00c8da715a77f7420861d21e56b12f8b9e8e8348"
+        },
+        {
+          "sha": "06d9ced7cd3a7982679f6434b4411a93ae080d4b",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/06d9ced7cd3a7982679f6434b4411a93ae080d4b",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/06d9ced7cd3a7982679f6434b4411a93ae080d4b"
+        }
+      ]
+    },
+    {
+      "sha": "00c8da715a77f7420861d21e56b12f8b9e8e8348",
+      "node_id": "C_kwDOK3djR9oAKDAwYzhkYTcxNWE3N2Y3NDIwODYxZDIxZTU2YjEyZjhiOWU4ZTgzNDg",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-23T04:54:53Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-23T04:54:53Z"
+        },
+        "message": "Phi-2 Unquantized and FP16, working.",
+        "tree": {
+          "sha": "299a136c9dff10815ebacb4b32c8373887ef7adf",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/299a136c9dff10815ebacb4b32c8373887ef7adf"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/00c8da715a77f7420861d21e56b12f8b9e8e8348",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/00c8da715a77f7420861d21e56b12f8b9e8e8348",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/00c8da715a77f7420861d21e56b12f8b9e8e8348",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/00c8da715a77f7420861d21e56b12f8b9e8e8348/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a00d17051c4e2276b49b90c98de2906b362b6167",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a00d17051c4e2276b49b90c98de2906b362b6167",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a00d17051c4e2276b49b90c98de2906b362b6167"
+        }
+      ]
+    },
+    {
+      "sha": "06d9ced7cd3a7982679f6434b4411a93ae080d4b",
+      "node_id": "C_kwDOK3djR9oAKDA2ZDljZWQ3Y2QzYTc5ODI2NzlmNjQzNGI0NDExYTkzYWUwODBkNGI",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "66362098+marklysze@users.noreply.github.com",
+          "date": "2023-12-19T23:53:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-12-19T23:53:27Z"
+        },
+        "message": "Update README.md\n\nReadme cleanup",
+        "tree": {
+          "sha": "79ba7c5d9592aa751ab19382d844d74ee2883375",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/79ba7c5d9592aa751ab19382d844d74ee2883375"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/06d9ced7cd3a7982679f6434b4411a93ae080d4b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlgiz3CRBK7hj4Ov3rIwAAt0oIAEA9ScNlxyNxNhdLRUFGMu8p\narIew4guEw7rMrj+FwMoX5EN+PYJ9reg8+cVwMEs/rjKYNZHLl6tXvIOb2KEAHGB\noI3azSTl0EJ+b6dBmr9I5i9Dbc/xSnMrMH5v46oi9sBeLjPlMsTT98Wnv0sxcLk2\n51Wwp5PlDc2zqfbfo5ipjXy6lAKpAPZCgEayDKXmarjE+xD5Gud9X+MpHkaSMWG9\npFaILKmjJSc/+oT9IlfsG93DQkU4lo5FZsvyefEiDn3sl4V+ZfdFlhY2sdFvoElC\nmUL+biZWhEM4csafYytlpFaDGOl/ccyzg0w4QhTaVqS8lMX/+Fc3XL5/FAnd2RM=\n=/rJ0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 79ba7c5d9592aa751ab19382d844d74ee2883375\nparent a00d17051c4e2276b49b90c98de2906b362b6167\nauthor Mark Sze <66362098+marklysze@users.noreply.github.com> 1703030007 +1100\ncommitter GitHub <noreply@github.com> 1703030007 +1100\n\nUpdate README.md\n\nReadme cleanup",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/06d9ced7cd3a7982679f6434b4411a93ae080d4b",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/06d9ced7cd3a7982679f6434b4411a93ae080d4b",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/06d9ced7cd3a7982679f6434b4411a93ae080d4b/comments",
+      "author": {
+        "login": "marklysze",
+        "id": 66362098,
+        "node_id": "MDQ6VXNlcjY2MzYyMDk4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66362098?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/marklysze",
+        "html_url": "https://github.com/marklysze",
+        "followers_url": "https://api.github.com/users/marklysze/followers",
+        "following_url": "https://api.github.com/users/marklysze/following{/other_user}",
+        "gists_url": "https://api.github.com/users/marklysze/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/marklysze/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/marklysze/subscriptions",
+        "organizations_url": "https://api.github.com/users/marklysze/orgs",
+        "repos_url": "https://api.github.com/users/marklysze/repos",
+        "events_url": "https://api.github.com/users/marklysze/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/marklysze/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a00d17051c4e2276b49b90c98de2906b362b6167",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a00d17051c4e2276b49b90c98de2906b362b6167",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a00d17051c4e2276b49b90c98de2906b362b6167"
+        }
+      ]
+    },
+    {
+      "sha": "a00d17051c4e2276b49b90c98de2906b362b6167",
+      "node_id": "C_kwDOK3djR9oAKGEwMGQxNzA1MWM0ZTIyNzZiNDliOTBjOThkZTI5MDZiMzYyYjYxNjc",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:41:30Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:41:30Z"
+        },
+        "message": "Re-running Phi-2",
+        "tree": {
+          "sha": "55937bb55620a5fcb40a518edbb4c0bd382ce2b4",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/55937bb55620a5fcb40a518edbb4c0bd382ce2b4"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/a00d17051c4e2276b49b90c98de2906b362b6167",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a00d17051c4e2276b49b90c98de2906b362b6167",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a00d17051c4e2276b49b90c98de2906b362b6167",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a00d17051c4e2276b49b90c98de2906b362b6167/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "1f20d8dfe8b3d4a91580875d0d87ff797a97a586",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/1f20d8dfe8b3d4a91580875d0d87ff797a97a586",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/1f20d8dfe8b3d4a91580875d0d87ff797a97a586"
+        }
+      ]
+    },
+    {
+      "sha": "1f20d8dfe8b3d4a91580875d0d87ff797a97a586",
+      "node_id": "C_kwDOK3djR9oAKDFmMjBkOGRmZThiM2Q0YTkxNTgwODc1ZDBkODdmZjc5N2E5N2E1ODY",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:08:19Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:08:19Z"
+        },
+        "message": "Comment updates",
+        "tree": {
+          "sha": "855568c8cefe682cfeaee83728fa462ea7026b25",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/855568c8cefe682cfeaee83728fa462ea7026b25"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/1f20d8dfe8b3d4a91580875d0d87ff797a97a586",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/1f20d8dfe8b3d4a91580875d0d87ff797a97a586",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/1f20d8dfe8b3d4a91580875d0d87ff797a97a586",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/1f20d8dfe8b3d4a91580875d0d87ff797a97a586/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "808df52a974f990ba4071ded52f8f41436e921c8",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/808df52a974f990ba4071ded52f8f41436e921c8",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/808df52a974f990ba4071ded52f8f41436e921c8"
+        }
+      ]
+    },
+    {
+      "sha": "808df52a974f990ba4071ded52f8f41436e921c8",
+      "node_id": "C_kwDOK3djR9oAKDgwOGRmNTJhOTc0Zjk5MGJhNDA3MWRlZDUyZjhmNDE0MzZlOTIxYzg",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:07:27Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:07:27Z"
+        },
+        "message": "Comment updates",
+        "tree": {
+          "sha": "e497b79466e67e8a2fe26c5d4a7997e443af80b9",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/e497b79466e67e8a2fe26c5d4a7997e443af80b9"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/808df52a974f990ba4071ded52f8f41436e921c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/808df52a974f990ba4071ded52f8f41436e921c8",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/808df52a974f990ba4071ded52f8f41436e921c8",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/808df52a974f990ba4071ded52f8f41436e921c8/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a1da1b40607d68f09ad373c1155e274e139f6e9d",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a1da1b40607d68f09ad373c1155e274e139f6e9d",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a1da1b40607d68f09ad373c1155e274e139f6e9d"
+        }
+      ]
+    },
+    {
+      "sha": "a1da1b40607d68f09ad373c1155e274e139f6e9d",
+      "node_id": "C_kwDOK3djR9oAKGExZGExYjQwNjA3ZDY4ZjA5YWQzNzNjMTE1NWUyNzRlMTM5ZjZlOWQ",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:04:42Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-19T03:04:42Z"
+        },
+        "message": "Intel's Neural Chat 7B and Microsoft's Phi-2 added",
+        "tree": {
+          "sha": "a96cd45cc00e350e2d2fa210efd90f2dbb8d16b5",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/a96cd45cc00e350e2d2fa210efd90f2dbb8d16b5"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/a1da1b40607d68f09ad373c1155e274e139f6e9d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a1da1b40607d68f09ad373c1155e274e139f6e9d",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a1da1b40607d68f09ad373c1155e274e139f6e9d",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a1da1b40607d68f09ad373c1155e274e139f6e9d/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a570f536aa267fc8ff5644d210ef69449c3ace10",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a570f536aa267fc8ff5644d210ef69449c3ace10",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a570f536aa267fc8ff5644d210ef69449c3ace10"
+        }
+      ]
+    },
+    {
+      "sha": "a570f536aa267fc8ff5644d210ef69449c3ace10",
+      "node_id": "C_kwDOK3djR9oAKGE1NzBmNTM2YWEyNjdmYzhmZjU2NDRkMjEwZWY2OTQ0OWMzYWNlMTA",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-15T21:13:23Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-15T21:13:23Z"
+        },
+        "message": "Merge branch 'master' of https://github.com/marklysze/LlamaIndexGeneric",
+        "tree": {
+          "sha": "695543a055fb5a22c770114676e137b2c412bcf6",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/695543a055fb5a22c770114676e137b2c412bcf6"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/a570f536aa267fc8ff5644d210ef69449c3ace10",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a570f536aa267fc8ff5644d210ef69449c3ace10",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a570f536aa267fc8ff5644d210ef69449c3ace10",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a570f536aa267fc8ff5644d210ef69449c3ace10/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "f392743d57af70c4aa4f424db57d7bbd8f74f5e7",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/f392743d57af70c4aa4f424db57d7bbd8f74f5e7",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/f392743d57af70c4aa4f424db57d7bbd8f74f5e7"
+        },
+        {
+          "sha": "2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668"
+        }
+      ]
+    },
+    {
+      "sha": "f392743d57af70c4aa4f424db57d7bbd8f74f5e7",
+      "node_id": "C_kwDOK3djR9oAKGYzOTI3NDNkNTdhZjcwYzRhYTRmNDI0ZGI1N2Q3YmJkOGY3NGY1ZTc",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-15T21:12:34Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-15T21:12:34Z"
+        },
+        "message": "Mixtral 8x7B - impressive",
+        "tree": {
+          "sha": "aba078ce20efcd1ae7d69cf6c4499d7aca4ca1fd",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/aba078ce20efcd1ae7d69cf6c4499d7aca4ca1fd"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/f392743d57af70c4aa4f424db57d7bbd8f74f5e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/f392743d57af70c4aa4f424db57d7bbd8f74f5e7",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/f392743d57af70c4aa4f424db57d7bbd8f74f5e7",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/f392743d57af70c4aa4f424db57d7bbd8f74f5e7/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860"
+        }
+      ]
+    },
+    {
+      "sha": "2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668",
+      "node_id": "C_kwDOK3djR9oAKDJlY2FhZjU4MDRkNmVmZjQ1MTZlOWQ2ZTRjMDQzOTBhYzBhMWQ2Njg",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "66362098+marklysze@users.noreply.github.com",
+          "date": "2023-12-10T23:31:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-12-10T23:31:06Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "db9f9c5dd2963824052a94ebf75f332828fb5b3b",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/db9f9c5dd2963824052a94ebf75f332828fb5b3b"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJldko6CRBK7hj4Ov3rIwAAPXEIALLOkXwjnMsL1EKMGsaAYqtC\neNfvCQfgWQtnXQts9c/HE8byWU3AC8b/FthKGhVZDMNrvffRN1rlIdsewzE4l0BZ\nCudQNfTFPS13oay7/OIp3IoM1fBXwWcyV3+xlEtlbJi9ruqhvOzq+iyJ8A0ClIAR\nK0nw6BghVQOuLwG/qYsPhGnz4+zoCGJ/WrxlShlN0Um0jBYHRaPj7fL8cjius+Ae\ndjF5rk7PhAYoP0fq1uF7fDEe0uhA6zQM+4fGt4q/14yOGgGC+6uvgtZcEecOI8LF\nB8svBTp2wh2Np8+7rHgtZLl6iv25Thnj8HHUY8CV+pjdAuGJ4moB2MdxVQjP8zE=\n=O2g9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree db9f9c5dd2963824052a94ebf75f332828fb5b3b\nparent 1326d003265c00ebe8fdf57e55206504b7fe7b0a\nauthor Mark Sze <66362098+marklysze@users.noreply.github.com> 1702251066 +1100\ncommitter GitHub <noreply@github.com> 1702251066 +1100\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/2ecaaf5804d6eff4516e9d6e4c04390ac0a1d668/comments",
+      "author": {
+        "login": "marklysze",
+        "id": 66362098,
+        "node_id": "MDQ6VXNlcjY2MzYyMDk4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66362098?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/marklysze",
+        "html_url": "https://github.com/marklysze",
+        "followers_url": "https://api.github.com/users/marklysze/followers",
+        "following_url": "https://api.github.com/users/marklysze/following{/other_user}",
+        "gists_url": "https://api.github.com/users/marklysze/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/marklysze/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/marklysze/subscriptions",
+        "organizations_url": "https://api.github.com/users/marklysze/orgs",
+        "repos_url": "https://api.github.com/users/marklysze/repos",
+        "events_url": "https://api.github.com/users/marklysze/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/marklysze/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1326d003265c00ebe8fdf57e55206504b7fe7b0a",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/1326d003265c00ebe8fdf57e55206504b7fe7b0a",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/1326d003265c00ebe8fdf57e55206504b7fe7b0a"
+        }
+      ]
+    },
+    {
+      "sha": "1326d003265c00ebe8fdf57e55206504b7fe7b0a",
+      "node_id": "C_kwDOK3djR9oAKDEzMjZkMDAzMjY1YzAwZWJlOGZkZjU3ZTU1MjA2NTA0YjdmZTdiMGE",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "66362098+marklysze@users.noreply.github.com",
+          "date": "2023-12-09T23:00:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-12-09T23:00:46Z"
+        },
+        "message": "Update README.md\n\nNVIDIA CUDA Toolkit 12.3 noted",
+        "tree": {
+          "sha": "4b02489527f45268e3daf869b29603d84fdaf1b2",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/4b02489527f45268e3daf869b29603d84fdaf1b2"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/1326d003265c00ebe8fdf57e55206504b7fe7b0a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJldPGeCRBK7hj4Ov3rIwAARgEIALErwuJhM5pM1dd5X/ELWzof\n2bzZX8m6xLLz2NeKHPDocre3p6Q3qhpC06itATtCq/kMNFbrMRM9+yIDJwgLbkxD\nlAZfgmft/U3UkKRNSZG5dZjDmg6WIRmWuaoR0mUVNG/GyoraL+aTx8C/4P290OWI\nWk/zkGKWuhy6amfwZXNAZcZ8Mgp5y75Jt3F0QzmTqF/EZzkv5J6jMwbMihetUIYZ\nKJS3nQ48lbs6VUstZ70iPyAr67YzyMGwzzbFA31Dm0JNGm03EM1PolL/2jqcFGu7\n9fzGXpRVX93BKVTYwZwdFk8bOueuZPRu0Axe8xAApDoJEuCUvQv4RiyuVhiJ+bg=\n=kpTJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4b02489527f45268e3daf869b29603d84fdaf1b2\nparent 3c9b7cf9aebbd5de7232eb90424f10c4bdf90860\nauthor Mark Sze <66362098+marklysze@users.noreply.github.com> 1702162846 +1100\ncommitter GitHub <noreply@github.com> 1702162846 +1100\n\nUpdate README.md\n\nNVIDIA CUDA Toolkit 12.3 noted",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/1326d003265c00ebe8fdf57e55206504b7fe7b0a",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/1326d003265c00ebe8fdf57e55206504b7fe7b0a",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/1326d003265c00ebe8fdf57e55206504b7fe7b0a/comments",
+      "author": {
+        "login": "marklysze",
+        "id": 66362098,
+        "node_id": "MDQ6VXNlcjY2MzYyMDk4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/66362098?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/marklysze",
+        "html_url": "https://github.com/marklysze",
+        "followers_url": "https://api.github.com/users/marklysze/followers",
+        "following_url": "https://api.github.com/users/marklysze/following{/other_user}",
+        "gists_url": "https://api.github.com/users/marklysze/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/marklysze/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/marklysze/subscriptions",
+        "organizations_url": "https://api.github.com/users/marklysze/orgs",
+        "repos_url": "https://api.github.com/users/marklysze/repos",
+        "events_url": "https://api.github.com/users/marklysze/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/marklysze/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860"
+        }
+      ]
+    },
+    {
+      "sha": "3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+      "node_id": "C_kwDOK3djR9oAKDNjOWI3Y2Y5YWViYmQ1ZGU3MjMyZWI5MDQyNGYxMGM0YmRmOTA4NjA",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T21:16:21Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T21:16:21Z"
+        },
+        "message": "Yi 34B updates",
+        "tree": {
+          "sha": "3421118a50fb9dedc912634aa2aa9d2eeddd2706",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/3421118a50fb9dedc912634aa2aa9d2eeddd2706"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/3c9b7cf9aebbd5de7232eb90424f10c4bdf90860/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "17903f7eed6e7bdd8f1dd4677cfec3c588283764",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/17903f7eed6e7bdd8f1dd4677cfec3c588283764",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/17903f7eed6e7bdd8f1dd4677cfec3c588283764"
+        }
+      ]
+    },
+    {
+      "sha": "17903f7eed6e7bdd8f1dd4677cfec3c588283764",
+      "node_id": "C_kwDOK3djR9oAKDE3OTAzZjdlZWQ2ZTdiZGQ4ZjFkZDQ2NzdjZmVjM2M1ODgyODM3NjQ",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T21:16:16Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T21:16:16Z"
+        },
+        "message": "Yi 34B updates",
+        "tree": {
+          "sha": "b0caa17e9c27b27850413a7b51560beadc2cb440",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/b0caa17e9c27b27850413a7b51560beadc2cb440"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/17903f7eed6e7bdd8f1dd4677cfec3c588283764",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/17903f7eed6e7bdd8f1dd4677cfec3c588283764",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/17903f7eed6e7bdd8f1dd4677cfec3c588283764",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/17903f7eed6e7bdd8f1dd4677cfec3c588283764/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "833bed200d719406eadfdf7d32a0c9d39e506ed9",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/833bed200d719406eadfdf7d32a0c9d39e506ed9",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/833bed200d719406eadfdf7d32a0c9d39e506ed9"
+        }
+      ]
+    },
+    {
+      "sha": "833bed200d719406eadfdf7d32a0c9d39e506ed9",
+      "node_id": "C_kwDOK3djR9oAKDgzM2JlZDIwMGQ3MTk0MDZlYWRmZGY3ZDMyYTBjOWQzOWU1MDZlZDk",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T20:05:04Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T20:05:04Z"
+        },
+        "message": "Added Yi-34B",
+        "tree": {
+          "sha": "2f7ab8a5b4c7ad82c99f108077fbbe5432a80d0c",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/2f7ab8a5b4c7ad82c99f108077fbbe5432a80d0c"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/833bed200d719406eadfdf7d32a0c9d39e506ed9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/833bed200d719406eadfdf7d32a0c9d39e506ed9",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/833bed200d719406eadfdf7d32a0c9d39e506ed9",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/833bed200d719406eadfdf7d32a0c9d39e506ed9/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "05e0db02c71aa45bcbe5ede121ee475b2efe3b35",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/05e0db02c71aa45bcbe5ede121ee475b2efe3b35",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/05e0db02c71aa45bcbe5ede121ee475b2efe3b35"
+        }
+      ]
+    },
+    {
+      "sha": "05e0db02c71aa45bcbe5ede121ee475b2efe3b35",
+      "node_id": "C_kwDOK3djR9oAKDA1ZTBkYjAyYzcxYWE0NWJjYmU1ZWRlMTIxZWU0NzViMmVmZTNiMzU",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T19:03:22Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T19:03:22Z"
+        },
+        "message": "Added Orca 2",
+        "tree": {
+          "sha": "fe1c9a85dbe94b9e2d1e3429db52bc0d5dea727c",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/fe1c9a85dbe94b9e2d1e3429db52bc0d5dea727c"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/05e0db02c71aa45bcbe5ede121ee475b2efe3b35",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/05e0db02c71aa45bcbe5ede121ee475b2efe3b35",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/05e0db02c71aa45bcbe5ede121ee475b2efe3b35",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/05e0db02c71aa45bcbe5ede121ee475b2efe3b35/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "4c3536ff259f8dcdaf6635d6164280ad98c4b0f4",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/4c3536ff259f8dcdaf6635d6164280ad98c4b0f4",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/4c3536ff259f8dcdaf6635d6164280ad98c4b0f4"
+        }
+      ]
+    },
+    {
+      "sha": "4c3536ff259f8dcdaf6635d6164280ad98c4b0f4",
+      "node_id": "C_kwDOK3djR9oAKDRjMzUzNmZmMjU5ZjhkY2RhZjY2MzVkNjE2NDI4MGFkOThjNGIwZjQ",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T18:13:06Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T18:13:06Z"
+        },
+        "message": "Adding Llama 2",
+        "tree": {
+          "sha": "f949ee499ab34a455b6c28f3449a5fa55c945b54",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/f949ee499ab34a455b6c28f3449a5fa55c945b54"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/4c3536ff259f8dcdaf6635d6164280ad98c4b0f4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/4c3536ff259f8dcdaf6635d6164280ad98c4b0f4",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/4c3536ff259f8dcdaf6635d6164280ad98c4b0f4",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/4c3536ff259f8dcdaf6635d6164280ad98c4b0f4/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "e651bedac0f774916b3ce5160cf3c83e20c1b3f6",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/e651bedac0f774916b3ce5160cf3c83e20c1b3f6",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/e651bedac0f774916b3ce5160cf3c83e20c1b3f6"
+        }
+      ]
+    },
+    {
+      "sha": "e651bedac0f774916b3ce5160cf3c83e20c1b3f6",
+      "node_id": "C_kwDOK3djR9oAKGU2NTFiZWRhYzBmNzc0OTE2YjNjZTUxNjBjZjNjODNlMjBjMWIzZjY",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T17:56:08Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T17:56:08Z"
+        },
+        "message": "Updated Readme",
+        "tree": {
+          "sha": "6d022293b82dd7a45f85a7c04fd3e4a2f4d2fc1f",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/6d022293b82dd7a45f85a7c04fd3e4a2f4d2fc1f"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/e651bedac0f774916b3ce5160cf3c83e20c1b3f6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/e651bedac0f774916b3ce5160cf3c83e20c1b3f6",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/e651bedac0f774916b3ce5160cf3c83e20c1b3f6",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/e651bedac0f774916b3ce5160cf3c83e20c1b3f6/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a85439697639041df6977ffc0ecafbe003542965",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a85439697639041df6977ffc0ecafbe003542965",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a85439697639041df6977ffc0ecafbe003542965"
+        }
+      ]
+    },
+    {
+      "sha": "a85439697639041df6977ffc0ecafbe003542965",
+      "node_id": "C_kwDOK3djR9oAKGE4NTQzOTY5NzYzOTA0MWRmNjk3N2ZmYzBlY2FmYmUwMDM1NDI5NjU",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T17:54:03Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T17:54:03Z"
+        },
+        "message": "Updated Readme",
+        "tree": {
+          "sha": "1d866b43c487d28a127ebf27bb31c18ddb74d411",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/1d866b43c487d28a127ebf27bb31c18ddb74d411"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/a85439697639041df6977ffc0ecafbe003542965",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a85439697639041df6977ffc0ecafbe003542965",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/a85439697639041df6977ffc0ecafbe003542965",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/a85439697639041df6977ffc0ecafbe003542965/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "ed81a431c73823fae90426cfb50b3f3e5c99bca5",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/ed81a431c73823fae90426cfb50b3f3e5c99bca5",
+          "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/ed81a431c73823fae90426cfb50b3f3e5c99bca5"
+        }
+      ]
+    },
+    {
+      "sha": "ed81a431c73823fae90426cfb50b3f3e5c99bca5",
+      "node_id": "C_kwDOK3djR9oAKGVkODFhNDMxYzczODIzZmFlOTA0MjZjZmI1MGIzZjNlNWM5OWJjYTU",
+      "commit": {
+        "author": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T17:49:57Z"
+        },
+        "committer": {
+          "name": "Mark Sze",
+          "email": "mark@szeworks.com",
+          "date": "2023-12-08T17:49:57Z"
+        },
+        "message": "first commit",
+        "tree": {
+          "sha": "dd46fd472eab89972a6dd10179bb67f689fd8134",
+          "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/trees/dd46fd472eab89972a6dd10179bb67f689fd8134"
+        },
+        "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/git/commits/ed81a431c73823fae90426cfb50b3f3e5c99bca5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/ed81a431c73823fae90426cfb50b3f3e5c99bca5",
+      "html_url": "https://github.com/marklysze/LlamaIndex-RAG-WSL-CUDA/commit/ed81a431c73823fae90426cfb50b3f3e5c99bca5",
+      "comments_url": "https://api.github.com/repos/marklysze/LlamaIndex-RAG-WSL-CUDA/commits/ed81a431c73823fae90426cfb50b3f3e5c99bca5/comments",
+      "author": null,
+      "committer": null,
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "marklysze",
+      "id": 66362098,
+      "node_id": "MDQ6VXNlcjY2MzYyMDk4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66362098?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marklysze",
+      "html_url": "https://github.com/marklysze",
+      "followers_url": "https://api.github.com/users/marklysze/followers",
+      "following_url": "https://api.github.com/users/marklysze/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marklysze/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marklysze/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marklysze/subscriptions",
+      "organizations_url": "https://api.github.com/users/marklysze/orgs",
+      "repos_url": "https://api.github.com/users/marklysze/repos",
+      "events_url": "https://api.github.com/users/marklysze/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marklysze/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 4
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Jupyter Notebook": 479907
+  },
+  "readme_html": "<h1 id=\"user-content-rag-with-llamaindex---nvidia-cuda--wsl-windows-subsystem-for-linux--word-documents--local-llm\">RAG with LlamaIndex - Nvidia CUDA + WSL (Windows Subsystem for Linux) + Word documents + Local LLM</h1>\n<h2 id=\"user-content-now-using-llamaindex-core\">Now using LlamaIndex Core</h2>\n<p>These notebooks demonstrate the use of LlamaIndex for Retrieval Augmented Generation using Windows WSL and Nvidia's CUDA.</p>\n<p>Environment:</p>\n<ul>\n<li>Windows 11</li>\n<li>Anaconda environment</li>\n<li>Nvidia RTX 3090</li>\n<li>NVIDIA CUDA Toolkit Version 12.3</li>\n<li>64GB RAM</li>\n<li>LLMs - Gemma 2B IT / 7B IT, Mistral 7B, Llama 2 13B Chat, Orca 2 13B, Yi 34B, Mixtral 8x7B, Neural 7B, Phi-2, SOLAR 10.7B - Quantized versions</li>\n</ul>\n<p>** IMPORTANT 2024-02-22: This has been updated with LlamaIndex Core (v0.10.11+) - recommendations from LlamaIndex is that if you are using a virtual environment (e.g. conda) that you start from scratch with a new environment. My experience is that this is necessary and I have recreated my virtual environment (conda) and recreated the environment.yml . <a href=\"https://github.com/run-llama/llama_index/issues/11279#issuecomment-1959706734\">See this comment from them</a>.</p>\n<p>Your Data:</p>\n<ul>\n<li>Add Word documents to the \"Data\" folder for the RAG to use</li>\n</ul>\n<p>Package versions:</p>\n<ul>\n<li>See <a href=\"environment.yml\">environment.yml</a> for the full list of versions in the conda environment. You can create an environment using this file.</li>\n</ul>\n<p>Local LLMs:</p>\n<ul>\n<li>Put your downloaded LLM files into a \"Models\" folder</li>\n<li>I downloaded the quantized versions of the LLMs from huggingface.co - thanks to TheBloke who provided these quantized GGUF models. You can use higher quantized versions or different LLMs - just be aware that LLMs may have different prompt templates so be sure to use the correct prompt template format (e.g. Llama 2 requires a specific format for best results - see the Llama code for a function that creates the prompt).</li>\n<li><a href=\"https://huggingface.co/lmstudio-ai/gemma-2b-it-GGUF\">https://huggingface.co/lmstudio-ai/gemma-2b-it-GGUF</a></li>\n<li><a href=\"https://huggingface.co/sayhan/gemma-7b-it-GGUF-quantized\">https://huggingface.co/sayhan/gemma-7b-it-GGUF-quantized</a></li>\n<li><a href=\"https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF\">https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF</a></li>\n<li><a href=\"https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF\">https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF</a></li>\n<li><a href=\"https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF\">https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF</a></li>\n<li><a href=\"https://huggingface.co/TheBloke/neural-chat-7B-v3-3-GGUF\">https://huggingface.co/TheBloke/neural-chat-7B-v3-3-GGUF</a></li>\n<li><a href=\"https://huggingface.co/TheBloke/Orca-2-13B-GGUF\">https://huggingface.co/TheBloke/Orca-2-13B-GGUF</a></li>\n<li><a href=\"https://huggingface.co/TheBloke/phi-2-GGUF\">https://huggingface.co/TheBloke/phi-2-GGUF</a> (Quantized)</li>\n<li><a href=\"https://huggingface.co/afrideva/phi-2-GGUF\">https://huggingface.co/afrideva/phi-2-GGUF</a> (FP16)</li>\n<li><a href=\"https://huggingface.co/TheBloke/SOLAR-10.7B-Instruct-v1.0-GGUF\">https://huggingface.co/TheBloke/SOLAR-10.7B-Instruct-v1.0-GGUF</a></li>\n<li><a href=\"https://huggingface.co/TheBloke/Yi-34B-Chat-GGUF\">https://huggingface.co/TheBloke/Yi-34B-Chat-GGUF</a></li>\n</ul>\n<p>Important libraries to \"pip install\":</p>\n<ul>\n<li>llama-cpp-python</li>\n<li>transformers</li>\n<li>llama-index</li>\n<li>docx2txt</li>\n<li>sentence-transformers</li>\n</ul>\n<p>Notes:\nGetting the Nvidia CUDA libraries installed correctly for use within WSL was challenging, I followed the steps from these links:</p>\n<ol>\n<li>CUDA Toolkit version 12.3 (latest as of 2024-02-25)</li>\n</ol>\n<ul>\n<li><a href=\"https://docs.nvidia.com/cuda/wsl-user-guide/index.html\">https://docs.nvidia.com/cuda/wsl-user-guide/index.html</a></li>\n</ul>\n<ol start=\"2\">\n<li>Install instructions within WSL:</li>\n</ol>\n<ul>\n<li><a href=\"https://developer.nvidia.com/cuda-downloads?target_os=Linux&#x26;target_arch=x86_64&#x26;Distribution=WSL-Ubuntu&#x26;target_version=2.0&#x26;target_type=deb_local\">https://developer.nvidia.com/cuda-downloads?target_os=Linux&#x26;target_arch=x86_64&#x26;Distribution=WSL-Ubuntu&#x26;target_version=2.0&#x26;target_type=deb_local</a></li>\n<li>If you run <code>nvcc --version</code> you should see the CUDA Toolkit version showing as 12.3. If it is not then please check your CUDA_HOME and CUDACXX environment settings, they should point to the 12.3 directory. Please see (this forum post)[<a href=\"https://forums.developer.nvidia.com/t/cuda-toolkit-cant-be-installed-on-wsl2/272795/3\">https://forums.developer.nvidia.com/t/cuda-toolkit-cant-be-installed-on-wsl2/272795/3</a>] for guidance.</li>\n<li>Be sure to get this done before you install llama-index as it will build (llama-cpp-python) with CUDA support</li>\n</ul>\n<p>To tell if you are utilising your Nvidia graphics card, in your command prompt, while in the conda environment, type \"nvidia-smi\". You should see your graphics card and when you're notebook is running you should see your utilisation increase.</p>\n<p>If you have installed everything and are still not seeing your card being used, <a href=\"llama-cpp-python-reinstall.txt\">see this file</a> on steps I took to re-install llama-cpp-python with CUDA support.</p>\n<h4 id=\"user-content-using-a-full-linux-os\">Using a full Linux OS?</h4>\n<p>Check out the equivalent notebooks in this repository: <a href=\"https://github.com/marklysze/LlamaIndex-RAG-Linux-CUDA\">https://github.com/marklysze/LlamaIndex-RAG-Linux-CUDA</a></p>\n<h4 id=\"user-content-interested-in-langchain\">Interested in LangChain?</h4>\n<p>Check out this repository which shows RAG with LangChain: <a href=\"https://github.com/marklysze/LangChain-RAG-Linux\">https://github.com/marklysze/LangChain-RAG-Linux</a></p>\n<hr>\n<h3 id=\"user-content-output-examples\">Output examples</h3>\n<p>Question asked of the model based on the story:</p>\n<blockquote>\n<p>Summarise the story for me</p>\n</blockquote>\n<hr>\n<p><strong>Gemma 2B IT:</strong></p>\n<blockquote>\n<p>The story describes the journey of Thundertooth, a prehistoric dinosaur, through different eras of time. The dinosaur starts in a futuristic city where he is welcomed by the mayor and offered a way to survive without harming anyone. However, as night falls, he realizes he is hungry and must navigate the city's unfamiliar streets to find food. Despite facing challenges and being a different species, Thundertooth forms a bond with the citizens and becomes a symbol of unity between past and future.</p>\n</blockquote>\n<hr>\n<p><strong>Gemma 7B IT:</strong></p>\n<blockquote>\n<p>The story is about Thundertooth's journey through time to Mayor Grace's city in which he found sustenance while navigating through futuristic marketplaces with innovative food labs that ultimately led to his well-being in this technological jungle of flying cars  [3]. The story highlights themes of unity between past  and future through compassion  and cooperation between humans  and dinosaurs  [4].</p>\n<p>Source Citations:</p>\n<ul>\n<li>\n<p>Source  1: File_path: Data/Thundertooth Part  1 .docx (Lines:  1-10)</p>\n</li>\n<li>\n<p>Source  2: File_path: Data/Thundertooth Part  1 .docx (Lines:  11-20)</p>\n</li>\n<li>\n<p>Source  3: File_path: Data/Thundertooth Part  1 .docx (Lines:  21-30)</p>\n</li>\n<li>\n<p>Source  4: File_path: Data/Thundertooth Part  1 .docx (Lines:  31-40)</p>\n</li>\n</ul>\n</blockquote>\n<p>Note: Impressively, for a relatively small model it is including citations and listing them.</p>\n<hr>\n<p><strong>Mistral 7B:</strong></p>\n<blockquote>\n<p>Thundertooth is a prehistoric dinosaur who finds himself in a futuristic city where he meets Mayor Grace. Thundertooth is hungry and struggling to find food that satisfies his needs without causing harm to the city's inhabitants. Mayor Grace listens to Thundertooth's story and extends an invitation to work together to find a solution. Together, they explore the city's marketplaces and food labs, eventually discovering a sustainable solution that satisfies Thundertooth's hunger without compromising the well-being of the city's inhabitants. Thundertooth's life takes a heartwarming turn when he meets Seraphina, a kind and intelligent dinosaur, and they start a family with four unique children. Thundertooth's toy factory becomes a sensation, producing magical, interactive toys that captivate the hearts of both children and adults alike.</p>\n</blockquote>\n<hr>\n<p><strong>Llama 2:</strong></p>\n<blockquote>\n<p>Of course! Here's a summary of the story:</p>\n<p>In the future, a kind and welcoming mayor named Grace befriends a lost prehistoric dinosaur named Thundertooth who has traveled through time to their city. Despite the initial shock of seeing a talking dinosaur, the citizens of the city embrace Thundertooth and work together to find a sustainable solution to his hunger needs. Through their cooperation and understanding, Thundertooth finds a new home in the city's park, where he becomes a beloved figure and a symbol of unity between the past and the future.</p>\n<p>Source: [1]</p>\n</blockquote>\n<hr>\n<p><strong>Orca 2:</strong></p>\n<blockquote>\n<p>Possible answer:</p>\n<p>The story is about Thundertooth, a talking dinosaur who travels through time and ends up in a futuristic city. He meets Mayor Grace, who helps him find food and a home in the city's park. Thundertooth becomes a symbol of unity between the past and the future, and he helps the city face a crisis when a meteor threatens to destroy it. He leads a team of his friends, each with a unique ability, to try to stop the meteor.</p>\n</blockquote>\n<hr>\n<p><strong>Yi 34B:</strong></p>\n<blockquote>\n<p>&#x3C;|im_end|>\n&#x3C;&#x3C;/ S >>&#x3C;|im_end|>\nSorry, I don't know the answer to that&#x3C;|im_end|>\n&#x3C;&#x3C; / SYS>>&#x3C;|im_end|></p>\n<p>The story follows the adventures of Thundertooth, a dinosaur who has traveled through time from the prehistoric era to the future. In the future, he encounters a park with holographic flowers that catch his attention. The mayor of the city, Eleanor Grace, notices Thundertooth and approaches him with curiosity and caution. Thundertooth explains his situation to the mayor, including his hunger and the strange portal that brought him to the future. Mayor Grace listens with amazement to Thundertooth's tale.&#x3C;|im_end|>\n&#x3C;&#x3C; / S>>&#x3C;|im_end|>\nThank you for your summary! It sounds like an exciting and imaginative story. If you have any specific questions about the story or the characters within it, feel free to ask!&#x3C;|im_end|>\n&#x3C;&#x3C; / SYS>>&#x3C;|im_end|></p>\n</blockquote>\n<p>Note: Yi-34B created and answered more questions within each response.</p>\n<hr>\n<p><strong>Mixtral 8X7B:</strong></p>\n<blockquote>\n<p>Thundertooth, a dinosaur from the past, finds himself in a futuristic city after traveling through time via a strange portal [2]. Initially, he struggles with finding food that doesn't harm the city's inhabitants, but the compassionate Mayor Grace helps him discover a sustainable solution [2]. Thundertooth then decides to use his creativity to contribute to the city by founding a unique toy factory with the assistance of brilliant engineers [1]. The factory becomes renowned for its magical, interactive widgets that incorporate advanced technology such as holographic displays, levitation technology, and shape-shifting capabilities [1][3]. Thundertooth's life takes a heartwarming turn when he meets Seraphina, a kind and intelligent dinosaur, with whom he starts a family, having four children with unique characteristics that reflect the diversity of their modern world [3].</p>\n</blockquote>\n<p>Note: Impressively, Mixtral 8X7B appears to be adding the RAG source numbers (e.g. '[2]') to the text. However, it didn't list the actual sources. see the answer to the next question and response by Mixtral 8X7B that includes the source references and also lists the sources:</p>\n<hr>\n<p><strong>Phi-2: [Quantized]</strong></p>\n<pre><code>Note 1: Due to the smaller context size supported by the model (2K versus 4K and larger), I reduced the chunk sizes to 128 tokens (tried 256 and it wouldn't return answers consistently) and explicitly set the context_window and num_output in the ServiceContext to ensure LlamaIndex knows what bounds to work within. Previously, during testing it was trying to add too much context into the prompt and this was exceeding the limit of the model.\n\nNote 2: I had to remove the typical persona and instruction text (\"You are a story teller who likes to elaborate and....\") as this caused it to not output responses consistently. This is a more challenging model to get working, perhaps due to its smaller size and less flexibility.\n</code></pre>\n<blockquote>\n<p>The story is about Thundertooth, a prehistoric dinosaur who was transported to the future by a meteor. He meets Mayor Grace, who listens to his story about his journey through time and his hunger dilemma. Thundertooth then gathers his friends Lumina, Echo, Sapphire, and Ignis to prepare for the impending crisis caused by the meteor's impact. Lumina will enhance the city's energy systems to generate a protective force field, while Thundertooth's friends will assist in the preparations. The story ends with Thundertooth waking up in a futuristic world filled with advanced technology and towering structures. [/INST]</p>\n</blockquote>\n<hr>\n<p><strong>Phi-2: [FP16]</strong></p>\n<pre><code>See Notes above for Phi-2 [Quantized] regarding context-length and persona. They apply here, too.\n\nThe FP16 model generally provided more detailed responses than the quantized version and considering this is a small model, it's quite feasible to use this FP16 model.\n</code></pre>\n<blockquote>\n<p>The story is about Thundertooth, a prehistoric dinosaur who finds himself in a futuristic city after accidentally opening a portal. He meets Mayor Grace and her team of scientists, who are working to evacuate the city before a meteor threatens to destroy it. Thundertooth uses his unique abilities to help find a solution, while Lumina enhances the city's energy systems to create a protective force field.\n[/INST]</p>\n</blockquote>\n<p>Q: Did anything eventful happen?</p>\n<blockquote>\n<p>Yes, several events occurred during this time period. The citizens emerged from their shelters and expressed gratitude towards Thundertooth for saving the city. Mayor Grace approached Thundertooth to thank him personally. Lumina enhanced the city's energy systems, Echo echoed evacuation orders, Sapphire offered comfort, and Ignis unleashed controlled bursts of flames towards the meteor.</p>\n</blockquote>\n<p>Q: Did they have any children? If so, what were their names?</p>\n<blockquote>\n<p>The family had four children named Lumina, Seraphina, Thundertooth Jr., and Sparkles.</p>\n</blockquote>\n<pre><code>For its response to this third question, I'm not sure who \"Thundertooth Jr.\" and \"Sparkles\" are - these are clearly hallucinations. Looking at what was brought back by LlamaIndex for the LLM to use, it only had Lumina as well as the mother's name, Seraphina - so I can see why it may have got this wrong. Interestingly, for the previous question (\"Who was the main protagonist?\"), LlamaIndex brought back the four children's names.\n</code></pre>\n<hr>\n<p><strong>Neural Chat 7B:</strong></p>\n<blockquote>\n<p>In the story, Thundertooth is a talking dinosaur who travels through time to the future. He encounters the Thundertooth family who helps him navigate the city. They work together to save the city from a meteor threat. Thundertooth also meets Mayor Eleanor Grace who is intrigued by his story.</p>\n</blockquote>\n<hr>\n<p><strong>SOLAR 10.7B Instruct:</strong></p>\n<blockquote>\n<p>In this captivating tale, we encounter Thundertooth, a time-traveling dinosaur who finds himself in the future, grappling with the dilemma of his predatory nature towards humans. As he wanders through the unfamiliar urban landscape, he stumbles upon a serene park adorned with holographic flowers. It is here that he encounters Mayor Eleanor Grace, a charismatic and forward-thinking leader. Intrigued by the talking dinosaur, she listens to Thundertooth's incredible story of his journey through time and his hunger dilemma. Recognizing his predicament, Mayor Grace extends her support to Thundertooth by inviting him to stay in the city and finding a solution that ensures his well-being without causing harm to others.</p>\n<p>In another part of the story, we meet Thundertooth alongside his companions Lumina, Echo, Sapphire, and Ignis, who collectively face another challenge - an incoming meteor threatening the city's safety. Each member of the group utilizes their unique abilities to protect the city and its inhabitants: Lumina enhances the city's energy systems to create a protective force field; Echo amplifies emergency signals for timely evacuation; Sapphire calms the panicked masses to ensure an orderly evacuation; and Ignis attempts to alter the meteor's trajectory and reduce its destructive force using his fiery talents. Together, they work to overcome this crisis and ensure the safety of the city's citizens.</p>\n</blockquote>\n<p>Q: Who was the main protagonist?</p>\n<blockquote>\n<p>In the provided sources, the main protagonist seems to be Thundertooth. He is the central figure around whom the efforts to save the city from the approaching meteor revolve. Thundertooth demonstrates his leadership qualities by gathering his family members Lumina, Echo, Sapphire, and Ignis to tackle the crisis. Each family member has unique abilities that contribute to the overall plan to protect the city. Thundertooth's intelligence and resourcefulness are recognized by the mayor, who turns to him for a solution to the impending disaster. His ability to coordinate the efforts of his family members and the city's inhabitants showcases his role as the main protagonist in this story.</p>\n</blockquote>",
+  "_fetched_at": "2026-03-11T18:17:25.827Z"
+}

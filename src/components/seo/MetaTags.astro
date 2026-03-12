@@ -1,0 +1,31 @@
+---
+// MetaTags — OG, Twitter, canonical, robots meta
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogType?: string;
+  ogImage?: string;
+  twitterCard?: string;
+  robots?: string;
+}
+const {
+  title,
+  description,
+  canonical,
+  ogType = 'website',
+  ogImage,
+  twitterCard = 'summary',
+  robots = 'index, follow',
+} = Astro.props;
+---
+<meta name="robots" content={robots} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={canonical} />
+{ogImage && <meta property="og:image" content={ogImage} />}
+<meta name="twitter:card" content={twitterCard} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+{ogImage && <meta name="twitter:image" content={ogImage} />}

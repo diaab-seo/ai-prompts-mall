@@ -1,0 +1,2491 @@
+{
+  "id": 314748658,
+  "node_id": "MDEwOlJlcG9zaXRvcnkzMTQ3NDg2NTg=",
+  "name": "PolyFuzz",
+  "full_name": "MaartenGr/PolyFuzz",
+  "private": false,
+  "owner": {
+    "login": "MaartenGr",
+    "id": 25746895,
+    "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/MaartenGr",
+    "html_url": "https://github.com/MaartenGr",
+    "followers_url": "https://api.github.com/users/MaartenGr/followers",
+    "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+    "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+    "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+    "repos_url": "https://api.github.com/users/MaartenGr/repos",
+    "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/MaartenGr/PolyFuzz",
+  "description": "Fuzzy string matching, grouping, and evaluation. ",
+  "fork": false,
+  "url": "https://api.github.com/repos/MaartenGr/PolyFuzz",
+  "forks_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/forks",
+  "keys_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/teams",
+  "hooks_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/hooks",
+  "issue_events_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/events",
+  "assignees_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/tags",
+  "blobs_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/languages",
+  "stargazers_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/stargazers",
+  "contributors_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/contributors",
+  "subscribers_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/subscribers",
+  "subscription_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/subscription",
+  "commits_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/merges",
+  "archive_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/downloads",
+  "issues_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/labels{/name}",
+  "releases_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/deployments",
+  "created_at": "2020-11-21T06:28:09Z",
+  "updated_at": "2026-03-09T11:32:07Z",
+  "pushed_at": "2025-07-10T05:10:46Z",
+  "git_url": "git://github.com/MaartenGr/PolyFuzz.git",
+  "ssh_url": "git@github.com:MaartenGr/PolyFuzz.git",
+  "clone_url": "https://github.com/MaartenGr/PolyFuzz.git",
+  "svn_url": "https://github.com/MaartenGr/PolyFuzz",
+  "homepage": "https://maartengr.github.io/PolyFuzz/",
+  "size": 4241,
+  "stargazers_count": 792,
+  "watchers_count": 792,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": true,
+  "has_discussions": false,
+  "forks_count": 71,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 31,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "bert",
+    "edit-distance",
+    "embeddings",
+    "levenshtein-distance",
+    "string-matching",
+    "tf-idf"
+  ],
+  "visibility": "public",
+  "forks": 71,
+  "open_issues": 31,
+  "watchers": 792,
+  "default_branch": "master",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "9d4814b849f96508916a86c10ccf057f756ddc18",
+      "node_id": "C_kwDOEsKu8toAKDlkNDgxNGI4NDlmOTY1MDg5MTZhODZjMTBjY2YwNTdmNzU2ZGRjMTg",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maartengrootendorst@gmail.com",
+          "date": "2025-07-10T05:10:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T05:10:45Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "fc0583a2caa099a74decd824d904b459673257e6",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/fc0583a2caa099a74decd824d904b459673257e6"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/9d4814b849f96508916a86c10ccf057f756ddc18",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob0tVCRC1aQ7uu5UhlAAA4SkQAB9V58gPzLdtnz++hFUufTXj\ni8XRb4pKEOaDsyek0n+F0XYmVfJCQZAO9v5Sc9+U1n3lfXVlJ9Xnqwhqmwx048bf\nrpZDhAhHWB1Sc9uSHx61MYLTRNbIH2F3XOb1Pttftn41mj9vkRxmP+usYRobF8HG\n/bfR8A4VjrlsywX90VOLQ7wxveKftJcFkiS/0YcAbDsXkCh2wEdWqZ1sGFR+Qr67\n+4iwbG+xE3Ztl2b0l638pa0pYPRH3DaAYGsTOM7P1Pr3t46uDroQpvzV5ZCSdvoO\nyy+xgfW34ELYZPKx+vsC2V3UUJVv8p/hdsAZ12PVf3yEYbhwSNDybeF3SxpN812y\nP8uSpaL04sf0kHgUhOr+eG+sxnW/wvbYnPcReEjzNgxM7hywOoVvhcpwAgye7nuC\nfPoRgnhm+Pt1v2S3xvNCFQKiEhEizX2iWNQtPH6fTJ/Oynb6rJAXusv3gk9AqdwD\nE7C4qNHpSiHuBne5jkR7Ng5CQTjLqB+QIoX7mUBO3rAvS9aLcv8MScFMPL9F4Hcr\n0DRjM5cXs5BZB+nDSoyEY5Oz1PHWO44qi9lnM15TxrujcCE/u6fcq7LsITRUmccN\nQUqysQvP8l9bbtBskBSuIUtTLvLkhwE63QN+4mZAa1/EKfozKyteuOrgrzHdDb6D\nocxCZXhdZwjI9ZWyoclm\n=TKN2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fc0583a2caa099a74decd824d904b459673257e6\nparent 71dcdfc1d38f129dccd299814f5deb145fd6e76c\nauthor Maarten Grootendorst <maartengrootendorst@gmail.com> 1752124245 +0200\ncommitter GitHub <noreply@github.com> 1752124245 +0200\n\nUpdate README.md",
+          "verified_at": "2025-07-10T05:10:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d4814b849f96508916a86c10ccf057f756ddc18",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/9d4814b849f96508916a86c10ccf057f756ddc18",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d4814b849f96508916a86c10ccf057f756ddc18/comments",
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "71dcdfc1d38f129dccd299814f5deb145fd6e76c",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/71dcdfc1d38f129dccd299814f5deb145fd6e76c",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/71dcdfc1d38f129dccd299814f5deb145fd6e76c"
+        }
+      ]
+    },
+    {
+      "sha": "71dcdfc1d38f129dccd299814f5deb145fd6e76c",
+      "node_id": "C_kwDOEsKu8toAKDcxZGNkZmMxZDM4ZjEyOWRjY2QyOTk4MTRmNWRlYjE0NWZkNmU3NmM",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maartengrootendorst@gmail.com",
+          "date": "2025-05-06T11:37:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-05-06T11:37:27Z"
+        },
+        "message": "v0.4.3 (#84)",
+        "tree": {
+          "sha": "90f7a883ed9bf4ad6b7d08359617109af56f1587",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/90f7a883ed9bf4ad6b7d08359617109af56f1587"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/71dcdfc1d38f129dccd299814f5deb145fd6e76c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoGfR3CRC1aQ7uu5UhlAAAFAkQACpYjo6bNn7GuhoQ8+4oh77c\nxke1Wrt02Zu8JbtWrmFw5xkC7LBy1Sp3+HJIWv2lpqOqINeoI6M565sOldkgfBIJ\nKuh+UguOylzwNiFAEicbj6Ai3qCf6BER5CiaNlyvBFiWcOvLxapTUkISVRrVOdhH\nQaAH9b7WsWpNxIi/ev/qUCibzpbJcfePfNBW/+SyBg1K3jMG22O0B1RpXx5bb2YK\nXwo51FCbXFDaiwAXwdd54OD9VZCw2Vqk2whzZLR/IXH0n+KIpb0mb4CQ3rhMTuZd\nQ1Nu0tGTmYA5V0RWbJHNaw+3aj0OyleMaUX0CpxBD3pREJN8otk45h7R5aO8Slw3\n4fMW9qV2pKodibKw64wfYpmKdR/5+m+jCZsQan3zleBXyKW+3iixTLYeFYC5OoES\nj76sk19ImUKRJc9DLKnVZVyaBNNY/mRiIwJtvN3vPguDaPBnPxnnmoflNOoerK+I\nkDh8KjJICu3LHExFn1kAauGdFVp4tu4FqrHwZGqV7PSetnzP4mzCTZ9H0sF+7z0P\nKNodiP70QKPzBtJuyG9D5U9tkec/c5FZjkgjuXpAKIwyW1diKH/hV5wlxrGoAUDN\nEycaT8OydrhwzdxFkVz21HxAMmWfaTcgvFsmdUl5an0ix2NpqwqFx5/6autQdBZm\nZQO+fmZa9AoBmx/GPAgN\n=2qDH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 90f7a883ed9bf4ad6b7d08359617109af56f1587\nparent f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9\nauthor Maarten Grootendorst <maartengrootendorst@gmail.com> 1746531447 +0200\ncommitter GitHub <noreply@github.com> 1746531447 +0200\n\nv0.4.3 (#84)\n\n",
+          "verified_at": "2025-05-06T11:42:29Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/71dcdfc1d38f129dccd299814f5deb145fd6e76c",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/71dcdfc1d38f129dccd299814f5deb145fd6e76c",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/71dcdfc1d38f129dccd299814f5deb145fd6e76c/comments",
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9"
+        }
+      ]
+    },
+    {
+      "sha": "f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9",
+      "node_id": "C_kwDOEsKu8toAKGYxYTZlZDQ5MGNkYmZkNGNkYzYzODJhODNhZWFiMmVlZDMxZTgyZjk",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maartengrootendorst@gmail.com",
+          "date": "2025-02-17T08:19:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-02-17T08:19:37Z"
+        },
+        "message": "Add download stats",
+        "tree": {
+          "sha": "e59cb6e6939432b381c1480a5f74da278b83801c",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/e59cb6e6939432b381c1480a5f74da278b83801c"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnsvEZCRC1aQ7uu5UhlAAATGMQAHzBN2OQWN0Vu2u7nfDsvPAS\nhLakIRZE6bNLOy2gZ5smgLFtZzCANH7+Cl7PkMzd+fI2P7ad/61jML5ZbBob3AXl\nZnAzP+r+SnjvY+ZBcga8J0zdd9xdf1W3P7bLwQJ+XrYV6ExrMzpXqwV0lwHW6zlM\nlPGqmy+KBGLnboLftgZTx6Rhgfq5EiMd3AM5izs7/7zFD4uufSK7q9kFZbQdbdUF\noznftVCR7ZXCZa53PDVXhBCC424qTvmUGg6lm1LkL27PP7ae66ji3hlFQQG/izYb\nkhGMv/+sHmLHwNqaxAEdqQJXEl58cR+g6Z3fekBjHsuo38hMlj6/7tkmj00Dd/D9\n4ePGXnCQz7VD+yRPLmB8M2IndtmalnGzhVz6MTbG3HiF3Jl8K5C27qH6eIWFqGvD\nQsDyJfuDNYWt+Dj7188l1nGPzCvJreBgP+o6eBCG/+ufWERazrVIsA+xqJbra5/Q\n+RMprcxZUGSMQB96pba2gcK2drjUBqigum8Vvkb1jyS6nqG7dNPPoFi28pvv1RUX\npn3CrKd1AbKtV42zSA5WWmUoJv4hNMMNYwt7ttu9I8PWz/qubJUTXlw/TisaBuWt\nbRMAWgvDRVMSOkZbMbvL/B7eGKP8YqPqbBZpovXpvDpCM4i661qnpVRCpBSs7D8T\nlzwuyrEt6oTma3/YXmbO\n=fjhc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e59cb6e6939432b381c1480a5f74da278b83801c\nparent 7f45fe551a2deeb0d77a3912905adc61088aa48a\nauthor Maarten Grootendorst <maartengrootendorst@gmail.com> 1739780377 +0100\ncommitter GitHub <noreply@github.com> 1739780377 +0100\n\nAdd download stats",
+          "verified_at": "2025-02-17T08:24:39Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/f1a6ed490cdbfd4cdc6382a83aeab2eed31e82f9/comments",
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7f45fe551a2deeb0d77a3912905adc61088aa48a",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/7f45fe551a2deeb0d77a3912905adc61088aa48a",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/7f45fe551a2deeb0d77a3912905adc61088aa48a"
+        }
+      ]
+    },
+    {
+      "sha": "7f45fe551a2deeb0d77a3912905adc61088aa48a",
+      "node_id": "C_kwDOEsKu8toAKDdmNDVmZTU1MWEyZGVlYjBkNzdhMzkxMjkwNWFkYzYxMDg4YWE0OGE",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maartengrootendorst@gmail.com",
+          "date": "2024-12-23T10:14:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-12-23T10:14:37Z"
+        },
+        "message": "Update Python version compatibility (#83)",
+        "tree": {
+          "sha": "be07a69133390f6b67fdb790c7682538e360d6e4",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/be07a69133390f6b67fdb790c7682538e360d6e4"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/7f45fe551a2deeb0d77a3912905adc61088aa48a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnaTgNCRC1aQ7uu5UhlAAAppEQABeUOIMHDR30UaVmPVQfn4qM\nhCMvtj84PoGofzoVrYse4tjCUnn9ELjc/R0wXbp9oqtb0TIPeYgAu1gKAJ43QRtM\nCZS1wegDizXDQNZNLfeDo0drTEFbxNvOIeQed7c2hByKebEC0Vl0RR1cqNu1EPPc\ne/5ubPjG+y8XObCJue6MRM3xt45GIox/LE0wbQ+uNfCXNfB5DeKXOBIb7wJJoN+4\nZHrf/vQKpVV9kS3lXi3p94q4PYpcpRHrw/PWF9RrwqnPYoYdTmGGQk2tiolqwKH1\noSFbDRmnMnKqQIVjBKnpL9NXkzHi2VIGuRlI7X8hl64VJPML35wwnWzO+IAr7BYZ\nVssAPN74dCFwJ21sQgOOO8oNhfdlrotpi+i2CUhBIcad5n3sj/9+rV4FHmIea0f5\ny0jdIPOgZWjrN8yjV/T4MHjFGhuCneGbqHBYETH5VnzBqoz4YiTi+QqzUSJPNVvA\nF9p3t57eiSULKemH2ZYUP6zyUcnyype+M5v/PbS4Z+1eiu4FdiXQAejHhpb/jHM7\nt0DTzwrtzSLSl76VX11yLiH3/MxSGaPGPcaJgyJOKQgM3aUDFc3A5kGTQMikV+J1\nZsZro1ddY5QVAnr/XHs6MH8cUKCHo9GLtRn/YOKrZi2m/p7CGL8L7mmjEhiuSUgQ\ne7CXsidBuxSQsf8gCnlR\n=rOOX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree be07a69133390f6b67fdb790c7682538e360d6e4\nparent 072edda1fa4c24022db221180088d9414556d1cd\nauthor Maarten Grootendorst <maartengrootendorst@gmail.com> 1734948877 +0100\ncommitter GitHub <noreply@github.com> 1734948877 +0100\n\nUpdate Python version compatibility (#83)\n\n",
+          "verified_at": "2024-12-23T10:19:39Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/7f45fe551a2deeb0d77a3912905adc61088aa48a",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/7f45fe551a2deeb0d77a3912905adc61088aa48a",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/7f45fe551a2deeb0d77a3912905adc61088aa48a/comments",
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "072edda1fa4c24022db221180088d9414556d1cd",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/072edda1fa4c24022db221180088d9414556d1cd",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/072edda1fa4c24022db221180088d9414556d1cd"
+        }
+      ]
+    },
+    {
+      "sha": "072edda1fa4c24022db221180088d9414556d1cd",
+      "node_id": "C_kwDOEsKu8toAKDA3MmVkZGExZmE0YzI0MDIyZGIyMjExODAwODhkOTQxNDU1NmQxY2Q",
+      "commit": {
+        "author": {
+          "name": "Maciej Skorski",
+          "email": "31315784+maciejskorski@users.noreply.github.com",
+          "date": "2024-12-23T09:52:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-12-23T09:52:00Z"
+        },
+        "message": "remove unused CountVect in quickstart.md (#82)",
+        "tree": {
+          "sha": "027eee13850bce0a4120f4444d4721db86e9922f",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/027eee13850bce0a4120f4444d4721db86e9922f"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/072edda1fa4c24022db221180088d9414556d1cd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnaTLACRC1aQ7uu5UhlAAASQoQACyCnK9ERj82be/60UQ6RydA\nu0lwcw5b3F/af3UCXJne7abhCqP6z6qBERwwBW43MHvIwJkqAm/QHn2c/3DCLhAj\nbTDT4MxXZImX9JAWtVq/dcUzsbrKCxdJUpcGsZnJYgsSVKY0qyTJuXrA3JFuD/C+\nfEmpg2KLsGJNJb1TfXc+vq7tV3Zpj66vYlpybaqeYQ1476j/54ATE57rwXVZ9XRG\nfq4Ms2Fas56v1CcR+UqIcPYLqGrjlBOZ+gKmcF7TLIVrvjn6V0MvYdQYCI+TxqHQ\nPnkxBntR4GBu43kPXTtrArtZTEGpIH+Irtp33k6RbU2F75HT5E28bZ7b+cyDD+ic\nc1WKgnB065AeOl3vQK1FEA6UPPdI+pQFeFrIfcCa8EHQp2r3QDp+Mjczfc2R1g+y\ndz8cOtJXEgC0HwzhL6viNTcYnPt8jrrgHDxr54Uueg2BTjXBLb6aAkbBxElEj3uu\nzAsMCcG6g1eL3ZN79nWr7xMjd7d5NRXeuc6YeG/+FIiDzyzIU2sz3MERV1vN8KH4\nRDdqXdhPKA12HHNxrmvQ874NYNRhU1iuhmFzXVjEYG83kDMG2P13yMUGmu+n4Ca3\nwaMKzG1bbn2ddKYmOrZWjmgPx6HFDky94+4uK8PJD2iEX16xjACuRtT5wAmCFU8X\nTNRK10tDGjxayyP7wU35\n=Cie/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 027eee13850bce0a4120f4444d4721db86e9922f\nparent 5d0734b093ece13e3e0e95dd3a26549f014497a8\nauthor Maciej Skorski <31315784+maciejskorski@users.noreply.github.com> 1734947520 +0100\ncommitter GitHub <noreply@github.com> 1734947520 +0100\n\nremove unused CountVect in quickstart.md (#82)\n\n",
+          "verified_at": "2024-12-23T09:57:02Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/072edda1fa4c24022db221180088d9414556d1cd",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/072edda1fa4c24022db221180088d9414556d1cd",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/072edda1fa4c24022db221180088d9414556d1cd/comments",
+      "author": {
+        "login": "maciejskorski",
+        "id": 31315784,
+        "node_id": "MDQ6VXNlcjMxMzE1Nzg0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/31315784?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maciejskorski",
+        "html_url": "https://github.com/maciejskorski",
+        "followers_url": "https://api.github.com/users/maciejskorski/followers",
+        "following_url": "https://api.github.com/users/maciejskorski/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maciejskorski/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maciejskorski/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maciejskorski/subscriptions",
+        "organizations_url": "https://api.github.com/users/maciejskorski/orgs",
+        "repos_url": "https://api.github.com/users/maciejskorski/repos",
+        "events_url": "https://api.github.com/users/maciejskorski/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maciejskorski/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5d0734b093ece13e3e0e95dd3a26549f014497a8",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/5d0734b093ece13e3e0e95dd3a26549f014497a8",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/5d0734b093ece13e3e0e95dd3a26549f014497a8"
+        }
+      ]
+    },
+    {
+      "sha": "5d0734b093ece13e3e0e95dd3a26549f014497a8",
+      "node_id": "C_kwDOEsKu8toAKDVkMDczNGIwOTNlY2UxM2UzZTBlOTVkZDNhMjY1NDlmMDE0NDk3YTg",
+      "commit": {
+        "author": {
+          "name": "Silvan Laube",
+          "email": "silvanlaube@hotmail.com",
+          "date": "2024-03-03T11:00:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-03T11:00:17Z"
+        },
+        "message": "TFIDF: Add option to omit removing n-grams with space  (#76)",
+        "tree": {
+          "sha": "47a9a18dd9b589f5216a003dd963799a6d96d98c",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/47a9a18dd9b589f5216a003dd963799a6d96d98c"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/5d0734b093ece13e3e0e95dd3a26549f014497a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl5FhBCRC1aQ7uu5UhlAAApzEQACwQxplsQt/4gDlahmUvbn/M\n6qd59w7JJkkEonN2pAQ8jyCGJZsp9hDduvIBtEq6RDXl8dnRdpQ7jsQeycqDulF8\n5klKjlsylkRlWu2lNEvr4CHCdPd9VLCAMSxB+9QU7vgSbtlDb6NmPyQcDwL1JatZ\nbNn18q3wnArwTgsSEg71JNDzWyNeHicjUd/+fSItvViSPck+nlrI8Ohnts0CO4ks\n3wXarKzBulAC3jJu62pvRhH9Ghqhx2HV5cJHnh+20mABM5ieCE47Opr/+cmnRmfM\nnzaXAt2h9neuD69CbvUoA+Nv+lW9iyhkMj5cfLPPqccaq6IuxZZKx2bfwhZTQ2dt\n2dkERZXcQnXC34m14OFpQbP+IdDpu9KbQ0grxrxg1hN991dttS5dgS3WJzZ/A/fx\ny0Hwoh4AabZ5Zzu1vVRs3AJ/O7szPNin2HNZrdA1p5Z3/72aWh5deuUYtmx38cL9\n0xGHzrkVdGu35qZ9WzuL0FhN+2KAmKdd9eLwwQAuVvwuJdZo1yVjg+C2lcWnx9Kr\nTrwrHyYEW9uKmJYOGa0pyd4TXiZuaFG79aH+BjI5/fXNi0pVoo2Ioum9kRiu8gYv\nFEQDVZPpHkCWx+EVEMNytx2kcRw2b2KLwWkfrgtm35croKaw0vnxzNiEfa3rYudO\nC89GBlO0kyfR76VMSxgR\n=Cl9N\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 47a9a18dd9b589f5216a003dd963799a6d96d98c\nparent e7540030d6dddc64bdb94c474ed6360dd7a5cdf7\nauthor Silvan Laube <silvanlaube@hotmail.com> 1709463617 +0100\ncommitter GitHub <noreply@github.com> 1709463617 +0100\n\nTFIDF: Add option to omit removing n-grams with space  (#76)\n\n",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/5d0734b093ece13e3e0e95dd3a26549f014497a8",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/5d0734b093ece13e3e0e95dd3a26549f014497a8",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/5d0734b093ece13e3e0e95dd3a26549f014497a8/comments",
+      "author": {
+        "login": "Laubeee",
+        "id": 4159468,
+        "node_id": "MDQ6VXNlcjQxNTk0Njg=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4159468?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Laubeee",
+        "html_url": "https://github.com/Laubeee",
+        "followers_url": "https://api.github.com/users/Laubeee/followers",
+        "following_url": "https://api.github.com/users/Laubeee/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Laubeee/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Laubeee/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Laubeee/subscriptions",
+        "organizations_url": "https://api.github.com/users/Laubeee/orgs",
+        "repos_url": "https://api.github.com/users/Laubeee/repos",
+        "events_url": "https://api.github.com/users/Laubeee/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Laubeee/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e7540030d6dddc64bdb94c474ed6360dd7a5cdf7",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/e7540030d6dddc64bdb94c474ed6360dd7a5cdf7",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/e7540030d6dddc64bdb94c474ed6360dd7a5cdf7"
+        }
+      ]
+    },
+    {
+      "sha": "e7540030d6dddc64bdb94c474ed6360dd7a5cdf7",
+      "node_id": "C_kwDOEsKu8toAKGU3NTQwMDMwZDZkZGRjNjRiZGI5NGM0NzRlZDYzNjBkZDdhNWNkZjc",
+      "commit": {
+        "author": {
+          "name": "Raffaele Mancuso",
+          "email": "raffaele.mancuso4@unibo.it",
+          "date": "2023-10-19T12:25:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-19T12:25:15Z"
+        },
+        "message": "Fix #66 (#67)",
+        "tree": {
+          "sha": "6e24e077098f4873e0a534e70f4e1143d4386bb4",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/6e24e077098f4873e0a534e70f4e1143d4386bb4"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/e7540030d6dddc64bdb94c474ed6360dd7a5cdf7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlMSArCRBK7hj4Ov3rIwAA9/gIAAnni+Iqg9ptzKd3CKzPSSdZ\nkwH3fTrHdx7SP4Ea2WIp5whwxEdznCIx3RQm0S4KjW6NfQnfZQ+/9YC0F+bzglI+\nXVip68m6M7kvzFz+1yxZnj+H1xcYAQoXyTzfd7l493i8iRx5JFDp4XtLsJAdwR46\nlHYR3WmvXIIiwVEQ/jZjyva2KEyFhU3Z5gLrJdLMKBpWCt84FmLWsoV2IfjvW8c1\nhicHu18wJz080KAWQTIktI0ADtueLo7o0nZgl+YcOP9Rx58x19uvj2e6Sn/OSfRp\nq44EO/4dd61MWUmtf8VSJ73jQ1UutRrg/oRCRSYp54DDoLw/k1tam9B1XXxHaus=\n=K5Mg\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6e24e077098f4873e0a534e70f4e1143d4386bb4\nparent b36ffa6e585f0ff7393d01724f9efc1f6a615e6b\nauthor Raffaele Mancuso <raffaele.mancuso4@unibo.it> 1697718315 +0200\ncommitter GitHub <noreply@github.com> 1697718315 +0200\n\nFix #66 (#67)\n\n",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/e7540030d6dddc64bdb94c474ed6360dd7a5cdf7",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/e7540030d6dddc64bdb94c474ed6360dd7a5cdf7",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/e7540030d6dddc64bdb94c474ed6360dd7a5cdf7/comments",
+      "author": {
+        "login": "raffaelemancuso",
+        "id": 54762742,
+        "node_id": "MDQ6VXNlcjU0NzYyNzQy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/54762742?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/raffaelemancuso",
+        "html_url": "https://github.com/raffaelemancuso",
+        "followers_url": "https://api.github.com/users/raffaelemancuso/followers",
+        "following_url": "https://api.github.com/users/raffaelemancuso/following{/other_user}",
+        "gists_url": "https://api.github.com/users/raffaelemancuso/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/raffaelemancuso/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/raffaelemancuso/subscriptions",
+        "organizations_url": "https://api.github.com/users/raffaelemancuso/orgs",
+        "repos_url": "https://api.github.com/users/raffaelemancuso/repos",
+        "events_url": "https://api.github.com/users/raffaelemancuso/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/raffaelemancuso/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b36ffa6e585f0ff7393d01724f9efc1f6a615e6b",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b36ffa6e585f0ff7393d01724f9efc1f6a615e6b",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/b36ffa6e585f0ff7393d01724f9efc1f6a615e6b"
+        }
+      ]
+    },
+    {
+      "sha": "b36ffa6e585f0ff7393d01724f9efc1f6a615e6b",
+      "node_id": "C_kwDOEsKu8toAKGIzNmZmYTZlNTg1ZjBmZjczOTNkMDE3MjRmOWVmYzFmNmE2MTVlNmI",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maartengrootendorst@gmail.com",
+          "date": "2023-09-03T07:50:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-09-03T07:50:52Z"
+        },
+        "message": "v0.4.2 (#65)",
+        "tree": {
+          "sha": "020619acff9448bfe1c18924fb6580e6d07871ad",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/020619acff9448bfe1c18924fb6580e6d07871ad"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/b36ffa6e585f0ff7393d01724f9efc1f6a615e6b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk9DrcCRBK7hj4Ov3rIwAARXsIAAASGWZ+s4A/INYRZQxfMfaS\nTnDVEVHuJ0SSOU+MmcVn7U2MYS4h3wEwQ4f2KHXLAjEadJ9bvEZkh7SWI38YqQCZ\nAycVd9kVHupuLROZ5VIhx39kmfp3KvJj1jbHzxwgvbmd/5D8tuuevxgb6IO58SoY\n6vAIyYn52KWSuuctv9pXRn3U/U/rymJdjIMvAfW1bE+EDTW7BkES4ld9dC6xN2NH\nyHjgadtiAGg5mCigOr9r7Ui9XkxpDpkuxGs/S9cxg7rzfiCzhazcQ6dFu/ZP+Fw7\ngwtTnA7RCj3BDH7KjaBHbBBJPLvuPTPQzc7N/OxBG8e7twIO5JL2c4W+NoVMbkQ=\n=KAU9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 020619acff9448bfe1c18924fb6580e6d07871ad\nparent ea98abb2a0fa01b40f12392ecaef5063fc06fd8f\nauthor Maarten Grootendorst <maartengrootendorst@gmail.com> 1693727452 +0200\ncommitter GitHub <noreply@github.com> 1693727452 +0200\n\nv0.4.2 (#65)\n\n",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b36ffa6e585f0ff7393d01724f9efc1f6a615e6b",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/b36ffa6e585f0ff7393d01724f9efc1f6a615e6b",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b36ffa6e585f0ff7393d01724f9efc1f6a615e6b/comments",
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ea98abb2a0fa01b40f12392ecaef5063fc06fd8f",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/ea98abb2a0fa01b40f12392ecaef5063fc06fd8f",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/ea98abb2a0fa01b40f12392ecaef5063fc06fd8f"
+        }
+      ]
+    },
+    {
+      "sha": "ea98abb2a0fa01b40f12392ecaef5063fc06fd8f",
+      "node_id": "C_kwDOEsKu8toAKGVhOThhYmIyYTBmYTAxYjQwZjEyMzkyZWNhZWY1MDYzZmMwNmZkOGY",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maartengrootendorst@gmail.com",
+          "date": "2023-09-03T07:30:58Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maartengrootendorst@gmail.com",
+          "date": "2023-09-03T07:30:58Z"
+        },
+        "message": "v0.4.1",
+        "tree": {
+          "sha": "ce6c7c92627f801376b6ba3817adcaeefb2e85e7",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/ce6c7c92627f801376b6ba3817adcaeefb2e85e7"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/ea98abb2a0fa01b40f12392ecaef5063fc06fd8f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/ea98abb2a0fa01b40f12392ecaef5063fc06fd8f",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/ea98abb2a0fa01b40f12392ecaef5063fc06fd8f",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/ea98abb2a0fa01b40f12392ecaef5063fc06fd8f/comments",
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46ff82c6182d43037d271974eabe1938e9f08c20",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/46ff82c6182d43037d271974eabe1938e9f08c20",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/46ff82c6182d43037d271974eabe1938e9f08c20"
+        }
+      ]
+    },
+    {
+      "sha": "46ff82c6182d43037d271974eabe1938e9f08c20",
+      "node_id": "C_kwDOEsKu8toAKDQ2ZmY4MmM2MTgyZDQzMDM3ZDI3MTk3NGVhYmUxOTM4ZTlmMDhjMjA",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-12-19T06:53:16Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-12-19T06:53:16Z"
+        },
+        "message": "Fix deprecated np.float",
+        "tree": {
+          "sha": "7fb824adf8cceb4b8005d58908ff941a10b93e42",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/7fb824adf8cceb4b8005d58908ff941a10b93e42"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/46ff82c6182d43037d271974eabe1938e9f08c20",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/46ff82c6182d43037d271974eabe1938e9f08c20",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/46ff82c6182d43037d271974eabe1938e9f08c20",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/46ff82c6182d43037d271974eabe1938e9f08c20/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "f79a278f8d8830535e4943789ce611c9906c2023",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/f79a278f8d8830535e4943789ce611c9906c2023",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/f79a278f8d8830535e4943789ce611c9906c2023"
+        }
+      ]
+    },
+    {
+      "sha": "f79a278f8d8830535e4943789ce611c9906c2023",
+      "node_id": "C_kwDOEsKu8toAKGY3OWEyNzhmOGQ4ODMwNTM1ZTQ5NDM3ODljZTYxMWM5OTA2YzIwMjM",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-12-19T06:14:29Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-12-19T06:14:29Z"
+        },
+        "message": "Fix #53",
+        "tree": {
+          "sha": "918ca262315cfceb6a82f19c21c8eaf11b218951",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/918ca262315cfceb6a82f19c21c8eaf11b218951"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/f79a278f8d8830535e4943789ce611c9906c2023",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/f79a278f8d8830535e4943789ce611c9906c2023",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/f79a278f8d8830535e4943789ce611c9906c2023",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/f79a278f8d8830535e4943789ce611c9906c2023/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "dff02011c9edfa1f3f27284e70f16e34a837ee72",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/dff02011c9edfa1f3f27284e70f16e34a837ee72",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/dff02011c9edfa1f3f27284e70f16e34a837ee72"
+        }
+      ]
+    },
+    {
+      "sha": "dff02011c9edfa1f3f27284e70f16e34a837ee72",
+      "node_id": "C_kwDOEsKu8toAKGRmZjAyMDExYzllZGZhMWYzZjI3Mjg0ZTcwZjE2ZTM0YTgzN2VlNzI",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-12-15T15:22:54Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-12-15T15:22:54Z"
+        },
+        "message": "Update documentation",
+        "tree": {
+          "sha": "6ca1725245ec23ae2c68d4d2e371d2c4db31482f",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/6ca1725245ec23ae2c68d4d2e371d2c4db31482f"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/dff02011c9edfa1f3f27284e70f16e34a837ee72",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/dff02011c9edfa1f3f27284e70f16e34a837ee72",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/dff02011c9edfa1f3f27284e70f16e34a837ee72",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/dff02011c9edfa1f3f27284e70f16e34a837ee72/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "b26638ff051a2d0d7c100619657b5703e47c9365",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b26638ff051a2d0d7c100619657b5703e47c9365",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/b26638ff051a2d0d7c100619657b5703e47c9365"
+        }
+      ]
+    },
+    {
+      "sha": "b26638ff051a2d0d7c100619657b5703e47c9365",
+      "node_id": "C_kwDOEsKu8toAKGIyNjYzOGZmMDUxYTJkMGQ3YzEwMDYxOTY1N2I1NzAzZTQ3YzkzNjU",
+      "commit": {
+        "author": {
+          "name": "Daniel Obraczka",
+          "email": "daniel@obraczka.de",
+          "date": "2022-09-21T15:18:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-09-21T15:18:22Z"
+        },
+        "message": "Fix typo in README (#45)\n\nThe README contains installation instructions for bertopic, when it should actually contain instructions for polyfuzz",
+        "tree": {
+          "sha": "1ca99793813e6220339650a6d5e0d51ab6340cf9",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/1ca99793813e6220339650a6d5e0d51ab6340cf9"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/b26638ff051a2d0d7c100619657b5703e47c9365",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjKys+CRBK7hj4Ov3rIwAA0XwIAASRSamNqbkTpLIpe3LHabGK\nqyKi3jUsnVbR/iPTeD1jA+W5zMIkDndC/2U2v4ngjnvi9yytiMEqr/4rXhu40+ND\nkVTYFlZOynWEZGi9gkc9Dqrt7RPXQMq6M2AE9058+zVQwWNzRZhY02TqkTXirCvX\noBc5JWfWjmRLE8S6YE1WzC4rq09vNDwxacqMAzLQOjvFOmvycrVNZvZHCymGRx5M\ng+i+Yv8bl/9shycj6JJUTotd3wEYtWWM+U3LjBRN9FRKM9/S8lH33lhzh6y5fKA1\neOFIPmNef8Nuphn4moFU8IHpSdMx7GYGIrlBjORJEFJ0TLdnTBEyKBuy2dyBuG8=\n=WGY1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1ca99793813e6220339650a6d5e0d51ab6340cf9\nparent d386993023367991d6e1077b8b0a908d749a18b8\nauthor Daniel Obraczka <daniel@obraczka.de> 1663773502 +0200\ncommitter GitHub <noreply@github.com> 1663773502 +0200\n\nFix typo in README (#45)\n\nThe README contains installation instructions for bertopic, when it should actually contain instructions for polyfuzz",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b26638ff051a2d0d7c100619657b5703e47c9365",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/b26638ff051a2d0d7c100619657b5703e47c9365",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b26638ff051a2d0d7c100619657b5703e47c9365/comments",
+      "author": {
+        "login": "dobraczka",
+        "id": 14311131,
+        "node_id": "MDQ6VXNlcjE0MzExMTMx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/14311131?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dobraczka",
+        "html_url": "https://github.com/dobraczka",
+        "followers_url": "https://api.github.com/users/dobraczka/followers",
+        "following_url": "https://api.github.com/users/dobraczka/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dobraczka/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dobraczka/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dobraczka/subscriptions",
+        "organizations_url": "https://api.github.com/users/dobraczka/orgs",
+        "repos_url": "https://api.github.com/users/dobraczka/repos",
+        "events_url": "https://api.github.com/users/dobraczka/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dobraczka/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d386993023367991d6e1077b8b0a908d749a18b8",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/d386993023367991d6e1077b8b0a908d749a18b8",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/d386993023367991d6e1077b8b0a908d749a18b8"
+        }
+      ]
+    },
+    {
+      "sha": "d386993023367991d6e1077b8b0a908d749a18b8",
+      "node_id": "C_kwDOEsKu8toAKGQzODY5OTMwMjMzNjc5OTFkNmUxMDc3YjhiMGE5MDhkNzQ5YTE4Yjg",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-07-23T08:31:52Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-07-23T08:31:52Z"
+        },
+        "message": "Fix typo in documentation",
+        "tree": {
+          "sha": "7e4369db4a940086ec925ab6113d5049e15b630a",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/7e4369db4a940086ec925ab6113d5049e15b630a"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/d386993023367991d6e1077b8b0a908d749a18b8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/d386993023367991d6e1077b8b0a908d749a18b8",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/d386993023367991d6e1077b8b0a908d749a18b8",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/d386993023367991d6e1077b8b0a908d749a18b8/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "9d373a8d182481ed02f5c1742b28df076b441364",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d373a8d182481ed02f5c1742b28df076b441364",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/9d373a8d182481ed02f5c1742b28df076b441364"
+        }
+      ]
+    },
+    {
+      "sha": "9d373a8d182481ed02f5c1742b28df076b441364",
+      "node_id": "C_kwDOEsKu8toAKDlkMzczYThkMTgyNDgxZWQwMmY1YzE3NDJiMjhkZjA3NmI0NDEzNjQ",
+      "commit": {
+        "author": {
+          "name": "Max Bachmann",
+          "email": "kontakt@maxbachmann.de",
+          "date": "2022-07-05T14:11:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-07-05T14:11:30Z"
+        },
+        "message": "fix spelling mistake (#38)",
+        "tree": {
+          "sha": "0a72d2622f4b9662c0dd03ceccc1d0bb136b0e59",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/0a72d2622f4b9662c0dd03ceccc1d0bb136b0e59"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/9d373a8d182481ed02f5c1742b28df076b441364",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJixEaSCRBK7hj4Ov3rIwAA554IAIDz1Lh0J2pjmrcQY04ySns7\nGc1nVGNT983JrjlJCC9nQyd/bRYsDldvT/0boVI/snTZMo/ItopxD8bjn6Jovrqq\n/M7QzPtAs7aGLQWdIAps+eumDPeHV3oUybeGd0qn0/OJ4MASjJ59auq2B6lS1DzM\nHWbwM9YdBErrIeGZnTpk3OV+lT0EWqbkKK+L+PStiQdOFqXhK7VCLDsijITBMgI0\nkBBzS08wAOBNu3ogT4FkqeFRdaoLOglE4aYWqyl4NCU6BgqIpQmjTYlVjGXus+jU\nrtgKujCNLqIjei7fDIhLDn0gUd6CQhQS8lb6A6SLTQ7cVtgXD9BoydDAhqLtr/U=\n=pj52\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0a72d2622f4b9662c0dd03ceccc1d0bb136b0e59\nparent 9d9754dc5e036543469811f6bda34e22b1783e15\nauthor Max Bachmann <kontakt@maxbachmann.de> 1657030290 +0200\ncommitter GitHub <noreply@github.com> 1657030290 +0200\n\nfix spelling mistake (#38)\n\n",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d373a8d182481ed02f5c1742b28df076b441364",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/9d373a8d182481ed02f5c1742b28df076b441364",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d373a8d182481ed02f5c1742b28df076b441364/comments",
+      "author": {
+        "login": "maxbachmann",
+        "id": 44199644,
+        "node_id": "MDQ6VXNlcjQ0MTk5NjQ0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/44199644?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maxbachmann",
+        "html_url": "https://github.com/maxbachmann",
+        "followers_url": "https://api.github.com/users/maxbachmann/followers",
+        "following_url": "https://api.github.com/users/maxbachmann/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maxbachmann/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maxbachmann/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maxbachmann/subscriptions",
+        "organizations_url": "https://api.github.com/users/maxbachmann/orgs",
+        "repos_url": "https://api.github.com/users/maxbachmann/repos",
+        "events_url": "https://api.github.com/users/maxbachmann/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maxbachmann/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9d9754dc5e036543469811f6bda34e22b1783e15",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d9754dc5e036543469811f6bda34e22b1783e15",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/9d9754dc5e036543469811f6bda34e22b1783e15"
+        }
+      ]
+    },
+    {
+      "sha": "9d9754dc5e036543469811f6bda34e22b1783e15",
+      "node_id": "C_kwDOEsKu8toAKDlkOTc1NGRjNWUwMzY1NDM0Njk4MTFmNmJkYTM0ZTIyYjE3ODNlMTU",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2022-05-07T06:58:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-05-07T06:58:55Z"
+        },
+        "message": "v0.4.0 (#35)\n\n* Add spacy, use, sbert, gensim\r\n* Add fit, transform, and fit_transform\r\n* Add options to save and load model",
+        "tree": {
+          "sha": "c803a925e08019175c77b0739e2d34b8a6c74750",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/c803a925e08019175c77b0739e2d34b8a6c74750"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/9d9754dc5e036543469811f6bda34e22b1783e15",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJidhivCRBK7hj4Ov3rIwAALLcIAIt6wlqEO2s4Q6O5HHuoM5yU\nIJAOAA5x/OZ0yfXgN1gdiCk2HJstsHHZ6ryRcJD/30fWqXN2O8+s3J9IJMC8xpwK\nhllQ7Tu4m5AwG+eg0SOM7oRJFpgOcfN+UJ2XM3C8AqhLhcEC1XQTZQGcG6IECxsE\nwyqC0DdgMOl//CgWSxttmk6BWpsY3HeMGHZ0Yk/3IcIS9wVemb3Y7rT3mKaGwM8W\ndtxpe2o7D2OwqngfxMOXTkJpuQ2aTl8azggcxpeyNQ4r4YV06SHHd4zQdmmRjyVM\n6gJ906UYnOL4DHJYWAjvZOp7EFkoYz1h+onccqgeGRpYjFav5k8t7I3FXMoqRD8=\n=fF11\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c803a925e08019175c77b0739e2d34b8a6c74750\nparent 241d7d38c379cee61aa931f1514b6255666504aa\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1651906735 +0200\ncommitter GitHub <noreply@github.com> 1651906735 +0200\n\nv0.4.0 (#35)\n\n* Add spacy, use, sbert, gensim\r\n* Add fit, transform, and fit_transform\r\n* Add options to save and load model",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d9754dc5e036543469811f6bda34e22b1783e15",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/9d9754dc5e036543469811f6bda34e22b1783e15",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/9d9754dc5e036543469811f6bda34e22b1783e15/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "241d7d38c379cee61aa931f1514b6255666504aa",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/241d7d38c379cee61aa931f1514b6255666504aa",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/241d7d38c379cee61aa931f1514b6255666504aa"
+        }
+      ]
+    },
+    {
+      "sha": "241d7d38c379cee61aa931f1514b6255666504aa",
+      "node_id": "C_kwDOEsKu8toAKDI0MWQ3ZDM4YzM3OWNlZTYxYWE5MzFmMTUxNGI2MjU1NjY2NTA0YWE",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2021-11-05T10:36:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2021-11-05T10:36:19Z"
+        },
+        "message": "v0.3.4 (#30)\n\n* Fix duplicate lists not mapping",
+        "tree": {
+          "sha": "9749ccca913f66c98f5e6f82e5023e34f5dd495f",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/9749ccca913f66c98f5e6f82e5023e34f5dd495f"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/241d7d38c379cee61aa931f1514b6255666504aa",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhhQkjCRBK7hj4Ov3rIwAAKVMIAFZOUT+uHEqfnXhFWbhojZXd\nVjWGamvR2ndlRqvSbr6P5VYzyPlqolB+YGjoIUJE6K7ZujhaQSg9karLhREFS+VC\nEs/H2wMS2ALZQAf+mFNtKLuJYDgG+/thL7zSMmEZpaGTJayrBeWVVRP/QwnGFNZp\nlc7MTX7+HXjKGOPzGBHbxMXk4tCQcLUsoelcWfs/v2TfMu0Plg+3jyxzXdqHPEbJ\ntjPd6yjulI2RsJOdl0ytuALbsVopwlzXak4HoFOO1m6OFo8XHWcFUc8dISUvRD0o\nCQD/J++HDHZQUssTyQcny9iuiXYO6OYO6QxAHjuoMAtTvAF1SmMZyHwTedZsI30=\n=NMvm\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9749ccca913f66c98f5e6f82e5023e34f5dd495f\nparent 672c90ef6f7b50b4324d4a502e28586030fcd527\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1636108579 +0100\ncommitter GitHub <noreply@github.com> 1636108579 +0100\n\nv0.3.4 (#30)\n\n* Fix duplicate lists not mapping",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/241d7d38c379cee61aa931f1514b6255666504aa",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/241d7d38c379cee61aa931f1514b6255666504aa",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/241d7d38c379cee61aa931f1514b6255666504aa/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "672c90ef6f7b50b4324d4a502e28586030fcd527",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/672c90ef6f7b50b4324d4a502e28586030fcd527",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/672c90ef6f7b50b4324d4a502e28586030fcd527"
+        }
+      ]
+    },
+    {
+      "sha": "672c90ef6f7b50b4324d4a502e28586030fcd527",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OjY3MmM5MGVmNmY3YjUwYjQzMjRkNGE1MDJlMjg1ODYwMzBmY2Q1Mjc=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2021-06-16T05:25:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2021-06-16T05:25:52Z"
+        },
+        "message": "Fix Numpy Version (#24)\n\nFixes #21 and #23",
+        "tree": {
+          "sha": "c50bff0105452288cc3ac0436ddd07c24905995e",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/c50bff0105452288cc3ac0436ddd07c24905995e"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/672c90ef6f7b50b4324d4a502e28586030fcd527",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgyYtgCRBK7hj4Ov3rIwAAzkgIABCCu3iaCJiGriHdsBVvsijs\nOFAZbuf2GuzTNDbYQTcDSIaRUvYfw7kzDNlVcsy1g54Rca1d27Emyg5earVKcvaC\njSH3piT3PWPCAbdQ5/OkcnM4X4Ear1KT0gAqGwjv3O2iQJaJIAptnMPenPKc14l/\nHhiy06CrxV9UHWHpzduuASkfExZ9yNq3vRV0lR4t7Pc4WaO3QSS1rjUv0pIVnRmk\nASmf0KgXAjpoz9B09Jg5tZxizbHCc2fVIK6ToNy1gBwVhzRCGVtmCXxgxX73i6xi\n4uKJ9nJl729VdHtrEdAisbBUYSnPznF0sggeDUpjc0OFF8dLGOgascbNLkvrBLA=\n=kfiT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c50bff0105452288cc3ac0436ddd07c24905995e\nparent aec80ef6a8017f1628e61e7c0e8db314fcd38f98\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1623821152 +0200\ncommitter GitHub <noreply@github.com> 1623821152 +0200\n\nFix Numpy Version (#24)\n\nFixes #21 and #23 ",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/672c90ef6f7b50b4324d4a502e28586030fcd527",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/672c90ef6f7b50b4324d4a502e28586030fcd527",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/672c90ef6f7b50b4324d4a502e28586030fcd527/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "aec80ef6a8017f1628e61e7c0e8db314fcd38f98",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/aec80ef6a8017f1628e61e7c0e8db314fcd38f98",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/aec80ef6a8017f1628e61e7c0e8db314fcd38f98"
+        }
+      ]
+    },
+    {
+      "sha": "aec80ef6a8017f1628e61e7c0e8db314fcd38f98",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OmFlYzgwZWY2YTgwMTdmMTYyOGU2MWU3YzBlOGRiMzE0ZmNkMzhmOTg=",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2021-06-08T06:44:17Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2021-06-08T06:44:17Z"
+        },
+        "message": "Fix rounding",
+        "tree": {
+          "sha": "72a08e0b97d68f07514fd186683753d8fe939206",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/72a08e0b97d68f07514fd186683753d8fe939206"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/aec80ef6a8017f1628e61e7c0e8db314fcd38f98",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/aec80ef6a8017f1628e61e7c0e8db314fcd38f98",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/aec80ef6a8017f1628e61e7c0e8db314fcd38f98",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/aec80ef6a8017f1628e61e7c0e8db314fcd38f98/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9"
+        }
+      ]
+    },
+    {
+      "sha": "d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OmQyZWY1YjJiM2UyNjJlNzAxNDQ1NTMwZDM1ZjhiNGZmMGE4ZWQzYTk=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2021-06-08T06:35:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2021-06-08T06:35:33Z"
+        },
+        "message": "Sparse dot fix (#22)",
+        "tree": {
+          "sha": "5a0c58e04b0a8bb7a6d9e571be3d8c2b14577b3d",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/5a0c58e04b0a8bb7a6d9e571be3d8c2b14577b3d"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgvw+1CRBK7hj4Ov3rIwAAOHUIAHxpz1lph2e+6a+E7UlpX/Pk\nBSIpAhumO0AN812YB62efPSefAJ/6tc6VfMDNe16AyGXzWkuXNMddkwZX99+uNLI\n0Oxw1DqI1ReTQsqasY++kBUn6DcgynSSqmMr3kPIhquSbIIQdqQlt+TkLpm4EU+Q\nNnB9YH4ov4F5sY5zzUvN+oWf9IxJLrHB1v1eh/pQrM6eDK/iwKsv6iTx986kvs7a\nM1BtnjvIU1/UM21PaeXk6ohqK1CfkxCoPtsaHlMHhHgaVAs0YPuMZ9lTbXbyw8BZ\ngsRi7olFemA2As3ikE3RTtMon6OCX5fcalaRgfUqkPflXNbN4xpfWlsRxDXzEsg=\n=grVy\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5a0c58e04b0a8bb7a6d9e571be3d8c2b14577b3d\nparent a60dfc62e9b31e188490ebabd1c9481d58f7732b\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1623134133 +0200\ncommitter GitHub <noreply@github.com> 1623134133 +0200\n\nSparse dot fix (#22)\n\n",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/d2ef5b2b3e262e701445530d35f8b4ff0a8ed3a9/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a60dfc62e9b31e188490ebabd1c9481d58f7732b",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/a60dfc62e9b31e188490ebabd1c9481d58f7732b",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/a60dfc62e9b31e188490ebabd1c9481d58f7732b"
+        }
+      ]
+    },
+    {
+      "sha": "a60dfc62e9b31e188490ebabd1c9481d58f7732b",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OmE2MGRmYzYyZTliMzFlMTg4NDkwZWJhYmQxYzk0ODFkNThmNzczMmI=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2021-04-30T06:01:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2021-04-30T06:01:02Z"
+        },
+        "message": "v0.3 (#17)\n\n* Extract multiple best matches\r\n* Add top_n to TF-IDF and Embeddings\r\n* Update documentation and prepare for release",
+        "tree": {
+          "sha": "94fa1b9155cf7dcf8e3e5084c9f2032f424de957",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/94fa1b9155cf7dcf8e3e5084c9f2032f424de957"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/a60dfc62e9b31e188490ebabd1c9481d58f7732b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgi50eCRBK7hj4Ov3rIwAA8c8IAA/6jG3TUDr0epRX3dmW2hAk\nPWtuTp7J8YOKTXq2ebYAN1kHPfoOHkHwgdADYT1LrFrqc/xWwg917CQ6/Ur+Ie/u\ngN1ymHkqRyZmLc3WvMFSdZ0SXQwQD5IqVuE2ZiQOYQLLmvzGvdg3w63gJsanVyaI\nlciJaNYmqSiXGvqOQg/XHOv/ccWWsVkkWUOT0yzHRcGhHzpNnZJUoqHFeTk6npp9\nWi60B0rVWCldcif88cSbjQbSHCTqk/lkx63sKXnksIAIDSYzpAmyYXzqEB3Iwh3a\nIRcauVDzf5liBqj4/JumHoTlszgh+14dFmVwDLDWt5Rn9Fb8iEPzA5sCp6H735Q=\n=KiEs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 94fa1b9155cf7dcf8e3e5084c9f2032f424de957\nparent fbe0cbb825cbac995af2cc818eae765180a679bc\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1619762462 +0200\ncommitter GitHub <noreply@github.com> 1619762462 +0100\n\nv0.3 (#17)\n\n* Extract multiple best matches\r\n* Add top_n to TF-IDF and Embeddings\r\n* Update documentation and prepare for release",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/a60dfc62e9b31e188490ebabd1c9481d58f7732b",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/a60dfc62e9b31e188490ebabd1c9481d58f7732b",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/a60dfc62e9b31e188490ebabd1c9481d58f7732b/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fbe0cbb825cbac995af2cc818eae765180a679bc",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/fbe0cbb825cbac995af2cc818eae765180a679bc",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/fbe0cbb825cbac995af2cc818eae765180a679bc"
+        }
+      ]
+    },
+    {
+      "sha": "fbe0cbb825cbac995af2cc818eae765180a679bc",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OmZiZTBjYmI4MjVjYmFjOTk1YWYyY2M4MThlYWU3NjUxODBhNjc5YmM=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2021-01-25T07:44:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2021-01-25T07:44:11Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "c6c1885c4fb3d45c15a4ba5ba90156bf3a3911d5",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/c6c1885c4fb3d45c15a4ba5ba90156bf3a3911d5"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/fbe0cbb825cbac995af2cc818eae765180a679bc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgDnbLCRBK7hj4Ov3rIwAAdHIIAJfz5okeTv4Njvo1m+5YwzaN\n/dGaaNu+PjrnkrqcrqocqDOyJQrAEvr3xjSovlWJZy5fy8b/I3KIvN12m7AkQRdF\ner265YKK1sNWHhX6V9iPbuzNWPggvRCKSPS0dZi77AAE9MV+B8z0sa3pusVJvenv\nWCyNqal2TLKR+jneIGb7zSU8MNT1UlZAYO+nzR+VCtPVFtQ6ETdPdstsvx3cc8zE\nLeGRT3KnAGglmWIMsUMCAV9q+W1MKr2cdd5q/w9t/zFFvSfINo0rWbe5I+uILdFI\ncQ9SrlKLTCOEIgOlVtdr605FFLa4pZUNQseq+T/v0To8bfsOviBtRMu6LkoPH5Q=\n=G9UA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c6c1885c4fb3d45c15a4ba5ba90156bf3a3911d5\nparent 74945f8326b91d2f050e0e21ad79a97d38cd6a31\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1611560651 +0100\ncommitter GitHub <noreply@github.com> 1611560651 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/fbe0cbb825cbac995af2cc818eae765180a679bc",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/fbe0cbb825cbac995af2cc818eae765180a679bc",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/fbe0cbb825cbac995af2cc818eae765180a679bc/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "74945f8326b91d2f050e0e21ad79a97d38cd6a31",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/74945f8326b91d2f050e0e21ad79a97d38cd6a31",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/74945f8326b91d2f050e0e21ad79a97d38cd6a31"
+        }
+      ]
+    },
+    {
+      "sha": "74945f8326b91d2f050e0e21ad79a97d38cd6a31",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4Ojc0OTQ1ZjgzMjZiOTFkMmYwNTBlMGUyMWFkNzlhOTdkMzhjZDZhMzE=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-12-07T15:39:44Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2020-12-07T15:39:44Z"
+        },
+        "message": "Improved String Grouping (#6)\n\n* Improved clustering of strings \r\n* Update workflow\r\n* Additional tests\r\n* Update Flair dependency",
+        "tree": {
+          "sha": "d6b3c30e1c20c11886990b0f030f12861122fc53",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/d6b3c30e1c20c11886990b0f030f12861122fc53"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/74945f8326b91d2f050e0e21ad79a97d38cd6a31",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfzkzACRBK7hj4Ov3rIwAAdHIIAJtIG0+5E97A52vaInZp0+qd\nLRWWzYOyj4JVDZPNTyJ0E2ZgCcRFEZt1MalHvrGclbldW+/coRpqzOtG4KKtSvQP\nPGoHh2xTEKAxgua5m7csUkHPvRTTzWuUCd8gFi6YmTMp1H+HHz8ysHBxZdVcqbz2\nyABSyDZsPZPVnWsHGwtwntx9NBcn3PqOseJIn3gJ9bopmCh1k18jFpg4XRWXwf5V\nMLvKvO7oCaVMuJlrWigDVzttE7m3bpIPA7Ul+F/raYEsP0tlcz11PIU5OmHqm7Lj\nNKpXZ8u4d04hwSQrjuCSemUNZeouku43FyuUNp2m1L64e29G7KGH48dNxzppE6E=\n=S8V1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d6b3c30e1c20c11886990b0f030f12861122fc53\nparent bbcfe3dc553781a5340123236026e4da4fc2cbec\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1607355584 +0100\ncommitter GitHub <noreply@github.com> 1607355584 +0100\n\nImproved String Grouping (#6)\n\n* Improved clustering of strings \r\n* Update workflow\r\n* Additional tests\r\n* Update Flair dependency",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/74945f8326b91d2f050e0e21ad79a97d38cd6a31",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/74945f8326b91d2f050e0e21ad79a97d38cd6a31",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/74945f8326b91d2f050e0e21ad79a97d38cd6a31/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bbcfe3dc553781a5340123236026e4da4fc2cbec",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/bbcfe3dc553781a5340123236026e4da4fc2cbec",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/bbcfe3dc553781a5340123236026e4da4fc2cbec"
+        }
+      ]
+    },
+    {
+      "sha": "bbcfe3dc553781a5340123236026e4da4fc2cbec",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OmJiY2ZlM2RjNTUzNzgxYTUzNDAxMjMyMzYwMjZlNGRhNGZjMmNiZWM=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-12-02T15:53:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2020-12-02T15:53:10Z"
+        },
+        "message": "Added medium post",
+        "tree": {
+          "sha": "0dab06d80db66d77495a6799d90a71bd42801cfd",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/0dab06d80db66d77495a6799d90a71bd42801cfd"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/bbcfe3dc553781a5340123236026e4da4fc2cbec",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfx7hmCRBK7hj4Ov3rIwAAdHIIAIKVt+YSjaF8F02xsnCBUoqH\nOLgNm0HkWdWKelF2O9zzk0nSvBCOJ50Jy2IDGTWIw/jwslvHPfR+F2kJAQQXxRwP\n90fHdGfIwdsagZNWtEI5XMCvKMiw+VLVE8h7A99wOZAJ9tX/j94yhLVvYuhi69th\nZ7AeiHos60OMX84HVyVMVWcEhxRSZcf3L4B6sxqB8u/m51Tsu16j7+T+FyqYJuXZ\nW2KnHxdyEW1e9SP/F3DxJgo+9WerkyeL4MsIFxsFTF2mBI/0GA5oiXWbL8ibTD/5\nggEPoFuULPVLrSkR9fk93Iv8TfHGZWjmAFsTmwhr9Td6GcgvhSDCt9q0inJD+18=\n=vNWh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0dab06d80db66d77495a6799d90a71bd42801cfd\nparent b01e4269061711d2f3e0dd0932c472ebfa6bc608\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1606924390 +0100\ncommitter GitHub <noreply@github.com> 1606924390 +0100\n\nAdded medium post",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/bbcfe3dc553781a5340123236026e4da4fc2cbec",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/bbcfe3dc553781a5340123236026e4da4fc2cbec",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/bbcfe3dc553781a5340123236026e4da4fc2cbec/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b01e4269061711d2f3e0dd0932c472ebfa6bc608",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b01e4269061711d2f3e0dd0932c472ebfa6bc608",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/b01e4269061711d2f3e0dd0932c472ebfa6bc608"
+        }
+      ]
+    },
+    {
+      "sha": "b01e4269061711d2f3e0dd0932c472ebfa6bc608",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OmIwMWU0MjY5MDYxNzExZDJmM2UwZGQwOTMyYzQ3MmViZmE2YmM2MDg=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-28T06:46:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2020-11-28T06:46:30Z"
+        },
+        "message": "Add tutorial datasets (#4)",
+        "tree": {
+          "sha": "96cc509bd276ea6e625c4dd191d3cb5558f17eea",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/96cc509bd276ea6e625c4dd191d3cb5558f17eea"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/b01e4269061711d2f3e0dd0932c472ebfa6bc608",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfwfJGCRBK7hj4Ov3rIwAAdHIIAHlMuaUgwwzOtf33xZS02aor\nQG0M/kJKZaK/04htohvLQAuBXWdnvHv0/JgnpIDhHDmlwM+L3+5/59TpEteWb6/D\njokHwCbtlUITa8tLgPSL78GBohhDTn6WwCPKS+wyuGe/j2jrZR7vnSU9nl6wr286\nZhDwcZe5SCBmKMVXTgviccmaQEEebyQhlH9FDuZTGlMqOK3oAT04cWli5BxHyfN2\nykTd2TZ1xwR3wd1L90NY002sfV6iJ0M4fZ3AYDk4kCMJfc0ECigkPgNfd12vWBMp\nowjjqs4sENjkXILU9N9zMBnX7/3anr0BCpiJy7hG79bixr6ZKdGl5qRI4e70BHU=\n=KP7B\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 96cc509bd276ea6e625c4dd191d3cb5558f17eea\nparent 1cd46f4be5aff72d449338cb6de38812ffc906d4\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1606545990 +0100\ncommitter GitHub <noreply@github.com> 1606545990 +0100\n\nAdd tutorial datasets (#4)\n\n",
+          "verified_at": "2024-11-06T18:08:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b01e4269061711d2f3e0dd0932c472ebfa6bc608",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/b01e4269061711d2f3e0dd0932c472ebfa6bc608",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/b01e4269061711d2f3e0dd0932c472ebfa6bc608/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1cd46f4be5aff72d449338cb6de38812ffc906d4",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/1cd46f4be5aff72d449338cb6de38812ffc906d4",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/1cd46f4be5aff72d449338cb6de38812ffc906d4"
+        }
+      ]
+    },
+    {
+      "sha": "1cd46f4be5aff72d449338cb6de38812ffc906d4",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OjFjZDQ2ZjRiZTVhZmY3MmQ0NDkzMzhjYjZkZTM4ODEyZmZjOTA2ZDQ=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-27T14:57:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2020-11-27T14:57:00Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "b9f69a606dddf5de2b2616bfadde5c693cb858ec",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/b9f69a606dddf5de2b2616bfadde5c693cb858ec"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/1cd46f4be5aff72d449338cb6de38812ffc906d4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfwRO8CRBK7hj4Ov3rIwAAdHIIABQ/eJ68u0ad9DSjB9ota8hC\nIiNaFwE/U+sm87ObvBl1qlA2bL/lADAZhPJ4EXWnjUkQikgrYtQixUPK/RIJuezQ\nMSaRJmS763LCKiBzV48lb1dGbdiniVUD9eL9SGlHMqFu/LlGGSENdnQIuYNj2A7u\nmhsfiqThO9fPiFwpqrNBSNDpUGobpSflwx1TuHBRunKX8T8ytYiVh3qbyJT1ke1e\nr8UrQ8W3tAqiXCUY4g5qQTlB7Bv1/xI+VGJcER4yOugtd4VAUW/vYWh+cFLAnmil\ny/wiYDTu3DImaSw4Djjx8BUhD6qK/BwX/ehqC0mtEB/zcYjlXPrlvotSL316H0U=\n=geqj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b9f69a606dddf5de2b2616bfadde5c693cb858ec\nparent c37a6c55598175b578eafb38809e6479e09becb2\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1606489020 +0100\ncommitter GitHub <noreply@github.com> 1606489020 +0100\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/1cd46f4be5aff72d449338cb6de38812ffc906d4",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/1cd46f4be5aff72d449338cb6de38812ffc906d4",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/1cd46f4be5aff72d449338cb6de38812ffc906d4/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c37a6c55598175b578eafb38809e6479e09becb2",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/c37a6c55598175b578eafb38809e6479e09becb2",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/c37a6c55598175b578eafb38809e6479e09becb2"
+        }
+      ]
+    },
+    {
+      "sha": "c37a6c55598175b578eafb38809e6479e09becb2",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OmMzN2E2YzU1NTk4MTc1YjU3OGVhZmIzODgwOWU2NDc5ZTA5YmVjYjI=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-27T14:55:31Z"
+        },
+        "committer": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-27T14:55:31Z"
+        },
+        "message": "Update Readme",
+        "tree": {
+          "sha": "ef257f087b5330b13641ab90badbb269cff20416",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/ef257f087b5330b13641ab90badbb269cff20416"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/c37a6c55598175b578eafb38809e6479e09becb2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/c37a6c55598175b578eafb38809e6479e09becb2",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/c37a6c55598175b578eafb38809e6479e09becb2",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/c37a6c55598175b578eafb38809e6479e09becb2/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "427c28d3745f358eb767d1011deb49a030671706",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/427c28d3745f358eb767d1011deb49a030671706",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/427c28d3745f358eb767d1011deb49a030671706"
+        }
+      ]
+    },
+    {
+      "sha": "427c28d3745f358eb767d1011deb49a030671706",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OjQyN2MyOGQzNzQ1ZjM1OGViNzY3ZDEwMTFkZWI0OWEwMzA2NzE3MDY=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-27T14:45:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2020-11-27T14:45:19Z"
+        },
+        "message": "v0.2.0 (#3)\n\n* Update naming convention matcher --> model\r\n* Update documentation\r\n* Add basic models to grouper\r\n* Fix issues with vector order in cosine similarity\r\n* Update naming of cosine similarity function",
+        "tree": {
+          "sha": "a9d22fb88af2aa390815682083b17ef3e60efbc5",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/a9d22fb88af2aa390815682083b17ef3e60efbc5"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/427c28d3745f358eb767d1011deb49a030671706",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfwRD/CRBK7hj4Ov3rIwAAdHIIAFT/oCkkUo4bvdTIU/SUfMhw\nyI0cH10MsPthERHzXn+hu8R0szyjaqj9bfrz334V9osLFfD66TDnQMmSRJAe92a1\njG8MQodLJd/rnfZLBJ4vuNiMMtXIDooBrUhp2nuChw3oCyGtcJ9F7PxXAipLJ84J\nH0LernzOOh/ahvo9Dt1SBwiA+uMJLOeztQbNPvLwmpn304MmB0x/dJ6ZBOI9jJmE\nT8edAJIDmfGOAepFrh+XBtnopF+FoaqYNqVzSMUyumQwNSo7W4mTwDcDzt6HOslN\nzmLlgqG7VV07UWeN4I7PnJow0hhiyPFD7MDoUDJGZKRzWhd0dbjfLdzOOepkNZM=\n=Szp5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a9d22fb88af2aa390815682083b17ef3e60efbc5\nparent 1d9f62570e636d085d07e7385c0afe47436c8b11\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1606488319 +0100\ncommitter GitHub <noreply@github.com> 1606488319 +0100\n\nv0.2.0 (#3)\n\n* Update naming convention matcher --> model\r\n* Update documentation\r\n* Add basic models to grouper\r\n* Fix issues with vector order in cosine similarity\r\n* Update naming of cosine similarity function",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/427c28d3745f358eb767d1011deb49a030671706",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/427c28d3745f358eb767d1011deb49a030671706",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/427c28d3745f358eb767d1011deb49a030671706/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1d9f62570e636d085d07e7385c0afe47436c8b11",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/1d9f62570e636d085d07e7385c0afe47436c8b11",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/1d9f62570e636d085d07e7385c0afe47436c8b11"
+        }
+      ]
+    },
+    {
+      "sha": "1d9f62570e636d085d07e7385c0afe47436c8b11",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OjFkOWY2MjU3MGU2MzZkMDg1ZDA3ZTczODVjMGFmZTQ3NDM2YzhiMTE=",
+      "commit": {
+        "author": {
+          "name": "Maarten Grootendorst",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-25T15:46:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2020-11-25T15:46:31Z"
+        },
+        "message": "v0.1.0 (#1)\n\n* CI/CD pipeline with tests\r\n* Documentation (Readme, docstrings, mkdocs)",
+        "tree": {
+          "sha": "f8fcd9ef934008eb4a0d646502e5b3d6f0f00266",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/f8fcd9ef934008eb4a0d646502e5b3d6f0f00266"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/1d9f62570e636d085d07e7385c0afe47436c8b11",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJfvnxXCRBK7hj4Ov3rIwAAdHIIAJ9YUzno1oAAVA4nN/uWaHjJ\nzTV4Y6PiKb5IJKWZ9VWTWfF/tMQbM6WBrJCs/fAO6NMAugEdDYGghdqUAkChumx5\n5+gOkatufeHen64gZiDpKSNJDDmLDnoavl9pSkgYOZbWrBLVctDhxE+4qMRrUve+\nQPTCKmsFwFBspvQcPm9qxk+Tzm5NVqwrdO9X0uZ8SlCQP0x2v8ttzzzAehZjzTq0\nU3I03gBZXoMkwI00dGLOnNEesiNhKcabMlIxiQIsf2KqCf0/sVEeVThcJFwW81nR\nyNO42j0iqCc/fqijXcKyHoaWUSdKDxk1RWcaOvZHTbum9F4YHtKwq2nBAUz0p0A=\n=C+Sq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f8fcd9ef934008eb4a0d646502e5b3d6f0f00266\nparent 58ab3aa1528731f8211bb9a2319692a824194b3b\nauthor Maarten Grootendorst <maarten_grootendorst@hotmail.com> 1606319191 +0100\ncommitter GitHub <noreply@github.com> 1606319191 +0100\n\nv0.1.0 (#1)\n\n* CI/CD pipeline with tests\r\n* Documentation (Readme, docstrings, mkdocs)",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/1d9f62570e636d085d07e7385c0afe47436c8b11",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/1d9f62570e636d085d07e7385c0afe47436c8b11",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/1d9f62570e636d085d07e7385c0afe47436c8b11/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "58ab3aa1528731f8211bb9a2319692a824194b3b",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/58ab3aa1528731f8211bb9a2319692a824194b3b",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/58ab3aa1528731f8211bb9a2319692a824194b3b"
+        }
+      ]
+    },
+    {
+      "sha": "58ab3aa1528731f8211bb9a2319692a824194b3b",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OjU4YWIzYWExNTI4NzMxZjgyMTFiYjlhMjMxOTY5MmE4MjQxOTRiM2I=",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-21T07:34:52Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-21T07:34:52Z"
+        },
+        "message": "Update readme",
+        "tree": {
+          "sha": "7ba50cf846d96eb2c9df482e64eb0cb81c68bc1f",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/7ba50cf846d96eb2c9df482e64eb0cb81c68bc1f"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/58ab3aa1528731f8211bb9a2319692a824194b3b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/58ab3aa1528731f8211bb9a2319692a824194b3b",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/58ab3aa1528731f8211bb9a2319692a824194b3b",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/58ab3aa1528731f8211bb9a2319692a824194b3b/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "346307afb49e0040400c478187a8ca5ee236f731",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/346307afb49e0040400c478187a8ca5ee236f731",
+          "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/346307afb49e0040400c478187a8ca5ee236f731"
+        }
+      ]
+    },
+    {
+      "sha": "346307afb49e0040400c478187a8ca5ee236f731",
+      "node_id": "MDY6Q29tbWl0MzE0NzQ4NjU4OjM0NjMwN2FmYjQ5ZTAwNDA0MDBjNDc4MTg3YThjYTVlZTIzNmY3MzE=",
+      "commit": {
+        "author": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-21T06:32:18Z"
+        },
+        "committer": {
+          "name": "MaartenGr",
+          "email": "maarten_grootendorst@hotmail.com",
+          "date": "2020-11-21T06:32:18Z"
+        },
+        "message": "Init commit",
+        "tree": {
+          "sha": "1e039d4e47b7157aba8d10ef879bd959eb44cce9",
+          "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/trees/1e039d4e47b7157aba8d10ef879bd959eb44cce9"
+        },
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/git/commits/346307afb49e0040400c478187a8ca5ee236f731",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/346307afb49e0040400c478187a8ca5ee236f731",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/commit/346307afb49e0040400c478187a8ca5ee236f731",
+      "comments_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/commits/346307afb49e0040400c478187a8ca5ee236f731/comments",
+      "author": null,
+      "committer": null,
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "MaartenGr",
+      "id": 25746895,
+      "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaartenGr",
+      "html_url": "https://github.com/MaartenGr",
+      "followers_url": "https://api.github.com/users/MaartenGr/followers",
+      "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+      "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+      "repos_url": "https://api.github.com/users/MaartenGr/repos",
+      "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 6
+    },
+    {
+      "login": "dobraczka",
+      "id": 14311131,
+      "node_id": "MDQ6VXNlcjE0MzExMTMx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14311131?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dobraczka",
+      "html_url": "https://github.com/dobraczka",
+      "followers_url": "https://api.github.com/users/dobraczka/followers",
+      "following_url": "https://api.github.com/users/dobraczka/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dobraczka/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dobraczka/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dobraczka/subscriptions",
+      "organizations_url": "https://api.github.com/users/dobraczka/orgs",
+      "repos_url": "https://api.github.com/users/dobraczka/repos",
+      "events_url": "https://api.github.com/users/dobraczka/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dobraczka/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "maciejskorski",
+      "id": 31315784,
+      "node_id": "MDQ6VXNlcjMxMzE1Nzg0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31315784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maciejskorski",
+      "html_url": "https://github.com/maciejskorski",
+      "followers_url": "https://api.github.com/users/maciejskorski/followers",
+      "following_url": "https://api.github.com/users/maciejskorski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maciejskorski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maciejskorski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maciejskorski/subscriptions",
+      "organizations_url": "https://api.github.com/users/maciejskorski/orgs",
+      "repos_url": "https://api.github.com/users/maciejskorski/repos",
+      "events_url": "https://api.github.com/users/maciejskorski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maciejskorski/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "maxbachmann",
+      "id": 44199644,
+      "node_id": "MDQ6VXNlcjQ0MTk5NjQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44199644?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maxbachmann",
+      "html_url": "https://github.com/maxbachmann",
+      "followers_url": "https://api.github.com/users/maxbachmann/followers",
+      "following_url": "https://api.github.com/users/maxbachmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maxbachmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maxbachmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maxbachmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/maxbachmann/orgs",
+      "repos_url": "https://api.github.com/users/maxbachmann/repos",
+      "events_url": "https://api.github.com/users/maxbachmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maxbachmann/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "raffaelemancuso",
+      "id": 54762742,
+      "node_id": "MDQ6VXNlcjU0NzYyNzQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54762742?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/raffaelemancuso",
+      "html_url": "https://github.com/raffaelemancuso",
+      "followers_url": "https://api.github.com/users/raffaelemancuso/followers",
+      "following_url": "https://api.github.com/users/raffaelemancuso/following{/other_user}",
+      "gists_url": "https://api.github.com/users/raffaelemancuso/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/raffaelemancuso/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/raffaelemancuso/subscriptions",
+      "organizations_url": "https://api.github.com/users/raffaelemancuso/orgs",
+      "repos_url": "https://api.github.com/users/raffaelemancuso/repos",
+      "events_url": "https://api.github.com/users/raffaelemancuso/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/raffaelemancuso/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "Laubeee",
+      "id": 4159468,
+      "node_id": "MDQ6VXNlcjQxNTk0Njg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4159468?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Laubeee",
+      "html_url": "https://github.com/Laubeee",
+      "followers_url": "https://api.github.com/users/Laubeee/followers",
+      "following_url": "https://api.github.com/users/Laubeee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Laubeee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Laubeee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Laubeee/subscriptions",
+      "organizations_url": "https://api.github.com/users/Laubeee/orgs",
+      "repos_url": "https://api.github.com/users/Laubeee/repos",
+      "events_url": "https://api.github.com/users/Laubeee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Laubeee/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/216731011",
+      "assets_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/216731011/assets",
+      "upload_url": "https://uploads.github.com/repos/MaartenGr/PolyFuzz/releases/216731011/assets{?name,label}",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/releases/tag/v0.4.3",
+      "id": 216731011,
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOEsKu8s4M6w2D",
+      "tag_name": "v0.4.3",
+      "target_commitish": "master",
+      "name": "v0.4.3",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2025-05-06T11:37:27Z",
+      "updated_at": "2025-05-06T11:58:23Z",
+      "published_at": "2025-05-06T11:58:23Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/tarball/v0.4.3",
+      "zipball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/zipball/v0.4.3",
+      "body": "* Fixed logger [#67](https://github.com/MaartenGr/PolyFuzz/pull/67) by [raffaem](https://github.com/raffaem)\r\n* Remove older python versions [#83](https://github.com/MaartenGr/PolyFuzz/pull/83)\r\n* Add option to omit removing n-grams with space [#76](https://github.com/MaartenGr/PolyFuzz/pull/76) by [Laubeee](https://github.com/Laubeee)\r\n* Remove unused CountVect in quickstart.md [#82](https://github.com/MaartenGr/PolyFuzz/pull/82) by [maciejskorski](https://github.com/maciejskorski)"
+    },
+    {
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/119728241",
+      "assets_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/119728241/assets",
+      "upload_url": "https://uploads.github.com/repos/MaartenGr/PolyFuzz/releases/119728241/assets{?name,label}",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/releases/tag/v0.4.2",
+      "id": 119728241,
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOEsKu8s4HIuhx",
+      "tag_name": "v0.4.2",
+      "target_commitish": "master",
+      "name": "v0.4.2",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-09-03T07:50:52Z",
+      "updated_at": "2023-09-03T07:52:38Z",
+      "published_at": "2023-09-03T07:52:38Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/tarball/v0.4.2",
+      "zipball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/zipball/v0.4.2",
+      "body": "Removed restrictive pytorch dependencies for Flair",
+      "reactions": {
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/119728241/reactions",
+        "total_count": 1,
+        "+1": 1,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      }
+    },
+    {
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/119727799",
+      "assets_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/119727799/assets",
+      "upload_url": "https://uploads.github.com/repos/MaartenGr/PolyFuzz/releases/119727799/assets{?name,label}",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/releases/tag/v0.4.1",
+      "id": 119727799,
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOEsKu8s4HIua3",
+      "tag_name": "v0.4.1",
+      "target_commitish": "master",
+      "name": "v0.4.1",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2023-09-03T07:30:58Z",
+      "updated_at": "2023-09-03T07:32:27Z",
+      "published_at": "2023-09-03T07:32:27Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/tarball/v0.4.1",
+      "zipball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/zipball/v0.4.1",
+      "body": "* Fixed deprecated `np.float`\r\n* Fixed [#53](https://github.com/MaartenGr/PolyFuzz/issues/53)\r\n* Fixed typo in README ([#45](https://github.com/MaartenGr/PolyFuzz/pull/45)) by [dobraczka](https://github.com/dobraczka)\r\n* Fixed API documentation ([#38](https://github.com/MaartenGr/PolyFuzz/pull/38)) by [maxbachmann](https://github.com/maxbachmann)\r\n"
+    },
+    {
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/66285248",
+      "assets_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/66285248/assets",
+      "upload_url": "https://uploads.github.com/repos/MaartenGr/PolyFuzz/releases/66285248/assets{?name,label}",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/releases/tag/v0.4.0",
+      "id": 66285248,
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOEsKu8s4D827A",
+      "tag_name": "v0.4.0",
+      "target_commitish": "master",
+      "name": "v0.4.0",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2022-05-07T06:58:55Z",
+      "updated_at": "2022-05-07T07:12:43Z",
+      "published_at": "2022-05-07T07:12:43Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/tarball/v0.4.0",
+      "zipball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/zipball/v0.4.0",
+      "body": "* Added new models (SentenceTransformers, Gensim, USE, Spacy)\r\n* Added `.fit`, `.transform`, and `.fit_transform` methods\r\n* Added `.save` and `PolyFuzz.load()`\r\n\r\n## SentenceTransformers, Gensim, USE, and Spacy\r\n\r\n#### **SentenceTransformers**\r\n```python\r\nfrom polyfuzz.models import SentenceEmbeddings\r\ndistance_model = SentenceEmbeddings(\"all-MiniLM-L6-v2\")\r\nmodel = PolyFuzz(distance_model)\r\n```\r\n\r\n#### **Gensim**\r\n```python\r\nfrom polyfuzz.models import GensimEmbeddings\r\ndistance_model = GensimEmbeddings(\"glove-twitter-25\")\r\nmodel = PolyFuzz(distance_model)\r\n```\r\n\r\n#### **USE**\r\n```python\r\nfrom polyfuzz.models import USEEmbeddings\r\ndistance_model = USEEmbeddings(\"https://tfhub.dev/google/universal-sentence-encoder/4\")\r\nmodel = PolyFuzz(distance_model)\r\n```\r\n\r\n#### **Spacy**\r\n```python\r\nfrom polyfuzz.models import SpacyEmbeddings\r\ndistance_model = SpacyEmbeddings(\"en_core_web_md\")\r\nmodel = PolyFuzz(distance_model)\r\n```\r\n\r\n\r\n## fit, transform, fit_transform\r\nAdd `fit`, `transform`, and `fit_transform` in order to use PolyFuzz in production (#34)\r\n\r\n```python\r\nfrom sklearn.datasets import fetch_20newsgroups\r\nfrom sklearn.feature_extraction.text import CountVectorizer\r\nfrom polyfuzz import PolyFuzz\r\n\r\ntrain_words = [\"apple\", \"apples\", \"appl\", \"recal\", \"house\", \"similarity\"]\r\nunseen_words = [\"apple\", \"apples\", \"mouse\"]\r\n\r\n# Fit\r\nmodel = PolyFuzz(\"TF-IDF\")\r\nmodel.fit(train_words)\r\n\r\n# Transform\r\nresults = model.transform(unseen_words)\r\n```\r\n\r\nIn the code above, we fit our TF-IDF model on `train_words` and use `.transform()` to match the words in `unseen_words` to the words that we trained on in `train_words`. \r\n\r\nAfter fitting our model, we can save it as follows:\r\n\r\n```python\r\nmodel.save(\"my_model\")\r\n```\r\n\r\nThen, we can load our model to be used elsewhere:\r\n\r\n```python\r\nfrom polyfuzz import PolyFuzz\r\n\r\nmodel = PolyFuzz.load(\"my_model\")\r\n```",
+      "reactions": {
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/66285248/reactions",
+        "total_count": 3,
+        "+1": 2,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 1,
+        "rocket": 0,
+        "eyes": 0
+      }
+    },
+    {
+      "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/52774113",
+      "assets_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/52774113/assets",
+      "upload_url": "https://uploads.github.com/repos/MaartenGr/PolyFuzz/releases/52774113/assets{?name,label}",
+      "html_url": "https://github.com/MaartenGr/PolyFuzz/releases/tag/v0.3.4",
+      "id": 52774113,
+      "author": {
+        "login": "MaartenGr",
+        "id": 25746895,
+        "node_id": "MDQ6VXNlcjI1NzQ2ODk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/25746895?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/MaartenGr",
+        "html_url": "https://github.com/MaartenGr",
+        "followers_url": "https://api.github.com/users/MaartenGr/followers",
+        "following_url": "https://api.github.com/users/MaartenGr/following{/other_user}",
+        "gists_url": "https://api.github.com/users/MaartenGr/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/MaartenGr/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/MaartenGr/subscriptions",
+        "organizations_url": "https://api.github.com/users/MaartenGr/orgs",
+        "repos_url": "https://api.github.com/users/MaartenGr/repos",
+        "events_url": "https://api.github.com/users/MaartenGr/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/MaartenGr/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "node_id": "RE_kwDOEsKu8s4DJUTh",
+      "tag_name": "v0.3.4",
+      "target_commitish": "master",
+      "name": "v0.3.4",
+      "draft": false,
+      "immutable": false,
+      "prerelease": false,
+      "created_at": "2021-11-05T10:36:19Z",
+      "updated_at": "2021-11-05T10:41:51Z",
+      "published_at": "2021-11-05T10:41:51Z",
+      "assets": [],
+      "tarball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/tarball/v0.3.4",
+      "zipball_url": "https://api.github.com/repos/MaartenGr/PolyFuzz/zipball/v0.3.4",
+      "body": "- Make sure that when you use two lists that are exactly the same, it will return 1 for identical terms:\r\n\r\n```python\r\nfrom polyfuzz import PolyFuzz\r\nfrom_list = [\"apple\", \"house\"]\r\nmodel = PolyFuzz(\"TF-IDF\")\r\nmodel.match(from_list, from_list)\r\n```\r\n\r\nThis will match each word in `from_list` to itself and give it a score of 1. Thus, `apple` will be matched to `apple` and \r\n`house` will be mapped to `house`. However, if you input just a single list, it will try to map them within the list without \r\nmapping to itself:\r\n\r\n```python\r\nfrom polyfuzz import PolyFuzz\r\nfrom_list = [\"apple\", \"apples\"]\r\nmodel = PolyFuzz(\"TF-IDF\")\r\nmodel.match(from_list)\r\n```\r\n\r\nIn the example above, `apple` will be mapped to `apples` and not to `apple`. Here, we assume that the user wants to \r\nfind the most similar words within a list without mapping to itself. ",
+      "reactions": {
+        "url": "https://api.github.com/repos/MaartenGr/PolyFuzz/releases/52774113/reactions",
+        "total_count": 2,
+        "+1": 2,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      }
+    }
+  ],
+  "languages": {
+    "Python": 95738,
+    "Makefile": 497
+  },
+  "readme_html": "<p><a href=\"https://pepy.tech/projects/polyfuzz\"><img src=\"https://static.pepy.tech/badge/polyfuzz\" alt=\"PyPI Downloads\"></a>\n<a href=\"https://pypi.org/project/polyfuzz/\"><img src=\"https://img.shields.io/badge/python-3.9+-blue.svg\" alt=\"PyPI - Python\"></a>\n<a href=\"https://github.com/MaartenGr/polyfuzz/blob/master/LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-green.svg\" alt=\"PyPI - License\"></a>\n<a href=\"https://pypi.org/project/polyfuzz/\"><img src=\"https://img.shields.io/pypi/v/polyfuzz\" alt=\"PyPI - PyPi\"></a>\n<a href=\"https://github.com/MaartenGr/polyfuzz/actions\"><img src=\"https://img.shields.io/github/actions/workflow/status/MaartenGr/polyfuzz/testing.yml?branch=master\" alt=\"Build\"></a>\n<a href=\"https://maartengr.github.io/PolyFuzz/\"><img src=\"https://img.shields.io/badge/docs-Passing-green.svg\" alt=\"docs\"></a><br>\n<strong><code>PolyFuzz</code></strong> performs fuzzy string matching, string grouping, and contains extensive evaluation functions.\nPolyFuzz is meant to bring fuzzy string matching techniques together within a single framework.</p>\n<p>Currently, methods include a variety of edit distance measures, a character-based n-gram TF-IDF, word embedding\ntechniques such as FastText and GloVe, and 🤗 transformers embeddings.</p>\n<p>Corresponding medium post can be found <a href=\"https://towardsdatascience.com/string-matching-with-bert-tf-idf-and-more-274bb3a95136?source=friends_link&#x26;sk=0f765b76ceaba49363829c13dfdc9d98\">here</a>.</p>\n<p></p>\n<h2 id=\"user-content-installation\">Installation</h2>\n<p>You can install <strong><code>PolyFuzz</code></strong> via pip:</p>\n<pre><code class=\"language-bash\">pip install polyfuzz\n</code></pre>\n<p>You may want to install more depending on the transformers and language backends that you will be using. The possible installations are:</p>\n<pre><code class=\"language-python\">pip install polyfuzz[sbert]\npip install polyfuzz[flair]\npip install polyfuzz[gensim]\npip install polyfuzz[spacy]\npip install polyfuzz[use]\n</code></pre>\n<p>If you want to speed up the cosine similarity comparison and decrease memory usage when using embedding models,\nyou can use <code>sparse_dot_topn</code> which is installed via:</p>\n<pre><code class=\"language-bash\">pip install polyfuzz[fast]\n</code></pre>\n<p>You might run into installation issues with <code>sparse_dot_topn</code>. If so, one solution that has worked for many\nis by installing it via conda first before installing PolyFuzz:</p>\n<pre><code class=\"language-bash\">conda install -c conda-forge sparse_dot_topn\n</code></pre>\n<p>If that does not work, I would advise you to look through their\nissues](<a href=\"https://github.com/ing-bank/sparse_dot_topn/issues\">https://github.com/ing-bank/sparse_dot_topn/issues</a>) page or continue to use PolyFuzz without <code>sparse_dot_topn</code>.</p>\n<p></p>\n<h2 id=\"user-content-getting-started\">Getting Started</h2>\n<p>For an in-depth overview of the possibilities of <code>PolyFuzz</code>\nyou can check the full documentation <a href=\"https://maartengr.github.io/PolyFuzz/\">here</a> or you can follow along\nwith the notebook <a href=\"https://github.com/MaartenGr/PolyFuzz/blob/master/notebooks/Overview.ipynb\">here</a>.</p>\n<h3 id=\"user-content-quick-start\">Quick Start</h3>\n<p>The main goal of <code>PolyFuzz</code> is to allow the user to perform different methods for matching strings.\nWe start by defining two lists, one to map from and one to map to. We are going to be using <code>TF-IDF</code> to create\nn-grams on a character level in order to compare similarity between strings. Then, we calculate the similarity\nbetween strings by calculating the cosine similarity between vector representations.</p>\n<p>We only have to instantiate <code>PolyFuzz</code> with <code>TF-IDF</code> and match the lists:</p>\n<pre><code class=\"language-python\">from polyfuzz import PolyFuzz\n\nfrom_list = [\"apple\", \"apples\", \"appl\", \"recal\", \"house\", \"similarity\"]\nto_list = [\"apple\", \"apples\", \"mouse\"]\n\nmodel = PolyFuzz(\"TF-IDF\")\nmodel.match(from_list, to_list)\n</code></pre>\n<p>The resulting matches can be accessed through <code>model.get_matches()</code>:</p>\n<pre><code class=\"language-python\">>>> model.get_matches()\n         From      To    Similarity\n0       apple   apple    1.000000\n1      apples  apples    1.000000\n2        appl   apple    0.783751\n3       recal    None    0.000000\n4       house   mouse    0.587927\n5  similarity    None    0.000000\n\n</code></pre>\n<p><strong>NOTE 1</strong>: If you want to compare distances within a single list, you can simply pass that list as such: <code>model.match(from_list)</code></p>\n<p><strong>NOTE 2</strong>: When instantiating <code>PolyFuzz</code> we also could have used \"EditDistance\" or \"Embeddings\" to quickly\naccess Levenshtein and FastText (English) respectively.</p>\n<h3 id=\"user-content-production\">Production</h3>\n<p>The <code>.match</code> function allows you to quickly extract similar strings. However, after selecting the right models to be used, you may want to use PolyFuzz\nin production to match incoming strings. To do so, we can make use of the familiar <code>fit</code>, <code>transform</code>, and <code>fit_transform</code> functions.</p>\n<p>Let's say that we have a list of words that we know to be correct called <code>train_words</code>. We want to any incoming word to mapped to one of the words in <code>train_words</code>.\nIn other words, we <code>fit</code> on <code>train_words</code> and we use <code>transform</code> on any incoming words:</p>\n<pre><code class=\"language-python\">from sklearn.datasets import fetch_20newsgroups\nfrom sklearn.feature_extraction.text import CountVectorizer\nfrom polyfuzz import PolyFuzz\n\ntrain_words = [\"apple\", \"apples\", \"appl\", \"recal\", \"house\", \"similarity\"]\nunseen_words = [\"apple\", \"apples\", \"mouse\"]\n\n# Fit\nmodel = PolyFuzz(\"TF-IDF\")\nmodel.fit(train_words)\n\n# Transform\nresults = model.transform(unseen_words)\n</code></pre>\n<p>In the above example, we are using <code>fit</code> on <code>train_words</code> to calculate the TF-IDF representation of those words which are saved to be used again in <code>transform</code>.\nThis speeds up <code>transform</code> quite a bit since all TF-IDF representations are stored when applying <code>fit</code>.</p>\n<p>Then, we apply save and load the model as follows to be used in production:</p>\n<pre><code class=\"language-python\"># Save the model\nmodel.save(\"my_model\")\n\n# Load the model\nloaded_model = PolyFuzz.load(\"my_model\")\n</code></pre>\n<h3 id=\"user-content-group-matches\">Group Matches</h3>\n<p>We can group the matches <code>To</code> as there might be significant overlap in strings in our to_list.\nTo do this, we calculate the similarity within strings in to_list and use <code>single linkage</code> to then\ngroup the strings with a high similarity.</p>\n<p>When we extract the new matches, we can see an additional column <code>Group</code> in which all the <code>To</code> matches were grouped to:</p>\n<pre><code class=\"language-python\">>>> model.group(link_min_similarity=0.75)\n>>> model.get_matches()\n\t      From\tTo\t\tSimilarity\tGroup\n0\t     apple\tapple\t1.000000\tapples\n1\t    apples\tapples\t1.000000\tapples\n2\t      appl\tapple\t0.783751\tapples\n3\t     recal\tNone\t0.000000\tNone\n4\t     house\tmouse\t0.587927\tmouse\n5\tsimilarity\tNone\t0.000000\tNone\n</code></pre>\n<p>As can be seen above, we grouped apple and apples together to <code>apple</code> such that when a string is mapped to <code>apple</code> it\nwill fall in the cluster of <code>[apples, apple]</code> and will be mapped to the first instance in the cluster which is <code>apples</code>.</p>\n<h3 id=\"user-content-precision-recall-curve\">Precision-Recall Curve</h3>\n<p>Next, we would like to see how well our model is doing on our data. We express our results as\n<strong><code>precision</code></strong> and <strong><code>recall</code></strong> where precision is defined as the minimum similarity score before a match is correct and\nrecall the percentage of matches found at a certain minimum similarity score.</p>\n<p>Creating the visualizations is as simple as:</p>\n<pre><code>model.visualize_precision_recall()\n</code></pre>\n<h2 id=\"user-content-models\">Models</h2>\n<p>Currently, the following models are implemented in PolyFuzz:</p>\n<ul>\n<li>TF-IDF</li>\n<li>EditDistance (you can use any distance measure, see <a href=\"https://maartengr.github.io/PolyFuzz/tutorial/models/#EditDistance\">documentation</a>)</li>\n<li>FastText and GloVe</li>\n<li>🤗 Transformers</li>\n</ul>\n<p>With <code>Flair</code>, we can use all 🤗 Transformers <a href=\"https://huggingface.co/transformers/pretrained_models.html\">models</a>.\nWe simply have to instantiate any Flair WordEmbedding method and pass it through PolyFuzzy.</p>\n<p>All models listed above can be found in <code>polyfuzz.models</code> and can be used to create and compare different models:</p>\n<pre><code class=\"language-python\">from polyfuzz.models import EditDistance, TFIDF, Embeddings\nfrom flair.embeddings import TransformerWordEmbeddings\n\nembeddings = TransformerWordEmbeddings('bert-base-multilingual-cased')\nbert = Embeddings(embeddings, min_similarity=0, model_id=\"BERT\")\ntfidf = TFIDF(min_similarity=0)\nedit = EditDistance()\n\nstring_models = [bert, tfidf, edit]\nmodel = PolyFuzz(string_models)\nmodel.match(from_list, to_list)\n</code></pre>\n<p>To access the results, we again can call <code>get_matches</code> but since we have multiple models we get back a dictionary\nof dataframes back.</p>\n<p>In order to access the results of a specific model, call <code>get_matches</code> with the correct id:</p>\n<pre><code class=\"language-python\">>>> model.get_matches(\"BERT\")\n        From\t    To          Similarity\n0\tapple\t    apple\t1.000000\n1\tapples\t    apples\t1.000000\n2\tappl\t    apple\t0.928045\n3\trecal\t    apples\t0.825268\n4\thouse\t    mouse\t0.887524\n5\tsimilarity  mouse\t0.791548\n</code></pre>\n<p>Finally, visualize the results to compare the models:</p>\n<pre><code class=\"language-python\">model.visualize_precision_recall(kde=True)\n</code></pre>\n<h2 id=\"user-content-custom-grouper\">Custom Grouper</h2>\n<p>We can even use one of the <code>polyfuzz.models</code> to be used as the grouper in case you would like to use\nsomething else than the standard TF-IDF model:</p>\n<pre><code class=\"language-python\">model = PolyFuzz(\"TF-IDF\")\nmodel.match(from_list, to_list)\n\nedit_grouper = EditDistance(n_jobs=1)\nmodel.group(edit_grouper)\n</code></pre>\n<h2 id=\"user-content-custom-models\">Custom Models</h2>\n<p>Although the options above are a great solution for comparing different models, what if you have developed your own?\nIf you follow the structure of PolyFuzz's <code>BaseMatcher</code><br>\nyou can quickly implement any model you would like.</p>\n<p>Below, we are implementing the ratio similarity measure from RapidFuzz.</p>\n<pre><code class=\"language-python\">import numpy as np\nimport pandas as pd\nfrom rapidfuzz import fuzz\nfrom polyfuzz.models import BaseMatcher\n\n\nclass MyModel(BaseMatcher):\n    def match(self, from_list, to_list, **kwargs):\n        # Calculate distances\n        matches = [[fuzz.ratio(from_string, to_string) / 100 for to_string in to_list] \n                    for from_string in from_list]\n        \n        # Get best matches\n        mappings = [to_list[index] for index in np.argmax(matches, axis=1)]\n        scores = np.max(matches, axis=1)\n        \n        # Prepare dataframe\n        matches = pd.DataFrame({'From': from_list,'To': mappings, 'Similarity': scores})\n        return matches\n</code></pre>\n<p>Then, we can simply create an instance of MyModel and pass it through PolyFuzz:</p>\n<pre><code class=\"language-python\">custom_model = MyModel()\nmodel = PolyFuzz(custom_model)\n</code></pre>\n<h2 id=\"user-content-citation\">Citation</h2>\n<p>To cite PolyFuzz in your work, please use the following bibtex reference:</p>\n<pre><code class=\"language-bibtex\">@misc{grootendorst2020polyfuzz,\n  author       = {Maarten Grootendorst},\n  title        = {PolyFuzz: Fuzzy string matching, grouping, and evaluation.},\n  year         = 2020,\n  publisher    = {Zenodo},\n  version      = {v0.2.2},\n  doi          = {10.5281/zenodo.4461050},\n  url          = {https://doi.org/10.5281/zenodo.4461050}\n}\n</code></pre>\n<h2 id=\"user-content-references\">References</h2>\n<p>Below, you can find several resources that were used for or inspired by when developing PolyFuzz:</p>\n<p><strong>Edit distance algorithms</strong>:<br>\nThese algorithms focus primarily on edit distance measures and can be used in <code>polyfuzz.models.EditDistance</code>:</p>\n<ul>\n<li><a href=\"https://github.com/jamesturk/jellyfish\">https://github.com/jamesturk/jellyfish</a></li>\n<li><a href=\"https://github.com/ztane/python-Levenshtein\">https://github.com/ztane/python-Levenshtein</a></li>\n<li><a href=\"https://github.com/seatgeek/fuzzywuzzy\">https://github.com/seatgeek/fuzzywuzzy</a></li>\n<li><a href=\"https://github.com/maxbachmann/rapidfuzz\">https://github.com/maxbachmann/rapidfuzz</a></li>\n<li><a href=\"https://github.com/roy-ht/editdistance\">https://github.com/roy-ht/editdistance</a></li>\n</ul>\n<p><strong>Other interesting repos</strong>:</p>\n<ul>\n<li><a href=\"https://github.com/ing-bank/sparse_dot_topn\">https://github.com/ing-bank/sparse_dot_topn</a>\n<ul>\n<li>Used in PolyFuzz for fast cosine similarity between sparse matrices</li>\n</ul>\n</li>\n</ul>",
+  "_fetched_at": "2026-03-11T18:20:20.377Z"
+}

@@ -1,0 +1,2139 @@
+{
+  "id": 1152033589,
+  "node_id": "R_kgDORKqjNQ",
+  "name": "deterministic-agent-control-protocol",
+  "full_name": "elliot35/deterministic-agent-control-protocol",
+  "private": false,
+  "owner": {
+    "login": "elliot35",
+    "id": 41864818,
+    "node_id": "MDQ6VXNlcjQxODY0ODE4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/elliot35",
+    "html_url": "https://github.com/elliot35",
+    "followers_url": "https://api.github.com/users/elliot35/followers",
+    "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+    "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+    "organizations_url": "https://api.github.com/users/elliot35/orgs",
+    "repos_url": "https://api.github.com/users/elliot35/repos",
+    "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/elliot35/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol",
+  "description": "Governance gateway for AI agents — bounded, auditable, session-aware control with MCP proxy, shell proxy & HTTP API. Works with Cursor, Claude Code, Codex, and any MCP-compatible agent.",
+  "fork": false,
+  "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol",
+  "forks_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/forks",
+  "keys_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/teams",
+  "hooks_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/hooks",
+  "issue_events_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/events",
+  "assignees_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/tags",
+  "blobs_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/languages",
+  "stargazers_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/stargazers",
+  "contributors_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/contributors",
+  "subscribers_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/subscribers",
+  "subscription_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/subscription",
+  "commits_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/merges",
+  "archive_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/downloads",
+  "issues_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/labels{/name}",
+  "releases_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/deployments",
+  "created_at": "2026-02-07T08:59:13Z",
+  "updated_at": "2026-03-08T21:53:21Z",
+  "pushed_at": "2026-02-12T06:31:56Z",
+  "git_url": "git://github.com/elliot35/deterministic-agent-control-protocol.git",
+  "ssh_url": "git@github.com:elliot35/deterministic-agent-control-protocol.git",
+  "clone_url": "https://github.com/elliot35/deterministic-agent-control-protocol.git",
+  "svn_url": "https://github.com/elliot35/deterministic-agent-control-protocol",
+  "homepage": "https://www.npmjs.com/package/@det-acp/core",
+  "size": 56974,
+  "stargazers_count": 145,
+  "watchers_count": 145,
+  "language": "TypeScript",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 6,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "agent-control",
+    "agent-governance",
+    "ai-agent",
+    "ai-governance",
+    "ai-safety",
+    "ai-security",
+    "ai-tools",
+    "audit-log",
+    "claude-code",
+    "codex",
+    "cursor",
+    "deterministic",
+    "gateway",
+    "llm",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "nodejs",
+    "policy-engine",
+    "typescript"
+  ],
+  "visibility": "public",
+  "forks": 6,
+  "open_issues": 0,
+  "watchers": 145,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-safety",
+  "commits": [
+    {
+      "sha": "e9fa607387a7569b24a996931d6846d4bc2b9fcf",
+      "node_id": "C_kwDORKqjNdoAKGU5ZmE2MDczODdhNzU2OWIyNGE5OTY5MzFkNjg0NmQ0YmMyYjlmY2Y",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T06:31:53Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T06:31:53Z"
+        },
+        "message": "fix(evolution): add policy evolution instructions to init templates and shorten denial message\n\n- Add mandatory \"Policy Evolution\" section to all three governance\n  templates (Cursor, OpenClaw, Claude Code) so agents present\n  suggestion IDs to the user and call policy_evolution_approve with\n  the user's decision; explicitly require agents not to ignore\n  suggestion IDs.\n- Shorten McpEvolutionHandler denial message to a single actionable\n  line to reduce verbosity in tool responses.\n- Bump version to 0.4.2 and document in RELEASE_NOTES.md.",
+        "tree": {
+          "sha": "8a7fddc5cdf3331ed8fe3954b8cdc3d64ea68d96",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/8a7fddc5cdf3331ed8fe3954b8cdc3d64ea68d96"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/e9fa607387a7569b24a996931d6846d4bc2b9fcf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/e9fa607387a7569b24a996931d6846d4bc2b9fcf",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/e9fa607387a7569b24a996931d6846d4bc2b9fcf",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/e9fa607387a7569b24a996931d6846d4bc2b9fcf/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "70def39ce524b2c9b1beff6409227b12fe42d709",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/70def39ce524b2c9b1beff6409227b12fe42d709",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/70def39ce524b2c9b1beff6409227b12fe42d709"
+        }
+      ]
+    },
+    {
+      "sha": "70def39ce524b2c9b1beff6409227b12fe42d709",
+      "node_id": "C_kwDORKqjNdoAKDcwZGVmMzljZTUyNGIyYzliMWJlZmY2NDA5MjI3YjEyZmU0MmQ3MDk",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T06:18:22Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T06:18:22Z"
+        },
+        "message": "docs: update README",
+        "tree": {
+          "sha": "e760bdb840caf763e690422bfac6303abdcdb58f",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/e760bdb840caf763e690422bfac6303abdcdb58f"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/70def39ce524b2c9b1beff6409227b12fe42d709",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/70def39ce524b2c9b1beff6409227b12fe42d709",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/70def39ce524b2c9b1beff6409227b12fe42d709",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/70def39ce524b2c9b1beff6409227b12fe42d709/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa"
+        }
+      ]
+    },
+    {
+      "sha": "3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa",
+      "node_id": "C_kwDORKqjNdoAKDNhMmNlNTc2YjdlYzU4ZTRkZjE2ODBjYjVjNjZiYjI4NDVlYmRlYWE",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T06:12:31Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T06:12:31Z"
+        },
+        "message": "fix(proxy): use MCP-native evolution when --evolve is set (no stdin blocking)\n\nPolicy evolution with the MCP proxy was previously wired at the gateway using\ncreateCliEvolutionHandler(), which prompts on stderr and blocks stdin. That\nconflicts with the MCP stdio transport used by the proxy.\n\n- Move evolution handling into MCPProxyServer via McpEvolutionHandler.\n- On deny, return a structured response with a suggestion ID so the agent can\n  present it in chat.\n- Expose policy_evolution_approve tool so the agent can relay the user's\n  decision and apply the change without terminal I/O.\n- CLI: set proxyConfig.enableEvolution = true instead of gateway-level\n  policyEvolution with CLI handler.\n- Export McpEvolutionHandler from the package for custom integrations.\n\nFixes evolution when running det-acp proxy --evolve with MCP over stdio.",
+        "tree": {
+          "sha": "2f887a620eea82fccfd8c3118720036791bd5ece",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/2f887a620eea82fccfd8c3118720036791bd5ece"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/3a2ce576b7ec58e4df1680cb5c66bb2845ebdeaa/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "165acd0a53eeb601e2e13fed0cea365310292548",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/165acd0a53eeb601e2e13fed0cea365310292548",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/165acd0a53eeb601e2e13fed0cea365310292548"
+        }
+      ]
+    },
+    {
+      "sha": "165acd0a53eeb601e2e13fed0cea365310292548",
+      "node_id": "C_kwDORKqjNdoAKDE2NWFjZDBhNTNlZWI2MDFlMmUxM2ZlZDBjZWEzNjUzMTAyOTI1NDg",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T05:39:00Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T05:39:00Z"
+        },
+        "message": "docs: update title in README",
+        "tree": {
+          "sha": "1b4be2b13c5edcdd2671fded9cfe70641732ea7e",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/1b4be2b13c5edcdd2671fded9cfe70641732ea7e"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/165acd0a53eeb601e2e13fed0cea365310292548",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/165acd0a53eeb601e2e13fed0cea365310292548",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/165acd0a53eeb601e2e13fed0cea365310292548",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/165acd0a53eeb601e2e13fed0cea365310292548/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2daf47c06e79f6ae68fe7fcc61fb95ac616127b5",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/2daf47c06e79f6ae68fe7fcc61fb95ac616127b5",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/2daf47c06e79f6ae68fe7fcc61fb95ac616127b5"
+        }
+      ]
+    },
+    {
+      "sha": "2daf47c06e79f6ae68fe7fcc61fb95ac616127b5",
+      "node_id": "C_kwDORKqjNdoAKDJkYWY0N2MwNmU3OWY2YWU2OGZlN2ZjYzYxZmI5NWFjNjE2MTI3YjU",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T05:37:23Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-12T05:37:23Z"
+        },
+        "message": "feat: add policy self-evolution system\n\nWhen an action is denied by the policy, the self-evolution system\nanalyses the denial reasons, suggests a minimal policy change (add\ncapability, widen scope, or remove forbidden pattern), and prompts\nthe user for a decision with a configurable timeout (default 30s).\n\nThree choices on denial:\n  - Add to policy: apply change in memory + persist to YAML on disk\n  - Allow once: apply change in memory only (current session)\n  - Deny / timeout: keep the original block, no changes\n\nBudget and session-limit denials are not suggestible and skip the\nprompt entirely.\n\nNew modules:\n  - src/evolution/types.ts — DenialCategory, PolicySuggestion,\n    EvolutionDecision, EvolutionHandler, PolicyEvolutionConfig\n  - src/evolution/suggestion.ts — pattern-matches evaluator denial\n    reason strings to produce PolicySuggestion objects\n  - src/evolution/writer.ts — applyPolicyChange (deep-clone + mutate)\n    and writePolicyToFile (yaml.dump + validate)\n  - src/evolution/policy-evolution.ts — PolicyEvolutionManager with\n    handleDenial, Promise.race timeout, orchestrates the full cycle\n  - src/evolution/cli-handler.ts — readline prompt on stderr for\n    terminal use (does not interfere with MCP stdio transport)\n\nModified:\n  - SessionManagerConfig gains onDenial callback; evaluate() intercepts\n    deny verdicts, calls onDenial, re-evaluates on 'retry'\n  - GatewayConfig gains policyEvolution option; constructor wires it\n    as the onDenial callback via PolicyEvolutionManager\n  - MCPProxyConfig gains enableEvolution / evolutionTimeoutMs fields\n  - CLI proxy command gains --evolve flag\n  - init templates (cursor, codex, claude-code) include --evolve in\n    generated MCP config args by default\n  - Public API exports all evolution modules and types",
+        "tree": {
+          "sha": "1697987179e8560494c90f73d4e74a75ff5805db",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/1697987179e8560494c90f73d4e74a75ff5805db"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/2daf47c06e79f6ae68fe7fcc61fb95ac616127b5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/2daf47c06e79f6ae68fe7fcc61fb95ac616127b5",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/2daf47c06e79f6ae68fe7fcc61fb95ac616127b5",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/2daf47c06e79f6ae68fe7fcc61fb95ac616127b5/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "636b5046a8fea0981c0a6a4214e4b30c766f7ce4",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/636b5046a8fea0981c0a6a4214e4b30c766f7ce4",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/636b5046a8fea0981c0a6a4214e4b30c766f7ce4"
+        }
+      ]
+    },
+    {
+      "sha": "636b5046a8fea0981c0a6a4214e4b30c766f7ce4",
+      "node_id": "C_kwDORKqjNdoAKDYzNmI1MDQ2YThmZWEwOTgxYzBhNmE0MjE0ZTRiMzBjNzY2ZjdjZTQ",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-08T03:03:16Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-08T03:03:16Z"
+        },
+        "message": "docs: add Star History chart to README",
+        "tree": {
+          "sha": "2f1d6869af7eb47aa9dd42422a83d69f3e5c144c",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/2f1d6869af7eb47aa9dd42422a83d69f3e5c144c"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/636b5046a8fea0981c0a6a4214e4b30c766f7ce4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/636b5046a8fea0981c0a6a4214e4b30c766f7ce4",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/636b5046a8fea0981c0a6a4214e4b30c766f7ce4",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/636b5046a8fea0981c0a6a4214e4b30c766f7ce4/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "37483ed654bca07be33ba6ce02948a9982647f38",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/37483ed654bca07be33ba6ce02948a9982647f38",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/37483ed654bca07be33ba6ce02948a9982647f38"
+        }
+      ]
+    },
+    {
+      "sha": "37483ed654bca07be33ba6ce02948a9982647f38",
+      "node_id": "C_kwDORKqjNdoAKDM3NDgzZWQ2NTRiY2EwN2JlMzNiYTZjZTAyOTQ4YTk5ODI2NDdmMzg",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-08T01:57:16Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-08T01:57:16Z"
+        },
+        "message": "docs: add governance demo GIFs to README\n\nAdd three animated GIFs showcasing governance in action:\n- mcp-config.gif — setting up governance rules in Cursor\n- block-access-env.gif — blocking .env secrets exfiltration\n- partial-block.gif — blocking credential scanning attempts\n\nDisplay them in a responsive HTML table below the tagline.",
+        "tree": {
+          "sha": "d58163deb1edaf0ebb9cba9895f875652bf61e12",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/d58163deb1edaf0ebb9cba9895f875652bf61e12"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/37483ed654bca07be33ba6ce02948a9982647f38",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/37483ed654bca07be33ba6ce02948a9982647f38",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/37483ed654bca07be33ba6ce02948a9982647f38",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/37483ed654bca07be33ba6ce02948a9982647f38/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "28373714dde3461af3d93bf5d34fad45457de673",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/28373714dde3461af3d93bf5d34fad45457de673",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/28373714dde3461af3d93bf5d34fad45457de673"
+        }
+      ]
+    },
+    {
+      "sha": "28373714dde3461af3d93bf5d34fad45457de673",
+      "node_id": "C_kwDORKqjNdoAKDI4MzczNzE0ZGRlMzQ2MWFmM2Q5M2JmNWQzNGZhZDQ1NDU3ZGU2NzM",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-08T01:05:18Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-08T01:05:18Z"
+        },
+        "message": "chore: add CODEOWNERS and gitignore repo admin scripts\n\nAdd .github/CODEOWNERS requiring approval for all changes.",
+        "tree": {
+          "sha": "2659e9cbffcfe7c9079d0b9722a27917dd207659",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/2659e9cbffcfe7c9079d0b9722a27917dd207659"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/28373714dde3461af3d93bf5d34fad45457de673",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/28373714dde3461af3d93bf5d34fad45457de673",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/28373714dde3461af3d93bf5d34fad45457de673",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/28373714dde3461af3d93bf5d34fad45457de673/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "201d083ea0e8e24cf6e9b420ba61ec92013713d6",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/201d083ea0e8e24cf6e9b420ba61ec92013713d6",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/201d083ea0e8e24cf6e9b420ba61ec92013713d6"
+        }
+      ]
+    },
+    {
+      "sha": "201d083ea0e8e24cf6e9b420ba61ec92013713d6",
+      "node_id": "C_kwDORKqjNdoAKDIwMWQwODNlYTBlOGUyNGNmNmU5YjQyMGJhNjFlYzkyMDEzNzEzZDY",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:32:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-02-07T17:32:58Z"
+        },
+        "message": "docs: update intro video",
+        "tree": {
+          "sha": "20814e7c2f7aa3a3cd8b97164dec7fc9f34f9d1f",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/20814e7c2f7aa3a3cd8b97164dec7fc9f34f9d1f"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/201d083ea0e8e24cf6e9b420ba61ec92013713d6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJph3dKCRC1aQ7uu5UhlAAAw94QAFrMpczSG3CFMDS3igONxJbA\nggCiXyjU556APHaSD6/G1ppWVFaoKdhfRiLCBe8Kn6mOuYNZfwPZKnPKmPM40UMl\nFiLVKERaE+vJFfmwBUk9WRhvZ5cOlV2sRSZgL7vsjBMciq1hmgRvN+95OHSKhTI4\ncKfqXAeOb+/WZasjiHgO6wp61gkom8c9WuU1P8iFutkLBEVYNSuTjaXHkj5hqHAf\nzznI2RmOY1Y8sXM78BD/q2S6RaNYfCs/Efmyu4LhiQAttJmN9mX1t6XAtvG9pEEL\nEj1G9dlDPT5CzBfMucvvIPxuqYzNPdFkxvUe5l5JUpStrNPn3dZ12XhW1QGWhZIN\nMxA4lcKeg5rm2idoikeQTIHB3ru3ehRnYCgr55+a5fJfBqDk7QWDydWB/IcAATNH\n5ay7ljM4OgNV2/oJZcSjqrQJiD28CQPEwpWhdkC5mUpLwCb8y8BWYno7eNS26hzx\n9MmlALw7EnrWKoDZ85JFVmPFACcHcL0tGR20mEJhR5Vk7jACfsHkDdHUv0Jv/U5B\nsZYbximVnku7qiKnB3ZSqbZKC7+z7jon49sQcm/7c1yN0Gna3MCzITevbhhrOxDS\nRf7/pd2igIkShhixMl32lbV/bCpclvJQa9ldRXix8ZRhybjUOrMXb0VUzu16Sulk\nIJi8bHEF6f4b2xuALstI\n=IfGq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 20814e7c2f7aa3a3cd8b97164dec7fc9f34f9d1f\nparent 593dca6e0439dfb23a7fec1346e45a3518d4c05a\nauthor Elliot He <41864818+elliot35@users.noreply.github.com> 1770485578 +1100\ncommitter GitHub <noreply@github.com> 1770485578 +1100\n\ndocs: update intro video",
+          "verified_at": "2026-02-07T17:32:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/201d083ea0e8e24cf6e9b420ba61ec92013713d6",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/201d083ea0e8e24cf6e9b420ba61ec92013713d6",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/201d083ea0e8e24cf6e9b420ba61ec92013713d6/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "593dca6e0439dfb23a7fec1346e45a3518d4c05a",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/593dca6e0439dfb23a7fec1346e45a3518d4c05a",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/593dca6e0439dfb23a7fec1346e45a3518d4c05a"
+        }
+      ]
+    },
+    {
+      "sha": "593dca6e0439dfb23a7fec1346e45a3518d4c05a",
+      "node_id": "C_kwDORKqjNdoAKDU5M2RjYTZlMDQzOWRmYjIzYTdmZWMxMzQ2ZTQ1YTM1MThkNGMwNWE",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:27:24Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:27:24Z"
+        },
+        "message": "Merge branch 'main' of https://github.com/elliot35/deterministic-agent-control-protocol",
+        "tree": {
+          "sha": "41cca1a0b8f616411f65694cbd5c87383e766233",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/41cca1a0b8f616411f65694cbd5c87383e766233"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/593dca6e0439dfb23a7fec1346e45a3518d4c05a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/593dca6e0439dfb23a7fec1346e45a3518d4c05a",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/593dca6e0439dfb23a7fec1346e45a3518d4c05a",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/593dca6e0439dfb23a7fec1346e45a3518d4c05a/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "db60aa958a2e857ecc52f297ab29b92ee7421285",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/db60aa958a2e857ecc52f297ab29b92ee7421285",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/db60aa958a2e857ecc52f297ab29b92ee7421285"
+        },
+        {
+          "sha": "8f5eafa614a37bc55dc384c145bee9ce5e05240e",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/8f5eafa614a37bc55dc384c145bee9ce5e05240e",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/8f5eafa614a37bc55dc384c145bee9ce5e05240e"
+        }
+      ]
+    },
+    {
+      "sha": "db60aa958a2e857ecc52f297ab29b92ee7421285",
+      "node_id": "C_kwDORKqjNdoAKGRiNjBhYTk1OGEyZTg1N2VjYzUyZjI5N2FiMjliOTJlZTc0MjEyODU",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:27:11Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:27:11Z"
+        },
+        "message": "docs: remove video",
+        "tree": {
+          "sha": "ec0fbede47e6e8ef41b5ca6d6bd3cef533f9dd88",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/ec0fbede47e6e8ef41b5ca6d6bd3cef533f9dd88"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/db60aa958a2e857ecc52f297ab29b92ee7421285",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/db60aa958a2e857ecc52f297ab29b92ee7421285",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/db60aa958a2e857ecc52f297ab29b92ee7421285",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/db60aa958a2e857ecc52f297ab29b92ee7421285/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/344a0a846a9527f12f1aaa7a327fe4eac3d1084a"
+        }
+      ]
+    },
+    {
+      "sha": "8f5eafa614a37bc55dc384c145bee9ce5e05240e",
+      "node_id": "C_kwDORKqjNdoAKDhmNWVhZmE2MTRhMzdiYzU1ZGMzODRjMTQ1YmVlOWNlNWUwNTI0MGU",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:26:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-02-07T17:26:10Z"
+        },
+        "message": "docs: upload intro video",
+        "tree": {
+          "sha": "bdb534426b15e7eb81d482fa2a423814caa4d7f8",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/bdb534426b15e7eb81d482fa2a423814caa4d7f8"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/8f5eafa614a37bc55dc384c145bee9ce5e05240e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJph3WzCRC1aQ7uu5UhlAAAWRgQABSprSKrur4r8D/VWEs9WqBw\nZO5585QY6qkrRQLUWLdq/luNM2r2igc11aGlDzHmrkeuOkK+ks1GDqUy/4yq8lkQ\nz9JOvB0Q34fdCXJojcWBCUxR3hESJc5DzqD350oYnrp1Xgu+fWiSKgL4529TmYbH\nSDtXt762gnOSLfrdVZOkExIccfeuk+5mrQpLDa7Ud0JAPnyvqNpAxhAg2EjQ4/W5\nDue02gwDT3TgrHYTTtxoTDY8mEpVG2OOfw3pN/nvSsxW6Lx0GwVMwidRTDURYlOK\nPzzWfNGREv2nKGZJzh2ZSWqvnjNi9QefST3XHpU7xTUtlfhVCROdHKHGWnznYEzs\nH7uRcKh+oKVFmQZWtd30I5e1NJcQFgJtu+Cen6nRG8a3aBx78Ph6727+EEUAakn6\n6mj+XMrT0BIhGLwmUIf+lApnleA+HLqhDiG/BfcF/JzMqvep28vfLW1YO00Rh4W5\n6ZMANGDWa33f7xuW9K/y7QQWxFDexf55lN2rPZ2LGPI1P/17NeAaWAMM4vHFNvTL\nGMlJlPlls/x0TZRCX3JN4di61rfIG+wX4Zboeh7PBadyVKdL9/zX3twkD4XBmoBs\nZjFvrfUz/lrJ08db4wEArFbnYyEN8yu+8l+KtaWKJ6f9HktrqbZs7NznNNJPTS0r\nPVVjHS/yfOucXUA8vkAB\n=oKEi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bdb534426b15e7eb81d482fa2a423814caa4d7f8\nparent 344a0a846a9527f12f1aaa7a327fe4eac3d1084a\nauthor Elliot He <41864818+elliot35@users.noreply.github.com> 1770485170 +1100\ncommitter GitHub <noreply@github.com> 1770485170 +1100\n\ndocs: upload intro video",
+          "verified_at": "2026-02-07T17:26:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/8f5eafa614a37bc55dc384c145bee9ce5e05240e",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/8f5eafa614a37bc55dc384c145bee9ce5e05240e",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/8f5eafa614a37bc55dc384c145bee9ce5e05240e/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/344a0a846a9527f12f1aaa7a327fe4eac3d1084a"
+        }
+      ]
+    },
+    {
+      "sha": "344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+      "node_id": "C_kwDORKqjNdoAKDM0NGEwYTg0NmE5NTI3ZjEyZjFhYWE3YTMyN2ZlNGVhYzNkMTA4NGE",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:17:17Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T17:17:17Z"
+        },
+        "message": "docs: replace intro video with compressed version\n\nSwap det-acp-intro.mp4 for smaller det-acp-intro-s.mp4 and update\nthe README reference.",
+        "tree": {
+          "sha": "4e51c00fa018b401f6da1215381a9c6e51bc7339",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/4e51c00fa018b401f6da1215381a9c6e51bc7339"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/344a0a846a9527f12f1aaa7a327fe4eac3d1084a",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/344a0a846a9527f12f1aaa7a327fe4eac3d1084a/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7c6ffc33896b0fef5085d819774a8eb3347757e6",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/7c6ffc33896b0fef5085d819774a8eb3347757e6",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/7c6ffc33896b0fef5085d819774a8eb3347757e6"
+        }
+      ]
+    },
+    {
+      "sha": "7c6ffc33896b0fef5085d819774a8eb3347757e6",
+      "node_id": "C_kwDORKqjNdoAKDdjNmZmYzMzODk2YjBmZWY1MDg1ZDgxOTc3NGE4ZWIzMzQ3NzU3ZTY",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T16:49:22Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T16:49:22Z"
+        },
+        "message": "docs: add intro demo video to README\n\nAdd det-acp-intro.mp4 demo video asset and embed it below the tagline\nin README.md.",
+        "tree": {
+          "sha": "01fc2e5ea8a42ae4287b8998ef17b5b1fe4fc5af",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/01fc2e5ea8a42ae4287b8998ef17b5b1fe4fc5af"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/7c6ffc33896b0fef5085d819774a8eb3347757e6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/7c6ffc33896b0fef5085d819774a8eb3347757e6",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/7c6ffc33896b0fef5085d819774a8eb3347757e6",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/7c6ffc33896b0fef5085d819774a8eb3347757e6/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "216b2b40f35bc7d382e1e9b41d09df96f44d54bd",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/216b2b40f35bc7d382e1e9b41d09df96f44d54bd",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/216b2b40f35bc7d382e1e9b41d09df96f44d54bd"
+        }
+      ]
+    },
+    {
+      "sha": "216b2b40f35bc7d382e1e9b41d09df96f44d54bd",
+      "node_id": "C_kwDORKqjNdoAKDIxNmIyYjQwZjM1YmM3ZDM4MmUxZTliNDFkMDlkZjk2ZjQ0ZDU0YmQ",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:54:59Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:54:59Z"
+        },
+        "message": "docs: update logo",
+        "tree": {
+          "sha": "c0f3715a7aaa632fcfe5e7720c1c0e76d84d480c",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/c0f3715a7aaa632fcfe5e7720c1c0e76d84d480c"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/216b2b40f35bc7d382e1e9b41d09df96f44d54bd",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/216b2b40f35bc7d382e1e9b41d09df96f44d54bd",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/216b2b40f35bc7d382e1e9b41d09df96f44d54bd",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/216b2b40f35bc7d382e1e9b41d09df96f44d54bd/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19228e6c3d24d6c7d70e3fdbf729e310142620f3",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/19228e6c3d24d6c7d70e3fdbf729e310142620f3",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/19228e6c3d24d6c7d70e3fdbf729e310142620f3"
+        }
+      ]
+    },
+    {
+      "sha": "19228e6c3d24d6c7d70e3fdbf729e310142620f3",
+      "node_id": "C_kwDORKqjNdoAKDE5MjI4ZTZjM2QyNGQ2YzdkNzBlM2ZkYmY3MjllMzEwMTQyNjIwZjM",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:52:42Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:52:42Z"
+        },
+        "message": "docs: add project logo to README header\n\nAdd logo asset (assets/logo.png) and display it centered above the\nproject title in README.md.",
+        "tree": {
+          "sha": "6e49f01f46ebc92062def7b3ace3016daddf5538",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/6e49f01f46ebc92062def7b3ace3016daddf5538"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/19228e6c3d24d6c7d70e3fdbf729e310142620f3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/19228e6c3d24d6c7d70e3fdbf729e310142620f3",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/19228e6c3d24d6c7d70e3fdbf729e310142620f3",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/19228e6c3d24d6c7d70e3fdbf729e310142620f3/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c2e4b5d403b5dbd354738b8c4b735af23a0a4f20",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/c2e4b5d403b5dbd354738b8c4b735af23a0a4f20",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/c2e4b5d403b5dbd354738b8c4b735af23a0a4f20"
+        }
+      ]
+    },
+    {
+      "sha": "c2e4b5d403b5dbd354738b8c4b735af23a0a4f20",
+      "node_id": "C_kwDORKqjNdoAKGMyZTRiNWQ0MDNiNWRiZDM1NDczOGI4YzRiNzM1YWYyM2EwYTRmMjA",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:37:47Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:37:47Z"
+        },
+        "message": "ci: make version bump validation non-blocking when version unchanged\n\nWhen no version bump is present in package.json, skip validation\ngracefully with an informational note instead of failing the pipeline.\nOnly enforce bump-level checks when a version change is detected.\nSimplifies the final pass condition to remove redundant guard.",
+        "tree": {
+          "sha": "cb6e08dc3200ebbdb5e079eb138b6ee4e2d2652e",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/cb6e08dc3200ebbdb5e079eb138b6ee4e2d2652e"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/c2e4b5d403b5dbd354738b8c4b735af23a0a4f20",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/c2e4b5d403b5dbd354738b8c4b735af23a0a4f20",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/c2e4b5d403b5dbd354738b8c4b735af23a0a4f20",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/c2e4b5d403b5dbd354738b8c4b735af23a0a4f20/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97"
+        }
+      ]
+    },
+    {
+      "sha": "7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97",
+      "node_id": "C_kwDORKqjNdoAKDdlZWI5YWE0YjU1OGYwNzA2YjYzZGU5ZmJlM2ZmOGQxYjdmYTFjOTc",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:32:54Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:32:54Z"
+        },
+        "message": "ci: add CI/CD pipeline with lint, test, version validation, and npm publish\n\nAdd GitHub Actions workflow (.github/workflows/ci-publish.yml) with\nthree jobs:\n- CI: lint, test, and build on Node 20 and 22\n- Validate Commits: enforce Conventional Commits on PRs\n- Publish: detect version bumps, validate bump level against commit\n  types (semver rules), and auto-publish to npm on push to main",
+        "tree": {
+          "sha": "14f7c19f0c7676d59d669109bd267d3100b0028e",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/14f7c19f0c7676d59d669109bd267d3100b0028e"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/7eeb9aa4b558f0706b63de9fbe3ff8d1b7fa1c97/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f4c028e0966009c1ebf6753d6c190f14b2453bd9",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/f4c028e0966009c1ebf6753d6c190f14b2453bd9",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/f4c028e0966009c1ebf6753d6c190f14b2453bd9"
+        }
+      ]
+    },
+    {
+      "sha": "f4c028e0966009c1ebf6753d6c190f14b2453bd9",
+      "node_id": "C_kwDORKqjNdoAKGY0YzAyOGUwOTY2MDA5YzFlYmY2NzUzZDZjMTkwZjE0YjI0NTNiZDk",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:22:08Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:22:08Z"
+        },
+        "message": "fix(engine): handle Windows paths in loadPolicy colon heuristic (v0.3.1)\n\nWindows absolute paths (e.g. C:\\Users\\...\\policy.yaml) were parsed as\ninline YAML because the heuristic treated any colon as a YAML indicator.\nReplace the naive colon check with a robust isFilePath detector that\ncorrectly handles Windows drive letters, Unix absolute paths, relative\npaths, and YAML extensions. Add unit tests for Windows path variants\nand inline YAML regression.",
+        "tree": {
+          "sha": "bdc0dd22f33de6dab654198edc2755c84c395940",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/bdc0dd22f33de6dab654198edc2755c84c395940"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/f4c028e0966009c1ebf6753d6c190f14b2453bd9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/f4c028e0966009c1ebf6753d6c190f14b2453bd9",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/f4c028e0966009c1ebf6753d6c190f14b2453bd9",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/f4c028e0966009c1ebf6753d6c190f14b2453bd9/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "15b30bd993035995ea577e63bc2dd84ced7098d0",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/15b30bd993035995ea577e63bc2dd84ced7098d0",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/15b30bd993035995ea577e63bc2dd84ced7098d0"
+        }
+      ]
+    },
+    {
+      "sha": "15b30bd993035995ea577e63bc2dd84ced7098d0",
+      "node_id": "C_kwDORKqjNdoAKDE1YjMwYmQ5OTMwMzU5OTVlYTU3N2U2M2JjMmRkODRjZWQ3MDk4ZDA",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:15:59Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T13:15:59Z"
+        },
+        "message": "feat(tools): add 10 built-in tool adapters and 3 example policies (v0.3.0)\n\nNew tool adapters expanding governance surface from 6 to 16 tools:\n- File operations: file:delete, file:move, file:copy\n- Directory operations: directory:list, directory:create\n- Git operations: git:commit, git:status\n- System: env:read, network:dns, archive:extract\n\nNew example policies:\n- data-analyst.policy.yaml — data analysis agents\n- security-audit.policy.yaml — security scanning agents\n- infrastructure-manager.policy.yaml — IaC management agents\n\nAll adapters include rollback support, scoped validation, and unit tests.\nUpdated existing policies (coding-agent, devops-deploy, video-upscaler)\nto leverage new tools. Expanded README with categorized tool adapter\ntables, updated architecture diagram with tool subgroups, and improved\ncustom adapter example. Bump version to 0.3.0.",
+        "tree": {
+          "sha": "3c921d9ac3334abdc8af3b14c9b2e3f6909a9d2e",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/3c921d9ac3334abdc8af3b14c9b2e3f6909a9d2e"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/15b30bd993035995ea577e63bc2dd84ced7098d0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/15b30bd993035995ea577e63bc2dd84ced7098d0",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/15b30bd993035995ea577e63bc2dd84ced7098d0",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/15b30bd993035995ea577e63bc2dd84ced7098d0/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5a4f4f82fe76fbe03138bfc62ed191a127d62bf3",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/5a4f4f82fe76fbe03138bfc62ed191a127d62bf3",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/5a4f4f82fe76fbe03138bfc62ed191a127d62bf3"
+        }
+      ]
+    },
+    {
+      "sha": "5a4f4f82fe76fbe03138bfc62ed191a127d62bf3",
+      "node_id": "C_kwDORKqjNdoAKDVhNGY0ZjgyZmU3NmZiZTAzMTM4YmZjNjJlZDE5MWExMjdkNjJiZjM",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T12:43:50Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T12:43:50Z"
+        },
+        "message": "docs: update package references to @det-acp/core\n\nAlign all documentation and source references with the scoped package\nname: npm badge URL, install command, and import examples in README,\ndev-standards skill badge template, and src/index.ts JSDoc example.",
+        "tree": {
+          "sha": "c13fc197055b637dd0ba4f046dd5faff84dab95d",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/c13fc197055b637dd0ba4f046dd5faff84dab95d"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/5a4f4f82fe76fbe03138bfc62ed191a127d62bf3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/5a4f4f82fe76fbe03138bfc62ed191a127d62bf3",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/5a4f4f82fe76fbe03138bfc62ed191a127d62bf3",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/5a4f4f82fe76fbe03138bfc62ed191a127d62bf3/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "62bf3839d2a5f05f5220f0fd3516cf07713cac36",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/62bf3839d2a5f05f5220f0fd3516cf07713cac36",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/62bf3839d2a5f05f5220f0fd3516cf07713cac36"
+        }
+      ]
+    },
+    {
+      "sha": "62bf3839d2a5f05f5220f0fd3516cf07713cac36",
+      "node_id": "C_kwDORKqjNdoAKDYyYmYzODM5ZDJhNWYwNWY1MjIwZjBmZDM1MTZjZjA3NzEzY2FjMzY",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T12:38:39Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T12:38:39Z"
+        },
+        "message": "docs: overhaul README for open-source readiness (v0.2.1)\n\n- Add shield badges, Table of Contents, and Contributing section\n- Replace all ASCII diagrams with Mermaid (flowchart, component\n  architecture, sequence diagram, session lifecycle state diagram)\n- Add Built-in Policies section with table linking to examples/\n- Promote Policy DSL, Tool Adapters to top-level sections\n- Restructure integration modes into collapsible <details> sections\n- Streamline Quick Start and setup instructions\n- Update repository URLs to elliot35/deterministic-agent-control-protocol\n- Bump version to 0.2.1",
+        "tree": {
+          "sha": "2b3a17d5a51ae94c934b319ab796081ce0ed2df5",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/2b3a17d5a51ae94c934b319ab796081ce0ed2df5"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/62bf3839d2a5f05f5220f0fd3516cf07713cac36",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/62bf3839d2a5f05f5220f0fd3516cf07713cac36",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/62bf3839d2a5f05f5220f0fd3516cf07713cac36",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/62bf3839d2a5f05f5220f0fd3516cf07713cac36/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f0d7112b69fb0cde0fe80fe1815170546979f32b",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/f0d7112b69fb0cde0fe80fe1815170546979f32b",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/f0d7112b69fb0cde0fe80fe1815170546979f32b"
+        }
+      ]
+    },
+    {
+      "sha": "f0d7112b69fb0cde0fe80fe1815170546979f32b",
+      "node_id": "C_kwDORKqjNdoAKGYwZDcxMTJiNjlmYjBjZGUwZmU4MGZlMTgxNTE3MDU0Njk3OWYzMmI",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T12:24:50Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T12:24:50Z"
+        },
+        "message": "chore: update project metadata, add dev standards and release notes\n\n- Rename package to @det-acp/core in package-lock.json\n- Add development standards skill (.cursor/skills/dev-standards/)\n  with workflow checklists, coding standards, and policy library reference\n- Add RELEASE_NOTES.md tracking project changelog\n- Remove integration agent instruction files (CLAUDE.md, AGENTS.md)\n  now superseded by the MCP-based governance approach",
+        "tree": {
+          "sha": "4d51e62db56ca781826d832b0844b60830e99d45",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/4d51e62db56ca781826d832b0844b60830e99d45"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/f0d7112b69fb0cde0fe80fe1815170546979f32b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/f0d7112b69fb0cde0fe80fe1815170546979f32b",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/f0d7112b69fb0cde0fe80fe1815170546979f32b",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/f0d7112b69fb0cde0fe80fe1815170546979f32b/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4452a23da2f51471715b4c25d694f82d31fa2e2",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/d4452a23da2f51471715b4c25d694f82d31fa2e2",
+          "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/d4452a23da2f51471715b4c25d694f82d31fa2e2"
+        }
+      ]
+    },
+    {
+      "sha": "d4452a23da2f51471715b4c25d694f82d31fa2e2",
+      "node_id": "C_kwDORKqjNdoAKGQ0NDUyYTIzZGEyZjUxNDcxNzE1YjRjMjVkNjk0ZjgyZDMxZmEyZTI",
+      "commit": {
+        "author": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T08:59:05Z"
+        },
+        "committer": {
+          "name": "Elliot He",
+          "email": "41864818+elliot35@users.noreply.github.com",
+          "date": "2026-02-07T08:59:05Z"
+        },
+        "message": "feat: initial commit",
+        "tree": {
+          "sha": "e5497d5df05b2f690e87ef44007420348cd283a8",
+          "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/trees/e5497d5df05b2f690e87ef44007420348cd283a8"
+        },
+        "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/git/commits/d4452a23da2f51471715b4c25d694f82d31fa2e2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/d4452a23da2f51471715b4c25d694f82d31fa2e2",
+      "html_url": "https://github.com/elliot35/deterministic-agent-control-protocol/commit/d4452a23da2f51471715b4c25d694f82d31fa2e2",
+      "comments_url": "https://api.github.com/repos/elliot35/deterministic-agent-control-protocol/commits/d4452a23da2f51471715b4c25d694f82d31fa2e2/comments",
+      "author": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "elliot35",
+        "id": 41864818,
+        "node_id": "MDQ6VXNlcjQxODY0ODE4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/elliot35",
+        "html_url": "https://github.com/elliot35",
+        "followers_url": "https://api.github.com/users/elliot35/followers",
+        "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+        "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+        "organizations_url": "https://api.github.com/users/elliot35/orgs",
+        "repos_url": "https://api.github.com/users/elliot35/repos",
+        "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/elliot35/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "elliot35",
+      "id": 41864818,
+      "node_id": "MDQ6VXNlcjQxODY0ODE4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41864818?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/elliot35",
+      "html_url": "https://github.com/elliot35",
+      "followers_url": "https://api.github.com/users/elliot35/followers",
+      "following_url": "https://api.github.com/users/elliot35/following{/other_user}",
+      "gists_url": "https://api.github.com/users/elliot35/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/elliot35/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/elliot35/subscriptions",
+      "organizations_url": "https://api.github.com/users/elliot35/orgs",
+      "repos_url": "https://api.github.com/users/elliot35/repos",
+      "events_url": "https://api.github.com/users/elliot35/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/elliot35/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 24
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "TypeScript": 381895,
+    "JavaScript": 13426
+  },
+  "readme_html": "<h1 id=\"user-content-self-evolving-deterministic-agent-control-protocol\">Self-Evolving Deterministic Agent Control Protocol</h1>\n<p><a href=\"https://github.com/elliot35/deterministic-agent-control-protocol/stargazers\"><img src=\"https://img.shields.io/github/stars/elliot35/deterministic-agent-control-protocol?style=flat\" alt=\"Stars\"></a>\n<a href=\"https://github.com/elliot35/deterministic-agent-control-protocol/network/members\"><img src=\"https://img.shields.io/github/forks/elliot35/deterministic-agent-control-protocol?style=flat\" alt=\"Forks\"></a>\n<a href=\"https://github.com/elliot35/deterministic-agent-control-protocol/graphs/contributors\"><img src=\"https://img.shields.io/github/contributors/elliot35/deterministic-agent-control-protocol?style=flat\" alt=\"Contributors\"></a>\n<a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"License\"></a>\n<a href=\"https://www.npmjs.com/package/@det-acp/core\"><img src=\"https://img.shields.io/npm/v/@det-acp/core\" alt=\"npm version\"></a>\n<img src=\"https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&#x26;logoColor=white\" alt=\"TypeScript\">\n<img src=\"https://img.shields.io/badge/-Node.js-339933?logo=node.js&#x26;logoColor=white\" alt=\"Node.js\"></p>\n<p><strong>A governance gateway for AI agents — making every action bounded, auditable, reversible, and explainable.</strong></p>\n<p>Works transparently with <strong>Cursor</strong>, <strong>Claude Code</strong>, <strong>Codex</strong>, and any MCP-compatible agent. Also supports shell command governance and a language-agnostic HTTP API.</p>\n<h3 id=\"user-content-️-governance-in-action\">🛡️ Governance in Action</h3>\n<p><a href=\"https://github.com/user-attachments/assets/ec7a9524-1527-4e51-b837-7e05a24b189d\">https://github.com/user-attachments/assets/ec7a9524-1527-4e51-b837-7e05a24b189d</a></p>\n<hr>\n<h2 id=\"user-content-table-of-contents\">Table of Contents</h2>\n<ul>\n<li><a href=\"#how-it-works\">How It Works</a></li>\n<li><a href=\"#core-principles\">Core Principles</a></li>\n<li><a href=\"#quick-start\">Quick Start</a></li>\n<li><a href=\"#agent-integrations\">Agent Integrations</a></li>\n<li><a href=\"#built-in-policies\">Built-in Policies</a></li>\n<li><a href=\"#integration-modes\">Integration Modes</a></li>\n<li><a href=\"#policy-self-evolution\">Policy Self-Evolution</a></li>\n<li><a href=\"#architecture\">Architecture</a></li>\n<li><a href=\"#policy-dsl-reference\">Policy DSL Reference</a></li>\n<li><a href=\"#built-in-tool-adapters\">Built-in Tool Adapters</a></li>\n<li><a href=\"#custom-tool-adapters\">Custom Tool Adapters</a></li>\n<li><a href=\"#development\">Development</a></li>\n<li><a href=\"#contributing\">Contributing</a></li>\n<li><a href=\"#license\">License</a></li>\n</ul>\n<hr>\n<h2 id=\"user-content-how-it-works\">How It Works</h2>\n<p>Agents never execute tools directly. Every action flows through the control plane for evaluation, enforcement, and audit:</p>\n<pre><code class=\"language-mermaid\">flowchart LR\n    A[\"Agent\"] -->|\"action request\"| CP[\"Control Protocol\"]\n    CP -->|\"evaluate against policy\"| D{\"Decision\"}\n    D -->|\"allow\"| E[\"Agent Executes Action\"]\n    D -->|\"deny\"| F[\"Blocked + Reason Logged\"]\n    D -->|\"gate\"| G[\"Human Approval Required\"]\n    E -->|\"record result\"| L[\"Evidence Ledger\"]\n    G -->|\"approved\"| E\n</code></pre>\n<p>The protocol <strong>does not execute</strong> actions itself. It evaluates them against a policy, enforces session-level budgets, requires human approval for risky operations, and records everything in a tamper-evident audit ledger.</p>\n<hr>\n<h2 id=\"user-content-core-principles\">Core Principles</h2>\n<table>\n<thead>\n<tr>\n<th>Principle</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Bounded</strong></td>\n<td>Agents can only perform allowed actions within allowed scopes</td>\n</tr>\n<tr>\n<td><strong>Session-Aware</strong></td>\n<td>Budget, rate limits, and escalation rules across the full interaction</td>\n</tr>\n<tr>\n<td><strong>Auditable</strong></td>\n<td>Every action logged in a tamper-evident ledger with SHA-256 hash chaining</td>\n</tr>\n<tr>\n<td><strong>Reversible</strong></td>\n<td>Compensation plans for undoing executed actions</td>\n</tr>\n<tr>\n<td><strong>Explainable</strong></td>\n<td>Full reporting — what was allowed, denied, gated, and why</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2 id=\"user-content-quick-start\">Quick Start</h2>\n<h3 id=\"user-content-install\">Install</h3>\n<pre><code class=\"language-bash\">npm i @det-acp/core\n</code></pre>\n<h3 id=\"user-content-set-up-governance-one-command\">Set Up Governance (One Command)</h3>\n<pre><code class=\"language-bash\">npx det-acp init cursor        # Cursor\nnpx det-acp init codex         # Codex CLI\nnpx det-acp init claude-code   # Claude Code\n</code></pre>\n<p>This generates all required files (policy, MCP config, governance rules) with sensible defaults. Edit <code>policy.yaml</code> to customize — everything else is handled automatically.</p>\n<pre><code class=\"language-bash\"># Use your own policy instead of the default\nnpx det-acp init cursor --policy ./my-policy.yaml\n</code></pre>\n<blockquote>\n<p>After running <code>init</code>, restart your agent to pick up the MCP server.</p>\n</blockquote>\n<h3 id=\"user-content-define-a-policy\">Define a Policy</h3>\n<p>Create <code>agent.policy.yaml</code>:</p>\n<pre><code class=\"language-yaml\">version: \"1.0\"\nname: \"my-agent\"\n\ncapabilities:\n  - tool: \"file:read\"\n    scope:\n      paths: [\"./src/**\"]\n  - tool: \"file:write\"\n    scope:\n      paths: [\"./src/**\"]\n  - tool: \"command:run\"\n    scope:\n      binaries: [\"npm\", \"node\", \"tsc\"]\n\nlimits:\n  max_runtime_ms: 1800000\n  max_files_changed: 50\n\ngates:\n  - action: \"file:delete\"\n    approval: \"human\"\n    risk_level: \"high\"\n\nevidence:\n  require: [\"checksums\", \"diffs\"]\n  format: \"jsonl\"\n\nforbidden:\n  - pattern: \"**/.env\"\n  - pattern: \"rm -rf\"\n\nsession:\n  max_actions: 100\n  max_denials: 10\n  rate_limit:\n    max_per_minute: 30\n  escalation:\n    - after_actions: 50\n      require: human_checkin\n    - after_minutes: 15\n      require: human_checkin\n</code></pre>\n<h3 id=\"user-content-use-as-a-library\">Use as a Library</h3>\n<pre><code class=\"language-typescript\">import { AgentGateway } from '@det-acp/core';\n\nconst gateway = await AgentGateway.create({\n  ledgerDir: './ledgers',\n  onStateChange: (sessionId, from, to) => console.log(`${from} -> ${to}`),\n});\n\n// Create a session\nconst session = await gateway.createSession('./agent.policy.yaml', {\n  agent: 'my-coding-agent',\n});\n\n// Evaluate an action (does NOT execute it)\nconst verdict = await gateway.evaluate(session.id, {\n  tool: 'file:read',\n  input: { path: './src/index.ts' },\n});\n\nif (verdict.decision === 'allow') {\n  // Execute the action yourself\n  const content = fs.readFileSync('./src/index.ts', 'utf-8');\n\n  // Record the result\n  await gateway.recordResult(session.id, verdict.actionId, {\n    success: true,\n    output: content,\n    durationMs: 5,\n  });\n}\n\n// Terminate and get report\nconst report = await gateway.terminateSession(session.id, 'task complete');\nconsole.log(`Allowed: ${report.allowed}, Denied: ${report.denied}`);\n</code></pre>\n<hr>\n<h2 id=\"user-content-agent-integrations\">Agent Integrations</h2>\n<p>Ready-to-use guides for popular AI agents. Each integration includes policy, config templates, governance rules, test sandbox, and step-by-step instructions.</p>\n<table>\n<thead>\n<tr>\n<th>Agent</th>\n<th>Integration Mode</th>\n<th>Governance Level</th>\n<th>Guide</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Cursor</strong></td>\n<td>MCP Proxy + Cursor Rules</td>\n<td>Soft</td>\n<td><a href=\"integrations/cursor/\">integrations/cursor/</a></td>\n</tr>\n<tr>\n<td><strong>Codex CLI</strong></td>\n<td>MCP Proxy + AGENTS.md + OS Sandbox</td>\n<td>Soft + Sandbox</td>\n<td><a href=\"integrations/codex/\">integrations/codex/</a></td>\n</tr>\n<tr>\n<td><strong>Claude Code</strong></td>\n<td>MCP Proxy + CLAUDE.md + settings.json</td>\n<td>Soft + Semi-Hard</td>\n<td><a href=\"integrations/claude-code/\">integrations/claude-code/</a></td>\n</tr>\n<tr>\n<td><strong>OpenClaw</strong></td>\n<td>HTTP API + Skill + Docker Sandbox</td>\n<td>Hard</td>\n<td><a href=\"integrations/openclaw/\">integrations/openclaw/</a></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><strong>Soft</strong> — The LLM is instructed (via rules/instructions files) to prefer governed tools. Effective in practice, but a creative prompt could theoretically bypass it.</li>\n<li><strong>Semi-Hard</strong> — Soft instructions combined with the agent's built-in permission system that can deny direct tool access (e.g., Claude Code's <code>settings.json</code>).</li>\n<li><strong>Hard</strong> — The agent physically cannot access tools outside the governance layer. Achieved via Docker sandboxing, tool allow/deny lists, or custom agent harnesses.</li>\n</ul>\n<p>For any MCP-compatible agent not listed above, see <a href=\"#mcp-proxy-general\">MCP Proxy (General)</a>.</p>\n<hr>\n<h2 id=\"user-content-built-in-policies\">Built-in Policies</h2>\n<p>Production-ready policies in <code>examples/</code> — usable out of the box:</p>\n<table>\n<thead>\n<tr>\n<th>Policy</th>\n<th>File</th>\n<th>Use Case</th>\n<th>Tools Used</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Coding Agent</td>\n<td><a href=\"examples/coding-agent.policy.yaml\"><code>coding-agent.policy.yaml</code></a></td>\n<td>AI coding agents operating on a project</td>\n<td>13 tools</td>\n</tr>\n<tr>\n<td>DevOps Deploy</td>\n<td><a href=\"examples/devops-deploy.policy.yaml\"><code>devops-deploy.policy.yaml</code></a></td>\n<td>Deployment agents that build, test, and deploy code</td>\n<td>16 tools</td>\n</tr>\n<tr>\n<td>Video Upscaler</td>\n<td><a href=\"examples/video-upscaler.policy.yaml\"><code>video-upscaler.policy.yaml</code></a></td>\n<td>Media processing agents running upscaling pipelines</td>\n<td>11 tools</td>\n</tr>\n<tr>\n<td>Data Analyst</td>\n<td><a href=\"examples/data-analyst.policy.yaml\"><code>data-analyst.policy.yaml</code></a></td>\n<td>Data analysis agents processing datasets and generating reports</td>\n<td>12 tools</td>\n</tr>\n<tr>\n<td>Security Audit</td>\n<td><a href=\"examples/security-audit.policy.yaml\"><code>security-audit.policy.yaml</code></a></td>\n<td>Security scanning agents auditing code and dependencies</td>\n<td>11 tools</td>\n</tr>\n<tr>\n<td>Infrastructure Manager</td>\n<td><a href=\"examples/infrastructure-manager.policy.yaml\"><code>infrastructure-manager.policy.yaml</code></a></td>\n<td>Infrastructure management agents handling IaC, deployments, and monitoring</td>\n<td>16 tools</td>\n</tr>\n</tbody>\n</table>\n<blockquote>\n<p>Validate any policy with: <code>npx det-acp validate ./policy.yaml</code></p>\n</blockquote>\n<hr>\n<h2 id=\"user-content-integration-modes\">Integration Modes</h2>\n<table>\n<thead>\n<tr>\n<th>Mode</th>\n<th>How It Works</th>\n<th>Best For</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>MCP Proxy</strong></td>\n<td>Transparent proxy between agent and MCP servers</td>\n<td>Cursor, Claude Code, any MCP client</td>\n</tr>\n<tr>\n<td><strong>Shell Proxy</strong></td>\n<td>Command wrapper that validates before executing</td>\n<td>CLI agents, shell-based workflows</td>\n</tr>\n<tr>\n<td><strong>HTTP API</strong></td>\n<td>REST endpoints for session management</td>\n<td>Any language, custom integrations</td>\n</tr>\n<tr>\n<td><strong>Library SDK</strong></td>\n<td>TypeScript API for in-process governance</td>\n<td>Custom TypeScript agents</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-mcp-proxy-general\">MCP Proxy (General)</h3>\n<p>Works with any MCP-compatible client.</p>\n<p><strong>Simplified mode</strong> — point at a policy file, auto-configures filesystem backend:</p>\n<pre><code class=\"language-bash\">npx det-acp proxy --policy ./policy.yaml\nnpx det-acp proxy --policy ./policy.yaml --dir /path/to/project\n</code></pre>\n<p>For advanced setups with multiple backends, SSE transport, etc.:</p>\n<pre><code class=\"language-bash\">cat > mcp-proxy.config.yaml &#x3C;&#x3C; 'EOF'\npolicy: ./agent.policy.yaml\nledger_dir: ./.det-acp/ledgers\ntransport: stdio\nbackends:\n  - name: filesystem\n    transport: stdio\n    command: npx\n    args: [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"./src\"]\nEOF\n\nnpx det-acp proxy ./mcp-proxy.config.yaml\n</code></pre>\n<h3 id=\"user-content-shell-proxy\">Shell Proxy</h3>\n<p>Execute commands through the policy gateway:</p>\n<pre><code class=\"language-bash\">npx det-acp exec ./agent.policy.yaml echo \"hello\"    # Allowed\nnpx det-acp exec ./agent.policy.yaml rm -rf /tmp      # Denied (forbidden)\n</code></pre>\n<h3 id=\"user-content-http-session-server\">HTTP Session Server</h3>\n<pre><code class=\"language-bash\">npx det-acp serve --port 3100\n</code></pre>\n<pre><code class=\"language-bash\"># Create a session\ncurl -X POST http://localhost:3100/sessions \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"policy\": \"version: \\\"1.0\\\"\\nname: test\\ncapabilities:\\n  - tool: file:read\\n    scope:\\n      paths: [\\\"./src/**\\\"]\"}'\n\n# Evaluate an action\ncurl -X POST http://localhost:3100/sessions/&#x3C;session-id>/evaluate \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"action\": {\"tool\": \"file:read\", \"input\": {\"path\": \"./src/index.ts\"}}}'\n\n# Record result\ncurl -X POST http://localhost:3100/sessions/&#x3C;session-id>/record \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"actionId\": \"&#x3C;action-id>\", \"result\": {\"success\": true, \"output\": \"...\"}}'\n\n# Terminate session\ncurl -X POST http://localhost:3100/sessions/&#x3C;session-id>/terminate\n</code></pre>\n<h3 id=\"user-content-cli-reference\">CLI Reference</h3>\n<pre><code class=\"language-bash\">npx det-acp init &#x3C;agent>                  # Set up governance (cursor, codex, claude-code)\nnpx det-acp init &#x3C;agent> --policy &#x3C;file>  # Use custom policy\nnpx det-acp validate &#x3C;policy-file>        # Validate a policy\nnpx det-acp proxy --policy &#x3C;policy-file>  # Start MCP proxy (simplified)\nnpx det-acp proxy --policy &#x3C;policy-file> --evolve  # With policy self-evolution\nnpx det-acp proxy &#x3C;config-file>           # Start MCP proxy (full config)\nnpx det-acp exec &#x3C;policy-file> &#x3C;command>  # Execute via shell proxy\nnpx det-acp report &#x3C;ledger-file>          # View audit report\nnpx det-acp serve [--port &#x3C;port>]         # Start HTTP session server\n</code></pre>\n<hr>\n<h2 id=\"user-content-policy-self-evolution\">Policy Self-Evolution</h2>\n<p>When an action is <strong>denied</strong> by the policy, the self-evolution feature can suggest a minimal policy change that would allow it, prompt you for a decision, and optionally update the policy (in memory and/or on disk). This keeps governance strict by default while letting you relax policy incrementally when you approve.</p>\n<h3 id=\"user-content-what-it-does\">What it does</h3>\n<ul>\n<li><strong>Analyses denials</strong> — Pattern-matches denial reasons (missing capability, path/binary/domain outside scope, forbidden pattern) and produces a single, minimal policy edit.</li>\n<li><strong>Prompts you</strong> — Presents the suggestion (e.g. “Add <code>file:read</code> capability for path <code>./config/**</code>?”) via the agent’s own chat UI.</li>\n<li><strong>Three choices:</strong>\n<ul>\n<li><strong>Add to policy</strong> — Apply the change to the session’s policy and <strong>persist</strong> it to the policy YAML file.</li>\n<li><strong>Allow once</strong> — Apply the change <strong>in memory only</strong> for the current session (no disk write).</li>\n<li><strong>Deny</strong> — Keep the block; no change.</li>\n</ul>\n</li>\n<li><strong>Retry</strong> — After approval, the agent retries the original tool call against the updated policy.</li>\n</ul>\n<p>Budget and session-limit denials (e.g. “Budget exceeded”, “Rate limit exceeded”) are <strong>not</strong> suggestible; only permission/scope/forbidden denials can trigger evolution.</p>\n<h3 id=\"user-content-how-it-works-mcp-native\">How it works (MCP-native)</h3>\n<p>When running as an MCP proxy (the default for Cursor, Claude Code, and Codex), evolution uses a <strong>two-step asynchronous protocol</strong> built entirely on standard MCP tool calls — no terminal stdin/stdout required:</p>\n<ol>\n<li><strong>On deny:</strong> The proxy returns the denial to the agent with a structured suggestion and a unique <code>suggestion_id</code>.</li>\n<li><strong>On approve:</strong> The agent presents the suggestion to the user in chat, collects their decision, and calls <code>policy_evolution_approve</code> with the <code>suggestion_id</code> and decision.</li>\n<li><strong>On retry:</strong> The proxy applies the policy change. The agent retries the original tool call, which now succeeds.</li>\n</ol>\n<pre><code class=\"language-mermaid\">sequenceDiagram\n    participant User\n    participant Agent as Agent (Cursor / Claude Code)\n    participant Proxy as MCP Proxy\n    participant GW as Gateway\n\n    Agent->>Proxy: callTool(\"read_text_file\", path)\n    Proxy->>GW: evaluate()\n    GW-->>Proxy: deny\n    Proxy->>Proxy: suggestPolicyChange()\n    Proxy-->>Agent: Denied + suggestion + suggestionId\n\n    Agent->>User: \"read_text_file denied. Add capability for path X?\"\n    User-->>Agent: \"Yes, add to policy\"\n\n    Agent->>Proxy: callTool(\"policy_evolution_approve\", suggestionId, \"add-to-policy\")\n    Proxy->>Proxy: applyPolicyChange + writePolicyToFile\n    Proxy-->>Agent: \"Policy updated\"\n\n    Agent->>Proxy: callTool(\"read_text_file\", path)\n    Proxy->>GW: evaluate()\n    GW-->>Proxy: allow\n    Proxy-->>Agent: file contents\n</code></pre>\n<p>This works in <strong>every MCP client</strong> because it uses only the standard MCP tool-call protocol — no readline, no stdin conflicts.</p>\n<h3 id=\"user-content-enabling-self-evolution\">Enabling self-evolution</h3>\n<p><strong>MCP proxy (simplified mode):</strong></p>\n<pre><code class=\"language-bash\">npx det-acp proxy --policy ./policy.yaml --evolve\n</code></pre>\n<blockquote>\n<p>The <code>init</code> command includes <code>--evolve</code> by default in generated MCP configurations.</p>\n</blockquote>\n<p><strong>Programmatic (library):</strong> pass <code>policyEvolution</code> in <code>GatewayConfig</code> for non-MCP setups (e.g. CLI scripts, custom agents):</p>\n<pre><code class=\"language-typescript\">import { AgentGateway, createCliEvolutionHandler } from '@det-acp/core';\n\nconst gateway = await AgentGateway.create({\n  ledgerDir: './ledgers',\n  policyEvolution: {\n    policyPath: './agent.policy.yaml',\n    handler: createCliEvolutionHandler(),\n    timeoutMs: 30_000,\n  },\n});\n</code></pre>\n<p>You can plug a custom <code>EvolutionHandler</code> (e.g. GUI dialog, webhook) instead of <code>createCliEvolutionHandler()</code>.</p>\n<h3 id=\"user-content-evolution-architecture-high-level\">Evolution architecture (high level)</h3>\n<pre><code class=\"language-mermaid\">flowchart LR\n    subgraph Denial[\"On Deny\"]\n        A[\"Action Denied\"] --> B[\"Suggestion Engine\"]\n        B --> C{\"Suggestible?\"}\n        C -->|No| D[\"Keep Deny\"]\n        C -->|Yes| E[\"PolicySuggestion + ID\"]\n    end\n    E --> F[\"Agent presents to user\"]\n    F --> G{\"User Decision\"}\n    G -->|Add to policy| H[\"policy_evolution_approve → Apply + Write YAML\"]\n    G -->|Allow once| I[\"policy_evolution_approve → Apply in-memory\"]\n    G -->|Deny| D\n    H --> J[\"Retry original tool call\"]\n    I --> J\n    J --> K{\"Verdict\"}\n    K -->|allow| L[\"Proceed\"]\n    K -->|deny| D\n</code></pre>\n<p>The <strong>Suggestion Engine</strong> maps denial reasons to one of: add capability, widen scope (paths/binaries/domains/methods/repos), or remove a forbidden pattern. In MCP proxy mode, the <strong>MCP Evolution Handler</strong> returns the suggestion to the agent as a structured denial with a <code>suggestion_id</code>, and the agent calls <code>policy_evolution_approve</code> after collecting the user’s decision. In library mode, the <strong>Policy Evolution Manager</strong> uses a pluggable handler (CLI, GUI, webhook) with a configurable timeout and re-evaluates the action inline.</p>\n<hr>\n<h2 id=\"user-content-architecture\">Architecture</h2>\n<h3 id=\"user-content-component-architecture\">Component Architecture</h3>\n<pre><code class=\"language-mermaid\">graph TB\n    subgraph External[\"External Systems\"]\n        BackendMCP[\"Backend MCP Servers\"]\n        Approvers[\"Human / Webhook Approvers\"]\n    end\n\n    subgraph Integration[\"Integration Layer\"]\n        subgraph MCPProxyGroup[\"MCP Proxy Server\"]\n            MCPProxy[\"MCP Proxy\"]\n            subgraph McpEvo[\"MCP Evolution (optional)\"]\n                McpEvoHandler[\"MCP Evolution Handler\"]\n                EvoTool[\"policy_evolution_approve tool\"]\n            end\n        end\n        ShellProxy[\"Shell Proxy\"]\n        HTTPServer[\"HTTP Server\"]\n        LibrarySDK[\"Library SDK\"]\n    end\n\n    subgraph Core[\"Core Engine\"]\n        Gateway[\"Agent Gateway\"]\n        SessionMgr[\"Session Manager\"]\n        PolicyEval[\"Policy Evaluator\"]\n        GateMgr[\"Gate Manager\"]\n        ActionReg[\"Action Registry\"]\n        subgraph Evolution[\"Policy Self-Evolution (optional)\"]\n            EvolutionMgr[\"Policy Evolution Manager\"]\n            SuggestionEngine[\"Suggestion Engine\"]\n        end\n    end\n\n    subgraph Infra[\"Infrastructure\"]\n        Ledger[\"Evidence Ledger&#x3C;br/>(JSONL + SHA-256)\"]\n        Rollback[\"Rollback Manager\"]\n    end\n\n    subgraph Tools[\"Tool Adapters\"]\n        subgraph FileTools[\"File Operations\"]\n            FR[\"file:read\"]\n            FW[\"file:write\"]\n            FD[\"file:delete\"]\n            FM[\"file:move\"]\n            FC[\"file:copy\"]\n        end\n        subgraph DirTools[\"Directory Operations\"]\n            DL[\"directory:list\"]\n            DC[\"directory:create\"]\n        end\n        subgraph GitTools[\"Git Operations\"]\n            GD[\"git:diff\"]\n            GA[\"git:apply\"]\n            GC[\"git:commit\"]\n            GS[\"git:status\"]\n        end\n        subgraph NetTools[\"Network &#x26; System\"]\n            CR[\"command:run\"]\n            HR[\"http:request\"]\n            ND[\"network:dns\"]\n            ER[\"env:read\"]\n            AE[\"archive:extract\"]\n        end\n    end\n\n    MCPProxy --> Gateway\n    ShellProxy --> Gateway\n    HTTPServer --> Gateway\n    LibrarySDK --> Gateway\n\n    Gateway --> SessionMgr\n    Gateway --> ActionReg\n    Gateway --> GateMgr\n\n    SessionMgr --> PolicyEval\n    SessionMgr --> GateMgr\n    SessionMgr --> Ledger\n    SessionMgr -->|on deny| EvolutionMgr\n    EvolutionMgr --> SuggestionEngine\n\n    MCPProxy -->|on deny| McpEvoHandler\n    McpEvoHandler --> SuggestionEngine\n    EvoTool -->|apply change| SessionMgr\n\n    ActionReg --> FileTools\n    ActionReg --> DirTools\n    ActionReg --> GitTools\n    ActionReg --> NetTools\n\n    Rollback --> ActionReg\n    Rollback --> Ledger\n\n    MCPProxy --> BackendMCP\n    GateMgr --> Approvers\n</code></pre>\n<h3 id=\"user-content-action-evaluation-flow\">Action Evaluation Flow</h3>\n<pre><code class=\"language-mermaid\">sequenceDiagram\n    participant Agent\n    participant Integration\n    participant Gateway as Agent Gateway\n    participant Session as Session Manager\n    participant Policy as Policy Evaluator\n    participant Gate as Gate Manager\n    participant Ledger as Evidence Ledger\n\n    Agent ->> Integration: Action request (tool, input)\n    Integration ->> Gateway: evaluate(sessionId, action)\n    Gateway ->> Session: evaluate(sessionId, action)\n\n    Session ->> Policy: evaluateSessionAction(action)\n\n    Note right of Policy: 1. Session state check&#x3C;br/>2. Rate limits &#x26; escalation&#x3C;br/>3. Forbidden patterns&#x3C;br/>4. Capability &#x26; scope match&#x3C;br/>5. Budget limits&#x3C;br/>6. Gate lookup\n\n    Policy -->> Session: allow / deny / gate\n\n    Session ->> Ledger: append(action:evaluate)\n\n    alt Gate required\n        Session ->> Gate: requestApproval(action, gate)\n        alt Approved\n            Gate -->> Session: approved\n        else Pending\n            Gate -->> Session: pending\n            Note over Agent, Gate: Session paused until resolved\n        end\n    end\n\n    Session -->> Gateway: EvaluateResponse\n    Gateway -->> Integration: decision + reasons\n    Integration -->> Agent: allow / deny / gate\n\n    alt Allowed\n        Note over Agent: Executes action externally\n        Agent ->> Integration: recordResult(actionId, result)\n        Integration ->> Gateway: recordResult(sessionId, actionId, result)\n        Gateway ->> Session: recordResult(result)\n        Session ->> Session: Update budget tracking\n        Session ->> Ledger: append(action:result)\n    end\n\n    opt Session complete\n        Agent ->> Integration: terminateSession()\n        Integration ->> Gateway: terminate(sessionId)\n        Gateway ->> Session: terminate(sessionId)\n        Session ->> Ledger: append(session:terminate)\n        Session -->> Agent: Session Report\n    end\n</code></pre>\n<h3 id=\"user-content-session-lifecycle\">Session Lifecycle</h3>\n<pre><code class=\"language-mermaid\">stateDiagram-v2\n    [*] --> Created: createSession()\n    Created --> Evaluating: evaluate(action)\n    Evaluating --> Allowed: policy allows\n    Evaluating --> Denied: policy denies\n    Evaluating --> Gated: gate required\n    Gated --> Allowed: approved\n    Gated --> Denied: rejected\n    Allowed --> Recording: recordResult()\n    Recording --> Evaluating: next action\n    Denied --> Evaluating: next action\n    Recording --> Terminated: terminateSession()\n    Evaluating --> Terminated: terminateSession()\n    Terminated --> [*]\n</code></pre>\n<h3 id=\"user-content-evidence-ledger\">Evidence Ledger</h3>\n<p>Every action produces an immutable audit record in JSONL format with SHA-256 hash chaining:</p>\n<pre><code class=\"language-jsonl\">{\"seq\":1,\"ts\":\"...\",\"hash\":\"sha256:abc...\",\"prev\":\"sha256:000...\",\"type\":\"session:start\",\"data\":{...}}\n{\"seq\":2,\"ts\":\"...\",\"hash\":\"sha256:def...\",\"prev\":\"sha256:abc...\",\"type\":\"action:evaluate\",\"data\":{...}}\n{\"seq\":3,\"ts\":\"...\",\"hash\":\"sha256:ghi...\",\"prev\":\"sha256:def...\",\"type\":\"action:result\",\"data\":{...}}\n</code></pre>\n<p>If any entry is tampered with, the hash chain breaks and integrity verification fails.</p>\n<hr>\n<h2 id=\"user-content-policy-dsl-reference\">Policy DSL Reference</h2>\n<table>\n<thead>\n<tr>\n<th>Section</th>\n<th>Purpose</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>capabilities</code></td>\n<td>Allowed tools and their scoped paths, binaries, or domains</td>\n</tr>\n<tr>\n<td><code>limits</code></td>\n<td>Runtime, cost, file change, and retry budgets</td>\n</tr>\n<tr>\n<td><code>gates</code></td>\n<td>Actions requiring human or webhook approval</td>\n</tr>\n<tr>\n<td><code>evidence</code></td>\n<td>Artifacts that must be recorded (checksums, diffs)</td>\n</tr>\n<tr>\n<td><code>forbidden</code></td>\n<td>Patterns that are always blocked</td>\n</tr>\n<tr>\n<td><code>session</code></td>\n<td>Max actions, rate limits, escalation rules</td>\n</tr>\n<tr>\n<td><code>remediation</code></td>\n<td>Error handling rules and fallback chains</td>\n</tr>\n</tbody>\n</table>\n<p>See <a href=\"examples/\">examples/</a> for complete policy files.</p>\n<hr>\n<h2 id=\"user-content-built-in-tool-adapters\">Built-in Tool Adapters</h2>\n<h3 id=\"user-content-file-operations\">File Operations</h3>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>Description</th>\n<th>Rollback</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>file:read</code></td>\n<td>Read files within scoped paths</td>\n<td>N/A (read-only)</td>\n</tr>\n<tr>\n<td><code>file:write</code></td>\n<td>Write files with backup for rollback</td>\n<td>Restores previous content</td>\n</tr>\n<tr>\n<td><code>file:delete</code></td>\n<td>Delete files within scoped paths</td>\n<td>Restores file from backup</td>\n</tr>\n<tr>\n<td><code>file:move</code></td>\n<td>Move/rename files within scoped paths</td>\n<td>Moves file back to original location</td>\n</tr>\n<tr>\n<td><code>file:copy</code></td>\n<td>Copy files within scoped paths</td>\n<td>Removes copied file</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-directory-operations\">Directory Operations</h3>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>Description</th>\n<th>Rollback</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>directory:list</code></td>\n<td>List files and directories within scoped paths</td>\n<td>N/A (read-only)</td>\n</tr>\n<tr>\n<td><code>directory:create</code></td>\n<td>Create directories within scoped paths</td>\n<td>Removes created directories</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-command-execution\">Command Execution</h3>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>Description</th>\n<th>Rollback</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>command:run</code></td>\n<td>Execute allow-listed binaries with timeout</td>\n<td>Compensation actions</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-git-operations\">Git Operations</h3>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>Description</th>\n<th>Rollback</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>git:diff</code></td>\n<td>Get git diff output</td>\n<td>N/A (read-only)</td>\n</tr>\n<tr>\n<td><code>git:apply</code></td>\n<td>Apply git patches with stash-based rollback</td>\n<td><code>git checkout . &#x26;&#x26; git stash pop</code></td>\n</tr>\n<tr>\n<td><code>git:commit</code></td>\n<td>Stage and commit changes</td>\n<td><code>git reset --soft HEAD~1</code></td>\n</tr>\n<tr>\n<td><code>git:status</code></td>\n<td>Get working tree status</td>\n<td>N/A (read-only)</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-network--http\">Network &#x26; HTTP</h3>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>Description</th>\n<th>Rollback</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>http:request</code></td>\n<td>HTTP requests to allow-listed domains</td>\n<td>Compensation actions</td>\n</tr>\n<tr>\n<td><code>network:dns</code></td>\n<td>DNS lookups for allow-listed domains</td>\n<td>N/A (read-only)</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-environment--system\">Environment &#x26; System</h3>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>Description</th>\n<th>Rollback</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>env:read</code></td>\n<td>Read environment variables with auto-redaction of secrets</td>\n<td>N/A (read-only)</td>\n</tr>\n<tr>\n<td><code>archive:extract</code></td>\n<td>Extract tar/zip archives within scoped paths</td>\n<td>Removes extracted files</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2 id=\"user-content-custom-tool-adapters\">Custom Tool Adapters</h2>\n<p>Extend the <code>ToolAdapter</code> base class to add your own tools:</p>\n<pre><code class=\"language-typescript\">import { ToolAdapter } from '@det-acp/core';\nimport { z } from 'zod';\n\nclass MyCustomTool extends ToolAdapter {\n  readonly name = 'custom:mytool';\n  readonly description = 'My custom tool';\n  readonly inputSchema = z.object({\n    target: z.string().min(1),\n    options: z.record(z.string()).optional(),\n  });\n\n  validate(input, policy) { /* ... */ }\n  async dryRun(input, ctx) { /* ... */ }\n  async execute(input, ctx) { /* ... */ }\n  async rollback(input, ctx) { /* ... */ }\n}\n\n// Register it\ngateway.getRegistry().register(new MyCustomTool());\n</code></pre>\n<p>Every tool adapter follows the execution lifecycle: <strong>validate</strong> -> <strong>dryRun</strong> -> <strong>(gate check)</strong> -> <strong>execute</strong> -> <strong>verify</strong>. Each step is recorded in the evidence ledger.</p>\n<hr>\n<h2 id=\"user-content-development\">Development</h2>\n<pre><code class=\"language-bash\">npm install          # Install dependencies\nnpm run lint         # Type check (TypeScript strict)\nnpm test             # Run tests (Vitest)\nnpm run build        # Build\n</code></pre>\n<hr>\n<h2 id=\"user-content-contributing\">Contributing</h2>\n<p>Contributions are welcome! Please follow these guidelines:</p>\n<ol>\n<li><strong>Fork</strong> the repository and create a feature branch</li>\n<li><strong>Follow</strong> the coding standards (TypeScript strict, ESM, Zod validation)</li>\n<li><strong>Write tests</strong> mirroring <code>src/</code> structure under <code>tests/</code></li>\n<li><strong>Run</strong> <code>npm test &#x26;&#x26; npm run lint</code> before submitting</li>\n<li><strong>Use</strong> <a href=\"https://www.conventionalcommits.org/\">Conventional Commits</a> for commit messages</li>\n<li><strong>Open a PR</strong> with a clear description of changes</li>\n</ol>\n<hr>\n<h2 id=\"user-content-license\">License</h2>\n<p><a href=\"LICENSE\">MIT</a></p>\n<hr>\n<h2 id=\"user-content-star-history\">Star History</h2>\n<p><a href=\"https://www.star-history.com/#elliot35/deterministic-agent-control-protocol&#x26;type=date&#x26;legend=top-left\"><img src=\"https://api.star-history.com/svg?repos=elliot35/deterministic-agent-control-protocol&#x26;type=date&#x26;legend=top-left\" alt=\"Star History Chart\"></a></p>",
+  "_fetched_at": "2026-03-11T18:09:33.275Z"
+}

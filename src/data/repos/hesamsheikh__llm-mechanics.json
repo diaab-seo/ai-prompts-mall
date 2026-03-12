@@ -1,0 +1,884 @@
+{
+  "id": 905710245,
+  "node_id": "R_kgDONfwKpQ",
+  "name": "llm-mechanics",
+  "full_name": "hesamsheikh/llm-mechanics",
+  "private": false,
+  "owner": {
+    "login": "hesamsheikh",
+    "id": 41022652,
+    "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/hesamsheikh",
+    "html_url": "https://github.com/hesamsheikh",
+    "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+    "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+    "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+    "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+    "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+    "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/hesamsheikh/llm-mechanics",
+  "description": "Coding an LLM and its building blocks from scratch. ",
+  "fork": false,
+  "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics",
+  "forks_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/forks",
+  "keys_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/teams",
+  "hooks_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/hooks",
+  "issue_events_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/events",
+  "assignees_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/tags",
+  "blobs_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/languages",
+  "stargazers_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/stargazers",
+  "contributors_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/contributors",
+  "subscribers_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/subscribers",
+  "subscription_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/subscription",
+  "commits_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/merges",
+  "archive_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/downloads",
+  "issues_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/labels{/name}",
+  "releases_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/deployments",
+  "created_at": "2024-12-19T11:20:08Z",
+  "updated_at": "2026-03-09T06:30:32Z",
+  "pushed_at": "2025-03-27T01:00:47Z",
+  "git_url": "git://github.com/hesamsheikh/llm-mechanics.git",
+  "ssh_url": "git@github.com:hesamsheikh/llm-mechanics.git",
+  "clone_url": "https://github.com/hesamsheikh/llm-mechanics.git",
+  "svn_url": "https://github.com/hesamsheikh/llm-mechanics",
+  "homepage": "https://x.com/Hesamation",
+  "size": 2742,
+  "stargazers_count": 116,
+  "watchers_count": 116,
+  "language": "Jupyter Notebook",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 17,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "gpt",
+    "large-language-model",
+    "llm",
+    "natural-language-processing",
+    "python",
+    "pytorch"
+  ],
+  "visibility": "public",
+  "forks": 17,
+  "open_issues": 0,
+  "watchers": 116,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "prompt-engineering",
+  "commits": [
+    {
+      "sha": "757ee322e2ca8161699adea720fca7cf45615e53",
+      "node_id": "C_kwDONfwKpdoAKDc1N2VlMzIyZTJjYTgxNjE2OTlhZGVhNzIwZmNhN2NmNDU2MTVlNTM",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-03-27T01:00:43Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-03-27T01:00:43Z"
+        },
+        "message": "minor edits, more visualization",
+        "tree": {
+          "sha": "21261134c34024f7df2c07563f4681626c29b040",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/21261134c34024f7df2c07563f4681626c29b040"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/757ee322e2ca8161699adea720fca7cf45615e53",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/757ee322e2ca8161699adea720fca7cf45615e53",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/757ee322e2ca8161699adea720fca7cf45615e53",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/757ee322e2ca8161699adea720fca7cf45615e53/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a4fb297a0373a587220b8e4be3e00f1dfc12b311",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/a4fb297a0373a587220b8e4be3e00f1dfc12b311",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/a4fb297a0373a587220b8e4be3e00f1dfc12b311"
+        }
+      ]
+    },
+    {
+      "sha": "a4fb297a0373a587220b8e4be3e00f1dfc12b311",
+      "node_id": "C_kwDONfwKpdoAKGE0ZmIyOTdhMDM3M2E1ODcyMjBiOGU0YmUzZTAwZjFkZmMxMmIzMTE",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-03-26T02:18:23Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-03-26T02:18:23Z"
+        },
+        "message": "Updated the embedding notebook to adjust execution counts, enhance visualization with a network graph of token relationships, and improve overall clarity. Added detailed comments and refined the layout for better readability.",
+        "tree": {
+          "sha": "7dea13ef39a092e52bae7bbfcfa47290fe11a012",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/7dea13ef39a092e52bae7bbfcfa47290fe11a012"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/a4fb297a0373a587220b8e4be3e00f1dfc12b311",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/a4fb297a0373a587220b8e4be3e00f1dfc12b311",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/a4fb297a0373a587220b8e4be3e00f1dfc12b311",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/a4fb297a0373a587220b8e4be3e00f1dfc12b311/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "91e1e71b96b50246c5bd2a2f33e501fba0ae865c",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/91e1e71b96b50246c5bd2a2f33e501fba0ae865c",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/91e1e71b96b50246c5bd2a2f33e501fba0ae865c"
+        }
+      ]
+    },
+    {
+      "sha": "91e1e71b96b50246c5bd2a2f33e501fba0ae865c",
+      "node_id": "C_kwDONfwKpdoAKDkxZTFlNzFiOTZiNTAyNDZjNWJkMmEyZjMzZTUwMWZiYTBhZTg2NWM",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-03-23T16:00:35Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-03-23T16:00:35Z"
+        },
+        "message": "Updated the embedding notebook with improved text clarity, adjusted execution counts, and added a visualization section using Plotly for embedding representation. Enhanced the conclusion section for better readability.",
+        "tree": {
+          "sha": "3821be8340d0d7371c0c5c1c38077cb85fbde635",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/3821be8340d0d7371c0c5c1c38077cb85fbde635"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/91e1e71b96b50246c5bd2a2f33e501fba0ae865c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/91e1e71b96b50246c5bd2a2f33e501fba0ae865c",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/91e1e71b96b50246c5bd2a2f33e501fba0ae865c",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/91e1e71b96b50246c5bd2a2f33e501fba0ae865c/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "08f6bdaee1cadaf9261dd4f7dc3500f90617906d",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/08f6bdaee1cadaf9261dd4f7dc3500f90617906d",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/08f6bdaee1cadaf9261dd4f7dc3500f90617906d"
+        }
+      ]
+    },
+    {
+      "sha": "08f6bdaee1cadaf9261dd4f7dc3500f90617906d",
+      "node_id": "C_kwDONfwKpdoAKDA4ZjZiZGFlZTFjYWRhZjkyNjFkZDRmN2RjMzUwMGY5MDYxNzkwNmQ",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-27T17:03:52Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-27T17:03:52Z"
+        },
+        "message": "finished embedding from scratch",
+        "tree": {
+          "sha": "441031801af020c1c7ff720d335a449a2b0748af",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/441031801af020c1c7ff720d335a449a2b0748af"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/08f6bdaee1cadaf9261dd4f7dc3500f90617906d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/08f6bdaee1cadaf9261dd4f7dc3500f90617906d",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/08f6bdaee1cadaf9261dd4f7dc3500f90617906d",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/08f6bdaee1cadaf9261dd4f7dc3500f90617906d/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7"
+        }
+      ]
+    },
+    {
+      "sha": "a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7",
+      "node_id": "C_kwDONfwKpdoAKGEzNTI5ZTQyODVlNmMzOGM3MTNlYzZjZWUwM2RjOWYzZTJhOTRmYjc",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-25T14:55:08Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-25T14:55:08Z"
+        },
+        "message": "refined gitignore",
+        "tree": {
+          "sha": "3f940108dd901f117042c36f279d96d62e9f7e46",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/3f940108dd901f117042c36f279d96d62e9f7e46"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/a3529e4285e6c38c713ec6cee03dc9f3e2a94fb7/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7ff8efe846482ece8f2fd50ffff1c2c300de7b99",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/7ff8efe846482ece8f2fd50ffff1c2c300de7b99",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/7ff8efe846482ece8f2fd50ffff1c2c300de7b99"
+        }
+      ]
+    },
+    {
+      "sha": "7ff8efe846482ece8f2fd50ffff1c2c300de7b99",
+      "node_id": "C_kwDONfwKpdoAKDdmZjhlZmU4NDY0ODJlY2U4ZjJmZDUwZmZmZjFjMmMzMDBkZTdiOTk",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-25T14:52:05Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-25T14:52:05Z"
+        },
+        "message": "finished word2vec",
+        "tree": {
+          "sha": "401cb2990aa920cac5a8b57a863b51f0150f7844",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/401cb2990aa920cac5a8b57a863b51f0150f7844"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/7ff8efe846482ece8f2fd50ffff1c2c300de7b99",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/7ff8efe846482ece8f2fd50ffff1c2c300de7b99",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/7ff8efe846482ece8f2fd50ffff1c2c300de7b99",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/7ff8efe846482ece8f2fd50ffff1c2c300de7b99/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "60f3a664fea7098ebb27dec199925d285dc0d53a",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/60f3a664fea7098ebb27dec199925d285dc0d53a",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/60f3a664fea7098ebb27dec199925d285dc0d53a"
+        }
+      ]
+    },
+    {
+      "sha": "60f3a664fea7098ebb27dec199925d285dc0d53a",
+      "node_id": "C_kwDONfwKpdoAKDYwZjNhNjY0ZmVhNzA5OGViYjI3ZGVjMTk5OTI1ZDI4NWRjMGQ1M2E",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-23T10:15:53Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2025-01-23T10:15:53Z"
+        },
+        "message": "started word2vec",
+        "tree": {
+          "sha": "2737ee9e77cfd4edb2276a8165633a88240ec92b",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/2737ee9e77cfd4edb2276a8165633a88240ec92b"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/60f3a664fea7098ebb27dec199925d285dc0d53a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/60f3a664fea7098ebb27dec199925d285dc0d53a",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/60f3a664fea7098ebb27dec199925d285dc0d53a",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/60f3a664fea7098ebb27dec199925d285dc0d53a/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e2dd5a5e05c4bab9c229057835909435e8d10d4",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/9e2dd5a5e05c4bab9c229057835909435e8d10d4",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/9e2dd5a5e05c4bab9c229057835909435e8d10d4"
+        }
+      ]
+    },
+    {
+      "sha": "9e2dd5a5e05c4bab9c229057835909435e8d10d4",
+      "node_id": "C_kwDONfwKpdoAKDllMmRkNWE1ZTA1YzRiYWI5YzIyOTA1NzgzNTkwOTQzNWU4ZDEwZDQ",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2024-12-19T11:20:35Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2024-12-19T11:20:35Z"
+        },
+        "message": "added assets folder",
+        "tree": {
+          "sha": "653ccb15013676c8a3f72490f8c0f6a445fa365c",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/653ccb15013676c8a3f72490f8c0f6a445fa365c"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/9e2dd5a5e05c4bab9c229057835909435e8d10d4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/9e2dd5a5e05c4bab9c229057835909435e8d10d4",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/9e2dd5a5e05c4bab9c229057835909435e8d10d4",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/9e2dd5a5e05c4bab9c229057835909435e8d10d4/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "936149f4172c6308e3bbd1ffb4a778fde275de77",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/936149f4172c6308e3bbd1ffb4a778fde275de77",
+          "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/936149f4172c6308e3bbd1ffb4a778fde275de77"
+        }
+      ]
+    },
+    {
+      "sha": "936149f4172c6308e3bbd1ffb4a778fde275de77",
+      "node_id": "C_kwDONfwKpdoAKDkzNjE0OWY0MTcyYzYzMDhlM2JiZDFmZmI0YTc3OGZkZTI3NWRlNzc",
+      "commit": {
+        "author": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2024-12-19T11:20:09Z"
+        },
+        "committer": {
+          "name": "Hesam Sheikh",
+          "email": "hessamshekhasany@gmail.com",
+          "date": "2024-12-19T11:20:09Z"
+        },
+        "message": "first commit",
+        "tree": {
+          "sha": "c48e72d73ca7714bc8eb2bc024b212fb7fdecca4",
+          "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/trees/c48e72d73ca7714bc8eb2bc024b212fb7fdecca4"
+        },
+        "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/git/commits/936149f4172c6308e3bbd1ffb4a778fde275de77",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/936149f4172c6308e3bbd1ffb4a778fde275de77",
+      "html_url": "https://github.com/hesamsheikh/llm-mechanics/commit/936149f4172c6308e3bbd1ffb4a778fde275de77",
+      "comments_url": "https://api.github.com/repos/hesamsheikh/llm-mechanics/commits/936149f4172c6308e3bbd1ffb4a778fde275de77/comments",
+      "author": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "hesamsheikh",
+        "id": 41022652,
+        "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hesamsheikh",
+        "html_url": "https://github.com/hesamsheikh",
+        "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+        "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+        "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+        "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+        "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "hesamsheikh",
+      "id": 41022652,
+      "node_id": "MDQ6VXNlcjQxMDIyNjUy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41022652?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hesamsheikh",
+      "html_url": "https://github.com/hesamsheikh",
+      "followers_url": "https://api.github.com/users/hesamsheikh/followers",
+      "following_url": "https://api.github.com/users/hesamsheikh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hesamsheikh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hesamsheikh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hesamsheikh/subscriptions",
+      "organizations_url": "https://api.github.com/users/hesamsheikh/orgs",
+      "repos_url": "https://api.github.com/users/hesamsheikh/repos",
+      "events_url": "https://api.github.com/users/hesamsheikh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hesamsheikh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 9
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Jupyter Notebook": 1217331,
+    "HTML": 188024
+  },
+  "readme_html": "<h1 id=\"user-content-llm-mechanics-implementing-from-scratch\">LLM Mechanics (implementing from scratch)</h1>\n<p><img src=\"https://raw.githubusercontent.com/hesamsheikh/llm-mechanics/main/assets/header.png\" alt=\"header\"></p>\n<p>This repository is my personal playground to implement large language models (LLM) and their building blocks from scratch using PyTorch. If you like to know the theory behind how LLMs operate, check out my <a href=\"https://github.com/hesamsheikh/ml-retreat\">Advanced ML Learning Journal</a>.</p>",
+  "_fetched_at": "2026-03-11T18:04:51.602Z"
+}

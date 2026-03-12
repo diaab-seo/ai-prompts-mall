@@ -1,0 +1,28 @@
+---
+// TocGenerator widget (Section 6.5) — extracts TOC from README HTML
+interface Props { readmeHtml: string }
+const { readmeHtml } = Astro.props;
+
+// Extract h2/h3 headings server-side with simple regex
+// (full rehype-based extraction in utils/toc.ts — wired in next session)
+const headingRegex = /<(h[23])[^>]*>([^<]+)<\/h[23]>/gi;
+const items: Array<{ id: string; text: string; level: number }> = [];
+let match: RegExpExecArray | null;
+while ((match = headingRegex.exec(readmeHtml)) !== null) {
+  const level = parseInt(match[1].replace('h', ''));
+  const text = match[2].trim();
+  const id = text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  items.push({ id, text, level });
+}
+---
+<aside id="toc" aria-label="Table of contents">
+  {items.length > 0 ? (
+    <ol>
+      {items.map((item) => (
+        <li style={`padding-left: ${(item.level - 2) * 1.25}rem`}>
+          <a href={`#${item.id}`}>{item.text}</a>
+        </li>
+      ))}
+    </ol>
+  ) : null}
+</aside>

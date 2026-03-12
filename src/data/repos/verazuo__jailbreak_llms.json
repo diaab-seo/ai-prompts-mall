@@ -1,0 +1,1716 @@
+{
+  "id": 673534316,
+  "node_id": "R_kgDOKCVRbA",
+  "name": "jailbreak_llms",
+  "full_name": "verazuo/jailbreak_llms",
+  "private": false,
+  "owner": {
+    "login": "verazuo",
+    "id": 16172194,
+    "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+    "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/verazuo",
+    "html_url": "https://github.com/verazuo",
+    "followers_url": "https://api.github.com/users/verazuo/followers",
+    "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+    "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+    "organizations_url": "https://api.github.com/users/verazuo/orgs",
+    "repos_url": "https://api.github.com/users/verazuo/repos",
+    "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/verazuo/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/verazuo/jailbreak_llms",
+  "description": "[CCS'24] A dataset consists of 15,140 ChatGPT prompts from Reddit, Discord, websites, and open-source datasets (including 1,405 jailbreak prompts).",
+  "fork": false,
+  "url": "https://api.github.com/repos/verazuo/jailbreak_llms",
+  "forks_url": "https://api.github.com/repos/verazuo/jailbreak_llms/forks",
+  "keys_url": "https://api.github.com/repos/verazuo/jailbreak_llms/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/verazuo/jailbreak_llms/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/verazuo/jailbreak_llms/teams",
+  "hooks_url": "https://api.github.com/repos/verazuo/jailbreak_llms/hooks",
+  "issue_events_url": "https://api.github.com/repos/verazuo/jailbreak_llms/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/verazuo/jailbreak_llms/events",
+  "assignees_url": "https://api.github.com/repos/verazuo/jailbreak_llms/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/verazuo/jailbreak_llms/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/verazuo/jailbreak_llms/tags",
+  "blobs_url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/verazuo/jailbreak_llms/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/verazuo/jailbreak_llms/languages",
+  "stargazers_url": "https://api.github.com/repos/verazuo/jailbreak_llms/stargazers",
+  "contributors_url": "https://api.github.com/repos/verazuo/jailbreak_llms/contributors",
+  "subscribers_url": "https://api.github.com/repos/verazuo/jailbreak_llms/subscribers",
+  "subscription_url": "https://api.github.com/repos/verazuo/jailbreak_llms/subscription",
+  "commits_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/verazuo/jailbreak_llms/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/verazuo/jailbreak_llms/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/verazuo/jailbreak_llms/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/verazuo/jailbreak_llms/merges",
+  "archive_url": "https://api.github.com/repos/verazuo/jailbreak_llms/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/verazuo/jailbreak_llms/downloads",
+  "issues_url": "https://api.github.com/repos/verazuo/jailbreak_llms/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/verazuo/jailbreak_llms/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/verazuo/jailbreak_llms/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/verazuo/jailbreak_llms/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/verazuo/jailbreak_llms/labels{/name}",
+  "releases_url": "https://api.github.com/repos/verazuo/jailbreak_llms/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/deployments",
+  "created_at": "2023-08-01T21:12:06Z",
+  "updated_at": "2026-03-11T03:37:05Z",
+  "pushed_at": "2024-12-24T08:30:58Z",
+  "git_url": "git://github.com/verazuo/jailbreak_llms.git",
+  "ssh_url": "git@github.com:verazuo/jailbreak_llms.git",
+  "clone_url": "https://github.com/verazuo/jailbreak_llms.git",
+  "svn_url": "https://github.com/verazuo/jailbreak_llms",
+  "homepage": "https://jailbreak-llms.xinyueshen.me/",
+  "size": 4216,
+  "stargazers_count": 3594,
+  "watchers_count": 3594,
+  "language": "Jupyter Notebook",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 320,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 3,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "chatgpt",
+    "jailbreak",
+    "jailbreaking",
+    "large-language-model",
+    "llm",
+    "llm-security",
+    "prompt"
+  ],
+  "visibility": "public",
+  "forks": 320,
+  "open_issues": 3,
+  "watchers": 3594,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-safety",
+  "commits": [
+    {
+      "sha": "4f4031bf8be187f4478c7f94f42b08714722c12e",
+      "node_id": "C_kwDOKCVRbNoAKDRmNDAzMWJmOGJlMTg3ZjQ0NzhjN2Y5NGY0MmIwODcxNDcyMmMxMmU",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-12-24T08:30:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-12-24T08:30:57Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "634856ee52faf11f45cc1cff72046e2650088577",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/634856ee52faf11f45cc1cff72046e2650088577"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/4f4031bf8be187f4478c7f94f42b08714722c12e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnanFCCRC1aQ7uu5UhlAAABYcQAHukbQTmHhVQQ7X/XmJcGo3e\n6Ylid5b01Uax/FinVK5abX7KR6CaK/l2KFZ1TzvvSfx0R4H6yHGO9ZlzNKxjMERt\nPWYkFlrwVPrUWjj0OL7D7w/68YajvVVw1KOePO0WJXmp2y1il8B2mcZg8csGfZXm\n/yHZ1e5b95ILs/C873x3wcrZaik34U32pOleg9885PC+B5GCMQRrk1NPciVS0RI6\nVT38h9m+5DKHOWqyKvoMjiuSshribpPGgM/3LI+6jdAqq2Nt+L2MxEVjOUMj4wFG\nNp1YBsV3df38obG4YpfyH0/PnYh4oBHKyaIhE3DVD+BLs6rGGLFOq1fRBlQl2MV7\nenEtCbhvNhdwLFG4ZelPlUMdxd1kt4RkOYuXVgisktLxApb7PZGt19TdW8wjZvsI\no6J4Gc4lZF9FM+cbjPGjcofBB5r0dCVR1TY3a3Y1K2HvHWjbaUOsCugUP78k0hnC\nJJM6qqFlkLKH/Al6r3TCzp+k2D5ZIwNwGaDeq5JZnV3HGrAr5+HfjSy6iu1huz3j\no17LA69XEhYNgRervMF91vPXYzQzKxn9kUU8Zsjl8Ndd58OoJx6A4Zgn+kzPusGl\nQz9sNruBRFOoFrM23F95QWdFoENZUlDp8h7jP97909QMD1G/dENyfhIlHkxlss6E\neWuY3fcYyMhMu81IJ36A\n=Sn5H\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 634856ee52faf11f45cc1cff72046e2650088577\nparent 5793f34035fd2cc93926f76df4b020964728f68b\nauthor Vera <xinyue.shen@cispa.de> 1735029057 +0100\ncommitter GitHub <noreply@github.com> 1735029057 +0100\n\nUpdate README.md",
+          "verified_at": "2024-12-24T08:35:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/4f4031bf8be187f4478c7f94f42b08714722c12e",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/4f4031bf8be187f4478c7f94f42b08714722c12e",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/4f4031bf8be187f4478c7f94f42b08714722c12e/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5793f34035fd2cc93926f76df4b020964728f68b",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/5793f34035fd2cc93926f76df4b020964728f68b",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/5793f34035fd2cc93926f76df4b020964728f68b"
+        }
+      ]
+    },
+    {
+      "sha": "5793f34035fd2cc93926f76df4b020964728f68b",
+      "node_id": "C_kwDOKCVRbNoAKDU3OTNmMzQwMzVmZDJjYzkzOTI2Zjc2ZGY0YjAyMDk2NDcyOGY2OGI",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-11-19T13:46:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-19T13:46:31Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "6a43cd9cce28537f1780d03eeb3b1dff4f4fc696",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/6a43cd9cce28537f1780d03eeb3b1dff4f4fc696"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/5793f34035fd2cc93926f76df4b020964728f68b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnPJa3CRC1aQ7uu5UhlAAAONYQAJH4kaXqK09TH1K8V0Ucysvh\nQ2H03IdjXan/92Rk2dIIiKXA+SpMHmcPKdrkXL2DDETcQ0vABNyys/xCpjTLCM3q\nEQIPAF2jdeg7GKIDJ7LinczAc5QRwTCcQGIYNJf9Fkfsf08o8qnoBUv9SSFm6C7D\nmuAyQVdbEI0jOILou6bX9b7wAuBwj6FObI/le2kxyUBmq84hbR96/G+Lrx6et5s1\nfzukg7jm/XnuNfWsm/vfd3mwgNphZ/cCMbSf75LWvQcpq/JOSgEiIQCjXywOK0Tp\nRa66Syx2+O8IMG2DoH+yvEO1U31Tp1FDkVJ79tVQ7YU4VPdFVwVLr8fEA/9lqfvq\nk7PhPkpKHKapaqfS7C+fteB3Ve2i3FOj17V7zSgftR1+fmJiscImB4c0fFxEFHbe\nmsaKJiWZlo3/HMUkx2QJixZsggn8WRWN+w5UdXXAofLymR2xbh9YbVPY+KRgCNYR\nWgR21D5xMNQhTpk629t6WYKvpSfct20rToHQEsz0fZ0Fp9p4YytVAA+1UW1avzop\nrxHBA9QCiW4W4fo78FRJvSMwe0D+pF59Ksv/QC0AHupflrmSH3blVq1gl9hBtdkS\nKgBf8QFD0utKc8ZdpjuhIrDiseYO1tckXNayjhYSmLbKchZcNQOn9G87SCToNMSb\n6B7+9ar+z2Zxu43MFSJT\n=T0vn\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6a43cd9cce28537f1780d03eeb3b1dff4f4fc696\nparent 7d0ff9275089a4267db0e0b1be6aee897716093a\nauthor Vera <xinyue.shen@cispa.de> 1732023991 -0500\ncommitter GitHub <noreply@github.com> 1732023991 -0500\n\nUpdate README.md",
+          "verified_at": "2024-11-19T13:51:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/5793f34035fd2cc93926f76df4b020964728f68b",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/5793f34035fd2cc93926f76df4b020964728f68b",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/5793f34035fd2cc93926f76df4b020964728f68b/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7d0ff9275089a4267db0e0b1be6aee897716093a",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/7d0ff9275089a4267db0e0b1be6aee897716093a",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/7d0ff9275089a4267db0e0b1be6aee897716093a"
+        }
+      ]
+    },
+    {
+      "sha": "7d0ff9275089a4267db0e0b1be6aee897716093a",
+      "node_id": "C_kwDOKCVRbNoAKDdkMGZmOTI3NTA4OWE0MjY3ZGIwZTBiMWJlNmFlZTg5NzcxNjA5M2E",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-10-08T21:06:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-08T21:06:10Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "f82d88672bd41ae9d5c4407eb4423b5d0b155852",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/f82d88672bd41ae9d5c4407eb4423b5d0b155852"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/7d0ff9275089a4267db0e0b1be6aee897716093a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnBZ7CCRC1aQ7uu5UhlAAAD/kQAExLTb2JLTeYFw2SwCQAEOP1\n6qLkttCYvOZT8XsOhugwRds9ab2D+OYE/43/UHUaIIDZzUKdiQKPoBhIbKcI8GvN\n6j7CHkFZkgUlK6PgykTRpTRKHjcYlOrh5syZIHLYbq4WpwXVwvOBzCbhfPA0+01g\nSy6343PZD35SHb3dCCWgbgVkGxKdXDat6PNhF3+zYr8nzJURFIvLEjPD5de/u+7q\nmubg73JaGMTfFTClA45dM1PurWiYUbwKlclm4cS6ugSi6dIF15nTEQUZTIzAj/CC\n9WiPO+ka78EA7RXi17lfjCOzl8UP+rhMk9ZVqBaRinKh/Hc4i+I8LDZmtAZJta1z\nOAOPM2kX/EDfCSldN4pJRm50j1SCvQGLnWMU3D6BPpaG7BbOLVU/s7ZppXOMyXIC\nylI1P/PV9tS91mbLECpv6ShIGAk7brn2VQQySMJ9LdJ9f1r/Y3roeH2fU2h18m5M\nH3+QzHuI4HlhMhIO/Cy7B9Dmun6g/CixBmFL6YAMivskmQi7gPAJnQdmXoOszTaP\nsIFXegixezP+nOkIVwQS3s0WY7IavdDkv1wLyp3U1KubLF70LGpuHsl0nnPV1gHc\nsbJt8ZZBS1e6k2x7NevBxegXyIUChv8nzOClhgM2mus5QGhuzXR+uNN/vuBasrVD\n3vZhaysLYgguZekXBONq\n=3JrX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f82d88672bd41ae9d5c4407eb4423b5d0b155852\nparent aeca7e68434c53b3d16d96cc5e20896f7606bc27\nauthor Vera <xinyue.shen@cispa.de> 1728421570 -0400\ncommitter GitHub <noreply@github.com> 1728421570 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-07T06:46:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/7d0ff9275089a4267db0e0b1be6aee897716093a",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/7d0ff9275089a4267db0e0b1be6aee897716093a",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/7d0ff9275089a4267db0e0b1be6aee897716093a/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "aeca7e68434c53b3d16d96cc5e20896f7606bc27",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/aeca7e68434c53b3d16d96cc5e20896f7606bc27",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/aeca7e68434c53b3d16d96cc5e20896f7606bc27"
+        }
+      ]
+    },
+    {
+      "sha": "aeca7e68434c53b3d16d96cc5e20896f7606bc27",
+      "node_id": "C_kwDOKCVRbNoAKGFlY2E3ZTY4NDM0YzUzYjNkMTZkOTZjYzVlMjA4OTZmNzYwNmJjMjc",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-10-08T21:01:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-08T21:01:57Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "22fa0f4be1176407aee17e3501ed4eabc7da8086",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/22fa0f4be1176407aee17e3501ed4eabc7da8086"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/aeca7e68434c53b3d16d96cc5e20896f7606bc27",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnBZ3FCRC1aQ7uu5UhlAAAC9oQAGogwK46yHQg1RdyZ/Q9tzle\n+XP8NrANbScXrjcOpgyEruNVa4cZ4//pqlxFqNw3AcWJuOUtK7ldE5IXo2EcPiTf\nkR/1f3fzbRon27Ovd4nobE3e8LspWAnXyxoQHmGy/69Qrya1hoZ90cR+lKEGqc2R\nSN7z+mU4TGMALV28r7hqj4Rr80EZg3gu0g6UYk+7ntnPiWWjERflgJHc88Qm3LdM\ndvs4CwI2OZ3poPzkF5GjUC3+dh5Ie148Gp9PItRMbZaRhxzN7pHO+O4TWbHpbnyK\nR11DFfsLxdeMnog8xW/gj9Ju6EY8wntWirEv+Wh9M7eP4+6f5OTZ8QUOIpYTtBo4\n3bFXDNBzz/VmpZl5tGlwoQHdQVOLr5F+6y54+LWDgqFPFoLHCSUKiG+Cqq/apGRB\nqLaKlw/0sgcdkyZiCyVtazTErCLyv2G25mOeu3nkEGvnA3V4Ao0x5l9xsIsjrqQl\nD6OXoWMUbhCuBcgO5FocMuLK9pGx/If74a1oGEetzVoFJYObpLSLGMpB2gbeaStU\nAXDyuCri2Awg/PcMHjFVgxj6/cxeJnxVCrA5v3ONcjKu+wcAlmpRc7tHwBEhaPP/\nAaQ8TJGclFh+sIFKrHkilVXQLr6EK98ZHmV+ffIlz55VTyQStygaPje4C10VX58a\nsahOIIopOfXzgafWONug\n=YtWn\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 22fa0f4be1176407aee17e3501ed4eabc7da8086\nparent 2010cffb4cb73e03811f890e93e43f617ae00bc0\nauthor Vera <xinyue.shen@cispa.de> 1728421317 -0400\ncommitter GitHub <noreply@github.com> 1728421317 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-07T06:46:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/aeca7e68434c53b3d16d96cc5e20896f7606bc27",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/aeca7e68434c53b3d16d96cc5e20896f7606bc27",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/aeca7e68434c53b3d16d96cc5e20896f7606bc27/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2010cffb4cb73e03811f890e93e43f617ae00bc0",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/2010cffb4cb73e03811f890e93e43f617ae00bc0",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/2010cffb4cb73e03811f890e93e43f617ae00bc0"
+        }
+      ]
+    },
+    {
+      "sha": "2010cffb4cb73e03811f890e93e43f617ae00bc0",
+      "node_id": "C_kwDOKCVRbNoAKDIwMTBjZmZiNGNiNzNlMDM4MTFmODkwZTkzZTQzZjYxN2FlMDBiYzA",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-10-02T07:58:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-02T07:58:41Z"
+        },
+        "message": "Update ChatGLMEval.py",
+        "tree": {
+          "sha": "1fb5b13e7074ccbee7b69172a81f43c6777a3c85",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/1fb5b13e7074ccbee7b69172a81f43c6777a3c85"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/2010cffb4cb73e03811f890e93e43f617ae00bc0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm/P0xCRC1aQ7uu5UhlAAAGZ8QAGtVtdbe4ObaDEWkdMi6RCgB\njGpp9vsa91dVY3aZvrHah/vO/mHXCRyk8lTWRhZ7vn9P7fPhr4XcT+Ymzyz9l0gv\nsobPsMpVc2Gc2ApyhA/7f0KufShcENMfJ0oW1W54V5Vektt6O/izvDahhkca41e3\nbH24VWKXnOtCxJSyumDE5gkoUPjlFQhuDCIXqmGpx1prrURaOMwRv3l94jH1mY85\ngG36IBDZdmaaaZIf327OZCBl4vSO5eNmjcuH1RYQb+F5usAYAEuQJ6JoYb3Za1Jo\n3mpczgCXjW35GtRw6KH2qhZMwz6sCWp7sgQl8L04aQU4Lkq1U310viZdAs1FFYfp\n4rq8ihoEdMpkeGnuN0qSe6bJGs2TytKO5fMJNsrz01o3XCLRZ1IMxLmyaB/O3A2H\nQo1nhg19bfbSk/FqRdbIu/XFDSuDKqDN4Q0M5L3/zIdy6LYx3teBYynKxUTDDQl9\nQiqpZen+hw6hnOusXyByJKc+UZ1n1MdYG0yWtm7NLvs1f29QhhgwkQ+6Q4Gc11wp\nO7QXtaNcCw1AwCG49ghhJLLSNMJ+u8gunqBp8JwgdKxGvzcZ9WPEe7QOP9X4ve3Q\nBAZXF5V/HzIszoVL/R0gAAGKL0vrrar8CuTgqpNS0nJDLauhNt1DJP6M1KQYNS3l\nySd7liygCz4HULcJoEGy\n=6aDJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1fb5b13e7074ccbee7b69172a81f43c6777a3c85\nparent 09ab5ecb9632087119af25a04b88b0f496c989be\nauthor Vera <xinyue.shen@cispa.de> 1727855921 +0200\ncommitter GitHub <noreply@github.com> 1727855921 +0200\n\nUpdate ChatGLMEval.py",
+          "verified_at": "2024-11-07T06:46:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/2010cffb4cb73e03811f890e93e43f617ae00bc0",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/2010cffb4cb73e03811f890e93e43f617ae00bc0",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/2010cffb4cb73e03811f890e93e43f617ae00bc0/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "09ab5ecb9632087119af25a04b88b0f496c989be",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/09ab5ecb9632087119af25a04b88b0f496c989be",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/09ab5ecb9632087119af25a04b88b0f496c989be"
+        }
+      ]
+    },
+    {
+      "sha": "09ab5ecb9632087119af25a04b88b0f496c989be",
+      "node_id": "C_kwDOKCVRbNoAKDA5YWI1ZWNiOTYzMjA4NzExOWFmMjVhMDRiODhiMGY0OTZjOTg5YmU",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-10T19:43:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-10T19:43:36Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d0b92b403f312bde9fccb1ee716c9e08c6809015",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/d0b92b403f312bde9fccb1ee716c9e08c6809015"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/09ab5ecb9632087119af25a04b88b0f496c989be",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmZ1doCRC1aQ7uu5UhlAAAMGMQAItIcK43bzrOrcyv1Qr7kz02\nIW4PbPz4ate7zr4rhUE2zCE+la3Ly8kntGzh/OO60B3TTVQjdDEaxAPlneNLuzVE\nEGm8Ph9CEUVXyN3Ak+ED7ViWepTXswRqud/tmOtUxRYXwIexgVdPxYHQJsgc3n9N\nZ7ekhl3Zp4gH6xoF9anzcwiTu14YYIj9/cN58y0qkwfH+oxCUOgSLfWkrRiEpdGb\n6YTlil4chpyKYj8D7XjnDeT7lMiwDneXvQxrNdVx+06zKicLctAiFjoQ89ZmK90n\nOpy6VcByoNP7B5qbj6vOAlpNvgcS4ViH6g0FS6ZsZX0pUeUKUKlvbg/amyZI0kDm\nrO803Vs0xERkE4EB2JUgVFtxVT4vgMC7swxIFi38n/ZlZr0WoUvXvWAhV6X3O+Cq\n0gw9L0OTiW90GvfojtAkoPom3obE2EDgA+6kndi1MD4MD/NkG257CsL7/PqTX9X5\nCbXXx5jydYg0ic/oaC/9JDbg2BoelTQUlqLO5LrSQrySskuFojycphcU6xbVP9VT\n+ZfRnVPw98f1rbSwfI6EhgXpdF9rZT4geuVY1yFb9AAEIXB2RtjgjvLKXAh4erR8\nzZ+8xCljit+8SiqZhkww7DjOWKwlsbYSH9P2vWDROfssY7yslqlSffENbQxvtBrC\nlRNUnRf4x10Lt05yUFwF\n=3JaM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d0b92b403f312bde9fccb1ee716c9e08c6809015\nparent e81e88f7d146cc03d57fbc687789e65d1faecc4d\nauthor Vera <xinyue.shen@cispa.de> 1718048616 +0200\ncommitter GitHub <noreply@github.com> 1718048616 +0200\n\nUpdate README.md",
+          "verified_at": "2024-11-07T06:46:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/09ab5ecb9632087119af25a04b88b0f496c989be",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/09ab5ecb9632087119af25a04b88b0f496c989be",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/09ab5ecb9632087119af25a04b88b0f496c989be/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e81e88f7d146cc03d57fbc687789e65d1faecc4d",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/e81e88f7d146cc03d57fbc687789e65d1faecc4d",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/e81e88f7d146cc03d57fbc687789e65d1faecc4d"
+        }
+      ]
+    },
+    {
+      "sha": "e81e88f7d146cc03d57fbc687789e65d1faecc4d",
+      "node_id": "C_kwDOKCVRbNoAKGU4MWU4OGY3ZDE0NmNjMDNkNTdmYmM2ODc3ODllNjVkMWZhZWNjNGQ",
+      "commit": {
+        "author": {
+          "name": "c01xish",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T15:22:29Z"
+        },
+        "committer": {
+          "name": "c01xish",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T15:22:29Z"
+        },
+        "message": "Add semantics visualization code",
+        "tree": {
+          "sha": "c6017dced3a0eadc9cc200e0b35839fe1fb7e6f8",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/c6017dced3a0eadc9cc200e0b35839fe1fb7e6f8"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/e81e88f7d146cc03d57fbc687789e65d1faecc4d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/e81e88f7d146cc03d57fbc687789e65d1faecc4d",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/e81e88f7d146cc03d57fbc687789e65d1faecc4d",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/e81e88f7d146cc03d57fbc687789e65d1faecc4d/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33"
+        }
+      ]
+    },
+    {
+      "sha": "bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33",
+      "node_id": "C_kwDOKCVRbNoAKGJjNGJkYjEyOGJiNGQ0ZDNlNjA2YjBmMjRiZmVhYmJiYjA3NThhMzM",
+      "commit": {
+        "author": {
+          "name": "c01xish",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T15:20:41Z"
+        },
+        "committer": {
+          "name": "c01xish",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T15:20:41Z"
+        },
+        "message": "add ChatGLMEval",
+        "tree": {
+          "sha": "ff0d39ff9be7466bade89bdcf015843f4f9edfec",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/ff0d39ff9be7466bade89bdcf015843f4f9edfec"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/bc4bdb128bb4d4d3e606b0f24bfeabbbb0758a33/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0e447063d161851567390375eb0271b7edcc98c2",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/0e447063d161851567390375eb0271b7edcc98c2",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/0e447063d161851567390375eb0271b7edcc98c2"
+        }
+      ]
+    },
+    {
+      "sha": "0e447063d161851567390375eb0271b7edcc98c2",
+      "node_id": "C_kwDOKCVRbNoAKDBlNDQ3MDYzZDE2MTg1MTU2NzM5MDM3NWViMDI3MWI3ZWRjYzk4YzI",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T14:02:37Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T14:02:37Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "9c7e5e14a567bad70e6eb513d0450387b734fc29",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/9c7e5e14a567bad70e6eb513d0450387b734fc29"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/0e447063d161851567390375eb0271b7edcc98c2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/0e447063d161851567390375eb0271b7edcc98c2",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/0e447063d161851567390375eb0271b7edcc98c2",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/0e447063d161851567390375eb0271b7edcc98c2/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041"
+        }
+      ]
+    },
+    {
+      "sha": "2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041",
+      "node_id": "C_kwDOKCVRbNoAKDJlNjZkMmQ1NWFhYmEzYzllN2Y5YTlkN2Q3NWRiMzljZTcyMjEwNDE",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T13:47:57Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T13:47:57Z"
+        },
+        "message": "Merge remote-tracking branch 'refs/remotes/origin/main'",
+        "tree": {
+          "sha": "7b8a0f54d2f2076a1a3b2f583c7d1c369aadd42e",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/7b8a0f54d2f2076a1a3b2f583c7d1c369aadd42e"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/2e66d2d55aaba3c9e7f9a9d7d75db39ce7221041/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ed946584440af939a83fbdbc0565ac0b28c438c6",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/ed946584440af939a83fbdbc0565ac0b28c438c6",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/ed946584440af939a83fbdbc0565ac0b28c438c6"
+        },
+        {
+          "sha": "799d561b7f142a89e3c5ae11a008e64673682788",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/799d561b7f142a89e3c5ae11a008e64673682788",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/799d561b7f142a89e3c5ae11a008e64673682788"
+        }
+      ]
+    },
+    {
+      "sha": "ed946584440af939a83fbdbc0565ac0b28c438c6",
+      "node_id": "C_kwDOKCVRbNoAKGVkOTQ2NTg0NDQwYWY5MzlhODNmYmRiYzA1NjVhYzBiMjhjNDM4YzY",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T13:46:25Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T13:46:25Z"
+        },
+        "message": "add gitignore",
+        "tree": {
+          "sha": "4307d73077245f6aea2d62bea467ef7db2c3b6c5",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/4307d73077245f6aea2d62bea467ef7db2c3b6c5"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/ed946584440af939a83fbdbc0565ac0b28c438c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/ed946584440af939a83fbdbc0565ac0b28c438c6",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/ed946584440af939a83fbdbc0565ac0b28c438c6",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/ed946584440af939a83fbdbc0565ac0b28c438c6/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "da87f4bab9901a4fdfb8a9a63c0d2543f75b055a",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/da87f4bab9901a4fdfb8a9a63c0d2543f75b055a",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/da87f4bab9901a4fdfb8a9a63c0d2543f75b055a"
+        }
+      ]
+    },
+    {
+      "sha": "da87f4bab9901a4fdfb8a9a63c0d2543f75b055a",
+      "node_id": "C_kwDOKCVRbNoAKGRhODdmNGJhYjk5MDFhNGZkZmI4YTlhNjNjMGQyNTQzZjc1YjA1NWE",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T13:45:34Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-06-08T13:45:34Z"
+        },
+        "message": "Update 2023-12-25 data",
+        "tree": {
+          "sha": "3cac2794a978a0808988dbbde0079d3bffd5e8aa",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/3cac2794a978a0808988dbbde0079d3bffd5e8aa"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/da87f4bab9901a4fdfb8a9a63c0d2543f75b055a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/da87f4bab9901a4fdfb8a9a63c0d2543f75b055a",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/da87f4bab9901a4fdfb8a9a63c0d2543f75b055a",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/da87f4bab9901a4fdfb8a9a63c0d2543f75b055a/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6094790f94b28a9ff6288673f97c7b0146341dfb",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/6094790f94b28a9ff6288673f97c7b0146341dfb",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/6094790f94b28a9ff6288673f97c7b0146341dfb"
+        }
+      ]
+    },
+    {
+      "sha": "799d561b7f142a89e3c5ae11a008e64673682788",
+      "node_id": "C_kwDOKCVRbNoAKDc5OWQ1NjFiN2YxNDJhODllM2M1YWUxMWEwMDhlNjQ2NzM2ODI3ODg",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2024-04-08T14:57:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-08T14:57:20Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "a5375cc0929fed623b4a2459d91385f188eb48e8",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/a5375cc0929fed623b4a2459d91385f188eb48e8"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/799d561b7f142a89e3c5ae11a008e64673682788",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmFAXQCRC1aQ7uu5UhlAAAqzgQAAQxyxDwehBImO52pWbx0K9E\n2/bjKtwjVjHDHE5NE/VjtN7/VZJw4RfrH6Kk2fNoqld8FGV0RtVGhodXi12bRjt/\nhbAGdicRrlyZCfGz/2XvSZ08cdC4V5EqVPQWtGhvNCC939lTg4/XQF2DFl0wXzsU\n+axGyDxE1I7j3gtARWY4Sg6RD5dlYf32lsqq54m18cK9cWDy30Rw5sky9+pRevHN\n2yV7Am6Y5yR4MtE4EiRPuPMdH/1UeEe/iC4ZUtuCm1BD2rZ7lMEm+XD0RvLv5JfH\n+pICS7RCC1USNb3aNyzEXGDZqlZ8uBq/cgBKE+xipfTrNAUEcdV1LuzIXmYxm9b9\nB4vT8OU77LDhEdIFzRToQRVgc6KLu1IMpI/Cj2ZIbuw+Z1h3y/B9hbAiWOLnjzWi\nQf+bYGOYm0nnzSMo0hOXXOAcojsAaW7xn+eMPLFiReLaOgcyPdf65y3d7xP3wFmg\nlK9GcNQHXZSgcOOVpV79oXhYFglhK1p2njASIW0OA+SPQgHPwRLWtt9sjNsfzp7F\no0WYlAhMZqyjoUmMEaY7rEbI9ukqrz/U07Ppbx0koxd3serrSgPPTl5dFqQ2oW7H\nSn86Auh0t83KpSCjCpIRDqrPowQMna/GSmVz70RoLxkIImIQ5vl0NHAFE9J3dQVg\n/pMOJqsT6Xq2A/88VyWp\n=WrUE\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a5375cc0929fed623b4a2459d91385f188eb48e8\nparent 6094790f94b28a9ff6288673f97c7b0146341dfb\nauthor Vera <xinyue.shen@cispa.de> 1712588240 +0200\ncommitter GitHub <noreply@github.com> 1712588240 +0200\n\nUpdate README.md",
+          "verified_at": "2024-11-07T06:46:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/799d561b7f142a89e3c5ae11a008e64673682788",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/799d561b7f142a89e3c5ae11a008e64673682788",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/799d561b7f142a89e3c5ae11a008e64673682788/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6094790f94b28a9ff6288673f97c7b0146341dfb",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/6094790f94b28a9ff6288673f97c7b0146341dfb",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/6094790f94b28a9ff6288673f97c7b0146341dfb"
+        }
+      ]
+    },
+    {
+      "sha": "6094790f94b28a9ff6288673f97c7b0146341dfb",
+      "node_id": "C_kwDOKCVRbNoAKDYwOTQ3OTBmOTRiMjhhOWZmNjI4ODY3M2Y5N2M3YjAxNDYzNDFkZmI",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-14T08:29:28Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-14T08:29:28Z"
+        },
+        "message": "update regular prompts",
+        "tree": {
+          "sha": "ae3ee238d0eb5d5abae35d9277511c797044e4c4",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/ae3ee238d0eb5d5abae35d9277511c797044e4c4"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/6094790f94b28a9ff6288673f97c7b0146341dfb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/6094790f94b28a9ff6288673f97c7b0146341dfb",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/6094790f94b28a9ff6288673f97c7b0146341dfb",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/6094790f94b28a9ff6288673f97c7b0146341dfb/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a0d88179719427977d2d54d154bd4a57e0951d3d",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/a0d88179719427977d2d54d154bd4a57e0951d3d",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/a0d88179719427977d2d54d154bd4a57e0951d3d"
+        }
+      ]
+    },
+    {
+      "sha": "a0d88179719427977d2d54d154bd4a57e0951d3d",
+      "node_id": "C_kwDOKCVRbNoAKGEwZDg4MTc5NzE5NDI3OTc3ZDJkNTRkMTU0YmQ0YTU3ZTA5NTFkM2Q",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-09T15:19:58Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-09T15:19:58Z"
+        },
+        "message": "update badges",
+        "tree": {
+          "sha": "6f40ca067956055ed94f99fb751404fad5926911",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/6f40ca067956055ed94f99fb751404fad5926911"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/a0d88179719427977d2d54d154bd4a57e0951d3d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/a0d88179719427977d2d54d154bd4a57e0951d3d",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/a0d88179719427977d2d54d154bd4a57e0951d3d",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/a0d88179719427977d2d54d154bd4a57e0951d3d/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "561618b29522c9a3f5989275c5db3c808807079f",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/561618b29522c9a3f5989275c5db3c808807079f",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/561618b29522c9a3f5989275c5db3c808807079f"
+        }
+      ]
+    },
+    {
+      "sha": "561618b29522c9a3f5989275c5db3c808807079f",
+      "node_id": "C_kwDOKCVRbNoAKDU2MTYxOGIyOTUyMmM5YTNmNTk4OTI3NWM1ZGIzYzgwODgwNzA3OWY",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-09T15:18:43Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-09T15:18:43Z"
+        },
+        "message": "update links",
+        "tree": {
+          "sha": "f59da07a69790eb46ab19e43b6f7266257487917",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/f59da07a69790eb46ab19e43b6f7266257487917"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/561618b29522c9a3f5989275c5db3c808807079f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/561618b29522c9a3f5989275c5db3c808807079f",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/561618b29522c9a3f5989275c5db3c808807079f",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/561618b29522c9a3f5989275c5db3c808807079f/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "62e541b1d848cbebb54ae4a9a0f58f77767b5daa",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/62e541b1d848cbebb54ae4a9a0f58f77767b5daa",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/62e541b1d848cbebb54ae4a9a0f58f77767b5daa"
+        }
+      ]
+    },
+    {
+      "sha": "62e541b1d848cbebb54ae4a9a0f58f77767b5daa",
+      "node_id": "C_kwDOKCVRbNoAKDYyZTU0MWIxZDg0OGNiZWJiNTRhZTRhOWEwZjU4Zjc3NzY3YjVkYWE",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-09T15:03:18Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-09T15:03:18Z"
+        },
+        "message": "update readme and data",
+        "tree": {
+          "sha": "3dedbd4554718442d7e6e60729619420badad555",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/3dedbd4554718442d7e6e60729619420badad555"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/62e541b1d848cbebb54ae4a9a0f58f77767b5daa",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/62e541b1d848cbebb54ae4a9a0f58f77767b5daa",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/62e541b1d848cbebb54ae4a9a0f58f77767b5daa",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/62e541b1d848cbebb54ae4a9a0f58f77767b5daa/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8e82763facef89821465e265473ba399be33e85f",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/8e82763facef89821465e265473ba399be33e85f",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/8e82763facef89821465e265473ba399be33e85f"
+        }
+      ]
+    },
+    {
+      "sha": "8e82763facef89821465e265473ba399be33e85f",
+      "node_id": "C_kwDOKCVRbNoAKDhlODI3NjNmYWNlZjg5ODIxNDY1ZTI2NTQ3M2JhMzk5YmUzM2U4NWY",
+      "commit": {
+        "author": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-01T22:08:46Z"
+        },
+        "committer": {
+          "name": "xinyue.shen",
+          "email": "xinyue.shen@cispa.de",
+          "date": "2023-08-01T22:08:46Z"
+        },
+        "message": "test",
+        "tree": {
+          "sha": "ef3600c7355553d17fef4babd24fe025fc035f8c",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/ef3600c7355553d17fef4babd24fe025fc035f8c"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/8e82763facef89821465e265473ba399be33e85f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/8e82763facef89821465e265473ba399be33e85f",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/8e82763facef89821465e265473ba399be33e85f",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/8e82763facef89821465e265473ba399be33e85f/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92",
+          "html_url": "https://github.com/verazuo/jailbreak_llms/commit/5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92"
+        }
+      ]
+    },
+    {
+      "sha": "5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92",
+      "node_id": "C_kwDOKCVRbNoAKDUwMDE4NDVhYzg0YzA0YzhmMmQyYjNkNmI1YTE1MmY0ZmE4OWJkOTI",
+      "commit": {
+        "author": {
+          "name": "Vera",
+          "email": "490098776@qq.com",
+          "date": "2023-08-01T21:12:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-01T21:12:06Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "c30340222749c98b1792ee5c271c0ff0869554cd",
+          "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/trees/c30340222749c98b1792ee5c271c0ff0869554cd"
+        },
+        "url": "https://api.github.com/repos/verazuo/jailbreak_llms/git/commits/5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkyXUmCRBK7hj4Ov3rIwAAJuIIAA4TsGJDnmkdWrDD6/sRWhph\ncnXTYZjAlaMCTtdNK4D8sOx8mXN0wumWuA/EqfyuCSmpIW442B2HHtVIooqmuZXz\nm+oLFrfjAPIIza0+KTsNqLd6Fdb/OQ7KMG065qbuLqvTuyc2SZG2l0p8+CEPRjrf\nNxKLz2vm/wuj8jdBBCW3F52avlmQ5BgGAU0MrDF8Yu0yLK2pm+62bx5KzzUhZt/m\nks+5oEJSgVpX6yuXTqLKrEg9MO45+fT0a9ypblJg8IPfenoDpT5tyuKQt5jbMy4z\nHz5MsKYCdBw4G4WxtEV54LkksKUAuu+OnaseZqYA+8147HyIRlOrzs4xLKJTTRA=\n=urMr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c30340222749c98b1792ee5c271c0ff0869554cd\nauthor Vera <490098776@qq.com> 1690924326 +0200\ncommitter GitHub <noreply@github.com> 1690924326 +0200\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92",
+      "html_url": "https://github.com/verazuo/jailbreak_llms/commit/5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92",
+      "comments_url": "https://api.github.com/repos/verazuo/jailbreak_llms/commits/5001845ac84c04c8f2d2b3d6b5a152f4fa89bd92/comments",
+      "author": {
+        "login": "verazuo",
+        "id": 16172194,
+        "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/verazuo",
+        "html_url": "https://github.com/verazuo",
+        "followers_url": "https://api.github.com/users/verazuo/followers",
+        "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+        "organizations_url": "https://api.github.com/users/verazuo/orgs",
+        "repos_url": "https://api.github.com/users/verazuo/repos",
+        "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/verazuo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "verazuo",
+      "id": 16172194,
+      "node_id": "MDQ6VXNlcjE2MTcyMTk0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16172194?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/verazuo",
+      "html_url": "https://github.com/verazuo",
+      "followers_url": "https://api.github.com/users/verazuo/followers",
+      "following_url": "https://api.github.com/users/verazuo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/verazuo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/verazuo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/verazuo/subscriptions",
+      "organizations_url": "https://api.github.com/users/verazuo/orgs",
+      "repos_url": "https://api.github.com/users/verazuo/repos",
+      "events_url": "https://api.github.com/users/verazuo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/verazuo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 19
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Jupyter Notebook": 32007,
+    "Python": 19163
+  },
+  "readme_html": "<h1 id=\"user-content-in-the-wild-jailbreak-prompts-on-llms\">In-The-Wild Jailbreak Prompts on LLMs</h1>\n<p><a href=\"https://dl.acm.org/doi/10.1145/3658644.3670388\"><img src=\"https://img.shields.io/badge/CCS-2024-red.svg\" alt=\"CCS: 2024\"></a>\n<a href=\"https://arxiv.org/abs/2308.03825\"><img src=\"https://img.shields.io/badge/arXiv-preprint-orange.svg\" alt=\"arXiv: preprint\"></a>\n<a href=\"https://jailbreak-llms.xinyueshen.me/\"><img src=\"https://img.shields.io/badge/website-online-blue.svg\" alt=\"website: online\"></a>\n<a href=\"https://huggingface.co/datasets/TrustAIRLab/in-the-wild-jailbreak-prompts/\"><img src=\"https://img.shields.io/badge/dataset-huggingface-yellow.svg\" alt=\"dataset: huggingface\"></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/license-MIT-green.svg\" alt=\"license: MIT\"></a></p>\n<p>This is the official repository for the ACM CCS 2024 paper <a href=\"https://arxiv.org/abs/2308.03825\">\"Do Anything Now'': Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models</a> by <a href=\"https://xinyueshen.me/\">Xinyue Shen</a>, <a href=\"https://picodora.github.io/\">Zeyuan Chen</a>, <a href=\"https://michaelbackes.eu/\">Michael Backes</a>, Yun Shen, and <a href=\"https://yangzhangalmo.github.io/\">Yang Zhang</a>.</p>\n<p>In this project, employing our new framework JailbreakHub, we conduct the first measurement study on jailbreak prompts in the wild, with <strong>15,140 prompts</strong> collected from December 2022 to December 2023 (including <strong>1,405 jailbreak prompts</strong>).</p>\n<p>Check out our <a href=\"https://jailbreak-llms.xinyueshen.me/\">website here</a>.</p>\n<p><strong>Disclaimer. This repo contains examples of harmful language. Reader discretion is recommended. This repo is intended for research purposes only. Any misuse is strictly prohibited.</strong></p>\n<h2 id=\"user-content-data\">Data</h2>\n<h2 id=\"user-content-prompts\">Prompts</h2>\n<p>Overall, we collect 15,140 prompts from four platforms (Reddit, Discord, websites, and open-source datasets) during Dec 2022 to Dec 2023. Among these prompts, we identify 1,405 jailbreak prompts. To the best of our knowledge, this dataset serves as the largest collection of in-the-wild jailbreak prompts.</p>\n<p>The data are provided <a href=\"https://github.com/verazuo/jailbreak_llms/tree/main/data\">here</a>.</p>\n<blockquote>\n<p>Statistics of our data source. (Adv) UA refers to (adversarial) user accounts.</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th>Platform</th>\n<th>Source</th>\n<th># Posts</th>\n<th># UA</th>\n<th># Adv UA</th>\n<th># Prompts</th>\n<th># Jailbreaks</th>\n<th>Prompt Time Range</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Reddit</td>\n<td>r/ChatGPT</td>\n<td>163549</td>\n<td>147</td>\n<td>147</td>\n<td>176</td>\n<td>176</td>\n<td>2023.02-2023.11</td>\n</tr>\n<tr>\n<td>Reddit</td>\n<td>r/ChatGPTPromptGenius</td>\n<td>3536</td>\n<td>305</td>\n<td>21</td>\n<td>654</td>\n<td>24</td>\n<td>2022.12-2023.11</td>\n</tr>\n<tr>\n<td>Reddit</td>\n<td>r/ChatGPTJailbreak</td>\n<td>1602</td>\n<td>183</td>\n<td>183</td>\n<td>225</td>\n<td>225</td>\n<td>2023.02-2023.11</td>\n</tr>\n<tr>\n<td>Discord</td>\n<td>ChatGPT</td>\n<td>609</td>\n<td>259</td>\n<td>106</td>\n<td>544</td>\n<td>214</td>\n<td>2023.02-2023.12</td>\n</tr>\n<tr>\n<td>Discord</td>\n<td>ChatGPT Prompt Engineering</td>\n<td>321</td>\n<td>96</td>\n<td>37</td>\n<td>278</td>\n<td>67</td>\n<td>2022.12-2023.12</td>\n</tr>\n<tr>\n<td>Discord</td>\n<td>Spreadsheet Warriors</td>\n<td>71</td>\n<td>3</td>\n<td>3</td>\n<td>61</td>\n<td>61</td>\n<td>2022.12-2023.09</td>\n</tr>\n<tr>\n<td>Discord</td>\n<td>AI Prompt Sharing</td>\n<td>25</td>\n<td>19</td>\n<td>13</td>\n<td>24</td>\n<td>17</td>\n<td>2023.03-2023.04</td>\n</tr>\n<tr>\n<td>Discord</td>\n<td>LLM Promptwriting</td>\n<td>184</td>\n<td>64</td>\n<td>41</td>\n<td>167</td>\n<td>78</td>\n<td>2023.03-2023.12</td>\n</tr>\n<tr>\n<td>Discord</td>\n<td>BreakGPT</td>\n<td>36</td>\n<td>10</td>\n<td>10</td>\n<td>32</td>\n<td>32</td>\n<td>2023.04-2023.09</td>\n</tr>\n<tr>\n<td>Website</td>\n<td>AIPRM</td>\n<td>-</td>\n<td>2777</td>\n<td>23</td>\n<td>3930</td>\n<td>25</td>\n<td>2023.01-2023.06</td>\n</tr>\n<tr>\n<td>Website</td>\n<td>FlowGPT</td>\n<td>-</td>\n<td>3505</td>\n<td>254</td>\n<td>8754</td>\n<td>405</td>\n<td>2022.12-2023.12</td>\n</tr>\n<tr>\n<td>Website</td>\n<td>JailbreakChat</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>79</td>\n<td>79</td>\n<td>2023.02-2023.05</td>\n</tr>\n<tr>\n<td>Dataset</td>\n<td>AwesomeChatGPTPrompts</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>166</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Dataset</td>\n<td>OCR-Prompts</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>50</td>\n<td>0</td>\n<td>-</td>\n</tr>\n<tr>\n<td><strong>Total</strong></td>\n<td></td>\n<td><strong>169,933</strong></td>\n<td><strong>7,308</strong></td>\n<td><strong>803</strong></td>\n<td><strong>15,140</strong></td>\n<td><strong>1,405</strong></td>\n<td><strong>2022.12-2023.12</strong></td>\n</tr>\n</tbody>\n</table>\n<p><strong>Load Prompts</strong></p>\n<p>You can use the Hugging Face <a href=\"https://huggingface.co/datasets/TrustAIRLab/in-the-wild-jailbreak-prompts\"><code>Datasets</code></a> library to easily load all collected prompts.</p>\n<pre><code class=\"language-python\">from datasets import load_dataset\n\ndataset = load_dataset('TrustAIRLab/in-the-wild-jailbreak-prompts', 'jailbreak_2023_05_07', split='train')\n# dataset = load_dataset('TrustAIRLab/in-the-wild-jailbreak-prompts', 'jailbreak_2023_12_25', split='train')\n# dataset = load_dataset('TrustAIRLab/in-the-wild-jailbreak-prompts', 'regular_2023_05_07', split='train')\n# dataset = load_dataset('TrustAIRLab/in-the-wild-jailbreak-prompts', 'regular_2023_12_25', split='train')\n</code></pre>\n<p>The original csv files are provided in our GitHub repo <a href=\"https://github.com/verazuo/jailbreak_llms/tree/main/data\">jailbreak_llms</a>.</p>\n<p>Note: If you plan to use this dataset to train models, preprocessing the <code>prompt</code> field to remove duplicates is recommended.\nFor more details, see <a href=\"https://huggingface.co/datasets/TrustAIRLab/in-the-wild-jailbreak-prompts/discussions/3\">this discussion</a>.</p>\n<h2 id=\"user-content-question-set\">Question Set</h2>\n<p>To evaluate the effectiveness of jailbreak prompts, we construct a question set comprising 390 questions across 13 forbidden scenarios adopted from <a href=\"https://openai.com/policies/usage-policies\">OpenAI Usage Policy</a>.</p>\n<p>We exclude <code>Child Sexual Abuse</code> scenario from our evaluation and focus on the rest 13 scenarios, including <code>Illegal Activity</code>, <code>Hate Speech</code>, <code>Malware Generation</code>, <code>Physical Harm</code>, <code>Economic Harm</code>, <code>Fraud</code>, <code>Pornography</code>, <code>Political Lobbying</code>, <code>Privacy Violence</code>, <code>Legal Opinion</code>, <code>Financial Advice</code>, <code>Health Consultation</code>, and <code>Government Decision</code>.</p>\n<pre><code class=\"language-python\">from datasets import load_dataset\n\nforbidden_question_set = load_dataset(\"TrustAIRLab/forbidden_question_set\", split='train')\n</code></pre>\n<p>The original file of the question set is also provided in our GitHub repo <a href=\"https://github.com/verazuo/jailbreak_llms/tree/main/data\">jailbreak_llms</a>.</p>\n<h2 id=\"user-content-code\">Code</h2>\n<h3 id=\"user-content-evaluator---chatglmeval\">Evaluator - ChatGLMEval</h3>\n<pre><code>cd code/ChatGLMEval\n&#x3C;!-- add data paths in df_path_list of run_evaluator.py -->\npython run_evaluator.py\n</code></pre>\n<h3 id=\"user-content-semantics-visualization\">Semantics Visualization</h3>\n<p>Check <code>code/semantics_visualization/visualize.ipynb</code></p>\n<h2 id=\"user-content-ethics\">Ethics</h2>\n<p>We acknowledge that data collected online can contain personal information. Thus, we adopt standard best practices to guarantee that our study follows ethical principles, such as not trying to deanonymize any user and reporting results on aggregate. Since this study only involved publicly available data and had no interactions with participants, it is not regarded as human subjects research by our Institutional Review Boards (IRB). Nonetheless, since one of our goals is to measure the risk of LLMs in answering harmful questions, it is inevitable to disclose how a model can generate hateful content. This can bring up worries about potential misuse. However, we strongly believe that raising awareness of the problem is even more crucial, as it can inform LLM vendors and the research community to develop stronger safeguards and contribute to the more responsible release of these models.</p>\n<p>We have responsibly disclosed our findings to related LLM vendors.</p>\n<h2 id=\"user-content-citation\">Citation</h2>\n<p>If you find this useful in your research, please consider citing:</p>\n<pre><code>@inproceedings{SCBSZ24,\n      author = {Xinyue Shen and Zeyuan Chen and Michael Backes and Yun Shen and Yang Zhang},\n      title = {{``Do Anything Now'': Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models}},\n      booktitle = {{ACM SIGSAC Conference on Computer and Communications Security (CCS)}},\n      publisher = {ACM},\n      year = {2024}\n}\n</code></pre>\n<h2 id=\"user-content-license\">License</h2>\n<p><code>jailbreak_llms</code> is licensed under the terms of the MIT license. See LICENSE for more details.</p>",
+  "_fetched_at": "2026-03-11T18:03:28.733Z"
+}

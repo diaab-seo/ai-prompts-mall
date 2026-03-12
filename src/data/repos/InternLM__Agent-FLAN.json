@@ -1,0 +1,1416 @@
+{
+  "id": 772684479,
+  "node_id": "R_kgDOLg46vw",
+  "name": "Agent-FLAN",
+  "full_name": "InternLM/Agent-FLAN",
+  "private": false,
+  "owner": {
+    "login": "InternLM",
+    "id": 135356492,
+    "node_id": "O_kgDOCBFgTA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/135356492?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/InternLM",
+    "html_url": "https://github.com/InternLM",
+    "followers_url": "https://api.github.com/users/InternLM/followers",
+    "following_url": "https://api.github.com/users/InternLM/following{/other_user}",
+    "gists_url": "https://api.github.com/users/InternLM/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/InternLM/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/InternLM/subscriptions",
+    "organizations_url": "https://api.github.com/users/InternLM/orgs",
+    "repos_url": "https://api.github.com/users/InternLM/repos",
+    "events_url": "https://api.github.com/users/InternLM/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/InternLM/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/InternLM/Agent-FLAN",
+  "description": "[ACL2024 Findings] Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models",
+  "fork": false,
+  "url": "https://api.github.com/repos/InternLM/Agent-FLAN",
+  "forks_url": "https://api.github.com/repos/InternLM/Agent-FLAN/forks",
+  "keys_url": "https://api.github.com/repos/InternLM/Agent-FLAN/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/InternLM/Agent-FLAN/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/InternLM/Agent-FLAN/teams",
+  "hooks_url": "https://api.github.com/repos/InternLM/Agent-FLAN/hooks",
+  "issue_events_url": "https://api.github.com/repos/InternLM/Agent-FLAN/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/InternLM/Agent-FLAN/events",
+  "assignees_url": "https://api.github.com/repos/InternLM/Agent-FLAN/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/InternLM/Agent-FLAN/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/InternLM/Agent-FLAN/tags",
+  "blobs_url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/InternLM/Agent-FLAN/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/InternLM/Agent-FLAN/languages",
+  "stargazers_url": "https://api.github.com/repos/InternLM/Agent-FLAN/stargazers",
+  "contributors_url": "https://api.github.com/repos/InternLM/Agent-FLAN/contributors",
+  "subscribers_url": "https://api.github.com/repos/InternLM/Agent-FLAN/subscribers",
+  "subscription_url": "https://api.github.com/repos/InternLM/Agent-FLAN/subscription",
+  "commits_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/InternLM/Agent-FLAN/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/InternLM/Agent-FLAN/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/InternLM/Agent-FLAN/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/InternLM/Agent-FLAN/merges",
+  "archive_url": "https://api.github.com/repos/InternLM/Agent-FLAN/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/InternLM/Agent-FLAN/downloads",
+  "issues_url": "https://api.github.com/repos/InternLM/Agent-FLAN/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/InternLM/Agent-FLAN/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/InternLM/Agent-FLAN/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/InternLM/Agent-FLAN/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/InternLM/Agent-FLAN/labels{/name}",
+  "releases_url": "https://api.github.com/repos/InternLM/Agent-FLAN/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/deployments",
+  "created_at": "2024-03-15T17:21:23Z",
+  "updated_at": "2026-03-06T03:07:01Z",
+  "pushed_at": "2024-03-22T15:12:14Z",
+  "git_url": "git://github.com/InternLM/Agent-FLAN.git",
+  "ssh_url": "git@github.com:InternLM/Agent-FLAN.git",
+  "clone_url": "https://github.com/InternLM/Agent-FLAN.git",
+  "svn_url": "https://github.com/InternLM/Agent-FLAN",
+  "homepage": "https://internlm.github.io/Agent-FLAN/",
+  "size": 775,
+  "stargazers_count": 359,
+  "watchers_count": 359,
+  "language": null,
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": true,
+  "has_discussions": false,
+  "forks_count": 10,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 11,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "agent",
+    "chatbot",
+    "fine-tuning-llm",
+    "gpt",
+    "large-language-model",
+    "llm"
+  ],
+  "visibility": "public",
+  "forks": 10,
+  "open_issues": 11,
+  "watchers": 359,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "prompt-engineering",
+  "commits": [
+    {
+      "sha": "14ac7f78faf06eba025d36bcbd6cdc2c7290d6f6",
+      "node_id": "C_kwDOLg46v9oAKDE0YWM3Zjc4ZmFmMDZlYmEwMjVkMzZiY2JkNmNkYzJjNzI5MGQ2ZjY",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-22T05:25:54Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-22T05:25:54Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "cc1c7d5858394442a6f5ed8bc152fda150524b98",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/cc1c7d5858394442a6f5ed8bc152fda150524b98"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/14ac7f78faf06eba025d36bcbd6cdc2c7290d6f6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/14ac7f78faf06eba025d36bcbd6cdc2c7290d6f6",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/14ac7f78faf06eba025d36bcbd6cdc2c7290d6f6",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/14ac7f78faf06eba025d36bcbd6cdc2c7290d6f6/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "476c2dde83c9bde567e42fa28c8c8170bd596f6b",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/476c2dde83c9bde567e42fa28c8c8170bd596f6b",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/476c2dde83c9bde567e42fa28c8c8170bd596f6b"
+        }
+      ]
+    },
+    {
+      "sha": "476c2dde83c9bde567e42fa28c8c8170bd596f6b",
+      "node_id": "C_kwDOLg46v9oAKDQ3NmMyZGRlODNjOWJkZTU2N2U0MmZhMjhjOGM4MTcwYmQ1OTZmNmI",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:54:30Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:54:30Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "4453f7a53d9bbc94f47a3aedae69a87511f15b4f",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/4453f7a53d9bbc94f47a3aedae69a87511f15b4f"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/476c2dde83c9bde567e42fa28c8c8170bd596f6b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/476c2dde83c9bde567e42fa28c8c8170bd596f6b",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/476c2dde83c9bde567e42fa28c8c8170bd596f6b",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/476c2dde83c9bde567e42fa28c8c8170bd596f6b/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1"
+        }
+      ]
+    },
+    {
+      "sha": "e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1",
+      "node_id": "C_kwDOLg46v9oAKGUyYTBhZTZhMmFjMWYwMmY2ODRiMWUxMmQ1N2Q0NDA2N2FjMGQ2ZDE",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:53:40Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:53:40Z"
+        },
+        "message": "resolve conflicts",
+        "tree": {
+          "sha": "c0225ec6861c88b5424fb51157483bf03d0c9077",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/c0225ec6861c88b5424fb51157483bf03d0c9077"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/e2a0ae6a2ac1f02f684b1e12d57d44067ac0d6d1/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b97373df7ae6b19b9934123727c4a6b2cb9126c4",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/b97373df7ae6b19b9934123727c4a6b2cb9126c4",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/b97373df7ae6b19b9934123727c4a6b2cb9126c4"
+        },
+        {
+          "sha": "617e0169bc067bc0dec68bd1d40f27f4815b3c47",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/617e0169bc067bc0dec68bd1d40f27f4815b3c47",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/617e0169bc067bc0dec68bd1d40f27f4815b3c47"
+        }
+      ]
+    },
+    {
+      "sha": "b97373df7ae6b19b9934123727c4a6b2cb9126c4",
+      "node_id": "C_kwDOLg46v9oAKGI5NzM3M2RmN2FlNmIxOWI5OTM0MTIzNzI3YzRhNmIyY2I5MTI2YzQ",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:50:33Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:50:33Z"
+        },
+        "message": "update url for webpage",
+        "tree": {
+          "sha": "e0b4b00ef1e62fc90eaa0de88d2de62d940c1933",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/e0b4b00ef1e62fc90eaa0de88d2de62d940c1933"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/b97373df7ae6b19b9934123727c4a6b2cb9126c4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/b97373df7ae6b19b9934123727c4a6b2cb9126c4",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/b97373df7ae6b19b9934123727c4a6b2cb9126c4",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/b97373df7ae6b19b9934123727c4a6b2cb9126c4/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "98c77c58efcd3cbbfb78062c09765cd6267c8644",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/98c77c58efcd3cbbfb78062c09765cd6267c8644",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/98c77c58efcd3cbbfb78062c09765cd6267c8644"
+        }
+      ]
+    },
+    {
+      "sha": "98c77c58efcd3cbbfb78062c09765cd6267c8644",
+      "node_id": "C_kwDOLg46v9oAKDk4Yzc3YzU4ZWZjZDNjYmJmYjc4MDYyYzA5NzY1Y2Q2MjY3Yzg2NDQ",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:50:02Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:50:02Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "059c9a83dd9b131ca8ef0fb85284abf2c5171a62",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/059c9a83dd9b131ca8ef0fb85284abf2c5171a62"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/98c77c58efcd3cbbfb78062c09765cd6267c8644",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/98c77c58efcd3cbbfb78062c09765cd6267c8644",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/98c77c58efcd3cbbfb78062c09765cd6267c8644",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/98c77c58efcd3cbbfb78062c09765cd6267c8644/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "35d16b78657dc3014ec752249170d6a5f73f6715",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/35d16b78657dc3014ec752249170d6a5f73f6715",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/35d16b78657dc3014ec752249170d6a5f73f6715"
+        }
+      ]
+    },
+    {
+      "sha": "617e0169bc067bc0dec68bd1d40f27f4815b3c47",
+      "node_id": "C_kwDOLg46v9oAKDYxN2UwMTY5YmMwNjdiYzBkZWM2OGJkMWQ0MGYyN2Y0ODE1YjNjNDc",
+      "commit": {
+        "author": {
+          "name": "loveSnowBest",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:24:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-20T09:24:41Z"
+        },
+        "message": "Merge pull request #2 from Harold-lkk/patch-2\n\nupdate openxlab link and log",
+        "tree": {
+          "sha": "bae1cc9c3af1fba34c47151ae5765d057e32ce0a",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/bae1cc9c3af1fba34c47151ae5765d057e32ce0a"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/617e0169bc067bc0dec68bd1d40f27f4815b3c47",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl+qtZCRC1aQ7uu5UhlAAAXsYQAD0VQjUSMbFd7e+JeLf7w/46\nRcA47DroKPeoFOilTP81uw5487HHml/W2yUxXWI7qvsOwjespHlbJCpcjXHUFglj\nFnQHFV5bzTt+ilg46MJPe7Hanlu1VOXwmi7Y47v14AbmUA/5xz6CdKHM4wEP99tU\n37B8QiUk0wNMDDZXy3uH55kLFIVpo6qnN10kLQQ3AWr6iswiyfXuKWzUuU428fSc\ntkF5wNGTbgA1YaySh+HY5iiuG2dCyu3pEBuM4VnxNk0xwOqnxaMNB6JWqCXF8s2y\nzCtLnirv41LGkZ3g9VNCzM/2Z7DErN1kGdSy0Wz+TFSA6UEmKvikCJAiMZxPzAqA\nq/0UxGrWElIR9P21dI/vTTrY99+gF5eEV9ddxVNaqwFnrIjQoLhzvlbyBpSTZhHV\nqgVDezAH5ClfM8d1j0i8IytQWcBEtn5PbdDim9kEQbpK9iOIxGVPpm77Dx8r2uPs\nEUxazOoATBtzAh0UvMF/bZcLVHlTe/0wp+kal9BGI7w283aXzN4GT/2Wemzv+9KA\nx9d48ZySfl53oNNzbodmLRrHaqznw1W0jwKyjEqlQonxoKHIbihvr5iqLVrMLGgf\n6XMPc6X6Qr1ywsA9tTNpnIf1ciuFEnFbznGMW5cfscGjmOhp6+ANf4Ft0bYiYxvN\nKQ7UiVLbxC8m7wNGWB16\n=u0db\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bae1cc9c3af1fba34c47151ae5765d057e32ce0a\nparent 4a09f4a195ea9be17e3096fbe1242c8ca6271478\nparent 3b1a89e7f4eeb4363d5eca04707ef793fa5184a7\nauthor loveSnowBest <lovesnowbest@gmail.com> 1710926681 +0800\ncommitter GitHub <noreply@github.com> 1710926681 +0800\n\nMerge pull request #2 from Harold-lkk/patch-2\n\nupdate openxlab link and log",
+          "verified_at": "2024-12-07T06:59:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/617e0169bc067bc0dec68bd1d40f27f4815b3c47",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/617e0169bc067bc0dec68bd1d40f27f4815b3c47",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/617e0169bc067bc0dec68bd1d40f27f4815b3c47/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/4a09f4a195ea9be17e3096fbe1242c8ca6271478"
+        },
+        {
+          "sha": "3b1a89e7f4eeb4363d5eca04707ef793fa5184a7",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/3b1a89e7f4eeb4363d5eca04707ef793fa5184a7",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/3b1a89e7f4eeb4363d5eca04707ef793fa5184a7"
+        }
+      ]
+    },
+    {
+      "sha": "3b1a89e7f4eeb4363d5eca04707ef793fa5184a7",
+      "node_id": "C_kwDOLg46v9oAKDNiMWE4OWU3ZjRlZWI0MzYzZDVlY2EwNDcwN2VmNzkzZmE1MTg0YTc",
+      "commit": {
+        "author": {
+          "name": "liukuikun",
+          "email": "24622904+Harold-lkk@users.noreply.github.com",
+          "date": "2024-03-20T09:23:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-20T09:23:20Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "bae1cc9c3af1fba34c47151ae5765d057e32ce0a",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/bae1cc9c3af1fba34c47151ae5765d057e32ce0a"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/3b1a89e7f4eeb4363d5eca04707ef793fa5184a7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl+qsICRC1aQ7uu5UhlAAAdFYQAILWauRwuUCpl42qOf/npNw0\ndMGbMFfciUXfVFnkHKNhzuu2pJ6pEVZg1gzZYTSjkVgOxMDU5yptGGfe6jm7EWsA\nj1n7+A9ajMhC4cyA9Vc3GPia8tdOhwsmpZK2iyQa9stQdh1egmOIyzuMvkInYvX+\n/JCrwYRYNQwhC2zSaZom5jbGhjPDFkU+HeJaCC6OvKFn37ZHNcZyFqoYbacRnzr0\nQBlAwOZ1CuoTswD5VY0ESIi8HKPWvTtV5BquWpJQTzWahMV5UHS6898moqI1Lm+d\n4AcPYUnZE7SfG2/46Qmqohl58vApZp6XqXHHfS5YPv/SBoNkgzcw3Qjdg7p+gvU3\n0wyARRpugwO/+dOyT8Q3AXxN6tQ7YZ7Yk2EJZsvw+u/16Yj3juzn16PYaSJd7fpU\nOk0BBtPpKa2rSiygtxcL4GvBRTUivRTAoXihWMDJKD61dmcRQ1Sm6VuL6P4KNe25\nnLGmdQKyHk/tOxe0EzezopaGcA+fDLzjby5sfjvC+f7FJ5T2Z5OR9bwnfk+oZs6n\n6iFJs+eh8SzBkSmmXIdLF+MyzCrpkW0CBQzfcLjxIfExMvUloRbvXsoGgPmiA4GW\njvUpFGzDRA9r3YBdeQO4c05y0lHQUzHJ/KbXS9DatJAg9p4gNVxTCYJf0Hc93IDl\nNe8s+JXxIkPo2DGW9YdN\n=4rMQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bae1cc9c3af1fba34c47151ae5765d057e32ce0a\nparent 4a09f4a195ea9be17e3096fbe1242c8ca6271478\nauthor liukuikun <24622904+Harold-lkk@users.noreply.github.com> 1710926600 +0800\ncommitter GitHub <noreply@github.com> 1710926600 +0800\n\nUpdate README.md",
+          "verified_at": "2024-12-07T06:59:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/3b1a89e7f4eeb4363d5eca04707ef793fa5184a7",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/3b1a89e7f4eeb4363d5eca04707ef793fa5184a7",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/3b1a89e7f4eeb4363d5eca04707ef793fa5184a7/comments",
+      "author": {
+        "login": "Harold-lkk",
+        "id": 24622904,
+        "node_id": "MDQ6VXNlcjI0NjIyOTA0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24622904?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Harold-lkk",
+        "html_url": "https://github.com/Harold-lkk",
+        "followers_url": "https://api.github.com/users/Harold-lkk/followers",
+        "following_url": "https://api.github.com/users/Harold-lkk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Harold-lkk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Harold-lkk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Harold-lkk/subscriptions",
+        "organizations_url": "https://api.github.com/users/Harold-lkk/orgs",
+        "repos_url": "https://api.github.com/users/Harold-lkk/repos",
+        "events_url": "https://api.github.com/users/Harold-lkk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Harold-lkk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/4a09f4a195ea9be17e3096fbe1242c8ca6271478"
+        }
+      ]
+    },
+    {
+      "sha": "4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+      "node_id": "C_kwDOLg46v9oAKDRhMDlmNGExOTVlYTliZTE3ZTMwOTZmYmUxMjQyYzhjYTYyNzE0Nzg",
+      "commit": {
+        "author": {
+          "name": "loveSnowBest",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T09:09:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-20T09:09:49Z"
+        },
+        "message": "Merge pull request #1 from Harold-lkk/patch-1\n\nadd openxlab link",
+        "tree": {
+          "sha": "ba4011e9ee6661a625235efe8f88944ebc412d91",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/ba4011e9ee6661a625235efe8f88944ebc412d91"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl+qfdCRC1aQ7uu5UhlAAAzAEQAKGIKHiuwGBTNqx22PGOTSdL\nlWnJ5biq3JaaaS11JJt/nesx6j+XHqJuUHL6zdHBP90dNocAk5mwXsjdXwXfiK+3\nWnAUJNv7NdxONevg/udcswQMYgd9XKnSVRQNKjE9iq4pjvwa3675VxTOWrNz6Llm\n9F2y8+2WbrNCUHB5upY8b+nCFclHr+jwmsh6XELkPPRsu2G727qCkbrttVPQUmPn\n+8YbG6b5SC4E/q/XGWr9RUz9e8RGwPXqo1pgnbr+aOHqhfaKu6L5jLECyQYo7RU0\nzP7uzZ/Q7oZeTofPMsxQ+f1z4NGu9LrXbIloJ82ySgRaZM4XyKIb2IkfxMZj8PEa\nkE6BfiLrP6Efte8xwPda4Rot1tkhPdneoHNYBVpVZub5jnbI2tldCnJb3euIyF6s\nfmcKtc9jOYIx90wt7rfnC0eKVUXbm8VSqj2pfp5yMQKCihpRKQ2cjOM3MxhBrKcv\nUEDkcAuKB4pEpkL+1Qov3Lqk/vKWl/XairP3j/cC+ReI5arYRn8QkPvP/afFXSSp\nUIdwC/9LvFMBQvMhD1AGRLHbQStkSJGvPiuk++im/C57I+fx+ij1Ld4eVvcKa+Ar\na5c9n9iiV3ikN7UN2vg/4YLa1vu8JsUq/Kg182nr/3NaomnoFh0yc91Xlj4f5Y9n\nSfFd8SwCCHieYr4Hp2Qp\n=yzAy\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ba4011e9ee6661a625235efe8f88944ebc412d91\nparent 35d16b78657dc3014ec752249170d6a5f73f6715\nparent 7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac\nauthor loveSnowBest <lovesnowbest@gmail.com> 1710925789 +0800\ncommitter GitHub <noreply@github.com> 1710925789 +0800\n\nMerge pull request #1 from Harold-lkk/patch-1\n\nadd openxlab link",
+          "verified_at": "2024-12-07T06:59:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/4a09f4a195ea9be17e3096fbe1242c8ca6271478",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/4a09f4a195ea9be17e3096fbe1242c8ca6271478/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "35d16b78657dc3014ec752249170d6a5f73f6715",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/35d16b78657dc3014ec752249170d6a5f73f6715",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/35d16b78657dc3014ec752249170d6a5f73f6715"
+        },
+        {
+          "sha": "7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac"
+        }
+      ]
+    },
+    {
+      "sha": "7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac",
+      "node_id": "C_kwDOLg46v9oAKDdmNWY0ZTc0MDhjZjJiNzJmMTRkODljNzZhNWFjMGFkZGI4OGYxYWM",
+      "commit": {
+        "author": {
+          "name": "liukuikun",
+          "email": "24622904+Harold-lkk@users.noreply.github.com",
+          "date": "2024-03-20T09:08:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-20T09:08:45Z"
+        },
+        "message": "add openxlab link",
+        "tree": {
+          "sha": "ba4011e9ee6661a625235efe8f88944ebc412d91",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/ba4011e9ee6661a625235efe8f88944ebc412d91"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl+qedCRC1aQ7uu5UhlAAAwKEQABokfJYFZXmVZ4AVBW2DSMdU\njPiCbioFkkBAnySMlJpSGYwfbjtCtVMsH6Vrl0SaLIlMhZBPzFdfljKD9VaH2nxA\nAXudFDDivQ3m41NRfKd6g96BDYzQg1MArCVLicpRBzMV2ymZ7EKAgBE8V+PBCWFC\nvAleUnAq5N08x5Itv+eZTLO0gYyi+sW5MhFO9WFqL5EZRR8OTx9hR24vBHHQIlUc\npiYs++lcLsY3zeF1B13JfA2vDtY9j1+AU8koYGBgk9AJ8SN+4VuaGURfoSaWofis\nCUFfC5BzFBO0YcRPt7C7dK/8Cd3GbTAvGbNfEvdIEVrRvfBuwnzXcRAywB4x+WWW\nET1PRBaG7EyjHcixytdqxCxosIfbbTY9svUa+iRw5x47JCYT/qx4gybHon7k6h0l\n+q9Ou1NLlaNwS2x08pYpeCs8ALTLyCiKtknvYe94tcfpj18WSct2e4qpvbpWsQYf\nUHfOnIey7sFLkfDG9n7JtooQ5ZQC+2txjucwBvuRMe0LjHYcXRP1VukBK+71GBUF\ngd9awcTW5nECO9Eaw79ixFdGpJlUPpL3IXrunDbGH3TlJE0As9/9gSJiZpjGrIot\n4pN1EmaM3CNKUtDUPwYuWU9Mlg15RBp0GIrvqtxxvcnaYqua3N4+EdFvMJ39PZ58\ngg0sPs9+cw8dm923w9VD\n=cn35\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ba4011e9ee6661a625235efe8f88944ebc412d91\nparent 35d16b78657dc3014ec752249170d6a5f73f6715\nauthor liukuikun <24622904+Harold-lkk@users.noreply.github.com> 1710925725 +0800\ncommitter GitHub <noreply@github.com> 1710925725 +0800\n\nadd openxlab link",
+          "verified_at": "2024-12-07T06:59:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/7f5f4e7408cf2b72f14d89c76a5ac0addb88f1ac/comments",
+      "author": {
+        "login": "Harold-lkk",
+        "id": 24622904,
+        "node_id": "MDQ6VXNlcjI0NjIyOTA0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24622904?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Harold-lkk",
+        "html_url": "https://github.com/Harold-lkk",
+        "followers_url": "https://api.github.com/users/Harold-lkk/followers",
+        "following_url": "https://api.github.com/users/Harold-lkk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Harold-lkk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Harold-lkk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Harold-lkk/subscriptions",
+        "organizations_url": "https://api.github.com/users/Harold-lkk/orgs",
+        "repos_url": "https://api.github.com/users/Harold-lkk/repos",
+        "events_url": "https://api.github.com/users/Harold-lkk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Harold-lkk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "35d16b78657dc3014ec752249170d6a5f73f6715",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/35d16b78657dc3014ec752249170d6a5f73f6715",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/35d16b78657dc3014ec752249170d6a5f73f6715"
+        }
+      ]
+    },
+    {
+      "sha": "35d16b78657dc3014ec752249170d6a5f73f6715",
+      "node_id": "C_kwDOLg46v9oAKDM1ZDE2Yjc4NjU3ZGMzMDE0ZWM3NTIyNDkxNzBkNmE1ZjczZjY3MTU",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T03:13:50Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T03:13:50Z"
+        },
+        "message": "correct url link",
+        "tree": {
+          "sha": "a5346c26bfa8fa1754b98a1e25a14161836b244a",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/a5346c26bfa8fa1754b98a1e25a14161836b244a"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/35d16b78657dc3014ec752249170d6a5f73f6715",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/35d16b78657dc3014ec752249170d6a5f73f6715",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/35d16b78657dc3014ec752249170d6a5f73f6715",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/35d16b78657dc3014ec752249170d6a5f73f6715/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "312c375f3b1d5445f63597df9ef3034da3b91359",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/312c375f3b1d5445f63597df9ef3034da3b91359",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/312c375f3b1d5445f63597df9ef3034da3b91359"
+        }
+      ]
+    },
+    {
+      "sha": "312c375f3b1d5445f63597df9ef3034da3b91359",
+      "node_id": "C_kwDOLg46v9oAKDMxMmMzNzVmM2IxZDU0NDVmNjM1OTdkZjllZjMwMzRkYTNiOTEzNTk",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T02:44:45Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T02:44:45Z"
+        },
+        "message": "update citation format",
+        "tree": {
+          "sha": "bb1d6c7bb53754902011c25c2a4c0e0a3fbb453e",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/bb1d6c7bb53754902011c25c2a4c0e0a3fbb453e"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/312c375f3b1d5445f63597df9ef3034da3b91359",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/312c375f3b1d5445f63597df9ef3034da3b91359",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/312c375f3b1d5445f63597df9ef3034da3b91359",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/312c375f3b1d5445f63597df9ef3034da3b91359/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9d8bb24264a2bbdca41b7415dd7ca791bb8c962e",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/9d8bb24264a2bbdca41b7415dd7ca791bb8c962e",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/9d8bb24264a2bbdca41b7415dd7ca791bb8c962e"
+        }
+      ]
+    },
+    {
+      "sha": "9d8bb24264a2bbdca41b7415dd7ca791bb8c962e",
+      "node_id": "C_kwDOLg46v9oAKDlkOGJiMjQyNjRhMmJiZGNhNDFiNzQxNWRkN2NhNzkxYmI4Yzk2MmU",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T02:00:38Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T02:00:38Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "d55a6f363a2c5311e5472969a2caa6cfcc2dd1c8",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/d55a6f363a2c5311e5472969a2caa6cfcc2dd1c8"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/9d8bb24264a2bbdca41b7415dd7ca791bb8c962e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/9d8bb24264a2bbdca41b7415dd7ca791bb8c962e",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/9d8bb24264a2bbdca41b7415dd7ca791bb8c962e",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/9d8bb24264a2bbdca41b7415dd7ca791bb8c962e/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f52b433abba0c537049bc8837b754a56c6dd0869",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/f52b433abba0c537049bc8837b754a56c6dd0869",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/f52b433abba0c537049bc8837b754a56c6dd0869"
+        }
+      ]
+    },
+    {
+      "sha": "f52b433abba0c537049bc8837b754a56c6dd0869",
+      "node_id": "C_kwDOLg46v9oAKGY1MmI0MzNhYmJhMGM1MzcwNDliYzg4MzdiNzU0YTU2YzZkZDA4Njk",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T01:57:13Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-20T01:57:13Z"
+        },
+        "message": "update arxiv url",
+        "tree": {
+          "sha": "f9ca12618148478b183da922c4bed97811dd5f9e",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/f9ca12618148478b183da922c4bed97811dd5f9e"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/f52b433abba0c537049bc8837b754a56c6dd0869",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/f52b433abba0c537049bc8837b754a56c6dd0869",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/f52b433abba0c537049bc8837b754a56c6dd0869",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/f52b433abba0c537049bc8837b754a56c6dd0869/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e396f551ee37ec93a3a4f8ca029f946365ab88df",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/e396f551ee37ec93a3a4f8ca029f946365ab88df",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/e396f551ee37ec93a3a4f8ca029f946365ab88df"
+        }
+      ]
+    },
+    {
+      "sha": "e396f551ee37ec93a3a4f8ca029f946365ab88df",
+      "node_id": "C_kwDOLg46v9oAKGUzOTZmNTUxZWUzN2VjOTNhM2E0ZjhjYTAyOWY5NDYzNjVhYjg4ZGY",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-19T07:48:29Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-19T07:48:29Z"
+        },
+        "message": "update page",
+        "tree": {
+          "sha": "1631301cbe21afc590dc6214982a7bf5d2514427",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/1631301cbe21afc590dc6214982a7bf5d2514427"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/e396f551ee37ec93a3a4f8ca029f946365ab88df",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/e396f551ee37ec93a3a4f8ca029f946365ab88df",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/e396f551ee37ec93a3a4f8ca029f946365ab88df",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/e396f551ee37ec93a3a4f8ca029f946365ab88df/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7b8b62aa375706d1a2a442e5222b7c2ed57ee85c",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/7b8b62aa375706d1a2a442e5222b7c2ed57ee85c",
+          "html_url": "https://github.com/InternLM/Agent-FLAN/commit/7b8b62aa375706d1a2a442e5222b7c2ed57ee85c"
+        }
+      ]
+    },
+    {
+      "sha": "7b8b62aa375706d1a2a442e5222b7c2ed57ee85c",
+      "node_id": "C_kwDOLg46v9oAKDdiOGI2MmFhMzc1NzA2ZDFhMmE0NDJlNTIyMmI3YzJlZDU3ZWU4NWM",
+      "commit": {
+        "author": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-19T07:21:32Z"
+        },
+        "committer": {
+          "name": "chenzehui",
+          "email": "lovesnowbest@gmail.com",
+          "date": "2024-03-19T07:21:32Z"
+        },
+        "message": "init",
+        "tree": {
+          "sha": "151c511648a9c68544b677e49111980cce647bfd",
+          "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/trees/151c511648a9c68544b677e49111980cce647bfd"
+        },
+        "url": "https://api.github.com/repos/InternLM/Agent-FLAN/git/commits/7b8b62aa375706d1a2a442e5222b7c2ed57ee85c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/7b8b62aa375706d1a2a442e5222b7c2ed57ee85c",
+      "html_url": "https://github.com/InternLM/Agent-FLAN/commit/7b8b62aa375706d1a2a442e5222b7c2ed57ee85c",
+      "comments_url": "https://api.github.com/repos/InternLM/Agent-FLAN/commits/7b8b62aa375706d1a2a442e5222b7c2ed57ee85c/comments",
+      "author": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zehuichen123",
+        "id": 24351120,
+        "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zehuichen123",
+        "html_url": "https://github.com/zehuichen123",
+        "followers_url": "https://api.github.com/users/zehuichen123/followers",
+        "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+        "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+        "repos_url": "https://api.github.com/users/zehuichen123/repos",
+        "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "zehuichen123",
+      "id": 24351120,
+      "node_id": "MDQ6VXNlcjI0MzUxMTIw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24351120?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zehuichen123",
+      "html_url": "https://github.com/zehuichen123",
+      "followers_url": "https://api.github.com/users/zehuichen123/followers",
+      "following_url": "https://api.github.com/users/zehuichen123/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zehuichen123/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zehuichen123/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zehuichen123/subscriptions",
+      "organizations_url": "https://api.github.com/users/zehuichen123/orgs",
+      "repos_url": "https://api.github.com/users/zehuichen123/repos",
+      "events_url": "https://api.github.com/users/zehuichen123/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zehuichen123/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 13
+    },
+    {
+      "login": "Harold-lkk",
+      "id": 24622904,
+      "node_id": "MDQ6VXNlcjI0NjIyOTA0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24622904?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Harold-lkk",
+      "html_url": "https://github.com/Harold-lkk",
+      "followers_url": "https://api.github.com/users/Harold-lkk/followers",
+      "following_url": "https://api.github.com/users/Harold-lkk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Harold-lkk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Harold-lkk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Harold-lkk/subscriptions",
+      "organizations_url": "https://api.github.com/users/Harold-lkk/orgs",
+      "repos_url": "https://api.github.com/users/Harold-lkk/repos",
+      "events_url": "https://api.github.com/users/Harold-lkk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Harold-lkk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    }
+  ],
+  "releases": [],
+  "languages": {},
+  "readme_html": "<h1 id=\"user-content-agent-flan-designing-data-and-methods-of-effective-agent-tuning-for-large-language-models\">Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models</h1>\n<p><a href=\"https://arxiv.org/abs/2403.12881\"><img src=\"https://img.shields.io/badge/arXiv-2403.12881-b31b1b.svg\" alt=\"arXiv\"></a>\n<a href=\"./LICENSE\"><img src=\"https://img.shields.io/github/license/InternLM/opencompass.svg\" alt=\"license\"></a>\n<a href=\"https://openxlab.org.cn/models/detail/OpenLMLab/Agent-FLAN-7b\"><img src=\"https://cdn-static.openxlab.org.cn/header/openxlab_models.svg\" alt=\"Open in OpenXLab\"></a></p>\n<h2 id=\"user-content--introduction\">✨ Introduction</h2>\n<p>[<a href=\"https://huggingface.co/internlm/Agent-FLAN-7b\">🤗 HuggingFace</a>]\n[<a href=\"https://openxlab.org.cn/models/detail/OpenLMLab/Agent-FLAN-7b\">🧰 OpenXLab</a>]\n[<a href=\"https://arxiv.org/abs/2403.12881\">📃 Paper</a>]\n[<a href=\"https://internlm.github.io/Agent-FLAN/\">🌐 Project Page</a>]</p>\n<blockquote>\n<p>Open-sourced Large Language Models (LLMs) have achieved great success in various NLP tasks, however, they are still far inferior to API-based models when acting as agents. How to integrate agent ability into general LLMs becomes a crucial and urgent problem. This paper first delivers three key observations: (1) the current agent training corpus is entangled with both formats following and agent reasoning, which significantly shifts from the distribution of its pre-training data; (2) LLMs exhibit different learning speeds on the capabilities required by agent tasks; and (3) current approaches have side-effects when improving agent abilities by introducing hallucinations. Based on the above findings, we propose Agent-FLAN to effectively Fine-tune LANguage models for Agents. Through careful decomposition and redesign of the training corpus, Agent-FLAN enables Llama2-7B to outperform prior best works by 3.5% across various agent evaluation datasets. With comprehensively constructed negative samples, Agent-FLAN greatly alleviates the hallucination issues based on our established evaluation benchmark. Besides, it consistently improves the agent capability of LLMs when scaling model sizes while slightly enhancing the general capability of LLMs.</p>\n</blockquote>\n<h2 id=\"user-content--whats-new\">🚀 What's New</h2>\n<ul>\n<li><strong>[2024.3.21]</strong> Paper available on <a href=\"https://arxiv.org/abs/2403.12881\">ArXiv</a>. 🔥🔥🔥</li>\n<li><strong>[2024.3.20]</strong> Release the dataset and model checkpoint for Agent-FLAN. 🎉🎉🎉</li>\n</ul>\n<h2 id=\"user-content-️-agent-flan\">♟️ Agent-FLAN</h2>\n<p>Agent-FLAN series are finetuned on AgentInstruct and Toolbench by applying the data generation pipeline proposed in Agent-FLAN paper, which holds strong abilities on various agent tasks and tool utilization~</p>\n<p>Comparison of recent agent tuning approaches on Held-In, Held-Out tasks. Performances are normalized with GPT-4 results for better visualization. * denotes our re-implementation for a fair comparison.</p>\n<h3 id=\"user-content--huggingface-model--dataset\">🤗 HuggingFace Model &#x26; Dataset</h3>\n<p>Agent-FLAN is produced by mixed training on AgentInstruct, ToolBench, and ShareGPT datasets from the Llama2-chat series.</p>\n<p>The models follow the conversation format of Llama-2-chat, with the template protocol as:</p>\n<pre><code class=\"language-python\">dict(role='user', begin='&#x3C;|Human|>െ', end='\\n '),\ndict(role='system', begin='&#x3C;|Human|>െ', end='\\n '),\ndict(role='assistant', begin='&#x3C;|Assistant|>െ', end='ി\\n '),\n</code></pre>\n<p>The 7B model is available on Huggingface &#x26; OpenXLab model hub.</p>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Model</th>\n<th align=\"center\">Huggingface Repo</th>\n<th align=\"center\">OpenXLab Repo</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">Agent-FLAN-7B</td>\n<td align=\"center\"><a href=\"https://huggingface.co/internlm/Agent-FLAN-7b\">Model Link</a></td>\n<td align=\"center\"><a href=\"https://openxlab.org.cn/models/detail/OpenLMLab/Agent-FLAN-7b\">Model Link</a></td>\n</tr>\n</tbody>\n</table>\n<p>The Agent-FLAN dataset is also available on Huggingface dataset hub.</p>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Dataset</th>\n<th align=\"center\">Huggingface Repo</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">Agent-FLAN</td>\n<td align=\"center\"><a href=\"https://huggingface.co/datasets/internlm/Agent-FLAN\">Dataset Link</a></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content--detailed-results\">💫 Detailed Results</h2>\n<p>Main results of Agent-FLAN. Agent-FLAN significantly outperforms previous agent-tuning approaches by a large margin on both held-in and held-out tasks. * denotes our re-implementation with the same amount of training data for a fair comparison. Since FireAct does not train on AgentInstruct dataset, we omit its performance on the HELD-IN set. Bold: the best in API-based and open-sourced models.</p>\n<h2 id=\"user-content-️-acknowledgements\">❤️ Acknowledgements</h2>\n<p>Agent-FLAN is built with <a href=\"https://github.com/InternLM/lagent\">Lagent</a> and <a href=\"https://github.com/open-compass/t-eval\">T-Eval</a>. Thanks for their awesome work!</p>\n<h2 id=\"user-content-️-citation\">🖊️ Citation</h2>\n<p>If you find this project useful in your research, please consider cite:</p>\n<pre><code>@article{chen2024agent,\n  title={Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models},\n  author={Chen, Zehui and Liu, Kuikun and Wang, Qiuchen and Zhang, Wenwei and Liu, Jiangning and Lin, Dahua and Chen, Kai and Zhao, Feng},\n  journal={arXiv preprint arXiv:2403.12881},\n  year={2024}\n}\n</code></pre>\n<h2 id=\"user-content--license\">💳 License</h2>\n<p>This project is released under the Apache 2.0 <a href=\"./LICENSE\">license</a>.</p>",
+  "_fetched_at": "2026-03-11T18:04:15.010Z"
+}

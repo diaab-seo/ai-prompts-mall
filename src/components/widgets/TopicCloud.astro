@@ -1,0 +1,53 @@
+---
+/**
+ * TopicCloud.astro — Clickable topic tag cloud
+ */
+interface Props {
+  topics: string[];
+  activeTopicSlug?: string;
+}
+const { topics, activeTopicSlug } = Astro.props;
+---
+
+{topics.length > 0 && (
+  <div class="topic-cloud" aria-label="Repository topics">
+    {topics.map((t) => (
+      <a
+        href={`/topic/${t}`}
+        class={`topic-tag ${t === activeTopicSlug ? 'topic-tag--active' : ''}`}
+        aria-label={`Browse topic: ${t}`}
+      >{t}</a>
+    ))}
+  </div>
+)}
+
+<style>
+  .topic-cloud {
+    display: flex;
+    
+    gap: 0.375rem;
+  }
+  .topic-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.275rem 0.65rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: background 0.15s, color 0.15s, transform 0.1s;
+    border: 1px solid transparent;
+  }
+  .topic-tag:hover {
+    background: var(--color-accent);
+    color: #fff;
+    transform: translateY(-1px);
+  }
+  .topic-tag--active {
+    background: var(--color-accent);
+    color: #fff;
+    border-color: var(--color-accent);
+  }
+</style>

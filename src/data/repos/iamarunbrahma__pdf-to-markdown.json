@@ -1,0 +1,2288 @@
+{
+  "id": 855288462,
+  "node_id": "R_kgDOMvqqjg",
+  "name": "pdf-to-markdown",
+  "full_name": "iamarunbrahma/pdf-to-markdown",
+  "private": false,
+  "owner": {
+    "login": "iamarunbrahma",
+    "id": 6504730,
+    "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/iamarunbrahma",
+    "html_url": "https://github.com/iamarunbrahma",
+    "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+    "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+    "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+    "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+    "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+    "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown",
+  "description": "Conversion of PDF documents to structured Markdown, optimized for Retrieval Augmented Generation (RAG) and other NLP tasks. Extract text, tables, and images with preserved formatting for enhanced information retrieval and processing.",
+  "fork": false,
+  "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown",
+  "forks_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/forks",
+  "keys_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/teams",
+  "hooks_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/hooks",
+  "issue_events_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/events",
+  "assignees_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/tags",
+  "blobs_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/languages",
+  "stargazers_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/stargazers",
+  "contributors_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/contributors",
+  "subscribers_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/subscribers",
+  "subscription_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/subscription",
+  "commits_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/merges",
+  "archive_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/downloads",
+  "issues_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/labels{/name}",
+  "releases_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/deployments",
+  "created_at": "2024-09-10T16:18:49Z",
+  "updated_at": "2026-03-11T00:47:47Z",
+  "pushed_at": "2024-11-22T15:17:53Z",
+  "git_url": "git://github.com/iamarunbrahma/pdf-to-markdown.git",
+  "ssh_url": "git@github.com:iamarunbrahma/pdf-to-markdown.git",
+  "clone_url": "https://github.com/iamarunbrahma/pdf-to-markdown.git",
+  "svn_url": "https://github.com/iamarunbrahma/pdf-to-markdown",
+  "homepage": "",
+  "size": 71,
+  "stargazers_count": 115,
+  "watchers_count": 115,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 12,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 5,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "document-conversion",
+    "document-processing",
+    "information-retrieval",
+    "pdf-converter",
+    "pdf-extraction",
+    "pdf-parsing",
+    "pdf-to-markdown",
+    "python",
+    "rag",
+    "retrieval-augmented-generation",
+    "text-extraction"
+  ],
+  "visibility": "public",
+  "forks": 12,
+  "open_issues": 5,
+  "watchers": 115,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "ffb759ee4605b232366a9ee58134532913c3f9e0",
+      "node_id": "C_kwDOMvqqjtoAKGZmYjc1OWVlNDYwNWIyMzIzNjZhOWVlNTgxMzQ1MzI5MTNjM2Y5ZTA",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-11-22T15:17:49Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-11-22T15:17:49Z"
+        },
+        "message": "update extract.py",
+        "tree": {
+          "sha": "38eed5a7d54d1207d7c5c7369199253369ff92e3",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/38eed5a7d54d1207d7c5c7369199253369ff92e3"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/ffb759ee4605b232366a9ee58134532913c3f9e0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/ffb759ee4605b232366a9ee58134532913c3f9e0",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/ffb759ee4605b232366a9ee58134532913c3f9e0",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/ffb759ee4605b232366a9ee58134532913c3f9e0/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cdafddc476213b9e73329ed2840259bc5a149198",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/cdafddc476213b9e73329ed2840259bc5a149198",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/cdafddc476213b9e73329ed2840259bc5a149198"
+        }
+      ]
+    },
+    {
+      "sha": "cdafddc476213b9e73329ed2840259bc5a149198",
+      "node_id": "C_kwDOMvqqjtoAKGNkYWZkZGM0NzYyMTNiOWU3MzMyOWVkMjg0MDI1OWJjNWExNDkxOTg",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-11-22T15:15:43Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-11-22T15:15:43Z"
+        },
+        "message": "update extract.py",
+        "tree": {
+          "sha": "11cf7d835c28895b71f0dca2ad5d10dae4a07670",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/11cf7d835c28895b71f0dca2ad5d10dae4a07670"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/cdafddc476213b9e73329ed2840259bc5a149198",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/cdafddc476213b9e73329ed2840259bc5a149198",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/cdafddc476213b9e73329ed2840259bc5a149198",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/cdafddc476213b9e73329ed2840259bc5a149198/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2c36b28daee91a5de7fbea25290dc90cb5c36efb",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/2c36b28daee91a5de7fbea25290dc90cb5c36efb",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/2c36b28daee91a5de7fbea25290dc90cb5c36efb"
+        }
+      ]
+    },
+    {
+      "sha": "2c36b28daee91a5de7fbea25290dc90cb5c36efb",
+      "node_id": "C_kwDOMvqqjtoAKDJjMzZiMjhkYWVlOTFhNWRlN2ZiZWEyNTI5MGRjOTBjYjVjMzZlZmI",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-11-09T18:27:49Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-11-09T18:27:49Z"
+        },
+        "message": "Update README, add config, modify extract.py, remove math_to_latex.json",
+        "tree": {
+          "sha": "f56b6db4103b76434b7fd09a25da0df6154a206c",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/f56b6db4103b76434b7fd09a25da0df6154a206c"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/2c36b28daee91a5de7fbea25290dc90cb5c36efb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/2c36b28daee91a5de7fbea25290dc90cb5c36efb",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/2c36b28daee91a5de7fbea25290dc90cb5c36efb",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/2c36b28daee91a5de7fbea25290dc90cb5c36efb/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36"
+        }
+      ]
+    },
+    {
+      "sha": "c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36",
+      "node_id": "C_kwDOMvqqjtoAKGM3ZGNhYTU1OGFiMGZhYzEzMjEzZGQ1MDBjY2M1ZTAyYjljOWRkMzY",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-14T06:08:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-14T06:08:14Z"
+        },
+        "message": "Delete .gitignore",
+        "tree": {
+          "sha": "75685be5df08f6d2c46d2efee585fea9467d2958",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/75685be5df08f6d2c46d2efee585fea9467d2958"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm5ShOCRC1aQ7uu5UhlAAApNsQAHRpCMe4Hx3oyWdScTGPmbRU\nZauXNELG40aFnyXM2nWoDmt/33XbnCTL3TiNHi47wDHhUfAbiyE1czR2LP5z3O/b\niA7wgdgY9dAw2yIMdeX87d/V3hpdJB2xpj5Z3Gnmoa1Ih2ZBNzs2Jd3eyPHo7ugj\nw/PaE2nQJp55PJh83nI97u7vwLcJcoN84AgoZEgID1uwTJ+rKgTnz/SrLcs8Mm8c\ncPG0i8C0wQs6gFrQCFP2hEUi64+tgC/Bc9cxvpbtfX/FeAt8tDDcxdZTNv4EiGno\n+4VkHFy6xoFfC5JxORdgxgxIHJqScj2eCqdPCVHgvhrlqEl4yDw8TV2X6eCmg0oK\ng1SLEmGBBaBcpmROfifjmflrYrRi9CNJvPsG5SqGO6opKljrZqt7otWbP6f1S6Rd\nQwqHYaGoYn8/7c+LMO5FPQoocy4jhR8oKm8+JUbuHchS21+ka6QMKeFzz/MVrvtR\n8tjPAraSOGyxUDJ4oxfWdHTPIrd8WcwtkpvSHt30yFMXG4Gz8y87N/odw7Ofh143\nQ/Djg+0E2zMKvhySVaBi43lZ+zvwnQ7akSRQR4Pt1V5Wyximz4TAkCILKO18hiuN\nCV4AyYzbfcspqmpXgESl4OwGrdBQTyNQzvh5oQrT7l8M45eJF4Dpg8X3L3PS3+Rc\nPpKtjyszXuIkgJj8sx5/\n=/fsf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 75685be5df08f6d2c46d2efee585fea9467d2958\nparent 8c76a8a9a6c73a63f15020a3bf11c612bbcad737\nauthor Arun Brahma <mithubrahma94@gmail.com> 1726294094 +0530\ncommitter GitHub <noreply@github.com> 1726294094 +0530\n\nDelete .gitignore",
+          "verified_at": "2024-11-13T06:59:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/c7dcaa558ab0fac13213dd500ccc5e02b9c9dd36/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8c76a8a9a6c73a63f15020a3bf11c612bbcad737",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/8c76a8a9a6c73a63f15020a3bf11c612bbcad737",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/8c76a8a9a6c73a63f15020a3bf11c612bbcad737"
+        }
+      ]
+    },
+    {
+      "sha": "8c76a8a9a6c73a63f15020a3bf11c612bbcad737",
+      "node_id": "C_kwDOMvqqjtoAKDhjNzZhOGE5YTZjNzNhNjNmMTUwMjBhM2JmMTFjNjEyYmJjYWQ3Mzc",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-14T05:49:32Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-14T05:49:32Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "c04fbb4726eb62c9af644bed64c4033ce129e726",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/c04fbb4726eb62c9af644bed64c4033ce129e726"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/8c76a8a9a6c73a63f15020a3bf11c612bbcad737",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/8c76a8a9a6c73a63f15020a3bf11c612bbcad737",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/8c76a8a9a6c73a63f15020a3bf11c612bbcad737",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/8c76a8a9a6c73a63f15020a3bf11c612bbcad737/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f8b15e0463c0feefe8aeeb13a5a03d382e320c78",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/f8b15e0463c0feefe8aeeb13a5a03d382e320c78",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/f8b15e0463c0feefe8aeeb13a5a03d382e320c78"
+        }
+      ]
+    },
+    {
+      "sha": "f8b15e0463c0feefe8aeeb13a5a03d382e320c78",
+      "node_id": "C_kwDOMvqqjtoAKGY4YjE1ZTA0NjNjMGZlZWZlOGFlZWIxM2E1YTAzZDM4MmUzMjBjNzg",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-14T04:53:33Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-14T04:53:33Z"
+        },
+        "message": "updated README.md",
+        "tree": {
+          "sha": "638483aa1ff81d24f134eb88751dab221bced37f",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/638483aa1ff81d24f134eb88751dab221bced37f"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/f8b15e0463c0feefe8aeeb13a5a03d382e320c78",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/f8b15e0463c0feefe8aeeb13a5a03d382e320c78",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/f8b15e0463c0feefe8aeeb13a5a03d382e320c78",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/f8b15e0463c0feefe8aeeb13a5a03d382e320c78/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e1ea37017aa9f38b9f3d254ab90205159735671b",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/e1ea37017aa9f38b9f3d254ab90205159735671b",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/e1ea37017aa9f38b9f3d254ab90205159735671b"
+        }
+      ]
+    },
+    {
+      "sha": "e1ea37017aa9f38b9f3d254ab90205159735671b",
+      "node_id": "C_kwDOMvqqjtoAKGUxZWEzNzAxN2FhOWYzOGI5ZjNkMjU0YWI5MDIwNTE1OTczNTY3MWI",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-14T04:50:43Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-14T04:50:43Z"
+        },
+        "message": "updated README.md",
+        "tree": {
+          "sha": "6fb899e35283e6955c9a9fe804b2005c0609fba6",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/6fb899e35283e6955c9a9fe804b2005c0609fba6"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/e1ea37017aa9f38b9f3d254ab90205159735671b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/e1ea37017aa9f38b9f3d254ab90205159735671b",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/e1ea37017aa9f38b9f3d254ab90205159735671b",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/e1ea37017aa9f38b9f3d254ab90205159735671b/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "adcac6060b7aa9ad51b3926456e2da9e1160afa1",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/adcac6060b7aa9ad51b3926456e2da9e1160afa1",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/adcac6060b7aa9ad51b3926456e2da9e1160afa1"
+        }
+      ]
+    },
+    {
+      "sha": "adcac6060b7aa9ad51b3926456e2da9e1160afa1",
+      "node_id": "C_kwDOMvqqjtoAKGFkY2FjNjA2MGI3YWE5YWQ1MWIzOTI2NDU2ZTJkYTllMTE2MGFmYTE",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T20:03:25Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T20:03:25Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "0c8d45070628b7cd13b59029e1d01cb8680fe1ac",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/0c8d45070628b7cd13b59029e1d01cb8680fe1ac"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/adcac6060b7aa9ad51b3926456e2da9e1160afa1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/adcac6060b7aa9ad51b3926456e2da9e1160afa1",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/adcac6060b7aa9ad51b3926456e2da9e1160afa1",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/adcac6060b7aa9ad51b3926456e2da9e1160afa1/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc"
+        }
+      ]
+    },
+    {
+      "sha": "b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc",
+      "node_id": "C_kwDOMvqqjtoAKGI1YjhkZGEzYzk4NmIyZGM2OTdhMWNiNjQ5MTRhOTg4ZmJmN2UzY2M",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T19:07:48Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T19:07:48Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "6b8c375a76c5d7642e195ad934bd11d82662db07",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/6b8c375a76c5d7642e195ad934bd11d82662db07"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/b5b8dda3c986b2dc697a1cb64914a988fbf7e3cc/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "04bc6e2b29d89134ee94abdecd6e620f2369d13d",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/04bc6e2b29d89134ee94abdecd6e620f2369d13d",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/04bc6e2b29d89134ee94abdecd6e620f2369d13d"
+        }
+      ]
+    },
+    {
+      "sha": "04bc6e2b29d89134ee94abdecd6e620f2369d13d",
+      "node_id": "C_kwDOMvqqjtoAKDA0YmM2ZTJiMjlkODkxMzRlZTk0YWJkZWNkNmU2MjBmMjM2OWQxM2Q",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T17:53:38Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T17:53:38Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "b90e2464d583e763ddbc556f7aa9f49bf4dd520a",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/b90e2464d583e763ddbc556f7aa9f49bf4dd520a"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/04bc6e2b29d89134ee94abdecd6e620f2369d13d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/04bc6e2b29d89134ee94abdecd6e620f2369d13d",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/04bc6e2b29d89134ee94abdecd6e620f2369d13d",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/04bc6e2b29d89134ee94abdecd6e620f2369d13d/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "150eaadd8522e169344edbf5cb3c84f9b06da932",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/150eaadd8522e169344edbf5cb3c84f9b06da932",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/150eaadd8522e169344edbf5cb3c84f9b06da932"
+        }
+      ]
+    },
+    {
+      "sha": "150eaadd8522e169344edbf5cb3c84f9b06da932",
+      "node_id": "C_kwDOMvqqjtoAKDE1MGVhYWRkODUyMmUxNjkzNDRlZGJmNWNiM2M4NGY5YjA2ZGE5MzI",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T17:23:33Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T17:23:33Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "2c47811ae7769780a334f82dc3cfcc6e3944f4a6",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/2c47811ae7769780a334f82dc3cfcc6e3944f4a6"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/150eaadd8522e169344edbf5cb3c84f9b06da932",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/150eaadd8522e169344edbf5cb3c84f9b06da932",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/150eaadd8522e169344edbf5cb3c84f9b06da932",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/150eaadd8522e169344edbf5cb3c84f9b06da932/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e8fb3d00072f163e67dd870786cd9800003b0a8",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/9e8fb3d00072f163e67dd870786cd9800003b0a8",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/9e8fb3d00072f163e67dd870786cd9800003b0a8"
+        }
+      ]
+    },
+    {
+      "sha": "9e8fb3d00072f163e67dd870786cd9800003b0a8",
+      "node_id": "C_kwDOMvqqjtoAKDllOGZiM2QwMDA3MmYxNjNlNjdkZDg3MDc4NmNkOTgwMDAwM2IwYTg",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T14:38:41Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T14:38:41Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "55c7ad5d6bf911a2feac55f00a7018f7d2d7e7c6",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/55c7ad5d6bf911a2feac55f00a7018f7d2d7e7c6"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/9e8fb3d00072f163e67dd870786cd9800003b0a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/9e8fb3d00072f163e67dd870786cd9800003b0a8",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/9e8fb3d00072f163e67dd870786cd9800003b0a8",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/9e8fb3d00072f163e67dd870786cd9800003b0a8/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bd3031608c3a131ef37a968d083d45ab5c9e9a1d",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/bd3031608c3a131ef37a968d083d45ab5c9e9a1d",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/bd3031608c3a131ef37a968d083d45ab5c9e9a1d"
+        }
+      ]
+    },
+    {
+      "sha": "bd3031608c3a131ef37a968d083d45ab5c9e9a1d",
+      "node_id": "C_kwDOMvqqjtoAKGJkMzAzMTYwOGMzYTEzMWVmMzdhOTY4ZDA4M2Q0NWFiNWM5ZTlhMWQ",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T13:42:38Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T13:42:38Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "bbbb5184098889d62cb0c2c3e8533d99cf4c4334",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/bbbb5184098889d62cb0c2c3e8533d99cf4c4334"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/bd3031608c3a131ef37a968d083d45ab5c9e9a1d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/bd3031608c3a131ef37a968d083d45ab5c9e9a1d",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/bd3031608c3a131ef37a968d083d45ab5c9e9a1d",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/bd3031608c3a131ef37a968d083d45ab5c9e9a1d/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3c898fc742bb2a3df9073be5fdffdd5c8069c2e7",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/3c898fc742bb2a3df9073be5fdffdd5c8069c2e7",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/3c898fc742bb2a3df9073be5fdffdd5c8069c2e7"
+        }
+      ]
+    },
+    {
+      "sha": "3c898fc742bb2a3df9073be5fdffdd5c8069c2e7",
+      "node_id": "C_kwDOMvqqjtoAKDNjODk4ZmM3NDJiYjJhM2RmOTA3M2JlNWZkZmZkZDVjODA2OWMyZTc",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T11:41:46Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-13T11:41:46Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "53495954a5eba0b3bcc009073c24159297f1286e",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/53495954a5eba0b3bcc009073c24159297f1286e"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/3c898fc742bb2a3df9073be5fdffdd5c8069c2e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/3c898fc742bb2a3df9073be5fdffdd5c8069c2e7",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/3c898fc742bb2a3df9073be5fdffdd5c8069c2e7",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/3c898fc742bb2a3df9073be5fdffdd5c8069c2e7/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6c3c488a1ecb7decc31bca81137a7840b1b359a7",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/6c3c488a1ecb7decc31bca81137a7840b1b359a7",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/6c3c488a1ecb7decc31bca81137a7840b1b359a7"
+        }
+      ]
+    },
+    {
+      "sha": "6c3c488a1ecb7decc31bca81137a7840b1b359a7",
+      "node_id": "C_kwDOMvqqjtoAKDZjM2M0ODhhMWVjYjdkZWNjMzFiY2E4MTEzN2E3ODQwYjFiMzU5YTc",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-12T04:38:36Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-12T04:38:36Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "cb0947af6539ec40b0522cef3db3ff6ff60cf9fa",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/cb0947af6539ec40b0522cef3db3ff6ff60cf9fa"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/6c3c488a1ecb7decc31bca81137a7840b1b359a7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/6c3c488a1ecb7decc31bca81137a7840b1b359a7",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/6c3c488a1ecb7decc31bca81137a7840b1b359a7",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/6c3c488a1ecb7decc31bca81137a7840b1b359a7/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "de3bd3ee403c141f358cfcba94a66079fe127962",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/de3bd3ee403c141f358cfcba94a66079fe127962",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/de3bd3ee403c141f358cfcba94a66079fe127962"
+        }
+      ]
+    },
+    {
+      "sha": "de3bd3ee403c141f358cfcba94a66079fe127962",
+      "node_id": "C_kwDOMvqqjtoAKGRlM2JkM2VlNDAzYzE0MWYzNThjZmNiYTk0YTY2MDc5ZmUxMjc5NjI",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T18:29:13Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T18:29:13Z"
+        },
+        "message": "log file updated",
+        "tree": {
+          "sha": "3fa0c098f9fa264b7830d11ca4931a7b0ce5beb5",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/3fa0c098f9fa264b7830d11ca4931a7b0ce5beb5"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/de3bd3ee403c141f358cfcba94a66079fe127962",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/de3bd3ee403c141f358cfcba94a66079fe127962",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/de3bd3ee403c141f358cfcba94a66079fe127962",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/de3bd3ee403c141f358cfcba94a66079fe127962/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c98a8b97e441780f6ee68fee00849da8148945eb",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/c98a8b97e441780f6ee68fee00849da8148945eb",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/c98a8b97e441780f6ee68fee00849da8148945eb"
+        }
+      ]
+    },
+    {
+      "sha": "c98a8b97e441780f6ee68fee00849da8148945eb",
+      "node_id": "C_kwDOMvqqjtoAKGM5OGE4Yjk3ZTQ0MTc4MGY2ZWU2OGZlZTAwODQ5ZGE4MTQ4OTQ1ZWI",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T15:29:38Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T15:29:38Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "46e38300d7d6ecba49a651a330ad990b9370ff4e",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/46e38300d7d6ecba49a651a330ad990b9370ff4e"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/c98a8b97e441780f6ee68fee00849da8148945eb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/c98a8b97e441780f6ee68fee00849da8148945eb",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/c98a8b97e441780f6ee68fee00849da8148945eb",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/c98a8b97e441780f6ee68fee00849da8148945eb/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e00aa8e17ac2a776963d15db0bfd389f6ed50013",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/e00aa8e17ac2a776963d15db0bfd389f6ed50013",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/e00aa8e17ac2a776963d15db0bfd389f6ed50013"
+        }
+      ]
+    },
+    {
+      "sha": "e00aa8e17ac2a776963d15db0bfd389f6ed50013",
+      "node_id": "C_kwDOMvqqjtoAKGUwMGFhOGUxN2FjMmE3NzY5NjNkMTVkYjBiZmQzODlmNmVkNTAwMTM",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T13:40:41Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T13:40:41Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "364a660a8b80065abc7ea347414b9c5f745de416",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/364a660a8b80065abc7ea347414b9c5f745de416"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/e00aa8e17ac2a776963d15db0bfd389f6ed50013",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/e00aa8e17ac2a776963d15db0bfd389f6ed50013",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/e00aa8e17ac2a776963d15db0bfd389f6ed50013",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/e00aa8e17ac2a776963d15db0bfd389f6ed50013/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "64545055abbc058d4fd72da3e3d0137d27ec61e3",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/64545055abbc058d4fd72da3e3d0137d27ec61e3",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/64545055abbc058d4fd72da3e3d0137d27ec61e3"
+        }
+      ]
+    },
+    {
+      "sha": "64545055abbc058d4fd72da3e3d0137d27ec61e3",
+      "node_id": "C_kwDOMvqqjtoAKDY0NTQ1MDU1YWJiYzA1OGQ0ZmQ3MmRhM2UzZDAxMzdkMjdlYzYxZTM",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T10:30:21Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T10:30:21Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "3f5b35e98c4b1a5aeb0e42d00893c7f129f0a82d",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/3f5b35e98c4b1a5aeb0e42d00893c7f129f0a82d"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/64545055abbc058d4fd72da3e3d0137d27ec61e3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/64545055abbc058d4fd72da3e3d0137d27ec61e3",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/64545055abbc058d4fd72da3e3d0137d27ec61e3",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/64545055abbc058d4fd72da3e3d0137d27ec61e3/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1ab102eea0ed65a78d398faa6801f7c67e51d06a",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/1ab102eea0ed65a78d398faa6801f7c67e51d06a",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/1ab102eea0ed65a78d398faa6801f7c67e51d06a"
+        }
+      ]
+    },
+    {
+      "sha": "1ab102eea0ed65a78d398faa6801f7c67e51d06a",
+      "node_id": "C_kwDOMvqqjtoAKDFhYjEwMmVlYTBlZDY1YTc4ZDM5OGZhYTY4MDFmN2M2N2U1MWQwNmE",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T09:10:47Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T09:10:47Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "e5f3f534164a360eddce0c37c53d32d8a8c7fa02",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/e5f3f534164a360eddce0c37c53d32d8a8c7fa02"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/1ab102eea0ed65a78d398faa6801f7c67e51d06a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/1ab102eea0ed65a78d398faa6801f7c67e51d06a",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/1ab102eea0ed65a78d398faa6801f7c67e51d06a",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/1ab102eea0ed65a78d398faa6801f7c67e51d06a/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "24b4c92d1bd0fe14f5332efb51133788d2ea3be3",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/24b4c92d1bd0fe14f5332efb51133788d2ea3be3",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/24b4c92d1bd0fe14f5332efb51133788d2ea3be3"
+        }
+      ]
+    },
+    {
+      "sha": "24b4c92d1bd0fe14f5332efb51133788d2ea3be3",
+      "node_id": "C_kwDOMvqqjtoAKDI0YjRjOTJkMWJkMGZlMTRmNTMzMmVmYjUxMTMzNzg4ZDJlYTNiZTM",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T07:28:41Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T07:28:41Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "43f8e9b871a34f9c49fc989666d980184efbe1dd",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/43f8e9b871a34f9c49fc989666d980184efbe1dd"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/24b4c92d1bd0fe14f5332efb51133788d2ea3be3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/24b4c92d1bd0fe14f5332efb51133788d2ea3be3",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/24b4c92d1bd0fe14f5332efb51133788d2ea3be3",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/24b4c92d1bd0fe14f5332efb51133788d2ea3be3/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "176568ef1112f2aa8711bd32cc814b6299f58332",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/176568ef1112f2aa8711bd32cc814b6299f58332",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/176568ef1112f2aa8711bd32cc814b6299f58332"
+        }
+      ]
+    },
+    {
+      "sha": "176568ef1112f2aa8711bd32cc814b6299f58332",
+      "node_id": "C_kwDOMvqqjtoAKDE3NjU2OGVmMTExMmYyYWE4NzExYmQzMmNjODE0YjYyOTlmNTgzMzI",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T06:59:20Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-11T06:59:20Z"
+        },
+        "message": "updated changes",
+        "tree": {
+          "sha": "77f96365c8bad8ba5bbda02802125f551a5e10e8",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/77f96365c8bad8ba5bbda02802125f551a5e10e8"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/176568ef1112f2aa8711bd32cc814b6299f58332",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/176568ef1112f2aa8711bd32cc814b6299f58332",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/176568ef1112f2aa8711bd32cc814b6299f58332",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/176568ef1112f2aa8711bd32cc814b6299f58332/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2685a405145bb6fc819277fdc4a18ffc29c29534",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/2685a405145bb6fc819277fdc4a18ffc29c29534",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/2685a405145bb6fc819277fdc4a18ffc29c29534"
+        }
+      ]
+    },
+    {
+      "sha": "2685a405145bb6fc819277fdc4a18ffc29c29534",
+      "node_id": "C_kwDOMvqqjtoAKDI2ODVhNDA1MTQ1YmI2ZmM4MTkyNzdmZGM0YTE4ZmZjMjljMjk1MzQ",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-10T16:57:03Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-10T16:57:03Z"
+        },
+        "message": "modified code",
+        "tree": {
+          "sha": "bc18a1c52eff238924760527f895cd44589b0571",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/bc18a1c52eff238924760527f895cd44589b0571"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/2685a405145bb6fc819277fdc4a18ffc29c29534",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/2685a405145bb6fc819277fdc4a18ffc29c29534",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/2685a405145bb6fc819277fdc4a18ffc29c29534",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/2685a405145bb6fc819277fdc4a18ffc29c29534/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6ed8d1304dd8bbcf002d0966e8096e742cfc3d36",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/6ed8d1304dd8bbcf002d0966e8096e742cfc3d36",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/6ed8d1304dd8bbcf002d0966e8096e742cfc3d36"
+        }
+      ]
+    },
+    {
+      "sha": "6ed8d1304dd8bbcf002d0966e8096e742cfc3d36",
+      "node_id": "C_kwDOMvqqjtoAKDZlZDhkMTMwNGRkOGJiY2YwMDJkMDk2NmU4MDk2ZTc0MmNmYzNkMzY",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-10T16:27:24Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-10T16:27:24Z"
+        },
+        "message": "updates",
+        "tree": {
+          "sha": "6ca6716d92dae46653c8ba4a6c82711e16dd8178",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/6ca6716d92dae46653c8ba4a6c82711e16dd8178"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/6ed8d1304dd8bbcf002d0966e8096e742cfc3d36",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/6ed8d1304dd8bbcf002d0966e8096e742cfc3d36",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/6ed8d1304dd8bbcf002d0966e8096e742cfc3d36",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/6ed8d1304dd8bbcf002d0966e8096e742cfc3d36/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "23b4a6ac999f564cb832bacd473b3a20115150f1",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/23b4a6ac999f564cb832bacd473b3a20115150f1",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/23b4a6ac999f564cb832bacd473b3a20115150f1"
+        }
+      ]
+    },
+    {
+      "sha": "23b4a6ac999f564cb832bacd473b3a20115150f1",
+      "node_id": "C_kwDOMvqqjtoAKDIzYjRhNmFjOTk5ZjU2NGNiODMyYmFjZDQ3M2IzYTIwMTE1MTUwZjE",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-10T16:26:11Z"
+        },
+        "committer": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-10T16:26:11Z"
+        },
+        "message": "initial commit",
+        "tree": {
+          "sha": "b7b4c913bc8dc491d8139dc37beb230f5e1e5bac",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/b7b4c913bc8dc491d8139dc37beb230f5e1e5bac"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/23b4a6ac999f564cb832bacd473b3a20115150f1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/23b4a6ac999f564cb832bacd473b3a20115150f1",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/23b4a6ac999f564cb832bacd473b3a20115150f1",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/23b4a6ac999f564cb832bacd473b3a20115150f1/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "39565e03344ae7c6742a8f7f10ba251d2548b5e9",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/39565e03344ae7c6742a8f7f10ba251d2548b5e9",
+          "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/39565e03344ae7c6742a8f7f10ba251d2548b5e9"
+        }
+      ]
+    },
+    {
+      "sha": "39565e03344ae7c6742a8f7f10ba251d2548b5e9",
+      "node_id": "C_kwDOMvqqjtoAKDM5NTY1ZTAzMzQ0YWU3YzY3NDJhOGY3ZjEwYmEyNTFkMjU0OGI1ZTk",
+      "commit": {
+        "author": {
+          "name": "Arun Brahma",
+          "email": "mithubrahma94@gmail.com",
+          "date": "2024-09-10T16:18:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-10T16:18:49Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "f0e7c3e6c18d545d116767680fe1fe67928d52da",
+          "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/trees/f0e7c3e6c18d545d116767680fe1fe67928d52da"
+        },
+        "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/git/commits/39565e03344ae7c6742a8f7f10ba251d2548b5e9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm4HFpCRC1aQ7uu5UhlAAAsfIQABmCWKKCQdb8pYnXYhA1vH0v\nPGhyT0tDmDkzI1USC9hO/ZW2feshJ5RxPBGDWSKHk6ckH5xlEFxEqXE4mrYb1RVN\nSkvBiCCSAWZlxEwp4V0UwqsDb9RiDmbNCyZDmAjOs3rpMvuS8C1I0ASxp6qSVxfz\nTZfcgYHxka3bx5HTQUuzrxsFKnGP2g81FDbLZg7W0Xw9vInMofnZ06dpETAgsR0n\nEQueHOwQdZGUDLVidLFVVToNBu4RhNjAZ9Yhr00VmDgoWDLvwdtm+Ktq7b3jsgbf\nijR/YTjqSDA0/COdbtiA5VzSdetOZh6h7cejzs58tdGhv8Ihbp8DpT/p64OKL8lb\nnOs8dKuXXBYCNRgBWiHbCbDRlLFTdKb0y8WSmfCkbAvtZ5WTzNfgt7/12DFVBRw7\nT7DA+EPFymjoN4Lrwki5Ff9b5znoFLO7HkCKATsx1N8QFeVOALuz1ZUakOLj8vkU\nJeS+ul9tFcyWCkSCJfUDvG8l68vhqsYVhbDl90aB0Bs4d7dN6ioMF6uV4q2fgMLy\nEg6OH/9YqVHREjVp9VvX9tExXmVAfaLt0z6TC7lg23pQI/j5f3VRKfC8Ab7xaucz\n5ffG++ayjX8/sFWDoPf5hswV9GxXmTm06N23Y4XgwmAKhSnJRwWJTCyB9Q/PVaJX\ngqF+wNHIOpp4yTGro1MD\n=bdf+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f0e7c3e6c18d545d116767680fe1fe67928d52da\nauthor Arun Brahma <mithubrahma94@gmail.com> 1725985129 +0530\ncommitter GitHub <noreply@github.com> 1725985129 +0530\n\nInitial commit",
+          "verified_at": "2024-11-13T06:59:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/39565e03344ae7c6742a8f7f10ba251d2548b5e9",
+      "html_url": "https://github.com/iamarunbrahma/pdf-to-markdown/commit/39565e03344ae7c6742a8f7f10ba251d2548b5e9",
+      "comments_url": "https://api.github.com/repos/iamarunbrahma/pdf-to-markdown/commits/39565e03344ae7c6742a8f7f10ba251d2548b5e9/comments",
+      "author": {
+        "login": "iamarunbrahma",
+        "id": 6504730,
+        "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/iamarunbrahma",
+        "html_url": "https://github.com/iamarunbrahma",
+        "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+        "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+        "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+        "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+        "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+        "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "iamarunbrahma",
+      "id": 6504730,
+      "node_id": "MDQ6VXNlcjY1MDQ3MzA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6504730?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iamarunbrahma",
+      "html_url": "https://github.com/iamarunbrahma",
+      "followers_url": "https://api.github.com/users/iamarunbrahma/followers",
+      "following_url": "https://api.github.com/users/iamarunbrahma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iamarunbrahma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iamarunbrahma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iamarunbrahma/subscriptions",
+      "organizations_url": "https://api.github.com/users/iamarunbrahma/orgs",
+      "repos_url": "https://api.github.com/users/iamarunbrahma/repos",
+      "events_url": "https://api.github.com/users/iamarunbrahma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iamarunbrahma/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 26
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 24724
+  },
+  "readme_html": "<h1 id=\"user-content-pdf-to-markdown-extractor\">PDF to Markdown Extractor</h1>\n<h2 id=\"user-content-table-of-contents\">Table of Contents</h2>\n<ul>\n<li><a href=\"#objective\">Objective</a></li>\n<li><a href=\"#features\">Features</a></li>\n<li><a href=\"#requirements\">Requirements</a></li>\n<li><a href=\"#installation\">Installation</a></li>\n<li><a href=\"#usage\">Usage</a></li>\n<li><a href=\"#performance-and-accuracy\">Performance and Accuracy</a></li>\n<li><a href=\"#limitations\">Limitations</a></li>\n<li><a href=\"#use-in-downstream-tasks\">Use in Downstream Tasks</a></li>\n<li><a href=\"#contributing\">Contributing</a></li>\n<li><a href=\"#license\">License</a></li>\n</ul>\n<h2 id=\"user-content-objective\">Objective</h2>\n<p>This project aims to extract markdown-formatted content from PDF files, specifically designed for downstream tasks such as Retrieval Augmented Generation (RAG). It preserves various markdown elements such as tables, images, links, bold and italic text, blockquotes, code blocks, and other markdown-specific syntax. The script utilizes Python libraries like PyMuPDF (fitz), pdfplumber, pytesseract, and others to achieve accurate extraction and conversion, focusing solely on converting PDF files to Markdown format.</p>\n<h2 id=\"user-content-features\">Features</h2>\n<ul>\n<li>Extracts text, images, tables, and code blocks from PDF files</li>\n<li>Converts PDF content to markdown format optimized for RAG and other NLP tasks</li>\n<li>Preserves formatting for bold, italic, tables, images, links, lists, and code blocks</li>\n<li>Handles complex layouts including multi-column text</li>\n<li>Performs OCR on images to extract text</li>\n<li>Generates image captions using a pre-trained model</li>\n<li>Outputs clean, structured markdown suitable for information retrieval and text generation tasks</li>\n</ul>\n<h2 id=\"user-content-requirements\">Requirements</h2>\n<ul>\n<li>Python 3.8+</li>\n<li>PyMuPDF (fitz)</li>\n<li>pdfplumber</li>\n<li>pytesseract</li>\n<li>OpenCV (cv2)</li>\n<li>numpy</li>\n<li>Pillow (PIL)</li>\n<li>transformers</li>\n<li>torch</li>\n</ul>\n<h2 id=\"user-content-installation\">Installation</h2>\n<ol>\n<li>\n<p>Clone the repository:</p>\n<pre><code>git clone https://github.com/iamarunbrahma/pdf-to-markdown.git\ncd pdf-to-markdown\n</code></pre>\n</li>\n<li>\n<p>Create a virtual environment (optional but recommended):</p>\n<pre><code>python -m venv venv\nsource venv/bin/activate\n</code></pre>\n</li>\n<li>\n<p>Install the required packages:</p>\n<pre><code>pip install -r requirements.txt\n</code></pre>\n</li>\n<li>\n<p>Install Tesseract OCR:</p>\n<ul>\n<li>On Ubuntu: <code>sudo apt-get install tesseract-ocr</code></li>\n<li>On macOS: <code>brew install tesseract</code></li>\n<li>On Windows: Download and install from <a href=\"https://github.com/UB-Mannheim/tesseract/wiki\">GitHub</a></li>\n</ul>\n</li>\n</ol>\n<h2 id=\"user-content-usage\">Usage</h2>\n<p>Run the script with the path to your PDF file as an argument:</p>\n<pre><code>python extract.py --pdf_path path/to/your/file.pdf\n</code></pre>\n<p>The extracted markdown content will be saved in the <code>outputs</code> directory with the same name as the input PDF file, but with a <code>.md</code> extension.</p>\n<h2 id=\"user-content-performance-and-accuracy\">Performance and Accuracy</h2>\n<p>The script is designed to handle various PDF layouts and content types, with a focus on producing high-quality markdown for downstream NLP tasks:</p>\n<ul>\n<li>\n<p><strong>Accuracy</strong>: The extractor aims for high accuracy in preserving the original document's structure and formatting. It handles common elements like text, tables, images, links, and code blocks well, ensuring the output is suitable for tasks like RAG. However, very complex layouts or PDFs with non-standard formatting might require manual review.</p>\n</li>\n<li>\n<p><strong>Speed</strong>: The processing time depends on the PDF's size and complexity. On average, for a 10-page PDF with mixed content (text, images, tables, and code blocks), the extraction process typically takes about 30-60 seconds on a modern computer.</p>\n</li>\n<li>\n<p><strong>Optimization for RAG</strong>: The output is structured to facilitate easy parsing and chunking for RAG systems, with clear delineation between different sections and content types.</p>\n</li>\n</ul>\n<h2 id=\"user-content-limitations\">Limitations</h2>\n<ul>\n<li>This tool is specifically designed for PDF to Markdown conversion and does not handle other file formats.</li>\n<li>Very large PDFs (100+ pages) may require significant processing time.</li>\n<li>PDFs with complex mathematical formulas or specialized symbols may not be perfectly converted.</li>\n<li>Scanned PDFs without embedded text will rely on OCR, which may not be 100% accurate.</li>\n</ul>\n<h2 id=\"user-content-use-in-downstream-tasks\">Use in Downstream Tasks</h2>\n<p>The markdown output from this extractor is particularly well-suited for:</p>\n<ol>\n<li><strong>Retrieval Augmented Generation (RAG)</strong>: The structured markdown can be easily indexed and retrieved, providing context for language models in RAG systems.</li>\n<li><strong>Text Summarization</strong>: Clean, well-formatted markdown facilitates more accurate summarization of document content.</li>\n<li><strong>Information Extraction</strong>: The preserved structure aids in extracting specific information from documents.</li>\n</ol>\n<h2 id=\"user-content-contributing\">Contributing</h2>\n<p>Contributions to improve the extractor's accuracy, speed, or feature set are welcome, especially those that enhance its utility for RAG and other NLP tasks. Please feel free to submit issues or pull requests.</p>\n<h2 id=\"user-content-license\">License</h2>\n<p>This project is licensed under the MIT License - see the <a href=\"LICENSE\">LICENSE</a> file for details.</p>",
+  "_fetched_at": "2026-03-11T18:17:31.975Z"
+}

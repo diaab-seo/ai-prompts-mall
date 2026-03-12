@@ -1,0 +1,3589 @@
+{
+  "id": 741430484,
+  "node_id": "R_kgDOLDFU1A",
+  "name": "write-you-a-vector-db",
+  "full_name": "skyzh/write-you-a-vector-db",
+  "private": false,
+  "owner": {
+    "login": "skyzh",
+    "id": 4198311,
+    "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/skyzh",
+    "html_url": "https://github.com/skyzh",
+    "followers_url": "https://api.github.com/users/skyzh/followers",
+    "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+    "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+    "organizations_url": "https://api.github.com/users/skyzh/orgs",
+    "repos_url": "https://api.github.com/users/skyzh/repos",
+    "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/skyzh/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/skyzh/write-you-a-vector-db",
+  "description": "A Vector Database Tutorial (over CMU-DB's BusTub system)",
+  "fork": false,
+  "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db",
+  "forks_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/forks",
+  "keys_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/teams",
+  "hooks_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/hooks",
+  "issue_events_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/events",
+  "assignees_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/tags",
+  "blobs_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/languages",
+  "stargazers_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/stargazers",
+  "contributors_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/contributors",
+  "subscribers_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/subscribers",
+  "subscription_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/subscription",
+  "commits_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/merges",
+  "archive_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/downloads",
+  "issues_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/labels{/name}",
+  "releases_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/deployments",
+  "created_at": "2024-01-10T11:34:05Z",
+  "updated_at": "2026-03-10T23:10:35Z",
+  "pushed_at": "2025-01-19T23:10:36Z",
+  "git_url": "git://github.com/skyzh/write-you-a-vector-db.git",
+  "ssh_url": "git@github.com:skyzh/write-you-a-vector-db.git",
+  "clone_url": "https://github.com/skyzh/write-you-a-vector-db.git",
+  "svn_url": "https://github.com/skyzh/write-you-a-vector-db",
+  "homepage": "https://skyzh.github.io/write-you-a-vector-db/",
+  "size": 254,
+  "stargazers_count": 756,
+  "watchers_count": 756,
+  "language": "C++",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": true,
+  "has_discussions": false,
+  "forks_count": 23,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "bustub",
+    "database",
+    "tutorial",
+    "vector-database"
+  ],
+  "visibility": "public",
+  "forks": 23,
+  "open_issues": 0,
+  "watchers": 756,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "vector-databases",
+  "commits": [
+    {
+      "sha": "882b024d620a3d6351326ce271d56d375c376714",
+      "node_id": "C_kwDOLDFU1NoAKDg4MmIwMjRkNjIwYTNkNjM1MTMyNmNlMjcxZDU2ZDM3NWMzNzY3MTQ",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2025-01-19T23:10:35Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2025-01-19T23:10:35Z"
+        },
+        "message": "updates on Rust version\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "78656ec5f3fed41081e5f0da465ef95b736c2170",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/78656ec5f3fed41081e5f0da465ef95b736c2170"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/882b024d620a3d6351326ce271d56d375c376714",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/882b024d620a3d6351326ce271d56d375c376714",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/882b024d620a3d6351326ce271d56d375c376714",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/882b024d620a3d6351326ce271d56d375c376714/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "551eed885a4626af4ab93bfdc371323bd85278a1",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/551eed885a4626af4ab93bfdc371323bd85278a1",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/551eed885a4626af4ab93bfdc371323bd85278a1"
+        }
+      ]
+    },
+    {
+      "sha": "551eed885a4626af4ab93bfdc371323bd85278a1",
+      "node_id": "C_kwDOLDFU1NoAKDU1MWVlZDg4NWE0NjI2YWY0YWI5M2JmZGMzNzEzMjNiZDg1Mjc4YTE",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-21T13:40:15Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-21T13:40:15Z"
+        },
+        "message": "add sitemap\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "87d03f09c9696f971f9da656d0938de645696403",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/87d03f09c9696f971f9da656d0938de645696403"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/551eed885a4626af4ab93bfdc371323bd85278a1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/551eed885a4626af4ab93bfdc371323bd85278a1",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/551eed885a4626af4ab93bfdc371323bd85278a1",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/551eed885a4626af4ab93bfdc371323bd85278a1/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e726fa4014e8145fd64558f8350a84f7b2ea8400",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e726fa4014e8145fd64558f8350a84f7b2ea8400",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/e726fa4014e8145fd64558f8350a84f7b2ea8400"
+        }
+      ]
+    },
+    {
+      "sha": "e726fa4014e8145fd64558f8350a84f7b2ea8400",
+      "node_id": "C_kwDOLDFU1NoAKGU3MjZmYTQwMTRlODE0NWZkNjQ1NThmODM1MGE4NGY3YjJlYTg0MDA",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T11:54:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-20T11:54:33Z"
+        },
+        "message": "Update copyright.md",
+        "tree": {
+          "sha": "5a739d1e74008b780430c2f01cd8a8d8db0dc72d",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/5a739d1e74008b780430c2f01cd8a8d8db0dc72d"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/e726fa4014e8145fd64558f8350a84f7b2ea8400",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlq7R5CRC1aQ7uu5UhlAAATPAQAHMW5epGbtHz3P2TTqEHa6Pl\nSzFk+l/fAdf/nVL/29dao9GJay2CrFO6yHJUOig+iP9YLayRzjs/j/X03r8vGC9j\nv0uN2VjL2Vh1KPL7/Y7iK4WhDeTHFJOdAJ2s4W2L7B0u13Gc1ngL2w8fJpgnb1AU\nyKj3lOzFXtFp5h5h5jolXjsGwXBGKynYnddW+iDJRHbrJMboxTvLm1QmRCAgcFmz\ncUEZ5h0kpDwPlyD64zLTABY1+2w1JXYyzcegE/Z0X/BbazEXNY2xdsdiJj6cFBrY\nQxAJwQI4cTYsWIJnfRO6cYXRouEdJ3pBbniow3MeYMY9l5horJSxEf+cVYq7Dg7C\nXYbqWHSmB3XRe1UR+cw5IHh9ADNdeoC8+mBR45LSFWDQEnxpCer+7g17tcc3FpXK\n/VfiHvm3KtXBrzeDA8/oFqpb8UuvIkRKaBb0WJ6CPXoFVHY5LsVGYOaipVI4v//p\nmsUA0ibmqcD8JWJaMKZu9MKQzOIo1LMWBny76gvuckANRnRBvWojtn0gOp/dVBTH\nFNF1BCjgCViVBbolLIVx3Q4W81xyG485ESg4+BKQgcmnNuHD0VsdjfrRzT/NcpHJ\n/8JOpJXwUKLsKidaek5hb5YQZYDqO3y6aja/wAlj/VDG8PLuJ5nAxTQugN3SWMQZ\nk6uyGtVh4i6tw/SLd916\n=rM/i\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5a739d1e74008b780430c2f01cd8a8d8db0dc72d\nparent f65fe7932bb8cbab9e88d5c70355db2e5d7e799a\nauthor Alex Chi Z <iskyzh@gmail.com> 1705751673 +0800\ncommitter GitHub <noreply@github.com> 1705751673 +0800\n\nUpdate copyright.md",
+          "verified_at": "2024-11-10T00:15:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e726fa4014e8145fd64558f8350a84f7b2ea8400",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/e726fa4014e8145fd64558f8350a84f7b2ea8400",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e726fa4014e8145fd64558f8350a84f7b2ea8400/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f65fe7932bb8cbab9e88d5c70355db2e5d7e799a",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/f65fe7932bb8cbab9e88d5c70355db2e5d7e799a",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/f65fe7932bb8cbab9e88d5c70355db2e5d7e799a"
+        }
+      ]
+    },
+    {
+      "sha": "f65fe7932bb8cbab9e88d5c70355db2e5d7e799a",
+      "node_id": "C_kwDOLDFU1NoAKGY2NWZlNzkzMmJiOGNiYWI5ZTg4ZDVjNzAzNTVkYjJlNWQ3ZTc5OWE",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T11:53:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-20T11:53:42Z"
+        },
+        "message": "Update cpp-06-01-nsw.md",
+        "tree": {
+          "sha": "557e6f6dbc6fa66b4898dbc3d896d1bbc09657cf",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/557e6f6dbc6fa66b4898dbc3d896d1bbc09657cf"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/f65fe7932bb8cbab9e88d5c70355db2e5d7e799a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlq7RGCRC1aQ7uu5UhlAAA9AsQAF8eOjifNLAGk1FUc456dptO\nV6vDzENZS0tfwz60un2e5xI0qPo8oIhBTSd9b9kxVCMVwARVIXMa0P6a0AF4oHLW\ni09PjS5X0/xK5hd1Xs9IdZQBytzdLI5IdWavmnzQxrU7fYMBuljnUp2gs0JfL/WG\niaO98eOdXOVSrPbK7sUb5s8r28uK32d/tGnUh71xNBs81I/s5ehaCn6SQbQfFy8o\nbZh8HcAjbUCuHmIZVmJDk5vBBzI8J3TVJpTPMLn0DSKQ+dDN3f318d7p2220ZPeX\nPM6uzXTPrejAkJWQoaj3HbyCNOV4gdHi7MvVRPVXM4aOL29FDevTu/bOFhvkBGlg\nrtqLt8qO6o3AGpogV40uOW8JEMGn5FePIE+Y6KS3Yufx1kEQGuW5j1d90ON4juMo\ndVaJn2W4SYuu5ovD7j99RqgDSdOwUeJ42r0G9raNkd0ExFT0WHMgBFP+cR5cQo9S\nUbFOoqhtKU6UIyLWyJ6ZHNcM8DWQcPNUk1fl4HRlvn+L5ZekxiWiDnV85S2Hmrxr\nqqNhsGoAUhEg7toF3ARsCSZ6vLcr6bJ1CE7QtL/OYtnh/3A9ua5VQ+53dzSZF5zR\nLnni58cRJZ0PGe/mIA/DslTkYvKxVl5Iffm/agAJWwIMcbceEkwNA2NEl+H0HgS9\n4U0rMpC6pyBVCgGJd3Ta\n=kbMT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 557e6f6dbc6fa66b4898dbc3d896d1bbc09657cf\nparent aebaa2cea36944ce70e557d967588588cdf9d738\nauthor Alex Chi Z <iskyzh@gmail.com> 1705751622 +0800\ncommitter GitHub <noreply@github.com> 1705751622 +0800\n\nUpdate cpp-06-01-nsw.md",
+          "verified_at": "2024-11-10T00:15:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/f65fe7932bb8cbab9e88d5c70355db2e5d7e799a",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/f65fe7932bb8cbab9e88d5c70355db2e5d7e799a",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/f65fe7932bb8cbab9e88d5c70355db2e5d7e799a/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "aebaa2cea36944ce70e557d967588588cdf9d738",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/aebaa2cea36944ce70e557d967588588cdf9d738",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/aebaa2cea36944ce70e557d967588588cdf9d738"
+        }
+      ]
+    },
+    {
+      "sha": "aebaa2cea36944ce70e557d967588588cdf9d738",
+      "node_id": "C_kwDOLDFU1NoAKGFlYmFhMmNlYTM2OTQ0Y2U3MGU1NTdkOTY3NTg4NTg4Y2RmOWQ3Mzg",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T04:17:38Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T04:18:04Z"
+        },
+        "message": "update license guidance\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "4c8bce62c5895b54df098b6582011aa1c6362509",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/4c8bce62c5895b54df098b6582011aa1c6362509"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/aebaa2cea36944ce70e557d967588588cdf9d738",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/aebaa2cea36944ce70e557d967588588cdf9d738",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/aebaa2cea36944ce70e557d967588588cdf9d738",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/aebaa2cea36944ce70e557d967588588cdf9d738/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "612dfc349d6a13b30ca76bdec7d5c33be3b7aae9",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/612dfc349d6a13b30ca76bdec7d5c33be3b7aae9",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/612dfc349d6a13b30ca76bdec7d5c33be3b7aae9"
+        }
+      ]
+    },
+    {
+      "sha": "612dfc349d6a13b30ca76bdec7d5c33be3b7aae9",
+      "node_id": "C_kwDOLDFU1NoAKDYxMmRmYzM0OWQ2YTEzYjMwY2E3NmJkZWM3ZDVjMzNiZTNiN2FhZTk",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T04:07:47Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T04:07:47Z"
+        },
+        "message": "add copyright notice\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "46959c820304277c9301a4f5d5364021f2fa6730",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/46959c820304277c9301a4f5d5364021f2fa6730"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/612dfc349d6a13b30ca76bdec7d5c33be3b7aae9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/612dfc349d6a13b30ca76bdec7d5c33be3b7aae9",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/612dfc349d6a13b30ca76bdec7d5c33be3b7aae9",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/612dfc349d6a13b30ca76bdec7d5c33be3b7aae9/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7b024188d7699c018b6dd79259bcebcde2c730c4",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/7b024188d7699c018b6dd79259bcebcde2c730c4",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/7b024188d7699c018b6dd79259bcebcde2c730c4"
+        }
+      ]
+    },
+    {
+      "sha": "7b024188d7699c018b6dd79259bcebcde2c730c4",
+      "node_id": "C_kwDOLDFU1NoAKDdiMDI0MTg4ZDc2OTljMDE4YjZkZDc5MjU5YmNlYmNkZTJjNzMwYzQ",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T04:06:33Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-20T04:06:33Z"
+        },
+        "message": "update starter code\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "31f645ec515ad1063d4ac981167ee35655ac8a99",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/31f645ec515ad1063d4ac981167ee35655ac8a99"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/7b024188d7699c018b6dd79259bcebcde2c730c4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/7b024188d7699c018b6dd79259bcebcde2c730c4",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/7b024188d7699c018b6dd79259bcebcde2c730c4",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/7b024188d7699c018b6dd79259bcebcde2c730c4/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21fcfa6a786cc864510fde3951f208465b049fe5",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/21fcfa6a786cc864510fde3951f208465b049fe5",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/21fcfa6a786cc864510fde3951f208465b049fe5"
+        }
+      ]
+    },
+    {
+      "sha": "21fcfa6a786cc864510fde3951f208465b049fe5",
+      "node_id": "C_kwDOLDFU1NoAKDIxZmNmYTZhNzg2Y2M4NjQ1MTBmZGUzOTUxZjIwODQ2NWIwNDlmZTU",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-19T03:38:14Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-19T03:38:14Z"
+        },
+        "message": "update epilogue\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "61f449a7c9ea98d29cd2bc5e50c443519f7ecf83",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/61f449a7c9ea98d29cd2bc5e50c443519f7ecf83"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/21fcfa6a786cc864510fde3951f208465b049fe5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/21fcfa6a786cc864510fde3951f208465b049fe5",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/21fcfa6a786cc864510fde3951f208465b049fe5",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/21fcfa6a786cc864510fde3951f208465b049fe5/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e2d8597fb9ce1b9d2286042ea3d6986b19c25db0",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e2d8597fb9ce1b9d2286042ea3d6986b19c25db0",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/e2d8597fb9ce1b9d2286042ea3d6986b19c25db0"
+        }
+      ]
+    },
+    {
+      "sha": "e2d8597fb9ce1b9d2286042ea3d6986b19c25db0",
+      "node_id": "C_kwDOLDFU1NoAKGUyZDg1OTdmYjljZTFiOWQyMjg2MDQyZWEzZDY5ODZiMTljMjVkYjA",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-18T07:13:01Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-18T07:13:01Z"
+        },
+        "message": "update readme\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "f3636702e344f9b9dbb83839f49d0015857818b0",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/f3636702e344f9b9dbb83839f49d0015857818b0"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/e2d8597fb9ce1b9d2286042ea3d6986b19c25db0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e2d8597fb9ce1b9d2286042ea3d6986b19c25db0",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/e2d8597fb9ce1b9d2286042ea3d6986b19c25db0",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e2d8597fb9ce1b9d2286042ea3d6986b19c25db0/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2fa4f06b042fa1d6c36c6454e7643904b376b043",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2fa4f06b042fa1d6c36c6454e7643904b376b043",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/2fa4f06b042fa1d6c36c6454e7643904b376b043"
+        }
+      ]
+    },
+    {
+      "sha": "2fa4f06b042fa1d6c36c6454e7643904b376b043",
+      "node_id": "C_kwDOLDFU1NoAKDJmYTRmMDZiMDQyZmExZDZjMzZjNjQ1NGU3NjQzOTA0YjM3NmIwNDM",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-18T07:09:53Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-18T07:10:55Z"
+        },
+        "message": "add discord link\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "35b4b9afb7717981f5e0528af9823fac42f04278",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/35b4b9afb7717981f5e0528af9823fac42f04278"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/2fa4f06b042fa1d6c36c6454e7643904b376b043",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2fa4f06b042fa1d6c36c6454e7643904b376b043",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/2fa4f06b042fa1d6c36c6454e7643904b376b043",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2fa4f06b042fa1d6c36c6454e7643904b376b043/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c73258580aa4782158e80fffb09f6ab84d1dbcd0",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/c73258580aa4782158e80fffb09f6ab84d1dbcd0",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/c73258580aa4782158e80fffb09f6ab84d1dbcd0"
+        }
+      ]
+    },
+    {
+      "sha": "c73258580aa4782158e80fffb09f6ab84d1dbcd0",
+      "node_id": "C_kwDOLDFU1NoAKGM3MzI1ODU4MGFhNDc4MjE1OGU4MGZmZmIwOWY2YWI4NGQxZGJjZDA",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:34:11Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:34:11Z"
+        },
+        "message": "update hnsw test cases\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "d92af1fd4b9993efc196ff68454f34510ccc67e2",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/d92af1fd4b9993efc196ff68454f34510ccc67e2"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/c73258580aa4782158e80fffb09f6ab84d1dbcd0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/c73258580aa4782158e80fffb09f6ab84d1dbcd0",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/c73258580aa4782158e80fffb09f6ab84d1dbcd0",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/c73258580aa4782158e80fffb09f6ab84d1dbcd0/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46d4a4b639333b1191f083304ca8cd8b5b66a439",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/46d4a4b639333b1191f083304ca8cd8b5b66a439",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/46d4a4b639333b1191f083304ca8cd8b5b66a439"
+        }
+      ]
+    },
+    {
+      "sha": "46d4a4b639333b1191f083304ca8cd8b5b66a439",
+      "node_id": "C_kwDOLDFU1NoAKDQ2ZDRhNGI2MzkzMzNiMTE5MWYwODMzMDRjYThjZDhiNWI2NmE0Mzk",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:19:22Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:19:22Z"
+        },
+        "message": "minor nits\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "39b2c0ad08e1ae61b1d62b42c7f0e202a734bc5f",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/39b2c0ad08e1ae61b1d62b42c7f0e202a734bc5f"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/46d4a4b639333b1191f083304ca8cd8b5b66a439",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/46d4a4b639333b1191f083304ca8cd8b5b66a439",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/46d4a4b639333b1191f083304ca8cd8b5b66a439",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/46d4a4b639333b1191f083304ca8cd8b5b66a439/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9931ba46e125defa555b6fa8891acb1888e10f11",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/9931ba46e125defa555b6fa8891acb1888e10f11",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/9931ba46e125defa555b6fa8891acb1888e10f11"
+        }
+      ]
+    },
+    {
+      "sha": "9931ba46e125defa555b6fa8891acb1888e10f11",
+      "node_id": "C_kwDOLDFU1NoAKDk5MzFiYTQ2ZTEyNWRlZmE1NTViNmZhODg5MWFjYjE4ODhlMTBmMTE",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:18:01Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:18:01Z"
+        },
+        "message": "minor nits\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "c0b5fda31979bd405db36fe87a536ea2dd14aa87",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/c0b5fda31979bd405db36fe87a536ea2dd14aa87"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/9931ba46e125defa555b6fa8891acb1888e10f11",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/9931ba46e125defa555b6fa8891acb1888e10f11",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/9931ba46e125defa555b6fa8891acb1888e10f11",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/9931ba46e125defa555b6fa8891acb1888e10f11/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0e769e749bccec1c86c9bebca6145c1c447e148b",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/0e769e749bccec1c86c9bebca6145c1c447e148b",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/0e769e749bccec1c86c9bebca6145c1c447e148b"
+        }
+      ]
+    },
+    {
+      "sha": "0e769e749bccec1c86c9bebca6145c1c447e148b",
+      "node_id": "C_kwDOLDFU1NoAKDBlNzY5ZTc0OWJjY2VjMWM4NmM5YmViY2E2MTQ1YzFjNDQ3ZTE0OGI",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:14:57Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T07:14:57Z"
+        },
+        "message": "finish HNSW chapter\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "fe29c50ddf0dada547890bd7d4142148378a7783",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/fe29c50ddf0dada547890bd7d4142148378a7783"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/0e769e749bccec1c86c9bebca6145c1c447e148b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/0e769e749bccec1c86c9bebca6145c1c447e148b",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/0e769e749bccec1c86c9bebca6145c1c447e148b",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/0e769e749bccec1c86c9bebca6145c1c447e148b/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bb9f58faa721df5fb028064b7e3a5e49379bedbf",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/bb9f58faa721df5fb028064b7e3a5e49379bedbf",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/bb9f58faa721df5fb028064b7e3a5e49379bedbf"
+        }
+      ]
+    },
+    {
+      "sha": "bb9f58faa721df5fb028064b7e3a5e49379bedbf",
+      "node_id": "C_kwDOLDFU1NoAKGJiOWY1OGZhYTcyMWRmNWZiMDI4MDY0YjdlM2E1ZTQ5Mzc5YmVkYmY",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T06:57:18Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-16T06:57:18Z"
+        },
+        "message": "add nsw and hnsw write-up\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "d22f4cfad32853c17ff3c010f4e78c1351676ad9",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/d22f4cfad32853c17ff3c010f4e78c1351676ad9"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/bb9f58faa721df5fb028064b7e3a5e49379bedbf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/bb9f58faa721df5fb028064b7e3a5e49379bedbf",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/bb9f58faa721df5fb028064b7e3a5e49379bedbf",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/bb9f58faa721df5fb028064b7e3a5e49379bedbf/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4326551bd68e307b9ce3ff6993add1b617ac9c24",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/4326551bd68e307b9ce3ff6993add1b617ac9c24",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/4326551bd68e307b9ce3ff6993add1b617ac9c24"
+        }
+      ]
+    },
+    {
+      "sha": "4326551bd68e307b9ce3ff6993add1b617ac9c24",
+      "node_id": "C_kwDOLDFU1NoAKDQzMjY1NTFiZDY4ZTMwN2I5Y2UzZmY2OTkzYWRkMWI2MTdhYzljMjQ",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T14:41:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-15T14:41:24Z"
+        },
+        "message": "Update 10-epilogue.md",
+        "tree": {
+          "sha": "494cb545a3020ba1c8c7fe06717fb3b3782840c7",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/494cb545a3020ba1c8c7fe06717fb3b3782840c7"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/4326551bd68e307b9ce3ff6993add1b617ac9c24",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlpUQUCRBK7hj4Ov3rIwAAxv4IAH3RXqrCl3faO9hU2LZuBXjq\n9RYDc3KjwQMOYpgF8DwzujMWetkuEQdu/UUTJyR8h4Uuh9jSkHJbKaiH3CX4NXRI\nAmvPcdrSkATdpeIbnEit06xCW0gw0bUX28HyyxLvS3CqA0HB06biV1L9das3ZbgH\nyiq2b5U+xOKBJNEe1FSPOegwpIGz14Fn8icmnptMeHpjSunOtrKFuE3TqjNIAMEo\nYTP1avGTxt+PCo9rc/cB00fSW8QBYNCKPEA4vq7sSIlx+vgZZ5WRBva2dBJA8FGn\nLFuw8GgTzBi3RmwiFqlsBNg0PK+BkiNp4JK1db0QwFb6FMJPNE0bXh+uHD/X+Xw=\n=Iyvu\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 494cb545a3020ba1c8c7fe06717fb3b3782840c7\nparent f77d531752965ce9a8c810098ab7df5f3a9aa2b8\nauthor Alex Chi Z <iskyzh@gmail.com> 1705329684 +0800\ncommitter GitHub <noreply@github.com> 1705329684 +0800\n\nUpdate 10-epilogue.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/4326551bd68e307b9ce3ff6993add1b617ac9c24",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/4326551bd68e307b9ce3ff6993add1b617ac9c24",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/4326551bd68e307b9ce3ff6993add1b617ac9c24/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f77d531752965ce9a8c810098ab7df5f3a9aa2b8",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/f77d531752965ce9a8c810098ab7df5f3a9aa2b8",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/f77d531752965ce9a8c810098ab7df5f3a9aa2b8"
+        }
+      ]
+    },
+    {
+      "sha": "f77d531752965ce9a8c810098ab7df5f3a9aa2b8",
+      "node_id": "C_kwDOLDFU1NoAKGY3N2Q1MzE3NTI5NjVjZTlhOGM4MTAwOThhYjdkZjVmM2E5YWEyYjg",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T14:19:54Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T14:19:54Z"
+        },
+        "message": "add logo\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "2ed44409ac704a4f2359769e699552e816f31a31",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/2ed44409ac704a4f2359769e699552e816f31a31"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/f77d531752965ce9a8c810098ab7df5f3a9aa2b8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/f77d531752965ce9a8c810098ab7df5f3a9aa2b8",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/f77d531752965ce9a8c810098ab7df5f3a9aa2b8",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/f77d531752965ce9a8c810098ab7df5f3a9aa2b8/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "82c796d0d444a5d52aabc841e2cabba30f461af8",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/82c796d0d444a5d52aabc841e2cabba30f461af8",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/82c796d0d444a5d52aabc841e2cabba30f461af8"
+        }
+      ]
+    },
+    {
+      "sha": "82c796d0d444a5d52aabc841e2cabba30f461af8",
+      "node_id": "C_kwDOLDFU1NoAKDgyYzc5NmQwZDQ0NGE1ZDUyYWFiYzg0MWUyY2FiYmEzMGY0NjFhZjg",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T14:05:37Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T14:05:37Z"
+        },
+        "message": "better format for related readings\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "0d96e32e0e1c23a0e27314a63d1b17e88cd6fc35",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/0d96e32e0e1c23a0e27314a63d1b17e88cd6fc35"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/82c796d0d444a5d52aabc841e2cabba30f461af8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/82c796d0d444a5d52aabc841e2cabba30f461af8",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/82c796d0d444a5d52aabc841e2cabba30f461af8",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/82c796d0d444a5d52aabc841e2cabba30f461af8/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "95102299551f86318f5a4bf5d3a45f12077dc8ba",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/95102299551f86318f5a4bf5d3a45f12077dc8ba",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/95102299551f86318f5a4bf5d3a45f12077dc8ba"
+        }
+      ]
+    },
+    {
+      "sha": "95102299551f86318f5a4bf5d3a45f12077dc8ba",
+      "node_id": "C_kwDOLDFU1NoAKDk1MTAyMjk5NTUxZjg2MzE4ZjVhNGJmNWQzYTQ1ZjEyMDc3ZGM4YmE",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T14:01:27Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T14:01:27Z"
+        },
+        "message": "update hnsw starter code\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "f3235dda8071d66538aabc498ae979a3c9d14637",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/f3235dda8071d66538aabc498ae979a3c9d14637"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/95102299551f86318f5a4bf5d3a45f12077dc8ba",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/95102299551f86318f5a4bf5d3a45f12077dc8ba",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/95102299551f86318f5a4bf5d3a45f12077dc8ba",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/95102299551f86318f5a4bf5d3a45f12077dc8ba/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "24840d8df76261ac54c80c4efef5a80304dc375a",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/24840d8df76261ac54c80c4efef5a80304dc375a",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/24840d8df76261ac54c80c4efef5a80304dc375a"
+        }
+      ]
+    },
+    {
+      "sha": "24840d8df76261ac54c80c4efef5a80304dc375a",
+      "node_id": "C_kwDOLDFU1NoAKDI0ODQwZDhkZjc2MjYxYWM1NGM4MGM0ZWZlZjVhODAzMDRkYzM3NWE",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:24:45Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:24:45Z"
+        },
+        "message": "compare with other tutorials...\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "12d6a00754bd5a5a3e5d5318436e2e49c7b805ea",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/12d6a00754bd5a5a3e5d5318436e2e49c7b805ea"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/24840d8df76261ac54c80c4efef5a80304dc375a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/24840d8df76261ac54c80c4efef5a80304dc375a",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/24840d8df76261ac54c80c4efef5a80304dc375a",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/24840d8df76261ac54c80c4efef5a80304dc375a/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "48bbf9407b3ce764e86183e4e1004bb09ecd50df",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/48bbf9407b3ce764e86183e4e1004bb09ecd50df",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/48bbf9407b3ce764e86183e4e1004bb09ecd50df"
+        }
+      ]
+    },
+    {
+      "sha": "48bbf9407b3ce764e86183e4e1004bb09ecd50df",
+      "node_id": "C_kwDOLDFU1NoAKDQ4YmJmOTQwN2IzY2U3NjRlODYxODNlNGUxMDA0YmIwOWVjZDUwZGY",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:10:45Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:12:59Z"
+        },
+        "message": "intro to nsw and hnsw\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "27098ff771d177b659fc9ab0225f084a955ecbea",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/27098ff771d177b659fc9ab0225f084a955ecbea"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/48bbf9407b3ce764e86183e4e1004bb09ecd50df",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/48bbf9407b3ce764e86183e4e1004bb09ecd50df",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/48bbf9407b3ce764e86183e4e1004bb09ecd50df",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/48bbf9407b3ce764e86183e4e1004bb09ecd50df/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fd025648ed5b166ed0dce8dcec79ca9df9b0c670",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/fd025648ed5b166ed0dce8dcec79ca9df9b0c670",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/fd025648ed5b166ed0dce8dcec79ca9df9b0c670"
+        }
+      ]
+    },
+    {
+      "sha": "fd025648ed5b166ed0dce8dcec79ca9df9b0c670",
+      "node_id": "C_kwDOLDFU1NoAKGZkMDI1NjQ4ZWQ1YjE2NmVkMGRjZThkY2VjNzljYTlkZjliMGM2NzA",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:07:36Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:07:36Z"
+        },
+        "message": "bump solution version\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "361408f10d9661eff93dd0e8eb4ea438569c8e5f",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/361408f10d9661eff93dd0e8eb4ea438569c8e5f"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/fd025648ed5b166ed0dce8dcec79ca9df9b0c670",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/fd025648ed5b166ed0dce8dcec79ca9df9b0c670",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/fd025648ed5b166ed0dce8dcec79ca9df9b0c670",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/fd025648ed5b166ed0dce8dcec79ca9df9b0c670/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "78eed9b2b0f3e11d4149ecf4017424bdedfab760",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/78eed9b2b0f3e11d4149ecf4017424bdedfab760",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/78eed9b2b0f3e11d4149ecf4017424bdedfab760"
+        }
+      ]
+    },
+    {
+      "sha": "78eed9b2b0f3e11d4149ecf4017424bdedfab760",
+      "node_id": "C_kwDOLDFU1NoAKDc4ZWVkOWIyYjBmM2UxMWQ0MTQ5ZWNmNDAxNzQyNGJkZWRmYWI3NjA",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:03:49Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:03:49Z"
+        },
+        "message": "update test cases\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "ea9836e417acad845a1ea9bc6aa281f6b03d25e0",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/ea9836e417acad845a1ea9bc6aa281f6b03d25e0"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/78eed9b2b0f3e11d4149ecf4017424bdedfab760",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/78eed9b2b0f3e11d4149ecf4017424bdedfab760",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/78eed9b2b0f3e11d4149ecf4017424bdedfab760",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/78eed9b2b0f3e11d4149ecf4017424bdedfab760/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2b6223c904a4803b132a800b05eb91aeefcd8992",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2b6223c904a4803b132a800b05eb91aeefcd8992",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/2b6223c904a4803b132a800b05eb91aeefcd8992"
+        }
+      ]
+    },
+    {
+      "sha": "2b6223c904a4803b132a800b05eb91aeefcd8992",
+      "node_id": "C_kwDOLDFU1NoAKDJiNjIyM2M5MDRhNDgwM2IxMzJhODAwYjA1ZWI5MWFlZWZjZDg5OTI",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:02:20Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T11:02:20Z"
+        },
+        "message": "finish ivfflat chapter\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "2aa9f8086375c0e67a79ea0d551c7ea885a291b3",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/2aa9f8086375c0e67a79ea0d551c7ea885a291b3"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/2b6223c904a4803b132a800b05eb91aeefcd8992",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2b6223c904a4803b132a800b05eb91aeefcd8992",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/2b6223c904a4803b132a800b05eb91aeefcd8992",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2b6223c904a4803b132a800b05eb91aeefcd8992/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3eb615b60293cb1408a60ac43a675d617abc0e74",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/3eb615b60293cb1408a60ac43a675d617abc0e74",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/3eb615b60293cb1408a60ac43a675d617abc0e74"
+        }
+      ]
+    },
+    {
+      "sha": "3eb615b60293cb1408a60ac43a675d617abc0e74",
+      "node_id": "C_kwDOLDFU1NoAKDNlYjYxNWI2MDI5M2NiMTQwOGE2MGFjNDNhNjc1ZDYxN2FiYzBlNzQ",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:51:14Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:51:14Z"
+        },
+        "message": "index selection strategy\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "50d67645dc8a53508081daa642f714908d6065bf",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/50d67645dc8a53508081daa642f714908d6065bf"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/3eb615b60293cb1408a60ac43a675d617abc0e74",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/3eb615b60293cb1408a60ac43a675d617abc0e74",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/3eb615b60293cb1408a60ac43a675d617abc0e74",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/3eb615b60293cb1408a60ac43a675d617abc0e74/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "62ffe9ba9b1cd79201ad94099549ba15405222ac",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/62ffe9ba9b1cd79201ad94099549ba15405222ac",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/62ffe9ba9b1cd79201ad94099549ba15405222ac"
+        }
+      ]
+    },
+    {
+      "sha": "62ffe9ba9b1cd79201ad94099549ba15405222ac",
+      "node_id": "C_kwDOLDFU1NoAKDYyZmZlOWJhOWIxY2Q3OTIwMWFkOTQwOTk1NDliYTE1NDA1MjIyYWM",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:39:57Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:39:57Z"
+        },
+        "message": "is -> is not\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "c3d72190d35ea792758e2c0e45e4582de50930bd",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/c3d72190d35ea792758e2c0e45e4582de50930bd"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/62ffe9ba9b1cd79201ad94099549ba15405222ac",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/62ffe9ba9b1cd79201ad94099549ba15405222ac",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/62ffe9ba9b1cd79201ad94099549ba15405222ac",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/62ffe9ba9b1cd79201ad94099549ba15405222ac/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5a869c8d35e7d79e7c3fd16357c55ad9afe83382",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/5a869c8d35e7d79e7c3fd16357c55ad9afe83382",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/5a869c8d35e7d79e7c3fd16357c55ad9afe83382"
+        }
+      ]
+    },
+    {
+      "sha": "5a869c8d35e7d79e7c3fd16357c55ad9afe83382",
+      "node_id": "C_kwDOLDFU1NoAKDVhODY5YzhkMzVlN2Q3OWU3YzNmZDE2MzU3YzU1YWQ5YWZlODMzODI",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:37:52Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:37:52Z"
+        },
+        "message": "cheating the linguist...\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "3af283163705716e5b1c605c578d9440b59a98bc",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/3af283163705716e5b1c605c578d9440b59a98bc"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/5a869c8d35e7d79e7c3fd16357c55ad9afe83382",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/5a869c8d35e7d79e7c3fd16357c55ad9afe83382",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/5a869c8d35e7d79e7c3fd16357c55ad9afe83382",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/5a869c8d35e7d79e7c3fd16357c55ad9afe83382/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "479097a95bd08833243cbd870e37777653aed2b0",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/479097a95bd08833243cbd870e37777653aed2b0",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/479097a95bd08833243cbd870e37777653aed2b0"
+        }
+      ]
+    },
+    {
+      "sha": "479097a95bd08833243cbd870e37777653aed2b0",
+      "node_id": "C_kwDOLDFU1NoAKDQ3OTA5N2E5NWJkMDg4MzMyNDNjYmQ4NzBlMzc3Nzc2NTNhZWQyYjA",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:34:51Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:34:51Z"
+        },
+        "message": "add git repository icon\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "49b3da5c8c961feb6a09e87bf8263a3de8a4255e",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/49b3da5c8c961feb6a09e87bf8263a3de8a4255e"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/479097a95bd08833243cbd870e37777653aed2b0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/479097a95bd08833243cbd870e37777653aed2b0",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/479097a95bd08833243cbd870e37777653aed2b0",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/479097a95bd08833243cbd870e37777653aed2b0/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "adf20c8ba3439327c6a0d8a0a4ba081646152a93",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/adf20c8ba3439327c6a0d8a0a4ba081646152a93",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/adf20c8ba3439327c6a0d8a0a4ba081646152a93"
+        }
+      ]
+    },
+    {
+      "sha": "adf20c8ba3439327c6a0d8a0a4ba081646152a93",
+      "node_id": "C_kwDOLDFU1NoAKGFkZjIwYzhiYTM0MzkzMjdjNmEwZDhhMGE0YmEwODE2NDYxNTJhOTM",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:30:19Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:31:28Z"
+        },
+        "message": "add gh-pages url to readme\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "3388e3eaba34e25beefe1bf9587b7698a8bc763f",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/3388e3eaba34e25beefe1bf9587b7698a8bc763f"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/adf20c8ba3439327c6a0d8a0a4ba081646152a93",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/adf20c8ba3439327c6a0d8a0a4ba081646152a93",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/adf20c8ba3439327c6a0d8a0a4ba081646152a93",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/adf20c8ba3439327c6a0d8a0a4ba081646152a93/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b8728e8e23c6b1cb6b2b23e0e9add193a1c18957",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/b8728e8e23c6b1cb6b2b23e0e9add193a1c18957",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/b8728e8e23c6b1cb6b2b23e0e9add193a1c18957"
+        }
+      ]
+    },
+    {
+      "sha": "b8728e8e23c6b1cb6b2b23e0e9add193a1c18957",
+      "node_id": "C_kwDOLDFU1NoAKGI4NzI4ZThlMjNjNmIxY2I2YjJiMjNlMGU5YWRkMTkzYTFjMTg5NTc",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:28:11Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:28:11Z"
+        },
+        "message": "build on gh-pages\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "1fddb8108cd2efa8dbcd8484a1ba50511161ea3f",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/1fddb8108cd2efa8dbcd8484a1ba50511161ea3f"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/b8728e8e23c6b1cb6b2b23e0e9add193a1c18957",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/b8728e8e23c6b1cb6b2b23e0e9add193a1c18957",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/b8728e8e23c6b1cb6b2b23e0e9add193a1c18957",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/b8728e8e23c6b1cb6b2b23e0e9add193a1c18957/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "32c8b9db946d47a9da61931050874db2e0c899a1",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/32c8b9db946d47a9da61931050874db2e0c899a1",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/32c8b9db946d47a9da61931050874db2e0c899a1"
+        }
+      ]
+    },
+    {
+      "sha": "32c8b9db946d47a9da61931050874db2e0c899a1",
+      "node_id": "C_kwDOLDFU1NoAKDMyYzhiOWRiOTQ2ZDQ3YTlkYTYxOTMxMDUwODc0ZGIyZTBjODk5YTE",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:08:20Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:08:20Z"
+        },
+        "message": "minor nits\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "bb8cdd5603805fcc82ed4c04b46c31860e76f949",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/bb8cdd5603805fcc82ed4c04b46c31860e76f949"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/32c8b9db946d47a9da61931050874db2e0c899a1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/32c8b9db946d47a9da61931050874db2e0c899a1",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/32c8b9db946d47a9da61931050874db2e0c899a1",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/32c8b9db946d47a9da61931050874db2e0c899a1/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e1493db1c3e07c78286ff6e8a070cad74842b596",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e1493db1c3e07c78286ff6e8a070cad74842b596",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/e1493db1c3e07c78286ff6e8a070cad74842b596"
+        }
+      ]
+    },
+    {
+      "sha": "e1493db1c3e07c78286ff6e8a070cad74842b596",
+      "node_id": "C_kwDOLDFU1NoAKGUxNDkzZGIxYzNlMDdjNzgyODZmZjZlOGEwNzBjYWQ3NDg0MmI1OTY",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:03:29Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T08:03:29Z"
+        },
+        "message": "finish 2.2 and 2.3\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "3eca9e72a2a31ca98b0d31bc3eb890d91d2eaed5",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/3eca9e72a2a31ca98b0d31bc3eb890d91d2eaed5"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/e1493db1c3e07c78286ff6e8a070cad74842b596",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e1493db1c3e07c78286ff6e8a070cad74842b596",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/e1493db1c3e07c78286ff6e8a070cad74842b596",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/e1493db1c3e07c78286ff6e8a070cad74842b596/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d46cdb7e1708070de2d1bf56816b1eed3031a0ff",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/d46cdb7e1708070de2d1bf56816b1eed3031a0ff",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/d46cdb7e1708070de2d1bf56816b1eed3031a0ff"
+        }
+      ]
+    },
+    {
+      "sha": "d46cdb7e1708070de2d1bf56816b1eed3031a0ff",
+      "node_id": "C_kwDOLDFU1NoAKGQ0NmNkYjdlMTcwODA3MGRlMmQxYmY1NjgxNmIxZWVkMzAzMWEwZmY",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T07:24:12Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T07:24:12Z"
+        },
+        "message": "add figures and enhance setup chapter\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "957e02df6c978004af5e6662cadd755519b2e36c",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/957e02df6c978004af5e6662cadd755519b2e36c"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/d46cdb7e1708070de2d1bf56816b1eed3031a0ff",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/d46cdb7e1708070de2d1bf56816b1eed3031a0ff",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/d46cdb7e1708070de2d1bf56816b1eed3031a0ff",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/d46cdb7e1708070de2d1bf56816b1eed3031a0ff/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0543c9329595e5997f5f8bf0ec5ab9b954d64c3d",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/0543c9329595e5997f5f8bf0ec5ab9b954d64c3d",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/0543c9329595e5997f5f8bf0ec5ab9b954d64c3d"
+        }
+      ]
+    },
+    {
+      "sha": "0543c9329595e5997f5f8bf0ec5ab9b954d64c3d",
+      "node_id": "C_kwDOLDFU1NoAKDA1NDNjOTMyOTU5NWU1OTk3ZjVmOGJmMGVjNWFiOWI5NTRkNjRjM2Q",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T05:57:29Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-15T05:57:29Z"
+        },
+        "message": "more bonus tasks\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "a6dc6b94f4f8e5526af46eb6f1cdc4edf4a7143e",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/a6dc6b94f4f8e5526af46eb6f1cdc4edf4a7143e"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/0543c9329595e5997f5f8bf0ec5ab9b954d64c3d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/0543c9329595e5997f5f8bf0ec5ab9b954d64c3d",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/0543c9329595e5997f5f8bf0ec5ab9b954d64c3d",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/0543c9329595e5997f5f8bf0ec5ab9b954d64c3d/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2b635197c58c37e4876f5a6c6274ced2dd5ebd1d",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2b635197c58c37e4876f5a6c6274ced2dd5ebd1d",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/2b635197c58c37e4876f5a6c6274ced2dd5ebd1d"
+        }
+      ]
+    },
+    {
+      "sha": "2b635197c58c37e4876f5a6c6274ced2dd5ebd1d",
+      "node_id": "C_kwDOLDFU1NoAKDJiNjM1MTk3YzU4YzM3ZTQ4NzZmNWE2YzYyNzRjZWQyZGQ1ZWJkMWQ",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-14T13:23:47Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-14T13:23:47Z"
+        },
+        "message": "nearly complete cpp-01\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "c19d4ae2b3b29d6f2fe89ba0e58a8f4e1aed3c97",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/c19d4ae2b3b29d6f2fe89ba0e58a8f4e1aed3c97"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/2b635197c58c37e4876f5a6c6274ced2dd5ebd1d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2b635197c58c37e4876f5a6c6274ced2dd5ebd1d",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/2b635197c58c37e4876f5a6c6274ced2dd5ebd1d",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/2b635197c58c37e4876f5a6c6274ced2dd5ebd1d/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ebe766746997ec9c74648f99dcc3336fd45565e9",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/ebe766746997ec9c74648f99dcc3336fd45565e9",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/ebe766746997ec9c74648f99dcc3336fd45565e9"
+        }
+      ]
+    },
+    {
+      "sha": "ebe766746997ec9c74648f99dcc3336fd45565e9",
+      "node_id": "C_kwDOLDFU1NoAKGViZTc2Njc0Njk5N2VjOWM3NDY0OGY5OWRjYzMzMzZmZDQ1NTY1ZTk",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T13:18:42Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T13:18:42Z"
+        },
+        "message": "add links to previous tutorials\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "f31b1a11a5c144f6dae093f505d6380407ce67b0",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/f31b1a11a5c144f6dae093f505d6380407ce67b0"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/ebe766746997ec9c74648f99dcc3336fd45565e9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/ebe766746997ec9c74648f99dcc3336fd45565e9",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/ebe766746997ec9c74648f99dcc3336fd45565e9",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/ebe766746997ec9c74648f99dcc3336fd45565e9/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "380b469dce486fb06ccc3ed9f78b2f924bdfbcda",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/380b469dce486fb06ccc3ed9f78b2f924bdfbcda",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/380b469dce486fb06ccc3ed9f78b2f924bdfbcda"
+        }
+      ]
+    },
+    {
+      "sha": "380b469dce486fb06ccc3ed9f78b2f924bdfbcda",
+      "node_id": "C_kwDOLDFU1NoAKDM4MGI0NjlkY2U0ODZmYjA2Y2NjM2VkOWY3OGIyZjkyNGJkZmJjZGE",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T13:16:56Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T13:16:56Z"
+        },
+        "message": "add a space after array keyword\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "4a911dff1f8012d500432e2f1351a93f3a6f27d3",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/4a911dff1f8012d500432e2f1351a93f3a6f27d3"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/380b469dce486fb06ccc3ed9f78b2f924bdfbcda",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/380b469dce486fb06ccc3ed9f78b2f924bdfbcda",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/380b469dce486fb06ccc3ed9f78b2f924bdfbcda",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/380b469dce486fb06ccc3ed9f78b2f924bdfbcda/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "045d9b16f779e36e6e9bd4c3c28f706f201ec9a2",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/045d9b16f779e36e6e9bd4c3c28f706f201ec9a2",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/045d9b16f779e36e6e9bd4c3c28f706f201ec9a2"
+        }
+      ]
+    },
+    {
+      "sha": "045d9b16f779e36e6e9bd4c3c28f706f201ec9a2",
+      "node_id": "C_kwDOLDFU1NoAKDA0NWQ5YjE2Zjc3OWUzNmU2ZTliZDRjM2MyOGY3MDZmMjAxZWM5YTI",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T13:15:23Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T13:15:23Z"
+        },
+        "message": "finish intro\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "cfb535fa8112f6e66f7a0cdf0b703bad23ecfa1e",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/cfb535fa8112f6e66f7a0cdf0b703bad23ecfa1e"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/045d9b16f779e36e6e9bd4c3c28f706f201ec9a2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/045d9b16f779e36e6e9bd4c3c28f706f201ec9a2",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/045d9b16f779e36e6e9bd4c3c28f706f201ec9a2",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/045d9b16f779e36e6e9bd4c3c28f706f201ec9a2/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8ab2925ca1135daca056be45292aba05d80d13bc",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/8ab2925ca1135daca056be45292aba05d80d13bc",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/8ab2925ca1135daca056be45292aba05d80d13bc"
+        }
+      ]
+    },
+    {
+      "sha": "8ab2925ca1135daca056be45292aba05d80d13bc",
+      "node_id": "C_kwDOLDFU1NoAKDhhYjI5MjVjYTExMzVkYWNhMDU2YmU0NTI5MmFiYTA1ZDgwZDEzYmM",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T10:04:48Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-13T10:04:48Z"
+        },
+        "message": "update toc\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "92f4d181c477993ce57060555a879363c9cc8608",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/92f4d181c477993ce57060555a879363c9cc8608"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/8ab2925ca1135daca056be45292aba05d80d13bc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/8ab2925ca1135daca056be45292aba05d80d13bc",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/8ab2925ca1135daca056be45292aba05d80d13bc",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/8ab2925ca1135daca056be45292aba05d80d13bc/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c6b01b592e6b6c6694fd7b7b02fbb90999978cbc",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/c6b01b592e6b6c6694fd7b7b02fbb90999978cbc",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/c6b01b592e6b6c6694fd7b7b02fbb90999978cbc"
+        }
+      ]
+    },
+    {
+      "sha": "c6b01b592e6b6c6694fd7b7b02fbb90999978cbc",
+      "node_id": "C_kwDOLDFU1NoAKGM2YjAxYjU5MmU2YjZjNjY5NGZkN2I3YjAyZmJiOTA5OTk5NzhjYmM",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-12T09:27:32Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-12T09:27:32Z"
+        },
+        "message": "more docs\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "6296d0312ae31d8a6eb0b5a206f640b138577a9e",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/6296d0312ae31d8a6eb0b5a206f640b138577a9e"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/c6b01b592e6b6c6694fd7b7b02fbb90999978cbc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/c6b01b592e6b6c6694fd7b7b02fbb90999978cbc",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/c6b01b592e6b6c6694fd7b7b02fbb90999978cbc",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/c6b01b592e6b6c6694fd7b7b02fbb90999978cbc/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d7a645b4741525b336f5bb6062949c452918aa66",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/d7a645b4741525b336f5bb6062949c452918aa66",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/d7a645b4741525b336f5bb6062949c452918aa66"
+        }
+      ]
+    },
+    {
+      "sha": "d7a645b4741525b336f5bb6062949c452918aa66",
+      "node_id": "C_kwDOLDFU1NoAKGQ3YTY0NWI0NzQxNTI1YjMzNmY1YmI2MDYyOTQ5YzQ1MjkxOGFhNjY",
+      "commit": {
+        "author": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-11T15:10:02Z"
+        },
+        "committer": {
+          "name": "Alex Chi Z",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-11T15:10:02Z"
+        },
+        "message": "adjust toc\n\nSigned-off-by: Alex Chi Z <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "5d2362664664722ff77efdc3287c046b4dbdf439",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/5d2362664664722ff77efdc3287c046b4dbdf439"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/d7a645b4741525b336f5bb6062949c452918aa66",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/d7a645b4741525b336f5bb6062949c452918aa66",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/d7a645b4741525b336f5bb6062949c452918aa66",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/d7a645b4741525b336f5bb6062949c452918aa66/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a6bcbe81562ef61864282aff5b478a570e6e8bf8",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/a6bcbe81562ef61864282aff5b478a570e6e8bf8",
+          "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/a6bcbe81562ef61864282aff5b478a570e6e8bf8"
+        }
+      ]
+    },
+    {
+      "sha": "a6bcbe81562ef61864282aff5b478a570e6e8bf8",
+      "node_id": "C_kwDOLDFU1NoAKGE2YmNiZTgxNTYyZWY2MTg2NDI4MmFmZjViNDc4YTU3MGU2ZThiZjg",
+      "commit": {
+        "author": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-10T11:34:19Z"
+        },
+        "committer": {
+          "name": "Alex Chi",
+          "email": "iskyzh@gmail.com",
+          "date": "2024-01-10T11:34:19Z"
+        },
+        "message": "initial commit\n\nSigned-off-by: Alex Chi <iskyzh@gmail.com>",
+        "tree": {
+          "sha": "08cb1def4429d5f4894b6133671009d4c3e5db42",
+          "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/trees/08cb1def4429d5f4894b6133671009d4c3e5db42"
+        },
+        "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/git/commits/a6bcbe81562ef61864282aff5b478a570e6e8bf8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/a6bcbe81562ef61864282aff5b478a570e6e8bf8",
+      "html_url": "https://github.com/skyzh/write-you-a-vector-db/commit/a6bcbe81562ef61864282aff5b478a570e6e8bf8",
+      "comments_url": "https://api.github.com/repos/skyzh/write-you-a-vector-db/commits/a6bcbe81562ef61864282aff5b478a570e6e8bf8/comments",
+      "author": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skyzh",
+        "id": 4198311,
+        "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skyzh",
+        "html_url": "https://github.com/skyzh",
+        "followers_url": "https://api.github.com/users/skyzh/followers",
+        "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+        "organizations_url": "https://api.github.com/users/skyzh/orgs",
+        "repos_url": "https://api.github.com/users/skyzh/repos",
+        "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skyzh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "skyzh",
+      "id": 4198311,
+      "node_id": "MDQ6VXNlcjQxOTgzMTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4198311?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/skyzh",
+      "html_url": "https://github.com/skyzh",
+      "followers_url": "https://api.github.com/users/skyzh/followers",
+      "following_url": "https://api.github.com/users/skyzh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/skyzh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/skyzh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/skyzh/subscriptions",
+      "organizations_url": "https://api.github.com/users/skyzh/orgs",
+      "repos_url": "https://api.github.com/users/skyzh/repos",
+      "events_url": "https://api.github.com/users/skyzh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/skyzh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 42
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "C++": 1034,
+    "Shell": 233,
+    "CSS": 83
+  },
+  "readme_html": "<p><img src=\"https://raw.githubusercontent.com/skyzh/write-you-a-vector-db/main/tutorial/src/vectordb-banner-horizontal.png\" alt=\"banner\"></p>\n<h1 id=\"user-content-write-you-a-vector-database\">Write You a Vector Database</h1>\n<p>A tutorial on how to add vector capabilities to a relational database system.</p>\n<p>Access the tutorial at <a href=\"https://skyzh.github.io/write-you-a-vector-db\">https://skyzh.github.io/write-you-a-vector-db</a>.</p>\n<p>We plan to release two variants of this tutorial: a C++ version and a Rust version.</p>\n<p>In the C++ version, you will implement pgvector-like capabilities on a modified version of CMU-DB's <a href=\"https://github.com/cmu-db/bustub\">BusTub</a> educational database system. You will implement vector storage, vector expressions, and vector indexes over BusTub.</p>\n<p>In the to-be-expected Rust version, you will implement vector capabilities over the <a href=\"https://github.com/risinglightdb/risinglight\">RisingLight</a> educational database system. We are actively working on it. <a href=\"https://github.com/risinglightdb/risinglight/issues/864\">[Tracking Issue]</a></p>\n<h2 id=\"user-content-community\">Community</h2>\n<p>You may join skyzh's Discord server and study with the write-you-a-vector-db community.</p>\n<p><a href=\"https://skyzh.dev/join/discord\"><img src=\"https://raw.githubusercontent.com/skyzh/write-you-a-vector-db/main/tutorial/src/discord-badge.svg\" alt=\"Join skyzh&#x27;s Discord Server\"></a></p>\n<h2 id=\"user-content-license\">License</h2>\n<p>The BusTub vector-db starter code and solution are under MIT license. Please note that there are some specific files that overlap with the CMU-DB's Database Systems course and we cannot make them public (and you should not either). The author reserves the full copyright of the tutorial (markdown files and figures).</p>",
+  "_fetched_at": "2026-03-11T18:20:23.946Z"
+}

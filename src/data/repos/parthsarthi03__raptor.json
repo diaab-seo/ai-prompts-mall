@@ -1,0 +1,1882 @@
+{
+  "id": 763825934,
+  "node_id": "R_kgDOLYcPDg",
+  "name": "raptor",
+  "full_name": "parthsarthi03/raptor",
+  "private": false,
+  "owner": {
+    "login": "parthsarthi03",
+    "id": 39787228,
+    "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/parthsarthi03",
+    "html_url": "https://github.com/parthsarthi03",
+    "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+    "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+    "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+    "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+    "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+    "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/parthsarthi03/raptor",
+  "description": "The official implementation of RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval",
+  "fork": false,
+  "url": "https://api.github.com/repos/parthsarthi03/raptor",
+  "forks_url": "https://api.github.com/repos/parthsarthi03/raptor/forks",
+  "keys_url": "https://api.github.com/repos/parthsarthi03/raptor/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/parthsarthi03/raptor/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/parthsarthi03/raptor/teams",
+  "hooks_url": "https://api.github.com/repos/parthsarthi03/raptor/hooks",
+  "issue_events_url": "https://api.github.com/repos/parthsarthi03/raptor/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/parthsarthi03/raptor/events",
+  "assignees_url": "https://api.github.com/repos/parthsarthi03/raptor/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/parthsarthi03/raptor/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/parthsarthi03/raptor/tags",
+  "blobs_url": "https://api.github.com/repos/parthsarthi03/raptor/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/parthsarthi03/raptor/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/parthsarthi03/raptor/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/parthsarthi03/raptor/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/parthsarthi03/raptor/languages",
+  "stargazers_url": "https://api.github.com/repos/parthsarthi03/raptor/stargazers",
+  "contributors_url": "https://api.github.com/repos/parthsarthi03/raptor/contributors",
+  "subscribers_url": "https://api.github.com/repos/parthsarthi03/raptor/subscribers",
+  "subscription_url": "https://api.github.com/repos/parthsarthi03/raptor/subscription",
+  "commits_url": "https://api.github.com/repos/parthsarthi03/raptor/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/parthsarthi03/raptor/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/parthsarthi03/raptor/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/parthsarthi03/raptor/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/parthsarthi03/raptor/merges",
+  "archive_url": "https://api.github.com/repos/parthsarthi03/raptor/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/parthsarthi03/raptor/downloads",
+  "issues_url": "https://api.github.com/repos/parthsarthi03/raptor/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/parthsarthi03/raptor/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/parthsarthi03/raptor/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/parthsarthi03/raptor/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/parthsarthi03/raptor/labels{/name}",
+  "releases_url": "https://api.github.com/repos/parthsarthi03/raptor/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/parthsarthi03/raptor/deployments",
+  "created_at": "2024-02-27T01:33:26Z",
+  "updated_at": "2026-03-11T12:18:11Z",
+  "pushed_at": "2024-09-03T08:34:31Z",
+  "git_url": "git://github.com/parthsarthi03/raptor.git",
+  "ssh_url": "git@github.com:parthsarthi03/raptor.git",
+  "clone_url": "https://github.com/parthsarthi03/raptor.git",
+  "svn_url": "https://github.com/parthsarthi03/raptor",
+  "homepage": "https://arxiv.org/abs/2401.18059",
+  "size": 836,
+  "stargazers_count": 1610,
+  "watchers_count": 1610,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": true,
+  "forks_count": 217,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 44,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "agents",
+    "clustering",
+    "framework",
+    "language-model",
+    "llm",
+    "machine-learning",
+    "rag",
+    "retrieval",
+    "retrieval-augmented-generation",
+    "vector-database"
+  ],
+  "visibility": "public",
+  "forks": 217,
+  "open_issues": 44,
+  "watchers": 1610,
+  "default_branch": "master",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767",
+      "node_id": "C_kwDOLYcPDtoAKDdkYTFkNDhhN2UxZDdkZWM2MWE2M2M5ZDlhYWU4NGUyZGZhYTU3Njc",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "39787228+parthsarthi03@users.noreply.github.com",
+          "date": "2024-09-03T08:34:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-03T08:34:31Z"
+        },
+        "message": "Merge pull request #46 from lorenzo-cm/master\n\nFix #38 : corrected chunk splitting for open ai embeddings",
+        "tree": {
+          "sha": "23c48f584b2b8b99ebe304c50804bf5bbd7a3611",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/23c48f584b2b8b99ebe304c50804bf5bbd7a3611"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm1soXCRC1aQ7uu5UhlAAAYX0QAKvvVntGLbBw4a3hj2B8eyYP\nheg6elWX5X+UAWXk7s2tLupGMeHlgVkVrN3MZGsRwY5L4KsTtr+RPPodqwUMhlHZ\n2v+NJNEAwcyYO7XQAxAiZcV5He76ght811BzyVIPMNtfBXArK8ocDpeAdto9P+cr\nESzzUGBJD7xh/zDChGkSu//w3cIa3k/+jIqPKZ1sEaFzIOZtoi3hcd/2jLTKNFAw\nLgN405+Diw1Ur3GfQoVOx76qNrT+RnGvBOHJspcuAh4fZc6tLkl2Bv2aW6kJHb6L\n6xN6Nx8sIsLrn2uOceHizGURfOLLoRrCiuW0cHS5VTGogrZQj/Un19UwXTGWjd+0\nx2Ly/AVm4SNJbwmbdh+QjaYbLGQaSO/Lufxp3adsMsoUqMLnHZaDf6B7PpuhOnrw\nZL+HMdK8p5tvG6VQweAObU9N2xpR8qB+eekjq7xXoxxl7Gr9uu/BflrGJDDFKFIZ\nZme8ErpLLysencfMM3SPRQEXp9uctEg4uMoKwDOb8T7XlunJ48u8t8jjeqtrQv0l\nH5Q45JLuxTPwuclHg+QW5wfDnpqkP8bw1fbnLcpCjkE+5OWJUSYnSBZX4NaoUigC\nZGLBaLvxUzEt3HyRF+E8NrwoxZtJg7gj7hD7N7RWQPXDhGmlp34nwH4rueF2OKUS\n4tmUMVtjnagQ7GEzSuia\n=/FC7\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 23c48f584b2b8b99ebe304c50804bf5bbd7a3611\nparent 2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845\nparent 956022c748c33efe5f5d7ff86043656b9ad359cb\nauthor Parth Sarthi <39787228+parthsarthi03@users.noreply.github.com> 1725352471 +0530\ncommitter GitHub <noreply@github.com> 1725352471 +0530\n\nMerge pull request #46 from lorenzo-cm/master\n\nFix #38 : corrected chunk splitting for open ai embeddings",
+          "verified_at": "2024-11-05T19:35:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/7da1d48a7e1d7dec61a63c9d9aae84e2dfaa5767/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845"
+        },
+        {
+          "sha": "956022c748c33efe5f5d7ff86043656b9ad359cb",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/956022c748c33efe5f5d7ff86043656b9ad359cb",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/956022c748c33efe5f5d7ff86043656b9ad359cb"
+        }
+      ]
+    },
+    {
+      "sha": "956022c748c33efe5f5d7ff86043656b9ad359cb",
+      "node_id": "C_kwDOLYcPDtoAKDk1NjAyMmM3NDhjMzNlZmU1ZjVkN2ZmODYwNDM2NTZiOWFkMzU5Y2I",
+      "commit": {
+        "author": {
+          "name": "lorenzo-cm",
+          "email": "lorenzocarneirobr@gmail.com",
+          "date": "2024-06-29T15:54:05Z"
+        },
+        "committer": {
+          "name": "lorenzo-cm",
+          "email": "lorenzocarneirobr@gmail.com",
+          "date": "2024-06-29T15:54:05Z"
+        },
+        "message": "Fix #38 : corrected chunk splitting for open ai embeddings",
+        "tree": {
+          "sha": "23c48f584b2b8b99ebe304c50804bf5bbd7a3611",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/23c48f584b2b8b99ebe304c50804bf5bbd7a3611"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/956022c748c33efe5f5d7ff86043656b9ad359cb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/956022c748c33efe5f5d7ff86043656b9ad359cb",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/956022c748c33efe5f5d7ff86043656b9ad359cb",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/956022c748c33efe5f5d7ff86043656b9ad359cb/comments",
+      "author": {
+        "login": "lorenzo-cm",
+        "id": 88812291,
+        "node_id": "MDQ6VXNlcjg4ODEyMjkx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/88812291?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lorenzo-cm",
+        "html_url": "https://github.com/lorenzo-cm",
+        "followers_url": "https://api.github.com/users/lorenzo-cm/followers",
+        "following_url": "https://api.github.com/users/lorenzo-cm/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lorenzo-cm/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lorenzo-cm/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lorenzo-cm/subscriptions",
+        "organizations_url": "https://api.github.com/users/lorenzo-cm/orgs",
+        "repos_url": "https://api.github.com/users/lorenzo-cm/repos",
+        "events_url": "https://api.github.com/users/lorenzo-cm/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lorenzo-cm/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "lorenzo-cm",
+        "id": 88812291,
+        "node_id": "MDQ6VXNlcjg4ODEyMjkx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/88812291?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lorenzo-cm",
+        "html_url": "https://github.com/lorenzo-cm",
+        "followers_url": "https://api.github.com/users/lorenzo-cm/followers",
+        "following_url": "https://api.github.com/users/lorenzo-cm/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lorenzo-cm/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lorenzo-cm/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lorenzo-cm/subscriptions",
+        "organizations_url": "https://api.github.com/users/lorenzo-cm/orgs",
+        "repos_url": "https://api.github.com/users/lorenzo-cm/repos",
+        "events_url": "https://api.github.com/users/lorenzo-cm/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lorenzo-cm/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845"
+        }
+      ]
+    },
+    {
+      "sha": "2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+      "node_id": "C_kwDOLYcPDtoAKDJlM2U4M2U1YzRhYTZhOWI1ZjJkODM1OWY1YjcxYTkxNTljMjA4NDU",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "39787228+parthsarthi03@users.noreply.github.com",
+          "date": "2024-03-21T14:16:40Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-21T14:16:40Z"
+        },
+        "message": "Merge pull request #16 from LLLeoLi/fix-bug-TypeError-Cannot-use-scipy.linalg.eigh-for-sparse-A-with-k-=-N.-Use-scipy.linalg.eigh(A.toarray())-or-reduce-k-\n\nchange the dim to a safe n_components",
+        "tree": {
+          "sha": "4dc323ee5e3a1363b573fd316aded65eb8b65dda",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/4dc323ee5e3a1363b573fd316aded65eb8b65dda"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl/EFICRC1aQ7uu5UhlAAA0fMQAJpyG4MHLL8FRoq7dWSnulaz\nZw+AM/1AMkOVss6qrngaMDDa3PqSPj09YHz7XhpE00Mp3SngWqTftlMGRURtjLcf\nNxh5RKso/iReKQvZw0A76YM6bnRFbsIXZkHIcVCVejzscJ/JdxIGTfnUh8N8TEKY\nM9ZQo31TzFaY7DW8irpwJ+DlQKYDsz7c/xLbfsgXL4l6jkI/lEVU34rB80qHpOal\nq0KabvQwM0iLUua3uIc/Tc6+a51vYqcNqNbugRK53jFBK4v4bJSHCw5xnZ0947ei\nT0xFJqHsLlNAA/2qWsvpt0wWkudrB6p3S9bqgn7U0+cMy15vTFvjdDunPvc8UTLh\nPGpnOR2x5CxSThAT5vO+84O7KpkDcFe3h2Jh70ZC+L58ITWDdrlR2QGuHAv7KnPS\nAXLogvQE40Rwb/6R1Ux1yyeZ3qxwmzl5q5+slNBLaVOSP4JLX69dl1XMjnhnYORG\n2paAtY7hjhMKarRbJD/vdonbulAb/KkxRXmzmE9P2YgLRRQOliVw8eyAl7fX28pF\nbrbfGxu/22y1cXAYg40yOm+hLqbniXZNjdaWYtxzbvEk5h0fxJytcAwLyRuOJiA7\n0QXnN9duP7K/du1K/ipV5QM27Hl1WRuxXVzOtzh4c9JBCiv6HrZqieu4wAMze2kO\nMrPUD6YkUxUmV9JRtwLM\n=+ZEW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4dc323ee5e3a1363b573fd316aded65eb8b65dda\nparent 9d99cbda1b2cb043dde22acc9ef8c4b0bc642392\nparent 04f73b32d4f30264f61fe50645611f68fe9cf9ed\nauthor Parth Sarthi <39787228+parthsarthi03@users.noreply.github.com> 1711030600 +0530\ncommitter GitHub <noreply@github.com> 1711030600 +0530\n\nMerge pull request #16 from LLLeoLi/fix-bug-TypeError-Cannot-use-scipy.linalg.eigh-for-sparse-A-with-k-=-N.-Use-scipy.linalg.eigh(A.toarray())-or-reduce-k-\n\nchange the dim to a safe n_components",
+          "verified_at": "2024-11-05T19:35:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/2e3e83e5c4aa6a9b5f2d8359f5b71a9159c20845/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392"
+        },
+        {
+          "sha": "04f73b32d4f30264f61fe50645611f68fe9cf9ed",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/04f73b32d4f30264f61fe50645611f68fe9cf9ed",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/04f73b32d4f30264f61fe50645611f68fe9cf9ed"
+        }
+      ]
+    },
+    {
+      "sha": "04f73b32d4f30264f61fe50645611f68fe9cf9ed",
+      "node_id": "C_kwDOLYcPDtoAKDA0ZjczYjMyZDRmMzAyNjRmNjFmZTUwNjQ1NjExZjY4ZmU5Y2Y5ZWQ",
+      "commit": {
+        "author": {
+          "name": "Hao",
+          "email": "1097261154@qq.com",
+          "date": "2024-03-19T08:09:46Z"
+        },
+        "committer": {
+          "name": "Hao",
+          "email": "1097261154@qq.com",
+          "date": "2024-03-19T08:09:46Z"
+        },
+        "message": "change the dim to a safe n_components",
+        "tree": {
+          "sha": "4dc323ee5e3a1363b573fd316aded65eb8b65dda",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/4dc323ee5e3a1363b573fd316aded65eb8b65dda"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/04f73b32d4f30264f61fe50645611f68fe9cf9ed",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/04f73b32d4f30264f61fe50645611f68fe9cf9ed",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/04f73b32d4f30264f61fe50645611f68fe9cf9ed",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/04f73b32d4f30264f61fe50645611f68fe9cf9ed/comments",
+      "author": {
+        "login": "LLLeoLi",
+        "id": 89140114,
+        "node_id": "MDQ6VXNlcjg5MTQwMTE0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89140114?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LLLeoLi",
+        "html_url": "https://github.com/LLLeoLi",
+        "followers_url": "https://api.github.com/users/LLLeoLi/followers",
+        "following_url": "https://api.github.com/users/LLLeoLi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LLLeoLi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LLLeoLi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LLLeoLi/subscriptions",
+        "organizations_url": "https://api.github.com/users/LLLeoLi/orgs",
+        "repos_url": "https://api.github.com/users/LLLeoLi/repos",
+        "events_url": "https://api.github.com/users/LLLeoLi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LLLeoLi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "LLLeoLi",
+        "id": 89140114,
+        "node_id": "MDQ6VXNlcjg5MTQwMTE0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89140114?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LLLeoLi",
+        "html_url": "https://github.com/LLLeoLi",
+        "followers_url": "https://api.github.com/users/LLLeoLi/followers",
+        "following_url": "https://api.github.com/users/LLLeoLi/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LLLeoLi/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LLLeoLi/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LLLeoLi/subscriptions",
+        "organizations_url": "https://api.github.com/users/LLLeoLi/orgs",
+        "repos_url": "https://api.github.com/users/LLLeoLi/repos",
+        "events_url": "https://api.github.com/users/LLLeoLi/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LLLeoLi/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392"
+        }
+      ]
+    },
+    {
+      "sha": "9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+      "node_id": "C_kwDOLYcPDtoAKDlkOTljYmRhMWIyY2IwNDNkZGUyMmFjYzllZjhjNGIwYmM2NDIzOTI",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "39787228+parthsarthi03@users.noreply.github.com",
+          "date": "2024-03-11T05:17:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-11T05:17:24Z"
+        },
+        "message": "Merge pull request #12 from parthsarthi03/top_k_collapse_tree\n\n Add top_k Support for Tree Collapsing Functionality",
+        "tree": {
+          "sha": "67d4667bc441c1d86481567e380e7dff9a9dc4c1",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/67d4667bc441c1d86481567e380e7dff9a9dc4c1"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl7pPkCRC1aQ7uu5UhlAAAQaIQAEJVRI09tdO3DtN0MUZOsKBM\nk0M5OuV7D/5JJzokE+uizSyuPk6SVDT1snhrAQmrDoQvTyq6DeDkC5GhJuQSOvx2\nICeDe0po/yJaSgIBMWCLP+AY/Y17V8/aTo5RVQfkktSEKv1W0V48GwSHhKgZCJoz\nUrbvjoYkGHE8vjUFsyjUsjDmSVXJZ1lBw+2rN9/c2EDcAZOwL3jf4XCoff3dBLIP\nJc/vXeorYl1jeKXUguvCMbJs9Tc63cNiUa5pWedGpjQe5XNloLf2Sqw3dvFwuSlX\ngu2bt3gTdZy/X2W/BCnduXtzrRxdW0m6tp/rnmnIM9Wfr3lp2sEb4iDs7WtqPuCe\noE/Ei4pnl4RxGNezE+WhJZYm4VpELIvcYX6Kl+Dq4AUDuTqUx2KLF279Utp0Jdj5\n1hibLtMvpFZhdBP8FwPGAiUhWtsLIZ3OfNF9xma6evehdve8N9fRArxmCcpWOH95\nqC9mTskR1q1VCy7ppdGFLpmP4xhyheP4UBePa1Pnj0PcziM9nd2WfFGWpm7a5cH/\nTIJJRT6ir4zI4jDHbFHENiUvgOwY5DljanSGb9SKBu10dJzdRIPl64LcIxpOdOM2\nHvOG6OgcyIyfIV2kdBsb0aUGuAlgnW+dbYr3GnywUGkhBqmonJybi4yOXmufUN+9\nnoh2UYH54f00Fr9QGK/V\n=R1IX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 67d4667bc441c1d86481567e380e7dff9a9dc4c1\nparent 81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f\nparent 8f48b0b55038139c50fe0ff3197565a58f77076b\nauthor Parth Sarthi <39787228+parthsarthi03@users.noreply.github.com> 1710134244 -0700\ncommitter GitHub <noreply@github.com> 1710134244 -0700\n\nMerge pull request #12 from parthsarthi03/top_k_collapse_tree\n\n Add top_k Support for Tree Collapsing Functionality",
+          "verified_at": "2024-11-05T19:35:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/9d99cbda1b2cb043dde22acc9ef8c4b0bc642392/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f"
+        },
+        {
+          "sha": "8f48b0b55038139c50fe0ff3197565a58f77076b",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/8f48b0b55038139c50fe0ff3197565a58f77076b",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/8f48b0b55038139c50fe0ff3197565a58f77076b"
+        }
+      ]
+    },
+    {
+      "sha": "8f48b0b55038139c50fe0ff3197565a58f77076b",
+      "node_id": "C_kwDOLYcPDtoAKDhmNDhiMGI1NTAzODEzOWM1MGZlMGZmMzE5NzU2NWE1OGY3NzA3NmI",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-11T02:49:32Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-11T02:49:32Z"
+        },
+        "message": "added top_k feature with top_k, made collapse_tree the default",
+        "tree": {
+          "sha": "67d4667bc441c1d86481567e380e7dff9a9dc4c1",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/67d4667bc441c1d86481567e380e7dff9a9dc4c1"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/8f48b0b55038139c50fe0ff3197565a58f77076b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/8f48b0b55038139c50fe0ff3197565a58f77076b",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/8f48b0b55038139c50fe0ff3197565a58f77076b",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/8f48b0b55038139c50fe0ff3197565a58f77076b/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f"
+        }
+      ]
+    },
+    {
+      "sha": "81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+      "node_id": "C_kwDOLYcPDtoAKDgxYjBjOTViODBjY2IzNTc2YjBhNzBhMmE1MjA3YzdhODk5ZDFiNGY",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-11T02:34:25Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-11T02:34:25Z"
+        },
+        "message": "fixed tokenizer default issue",
+        "tree": {
+          "sha": "1182ab5621b2496b882da5445f6f24947da3714a",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/1182ab5621b2496b882da5445f6f24947da3714a"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/81b0c95b80ccb3576b0a70a2a5207c7a899d1b4f/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c70344659d8b87ff719a4fc88195ee9d6b8e43e3",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/c70344659d8b87ff719a4fc88195ee9d6b8e43e3",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/c70344659d8b87ff719a4fc88195ee9d6b8e43e3"
+        }
+      ]
+    },
+    {
+      "sha": "c70344659d8b87ff719a4fc88195ee9d6b8e43e3",
+      "node_id": "C_kwDOLYcPDtoAKGM3MDM0NDY1OWQ4Yjg3ZmY3MTlhNGZjODgxOTVlZTlkNmI4ZTQzZTM",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-09T22:33:31Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-09T22:33:31Z"
+        },
+        "message": "fixed text splitting bug",
+        "tree": {
+          "sha": "6749005488fac52d88b167ed072879b99c95d8dd",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/6749005488fac52d88b167ed072879b99c95d8dd"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/c70344659d8b87ff719a4fc88195ee9d6b8e43e3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/c70344659d8b87ff719a4fc88195ee9d6b8e43e3",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/c70344659d8b87ff719a4fc88195ee9d6b8e43e3",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/c70344659d8b87ff719a4fc88195ee9d6b8e43e3/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4854b1387329e8761f55e3c583c2b89415808535",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/4854b1387329e8761f55e3c583c2b89415808535",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/4854b1387329e8761f55e3c583c2b89415808535"
+        }
+      ]
+    },
+    {
+      "sha": "4854b1387329e8761f55e3c583c2b89415808535",
+      "node_id": "C_kwDOLYcPDtoAKDQ4NTRiMTM4NzMyOWU4NzYxZjU1ZTNjNTgzYzJiODk0MTU4MDg1MzU",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "39787228+parthsarthi03@users.noreply.github.com",
+          "date": "2024-03-08T19:58:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-08T19:58:13Z"
+        },
+        "message": "Merge pull request #6 from ExtReMLapin/patch-1\n\nReduced OpenAI dependency by doing lazy initialization (only when class is used)",
+        "tree": {
+          "sha": "9111db6b94424f036642854299b1b271f281b30f",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/9111db6b94424f036642854299b1b271f281b30f"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/4854b1387329e8761f55e3c583c2b89415808535",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl623VCRC1aQ7uu5UhlAAA+yMQAI3o55q+k23VLcJS0tNVUUfq\nhd6eU/gbhCqtw5I/a7PYxoYKzI/yu5L6EmliESTN3anakR5O6R/e+XTGQ5lV01bz\ns0kFDlldFYgSiXGqvECUWOxluhJCD1xwdi53gioYAKaaNBfWUYa8hhFvALGqZPQV\nzW+PPMNyUh7X6lrrpzx3oEZm8xVUEKBhC1Czp582r7U7pCYBATSCnbVZztbdw0/7\njopZCpQqB8sXFKLcRkKWiyHlmfCNHMJx1zVxcZfIRGJUzuft8pYLwOMCHscbOxF+\nntOAvwnMf54mpeO8ITBTBoWHhiaTh1uo5o478TLleFr80t8cWYuTFFvzvXwIq0DG\nHrPta0uxRbc2MWL5H9ccM/WYJXEQZlhqBWKqZXJEGZWg/creU9yakoByslppvGlG\nH5+b7oxsBncJAGHBXWN/RCHFdAY8Sy7aTR4FujzyP8UEkERTEpwV3srQqhuK1+Tj\nJwb5/PbbZoYjY0jQShJ6woS3CJn7saPDXSgl6O0U+VCV7YKA1NfFumsNSkQJowlm\nwYua1QU+inB3o0ktLS0YuK6z2wCTrmKroCnIXeNJE/QkrVP9g6slZhGrcKYcw4/w\nTJPMGC7kq9F1XGUBSn4mYE86AO+zkHRi6CM691fFjmYs2BO0oW0DuR4qXSkAnsoL\nfNBrkj0sbsBNJy4LPJVy\n=rAcs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9111db6b94424f036642854299b1b271f281b30f\nparent 68486c06d7668c2051418a0e05de1d7e8ec00bd8\nparent a1bd3017e208de733de92363203a436c773fcf75\nauthor Parth Sarthi <39787228+parthsarthi03@users.noreply.github.com> 1709927893 -0800\ncommitter GitHub <noreply@github.com> 1709927893 -0800\n\nMerge pull request #6 from ExtReMLapin/patch-1\n\nReduced OpenAI dependency by doing lazy initialization (only when class is used)",
+          "verified_at": "2024-11-05T19:35:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/4854b1387329e8761f55e3c583c2b89415808535",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/4854b1387329e8761f55e3c583c2b89415808535",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/4854b1387329e8761f55e3c583c2b89415808535/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/68486c06d7668c2051418a0e05de1d7e8ec00bd8"
+        },
+        {
+          "sha": "a1bd3017e208de733de92363203a436c773fcf75",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/a1bd3017e208de733de92363203a436c773fcf75",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/a1bd3017e208de733de92363203a436c773fcf75"
+        }
+      ]
+    },
+    {
+      "sha": "a1bd3017e208de733de92363203a436c773fcf75",
+      "node_id": "C_kwDOLYcPDtoAKGExYmQzMDE3ZTIwOGRlNzMzZGU5MjM2MzIwM2E0MzZjNzczZmNmNzU",
+      "commit": {
+        "author": {
+          "name": "ExtReMLapin",
+          "email": "3909752+ExtReMLapin@users.noreply.github.com",
+          "date": "2024-03-07T06:41:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-07T06:41:50Z"
+        },
+        "message": "Moved RetrievalAugmentationConfig away from init params\n\nSo it's initialization isn't called with __init__.py",
+        "tree": {
+          "sha": "9111db6b94424f036642854299b1b271f281b30f",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/9111db6b94424f036642854299b1b271f281b30f"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/a1bd3017e208de733de92363203a436c773fcf75",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl6WGuCRC1aQ7uu5UhlAAAEPMQAC4Eh+CiUL1z+tEF9GYCOxRj\nlIxLL+9ErSyj4o2/1Ir84Ve3fBBFnP7ZsSsSKcqCnkVGkNHa77huxbkbsr/GNJmr\nEnyGQuH+r85g0T6mTQ8tdqgX9XeK10PtlUfnlwcVrBrIXYgi6XWgcuKa0bsBPhsO\nKF9RFDuZgdoEK7Bw9IRH0XkC22pZeLaRO8D6xnOd+QO6arIt21Tw3J1/D2qGzGCg\nivbV2S8/PXmrhHNInaeylowRGy8q3idcej5ksYoXdM3YMy8N9h4IYYX+UEv6Yxzt\nV6/cTx8ujgkAm7iq2vOk1l+zZaXB5pI7zCWKcRxiMKAzkiR95dnzfEnNMAcLcYHa\nIWfSCTg9MUvaIxNB8T0IdRq60DKaHQUjM46pOH1QmR2ZDLoLZRRGx8wruX2wMfYn\nmg9R04NXPwv/32YuVwmzP9G62t+NnS8wAtt/CCV7LMn4snnfgwM5sAG5z6E7/bqP\na4Mvj4ccTbjB0zhe0v8eoPsmL8ezRnuxew4bFNaVxwBuOwFIW+fq4Giz4tr2dJ9N\n6C91JyN93gE2hpUpNGIxh6DzKsz1+1zdoVQ19gfmtntBsJ2EG/xh+QNzN4OH7xys\nMwVZSwBLNGV0hgr85iEHQCfA00gjBvlKBN92kQVdupqVM6Um2Dl7X67L2DNUS3wo\nogMthagA4IYtZqLHpkzu\n=t4AX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9111db6b94424f036642854299b1b271f281b30f\nparent a5e71b188d7fb7964489b987775e0e37b4a8c6fc\nauthor ExtReMLapin <3909752+ExtReMLapin@users.noreply.github.com> 1709793710 +0100\ncommitter GitHub <noreply@github.com> 1709793710 +0100\n\nMoved RetrievalAugmentationConfig away from init params\n\nSo it's initialization isn't called with __init__.py",
+          "verified_at": "2024-11-05T19:35:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/a1bd3017e208de733de92363203a436c773fcf75",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/a1bd3017e208de733de92363203a436c773fcf75",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/a1bd3017e208de733de92363203a436c773fcf75/comments",
+      "author": {
+        "login": "ExtReMLapin",
+        "id": 3909752,
+        "node_id": "MDQ6VXNlcjM5MDk3NTI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3909752?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ExtReMLapin",
+        "html_url": "https://github.com/ExtReMLapin",
+        "followers_url": "https://api.github.com/users/ExtReMLapin/followers",
+        "following_url": "https://api.github.com/users/ExtReMLapin/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ExtReMLapin/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ExtReMLapin/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ExtReMLapin/subscriptions",
+        "organizations_url": "https://api.github.com/users/ExtReMLapin/orgs",
+        "repos_url": "https://api.github.com/users/ExtReMLapin/repos",
+        "events_url": "https://api.github.com/users/ExtReMLapin/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ExtReMLapin/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a5e71b188d7fb7964489b987775e0e37b4a8c6fc",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/a5e71b188d7fb7964489b987775e0e37b4a8c6fc",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/a5e71b188d7fb7964489b987775e0e37b4a8c6fc"
+        }
+      ]
+    },
+    {
+      "sha": "a5e71b188d7fb7964489b987775e0e37b4a8c6fc",
+      "node_id": "C_kwDOLYcPDtoAKGE1ZTcxYjE4OGQ3ZmI3OTY0NDg5Yjk4Nzc3NWUwZTM3YjRhOGM2ZmM",
+      "commit": {
+        "author": {
+          "name": "ExtReMLapin",
+          "email": "3909752+ExtReMLapin@users.noreply.github.com",
+          "date": "2024-03-07T06:36:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-03-07T06:36:45Z"
+        },
+        "message": "Update QAModels.py to prevent OpenAI api instance initialization on file import",
+        "tree": {
+          "sha": "40fa35c2d147b3f79ec55d5c0e0462c651cd6006",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/40fa35c2d147b3f79ec55d5c0e0462c651cd6006"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/a5e71b188d7fb7964489b987775e0e37b4a8c6fc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl6WB9CRC1aQ7uu5UhlAAA6hYQAFJtcbUwFvizY6XkDtKIj5rT\n/EzNKDtd+F3wdgkv0zhggMj2Rq112trq8uLzSuRcwQgL1N1mocIxZ7Nj70aaQOJf\njwiXN26B8Jz46OAeA+lQ7rGYOSEPRzKGmrxU8GYzwuZzQEq97Hn9zF4gfAeaYMyV\n8CE0yjUilp414Ub//RVW8Urv8PlsSAeNYiECZ2FYeC/aOrReiXJ+6ueyS5a3Ta5Q\nmntCXHtJs85BstkQMDwJJtArw+4w/mGL+81unZZCYX83bA+PIlkhOl5MoCGZxEv3\niL9KJCLUR9vVXmgXIizOKLPiRt+PMC/nqk0ynjXQ+pI3RQoD8g8brCmjkZVOWozg\nWhyKf+RYaL9VbCu3Nr6xXaKyMCYSJ3tKLvg2wF/XEFA31CAU7FN2GLzC8jZ6ZarM\n62rODb7gfilU6AdRYLN9MEurpNHPBy6EnHTizP3ZhYoIvpca5TQ5uXo8DOEbzuPH\nv5t8LUIl6rwf02HYXQByLlDmb11WJSM9B+m5Oc3yiuZN4fkvDSf+eb8//QCk2kCJ\nbQUhlad57yMx0ZfqbaGEz1En4NXJ4R5pdtAaYNU0a26lLl4lJDF2tlC35OVD/EdJ\nVXytgoO8CdaucJuwPoC5tQfGBSGTJfG1+HJXMJ+zbXBLySxdK5nonLcNhktlTy7k\n7WvisTxrEDNI8rNIHuGl\n=7IPI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 40fa35c2d147b3f79ec55d5c0e0462c651cd6006\nparent 68486c06d7668c2051418a0e05de1d7e8ec00bd8\nauthor ExtReMLapin <3909752+ExtReMLapin@users.noreply.github.com> 1709793405 +0100\ncommitter GitHub <noreply@github.com> 1709793405 +0100\n\nUpdate QAModels.py to prevent OpenAI api instance initialization on file import",
+          "verified_at": "2024-11-05T19:35:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/a5e71b188d7fb7964489b987775e0e37b4a8c6fc",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/a5e71b188d7fb7964489b987775e0e37b4a8c6fc",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/a5e71b188d7fb7964489b987775e0e37b4a8c6fc/comments",
+      "author": {
+        "login": "ExtReMLapin",
+        "id": 3909752,
+        "node_id": "MDQ6VXNlcjM5MDk3NTI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3909752?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ExtReMLapin",
+        "html_url": "https://github.com/ExtReMLapin",
+        "followers_url": "https://api.github.com/users/ExtReMLapin/followers",
+        "following_url": "https://api.github.com/users/ExtReMLapin/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ExtReMLapin/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ExtReMLapin/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ExtReMLapin/subscriptions",
+        "organizations_url": "https://api.github.com/users/ExtReMLapin/orgs",
+        "repos_url": "https://api.github.com/users/ExtReMLapin/repos",
+        "events_url": "https://api.github.com/users/ExtReMLapin/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ExtReMLapin/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/68486c06d7668c2051418a0e05de1d7e8ec00bd8"
+        }
+      ]
+    },
+    {
+      "sha": "68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+      "node_id": "C_kwDOLYcPDtoAKDY4NDg2YzA2ZDc2NjhjMjA1MTQxOGEwZTA1ZGUxZDdlOGVjMDBiZDg",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-04T17:02:14Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-04T17:02:14Z"
+        },
+        "message": "minor Readme formatting",
+        "tree": {
+          "sha": "4326c0e238cee5d80268d3fbbd9845c36fe9f972",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/4326c0e238cee5d80268d3fbbd9845c36fe9f972"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/68486c06d7668c2051418a0e05de1d7e8ec00bd8",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/68486c06d7668c2051418a0e05de1d7e8ec00bd8/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7a9e83fd7f166bb82841aa4fa17313bd1ef1b297",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/7a9e83fd7f166bb82841aa4fa17313bd1ef1b297",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/7a9e83fd7f166bb82841aa4fa17313bd1ef1b297"
+        }
+      ]
+    },
+    {
+      "sha": "7a9e83fd7f166bb82841aa4fa17313bd1ef1b297",
+      "node_id": "C_kwDOLYcPDtoAKDdhOWU4M2ZkN2YxNjZiYjgyODQxYWE0ZmExNzMxM2JkMWVmMWIyOTc",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-04T16:54:05Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-03-04T16:54:05Z"
+        },
+        "message": "fixed long document bug",
+        "tree": {
+          "sha": "deb134a6ec9858ae43a83e57fb00a780971aba34",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/deb134a6ec9858ae43a83e57fb00a780971aba34"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/7a9e83fd7f166bb82841aa4fa17313bd1ef1b297",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/7a9e83fd7f166bb82841aa4fa17313bd1ef1b297",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/7a9e83fd7f166bb82841aa4fa17313bd1ef1b297",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/7a9e83fd7f166bb82841aa4fa17313bd1ef1b297/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dff10cf1c86ec4a4b7873418802c545989a1abb4",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/dff10cf1c86ec4a4b7873418802c545989a1abb4",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/dff10cf1c86ec4a4b7873418802c545989a1abb4"
+        }
+      ]
+    },
+    {
+      "sha": "dff10cf1c86ec4a4b7873418802c545989a1abb4",
+      "node_id": "C_kwDOLYcPDtoAKGRmZjEwY2YxYzg2ZWM0YTRiNzg3MzQxODgwMmM1NDU5ODlhMWFiYjQ",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-28T02:55:19Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-28T02:55:19Z"
+        },
+        "message": "updated readme with darkmode",
+        "tree": {
+          "sha": "a1de75cebcdca9cb8d0da1de938ebfc8e0f0ae16",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/a1de75cebcdca9cb8d0da1de938ebfc8e0f0ae16"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/dff10cf1c86ec4a4b7873418802c545989a1abb4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/dff10cf1c86ec4a4b7873418802c545989a1abb4",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/dff10cf1c86ec4a4b7873418802c545989a1abb4",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/dff10cf1c86ec4a4b7873418802c545989a1abb4/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4f060cf06a6eac285b1b14c489ac4783f2c61c53",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/4f060cf06a6eac285b1b14c489ac4783f2c61c53",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/4f060cf06a6eac285b1b14c489ac4783f2c61c53"
+        }
+      ]
+    },
+    {
+      "sha": "4f060cf06a6eac285b1b14c489ac4783f2c61c53",
+      "node_id": "C_kwDOLYcPDtoAKDRmMDYwY2YwNmE2ZWFjMjg1YjFiMTRjNDg5YWM0NzgzZjJjNjFjNTM",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T04:11:15Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T04:11:15Z"
+        },
+        "message": "fixed key leak 2",
+        "tree": {
+          "sha": "8bd8ed4ed50b5e8e7b301374b6306f1dc262ea5b",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/8bd8ed4ed50b5e8e7b301374b6306f1dc262ea5b"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/4f060cf06a6eac285b1b14c489ac4783f2c61c53",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/4f060cf06a6eac285b1b14c489ac4783f2c61c53",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/4f060cf06a6eac285b1b14c489ac4783f2c61c53",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/4f060cf06a6eac285b1b14c489ac4783f2c61c53/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "05d2479c726fbe916329384b358691784de28797",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/05d2479c726fbe916329384b358691784de28797",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/05d2479c726fbe916329384b358691784de28797"
+        }
+      ]
+    },
+    {
+      "sha": "05d2479c726fbe916329384b358691784de28797",
+      "node_id": "C_kwDOLYcPDtoAKDA1ZDI0NzljNzI2ZmJlOTE2MzI5Mzg0YjM1ODY5MTc4NGRlMjg3OTc",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T04:10:28Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T04:10:28Z"
+        },
+        "message": "fixed key leak",
+        "tree": {
+          "sha": "c11abb10e41761c966931ec33995d1e948920a8b",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/c11abb10e41761c966931ec33995d1e948920a8b"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/05d2479c726fbe916329384b358691784de28797",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/05d2479c726fbe916329384b358691784de28797",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/05d2479c726fbe916329384b358691784de28797",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/05d2479c726fbe916329384b358691784de28797/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0"
+        }
+      ]
+    },
+    {
+      "sha": "bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0",
+      "node_id": "C_kwDOLYcPDtoAKGJjM2UxNTNjMmNiMGY5ODMwZTk0ZjY5ODI1MWJmZDgwZWNmNmEyZDA",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T03:17:41Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T03:17:41Z"
+        },
+        "message": "minor readme fixes",
+        "tree": {
+          "sha": "51bd5a63d2d1455e85a5c74e7eedf2cbab49d631",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/51bd5a63d2d1455e85a5c74e7eedf2cbab49d631"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/bc3e153c2cb0f9830e94f698251bfd80ecf6a2d0/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3316ad77ee28bd3b112401f859b7958df0e7749d",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/3316ad77ee28bd3b112401f859b7958df0e7749d",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/3316ad77ee28bd3b112401f859b7958df0e7749d"
+        }
+      ]
+    },
+    {
+      "sha": "3316ad77ee28bd3b112401f859b7958df0e7749d",
+      "node_id": "C_kwDOLYcPDtoAKDMzMTZhZDc3ZWUyOGJkM2IxMTI0MDFmODU5Yjc5NThkZjBlNzc0OWQ",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T02:11:51Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T02:11:51Z"
+        },
+        "message": "minor readme fix",
+        "tree": {
+          "sha": "62df48af16ac9a326eb9825066231db017038cea",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/62df48af16ac9a326eb9825066231db017038cea"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/3316ad77ee28bd3b112401f859b7958df0e7749d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/3316ad77ee28bd3b112401f859b7958df0e7749d",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/3316ad77ee28bd3b112401f859b7958df0e7749d",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/3316ad77ee28bd3b112401f859b7958df0e7749d/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b118b86a25fd8abdda2b8b63c4e4d01a9e78042b",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/b118b86a25fd8abdda2b8b63c4e4d01a9e78042b",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/b118b86a25fd8abdda2b8b63c4e4d01a9e78042b"
+        }
+      ]
+    },
+    {
+      "sha": "b118b86a25fd8abdda2b8b63c4e4d01a9e78042b",
+      "node_id": "C_kwDOLYcPDtoAKGIxMThiODZhMjVmZDhhYmRkYTJiOGI2M2M0ZTRkMDFhOWU3ODA0MmI",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T02:06:45Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T02:06:45Z"
+        },
+        "message": "added urllib3 to requirements",
+        "tree": {
+          "sha": "b5c94a83ee9f4cd4304f24f1486a765c38541114",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/b5c94a83ee9f4cd4304f24f1486a765c38541114"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/b118b86a25fd8abdda2b8b63c4e4d01a9e78042b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/b118b86a25fd8abdda2b8b63c4e4d01a9e78042b",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/b118b86a25fd8abdda2b8b63c4e4d01a9e78042b",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/b118b86a25fd8abdda2b8b63c4e4d01a9e78042b/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "71d307c826607a4eb2633b49fad2496c4b434b0c",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/71d307c826607a4eb2633b49fad2496c4b434b0c",
+          "html_url": "https://github.com/parthsarthi03/raptor/commit/71d307c826607a4eb2633b49fad2496c4b434b0c"
+        }
+      ]
+    },
+    {
+      "sha": "71d307c826607a4eb2633b49fad2496c4b434b0c",
+      "node_id": "C_kwDOLYcPDtoAKDcxZDMwN2M4MjY2MDdhNGViMjYzM2I0OWZhZDI0OTZjNGI0MzRiMGM",
+      "commit": {
+        "author": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T01:46:27Z"
+        },
+        "committer": {
+          "name": "Parth Sarthi",
+          "email": "psarthi03@gmail.com",
+          "date": "2024-02-27T01:46:27Z"
+        },
+        "message": "initial commit",
+        "tree": {
+          "sha": "98ff40a6fbeda2160f44c2e0da7d598d7c2bba92",
+          "url": "https://api.github.com/repos/parthsarthi03/raptor/git/trees/98ff40a6fbeda2160f44c2e0da7d598d7c2bba92"
+        },
+        "url": "https://api.github.com/repos/parthsarthi03/raptor/git/commits/71d307c826607a4eb2633b49fad2496c4b434b0c",
+        "comment_count": 1,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/parthsarthi03/raptor/commits/71d307c826607a4eb2633b49fad2496c4b434b0c",
+      "html_url": "https://github.com/parthsarthi03/raptor/commit/71d307c826607a4eb2633b49fad2496c4b434b0c",
+      "comments_url": "https://api.github.com/repos/parthsarthi03/raptor/commits/71d307c826607a4eb2633b49fad2496c4b434b0c/comments",
+      "author": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "parthsarthi03",
+        "id": 39787228,
+        "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/parthsarthi03",
+        "html_url": "https://github.com/parthsarthi03",
+        "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+        "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+        "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+        "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+        "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+        "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "parthsarthi03",
+      "id": 39787228,
+      "node_id": "MDQ6VXNlcjM5Nzg3MjI4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39787228?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/parthsarthi03",
+      "html_url": "https://github.com/parthsarthi03",
+      "followers_url": "https://api.github.com/users/parthsarthi03/followers",
+      "following_url": "https://api.github.com/users/parthsarthi03/following{/other_user}",
+      "gists_url": "https://api.github.com/users/parthsarthi03/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/parthsarthi03/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/parthsarthi03/subscriptions",
+      "organizations_url": "https://api.github.com/users/parthsarthi03/orgs",
+      "repos_url": "https://api.github.com/users/parthsarthi03/repos",
+      "events_url": "https://api.github.com/users/parthsarthi03/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/parthsarthi03/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 16
+    },
+    {
+      "login": "ExtReMLapin",
+      "id": 3909752,
+      "node_id": "MDQ6VXNlcjM5MDk3NTI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3909752?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ExtReMLapin",
+      "html_url": "https://github.com/ExtReMLapin",
+      "followers_url": "https://api.github.com/users/ExtReMLapin/followers",
+      "following_url": "https://api.github.com/users/ExtReMLapin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ExtReMLapin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ExtReMLapin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ExtReMLapin/subscriptions",
+      "organizations_url": "https://api.github.com/users/ExtReMLapin/orgs",
+      "repos_url": "https://api.github.com/users/ExtReMLapin/repos",
+      "events_url": "https://api.github.com/users/ExtReMLapin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ExtReMLapin/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    },
+    {
+      "login": "LLLeoLi",
+      "id": 89140114,
+      "node_id": "MDQ6VXNlcjg5MTQwMTE0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89140114?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LLLeoLi",
+      "html_url": "https://github.com/LLLeoLi",
+      "followers_url": "https://api.github.com/users/LLLeoLi/followers",
+      "following_url": "https://api.github.com/users/LLLeoLi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LLLeoLi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LLLeoLi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LLLeoLi/subscriptions",
+      "organizations_url": "https://api.github.com/users/LLLeoLi/orgs",
+      "repos_url": "https://api.github.com/users/LLLeoLi/repos",
+      "events_url": "https://api.github.com/users/LLLeoLi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LLLeoLi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "lorenzo-cm",
+      "id": 88812291,
+      "node_id": "MDQ6VXNlcjg4ODEyMjkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88812291?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lorenzo-cm",
+      "html_url": "https://github.com/lorenzo-cm",
+      "followers_url": "https://api.github.com/users/lorenzo-cm/followers",
+      "following_url": "https://api.github.com/users/lorenzo-cm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lorenzo-cm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lorenzo-cm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lorenzo-cm/subscriptions",
+      "organizations_url": "https://api.github.com/users/lorenzo-cm/orgs",
+      "repos_url": "https://api.github.com/users/lorenzo-cm/repos",
+      "events_url": "https://api.github.com/users/lorenzo-cm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lorenzo-cm/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 74895,
+    "Jupyter Notebook": 10163
+  },
+  "readme_html": "<h2 id=\"user-content-raptor-recursive-abstractive-processing-for-tree-organized-retrieval\">RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval</h2>\n<p><strong>RAPTOR</strong> introduces a novel approach to retrieval-augmented language models by constructing a recursive tree structure from documents. This allows for more efficient and context-aware information retrieval across large texts, addressing common limitations in traditional language models.</p>\n<p>For detailed methodologies and implementations, refer to the original paper:</p>\n<ul>\n<li><a href=\"https://arxiv.org/abs/2401.18059\">RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval</a></li>\n</ul>\n<p><a href=\"https://huggingface.co/papers/2401.18059\"><img src=\"https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-sm.svg\" alt=\"Paper page\"></a>\n<a href=\"https://paperswithcode.com/sota/question-answering-on-quality?p=raptor-recursive-abstractive-processing-for\"><img src=\"https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/raptor-recursive-abstractive-processing-for/question-answering-on-quality\" alt=\"PWC\"></a></p>\n<h2 id=\"user-content-installation\">Installation</h2>\n<p>Before using RAPTOR, ensure Python 3.8+ is installed. Clone the RAPTOR repository and install necessary dependencies:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/parthsarthi03/raptor.git\ncd raptor\npip install -r requirements.txt\n</code></pre>\n<h2 id=\"user-content-basic-usage\">Basic Usage</h2>\n<p>To get started with RAPTOR, follow these steps:</p>\n<h3 id=\"user-content-setting-up-raptor\">Setting Up RAPTOR</h3>\n<p>First, set your OpenAI API key and initialize the RAPTOR configuration:</p>\n<pre><code class=\"language-python\">import os\nos.environ[\"OPENAI_API_KEY\"] = \"your-openai-api-key\"\n\nfrom raptor import RetrievalAugmentation\n\n# Initialize with default configuration. For advanced configurations, check the documentation. [WIP]\nRA = RetrievalAugmentation()\n</code></pre>\n<h3 id=\"user-content-adding-documents-to-the-tree\">Adding Documents to the Tree</h3>\n<p>Add your text documents to RAPTOR for indexing:</p>\n<pre><code class=\"language-python\">with open('sample.txt', 'r') as file:\n    text = file.read()\nRA.add_documents(text)\n</code></pre>\n<h3 id=\"user-content-answering-questions\">Answering Questions</h3>\n<p>You can now use RAPTOR to answer questions based on the indexed documents:</p>\n<pre><code class=\"language-python\">question = \"How did Cinderella reach her happy ending?\"\nanswer = RA.answer_question(question=question)\nprint(\"Answer: \", answer)\n</code></pre>\n<h3 id=\"user-content-saving-and-loading-the-tree\">Saving and Loading the Tree</h3>\n<p>Save the constructed tree to a specified path:</p>\n<pre><code class=\"language-python\">SAVE_PATH = \"demo/cinderella\"\nRA.save(SAVE_PATH)\n</code></pre>\n<p>Load the saved tree back into RAPTOR:</p>\n<pre><code class=\"language-python\">RA = RetrievalAugmentation(tree=SAVE_PATH)\nanswer = RA.answer_question(question=question)\n</code></pre>\n<h3 id=\"user-content-extending-raptor-with-other-models\">Extending RAPTOR with other Models</h3>\n<p>RAPTOR is designed to be flexible and allows you to integrate any models for summarization, question-answering (QA), and embedding generation. Here is how to extend RAPTOR with your own models:</p>\n<h4 id=\"user-content-custom-summarization-model\">Custom Summarization Model</h4>\n<p>If you wish to use a different language model for summarization, you can do so by extending the <code>BaseSummarizationModel</code> class. Implement the <code>summarize</code> method to integrate your custom summarization logic:</p>\n<pre><code class=\"language-python\">from raptor import BaseSummarizationModel\n\nclass CustomSummarizationModel(BaseSummarizationModel):\n    def __init__(self):\n        # Initialize your model here\n        pass\n\n    def summarize(self, context, max_tokens=150):\n        # Implement your summarization logic here\n        # Return the summary as a string\n        summary = \"Your summary here\"\n        return summary\n</code></pre>\n<h4 id=\"user-content-custom-qa-model\">Custom QA Model</h4>\n<p>For custom QA models, extend the <code>BaseQAModel</code> class and implement the <code>answer_question</code> method. This method should return the best answer found by your model given a context and a question:</p>\n<pre><code class=\"language-python\">from raptor import BaseQAModel\n\nclass CustomQAModel(BaseQAModel):\n    def __init__(self):\n        # Initialize your model here\n        pass\n\n    def answer_question(self, context, question):\n        # Implement your QA logic here\n        # Return the answer as a string\n        answer = \"Your answer here\"\n        return answer\n</code></pre>\n<h4 id=\"user-content-custom-embedding-model\">Custom Embedding Model</h4>\n<p>To use a different embedding model, extend the <code>BaseEmbeddingModel</code> class. Implement the <code>create_embedding</code> method, which should return a vector representation of the input text:</p>\n<pre><code class=\"language-python\">from raptor import BaseEmbeddingModel\n\nclass CustomEmbeddingModel(BaseEmbeddingModel):\n    def __init__(self):\n        # Initialize your model here\n        pass\n\n    def create_embedding(self, text):\n        # Implement your embedding logic here\n        # Return the embedding as a numpy array or a list of floats\n        embedding = [0.0] * embedding_dim  # Replace with actual embedding logic\n        return embedding\n</code></pre>\n<h4 id=\"user-content-integrating-custom-models-with-raptor\">Integrating Custom Models with RAPTOR</h4>\n<p>After implementing your custom models, integrate them with RAPTOR as follows:</p>\n<pre><code class=\"language-python\">from raptor import RetrievalAugmentation, RetrievalAugmentationConfig\n\n# Initialize your custom models\ncustom_summarizer = CustomSummarizationModel()\ncustom_qa = CustomQAModel()\ncustom_embedding = CustomEmbeddingModel()\n\n# Create a config with your custom models\ncustom_config = RetrievalAugmentationConfig(\n    summarization_model=custom_summarizer,\n    qa_model=custom_qa,\n    embedding_model=custom_embedding\n)\n\n# Initialize RAPTOR with your custom config\nRA = RetrievalAugmentation(config=custom_config)\n</code></pre>\n<p>Check out <code>demo.ipynb</code> for examples on how to specify your own summarization/QA models, such as Llama/Mistral/Gemma, and Embedding Models such as SBERT, for use with RAPTOR.</p>\n<p>Note: More examples and ways to configure RAPTOR are forthcoming. Advanced usage and additional features will be provided in the documentation and repository updates.</p>\n<h2 id=\"user-content-contributing\">Contributing</h2>\n<p>RAPTOR is an open-source project, and contributions are welcome. Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.</p>\n<h2 id=\"user-content-license\">License</h2>\n<p>RAPTOR is released under the MIT License. See the LICENSE file in the repository for full details.</p>\n<h2 id=\"user-content-citation\">Citation</h2>\n<p>If RAPTOR assists in your research, please cite it as follows:</p>\n<pre><code class=\"language-bibtex\">@inproceedings{sarthi2024raptor,\n    title={RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval},\n    author={Sarthi, Parth and Abdullah, Salman and Tuli, Aditi and Khanna, Shubh and Goldie, Anna and Manning, Christopher D.},\n    booktitle={International Conference on Learning Representations (ICLR)},\n    year={2024}\n}\n</code></pre>\n<p>Stay tuned for more examples, configuration guides, and updates.</p>",
+  "_fetched_at": "2026-03-11T18:13:56.966Z"
+}

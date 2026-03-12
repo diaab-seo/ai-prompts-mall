@@ -1,0 +1,2771 @@
+{
+  "id": 742376681,
+  "node_id": "R_kgDOLD_E6Q",
+  "name": "GraphAugmented-Legal-RAG",
+  "full_name": "TilmanLudewigtHaufe/GraphAugmented-Legal-RAG",
+  "private": false,
+  "owner": {
+    "login": "TilmanLudewigtHaufe",
+    "id": 155962122,
+    "node_id": "U_kgDOCUvLCg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+    "html_url": "https://github.com/TilmanLudewigtHaufe",
+    "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+    "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+    "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+    "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+    "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+    "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG",
+  "description": "Create a knowledge graph out of unstructed legal text - use said knowledge graph in a graph augmented retrieval augmented generation pipeline",
+  "fork": false,
+  "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG",
+  "forks_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/forks",
+  "keys_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/teams",
+  "hooks_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/events",
+  "assignees_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/tags",
+  "blobs_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/languages",
+  "stargazers_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/subscription",
+  "commits_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/merges",
+  "archive_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/downloads",
+  "issues_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/deployments",
+  "created_at": "2024-01-12T10:39:45Z",
+  "updated_at": "2026-03-11T14:10:06Z",
+  "pushed_at": "2024-09-22T12:25:46Z",
+  "git_url": "git://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG.git",
+  "ssh_url": "git@github.com:TilmanLudewigtHaufe/GraphAugmented-Legal-RAG.git",
+  "clone_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG.git",
+  "svn_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG",
+  "homepage": "",
+  "size": 15805,
+  "stargazers_count": 72,
+  "watchers_count": 72,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 12,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 10,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "artificial-intelligence",
+    "graph",
+    "knowledge-graph",
+    "legal",
+    "legaltech",
+    "machine-learning",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 12,
+  "open_issues": 10,
+  "watchers": 72,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "e8b8fafbf3f340a5fb4a06e7f97b227823b76e34",
+      "node_id": "C_kwDOLD_E6doAKGU4YjhmYWZiZjNmMzQwYTVmYjRhMDZlN2Y5N2IyMjc4MjNiNzZlMzQ",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-09-22T12:25:22Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-09-22T12:25:22Z"
+        },
+        "message": "Treat pair 1, 2 and 2,1 the same via lexigolically caluclation",
+        "tree": {
+          "sha": "7e981a8dd37bfedafdbc32b6110c8f28c714408a",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/7e981a8dd37bfedafdbc32b6110c8f28c714408a"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/e8b8fafbf3f340a5fb4a06e7f97b227823b76e34",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e8b8fafbf3f340a5fb4a06e7f97b227823b76e34",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/e8b8fafbf3f340a5fb4a06e7f97b227823b76e34",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e8b8fafbf3f340a5fb4a06e7f97b227823b76e34/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8c522861f8d08ba036399797cbd857598596ee53",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/8c522861f8d08ba036399797cbd857598596ee53",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/8c522861f8d08ba036399797cbd857598596ee53"
+        }
+      ]
+    },
+    {
+      "sha": "8c522861f8d08ba036399797cbd857598596ee53",
+      "node_id": "C_kwDOLD_E6doAKDhjNTIyODYxZjhkMDhiYTAzNjM5OTc5N2NiZDg1NzU5ODU5NmVlNTM",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:22:00Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:22:00Z"
+        },
+        "message": "Adjust README",
+        "tree": {
+          "sha": "e51cb333913a8fe7501427ffca3fa5a4c87550aa",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/e51cb333913a8fe7501427ffca3fa5a4c87550aa"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/8c522861f8d08ba036399797cbd857598596ee53",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/8c522861f8d08ba036399797cbd857598596ee53",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/8c522861f8d08ba036399797cbd857598596ee53",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/8c522861f8d08ba036399797cbd857598596ee53/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d"
+        }
+      ]
+    },
+    {
+      "sha": "e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d",
+      "node_id": "C_kwDOLD_E6doAKGUwYjFmZTZjOTJjOGFmZDRhMTZmMTJiYzI0ZTQ4NmMyYWEwYjYyMGQ",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:21:39Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:21:39Z"
+        },
+        "message": "Populate example_data.txt",
+        "tree": {
+          "sha": "7bf1396bf7c34b4c5bc39dc9a079cdb98683282a",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/7bf1396bf7c34b4c5bc39dc9a079cdb98683282a"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e0b1fe6c92c8afd4a16f12bc24e486c2aa0b620d/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "524acfbeae9ab54756b610f14e1a229d376773c6",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/524acfbeae9ab54756b610f14e1a229d376773c6",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/524acfbeae9ab54756b610f14e1a229d376773c6"
+        }
+      ]
+    },
+    {
+      "sha": "524acfbeae9ab54756b610f14e1a229d376773c6",
+      "node_id": "C_kwDOLD_E6doAKDUyNGFjZmJlYWU5YWI1NDc1NmI2MTBmMTRlMWEyMjlkMzc2NzczYzY",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:20:55Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:20:55Z"
+        },
+        "message": "Add example_data.txt",
+        "tree": {
+          "sha": "fe21ec599aeae1465e8e7598ff4bf8fbba340784",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/fe21ec599aeae1465e8e7598ff4bf8fbba340784"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/524acfbeae9ab54756b610f14e1a229d376773c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/524acfbeae9ab54756b610f14e1a229d376773c6",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/524acfbeae9ab54756b610f14e1a229d376773c6",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/524acfbeae9ab54756b610f14e1a229d376773c6/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "592062945d3ff82a58ba69fb38f8803200dfd4f6",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/592062945d3ff82a58ba69fb38f8803200dfd4f6",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/592062945d3ff82a58ba69fb38f8803200dfd4f6"
+        }
+      ]
+    },
+    {
+      "sha": "592062945d3ff82a58ba69fb38f8803200dfd4f6",
+      "node_id": "C_kwDOLD_E6doAKDU5MjA2Mjk0NWQzZmY4MmE1OGJhNjlmYjM4Zjg4MDMyMDBkZmQ0ZjY",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:12:10Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:12:10Z"
+        },
+        "message": "Adjust README",
+        "tree": {
+          "sha": "f1262aa32b3a9f6deef6ead0529c316e4aa02703",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/f1262aa32b3a9f6deef6ead0529c316e4aa02703"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/592062945d3ff82a58ba69fb38f8803200dfd4f6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/592062945d3ff82a58ba69fb38f8803200dfd4f6",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/592062945d3ff82a58ba69fb38f8803200dfd4f6",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/592062945d3ff82a58ba69fb38f8803200dfd4f6/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fccb7aa421bb8994db5e85fd58555c818d244a8c",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/fccb7aa421bb8994db5e85fd58555c818d244a8c",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/fccb7aa421bb8994db5e85fd58555c818d244a8c"
+        }
+      ]
+    },
+    {
+      "sha": "fccb7aa421bb8994db5e85fd58555c818d244a8c",
+      "node_id": "C_kwDOLD_E6doAKGZjY2I3YWE0MjFiYjg5OTRkYjVlODVmZDU4NTU1YzgxOGQyNDRhOGM",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:10:21Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:10:21Z"
+        },
+        "message": "Add license",
+        "tree": {
+          "sha": "ea338090f4dc9f69acd7d05836410e13dc99b2af",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/ea338090f4dc9f69acd7d05836410e13dc99b2af"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/fccb7aa421bb8994db5e85fd58555c818d244a8c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/fccb7aa421bb8994db5e85fd58555c818d244a8c",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/fccb7aa421bb8994db5e85fd58555c818d244a8c",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/fccb7aa421bb8994db5e85fd58555c818d244a8c/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a404e0fea0e45f1ff875a66501dad9a6ec759eb3",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a404e0fea0e45f1ff875a66501dad9a6ec759eb3",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a404e0fea0e45f1ff875a66501dad9a6ec759eb3"
+        }
+      ]
+    },
+    {
+      "sha": "a404e0fea0e45f1ff875a66501dad9a6ec759eb3",
+      "node_id": "C_kwDOLD_E6doAKGE0MDRlMGZlYTBlNDVmMWZmODc1YTY2NTAxZGFkOWE2ZWM3NTllYjM",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:06:32Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:06:32Z"
+        },
+        "message": "Adjust READMe",
+        "tree": {
+          "sha": "8c17ba01d47fb9cd9990420f40a247958ab9aeea",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/8c17ba01d47fb9cd9990420f40a247958ab9aeea"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/a404e0fea0e45f1ff875a66501dad9a6ec759eb3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a404e0fea0e45f1ff875a66501dad9a6ec759eb3",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a404e0fea0e45f1ff875a66501dad9a6ec759eb3",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a404e0fea0e45f1ff875a66501dad9a6ec759eb3/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c"
+        }
+      ]
+    },
+    {
+      "sha": "ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c",
+      "node_id": "C_kwDOLD_E6doAKGJhM2JhMGU2OTI1MmMxOGE3NzRmMGYzYmJlOGJhZmI0ZDBhMzUzNGM",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:04:13Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T17:04:13Z"
+        },
+        "message": "Fix typo in readme",
+        "tree": {
+          "sha": "a6184bfcdcc6b1da7b42e7125cbfb5ddcfb5c1b2",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/a6184bfcdcc6b1da7b42e7125cbfb5ddcfb5c1b2"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/ba3ba0e69252c18a774f0f3bbe8bafb4d0a3534c/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c164d786d7d7fd73bb3af86e63993314593a310f",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/c164d786d7d7fd73bb3af86e63993314593a310f",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/c164d786d7d7fd73bb3af86e63993314593a310f"
+        }
+      ]
+    },
+    {
+      "sha": "c164d786d7d7fd73bb3af86e63993314593a310f",
+      "node_id": "C_kwDOLD_E6doAKGMxNjRkNzg2ZDdkN2ZkNzNiYjNhZjg2ZTYzOTkzMzE0NTkzYTMxMGY",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T16:56:59Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T16:56:59Z"
+        },
+        "message": "Adjust gitignore",
+        "tree": {
+          "sha": "87a3d3faa6f58f793129be24c474aa058e85c54d",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/87a3d3faa6f58f793129be24c474aa058e85c54d"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/c164d786d7d7fd73bb3af86e63993314593a310f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/c164d786d7d7fd73bb3af86e63993314593a310f",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/c164d786d7d7fd73bb3af86e63993314593a310f",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/c164d786d7d7fd73bb3af86e63993314593a310f/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a33475cdd9068d5ec8480c5d859e18598e24cef2",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a33475cdd9068d5ec8480c5d859e18598e24cef2",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a33475cdd9068d5ec8480c5d859e18598e24cef2"
+        }
+      ]
+    },
+    {
+      "sha": "a33475cdd9068d5ec8480c5d859e18598e24cef2",
+      "node_id": "C_kwDOLD_E6doAKGEzMzQ3NWNkZDkwNjhkNWVjODQ4MGM1ZDg1OWUxODU5OGUyNGNlZjI",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T16:55:38Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T16:55:38Z"
+        },
+        "message": "Adjust ReadMe",
+        "tree": {
+          "sha": "2c4228c4da41b9e55f13f8c4119f7c2a80956ac2",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/2c4228c4da41b9e55f13f8c4119f7c2a80956ac2"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/a33475cdd9068d5ec8480c5d859e18598e24cef2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a33475cdd9068d5ec8480c5d859e18598e24cef2",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a33475cdd9068d5ec8480c5d859e18598e24cef2",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a33475cdd9068d5ec8480c5d859e18598e24cef2/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "be377ddea7d5cc1eaffe6594caff0aed042edfb8",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/be377ddea7d5cc1eaffe6594caff0aed042edfb8",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/be377ddea7d5cc1eaffe6594caff0aed042edfb8"
+        }
+      ]
+    },
+    {
+      "sha": "be377ddea7d5cc1eaffe6594caff0aed042edfb8",
+      "node_id": "C_kwDOLD_E6doAKGJlMzc3ZGRlYTdkNWNjMWVhZmZlNjU5NGNhZmYwYWVkMDQyZWRmYjg",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T16:52:47Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-20T16:52:47Z"
+        },
+        "message": "Adjust gitignore",
+        "tree": {
+          "sha": "8f1c11e4ff5c782285cb4ec85be5b04bdd29419e",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/8f1c11e4ff5c782285cb4ec85be5b04bdd29419e"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/be377ddea7d5cc1eaffe6594caff0aed042edfb8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/be377ddea7d5cc1eaffe6594caff0aed042edfb8",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/be377ddea7d5cc1eaffe6594caff0aed042edfb8",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/be377ddea7d5cc1eaffe6594caff0aed042edfb8/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9aec06ddfe6f343403c029d9dd090c28d56cc619",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/9aec06ddfe6f343403c029d9dd090c28d56cc619",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/9aec06ddfe6f343403c029d9dd090c28d56cc619"
+        }
+      ]
+    },
+    {
+      "sha": "9aec06ddfe6f343403c029d9dd090c28d56cc619",
+      "node_id": "C_kwDOLD_E6doAKDlhZWMwNmRkZmU2ZjM0MzQwM2MwMjlkOWRkMDkwYzI4ZDU2Y2M2MTk",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-15T20:42:42Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-15T20:42:42Z"
+        },
+        "message": "Apply llama_index knowledgegraphqueryengine to neo4j",
+        "tree": {
+          "sha": "9f69f6d60f018159b5527b55ec33c3e071ddccec",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/9f69f6d60f018159b5527b55ec33c3e071ddccec"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/9aec06ddfe6f343403c029d9dd090c28d56cc619",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/9aec06ddfe6f343403c029d9dd090c28d56cc619",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/9aec06ddfe6f343403c029d9dd090c28d56cc619",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/9aec06ddfe6f343403c029d9dd090c28d56cc619/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f97924dcb08edff16114c196444e7087c407c5cf",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f97924dcb08edff16114c196444e7087c407c5cf",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/f97924dcb08edff16114c196444e7087c407c5cf"
+        }
+      ]
+    },
+    {
+      "sha": "f97924dcb08edff16114c196444e7087c407c5cf",
+      "node_id": "C_kwDOLD_E6doAKGY5NzkyNGRjYjA4ZWRmZjE2MTE0YzE5NjQ0NGU3MDg3YzQwN2M1Y2Y",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-15T20:42:18Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-15T20:42:18Z"
+        },
+        "message": "Rename",
+        "tree": {
+          "sha": "0eb589f8f2ea53972824382faa7bf37bcb53ea2d",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/0eb589f8f2ea53972824382faa7bf37bcb53ea2d"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/f97924dcb08edff16114c196444e7087c407c5cf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f97924dcb08edff16114c196444e7087c407c5cf",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/f97924dcb08edff16114c196444e7087c407c5cf",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f97924dcb08edff16114c196444e7087c407c5cf/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f8241f7101769027877ecf6af4323a6ce07d9087",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f8241f7101769027877ecf6af4323a6ce07d9087",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/f8241f7101769027877ecf6af4323a6ce07d9087"
+        }
+      ]
+    },
+    {
+      "sha": "f8241f7101769027877ecf6af4323a6ce07d9087",
+      "node_id": "C_kwDOLD_E6doAKGY4MjQxZjcxMDE3NjkwMjc4NzdlY2Y2YWY0MzIzYTZjZTA3ZDkwODc",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-14T15:29:27Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-14T15:29:27Z"
+        },
+        "message": "Add readme configuration",
+        "tree": {
+          "sha": "320747c1a5f45c2744655afd2966447a07ee5afe",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/320747c1a5f45c2744655afd2966447a07ee5afe"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/f8241f7101769027877ecf6af4323a6ce07d9087",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f8241f7101769027877ecf6af4323a6ce07d9087",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/f8241f7101769027877ecf6af4323a6ce07d9087",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f8241f7101769027877ecf6af4323a6ce07d9087/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f961c790e09dbfdfbccb89dab697cdc5d122b304",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f961c790e09dbfdfbccb89dab697cdc5d122b304",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/f961c790e09dbfdfbccb89dab697cdc5d122b304"
+        }
+      ]
+    },
+    {
+      "sha": "f961c790e09dbfdfbccb89dab697cdc5d122b304",
+      "node_id": "C_kwDOLD_E6doAKGY5NjFjNzkwZTA5ZGJmZGZiY2NiODlkYWI2OTdjZGM1ZDEyMmIzMDQ",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-14T15:15:33Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-14T15:15:33Z"
+        },
+        "message": "Add .py to convert networkX graph to neo4j",
+        "tree": {
+          "sha": "bccb3a12383eb9412997ad8aa04208e669b34bae",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/bccb3a12383eb9412997ad8aa04208e669b34bae"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/f961c790e09dbfdfbccb89dab697cdc5d122b304",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f961c790e09dbfdfbccb89dab697cdc5d122b304",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/f961c790e09dbfdfbccb89dab697cdc5d122b304",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/f961c790e09dbfdfbccb89dab697cdc5d122b304/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62"
+        }
+      ]
+    },
+    {
+      "sha": "0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62",
+      "node_id": "C_kwDOLD_E6doAKDBhZDVmMmQ3MTBkNjRjYzcyNzYzYWUwYmE1MGNhMzRmOWIxM2JjNjI",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-14T14:10:38Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-14T14:10:38Z"
+        },
+        "message": "Fix json.dump encoding issue",
+        "tree": {
+          "sha": "0e6a2c23d78d277407b3b7e4f1e8d6ad1cf755d8",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/0e6a2c23d78d277407b3b7e4f1e8d6ad1cf755d8"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/0ad5f2d710d64cc72763ae0ba50ca34f9b13bc62/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "585ed6fcc71af13e841c33bff78a979b1bf1c8bc",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/585ed6fcc71af13e841c33bff78a979b1bf1c8bc",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/585ed6fcc71af13e841c33bff78a979b1bf1c8bc"
+        }
+      ]
+    },
+    {
+      "sha": "585ed6fcc71af13e841c33bff78a979b1bf1c8bc",
+      "node_id": "C_kwDOLD_E6doAKDU4NWVkNmZjYzcxYWYxM2U4NDFjMzNiZmY3OGE5NzliMWJmMWM4YmM",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:46:36Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:46:36Z"
+        },
+        "message": "Adjust wording",
+        "tree": {
+          "sha": "78a6c4485a55e4514803b6c7dbe2171db05c8e9c",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/78a6c4485a55e4514803b6c7dbe2171db05c8e9c"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/585ed6fcc71af13e841c33bff78a979b1bf1c8bc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/585ed6fcc71af13e841c33bff78a979b1bf1c8bc",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/585ed6fcc71af13e841c33bff78a979b1bf1c8bc",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/585ed6fcc71af13e841c33bff78a979b1bf1c8bc/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "716357180f86e89ed40f796ee89f812f2efe4579",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/716357180f86e89ed40f796ee89f812f2efe4579",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/716357180f86e89ed40f796ee89f812f2efe4579"
+        }
+      ]
+    },
+    {
+      "sha": "716357180f86e89ed40f796ee89f812f2efe4579",
+      "node_id": "C_kwDOLD_E6doAKDcxNjM1NzE4MGY4NmU4OWVkNDBmNzk2ZWU4OWY4MTJmMmVmZTQ1Nzk",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:42:44Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:42:44Z"
+        },
+        "message": "Adjust wording",
+        "tree": {
+          "sha": "f8bf037462a4eab44239f1603983543b686ab9c8",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/f8bf037462a4eab44239f1603983543b686ab9c8"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/716357180f86e89ed40f796ee89f812f2efe4579",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/716357180f86e89ed40f796ee89f812f2efe4579",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/716357180f86e89ed40f796ee89f812f2efe4579",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/716357180f86e89ed40f796ee89f812f2efe4579/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e895f5b8762e06b58701b7ce071fddebd7539408",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e895f5b8762e06b58701b7ce071fddebd7539408",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/e895f5b8762e06b58701b7ce071fddebd7539408"
+        }
+      ]
+    },
+    {
+      "sha": "e895f5b8762e06b58701b7ce071fddebd7539408",
+      "node_id": "C_kwDOLD_E6doAKGU4OTVmNWI4NzYyZTA2YjU4NzAxYjdjZTA3MWZkZGViZDc1Mzk0MDg",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:39:04Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:39:04Z"
+        },
+        "message": "Add simple README",
+        "tree": {
+          "sha": "57afed89a62aaf2e537e85f117b723e1f6b1fc2e",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/57afed89a62aaf2e537e85f117b723e1f6b1fc2e"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/e895f5b8762e06b58701b7ce071fddebd7539408",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e895f5b8762e06b58701b7ce071fddebd7539408",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/e895f5b8762e06b58701b7ce071fddebd7539408",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/e895f5b8762e06b58701b7ce071fddebd7539408/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cacc6c48df7dd4818f04a7e398ae7592cd337da7",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/cacc6c48df7dd4818f04a7e398ae7592cd337da7",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/cacc6c48df7dd4818f04a7e398ae7592cd337da7"
+        }
+      ]
+    },
+    {
+      "sha": "cacc6c48df7dd4818f04a7e398ae7592cd337da7",
+      "node_id": "C_kwDOLD_E6doAKGNhY2M2YzQ4ZGY3ZGQ0ODE4ZjA0YTdlMzk4YWU3NTkyY2QzMzdkYTc",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:38:14Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T20:38:14Z"
+        },
+        "message": "Add simlpe README",
+        "tree": {
+          "sha": "01715be3d02de7204aecb76afe6a4d10975f6dc5",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/01715be3d02de7204aecb76afe6a4d10975f6dc5"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/cacc6c48df7dd4818f04a7e398ae7592cd337da7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/cacc6c48df7dd4818f04a7e398ae7592cd337da7",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/cacc6c48df7dd4818f04a7e398ae7592cd337da7",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/cacc6c48df7dd4818f04a7e398ae7592cd337da7/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4"
+        }
+      ]
+    },
+    {
+      "sha": "64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4",
+      "node_id": "C_kwDOLD_E6doAKDY0ZjQyODhiZjcxN2VkNjVmZTM5YmNiOGM0ZGJjYWY2MzNiNmZmZjQ",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T15:55:49Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T15:55:49Z"
+        },
+        "message": "Change name of index.html to make space for new kg",
+        "tree": {
+          "sha": "ffd7614c2db57c4a7074f5fee4b90bca085a429b",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/ffd7614c2db57c4a7074f5fee4b90bca085a429b"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/64f4288bf717ed65fe39bcb8c4dbcaf633b6fff4/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8e09c2fbc9e91b8f02a475437cebb99dc3951a9f",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/8e09c2fbc9e91b8f02a475437cebb99dc3951a9f",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/8e09c2fbc9e91b8f02a475437cebb99dc3951a9f"
+        }
+      ]
+    },
+    {
+      "sha": "8e09c2fbc9e91b8f02a475437cebb99dc3951a9f",
+      "node_id": "C_kwDOLD_E6doAKDhlMDljMmZiYzllOTFiOGYwMmE0NzU0MzdjZWJiOTlkYzM5NTFhOWY",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T15:53:19Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T15:53:19Z"
+        },
+        "message": "Add functionality to use advanced rag on non Haufe texts",
+        "tree": {
+          "sha": "8182dcea126dab91c64c7987c7dded88fa94f157",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/8182dcea126dab91c64c7987c7dded88fa94f157"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/8e09c2fbc9e91b8f02a475437cebb99dc3951a9f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/8e09c2fbc9e91b8f02a475437cebb99dc3951a9f",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/8e09c2fbc9e91b8f02a475437cebb99dc3951a9f",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/8e09c2fbc9e91b8f02a475437cebb99dc3951a9f/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bbf9238d5836d71e9eb129b51e20686541b14a22",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/bbf9238d5836d71e9eb129b51e20686541b14a22",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/bbf9238d5836d71e9eb129b51e20686541b14a22"
+        }
+      ]
+    },
+    {
+      "sha": "bbf9238d5836d71e9eb129b51e20686541b14a22",
+      "node_id": "C_kwDOLD_E6doAKGJiZjkyMzhkNTgzNmQ3MWU5ZWIxMjliNTFlMjA2ODY1NDFiMTRhMjI",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T14:56:52Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T14:56:52Z"
+        },
+        "message": "Clean up some empty space",
+        "tree": {
+          "sha": "ec367bf938af06db3a2870fe371bd0416160ad15",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/ec367bf938af06db3a2870fe371bd0416160ad15"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/bbf9238d5836d71e9eb129b51e20686541b14a22",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/bbf9238d5836d71e9eb129b51e20686541b14a22",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/bbf9238d5836d71e9eb129b51e20686541b14a22",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/bbf9238d5836d71e9eb129b51e20686541b14a22/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dd4108cfa4d1b0d31f953187f8f094bf74708640",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/dd4108cfa4d1b0d31f953187f8f094bf74708640",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/dd4108cfa4d1b0d31f953187f8f094bf74708640"
+        }
+      ]
+    },
+    {
+      "sha": "dd4108cfa4d1b0d31f953187f8f094bf74708640",
+      "node_id": "C_kwDOLD_E6doAKGRkNDEwOGNmYTRkMWIwZDMxZjk1MzE4N2Y4ZjA5NGJmNzQ3MDg2NDA",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:50:00Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:50:00Z"
+        },
+        "message": "Fix generate_fact_extract function",
+        "tree": {
+          "sha": "dcd98b1e01c141d40c1ba30fcdb151ba6509f7c3",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/dcd98b1e01c141d40c1ba30fcdb151ba6509f7c3"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/dd4108cfa4d1b0d31f953187f8f094bf74708640",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/dd4108cfa4d1b0d31f953187f8f094bf74708640",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/dd4108cfa4d1b0d31f953187f8f094bf74708640",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/dd4108cfa4d1b0d31f953187f8f094bf74708640/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b3b04b13c7b62555bbdbb65313718ebc42ebbddb",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/b3b04b13c7b62555bbdbb65313718ebc42ebbddb",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/b3b04b13c7b62555bbdbb65313718ebc42ebbddb"
+        }
+      ]
+    },
+    {
+      "sha": "b3b04b13c7b62555bbdbb65313718ebc42ebbddb",
+      "node_id": "C_kwDOLD_E6doAKGIzYjA0YjEzYzdiNjI1NTViYmRiYjY1MzEzNzE4ZWJjNDJlYmJkZGI",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:40:59Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:40:59Z"
+        },
+        "message": "Fix function of loading system_prompt per query type",
+        "tree": {
+          "sha": "3613f299e9a02780b2742778d71f9741867b0026",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/3613f299e9a02780b2742778d71f9741867b0026"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/b3b04b13c7b62555bbdbb65313718ebc42ebbddb",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/b3b04b13c7b62555bbdbb65313718ebc42ebbddb",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/b3b04b13c7b62555bbdbb65313718ebc42ebbddb",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/b3b04b13c7b62555bbdbb65313718ebc42ebbddb/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "13cc785876c13ab39bf19b494c9f82ada910d287",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/13cc785876c13ab39bf19b494c9f82ada910d287",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/13cc785876c13ab39bf19b494c9f82ada910d287"
+        }
+      ]
+    },
+    {
+      "sha": "13cc785876c13ab39bf19b494c9f82ada910d287",
+      "node_id": "C_kwDOLD_E6doAKDEzY2M3ODU4NzZjMTNhYjM5YmYxOWI0OTRjOWY4MmFkYTkxMGQyODc",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:38:49Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:38:49Z"
+        },
+        "message": "Load system_prompts form files",
+        "tree": {
+          "sha": "2c90365526d0ff2ea8b6a07dc84f2ab15c76c3e3",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/2c90365526d0ff2ea8b6a07dc84f2ab15c76c3e3"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/13cc785876c13ab39bf19b494c9f82ada910d287",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/13cc785876c13ab39bf19b494c9f82ada910d287",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/13cc785876c13ab39bf19b494c9f82ada910d287",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/13cc785876c13ab39bf19b494c9f82ada910d287/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "be55c53a4eb939d7a710d790f04eda88466ce4ee",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/be55c53a4eb939d7a710d790f04eda88466ce4ee",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/be55c53a4eb939d7a710d790f04eda88466ce4ee"
+        }
+      ]
+    },
+    {
+      "sha": "be55c53a4eb939d7a710d790f04eda88466ce4ee",
+      "node_id": "C_kwDOLD_E6doAKGJlNTVjNTNhNGViOTM5ZDdhNzEwZDc5MGYwNGVkYTg4NDY2Y2U0ZWU",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:22:27Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-13T13:22:27Z"
+        },
+        "message": "Add semantic chunking feature to advanced rag",
+        "tree": {
+          "sha": "d985d06ab534fdd9eb44a771eeb06acfe3918ae3",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/d985d06ab534fdd9eb44a771eeb06acfe3918ae3"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/be55c53a4eb939d7a710d790f04eda88466ce4ee",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/be55c53a4eb939d7a710d790f04eda88466ce4ee",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/be55c53a4eb939d7a710d790f04eda88466ce4ee",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/be55c53a4eb939d7a710d790f04eda88466ce4ee/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a49fa67825b4e72ca5aa5dd317bc5f298f109d38",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a49fa67825b4e72ca5aa5dd317bc5f298f109d38",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a49fa67825b4e72ca5aa5dd317bc5f298f109d38"
+        }
+      ]
+    },
+    {
+      "sha": "a49fa67825b4e72ca5aa5dd317bc5f298f109d38",
+      "node_id": "C_kwDOLD_E6doAKGE0OWZhNjc4MjViNGU3MmNhNWFhNWRkMzE3YmM1ZjI5OGYxMDlkMzg",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T16:21:13Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T16:21:13Z"
+        },
+        "message": "Add drawio flowchart",
+        "tree": {
+          "sha": "dafdc0651e65d73a2a7be776ee95a19fc99f91c4",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/dafdc0651e65d73a2a7be776ee95a19fc99f91c4"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/a49fa67825b4e72ca5aa5dd317bc5f298f109d38",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a49fa67825b4e72ca5aa5dd317bc5f298f109d38",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a49fa67825b4e72ca5aa5dd317bc5f298f109d38",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a49fa67825b4e72ca5aa5dd317bc5f298f109d38/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0d5a574b230748a88a29495da49d2188f1e611f4",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/0d5a574b230748a88a29495da49d2188f1e611f4",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/0d5a574b230748a88a29495da49d2188f1e611f4"
+        }
+      ]
+    },
+    {
+      "sha": "0d5a574b230748a88a29495da49d2188f1e611f4",
+      "node_id": "C_kwDOLD_E6doAKDBkNWE1NzRiMjMwNzQ4YTg4YTI5NDk1ZGE0OWQyMTg4ZjFlNjExZjQ",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T12:05:56Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T12:05:56Z"
+        },
+        "message": "Delete unnecessary .py",
+        "tree": {
+          "sha": "f71591880c3eb862e5e6c9fe59d12a82b2d56dc4",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/f71591880c3eb862e5e6c9fe59d12a82b2d56dc4"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/0d5a574b230748a88a29495da49d2188f1e611f4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/0d5a574b230748a88a29495da49d2188f1e611f4",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/0d5a574b230748a88a29495da49d2188f1e611f4",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/0d5a574b230748a88a29495da49d2188f1e611f4/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "50df0627e5fb96e0129acb40f931f71d6bc808ca",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/50df0627e5fb96e0129acb40f931f71d6bc808ca",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/50df0627e5fb96e0129acb40f931f71d6bc808ca"
+        }
+      ]
+    },
+    {
+      "sha": "50df0627e5fb96e0129acb40f931f71d6bc808ca",
+      "node_id": "C_kwDOLD_E6doAKDUwZGYwNjI3ZTVmYjk2ZTAxMjlhY2I0MGY5MzFmNzFkNmJjODA4Y2E",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T11:58:11Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T11:58:11Z"
+        },
+        "message": "Fix embedding function issue",
+        "tree": {
+          "sha": "c13bb43ba9950dd482d2dd46ffb2451f024ade23",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/c13bb43ba9950dd482d2dd46ffb2451f024ade23"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/50df0627e5fb96e0129acb40f931f71d6bc808ca",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/50df0627e5fb96e0129acb40f931f71d6bc808ca",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/50df0627e5fb96e0129acb40f931f71d6bc808ca",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/50df0627e5fb96e0129acb40f931f71d6bc808ca/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a556f515788d5198ba8ccace8b4f78f9c0e2d8e3",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a556f515788d5198ba8ccace8b4f78f9c0e2d8e3",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a556f515788d5198ba8ccace8b4f78f9c0e2d8e3"
+        }
+      ]
+    },
+    {
+      "sha": "a556f515788d5198ba8ccace8b4f78f9c0e2d8e3",
+      "node_id": "C_kwDOLD_E6doAKGE1NTZmNTE1Nzg4ZDUxOThiYThjY2FjZThiNGY3OGY5YzBlMmQ4ZTM",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T11:23:45Z"
+        },
+        "committer": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "tilman.ludewigt@haufe-lexware.com",
+          "date": "2024-01-12T11:23:45Z"
+        },
+        "message": "Init Commit",
+        "tree": {
+          "sha": "b90618a0e3af64a7e372245333e536d89ad96c87",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/b90618a0e3af64a7e372245333e536d89ad96c87"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/a556f515788d5198ba8ccace8b4f78f9c0e2d8e3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a556f515788d5198ba8ccace8b4f78f9c0e2d8e3",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/a556f515788d5198ba8ccace8b4f78f9c0e2d8e3",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/a556f515788d5198ba8ccace8b4f78f9c0e2d8e3/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7cc6525da27578089dde19d88d11ff93d7bfe624",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/7cc6525da27578089dde19d88d11ff93d7bfe624",
+          "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/7cc6525da27578089dde19d88d11ff93d7bfe624"
+        }
+      ]
+    },
+    {
+      "sha": "7cc6525da27578089dde19d88d11ff93d7bfe624",
+      "node_id": "C_kwDOLD_E6doAKDdjYzY1MjVkYTI3NTc4MDg5ZGRlMTlkODhkMTFmZjkzZDdiZmU2MjQ",
+      "commit": {
+        "author": {
+          "name": "TilmanLudewigtHaufe",
+          "email": "155962122+TilmanLudewigtHaufe@users.noreply.github.com",
+          "date": "2024-01-12T11:04:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-12T11:04:01Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "f76650aeb872e9c100b2e3c0d4d99da84636c554",
+          "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/trees/f76650aeb872e9c100b2e3c0d4d99da84636c554"
+        },
+        "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/git/commits/7cc6525da27578089dde19d88d11ff93d7bfe624",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJloRyhCRBK7hj4Ov3rIwAA27oIAJOyA7tFSC++HA3WT2QJc1mI\nyh7U8YY/8HtliI/JAJCH+pzREUhn6uOwQrXoBjIj2vkxnEpSvyj5uGs/JEpzC2D3\nUfa5CXeH30RQNSt7UW3vTx8BKXMPxDwmBzx2M8H3hULuKunKbSXeQTIg3bnIPcjV\noI6OlJ63XkiGB28OC5375as9K4VmHETmooNgMocVoAD92DVIfWjN/KDuCCYeTFed\nKLwGvZGWlns0TUxGPUob2zlNFUuy0pjFCIMqjWMwia+2w2F6fh8cPs5eBxwR1R3l\nZ2Q6n2UDeWzQI/Ob5VSKxIDlA2iFkwcjqAadRe8jNhDFWvQBEwfw8w/p0FnwRXc=\n=hy2N\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f76650aeb872e9c100b2e3c0d4d99da84636c554\nauthor TilmanLudewigtHaufe <155962122+TilmanLudewigtHaufe@users.noreply.github.com> 1705057441 +0100\ncommitter GitHub <noreply@github.com> 1705057441 +0100\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/7cc6525da27578089dde19d88d11ff93d7bfe624",
+      "html_url": "https://github.com/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commit/7cc6525da27578089dde19d88d11ff93d7bfe624",
+      "comments_url": "https://api.github.com/repos/TilmanLudewigtHaufe/GraphAugmented-Legal-RAG/commits/7cc6525da27578089dde19d88d11ff93d7bfe624/comments",
+      "author": {
+        "login": "TilmanLudewigtHaufe",
+        "id": 155962122,
+        "node_id": "U_kgDOCUvLCg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+        "html_url": "https://github.com/TilmanLudewigtHaufe",
+        "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+        "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+        "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+        "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+        "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+        "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "TilmanLudewigtHaufe",
+      "id": 155962122,
+      "node_id": "U_kgDOCUvLCg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155962122?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TilmanLudewigtHaufe",
+      "html_url": "https://github.com/TilmanLudewigtHaufe",
+      "followers_url": "https://api.github.com/users/TilmanLudewigtHaufe/followers",
+      "following_url": "https://api.github.com/users/TilmanLudewigtHaufe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TilmanLudewigtHaufe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TilmanLudewigtHaufe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TilmanLudewigtHaufe/subscriptions",
+      "organizations_url": "https://api.github.com/users/TilmanLudewigtHaufe/orgs",
+      "repos_url": "https://api.github.com/users/TilmanLudewigtHaufe/repos",
+      "events_url": "https://api.github.com/users/TilmanLudewigtHaufe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TilmanLudewigtHaufe/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 32
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 124250
+  },
+  "readme_html": "<h2 id=\"user-content-introduction\">Introduction</h2>\n<p>This project represents a focused effort in the field of legal tech research, where I combine methodologies from natural language processing (NLP), network theory, and machine learning to analyze German legal texts. At its core, the project is structured into two principal components: the generation of a domain-specific knowledge graph and the application of this graph within a Retrieval-Augmented Generation (RAG) system to enhance language model responses.</p>\n<h2 id=\"user-content-objectives\">Objectives</h2>\n<ol>\n<li>\n<p><strong>Knowledge Graph Creation:</strong> The initial phase involves processing legal texts to develop a comprehensive knowledge graph. This graph visualizes key concepts and their interconnections, offering a detailed map of the legal textual environment.</p>\n</li>\n<li>\n<p><strong>Context-Enriched RAG System:</strong> The ultimate goal of the project is to leverage the knowledge graph in a RAG system. This system enriches and improves the context used in language model responses, ensuring they are grounded in domain-specific legal expertise. It represents a significant step towards more accurate and context-aware responses in legal text analysis.</p>\n</li>\n</ol>\n<h2 id=\"user-content-key-features\">Key Features</h2>\n<ul>\n<li>Semantic text splitting for in-depth analysis of legal texts.</li>\n<li>Interactive knowledge graph construction from legal documents.</li>\n<li>Integration with OpenAI's GPT-3.5 and GPT-4 for cutting-edge NLP capabilities.</li>\n<li>Network graph analysis and visualization for elucidating textual relationships.</li>\n<li>Use of vector space modeling for analyzing text and graph components.</li>\n<li>Contextual analysis techniques, including TF-IDF scoring and cosine similarity, for enhanced understanding.</li>\n<li>Application of the knowledge graph in a RAG system for context-rich language model responses.</li>\n</ul>\n<hr>\n<h2 id=\"user-content-installation\">Installation</h2>\n<ol>\n<li>\n<p><strong>Clone the Repository:</strong></p>\n<pre><code>git clone https://github.com/TilmanLudewigtHaufe/Graph_Augmented_RAG.git\ncd your-repo-name\n</code></pre>\n</li>\n<li>\n<p><strong>Set Up Environment:</strong></p>\n<ul>\n<li>Ensure Python 3.8+ is installed.</li>\n<li>Install required packages:\n<pre><code>pip install -r requirements.txt\n</code></pre>\n</li>\n</ul>\n</li>\n<li>\n<p><strong>Environment Variables:</strong></p>\n<ul>\n<li>Create a <code>.env</code> file in the root directory.</li>\n<li>Add <code>OPENAI_API_KEY=your_key_here</code>.</li>\n</ul>\n</li>\n<li>\n<p><strong>Data Preparation:</strong></p>\n<ul>\n<li>Place your text data (.txt) in the <code>data_input</code> directory.</li>\n</ul>\n</li>\n</ol>\n<hr>\n<h2 id=\"user-content-usage\">Usage</h2>\n<h3 id=\"user-content-configuration\">Configuration</h3>\n<p>Before generating the Knowledge Graph or running the Graph-Augmented Retrieval-Augmented Generation, you need to decide and set the splitter.</p>\n<p>The splitter is a crucial component that determines how the text data is divided into distinct concepts for the Knowledge Graph. Similarly, in the Graph-Augmented Retrieval-Augmented Generation, the splitter plays a key role in breaking down user queries into manageable chunks for processing.</p>\n<p>You can set the splitter in the <code>KG_Creation.py</code> and <code>Graph_RAG_advanced_RAG.py</code> scripts.</p>\n<p>Remember, the choice of splitter can significantly impact the performance and results of the system. Therefore, choose a splitter that best suits your data and use case. In the respected code sections three various splitters with different approaches (simple to complex and custom) are provided which can be adjusted to your needs.</p>\n<h3 id=\"user-content-generating-the-knowledge-graph\">Generating the Knowledge Graph</h3>\n<ol>\n<li>\n<p><strong>Creating the Knowledge Graph:</strong></p>\n<ul>\n<li>Run the <code>KG_Creation.py</code> script to generate the knowledge graph from your text data.\n<pre><code>python KG_Creation.py\n</code></pre>\n</li>\n<li>This process analyzes the text, constructs a graph of interconnected concepts, and saves the graph data.</li>\n</ul>\n</li>\n<li>\n<p><strong>Visualizing the Knowledge Graph:</strong></p>\n<ul>\n<li>After running <code>KG_Creation.py</code>, open <code>docs/index.html</code> in a web browser.</li>\n<li>This file contains an interactive visualization of the knowledge graph, allowing you to explore the relationships and structures within your data.</li>\n</ul>\n</li>\n</ol>\n<h3 id=\"user-content-running-graph-augmented-retrieval-augmented-generation\">Running Graph-Augmented Retrieval-Augmented Generation</h3>\n<ol>\n<li>\n<p><strong>Executing the Main Script:</strong></p>\n<ul>\n<li>To engage with the graph-augmented retrieval and generation capabilities, run the <code>Graph_RAG_advanced_RAG.py</code> script.\n<pre><code>python Graph_RAG_advanced_RAG.py\n</code></pre>\n</li>\n<li>This script uses the knowledge graph to enhance text retrieval and generation, providing deeper insights and context for user queries.</li>\n</ul>\n</li>\n<li>\n<p><strong>Interacting with the System:</strong></p>\n<ul>\n<li>Enter queries at the prompt within the <code>Graph_RAG_advanced_RAG.py</code> script interface.</li>\n<li>Use commands like <code>quit</code>, <code>q</code>, or <code>exit</code> to end the interactive session.</li>\n</ul>\n</li>\n<li>\n<p><strong>Analyzing Outputs:</strong></p>\n<ul>\n<li>The application provides responses based on the knowledge graph and the augmented retrieval mechanism, offering a rich and contextual understanding of the query topics.</li>\n<li>Check the output on the console and any generated files in the <code>data_output</code> directory for detailed insights.</li>\n</ul>\n</li>\n</ol>\n<h3 id=\"user-content-note\">Note</h3>\n<ul>\n<li>Ensure that the <code>KG_Creation.py</code> script is executed before running <code>Graph_RAG_advanced_RAG.py</code>, as the latter depends on the knowledge graph generated by the former.</li>\n</ul>\n<h2 id=\"user-content-license\">License</h2>\n<p>This project is licensed under the terms of the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. This allows for non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>\n<p>For more details, see the <a href=\"https://creativecommons.org/licenses/by-nc/4.0/legalcode\">full text</a> of the license.</p>\n<hr>",
+  "_fetched_at": "2026-03-11T18:18:07.265Z"
+}

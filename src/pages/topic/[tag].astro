@@ -1,0 +1,269 @@
+---
+/**
+ * /topic/[tag] — repos filtered by a single GitHub topic tag.
+ * Generates one page per unique tag in the manifest.
+ */
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/navigation/Breadcrumb.astro';
+import Pagination from '../../components/ui/Pagination.astro';
+import { buildCollectionPageSchema } from '../../utils/schema';
+import manifestRaw from '../../data/manifest.json';
+import topicsRaw from '../../data/topics.json';
+
+const PER_PAGE = 30; // must also be duplicated inside getStaticPaths (Vite worker isolation)
+
+interface RepoEntry {
+  full_name: string; owner: string; repo: string; stars: number;
+  forks: number; language?: string; topics: string[];
+  primary_category: string; pushed_at: string; description?: string;
+}
+interface TopicEntry { tag: string; count: number; }
+
+export async function getStaticPaths() {
+  const PER_PAGE = 30; // duplicated due to Vite worker isolation
+  const manifest: RepoEntry[] = manifestRaw as any;
+  const topics: TopicEntry[] = topicsRaw as any;
+
+  // Inline helper (must be inside getStaticPaths due to Vite worker isolation)
+  function getRelatedTags(repos: RepoEntry[], currentTag: string): string[] {
+    const freq: Record<string, number> = {};
+    for (const r of repos) {
+      for (const t of r.topics) {
+        if (t !== currentTag) freq[t] = (freq[t] ?? 0) + 1;
+      }
+    }
+    return Object.entries(freq)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 12)
+      .map(([t]) => t);
+  }
+
+  // Only generate pages for topics that appear in at least 2 repos
+  const eligibleTopics = topics.filter((t) => t.count >= 2).slice(0, 500);
+
+  return eligibleTopics.map(({ tag }) => {
+    const repos = manifest
+      .filter((r) => r.topics.includes(tag))
+      .sort((a, b) => b.stars - a.stars);
+
+    return {
+      params: { tag },
+      props: {
+        tag,
+        repos: repos.slice(0, PER_PAGE),
+        totalRepos: repos.length,
+        totalPages: Math.max(1, Math.ceil(repos.length / PER_PAGE)),
+        currentPage: 1,
+        relatedTags: getRelatedTags(repos, tag),
+      },
+    };
+  });
+}
+
+
+interface Props {
+  tag: string;
+  repos: RepoEntry[];
+  totalRepos: number;
+  totalPages: number;
+  currentPage: number;
+  relatedTags: string[];
+}
+
+const { tag, repos, totalRepos, totalPages, currentPage, relatedTags } = Astro.props;
+
+const SITE = 'https://aipromptsmall.shop';
+const canonical = `${SITE}/topic/${tag}`;
+
+const schema = buildCollectionPageSchema({
+  name: `#${tag} — Open Source AI Repos`,
+  description: `${totalRepos} open-source AI repositories tagged with "${tag}" on GitHub, sorted by stars.`,
+  url: canonical,
+  numberOfItems: totalRepos,
+});
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: `#${tag}`, href: `/topic/${tag}` },
+];
+
+function fmt(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k`;
+  return String(n);
+}
+function relDate(iso: string) {
+  const days = Math.floor((Date.now() - new Date(iso).getTime()) / 86400000);
+  if (days === 0) return 'today';
+  if (days < 7) return `${days}d ago`;
+  if (days < 30) return `${Math.floor(days / 7)}w ago`;
+  if (days < 365) return `${Math.floor(days / 30)}mo ago`;
+  return `${Math.floor(days / 365)}y ago`;
+}
+---
+
+<Base
+  title={`#${tag} — ${totalRepos} Open Source AI Repos | aipromptsmall.shop`}
+  description={`Discover ${totalRepos} open-source AI repositories tagged "${tag}" on GitHub. Sorted by community stars.`}
+  canonical={canonical}
+  pageType="topic"
+  schemas={[schema]}
+>
+  <Breadcrumb crumbs={breadcrumbs} />
+
+  <div class="topic-page container">
+
+    <!-- Header -->
+    <header class="topic-header">
+      <div class="topic-badge" aria-hidden="true">#</div>
+      <div>
+        <h1 class="topic-title">{tag}</h1>
+        <p class="topic-meta">
+          <span class="topic-count">{totalRepos.toLocaleString()} repositories</span>
+          tagged on GitHub
+        </p>
+      </div>
+    </header>
+
+    <!-- Related tags -->
+    {relatedTags.length > 0 && (
+      <div class="related-tags" aria-label="Related topics">
+        <span class="related-label">Related:</span>
+        {relatedTags.map((t) => (
+          <a href={`/topic/${t}`} class="related-tag">{t}</a>
+        ))}
+      </div>
+    )}
+
+    <!-- Toolbar -->
+    <div class="topic-toolbar">
+      <span class="toolbar-label">Showing <strong>{repos.length}</strong> of <strong>{totalRepos}</strong>, sorted by ⭐ stars</span>
+    </div>
+
+    <!-- Repo grid -->
+    <ul class="repo-grid" role="list" data-pagefind-body>
+      {repos.map((r) => (
+        <li>
+          <a href={`/repo/${r.owner}/${r.repo}`} class="repo-card">
+            <div class="rc-header">
+              <div class="rc-name-block">
+                <span class="rc-owner">{r.owner}/</span>
+                <strong class="rc-repo">{r.repo}</strong>
+              </div>
+              <div class="rc-stars">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                {fmt(r.stars)}
+              </div>
+            </div>
+            {r.description && (
+              <p class="rc-desc">{r.description.length > 120 ? `${r.description.slice(0, 120)}…` : r.description}</p>
+            )}
+            <div class="rc-footer">
+              <div class="rc-pills">
+                {r.language && <span class="rc-pill"><span class="lang-dot" aria-hidden="true"></span>{r.language}</span>}
+              </div>
+              <time class="rc-time" datetime={r.pushed_at}>{relDate(r.pushed_at)}</time>
+            </div>
+            <div class="rc-topics">
+              {r.topics.slice(0, 4).map((t) => (
+                <a href={`/topic/${t}`} class={`rc-topic ${t === tag ? 'rc-topic--active' : ''}`} onclick="event.stopPropagation()">{t}</a>
+              ))}
+              {r.topics.length > 4 && <span class="rc-topic rc-topic--more">+{r.topics.length - 4}</span>}
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    {repos.length === 0 && (
+      <div class="empty-state">
+        <p>No repositories found for topic <strong>#{tag}</strong>.</p>
+      </div>
+    )}
+
+    {totalPages > 1 && (
+      <Pagination currentPage={currentPage} totalPages={totalPages} baseUrl={`/topic/${tag}`} />
+    )}
+  </div>
+</Base>
+
+<style>
+  .topic-page { padding-block: 1.5rem 5rem; }
+
+  .topic-header { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 1.25rem; }
+  .topic-badge {
+    width: 52px; height: 52px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 12px;
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    font-size: 1.5rem;
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+  .topic-title {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  .topic-meta { font-size: 0.875rem; color: var(--color-text-muted); margin-top: 0.25rem; }
+  .topic-count { font-weight: 700; color: var(--color-text); }
+
+  .related-tags {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    
+    margin-bottom: 1.25rem;
+    padding: 0.875rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+  }
+  .related-label { font-size: 0.75rem; font-weight: 700; color: var(--color-text-muted); text-transform: uppercase; letter-spacing: 0.08em; margin-right: 0.25rem; flex-shrink: 0; }
+  .related-tag {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background: var(--color-surface-2);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+    text-decoration: none;
+    transition: background 0.12s, color 0.12s;
+  }
+  .related-tag:hover { background: var(--color-accent-light); color: var(--color-accent); }
+
+  .topic-toolbar { display: flex; border-bottom: 1px solid var(--color-border); padding-bottom: 0.75rem; margin-bottom: 1rem; }
+  .toolbar-label { font-size: 0.8125rem; color: var(--color-text-muted); }
+  .toolbar-label strong { color: var(--color-text); }
+
+  .repo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; list-style: none; }
+  .repo-card {
+    display: flex; flex-direction: column; gap: 0.625rem;
+    padding: 1rem; background: var(--color-bg); border: 1px solid var(--color-border);
+    border-radius: 12px; text-decoration: none; color: var(--color-text); margin-bottom: auto;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  .repo-card:hover { border-color: var(--color-accent); box-shadow: 0 4px 16px color-mix(in srgb, var(--color-accent) 10%, transparent); transform: translateY(-2px); }
+
+  .rc-header {  display: flex; align-items: flex-start; justify-content: space-between; gap: 0.5rem;  }
+  
+  .rc-owner { font-size: 0.8125rem; color: var(--color-text-muted); }
+  .rc-repo { display: block; font-size: 0.9375rem; font-weight: 700; word-break: break-word; }
+  .rc-stars { display: flex; align-items: center; gap: 0.25rem; font-size: 0.8125rem; font-weight: 700; color: #f59e0b; flex-shrink: 0; }
+  .rc-desc { font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.55; flex: 1;}
+  .rc-footer { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;
+    margin-top: auto;   }
+  .rc-pills { display: flex; gap: 0.375rem;  }
+  .rc-pill { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.15rem 0.5rem; border-radius: 100px; font-size: 0.6875rem; font-weight: 500; background: var(--color-surface); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+  .lang-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-accent); flex-shrink: 0; }
+  .rc-time { font-size: 0.6875rem; color: var(--color-text-muted); }
+  .rc-topics { display: flex; gap: 0.3rem;  }
+  .rc-topic { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 100px; font-size: 0.6875rem; font-weight: 500; background: var(--color-accent-light); color: var(--color-accent); text-decoration: none; transition: opacity 0.12s; }
+  .rc-topic:hover { opacity: 0.75; }
+  .rc-topic--active { background: var(--color-accent); color: #fff; }
+  .rc-topic--more { background: var(--color-surface-2); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+  .empty-state { text-align: center; padding: 4rem 2rem; color: var(--color-text-muted); }
+</style>

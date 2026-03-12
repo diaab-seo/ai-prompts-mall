@@ -1,0 +1,48 @@
+---
+/**
+ * StarMeter.astro — Proportional star bar relative to category max
+ */
+interface Props {
+  stars: number;
+  maxStars?: number; // category max for scaling the bar
+}
+const { stars, maxStars = 200_000 } = Astro.props;
+const pct = Math.min(100, (stars / maxStars) * 100).toFixed(1);
+
+function fmt(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k`;
+  return String(n);
+}
+---
+
+<div class="star-meter" role="meter" aria-label={`GitHub Stars: ${stars.toLocaleString()}`} aria-valuenow={stars} aria-valuemin={0} aria-valuemax={maxStars}>
+  <div class="sm-header">
+    <span class="sm-icon" aria-hidden="true">⭐</span>
+    <strong class="sm-count">{fmt(stars)}</strong>
+    <span class="sm-label">stars</span>
+  </div>
+  <div class="sm-track" aria-hidden="true">
+    <div class="sm-fill" style={`width: ${pct}%`}></div>
+  </div>
+</div>
+
+<style>
+  .star-meter { display: flex; flex-direction: column; gap: 0.375rem; }
+  .sm-header { display: flex; align-items: center; gap: 0.4rem; }
+  .sm-icon { font-size: 1rem; line-height: 1; }
+  .sm-count { font-size: 1.25rem; font-weight: 800; color: var(--color-text); letter-spacing: -0.02em; }
+  .sm-label { font-size: 0.75rem; color: var(--color-text-muted); }
+  .sm-track {
+    height: 6px;
+    background: var(--color-surface-2);
+    border-radius: 100px;
+    overflow: hidden;
+  }
+  .sm-fill {
+    height: 100%;
+    background: linear-gradient(to right, var(--color-accent), #a78bfa);
+    border-radius: 100px;
+    transition: width 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+</style>

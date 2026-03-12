@@ -1,0 +1,6 @@
+---
+// LicenseBadge widget
+interface Props { spdx?: string }
+const { spdx } = Astro.props;
+---
+{spdx && <span class="license-badge" aria-label={`License: ${spdx}`}>{spdx}</span>}

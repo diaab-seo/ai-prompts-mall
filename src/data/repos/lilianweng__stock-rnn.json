@@ -1,0 +1,1473 @@
+{
+  "id": 96853855,
+  "node_id": "MDEwOlJlcG9zaXRvcnk5Njg1Mzg1NQ==",
+  "name": "stock-rnn",
+  "full_name": "lilianweng/stock-rnn",
+  "private": false,
+  "owner": {
+    "login": "lilianweng",
+    "id": 901179,
+    "node_id": "MDQ6VXNlcjkwMTE3OQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/901179?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/lilianweng",
+    "html_url": "https://github.com/lilianweng",
+    "followers_url": "https://api.github.com/users/lilianweng/followers",
+    "following_url": "https://api.github.com/users/lilianweng/following{/other_user}",
+    "gists_url": "https://api.github.com/users/lilianweng/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/lilianweng/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/lilianweng/subscriptions",
+    "organizations_url": "https://api.github.com/users/lilianweng/orgs",
+    "repos_url": "https://api.github.com/users/lilianweng/repos",
+    "events_url": "https://api.github.com/users/lilianweng/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/lilianweng/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/lilianweng/stock-rnn",
+  "description": "Predict stock market prices using RNN model with multilayer LSTM cells + optional multi-stock embeddings.",
+  "fork": false,
+  "url": "https://api.github.com/repos/lilianweng/stock-rnn",
+  "forks_url": "https://api.github.com/repos/lilianweng/stock-rnn/forks",
+  "keys_url": "https://api.github.com/repos/lilianweng/stock-rnn/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/lilianweng/stock-rnn/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/lilianweng/stock-rnn/teams",
+  "hooks_url": "https://api.github.com/repos/lilianweng/stock-rnn/hooks",
+  "issue_events_url": "https://api.github.com/repos/lilianweng/stock-rnn/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/lilianweng/stock-rnn/events",
+  "assignees_url": "https://api.github.com/repos/lilianweng/stock-rnn/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/lilianweng/stock-rnn/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/lilianweng/stock-rnn/tags",
+  "blobs_url": "https://api.github.com/repos/lilianweng/stock-rnn/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/lilianweng/stock-rnn/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/lilianweng/stock-rnn/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/lilianweng/stock-rnn/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/lilianweng/stock-rnn/languages",
+  "stargazers_url": "https://api.github.com/repos/lilianweng/stock-rnn/stargazers",
+  "contributors_url": "https://api.github.com/repos/lilianweng/stock-rnn/contributors",
+  "subscribers_url": "https://api.github.com/repos/lilianweng/stock-rnn/subscribers",
+  "subscription_url": "https://api.github.com/repos/lilianweng/stock-rnn/subscription",
+  "commits_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/lilianweng/stock-rnn/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/lilianweng/stock-rnn/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/lilianweng/stock-rnn/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/lilianweng/stock-rnn/merges",
+  "archive_url": "https://api.github.com/repos/lilianweng/stock-rnn/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/lilianweng/stock-rnn/downloads",
+  "issues_url": "https://api.github.com/repos/lilianweng/stock-rnn/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/lilianweng/stock-rnn/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/lilianweng/stock-rnn/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/lilianweng/stock-rnn/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/lilianweng/stock-rnn/labels{/name}",
+  "releases_url": "https://api.github.com/repos/lilianweng/stock-rnn/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/lilianweng/stock-rnn/deployments",
+  "created_at": "2017-07-11T05:23:38Z",
+  "updated_at": "2026-03-11T07:58:34Z",
+  "pushed_at": "2022-07-28T06:36:59Z",
+  "git_url": "git://github.com/lilianweng/stock-rnn.git",
+  "ssh_url": "git@github.com:lilianweng/stock-rnn.git",
+  "clone_url": "https://github.com/lilianweng/stock-rnn.git",
+  "svn_url": "https://github.com/lilianweng/stock-rnn",
+  "homepage": "https://lilianweng.github.io/lil-log",
+  "size": 55,
+  "stargazers_count": 1973,
+  "watchers_count": 1973,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 678,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 25,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "embeddings",
+    "lstm",
+    "rnn-tensorflow",
+    "stock-price-prediction"
+  ],
+  "visibility": "public",
+  "forks": 678,
+  "open_issues": 25,
+  "watchers": 1973,
+  "default_branch": "master",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "56d16c557fb8de6aa20125a2ab8a7946179eb58a",
+      "node_id": "C_kwDOBcXfX9oAKDU2ZDE2YzU1N2ZiOGRlNmFhMjAxMjVhMmFiOGE3OTQ2MTc5ZWI1OGE",
+      "commit": {
+        "author": {
+          "name": "Lilian",
+          "email": "lilian@openai.com",
+          "date": "2022-02-19T04:48:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2022-02-19T04:48:35Z"
+        },
+        "message": "Create FUNDING.yml",
+        "tree": {
+          "sha": "44c8fae4f02337437160e6665440f1737ca9527b",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/44c8fae4f02337437160e6665440f1737ca9527b"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/56d16c557fb8de6aa20125a2ab8a7946179eb58a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiEHajCRBK7hj4Ov3rIwAARqQIAHWONSuGZa+1A2X/VOnAX8wI\nCjQa4DPndH+qHMvuM2RScGhQG9Foh77EWba295wBFC/AcUsECILtWpPSBZ9OyNoD\nWI9Lip+Q91DgBH/LmWDeqGjdCnWDdVzT0/xuPZSKE9IaKmmAMdNe2/MOd0HCsaX+\nIhGQKxp4ITuqG0ZGHOODJ6E5C5zFJV/UlKf2gST6sDqnfZVwupUMFhwLzmDy5R+S\nFL7wIvzFnX0expIKb/1qHAl9oKiwmWlGASiZ4FfIcVGId/zIMocFLs5Xm8a18EJn\nFpJ7Q8srMpQO0N16iDs5EU2r7jkcPU4XfRu+XE8hp0xGYcLuvlLNBmSdhpDzeUU=\n=aDDC\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 44c8fae4f02337437160e6665440f1737ca9527b\nparent 4bf46f01b36b32ed12d2161d5fdf89e22eace0d8\nauthor Lilian <lilian@openai.com> 1645246115 -0800\ncommitter GitHub <noreply@github.com> 1645246115 -0800\n\nCreate FUNDING.yml",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/56d16c557fb8de6aa20125a2ab8a7946179eb58a",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/56d16c557fb8de6aa20125a2ab8a7946179eb58a",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/56d16c557fb8de6aa20125a2ab8a7946179eb58a/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4bf46f01b36b32ed12d2161d5fdf89e22eace0d8",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/4bf46f01b36b32ed12d2161d5fdf89e22eace0d8",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/4bf46f01b36b32ed12d2161d5fdf89e22eace0d8"
+        }
+      ]
+    },
+    {
+      "sha": "4bf46f01b36b32ed12d2161d5fdf89e22eace0d8",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NGJmNDZmMDFiMzZiMzJlZDEyZDIxNjFkNWZkZjg5ZTIyZWFjZTBkOA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian@openai.com",
+          "date": "2018-03-13T07:08:41Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian@openai.com",
+          "date": "2018-03-13T07:08:41Z"
+        },
+        "message": "add python version in README",
+        "tree": {
+          "sha": "07d9572b0000545c163d4102381a62ae8bb86391",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/07d9572b0000545c163d4102381a62ae8bb86391"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/4bf46f01b36b32ed12d2161d5fdf89e22eace0d8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/4bf46f01b36b32ed12d2161d5fdf89e22eace0d8",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/4bf46f01b36b32ed12d2161d5fdf89e22eace0d8",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/4bf46f01b36b32ed12d2161d5fdf89e22eace0d8/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0"
+        }
+      ]
+    },
+    {
+      "sha": "de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6ZGUzYzJhYzhiZjZkMGI0ZDAwZTg2YWRhYmJiZjQwNWE4MjdkNWNkMA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-02-04T05:53:34Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-02-04T05:53:34Z"
+        },
+        "message": "no dropout for test",
+        "tree": {
+          "sha": "6ea64c1237c3eaa57fc1eca55cc056ff4e4481de",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/6ea64c1237c3eaa57fc1eca55cc056ff4e4481de"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/de3c2ac8bf6d0b4d00e86adabbbf405a827d5cd0/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "102313a26d387829bf738150a2fbeee97b2e38e4",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/102313a26d387829bf738150a2fbeee97b2e38e4",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/102313a26d387829bf738150a2fbeee97b2e38e4"
+        }
+      ]
+    },
+    {
+      "sha": "102313a26d387829bf738150a2fbeee97b2e38e4",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6MTAyMzEzYTI2ZDM4NzgyOWJmNzM4MTUwYTJmYmVlZTk3YjJlMzhlNA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-02-01T05:00:08Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-02-01T05:00:08Z"
+        },
+        "message": "update Google Finance api + readme",
+        "tree": {
+          "sha": "c7db4df795ba276c28bea3333e40efa94bd8b6de",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/c7db4df795ba276c28bea3333e40efa94bd8b6de"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/102313a26d387829bf738150a2fbeee97b2e38e4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/102313a26d387829bf738150a2fbeee97b2e38e4",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/102313a26d387829bf738150a2fbeee97b2e38e4",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/102313a26d387829bf738150a2fbeee97b2e38e4/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "06d74dc6a3fe03a0ab19d256b705e59d48e7537f",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/06d74dc6a3fe03a0ab19d256b705e59d48e7537f",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/06d74dc6a3fe03a0ab19d256b705e59d48e7537f"
+        }
+      ]
+    },
+    {
+      "sha": "06d74dc6a3fe03a0ab19d256b705e59d48e7537f",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6MDZkNzRkYzZhM2ZlMDNhMGFiMTlkMjU2YjcwNWU1OWQ0OGU3NTM3Zg==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-02-01T04:00:25Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-02-01T04:00:32Z"
+        },
+        "message": "add multiplier for more evident plotting",
+        "tree": {
+          "sha": "a6f76e64e537d3dfb8f1359a0582a2d5efad020a",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/a6f76e64e537d3dfb8f1359a0582a2d5efad020a"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/06d74dc6a3fe03a0ab19d256b705e59d48e7537f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/06d74dc6a3fe03a0ab19d256b705e59d48e7537f",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/06d74dc6a3fe03a0ab19d256b705e59d48e7537f",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/06d74dc6a3fe03a0ab19d256b705e59d48e7537f/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "8d321a33c4901cea98bbd09248279cd681cfd5c3",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/8d321a33c4901cea98bbd09248279cd681cfd5c3",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/8d321a33c4901cea98bbd09248279cd681cfd5c3"
+        }
+      ]
+    },
+    {
+      "sha": "8d321a33c4901cea98bbd09248279cd681cfd5c3",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6OGQzMjFhMzNjNDkwMWNlYTk4YmJkMDkyNDgyNzljZDY4MWNmZDVjMw==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-01-31T17:36:57Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-01-31T17:36:57Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "036706eb55a844211be4355cdb2cc82273c1eca0",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/036706eb55a844211be4355cdb2cc82273c1eca0"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/8d321a33c4901cea98bbd09248279cd681cfd5c3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/8d321a33c4901cea98bbd09248279cd681cfd5c3",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/8d321a33c4901cea98bbd09248279cd681cfd5c3",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/8d321a33c4901cea98bbd09248279cd681cfd5c3/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "084707deae434a103dd59854e5ab77db16949946",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/084707deae434a103dd59854e5ab77db16949946",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/084707deae434a103dd59854e5ab77db16949946"
+        }
+      ]
+    },
+    {
+      "sha": "084707deae434a103dd59854e5ab77db16949946",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6MDg0NzA3ZGVhZTQzNGExMDNkZDU5ODU0ZTVhYjc3ZGIxNjk0OTk0Ng==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-01-31T07:58:41Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2018-01-31T08:11:18Z"
+        },
+        "message": "fix the bug with unused inputs_with_embed + add data file link into README.",
+        "tree": {
+          "sha": "bfca930457bf9afd9fafb0c9f3b8fe4fc2ecb4cf",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/bfca930457bf9afd9fafb0c9f3b8fe4fc2ecb4cf"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/084707deae434a103dd59854e5ab77db16949946",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/084707deae434a103dd59854e5ab77db16949946",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/084707deae434a103dd59854e5ab77db16949946",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/084707deae434a103dd59854e5ab77db16949946/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "aa03e93fb0cf55990c2fb64d52902bb98186eed5",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/aa03e93fb0cf55990c2fb64d52902bb98186eed5",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/aa03e93fb0cf55990c2fb64d52902bb98186eed5"
+        }
+      ]
+    },
+    {
+      "sha": "aa03e93fb0cf55990c2fb64d52902bb98186eed5",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6YWEwM2U5M2ZiMGNmNTU5OTBjMmZiNjRkNTI5MDJiYjk4MTg2ZWVkNQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-11-30T22:12:16Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-11-30T22:12:16Z"
+        },
+        "message": "change the default input_size to 1",
+        "tree": {
+          "sha": "21fdf2e1d0657b15267fd23a8885824fd26c62fc",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/21fdf2e1d0657b15267fd23a8885824fd26c62fc"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/aa03e93fb0cf55990c2fb64d52902bb98186eed5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/aa03e93fb0cf55990c2fb64d52902bb98186eed5",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/aa03e93fb0cf55990c2fb64d52902bb98186eed5",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/aa03e93fb0cf55990c2fb64d52902bb98186eed5/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "6382ae099e5e8a6ba0f7bf45d3fc134b71213268",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6382ae099e5e8a6ba0f7bf45d3fc134b71213268",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/6382ae099e5e8a6ba0f7bf45d3fc134b71213268"
+        }
+      ]
+    },
+    {
+      "sha": "6382ae099e5e8a6ba0f7bf45d3fc134b71213268",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NjM4MmFlMDk5ZTVlOGE2YmEwZjdiZjQ1ZDNmYzEzNGI3MTIxMzI2OA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-11-29T21:11:01Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-11-29T21:11:01Z"
+        },
+        "message": "update the link in README",
+        "tree": {
+          "sha": "e58713cbd9e795f997a24eca6dd749d91bda278b",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/e58713cbd9e795f997a24eca6dd749d91bda278b"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/6382ae099e5e8a6ba0f7bf45d3fc134b71213268",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6382ae099e5e8a6ba0f7bf45d3fc134b71213268",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/6382ae099e5e8a6ba0f7bf45d3fc134b71213268",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6382ae099e5e8a6ba0f7bf45d3fc134b71213268/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf"
+        }
+      ]
+    },
+    {
+      "sha": "2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6MjAxOWJlOWRkMGJmODJkODc5YjdjN2FlZDRmZTEwMGM4YTVkMjJjZg==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-19T02:13:04Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-19T02:13:04Z"
+        },
+        "message": "update README.md",
+        "tree": {
+          "sha": "462b006fa72e261ff399bff8acf54c201b896eed",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/462b006fa72e261ff399bff8acf54c201b896eed"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/2019be9dd0bf82d879b7c7aed4fe100c8a5d22cf/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "972806363f4827aa568780186aa2014b9248bb88",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/972806363f4827aa568780186aa2014b9248bb88",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/972806363f4827aa568780186aa2014b9248bb88"
+        }
+      ]
+    },
+    {
+      "sha": "972806363f4827aa568780186aa2014b9248bb88",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6OTcyODA2MzYzZjQ4MjdhYTU2ODc4MDE4NmFhMjAxNGI5MjQ4YmI4OA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-19T00:55:20Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-19T00:55:20Z"
+        },
+        "message": "update README.md",
+        "tree": {
+          "sha": "6d8964b4c9833076719b3416683b00dc178ae77d",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/6d8964b4c9833076719b3416683b00dc178ae77d"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/972806363f4827aa568780186aa2014b9248bb88",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/972806363f4827aa568780186aa2014b9248bb88",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/972806363f4827aa568780186aa2014b9248bb88",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/972806363f4827aa568780186aa2014b9248bb88/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "df78668c950aece4a645a747c7a536eeb38dcdc3",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/df78668c950aece4a645a747c7a536eeb38dcdc3",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/df78668c950aece4a645a747c7a536eeb38dcdc3"
+        }
+      ]
+    },
+    {
+      "sha": "df78668c950aece4a645a747c7a536eeb38dcdc3",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6ZGY3ODY2OGM5NTBhZWNlNGE2NDVhNzQ3YzdhNTM2ZWViMzhkY2RjMw==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-19T00:54:25Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-19T00:54:25Z"
+        },
+        "message": "more updates",
+        "tree": {
+          "sha": "298616e136acc836d0f28abe1f4eab6b81766f50",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/298616e136acc836d0f28abe1f4eab6b81766f50"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/df78668c950aece4a645a747c7a536eeb38dcdc3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/df78668c950aece4a645a747c7a536eeb38dcdc3",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/df78668c950aece4a645a747c7a536eeb38dcdc3",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/df78668c950aece4a645a747c7a536eeb38dcdc3/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "b0d15bc33eb3278e6f310bc139753170146eeed3",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b0d15bc33eb3278e6f310bc139753170146eeed3",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/b0d15bc33eb3278e6f310bc139753170146eeed3"
+        }
+      ]
+    },
+    {
+      "sha": "b0d15bc33eb3278e6f310bc139753170146eeed3",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6YjBkMTViYzMzZWIzMjc4ZTZmMzEwYmMxMzk3NTMxNzAxNDZlZWVkMw==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-18T21:38:45Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-18T21:39:21Z"
+        },
+        "message": "update README.md",
+        "tree": {
+          "sha": "cc474e26789b93028f0d4ba036b159a352559936",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/cc474e26789b93028f0d4ba036b159a352559936"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/b0d15bc33eb3278e6f310bc139753170146eeed3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b0d15bc33eb3278e6f310bc139753170146eeed3",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/b0d15bc33eb3278e6f310bc139753170146eeed3",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b0d15bc33eb3278e6f310bc139753170146eeed3/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "57b0b85f7e8d66351a601cb32446cf2216e9b479",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/57b0b85f7e8d66351a601cb32446cf2216e9b479",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/57b0b85f7e8d66351a601cb32446cf2216e9b479"
+        }
+      ]
+    },
+    {
+      "sha": "57b0b85f7e8d66351a601cb32446cf2216e9b479",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NTdiMGI4NWY3ZThkNjYzNTFhNjAxY2IzMjQ0NmNmMjIxNmU5YjQ3OQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-18T21:28:41Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-10-18T21:28:41Z"
+        },
+        "message": "bugfix in data_fetcher.py",
+        "tree": {
+          "sha": "8de0c0fe97d6d7315fd1f07f2ca49bee29f4852c",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/8de0c0fe97d6d7315fd1f07f2ca49bee29f4852c"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/57b0b85f7e8d66351a601cb32446cf2216e9b479",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/57b0b85f7e8d66351a601cb32446cf2216e9b479",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/57b0b85f7e8d66351a601cb32446cf2216e9b479",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/57b0b85f7e8d66351a601cb32446cf2216e9b479/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8"
+        }
+      ]
+    },
+    {
+      "sha": "fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6ZmMyNGE4MmQ2ZTdhYjBkNjYzMTM2YjhmZGFkYmY0OGY5NjliMmRkOA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:35:06Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:40:17Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "68cd5ec67ec0821763dd8ac4da85c9cd3c508dcc",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/68cd5ec67ec0821763dd8ac4da85c9cd3c508dcc"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/fc24a82d6e7ab0d663136b8fdadbf48f969b2dd8/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a55313f0505d2dec0d85f1b99bbf02f3638ebb28",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/a55313f0505d2dec0d85f1b99bbf02f3638ebb28",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/a55313f0505d2dec0d85f1b99bbf02f3638ebb28"
+        }
+      ]
+    },
+    {
+      "sha": "a55313f0505d2dec0d85f1b99bbf02f3638ebb28",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6YTU1MzEzZjA1MDVkMmRlYzBkODVmMWI5OWJiZjAyZjM2MzhlYmIyOA==",
+      "commit": {
+        "author": {
+          "name": "Lilian",
+          "email": "lilian.wengweng@gmail.com",
+          "date": "2017-09-14T04:31:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2017-09-14T04:31:29Z"
+        },
+        "message": "Merge pull request #1 from lilianweng/model-wrapper\n\nModel wrapper",
+        "tree": {
+          "sha": "aa00f8c9295ee2562f8ddc55dd0caee72b3c25aa",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/aa00f8c9295ee2562f8ddc55dd0caee72b3c25aa"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/a55313f0505d2dec0d85f1b99bbf02f3638ebb28",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/a55313f0505d2dec0d85f1b99bbf02f3638ebb28",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/a55313f0505d2dec0d85f1b99bbf02f3638ebb28",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/a55313f0505d2dec0d85f1b99bbf02f3638ebb28/comments",
+      "author": {
+        "login": "lilianweng",
+        "id": 901179,
+        "node_id": "MDQ6VXNlcjkwMTE3OQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/901179?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/lilianweng",
+        "html_url": "https://github.com/lilianweng",
+        "followers_url": "https://api.github.com/users/lilianweng/followers",
+        "following_url": "https://api.github.com/users/lilianweng/following{/other_user}",
+        "gists_url": "https://api.github.com/users/lilianweng/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/lilianweng/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/lilianweng/subscriptions",
+        "organizations_url": "https://api.github.com/users/lilianweng/orgs",
+        "repos_url": "https://api.github.com/users/lilianweng/repos",
+        "events_url": "https://api.github.com/users/lilianweng/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/lilianweng/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "639b441e8cb8bd3c299964794202f2020d684e4e",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/639b441e8cb8bd3c299964794202f2020d684e4e",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/639b441e8cb8bd3c299964794202f2020d684e4e"
+        },
+        {
+          "sha": "a0bc10d441b707d69225deba48d9b03d3fa6d4ac",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/a0bc10d441b707d69225deba48d9b03d3fa6d4ac",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/a0bc10d441b707d69225deba48d9b03d3fa6d4ac"
+        }
+      ]
+    },
+    {
+      "sha": "a0bc10d441b707d69225deba48d9b03d3fa6d4ac",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6YTBiYzEwZDQ0MWI3MDdkNjkyMjVkZWJhNDhkOWIwM2QzZmE2ZDRhYw==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:27:12Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:30:51Z"
+        },
+        "message": "move config",
+        "tree": {
+          "sha": "aa00f8c9295ee2562f8ddc55dd0caee72b3c25aa",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/aa00f8c9295ee2562f8ddc55dd0caee72b3c25aa"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/a0bc10d441b707d69225deba48d9b03d3fa6d4ac",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/a0bc10d441b707d69225deba48d9b03d3fa6d4ac",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/a0bc10d441b707d69225deba48d9b03d3fa6d4ac",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/a0bc10d441b707d69225deba48d9b03d3fa6d4ac/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "cf2dae11c90825598c5ef9c18846f4f6456ba9d1",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/cf2dae11c90825598c5ef9c18846f4f6456ba9d1",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/cf2dae11c90825598c5ef9c18846f4f6456ba9d1"
+        }
+      ]
+    },
+    {
+      "sha": "cf2dae11c90825598c5ef9c18846f4f6456ba9d1",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6Y2YyZGFlMTFjOTA4MjU1OThjNWVmOWMxODg0NmY0ZjY0NTZiYTlkMQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-13T20:15:00Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:23:16Z"
+        },
+        "message": "use rms prop",
+        "tree": {
+          "sha": "f1268e5f1ee9f6f65f743acf51f73011661dc74f",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/f1268e5f1ee9f6f65f743acf51f73011661dc74f"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/cf2dae11c90825598c5ef9c18846f4f6456ba9d1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/cf2dae11c90825598c5ef9c18846f4f6456ba9d1",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/cf2dae11c90825598c5ef9c18846f4f6456ba9d1",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/cf2dae11c90825598c5ef9c18846f4f6456ba9d1/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "6c91f400fda2a070af86af1841514713bea3625e",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6c91f400fda2a070af86af1841514713bea3625e",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/6c91f400fda2a070af86af1841514713bea3625e"
+        }
+      ]
+    },
+    {
+      "sha": "6c91f400fda2a070af86af1841514713bea3625e",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NmM5MWY0MDBmZGEyYTA3MGFmODZhZjE4NDE1MTQ3MTNiZWEzNjI1ZQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-08T23:16:44Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:23:16Z"
+        },
+        "message": "restructure a bit",
+        "tree": {
+          "sha": "c47fc01b69981f9ffc457532b602e07681e0fee7",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/c47fc01b69981f9ffc457532b602e07681e0fee7"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/6c91f400fda2a070af86af1841514713bea3625e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6c91f400fda2a070af86af1841514713bea3625e",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/6c91f400fda2a070af86af1841514713bea3625e",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6c91f400fda2a070af86af1841514713bea3625e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "6d5020f5aa44721abead85e8bcc4f3ea444b86fa",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6d5020f5aa44721abead85e8bcc4f3ea444b86fa",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/6d5020f5aa44721abead85e8bcc4f3ea444b86fa"
+        }
+      ]
+    },
+    {
+      "sha": "6d5020f5aa44721abead85e8bcc4f3ea444b86fa",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NmQ1MDIwZjVhYTQ0NzIxYWJlYWQ4NWU4YmNjNGYzZWE0NDRiODZmYQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-08-29T04:39:10Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:23:16Z"
+        },
+        "message": "add embedding",
+        "tree": {
+          "sha": "8c8f1fc3950acf6a972e49bbc63a8687daf8f23c",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/8c8f1fc3950acf6a972e49bbc63a8687daf8f23c"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/6d5020f5aa44721abead85e8bcc4f3ea444b86fa",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6d5020f5aa44721abead85e8bcc4f3ea444b86fa",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/6d5020f5aa44721abead85e8bcc4f3ea444b86fa",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6d5020f5aa44721abead85e8bcc4f3ea444b86fa/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "f7820a48ea6852252d5d8a03b911151e089b2889",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/f7820a48ea6852252d5d8a03b911151e089b2889",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/f7820a48ea6852252d5d8a03b911151e089b2889"
+        }
+      ]
+    },
+    {
+      "sha": "f7820a48ea6852252d5d8a03b911151e089b2889",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6Zjc4MjBhNDhlYTY4NTIyNTJkNWQ4YTAzYjkxMTE1MWUwODliMjg4OQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-08-28T06:57:22Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:23:16Z"
+        },
+        "message": "more on LstmRnn model",
+        "tree": {
+          "sha": "57176e14fe561fe755406566968f93117ee20903",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/57176e14fe561fe755406566968f93117ee20903"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/f7820a48ea6852252d5d8a03b911151e089b2889",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/f7820a48ea6852252d5d8a03b911151e089b2889",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/f7820a48ea6852252d5d8a03b911151e089b2889",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/f7820a48ea6852252d5d8a03b911151e089b2889/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "6226c12f6f859115bbabbd42f9511f5840cd7a2e",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6226c12f6f859115bbabbd42f9511f5840cd7a2e",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/6226c12f6f859115bbabbd42f9511f5840cd7a2e"
+        }
+      ]
+    },
+    {
+      "sha": "6226c12f6f859115bbabbd42f9511f5840cd7a2e",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NjIyNmMxMmY2Zjg1OTExNWJiYWJiZDQyZjk1MTFmNTg0MGNkN2EyZQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-08-27T23:37:04Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-14T04:23:16Z"
+        },
+        "message": "wrap the model in a class",
+        "tree": {
+          "sha": "a2043cf7f6b5a5c34b0895d58de334ed09aa8a9f",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/a2043cf7f6b5a5c34b0895d58de334ed09aa8a9f"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/6226c12f6f859115bbabbd42f9511f5840cd7a2e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6226c12f6f859115bbabbd42f9511f5840cd7a2e",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/6226c12f6f859115bbabbd42f9511f5840cd7a2e",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/6226c12f6f859115bbabbd42f9511f5840cd7a2e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "639b441e8cb8bd3c299964794202f2020d684e4e",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/639b441e8cb8bd3c299964794202f2020d684e4e",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/639b441e8cb8bd3c299964794202f2020d684e4e"
+        }
+      ]
+    },
+    {
+      "sha": "639b441e8cb8bd3c299964794202f2020d684e4e",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NjM5YjQ0MWU4Y2I4YmQzYzI5OTk2NDc5NDIwMmYyMDIwZDY4NGU0ZQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-07T18:23:19Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-09-07T18:23:19Z"
+        },
+        "message": "correct data normalization",
+        "tree": {
+          "sha": "b5e26665cc4bb44484619a07d5ca796371257d0d",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/b5e26665cc4bb44484619a07d5ca796371257d0d"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/639b441e8cb8bd3c299964794202f2020d684e4e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/639b441e8cb8bd3c299964794202f2020d684e4e",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/639b441e8cb8bd3c299964794202f2020d684e4e",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/639b441e8cb8bd3c299964794202f2020d684e4e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "f3bacf2a46ccd9a14404da7822908e563e2fdc34",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/f3bacf2a46ccd9a14404da7822908e563e2fdc34",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/f3bacf2a46ccd9a14404da7822908e563e2fdc34"
+        }
+      ]
+    },
+    {
+      "sha": "f3bacf2a46ccd9a14404da7822908e563e2fdc34",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6ZjNiYWNmMmE0NmNjZDlhMTQ0MDRkYTc4MjI5MDhlNTYzZTJmZGMzNA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-21T03:29:22Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-21T03:47:24Z"
+        },
+        "message": "Add data fetcher",
+        "tree": {
+          "sha": "e709d6d647f9caf4dc2074fa780b263cee729cf7",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/e709d6d647f9caf4dc2074fa780b263cee729cf7"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/f3bacf2a46ccd9a14404da7822908e563e2fdc34",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/f3bacf2a46ccd9a14404da7822908e563e2fdc34",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/f3bacf2a46ccd9a14404da7822908e563e2fdc34",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/f3bacf2a46ccd9a14404da7822908e563e2fdc34/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "20c6e8307f6a66269fb23da077e188286e7c8df6",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/20c6e8307f6a66269fb23da077e188286e7c8df6",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/20c6e8307f6a66269fb23da077e188286e7c8df6"
+        }
+      ]
+    },
+    {
+      "sha": "20c6e8307f6a66269fb23da077e188286e7c8df6",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6MjBjNmU4MzA3ZjZhNjYyNjlmYjIzZGEwNzdlMTg4Mjg2ZTdjOGRmNg==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-14T02:32:35Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-14T02:32:35Z"
+        },
+        "message": "update .gitignore",
+        "tree": {
+          "sha": "f68ad3759b241001bbf8631e6a5cd0c6d4cc5661",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/f68ad3759b241001bbf8631e6a5cd0c6d4cc5661"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/20c6e8307f6a66269fb23da077e188286e7c8df6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/20c6e8307f6a66269fb23da077e188286e7c8df6",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/20c6e8307f6a66269fb23da077e188286e7c8df6",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/20c6e8307f6a66269fb23da077e188286e7c8df6/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "767c975fa82ae0c88b90d1916f94493635e51691",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/767c975fa82ae0c88b90d1916f94493635e51691",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/767c975fa82ae0c88b90d1916f94493635e51691"
+        },
+        {
+          "sha": "b75cd90703060da6118597133a1bf38fa64df5d7",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b75cd90703060da6118597133a1bf38fa64df5d7",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/b75cd90703060da6118597133a1bf38fa64df5d7"
+        }
+      ]
+    },
+    {
+      "sha": "b75cd90703060da6118597133a1bf38fa64df5d7",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6Yjc1Y2Q5MDcwMzA2MGRhNjExODU5NzEzM2ExYmYzOGZhNjRkZjVkNw==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-13T06:57:15Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-14T02:13:10Z"
+        },
+        "message": "update a few comments + README",
+        "tree": {
+          "sha": "9526d8e07d71b911b42bede9a94169348bd00324",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/9526d8e07d71b911b42bede9a94169348bd00324"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/b75cd90703060da6118597133a1bf38fa64df5d7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b75cd90703060da6118597133a1bf38fa64df5d7",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/b75cd90703060da6118597133a1bf38fa64df5d7",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b75cd90703060da6118597133a1bf38fa64df5d7/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "176e51282757ffbc969de25df37fa5da1583b56c",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/176e51282757ffbc969de25df37fa5da1583b56c",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/176e51282757ffbc969de25df37fa5da1583b56c"
+        }
+      ]
+    },
+    {
+      "sha": "767c975fa82ae0c88b90d1916f94493635e51691",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6NzY3Yzk3NWZhODJhZTBjODhiOTBkMTkxNmY5NDQ5MzYzNWU1MTY5MQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-13T06:57:15Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-13T07:00:19Z"
+        },
+        "message": "update a few comments + README",
+        "tree": {
+          "sha": "c636760bb5d4bdc50451bc4f8c4c9904ee68aaad",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/c636760bb5d4bdc50451bc4f8c4c9904ee68aaad"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/767c975fa82ae0c88b90d1916f94493635e51691",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/767c975fa82ae0c88b90d1916f94493635e51691",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/767c975fa82ae0c88b90d1916f94493635e51691",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/767c975fa82ae0c88b90d1916f94493635e51691/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "176e51282757ffbc969de25df37fa5da1583b56c",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/176e51282757ffbc969de25df37fa5da1583b56c",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/176e51282757ffbc969de25df37fa5da1583b56c"
+        }
+      ]
+    },
+    {
+      "sha": "176e51282757ffbc969de25df37fa5da1583b56c",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6MTc2ZTUxMjgyNzU3ZmZiYzk2OWRlMjVkZjM3ZmE1ZGExNTgzYjU2Yw==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-12T06:04:30Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-12T06:04:30Z"
+        },
+        "message": "more updates",
+        "tree": {
+          "sha": "163e65a741033a98866f049c59cca8a178f4314a",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/163e65a741033a98866f049c59cca8a178f4314a"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/176e51282757ffbc969de25df37fa5da1583b56c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/176e51282757ffbc969de25df37fa5da1583b56c",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/176e51282757ffbc969de25df37fa5da1583b56c",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/176e51282757ffbc969de25df37fa5da1583b56c/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "b9ea2da98d5dc8998e1f47997437060ed44fdded",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b9ea2da98d5dc8998e1f47997437060ed44fdded",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/b9ea2da98d5dc8998e1f47997437060ed44fdded"
+        }
+      ]
+    },
+    {
+      "sha": "b9ea2da98d5dc8998e1f47997437060ed44fdded",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6YjllYTJkYTk4ZDVkYzg5OThlMWY0Nzk5NzQzNzA2MGVkNDRmZGRlZA==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-11T08:12:12Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-11T08:16:41Z"
+        },
+        "message": "wip",
+        "tree": {
+          "sha": "b233f6d36d0e29b8efbb883aa4095fa30d15a044",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/b233f6d36d0e29b8efbb883aa4095fa30d15a044"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/b9ea2da98d5dc8998e1f47997437060ed44fdded",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b9ea2da98d5dc8998e1f47997437060ed44fdded",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/b9ea2da98d5dc8998e1f47997437060ed44fdded",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/b9ea2da98d5dc8998e1f47997437060ed44fdded/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29",
+          "html_url": "https://github.com/lilianweng/stock-rnn/commit/c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29"
+        }
+      ]
+    },
+    {
+      "sha": "c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29",
+      "node_id": "MDY6Q29tbWl0OTY4NTM4NTU6YzkzMWRkMWE1YzEyNDJlNWUyODE1ZWE2YTFkNjBjZThlYTYwNWEyOQ==",
+      "commit": {
+        "author": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-11T05:26:07Z"
+        },
+        "committer": {
+          "name": "Lilian Weng",
+          "email": "lilian.weng@affirm.com",
+          "date": "2017-07-11T05:26:38Z"
+        },
+        "message": "first commit",
+        "tree": {
+          "sha": "fdbb92ec444dabdb80d13914aceb94cb6eab2d66",
+          "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/trees/fdbb92ec444dabdb80d13914aceb94cb6eab2d66"
+        },
+        "url": "https://api.github.com/repos/lilianweng/stock-rnn/git/commits/c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29",
+      "html_url": "https://github.com/lilianweng/stock-rnn/commit/c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29",
+      "comments_url": "https://api.github.com/repos/lilianweng/stock-rnn/commits/c931dd1a5c1242e5e2815ea6a1d60ce8ea605a29/comments",
+      "author": null,
+      "committer": null,
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "lilianweng",
+      "id": 901179,
+      "node_id": "MDQ6VXNlcjkwMTE3OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/901179?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lilianweng",
+      "html_url": "https://github.com/lilianweng",
+      "followers_url": "https://api.github.com/users/lilianweng/followers",
+      "following_url": "https://api.github.com/users/lilianweng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lilianweng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lilianweng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lilianweng/subscriptions",
+      "organizations_url": "https://api.github.com/users/lilianweng/orgs",
+      "repos_url": "https://api.github.com/users/lilianweng/repos",
+      "events_url": "https://api.github.com/users/lilianweng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lilianweng/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 31679
+  },
+  "readme_html": "<h3 id=\"user-content-predict-stock-market-prices-using-rnn\">Predict stock market prices using RNN</h3>\n<p>Check my blog post \"Predict Stock Prices Using RNN\": <a href=\"https://lilianweng.github.io/lil-log/2017/07/08/predict-stock-prices-using-RNN-part-1.html\">Part 1</a> and <a href=\"https://lilianweng.github.io/lil-log/2017/07/22/predict-stock-prices-using-RNN-part-2.html\">Part 2</a> for the tutorial associated.</p>\n<p>One thing I would like to emphasize that because my motivation is more on demonstrating how to build and train an RNN model in Tensorflow and less on solve the stock prediction problem, I didn't try too hard on improving the prediction outcomes. You are more than welcome to take this repo as a reference point and add more stock prediction related ideas to improve it. Enjoy.</p>\n<ol>\n<li>Make sure <code>tensorflow</code> has been installed.</li>\n<li>First download the full S&#x26;P 500 data from <a href=\"https://finance.yahoo.com/quote/%5EGSPC?p=%5EGSPC\">Yahoo! Finance ^GSPC</a> (click the \"Historical Data\" tab and select the max time period). And save the .csv file to <code>data/SP500.csv</code>.</li>\n<li>Run <code>python data_fetcher.py</code> to download the prices of individual stocks in S &#x26; P 500, each saved to <code>data/{{stock_abbreviation}}.csv</code>.\n(NOTE: Google Finance API returns the prices for 4000 days maximum. If you are curious about the data in even early times, try modify <code>data_fetcher.py</code> code to send multiple queries for one stock. Here is the data archive (<a href=\"https://drive.google.com/open?id=1QKVkiwgCNJsdQMEsfoi6KpqoPgc4O6DD\">stock-data-lilianweng.tar.gz</a>) of stock prices I crawled up to Jul, 2017. Please untar this file to replace the \"data\" folder in the repo for test runs.)</li>\n<li>Run <code>python main.py --help</code> to check the available command line args.</li>\n<li>Run <code>python main.py</code> to train the model.</li>\n</ol>\n<p>For examples,</p>\n<ul>\n<li>Train a model only on SP500.csv; no embedding</li>\n</ul>\n<pre><code class=\"language-bash\">python main.py --stock_symbol=SP500 --train --input_size=1 --lstm_size=128 --max_epoch=50\n</code></pre>\n<ul>\n<li>Train a model on 100 stocks; with embedding of size 8</li>\n</ul>\n<pre><code class=\"language-bash\">python main.py --stock_count=100 --train --input_size=1 --lstm_size=128 --max_epoch=50 --embed_size=8\n</code></pre>\n<ul>\n<li>Start your Tensorboard</li>\n</ul>\n<pre><code class=\"language-bash\">cd stock-rnn\nmkdir logs\ntensorboard --logdir ./logs --port 1234 --debug\n</code></pre>\n<p>My python environment:\nPython version == 2.7</p>\n<pre><code>BeautifulSoup==3.2.1\nnumpy==1.13.1\npandas==0.16.2\nscikit-learn==0.16.1\nscipy==0.19.1\ntensorflow==1.2.1\nurllib3==1.8\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:19:32.223Z"
+}

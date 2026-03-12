@@ -1,0 +1,1875 @@
+{
+  "id": 815135266,
+  "node_id": "R_kgDOMJX6Ig",
+  "name": "InstructRAG",
+  "full_name": "weizhepei/InstructRAG",
+  "private": false,
+  "owner": {
+    "login": "weizhepei",
+    "id": 37549288,
+    "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/weizhepei",
+    "html_url": "https://github.com/weizhepei",
+    "followers_url": "https://api.github.com/users/weizhepei/followers",
+    "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+    "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+    "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+    "repos_url": "https://api.github.com/users/weizhepei/repos",
+    "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/weizhepei/InstructRAG",
+  "description": "[ICLR 2025] InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales",
+  "fork": false,
+  "url": "https://api.github.com/repos/weizhepei/InstructRAG",
+  "forks_url": "https://api.github.com/repos/weizhepei/InstructRAG/forks",
+  "keys_url": "https://api.github.com/repos/weizhepei/InstructRAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/weizhepei/InstructRAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/weizhepei/InstructRAG/teams",
+  "hooks_url": "https://api.github.com/repos/weizhepei/InstructRAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/weizhepei/InstructRAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/weizhepei/InstructRAG/events",
+  "assignees_url": "https://api.github.com/repos/weizhepei/InstructRAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/weizhepei/InstructRAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/weizhepei/InstructRAG/tags",
+  "blobs_url": "https://api.github.com/repos/weizhepei/InstructRAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/weizhepei/InstructRAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/weizhepei/InstructRAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/weizhepei/InstructRAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/weizhepei/InstructRAG/languages",
+  "stargazers_url": "https://api.github.com/repos/weizhepei/InstructRAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/weizhepei/InstructRAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/weizhepei/InstructRAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/weizhepei/InstructRAG/subscription",
+  "commits_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/weizhepei/InstructRAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/weizhepei/InstructRAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/weizhepei/InstructRAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/weizhepei/InstructRAG/merges",
+  "archive_url": "https://api.github.com/repos/weizhepei/InstructRAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/weizhepei/InstructRAG/downloads",
+  "issues_url": "https://api.github.com/repos/weizhepei/InstructRAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/weizhepei/InstructRAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/weizhepei/InstructRAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/weizhepei/InstructRAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/weizhepei/InstructRAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/weizhepei/InstructRAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/weizhepei/InstructRAG/deployments",
+  "created_at": "2024-06-14T12:31:31Z",
+  "updated_at": "2026-03-10T06:52:44Z",
+  "pushed_at": "2025-02-06T09:37:51Z",
+  "git_url": "git://github.com/weizhepei/InstructRAG.git",
+  "ssh_url": "git@github.com:weizhepei/InstructRAG.git",
+  "clone_url": "https://github.com/weizhepei/InstructRAG.git",
+  "svn_url": "https://github.com/weizhepei/InstructRAG",
+  "homepage": "https://weizhepei.com/instruct-rag-page",
+  "size": 40,
+  "stargazers_count": 138,
+  "watchers_count": 138,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 9,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 1,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "large-language-models",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 9,
+  "open_issues": 1,
+  "watchers": 138,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "44d5d60786f5ac89c101d36b2dff8cb6a64d7af4",
+      "node_id": "C_kwDOMJX6ItoAKDQ0ZDVkNjA3ODZmNWFjODljMTAxZDM2YjJkZmY4Y2I2YTY0ZDdhZjQ",
+      "commit": {
+        "author": {
+          "name": "Zhepei Wei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2025-02-06T09:37:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-02-06T09:37:51Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "098913ce79d53bcd480d02f5b50338dbb47cb12b",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/098913ce79d53bcd480d02f5b50338dbb47cb12b"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/44d5d60786f5ac89c101d36b2dff8cb6a64d7af4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnpILvCRC1aQ7uu5UhlAAA770QAHfhq33wubXqMQnl7w7OK3E0\nNBRIiP+b1WhpY025p+5XJh8ndDP0bCgtJM5MFsB4aGPOTpnfPTAI73RFu+hT2DPC\niUT9PkP8oc4GQKlFdSFx6veKAagBh1s/FahE5qAvxiULDHmP0+fxAkz5m0oxRbTL\nTlu79P6crn6A43iTVLxKa0UCrWmeHUoveJE+ThEP7CXn50iTV2xmWxzUU7tHsslG\nr/uBjcKZEFm395UHwjYqfEE1X+A7Pil0OqnWA4fHEM2HVhIBWAStaVXtGPKajRBb\nWcZ7HG2XNCOTIushHf2rFR/xayXfCtEKqDpaBRVi1V/NcqXH80gIWBoRlusUdfK6\nj7UC6TNCpouw+cJer2dHx77bbN+Egj4Wv2NoISt2JCdyUfZcPfzATrwUqqv+mToU\n7R9ohWg72x4VX7jaTNY+MoAF6RdR2llrZXVSbyZ0IRsW0a0v2KP4G5mAbEgbrI7T\nCmp2Tcthc8qyjpIQE4IwpK/Cel19+LD9BoaScITQpiZIBqNLzG7gWBsUvfi0fr1w\n2aiOtHeaIy94sJnOgwieJzTiPkMkq3omVon6bE06xVQ3rpBqIOdnRetICpJmI7pQ\n8TrGZ/mdrxqL4DuFCqffVue4c8smy80CqO5JSg1Ys9HlTIRtyC/3vpB/ZgYmyQ0h\nnMCOMvEcxj2IaPijL0/Y\n=Ikil\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 098913ce79d53bcd480d02f5b50338dbb47cb12b\nparent 4fce8afc130e4c7f084c5f00db1af41a5903c4de\nauthor Zhepei Wei <zhepei.wei@gmail.com> 1738834671 -0800\ncommitter GitHub <noreply@github.com> 1738834671 -0800\n\nUpdate README.md",
+          "verified_at": "2025-02-06T09:42:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/44d5d60786f5ac89c101d36b2dff8cb6a64d7af4",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/44d5d60786f5ac89c101d36b2dff8cb6a64d7af4",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/44d5d60786f5ac89c101d36b2dff8cb6a64d7af4/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4fce8afc130e4c7f084c5f00db1af41a5903c4de",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/4fce8afc130e4c7f084c5f00db1af41a5903c4de",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/4fce8afc130e4c7f084c5f00db1af41a5903c4de"
+        }
+      ]
+    },
+    {
+      "sha": "4fce8afc130e4c7f084c5f00db1af41a5903c4de",
+      "node_id": "C_kwDOMJX6ItoAKDRmY2U4YWZjMTMwZTRjN2YwODRjNWYwMGRiMWFmNDFhNTkwM2M0ZGU",
+      "commit": {
+        "author": {
+          "name": "Zhepei Wei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-11-15T03:21:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-15T03:21:26Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "56ea8b7681fbbfd233a464e7589a18988da3d3c0",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/56ea8b7681fbbfd233a464e7589a18988da3d3c0"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/4fce8afc130e4c7f084c5f00db1af41a5903c4de",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnNr42CRC1aQ7uu5UhlAAAgHkQACMy4Ye27Khp/DDbiN+lJE1i\niud8QHDCl6KDSy1+I51qYf0xDMLwR9lyWWkp5WjuPx4OwuF51JfSSoao9IX2sTKs\nqnCWnvYjCrinhQv4oSK6IYAkk3Iyzt9GAbgoQAq2FdDp339Xh5qlVv9/u3w/qCL5\nqCYTYfmNI6EOOMceVVHrAuLoNwK8oOrvSRRtcJXl48UtOdimXUb0imk4EHTam3DA\nHKISVvPE9IW+LT4EnTIAqJSFqxvX0UZhYx0pSCeKo9Q0KppcPwrEPikwQR5M85fx\n4JFVt5+WOKus9GOaoQDzyjp8PaT2mpTzsiZBKEeT3pdznRjxh4ZTXNWo3JYgJHny\n+Bbc+CIVU7hRQ1hEEBCiX6tfy6e3QdNDuCTCd52WzSG/r8spQt0btfp/gFOauNC/\nSKcevx+fYxEBi37JFppEENFiLViQFSzejhHsGgf9vce4NHggFlYwUYIFGHvvQ0yq\na1xcLc8dA+uHWdPpCsVv3RicGoI3+x20vVHcMrWON1tKPHPU6jUOqUmJr/UR/4RK\ngnxMADecKfq0fYmHJB03dSi+tO0EXu+IyJfIxSUw8XsGa9YQJj5M9/gYJKpHslqg\n/MiFwP7aVBb1/3EHmCmYVEahoy3Jbc6jsG5JbCqxGyGCV9d0Ox89mGcp7hDYm+dK\nvbgAUr/t1MFAPNoLCZgd\n=DxEz\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 56ea8b7681fbbfd233a464e7589a18988da3d3c0\nparent cb893fecc5581bf9d3a3eb4e088179c0cab8c364\nauthor Zhepei Wei <zhepei.wei@gmail.com> 1731640886 -0500\ncommitter GitHub <noreply@github.com> 1731640886 -0500\n\nUpdate README.md",
+          "verified_at": "2024-11-15T03:26:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/4fce8afc130e4c7f084c5f00db1af41a5903c4de",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/4fce8afc130e4c7f084c5f00db1af41a5903c4de",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/4fce8afc130e4c7f084c5f00db1af41a5903c4de/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cb893fecc5581bf9d3a3eb4e088179c0cab8c364",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/cb893fecc5581bf9d3a3eb4e088179c0cab8c364",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/cb893fecc5581bf9d3a3eb4e088179c0cab8c364"
+        }
+      ]
+    },
+    {
+      "sha": "cb893fecc5581bf9d3a3eb4e088179c0cab8c364",
+      "node_id": "C_kwDOMJX6ItoAKGNiODkzZmVjYzU1ODFiZjlkM2EzZWI0ZTA4ODE3OWMwY2FiOGMzNjQ",
+      "commit": {
+        "author": {
+          "name": "Zhepei Wei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-10-18T06:35:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-18T06:35:51Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d64b8d92a19f8d3e366425c65b02cbf553601639",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/d64b8d92a19f8d3e366425c65b02cbf553601639"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/cb893fecc5581bf9d3a3eb4e088179c0cab8c364",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnEgHHCRC1aQ7uu5UhlAAASJUQACkxhq9VnPHmry/1LBuXcUvD\nuh703L/H7d5xGv7FkYE6Zpq3AeQRsh0gj0xbEoPQn3+GnC6FVVzIbCgeVvu8TKkt\npjzkLh25lEeRw+g+kNcTq3n1+3sX6DMbVSq/5lNh4lOZPHOkRZ5isQrAATN/qkN0\nADBYiKSdcfH1AkMwVYoVAcVPhYLrGFAdAqUTCVm8aD75P4LFEXPwk/8ujtSNdY49\nSlQFsjZM4+wKOeWtoOPP6CFo5YYnSyRIr62WEa7YPj+4y5u1kWVT/lHFZT1XK5UK\n0lvu91i6uusTgesg6SbiWncPxv9rwXy/S5s21BGRVdbACoErfRDYJa3Uohe6M6br\nAmJarvk9TJuf8QXyl4xyZ+OI5gVsW5T3tLetYVL/UL1WlgYPwKv+8phT6zP3MhB3\no8Wasn9ExDMTpg20dIDoUnp5jylG2zvyQtwf6seEQbtlqZ1/ILzC48VrtaJaFC82\nVrxP2akvTx58PMc+J8CDzdznNLyFZa5HWDAVlJWF1ElwfD4KjbPa8tlEeEdjQVK/\nIZQp03jdRsWQ3kZbRX1V0s3r4M95Ri1oeXQRk/wWu4aBOoF5U0ChjUCDxj1GoVBK\nwFkk4rMpd5YH8Fe8achVh2LMF6LPiym6N61lFsbh9C0GXZSQa75Ajtg6PkiQxgno\n6GhFoD2sFk628aiScF0f\n=pvEt\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d64b8d92a19f8d3e366425c65b02cbf553601639\nparent 6c4f9f89eec39076bd07934a0323105483f65888\nauthor Zhepei Wei <zhepei.wei@gmail.com> 1729233351 -0400\ncommitter GitHub <noreply@github.com> 1729233351 -0400\n\nUpdate README.md",
+          "verified_at": "2024-11-30T20:33:57Z"
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/cb893fecc5581bf9d3a3eb4e088179c0cab8c364",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/cb893fecc5581bf9d3a3eb4e088179c0cab8c364",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/cb893fecc5581bf9d3a3eb4e088179c0cab8c364/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6c4f9f89eec39076bd07934a0323105483f65888",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/6c4f9f89eec39076bd07934a0323105483f65888",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/6c4f9f89eec39076bd07934a0323105483f65888"
+        }
+      ]
+    },
+    {
+      "sha": "6c4f9f89eec39076bd07934a0323105483f65888",
+      "node_id": "C_kwDOMJX6ItoAKDZjNGY5Zjg5ZWVjMzkwNzZiZDA3OTM0YTAzMjMxMDU0ODNmNjU4ODg",
+      "commit": {
+        "author": {
+          "name": "Zhepei Wei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-10-18T06:20:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-18T06:20:48Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "23b44f643a102e40ba8b474e3441f81197b9cdb3",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/23b44f643a102e40ba8b474e3441f81197b9cdb3"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/6c4f9f89eec39076bd07934a0323105483f65888",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnEf5BCRC1aQ7uu5UhlAAAMvYQAKBa8ZUsvA984qUP/3th/kD8\nPWxmkV9pA4Ho6VPGdIWZwyTv1QPlWoNdAWn6kJjl7wG4aCUPJJ2vkI0AsMbvwgpo\naFDqUJFJtGdOWq36K/PrjQi5GcYmaXN2H129Z2J5hmwsy21KjBRDdFxsbpgpYUvO\nHLhz1VHIP1i90bJ9jBXKGIdoXjDg1gU2zQ7tfS2KJXcZ8rwhUJDUDjC7Qy9rJ9l0\n/L9EoqrHfkgkxBHWM9NzwnALW49LD6jGxZ7fUbk/yprwtnnz71KnjFIqoeGR+H2h\nVv+9cVGMBEcCE51QOrIZcZZ09ixXvYQlFIVjbo4DlktogLp2Nqtg7epLlj7CMqaG\nj6QxgGsrbCDmo4A+3jKbBE8k1r3SX0ukUE+axobAucIvrfqC1PRS6xFRUv8YapBD\nsCmje1AOf3SiyOmdOfrHVmewZxQuhAKMf3Z1eW/3ydaDMaqFNXZlBZ+rh8s73RUn\nBU+uCCDIqm2MydVev00CTjyvIlPPNaUPJ48UBnAj6/fE5O3a5Adj+VMjfwGSyEJv\n0H5N7jmLWEBTnraf4FTHFmI5ZBnoNHpFoy4cCL6xA1Sqe4yoA6E5MUeUoWQc5rzY\nf3+2xvljK4pg98ypkmObJy0DPyHGQZaTGPgGP6bs2NBKInz91KTf6HkdJQrJcfgT\nEMToK+0SLPq/ghEx1f/t\n=49T8\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 23b44f643a102e40ba8b474e3441f81197b9cdb3\nparent 658112099e5e94b5d2c37d90e65e04090a6da966\nauthor Zhepei Wei <zhepei.wei@gmail.com> 1729232448 -0400\ncommitter GitHub <noreply@github.com> 1729232448 -0400\n\nUpdate README.md",
+          "verified_at": "2024-12-23T03:24:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/6c4f9f89eec39076bd07934a0323105483f65888",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/6c4f9f89eec39076bd07934a0323105483f65888",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/6c4f9f89eec39076bd07934a0323105483f65888/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "658112099e5e94b5d2c37d90e65e04090a6da966",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/658112099e5e94b5d2c37d90e65e04090a6da966",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/658112099e5e94b5d2c37d90e65e04090a6da966"
+        }
+      ]
+    },
+    {
+      "sha": "658112099e5e94b5d2c37d90e65e04090a6da966",
+      "node_id": "C_kwDOMJX6ItoAKDY1ODExMjA5OWU1ZTk0YjVkMmMzN2Q5MGU2NWUwNDA5MGE2ZGE5NjY",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-27T21:54:13Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-27T21:54:13Z"
+        },
+        "message": "set cache_dir optional",
+        "tree": {
+          "sha": "299669d3d0997b8de3aa8b95cade5381293cde9e",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/299669d3d0997b8de3aa8b95cade5381293cde9e"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/658112099e5e94b5d2c37d90e65e04090a6da966",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/658112099e5e94b5d2c37d90e65e04090a6da966",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/658112099e5e94b5d2c37d90e65e04090a6da966",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/658112099e5e94b5d2c37d90e65e04090a6da966/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "704bddc1c553052872fc552914b0135e7a43806f",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/704bddc1c553052872fc552914b0135e7a43806f",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/704bddc1c553052872fc552914b0135e7a43806f"
+        }
+      ]
+    },
+    {
+      "sha": "704bddc1c553052872fc552914b0135e7a43806f",
+      "node_id": "C_kwDOMJX6ItoAKDcwNGJkZGMxYzU1MzA1Mjg3MmZjNTUyOTE0YjAxMzVlN2E0MzgwNmY",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-27T04:48:24Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-27T04:48:24Z"
+        },
+        "message": "update README & website",
+        "tree": {
+          "sha": "0d6f9da61e90b49eb1c69581dbb39faed04eb967",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/0d6f9da61e90b49eb1c69581dbb39faed04eb967"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/704bddc1c553052872fc552914b0135e7a43806f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/704bddc1c553052872fc552914b0135e7a43806f",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/704bddc1c553052872fc552914b0135e7a43806f",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/704bddc1c553052872fc552914b0135e7a43806f/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b0462d29307177845880878a6a837afaf808f185",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b0462d29307177845880878a6a837afaf808f185",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/b0462d29307177845880878a6a837afaf808f185"
+        }
+      ]
+    },
+    {
+      "sha": "b0462d29307177845880878a6a837afaf808f185",
+      "node_id": "C_kwDOMJX6ItoAKGIwNDYyZDI5MzA3MTc3ODQ1ODgwODc4YTZhODM3YWZhZjgwOGYxODU",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T21:42:25Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T21:42:25Z"
+        },
+        "message": "clean code",
+        "tree": {
+          "sha": "fd7ef989f13a4fc4d7dc7ed94f6c03e935316e52",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/fd7ef989f13a4fc4d7dc7ed94f6c03e935316e52"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/b0462d29307177845880878a6a837afaf808f185",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b0462d29307177845880878a6a837afaf808f185",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/b0462d29307177845880878a6a837afaf808f185",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b0462d29307177845880878a6a837afaf808f185/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bae34227046858e12aa09e3c6ab23d773998b330",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/bae34227046858e12aa09e3c6ab23d773998b330",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/bae34227046858e12aa09e3c6ab23d773998b330"
+        }
+      ]
+    },
+    {
+      "sha": "bae34227046858e12aa09e3c6ab23d773998b330",
+      "node_id": "C_kwDOMJX6ItoAKGJhZTM0MjI3MDQ2ODU4ZTEyYWEwOWUzYzZhYjIzZDc3Mzk5OGIzMzA",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T13:58:16Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T13:58:16Z"
+        },
+        "message": "add dataset",
+        "tree": {
+          "sha": "de991afd271cc66acb82ee9cd33ab61ea94021b1",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/de991afd271cc66acb82ee9cd33ab61ea94021b1"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/bae34227046858e12aa09e3c6ab23d773998b330",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/bae34227046858e12aa09e3c6ab23d773998b330",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/bae34227046858e12aa09e3c6ab23d773998b330",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/bae34227046858e12aa09e3c6ab23d773998b330/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac"
+        }
+      ]
+    },
+    {
+      "sha": "b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac",
+      "node_id": "C_kwDOMJX6ItoAKGIyYzlkYzNlNDk3ZDFkMWUzYWEwMDhmODYzOTNiNmI5NDMxYjZiYWM",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T11:06:55Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T11:06:55Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "9b5d25c4c3a549dfb77d540e7b565f28f3a216dd",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/9b5d25c4c3a549dfb77d540e7b565f28f3a216dd"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b2c9dc3e497d1d1e3aa008f86393b6b9431b6bac/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21c907f4e874151164315847a32e20baab0b331d",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/21c907f4e874151164315847a32e20baab0b331d",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/21c907f4e874151164315847a32e20baab0b331d"
+        }
+      ]
+    },
+    {
+      "sha": "21c907f4e874151164315847a32e20baab0b331d",
+      "node_id": "C_kwDOMJX6ItoAKDIxYzkwN2Y0ZTg3NDE1MTE2NDMxNTg0N2EzMmUyMGJhYWIwYjMzMWQ",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T11:04:02Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T11:04:02Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "75f63480446795d8f244ddeafdf48047a4eefe99",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/75f63480446795d8f244ddeafdf48047a4eefe99"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/21c907f4e874151164315847a32e20baab0b331d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/21c907f4e874151164315847a32e20baab0b331d",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/21c907f4e874151164315847a32e20baab0b331d",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/21c907f4e874151164315847a32e20baab0b331d/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "418be59f922c102f6dbdac90ce482f96ba13f696",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/418be59f922c102f6dbdac90ce482f96ba13f696",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/418be59f922c102f6dbdac90ce482f96ba13f696"
+        }
+      ]
+    },
+    {
+      "sha": "418be59f922c102f6dbdac90ce482f96ba13f696",
+      "node_id": "C_kwDOMJX6ItoAKDQxOGJlNTlmOTIyYzEwMmY2ZGJkYWM5MGNlNDgyZjk2YmExM2Y2OTY",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T10:52:55Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T10:52:55Z"
+        },
+        "message": "update README",
+        "tree": {
+          "sha": "a5ee575cdf06eac8196a934d1bf58c0ec1fa3def",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/a5ee575cdf06eac8196a934d1bf58c0ec1fa3def"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/418be59f922c102f6dbdac90ce482f96ba13f696",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/418be59f922c102f6dbdac90ce482f96ba13f696",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/418be59f922c102f6dbdac90ce482f96ba13f696",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/418be59f922c102f6dbdac90ce482f96ba13f696/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ac8a2873e36ccb6ebbb6e767c6e990e49efe9329",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/ac8a2873e36ccb6ebbb6e767c6e990e49efe9329",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/ac8a2873e36ccb6ebbb6e767c6e990e49efe9329"
+        }
+      ]
+    },
+    {
+      "sha": "ac8a2873e36ccb6ebbb6e767c6e990e49efe9329",
+      "node_id": "C_kwDOMJX6ItoAKGFjOGEyODczZTM2Y2NiNmViYmI2ZTc2N2M2ZTk5MGU0OWVmZTkzMjk",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T10:49:48Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-24T10:49:48Z"
+        },
+        "message": "update README & clean code",
+        "tree": {
+          "sha": "3a0a40364edc92b7cf96909a974e52d0d29f2484",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/3a0a40364edc92b7cf96909a974e52d0d29f2484"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/ac8a2873e36ccb6ebbb6e767c6e990e49efe9329",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/ac8a2873e36ccb6ebbb6e767c6e990e49efe9329",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/ac8a2873e36ccb6ebbb6e767c6e990e49efe9329",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/ac8a2873e36ccb6ebbb6e767c6e990e49efe9329/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f0dc676c637404a2dc871057336ac4632ea3c02a",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/f0dc676c637404a2dc871057336ac4632ea3c02a",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/f0dc676c637404a2dc871057336ac4632ea3c02a"
+        }
+      ]
+    },
+    {
+      "sha": "f0dc676c637404a2dc871057336ac4632ea3c02a",
+      "node_id": "C_kwDOMJX6ItoAKGYwZGM2NzZjNjM3NDA0YTJkYzg3MTA1NzMzNmFjNDYzMmVhM2MwMmE",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:55:04Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:55:04Z"
+        },
+        "message": "add source code",
+        "tree": {
+          "sha": "4038a635c0278523f69e3640c2e1d86cd4ded1f7",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/4038a635c0278523f69e3640c2e1d86cd4ded1f7"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/f0dc676c637404a2dc871057336ac4632ea3c02a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/f0dc676c637404a2dc871057336ac4632ea3c02a",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/f0dc676c637404a2dc871057336ac4632ea3c02a",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/f0dc676c637404a2dc871057336ac4632ea3c02a/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4bbd4d637df66aac2aa106b7b3eb383348d0b454",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/4bbd4d637df66aac2aa106b7b3eb383348d0b454",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/4bbd4d637df66aac2aa106b7b3eb383348d0b454"
+        }
+      ]
+    },
+    {
+      "sha": "4bbd4d637df66aac2aa106b7b3eb383348d0b454",
+      "node_id": "C_kwDOMJX6ItoAKDRiYmQ0ZDYzN2RmNjZhYWMyYWExMDZiN2IzZWIzODMzNDhkMGI0NTQ",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:54:16Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:54:16Z"
+        },
+        "message": "add source code",
+        "tree": {
+          "sha": "d1f8eaef3f089e56aa9860d6f02ad5b3e582533f",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/d1f8eaef3f089e56aa9860d6f02ad5b3e582533f"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/4bbd4d637df66aac2aa106b7b3eb383348d0b454",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/4bbd4d637df66aac2aa106b7b3eb383348d0b454",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/4bbd4d637df66aac2aa106b7b3eb383348d0b454",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/4bbd4d637df66aac2aa106b7b3eb383348d0b454/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b4de775732b076f6a785a405bdee684d02b3f121",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b4de775732b076f6a785a405bdee684d02b3f121",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/b4de775732b076f6a785a405bdee684d02b3f121"
+        }
+      ]
+    },
+    {
+      "sha": "b4de775732b076f6a785a405bdee684d02b3f121",
+      "node_id": "C_kwDOMJX6ItoAKGI0ZGU3NzU3MzJiMDc2ZjZhNzg1YTQwNWJkZWU2ODRkMDJiM2YxMjE",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:53:08Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:53:08Z"
+        },
+        "message": "add source code",
+        "tree": {
+          "sha": "4038a635c0278523f69e3640c2e1d86cd4ded1f7",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/4038a635c0278523f69e3640c2e1d86cd4ded1f7"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/b4de775732b076f6a785a405bdee684d02b3f121",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b4de775732b076f6a785a405bdee684d02b3f121",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/b4de775732b076f6a785a405bdee684d02b3f121",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/b4de775732b076f6a785a405bdee684d02b3f121/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f68822eed8914a987d29fff322670bafe881d1b9",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/f68822eed8914a987d29fff322670bafe881d1b9",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/f68822eed8914a987d29fff322670bafe881d1b9"
+        }
+      ]
+    },
+    {
+      "sha": "f68822eed8914a987d29fff322670bafe881d1b9",
+      "node_id": "C_kwDOMJX6ItoAKGY2ODgyMmVlZDg5MTRhOTg3ZDI5ZmZmMzIyNjcwYmFmZTg4MWQxYjk",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:51:51Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:51:51Z"
+        },
+        "message": "add source code",
+        "tree": {
+          "sha": "83e56e3bc70ab9f2d86405601ee40355f8e8fabf",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/83e56e3bc70ab9f2d86405601ee40355f8e8fabf"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/f68822eed8914a987d29fff322670bafe881d1b9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/f68822eed8914a987d29fff322670bafe881d1b9",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/f68822eed8914a987d29fff322670bafe881d1b9",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/f68822eed8914a987d29fff322670bafe881d1b9/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d5ee595b76f5aaa9d33539805afb08af6410ff5e",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/d5ee595b76f5aaa9d33539805afb08af6410ff5e",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/d5ee595b76f5aaa9d33539805afb08af6410ff5e"
+        }
+      ]
+    },
+    {
+      "sha": "d5ee595b76f5aaa9d33539805afb08af6410ff5e",
+      "node_id": "C_kwDOMJX6ItoAKGQ1ZWU1OTViNzZmNWFhYTlkMzM1Mzk4MDVhZmIwOGFmNjQxMGZmNWU",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:15:47Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T12:15:47Z"
+        },
+        "message": "add source code",
+        "tree": {
+          "sha": "7574f9f54050b20e72802c1984377cf2daa0b94f",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/7574f9f54050b20e72802c1984377cf2daa0b94f"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/d5ee595b76f5aaa9d33539805afb08af6410ff5e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/d5ee595b76f5aaa9d33539805afb08af6410ff5e",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/d5ee595b76f5aaa9d33539805afb08af6410ff5e",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/d5ee595b76f5aaa9d33539805afb08af6410ff5e/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "78272f6b53a473fe90518bc0a4f9abdc2cc962f1",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/78272f6b53a473fe90518bc0a4f9abdc2cc962f1",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/78272f6b53a473fe90518bc0a4f9abdc2cc962f1"
+        }
+      ]
+    },
+    {
+      "sha": "78272f6b53a473fe90518bc0a4f9abdc2cc962f1",
+      "node_id": "C_kwDOMJX6ItoAKDc4MjcyZjZiNTNhNDczZmU5MDUxOGJjMGE0ZjlhYmRjMmNjOTYyZjE",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T09:57:31Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T09:57:31Z"
+        },
+        "message": "Merge branch 'main' of github.com:weizhepei/InstructRAG",
+        "tree": {
+          "sha": "e18205e47c8e9a10b91930d13e09cd6188b3b82e",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/e18205e47c8e9a10b91930d13e09cd6188b3b82e"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/78272f6b53a473fe90518bc0a4f9abdc2cc962f1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/78272f6b53a473fe90518bc0a4f9abdc2cc962f1",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/78272f6b53a473fe90518bc0a4f9abdc2cc962f1",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/78272f6b53a473fe90518bc0a4f9abdc2cc962f1/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "97bb51b46639263daa4452d71dc0e8e363930e96",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/97bb51b46639263daa4452d71dc0e8e363930e96",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/97bb51b46639263daa4452d71dc0e8e363930e96"
+        },
+        {
+          "sha": "7473e4f0563f021e9e94e6642825bbc6f8fed421",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/7473e4f0563f021e9e94e6642825bbc6f8fed421",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/7473e4f0563f021e9e94e6642825bbc6f8fed421"
+        }
+      ]
+    },
+    {
+      "sha": "97bb51b46639263daa4452d71dc0e8e363930e96",
+      "node_id": "C_kwDOMJX6ItoAKDk3YmI1MWI0NjYzOTI2M2RhYTQ0NTJkNzFkYzBlOGUzNjM5MzBlOTY",
+      "commit": {
+        "author": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T09:57:15Z"
+        },
+        "committer": {
+          "name": "weizhepei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-23T09:57:15Z"
+        },
+        "message": "add source code",
+        "tree": {
+          "sha": "e18205e47c8e9a10b91930d13e09cd6188b3b82e",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/e18205e47c8e9a10b91930d13e09cd6188b3b82e"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/97bb51b46639263daa4452d71dc0e8e363930e96",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/97bb51b46639263daa4452d71dc0e8e363930e96",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/97bb51b46639263daa4452d71dc0e8e363930e96",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/97bb51b46639263daa4452d71dc0e8e363930e96/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "471faac84864eac2917b906c67eb970f0bfa3827",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/471faac84864eac2917b906c67eb970f0bfa3827",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/471faac84864eac2917b906c67eb970f0bfa3827"
+        }
+      ]
+    },
+    {
+      "sha": "7473e4f0563f021e9e94e6642825bbc6f8fed421",
+      "node_id": "C_kwDOMJX6ItoAKDc0NzNlNGYwNTYzZjAyMWU5ZTk0ZTY2NDI4MjViYmM2ZjhmZWQ0MjE",
+      "commit": {
+        "author": {
+          "name": "Zhepei Wei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-21T02:35:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-21T02:35:21Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d7b1736aa7e1a9a8fd14a0c4b44c44f3b90f3ce5",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/d7b1736aa7e1a9a8fd14a0c4b44c44f3b90f3ce5"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/7473e4f0563f021e9e94e6642825bbc6f8fed421",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmdObpCRC1aQ7uu5UhlAAAOaAQADLKgGiDmea/yPC2r2lAJnRk\n0+u//9u+YIQMN3Tt6yFs+HiiSHV9KCthIcZ0iSGnC4fynBl2lqrzailf94FBOccq\nlbn2pYmu/6P7CpXABrgdPGMYm/mMxl0vLxiwwL3lV89wdvxo/iwmVNab0A2bxsxl\nvbhDYzLVIJbGozpUlF6xKRfS03554nUBlecF9lKbH/4elhC/gVWs46vPLACGRkaU\n9CtuvQ9/teDKBxKZ5wo5vVjTESG/dbGw+oIdhTYVickEFKm+G056jBMIRUazbF81\njKxK8F6B495GaVP1Yv7hXgJbz/lMbgWFBCS+FnbqsJKFZrToNIZ+PWzPGQWOuoeO\nhq1SN2m4y118fMUG5bJrQY/1yHPbFtYdhQqAsr8/SEXvXxojjUEOpo0DyQpxVgae\nsmRRzxRuLZ/62pdvllYtKieXy4DMYwdE7c/7Ipz4Rh8woRiB1LrwdQYi+uWqPoST\nRVUBjRYPKtxGTK6lTNpOb2z7VooP2HmMx+MDZw5xb1tLSB7sL4s195lYd/e8gmAV\nlsZOc14/ecK2AA7ZzltMJBMde/FMqcG4+Y2wd7Vf+a1K+4NZSqUm45VaMu9t5l99\nOP8FhggEPe40G1zkaBS7nkBtZrRci/2JM/Vu/Sr5xi+7ChGQHfPv2ax6m8oS/Zaj\n0QUnrGvEjsEMIUQqHuz5\n=3s5w\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d7b1736aa7e1a9a8fd14a0c4b44c44f3b90f3ce5\nparent 471faac84864eac2917b906c67eb970f0bfa3827\nauthor Zhepei Wei <zhepei.wei@gmail.com> 1718937321 -0400\ncommitter GitHub <noreply@github.com> 1718937321 -0400\n\nUpdate README.md",
+          "verified_at": "2024-12-24T17:59:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/7473e4f0563f021e9e94e6642825bbc6f8fed421",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/7473e4f0563f021e9e94e6642825bbc6f8fed421",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/7473e4f0563f021e9e94e6642825bbc6f8fed421/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "471faac84864eac2917b906c67eb970f0bfa3827",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/471faac84864eac2917b906c67eb970f0bfa3827",
+          "html_url": "https://github.com/weizhepei/InstructRAG/commit/471faac84864eac2917b906c67eb970f0bfa3827"
+        }
+      ]
+    },
+    {
+      "sha": "471faac84864eac2917b906c67eb970f0bfa3827",
+      "node_id": "C_kwDOMJX6ItoAKDQ3MWZhYWM4NDg2NGVhYzI5MTdiOTA2YzY3ZWI5NzBmMGJmYTM4Mjc",
+      "commit": {
+        "author": {
+          "name": "Zhepei Wei",
+          "email": "zhepei.wei@gmail.com",
+          "date": "2024-06-14T12:31:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-14T12:31:32Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "586451d5c27d31421eafb35674a3047c776a2361",
+          "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/trees/586451d5c27d31421eafb35674a3047c776a2361"
+        },
+        "url": "https://api.github.com/repos/weizhepei/InstructRAG/git/commits/471faac84864eac2917b906c67eb970f0bfa3827",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmbDgkCRC1aQ7uu5UhlAAANx4QADhubv+FMEWX8TXp/6b85iuS\nXKfOeSeI/PFY2pBMpRZEGlXhJEbGshjkVHbFVtc6xwzFk/RzCJMgu5j4e/UVLc5j\naym3d6ZBfuEo4M34lgmS988IKiM+UAgKTnyUDOVExlq5Ew7he0H/iOO/SD3LYmt7\n5I262+eViA/N3wyUzLUcPD0viZcVo0zX93CVC8nBkMNFUJwhHOVBThlF8bi4guKW\nLvVCYY850C76Id/SgwJVCYlGRwfC/tXdWV3ZucLRzzBdJBSf0ulmSg+wHMrNnC8g\n01FCk4BDFfj5iwHPg3LWQYQTX/5KnuH2OyWt1ui+4iuqs7CrT5Tzx4q8bfGC4Vrs\nmzr2nlYw92ETs8fkzaC8foZCJf/nCZ6Cxw7sw6r3zFrTlubyrs8rgICOHBCuZS2D\nmh5AVmI0fYs99q2z8FSPPQYgoeCwuYFCFBCwDudY5UAxT1cuHCqYzldNJ1oddyMr\nlX07H9Cd0ONWwmvMprSaBo4J08M+VyJ+h2hb9b4wi8RthnJGQ69/P8Zs3j6AzDiX\naPeEy9MP4Xxf5IJJwaWiAsY6GmpwR+NnzKvkTCxcLnBtnO1mJXBBXIYkRad12Xmp\nDx+/Juu+DJFQBD88bZI5IO9eidx06j+Ta3T/i4RLC8gWo4lFdeMLPI47BrvGYRuA\nvY4Bvz5N1gZ27dQcaIS9\n=SQqL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 586451d5c27d31421eafb35674a3047c776a2361\nauthor Zhepei Wei <zhepei.wei@gmail.com> 1718368292 -0400\ncommitter GitHub <noreply@github.com> 1718368292 -0400\n\nInitial commit",
+          "verified_at": "2024-12-23T03:24:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/471faac84864eac2917b906c67eb970f0bfa3827",
+      "html_url": "https://github.com/weizhepei/InstructRAG/commit/471faac84864eac2917b906c67eb970f0bfa3827",
+      "comments_url": "https://api.github.com/repos/weizhepei/InstructRAG/commits/471faac84864eac2917b906c67eb970f0bfa3827/comments",
+      "author": {
+        "login": "weizhepei",
+        "id": 37549288,
+        "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/weizhepei",
+        "html_url": "https://github.com/weizhepei",
+        "followers_url": "https://api.github.com/users/weizhepei/followers",
+        "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+        "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+        "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+        "repos_url": "https://api.github.com/users/weizhepei/repos",
+        "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "weizhepei",
+      "id": 37549288,
+      "node_id": "MDQ6VXNlcjM3NTQ5Mjg4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37549288?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/weizhepei",
+      "html_url": "https://github.com/weizhepei",
+      "followers_url": "https://api.github.com/users/weizhepei/followers",
+      "following_url": "https://api.github.com/users/weizhepei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/weizhepei/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/weizhepei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/weizhepei/subscriptions",
+      "organizations_url": "https://api.github.com/users/weizhepei/orgs",
+      "repos_url": "https://api.github.com/users/weizhepei/repos",
+      "events_url": "https://api.github.com/users/weizhepei/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/weizhepei/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 21
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 37122,
+    "Shell": 1786
+  },
+  "readme_html": "<p>InstructRAG is a simple yet effective RAG framework that allows LMs to explicitly denoise retrieved contents by generating rationales for better verifiability and trustworthiness.</p>\n<p><img src=\"https://weizhepei.com/instruct-rag-page/static/images/instructrag.png\" alt=\"\"></p>\n<h2 id=\"user-content-instructrag-key-features\"><strong>InstructRAG Key Features:</strong></h2>\n<ul>\n<li>🤖 <strong>Self-Synthesis</strong>: Leverage instruction-tuned LMs to generate their OWN supervision for denoising.</li>\n<li>🔌 <strong>Easy-to-Use</strong>: Support both in-context learning (ICL) and supervised fine-tuning (SFT).</li>\n<li>🚀 <strong>Effectiveness</strong>: Up to 8.3% better results across 5 benchmarks (<a href=\"https://arxiv.org/html/2406.13629v2#S3.T3\">Table 3</a>).</li>\n<li>💪 <strong>Noise Robustness</strong>: Robust to increased noise ratios in various scenarios (<a href=\"https://arxiv.org/html/2406.13629v2#S3.F3\">Figure 3</a>).</li>\n<li>🔁 <strong>Task Transferability</strong>: InstructRAG can also solve out-of-domain unseen tasks (<a href=\"https://arxiv.org/html/2406.13629v2#S3.F4\">Figure 4</a>).</li>\n</ul>\n<p>Please see also our <a href=\"https://arxiv.org/abs/2406.13629\">paper</a> and <a href=\"https://x.com/weizhepei/status/1803992285899620837\">X summary</a> for more details.</p>\n<h2 id=\"user-content--quick-links\">🔗 Quick Links</h2>\n<ul>\n<li><a href=\"#instructrag-key-features\">InstructRAG: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales</a>\n<ul>\n<li><a href=\"#installation\">Installation</a></li>\n<li><a href=\"#training-script\">Training Script</a></li>\n<li><a href=\"#evaluation\">Evaluation</a></li>\n<li><a href=\"#generation-example\">Generation Example</a></li>\n<li><a href=\"#model-checkpoints\">Model Checkpoints</a></li>\n</ul>\n</li>\n</ul>\n<h2 id=\"user-content-installation\">Installation</h2>\n<p>Run the following script to create a Python virtual environment and install all required packages.</p>\n<pre><code class=\"language-shell\">bash setup.sh\n</code></pre>\n<p>Alternatively, you can also directly create a conda environment using the provided configuration file.</p>\n<pre><code class=\"language-shell\">conda env create -f environment.yml\n</code></pre>\n<h2 id=\"user-content-training-script\">Training Script</h2>\n<p>To train the model (i.e., InstructRAG-FT), just activate the environment and run the following training script. The training config is set for 4xH100 80G GPUs. You may need to adjust NUM_DEVICE and PER_DEVICE_BATCH_SIZE based on your computation environment.</p>\n<pre><code class=\"language-shell\">conda activate instrag\nbash train.sh\n</code></pre>\n<h2 id=\"user-content-evaluation\">Evaluation</h2>\n<p>There are two instantiations of our framework:</p>\n<ul>\n<li>InstructRAG-ICL: training-free &#x26; easy-to-adapt</li>\n<li>InstructRAG-FT: trainable &#x26; better performance</li>\n</ul>\n<p>Use the following script to evaluate InstructRAG in both training-free and trainable settings. You can specify the task and model by adjusting DATASET and MODEL in <code>eval.sh</code>.</p>\n<pre><code class=\"language-shell\">conda activate instrag\nbash eval.sh\n</code></pre>\n<h2 id=\"user-content-generation-example\">Generation Example</h2>\n<p>The following case study shows that InstructRAG can effectively identify relevant information from noisy input and leverage its own knowledge to correctly answer questions when required. The red texts denote irrelevant or inaccurate model generations, while the green texts denote contents relevant to the question.</p>\n<p><img src=\"https://weizhepei.com/instruct-rag-page/static/images//case_study.png\" alt=\"\"></p>\n<h2 id=\"user-content-model-checkpoints\">Model Checkpoints</h2>\n<p>Below is the full list of InstructRAG models fine-tuned on each dataset in our work.</p>\n<table>\n<thead>\n<tr>\n<th>Dataset</th>\n<th>HF Model Repo</th>\n<th align=\"center\">Retriever</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>PopQA</td>\n<td><a href=\"https://huggingface.co/meng-lab/PopQA-InstructRAG-FT\">meng-lab/PopQA-InstructRAG-FT</a></td>\n<td align=\"center\">Contriever</td>\n</tr>\n<tr>\n<td>TriviaQA</td>\n<td><a href=\"https://huggingface.co/meng-lab/TriviaQA-InstructRAG-FT\">meng-lab/TriviaQA-InstructRAG-FT</a></td>\n<td align=\"center\">Contriever</td>\n</tr>\n<tr>\n<td>Natural Questions</td>\n<td><a href=\"https://huggingface.co/meng-lab/NaturalQuestions-InstructRAG-FT\">meng-lab/NaturalQuestions-InstructRAG-FT</a></td>\n<td align=\"center\">DPR</td>\n</tr>\n<tr>\n<td>ASQA</td>\n<td><a href=\"https://huggingface.co/meng-lab/ASQA-InstructRAG-FT\">meng-lab/ASQA-InstructRAG-FT</a></td>\n<td align=\"center\">GTR</td>\n</tr>\n<tr>\n<td>2WikiMultiHopQA</td>\n<td><a href=\"https://huggingface.co/meng-lab/2WikiMultiHopQA-InstructRAG-FT\">meng-lab/2WikiMultiHopQA-InstructRAG-FT</a></td>\n<td align=\"center\">BM25</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-bugs-or-questions\">Bugs or Questions?</h2>\n<p>If you have any questions related to the code or the paper, feel free to email Zhepei (<a href=\"mailto:zhepei.wei@virginia.edu\">zhepei.wei@virginia.edu</a>). If you encounter any problems when using the code, or want to report a bug, feel free to open an issue! Please try to specify the problem with details so we can help you better and quicker!</p>\n<h2 id=\"user-content-citation\">Citation</h2>\n<p>Please cite our paper if you find the repo helpful in your work:</p>\n<pre><code class=\"language-bibtex\">@inproceedings{\nwei2025instructrag,\ntitle={Instruct{RAG}: Instructing Retrieval-Augmented Generation via Self-Synthesized Rationales},\nauthor={Zhepei Wei and Wei-Lin Chen and Yu Meng},\nbooktitle={The Thirteenth International Conference on Learning Representations},\nyear={2025},\nurl={https://openreview.net/forum?id=P1qhkp8gQT}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:17:21.876Z"
+}

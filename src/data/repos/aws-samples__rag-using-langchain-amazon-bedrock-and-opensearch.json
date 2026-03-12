@@ -1,0 +1,2014 @@
+{
+  "id": 679864065,
+  "node_id": "R_kgDOKIXnAQ",
+  "name": "rag-using-langchain-amazon-bedrock-and-opensearch",
+  "full_name": "aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch",
+  "private": false,
+  "owner": {
+    "login": "aws-samples",
+    "id": 8931462,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjg5MzE0NjI=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/8931462?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/aws-samples",
+    "html_url": "https://github.com/aws-samples",
+    "followers_url": "https://api.github.com/users/aws-samples/followers",
+    "following_url": "https://api.github.com/users/aws-samples/following{/other_user}",
+    "gists_url": "https://api.github.com/users/aws-samples/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/aws-samples/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/aws-samples/subscriptions",
+    "organizations_url": "https://api.github.com/users/aws-samples/orgs",
+    "repos_url": "https://api.github.com/users/aws-samples/repos",
+    "events_url": "https://api.github.com/users/aws-samples/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/aws-samples/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch",
+  "description": "RAG with langchain using Amazon Bedrock and Amazon OpenSearch",
+  "fork": false,
+  "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch",
+  "forks_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/forks",
+  "keys_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/teams",
+  "hooks_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/hooks",
+  "issue_events_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/events",
+  "assignees_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/tags",
+  "blobs_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/languages",
+  "stargazers_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/stargazers",
+  "contributors_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/contributors",
+  "subscribers_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/subscribers",
+  "subscription_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/subscription",
+  "commits_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/merges",
+  "archive_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/downloads",
+  "issues_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/labels{/name}",
+  "releases_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/deployments",
+  "created_at": "2023-08-17T19:40:16Z",
+  "updated_at": "2026-03-02T04:39:50Z",
+  "pushed_at": "2025-01-07T15:04:08Z",
+  "git_url": "git://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch.git",
+  "ssh_url": "git@github.com:aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch.git",
+  "clone_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch.git",
+  "svn_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch",
+  "homepage": "",
+  "size": 51,
+  "stargazers_count": 229,
+  "watchers_count": 229,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 45,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit-0",
+    "name": "MIT No Attribution",
+    "spdx_id": "MIT-0",
+    "url": "https://api.github.com/licenses/mit-0",
+    "node_id": "MDc6TGljZW5zZTQx"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "aws",
+    "bedrock",
+    "embedding-vectors",
+    "genai",
+    "generative-ai",
+    "opensearch",
+    "rag",
+    "retrieval-augmented-generation",
+    "vector"
+  ],
+  "visibility": "public",
+  "forks": 45,
+  "open_issues": 0,
+  "watchers": 229,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "96d37eadd92cdb1593e512605c8940c10c225b5f",
+      "node_id": "C_kwDOKIXnAdoAKDk2ZDM3ZWFkZDkyY2RiMTU5M2U1MTI2MDVjODk0MGMxMGMyMjViNWY",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerhaim@amazon.com",
+          "date": "2025-01-07T15:04:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-07T15:04:04Z"
+        },
+        "message": "Merge pull request #12 from aws-samples/multi-tenant\n\nMulti tenant",
+        "tree": {
+          "sha": "37799938de4a74531cc87edd9a04491a80dd1327",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/37799938de4a74531cc87edd9a04491a80dd1327"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/96d37eadd92cdb1593e512605c8940c10c225b5f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnfUJkCRC1aQ7uu5UhlAAAtv4QAKFhDEEYO6t1GR2RO+0gS7dT\nRlTjadx2mdIAWTf7khtVHKhmJtRS6RShK6OC+XS7A9sn/s1FqEUv65PkVPnwhL+p\n7roGBh409QRzWO3Q9NdoG1RmZmfhnlGUFqutfwaY6AodqCCO4CNsBBykXPhFAvWz\n5tKE5845H8zhCbwQsGU8w9RkFIfYcYPe8m4L9Lti62mPfN2HJrw9sDucdskD6ZA+\nojdOvS2WfxJy+1HQJp+7qUorRE2tXSXlV+3HvR8lTsoSDJL+AnZe30pGfjXYL3st\nl2vc3eAPk5ObIGcEYIH8GlaB7GTOib7qvUNetx8Wr24HMzkSDtspdGtcTxrJ3nmg\nkNtjhFJDJOJbVEAkourHYEY8EUT/0sixRwubEhJih0NLUUoGDygyJSj6Qzy8q176\nRBMN/iIx6hJ2wwrZvKWYA/53SR3+pjYrlt5OFp7oIz49UIwtBocEOv7i6XYWkesa\n4hfoREH61os17WZIMachwnqeuAtMvWbaDdz0+7kOw6Loc0ZnphKGJq2iDEUVzcNN\n/HWiqlUV595BCPonRgYXoNSBLBmeKpne3bNe5gj4zxSWAsuTUY1XF6dkVx5Q8BSG\nxDd2HyZU5OX6+V6tYynRL2m01p/DIzOemXjtQJ05Cpi/6FrZYJDVrHUPtMiC8qml\nsf+ZcgYY5CIFsBDVos1A\n=x6IR\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 37799938de4a74531cc87edd9a04491a80dd1327\nparent 0b645e073578fd095e499c18274d4ac863c972a3\nparent 5c0e6c8831ae9c80c66ae99797ddc310e71a9b09\nauthor Omer Haim <omerhaim@amazon.com> 1736262244 +0200\ncommitter GitHub <noreply@github.com> 1736262244 +0200\n\nMerge pull request #12 from aws-samples/multi-tenant\n\nMulti tenant",
+          "verified_at": "2025-01-07T15:34:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/96d37eadd92cdb1593e512605c8940c10c225b5f",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/96d37eadd92cdb1593e512605c8940c10c225b5f",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/96d37eadd92cdb1593e512605c8940c10c225b5f/comments",
+      "author": {
+        "login": "omerh",
+        "id": 1240184,
+        "node_id": "MDQ6VXNlcjEyNDAxODQ=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1240184?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/omerh",
+        "html_url": "https://github.com/omerh",
+        "followers_url": "https://api.github.com/users/omerh/followers",
+        "following_url": "https://api.github.com/users/omerh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/omerh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/omerh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/omerh/subscriptions",
+        "organizations_url": "https://api.github.com/users/omerh/orgs",
+        "repos_url": "https://api.github.com/users/omerh/repos",
+        "events_url": "https://api.github.com/users/omerh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/omerh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0b645e073578fd095e499c18274d4ac863c972a3",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/0b645e073578fd095e499c18274d4ac863c972a3",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/0b645e073578fd095e499c18274d4ac863c972a3"
+        },
+        {
+          "sha": "5c0e6c8831ae9c80c66ae99797ddc310e71a9b09",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/5c0e6c8831ae9c80c66ae99797ddc310e71a9b09",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/5c0e6c8831ae9c80c66ae99797ddc310e71a9b09"
+        }
+      ]
+    },
+    {
+      "sha": "5c0e6c8831ae9c80c66ae99797ddc310e71a9b09",
+      "node_id": "C_kwDOKIXnAdoAKDVjMGU2Yzg4MzFhZTljODBjNjZhZTk5Nzk3ZGRjMzEwZTcxYTliMDk",
+      "commit": {
+        "author": {
+          "name": "Yoav",
+          "email": "yoav.fishman@gmail.com",
+          "date": "2024-12-25T10:56:15Z"
+        },
+        "committer": {
+          "name": "Yoav",
+          "email": "yoav.fishman@gmail.com",
+          "date": "2024-12-25T10:56:15Z"
+        },
+        "message": "freeze dependencies",
+        "tree": {
+          "sha": "37799938de4a74531cc87edd9a04491a80dd1327",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/37799938de4a74531cc87edd9a04491a80dd1327"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/5c0e6c8831ae9c80c66ae99797ddc310e71a9b09",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/5c0e6c8831ae9c80c66ae99797ddc310e71a9b09",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/5c0e6c8831ae9c80c66ae99797ddc310e71a9b09",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/5c0e6c8831ae9c80c66ae99797ddc310e71a9b09/comments",
+      "author": {
+        "login": "yoavfish",
+        "id": 21334846,
+        "node_id": "MDQ6VXNlcjIxMzM0ODQ2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21334846?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yoavfish",
+        "html_url": "https://github.com/yoavfish",
+        "followers_url": "https://api.github.com/users/yoavfish/followers",
+        "following_url": "https://api.github.com/users/yoavfish/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yoavfish/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yoavfish/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yoavfish/subscriptions",
+        "organizations_url": "https://api.github.com/users/yoavfish/orgs",
+        "repos_url": "https://api.github.com/users/yoavfish/repos",
+        "events_url": "https://api.github.com/users/yoavfish/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yoavfish/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yoavfish",
+        "id": 21334846,
+        "node_id": "MDQ6VXNlcjIxMzM0ODQ2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21334846?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yoavfish",
+        "html_url": "https://github.com/yoavfish",
+        "followers_url": "https://api.github.com/users/yoavfish/followers",
+        "following_url": "https://api.github.com/users/yoavfish/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yoavfish/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yoavfish/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yoavfish/subscriptions",
+        "organizations_url": "https://api.github.com/users/yoavfish/orgs",
+        "repos_url": "https://api.github.com/users/yoavfish/repos",
+        "events_url": "https://api.github.com/users/yoavfish/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yoavfish/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f6c7aa8d6d06d75875501772c922c115af631b21",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/f6c7aa8d6d06d75875501772c922c115af631b21",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/f6c7aa8d6d06d75875501772c922c115af631b21"
+        }
+      ]
+    },
+    {
+      "sha": "f6c7aa8d6d06d75875501772c922c115af631b21",
+      "node_id": "C_kwDOKIXnAdoAKGY2YzdhYThkNmQwNmQ3NTg3NTUwMTc3MmM5MjJjMTE1YWY2MzFiMjE",
+      "commit": {
+        "author": {
+          "name": "Yoav",
+          "email": "yoav.fishman@gmail.com",
+          "date": "2024-12-03T13:25:13Z"
+        },
+        "committer": {
+          "name": "Yoav",
+          "email": "yoav.fishman@gmail.com",
+          "date": "2024-12-03T13:25:13Z"
+        },
+        "message": "add multi tenant support",
+        "tree": {
+          "sha": "690e171af3339833ca37d8756c2ae8734aeec79d",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/690e171af3339833ca37d8756c2ae8734aeec79d"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/f6c7aa8d6d06d75875501772c922c115af631b21",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/f6c7aa8d6d06d75875501772c922c115af631b21",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/f6c7aa8d6d06d75875501772c922c115af631b21",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/f6c7aa8d6d06d75875501772c922c115af631b21/comments",
+      "author": {
+        "login": "yoavfish",
+        "id": 21334846,
+        "node_id": "MDQ6VXNlcjIxMzM0ODQ2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21334846?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yoavfish",
+        "html_url": "https://github.com/yoavfish",
+        "followers_url": "https://api.github.com/users/yoavfish/followers",
+        "following_url": "https://api.github.com/users/yoavfish/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yoavfish/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yoavfish/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yoavfish/subscriptions",
+        "organizations_url": "https://api.github.com/users/yoavfish/orgs",
+        "repos_url": "https://api.github.com/users/yoavfish/repos",
+        "events_url": "https://api.github.com/users/yoavfish/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yoavfish/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yoavfish",
+        "id": 21334846,
+        "node_id": "MDQ6VXNlcjIxMzM0ODQ2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/21334846?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yoavfish",
+        "html_url": "https://github.com/yoavfish",
+        "followers_url": "https://api.github.com/users/yoavfish/followers",
+        "following_url": "https://api.github.com/users/yoavfish/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yoavfish/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yoavfish/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yoavfish/subscriptions",
+        "organizations_url": "https://api.github.com/users/yoavfish/orgs",
+        "repos_url": "https://api.github.com/users/yoavfish/repos",
+        "events_url": "https://api.github.com/users/yoavfish/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yoavfish/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0b645e073578fd095e499c18274d4ac863c972a3",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/0b645e073578fd095e499c18274d4ac863c972a3",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/0b645e073578fd095e499c18274d4ac863c972a3"
+        }
+      ]
+    },
+    {
+      "sha": "0b645e073578fd095e499c18274d4ac863c972a3",
+      "node_id": "C_kwDOKIXnAdoAKDBiNjQ1ZTA3MzU3OGZkMDk1ZTQ5OWMxODI3NGQ0YWM4NjNjOTcyYTM",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2024-07-17T07:31:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-17T07:31:31Z"
+        },
+        "message": "Merge pull request #11 from aws-samples/omerh-patch-1\n\nUpdate requirements.txt",
+        "tree": {
+          "sha": "5dc613bc9d53ae77221fb9559c520b5cb7c92ed9",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/5dc613bc9d53ae77221fb9559c520b5cb7c92ed9"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/0b645e073578fd095e499c18274d4ac863c972a3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJml3NTCRC1aQ7uu5UhlAAAATcQAEVd7w4WeOIFxAfJUZ2A9nfI\n94LEKS+Ra+HdhiaQPlWhO6Ozo4YUsavU6YBzBJ61q/sVBmJTWeOgTyJTArkwUvlE\nt7YMYSifmIDrZ4j5e9JKnAX7db/mCnoa0W0/ZmQ+Hy5ZGbOuqKR4iwosdIZu+fBn\ny7WsxUdmddKVKTzdmq7RO8UJUs1fxzvy2feUg++rukBKHEoyLdpDFFT0qtjrpSyg\nW1VReIqjoEvEB+WKvd2nTY/9MgBlt0Aoovl5n6/XErDedqINOZ5ZyNnznyou7k/O\nuYtr8S9kqwGYHQKj/BXrOzQlfCygSdZPtUh8SmuFbT9b8UppPTrDFcmd1tOR1JR9\ngDukTy2fZrfowqv/ep+id6036ro8miTML/dX/CFdXrOnyv//1jB+yhWTFoy2tfJp\nMmw2YB8rF31nq5FDNly1GftJc4OZ9t31t7qxQCkDcxvqzepOmpPTV39qOKzpltYk\nu8R7UIJAJHVvkn3xC5BplFFeH5xMy4JVWiY994sixqr2d0ANk4i1tAu8S3NtqmUI\nXQtKUE2ON1a0O9mTzV3d3Z5ffFJ0sLpQ9MzRibGFxhbYx2O89tl/3324oDrYO6Fu\nogymYqOJ591rYCzNKXDJESp/9GxrILo1kW9cTWBzQX6x6O5voWUF8KR5afiYJspc\npX+pWMypg9bpJ8NUcJ27\n=6KQc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5dc613bc9d53ae77221fb9559c520b5cb7c92ed9\nparent 1fbfb9dc66140b57c3b76bebc2da155981bc3310\nparent d1265624c1fcb30c7fef807b0670006d1aa4deea\nauthor Omer Haim <omerha@protonmail.com> 1721201491 +0300\ncommitter GitHub <noreply@github.com> 1721201491 +0300\n\nMerge pull request #11 from aws-samples/omerh-patch-1\n\nUpdate requirements.txt",
+          "verified_at": "2024-11-14T04:24:45Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/0b645e073578fd095e499c18274d4ac863c972a3",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/0b645e073578fd095e499c18274d4ac863c972a3",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/0b645e073578fd095e499c18274d4ac863c972a3/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/1fbfb9dc66140b57c3b76bebc2da155981bc3310"
+        },
+        {
+          "sha": "d1265624c1fcb30c7fef807b0670006d1aa4deea",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/d1265624c1fcb30c7fef807b0670006d1aa4deea",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/d1265624c1fcb30c7fef807b0670006d1aa4deea"
+        }
+      ]
+    },
+    {
+      "sha": "d1265624c1fcb30c7fef807b0670006d1aa4deea",
+      "node_id": "C_kwDOKIXnAdoAKGQxMjY1NjI0YzFmY2IzMGM3ZmVmODA3YjA2NzAwMDZkMWFhNGRlZWE",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2024-07-17T07:31:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-17T07:31:07Z"
+        },
+        "message": "Update requirements.txt",
+        "tree": {
+          "sha": "5dc613bc9d53ae77221fb9559c520b5cb7c92ed9",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/5dc613bc9d53ae77221fb9559c520b5cb7c92ed9"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/d1265624c1fcb30c7fef807b0670006d1aa4deea",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJml3M8CRC1aQ7uu5UhlAAA9HoQAGVSi4rofso6jo1eGDYVdNMg\nksWzYDy9Ie9KSN223cKyN3MUpGqtTLuoZEfFsNsW1WyI5s2r5x8QUi3eBvJzzM2D\nzQtFN05lYDtrWFfbN43HOUdVI+2TfU9Tn5Tr/Z8U6bWkWjjULiOQxvjq4YfmM4XI\nnuPYefxpXccYSsaFJoL6CmLWk0fFIyJshK3mcy2q5rqGJtGt6hKUDo9xcB/djNCs\nFbg2sjX6Vv6STYvbdwq5fdQMUrHzUkn9ovJ02f+dX6duNjJA2FORhLm2Jq+4XSEC\nTHWr+7i8W7vHncF46OXzJ33f6Ym4Isw7JwgbIuU6bDupkKRPPHXkZvPtjt6yZbUv\nijNrGKzV3rbQi4qqNPxmZfTPHlBq+tLfGlJ+YcZAqkL34WjW0/SkjtmGQpsmV2Rs\nbDcnFt3/Y6osCDoe+1JRdDZzn4bAw8LyM74h5Ep5EHChrVgHEJflTn0skyAPHQUN\nB7YZDepFfsex7OFRtbUuh/CkC3N4GM6+C4tbK8FpmyapZHfpF3nm93ZMcc86+mXY\nxwmaf2tlEprvQUkLucdjKiQeeUoZDQL+8U32dp1FadOQxivujdr2eufuESlL2f0m\nlFVYVfrBGuLGbjbh0b5hqAwN1/GBXdrB3NYTtEMQgwenANqyMVesmIN7Tez85MI5\niGs8xKS/ASRzZsFM64sZ\n=iWTA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5dc613bc9d53ae77221fb9559c520b5cb7c92ed9\nparent 1fbfb9dc66140b57c3b76bebc2da155981bc3310\nauthor Omer Haim <omerha@protonmail.com> 1721201467 +0300\ncommitter GitHub <noreply@github.com> 1721201467 +0300\n\nUpdate requirements.txt",
+          "verified_at": "2024-11-15T11:42:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/d1265624c1fcb30c7fef807b0670006d1aa4deea",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/d1265624c1fcb30c7fef807b0670006d1aa4deea",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/d1265624c1fcb30c7fef807b0670006d1aa4deea/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/1fbfb9dc66140b57c3b76bebc2da155981bc3310"
+        }
+      ]
+    },
+    {
+      "sha": "1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+      "node_id": "C_kwDOKIXnAdoAKDFmYmZiOWRjNjYxNDBiNTdjM2I3NmJlYmMyZGExNTU5ODFiYzMzMTA",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2024-05-27T07:18:20Z"
+        },
+        "committer": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2024-05-27T07:18:20Z"
+        },
+        "message": "minor update",
+        "tree": {
+          "sha": "eca5cd66dbba98b9811527f7f80546ed34168d65",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/eca5cd66dbba98b9811527f7f80546ed34168d65"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/1fbfb9dc66140b57c3b76bebc2da155981bc3310",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/1fbfb9dc66140b57c3b76bebc2da155981bc3310/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "7ae94870026b13236b475bc523f01d4f92ae8725",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/7ae94870026b13236b475bc523f01d4f92ae8725",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/7ae94870026b13236b475bc523f01d4f92ae8725"
+        }
+      ]
+    },
+    {
+      "sha": "7ae94870026b13236b475bc523f01d4f92ae8725",
+      "node_id": "C_kwDOKIXnAdoAKDdhZTk0ODcwMDI2YjEzMjM2YjQ3NWJjNTIzZjAxZDRmOTJhZTg3MjU",
+      "commit": {
+        "author": {
+          "name": "Arik Porat",
+          "email": "55050457+arik-porat@users.noreply.github.com",
+          "date": "2024-05-08T13:22:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-05-08T13:22:11Z"
+        },
+        "message": "Merge pull request #9 from aws-samples/may-updates\n\nupdated prompt",
+        "tree": {
+          "sha": "64fb301f452be9d4a5d4eb31f163c75c102c7589",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/64fb301f452be9d4a5d4eb31f163c75c102c7589"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/7ae94870026b13236b475bc523f01d4f92ae8725",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmO3yDCRC1aQ7uu5UhlAAAVwAQAHUGLNIqOvK+ZSG6J9Y5wHNf\nNQBqviuOE+0Z4ATZO1HcVJxqaD2e+bYDn7wXgy01yqt3vhPGfSZXZ1cuud9vuf6r\n2OHwutMVY0xQ+G8lh+HzeZNcMVZytD5bf8xv8YOn1C8R3ApfGtq4HuD49HLTJie0\nq485io+P9WBn/ky/rHQ0G6Uv4JhUTZXogHb2wVFhs0rIUXhtvqfsNPSyy3CfItsu\n/cKg4YgeL1mLEv1jFu1RyLjjomP7qdtsb7GXP5QYTH95cWf2o0ANEeKI/B84xhQ0\n0lpXZU51/jKV8KgSRQny/F+8zDE+ZLh/sWGgrM5L4xXpABOwY3ZJ8XuftuoMFIpG\nblKJy2CQ6/YDoZym5xNDrb25PZ7rFd+k0wmozoPg4h0VziRej/KZNWngcQj5K+lb\nmEJY4dfSdzi4paDsApWupOD0ezs01WVoQV7NfZPzbOgbshwiLs12b3NvXCcT+mS4\nqooxCWXQyPBjk0RuuHm9OVM6xeLwz/K0dCrsUcm5OE2iFa+PUzLP/O74spzivZWY\nawokvO4oWRcp57X/xTSutztEPrX/McrZNFejxwKgGPncOJ9hnMyP9xMpZ0E6SbVg\nk0KkDGXRDpOeyfT9Mt2rWiNSPx3UyFIVS8bfkmi8HQhR5QGZjCGIuGRrZ79A4j39\noH7ECh06Az8VQ0lK8c4i\n=fh0d\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 64fb301f452be9d4a5d4eb31f163c75c102c7589\nparent e3d7e1d64433d4fbd774993b645003c7efe37553\nparent 3c0d38a2d672e638cffb6fe145b116f2754fb93b\nauthor Arik Porat <55050457+arik-porat@users.noreply.github.com> 1715174531 +0300\ncommitter GitHub <noreply@github.com> 1715174531 +0300\n\nMerge pull request #9 from aws-samples/may-updates\n\nupdated prompt",
+          "verified_at": "2024-11-12T16:00:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/7ae94870026b13236b475bc523f01d4f92ae8725",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/7ae94870026b13236b475bc523f01d4f92ae8725",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/7ae94870026b13236b475bc523f01d4f92ae8725/comments",
+      "author": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e3d7e1d64433d4fbd774993b645003c7efe37553",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/e3d7e1d64433d4fbd774993b645003c7efe37553",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/e3d7e1d64433d4fbd774993b645003c7efe37553"
+        },
+        {
+          "sha": "3c0d38a2d672e638cffb6fe145b116f2754fb93b",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/3c0d38a2d672e638cffb6fe145b116f2754fb93b",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/3c0d38a2d672e638cffb6fe145b116f2754fb93b"
+        }
+      ]
+    },
+    {
+      "sha": "3c0d38a2d672e638cffb6fe145b116f2754fb93b",
+      "node_id": "C_kwDOKIXnAdoAKDNjMGQzOGEyZDY3MmU2MzhjZmZiNmZlMTQ1YjExNmYyNzU0ZmI5M2I",
+      "commit": {
+        "author": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-08T13:20:22Z"
+        },
+        "committer": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-08T13:20:22Z"
+        },
+        "message": "updated prompt",
+        "tree": {
+          "sha": "64fb301f452be9d4a5d4eb31f163c75c102c7589",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/64fb301f452be9d4a5d4eb31f163c75c102c7589"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/3c0d38a2d672e638cffb6fe145b116f2754fb93b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/3c0d38a2d672e638cffb6fe145b116f2754fb93b",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/3c0d38a2d672e638cffb6fe145b116f2754fb93b",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/3c0d38a2d672e638cffb6fe145b116f2754fb93b/comments",
+      "author": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ef3a455d21e150e9b16701ad9365194096b4d2c3",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/ef3a455d21e150e9b16701ad9365194096b4d2c3",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/ef3a455d21e150e9b16701ad9365194096b4d2c3"
+        }
+      ]
+    },
+    {
+      "sha": "ef3a455d21e150e9b16701ad9365194096b4d2c3",
+      "node_id": "C_kwDOKIXnAdoAKGVmM2E0NTVkMjFlMTUwZTliMTY3MDFhZDkzNjUxOTQwOTZiNGQyYzM",
+      "commit": {
+        "author": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-08T13:19:24Z"
+        },
+        "committer": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-08T13:19:24Z"
+        },
+        "message": "updated prompt",
+        "tree": {
+          "sha": "b46074cbfc0fef3b59945cc5a3f1b7b02ee7fec3",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/b46074cbfc0fef3b59945cc5a3f1b7b02ee7fec3"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/ef3a455d21e150e9b16701ad9365194096b4d2c3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/ef3a455d21e150e9b16701ad9365194096b4d2c3",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/ef3a455d21e150e9b16701ad9365194096b4d2c3",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/ef3a455d21e150e9b16701ad9365194096b4d2c3/comments",
+      "author": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3fd7a33997c0de13f7b088921cf3707babd5048c",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/3fd7a33997c0de13f7b088921cf3707babd5048c",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/3fd7a33997c0de13f7b088921cf3707babd5048c"
+        }
+      ]
+    },
+    {
+      "sha": "e3d7e1d64433d4fbd774993b645003c7efe37553",
+      "node_id": "C_kwDOKIXnAdoAKGUzZDdlMWQ2NDQzM2Q0ZmJkNzc0OTkzYjY0NTAwM2M3ZWZlMzc1NTM",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2024-05-05T10:23:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-05-05T10:23:59Z"
+        },
+        "message": "Merge pull request #8 from aws-samples/may-updates\n\nMay updates",
+        "tree": {
+          "sha": "b3814e9a41046f440e4006e3dc808c980cd2f93c",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/b3814e9a41046f440e4006e3dc808c980cd2f93c"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/e3d7e1d64433d4fbd774993b645003c7efe37553",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmN14/CRC1aQ7uu5UhlAAAHr8QAJmtAA88pTFPEcipfbzpvhCQ\nFdb73UGyv7W9fmb5ROBgxLsZPzZrz3ErjWYR/1wHC4zZny9q1ZWmF9aXhAbASl44\njUUk9bVmwtrD1dndFCtRSIjQg9LAOgEREJTZputtIoISwAq2GScH6qBhNafU4qOc\nPDcW5H3wUkzP0pTpmbsZlwMeIZ2uJki7DK8t4lkxBuuqpXGrYDDXZfgjLbuPvpU4\nQy4Oa4coQSsYzi+EsORuMxl4NIs8U/GfTnizTt9Gm68w2kEo39Pot7bvSIyk/pSn\nBHo7D8TcP7K3gki1GtPo3tIVS21D4Uq0U28YLO1FrZFEzu9m9741RsaVsugJe9pq\nuiaXzG78PHcsxhWgD7oih7Gk4Ot62XttB4DN6sSl3A6lpm9k++mRcH9ex2o26KzO\n4bWUqSp8RBrONlK4+UrcdBybxFvJ58V/sAjfY+/c1yCd4+ihDy/BDSLg3KfTc/Nh\ns5OCESbluIBS1ZYoR4x6OxuFiOsdE7acVMfomzi0p5u4j35WWPsmaLpxCiRxoXao\ngE+flJqygIwq4QSwgvZbpXJ1YtBaXITHw8K4NBfTdlbwPWzQGj1VD4yWwYx+XwtT\nsyOmYsBJdtHR3kYoflVE/RYr0v7yMfZpYRXBos3FXleE7jRGWwRcATtq4Y4aZwW9\nOqPoFL5ZTpK1SdZKBIOg\n=3Vop\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b3814e9a41046f440e4006e3dc808c980cd2f93c\nparent a3e26bbc730555f8ae59a6e6377129bd8607be4e\nparent 3fd7a33997c0de13f7b088921cf3707babd5048c\nauthor Omer Haim <omerha@protonmail.com> 1714904639 +0300\ncommitter GitHub <noreply@github.com> 1714904639 +0300\n\nMerge pull request #8 from aws-samples/may-updates\n\nMay updates",
+          "verified_at": "2024-11-12T23:10:06Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/e3d7e1d64433d4fbd774993b645003c7efe37553",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/e3d7e1d64433d4fbd774993b645003c7efe37553",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/e3d7e1d64433d4fbd774993b645003c7efe37553/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/a3e26bbc730555f8ae59a6e6377129bd8607be4e"
+        },
+        {
+          "sha": "3fd7a33997c0de13f7b088921cf3707babd5048c",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/3fd7a33997c0de13f7b088921cf3707babd5048c",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/3fd7a33997c0de13f7b088921cf3707babd5048c"
+        }
+      ]
+    },
+    {
+      "sha": "3fd7a33997c0de13f7b088921cf3707babd5048c",
+      "node_id": "C_kwDOKIXnAdoAKDNmZDdhMzM5OTdjMGRlMTNmN2IwODg5MjFjZjM3MDdiYWJkNTA0OGM",
+      "commit": {
+        "author": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-04T19:46:05Z"
+        },
+        "committer": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-04T19:46:05Z"
+        },
+        "message": "update deprecated retrival to create_retrieval_chain",
+        "tree": {
+          "sha": "b3814e9a41046f440e4006e3dc808c980cd2f93c",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/b3814e9a41046f440e4006e3dc808c980cd2f93c"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/3fd7a33997c0de13f7b088921cf3707babd5048c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/3fd7a33997c0de13f7b088921cf3707babd5048c",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/3fd7a33997c0de13f7b088921cf3707babd5048c",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/3fd7a33997c0de13f7b088921cf3707babd5048c/comments",
+      "author": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2d1795a830d2b417d5dc36f6ee38d8b4d81364c6",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/2d1795a830d2b417d5dc36f6ee38d8b4d81364c6",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/2d1795a830d2b417d5dc36f6ee38d8b4d81364c6"
+        }
+      ]
+    },
+    {
+      "sha": "2d1795a830d2b417d5dc36f6ee38d8b4d81364c6",
+      "node_id": "C_kwDOKIXnAdoAKDJkMTc5NWE4MzBkMmI0MTdkNWRjMzZmNmVlMzhkOGI0ZDgxMzY0YzY",
+      "commit": {
+        "author": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-04T12:55:54Z"
+        },
+        "committer": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-04T12:55:54Z"
+        },
+        "message": "update deprecated retrival to create_retrieval_chain",
+        "tree": {
+          "sha": "a71603e4ed5faab2288efcc64b50ea37f2c31211",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/a71603e4ed5faab2288efcc64b50ea37f2c31211"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/2d1795a830d2b417d5dc36f6ee38d8b4d81364c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/2d1795a830d2b417d5dc36f6ee38d8b4d81364c6",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/2d1795a830d2b417d5dc36f6ee38d8b4d81364c6",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/2d1795a830d2b417d5dc36f6ee38d8b4d81364c6/comments",
+      "author": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9fec08e32f810d2c02200ec809f36c499e1f25d0",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/9fec08e32f810d2c02200ec809f36c499e1f25d0",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/9fec08e32f810d2c02200ec809f36c499e1f25d0"
+        }
+      ]
+    },
+    {
+      "sha": "9fec08e32f810d2c02200ec809f36c499e1f25d0",
+      "node_id": "C_kwDOKIXnAdoAKDlmZWMwOGUzMmY4MTBkMmMwMjIwMGVjODA5ZjM2YzQ5OWUxZjI1ZDA",
+      "commit": {
+        "author": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-03T23:58:17Z"
+        },
+        "committer": {
+          "name": "arik-porat",
+          "email": "porat.arik@gmail.com",
+          "date": "2024-05-03T23:58:17Z"
+        },
+        "message": "update deprecated retrival to create_retrieval_chain",
+        "tree": {
+          "sha": "4c628006161acf221815dd4dd54ee1725426ad3d",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/4c628006161acf221815dd4dd54ee1725426ad3d"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/9fec08e32f810d2c02200ec809f36c499e1f25d0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/9fec08e32f810d2c02200ec809f36c499e1f25d0",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/9fec08e32f810d2c02200ec809f36c499e1f25d0",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/9fec08e32f810d2c02200ec809f36c499e1f25d0/comments",
+      "author": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "arik-porat",
+        "id": 55050457,
+        "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/arik-porat",
+        "html_url": "https://github.com/arik-porat",
+        "followers_url": "https://api.github.com/users/arik-porat/followers",
+        "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+        "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+        "repos_url": "https://api.github.com/users/arik-porat/repos",
+        "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/a3e26bbc730555f8ae59a6e6377129bd8607be4e"
+        }
+      ]
+    },
+    {
+      "sha": "a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+      "node_id": "C_kwDOKIXnAdoAKGEzZTI2YmJjNzMwNTU1ZjhhZTU5YTZlNjM3NzEyOWJkODYwN2JlNGU",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2024-04-07T13:14:37Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2024-04-07T13:14:37Z"
+        },
+        "message": "update versions, using langchain community, added loguru",
+        "tree": {
+          "sha": "5f02ee6d46a957b4a118bedd5629e683701368fe",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/5f02ee6d46a957b4a118bedd5629e683701368fe"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/a3e26bbc730555f8ae59a6e6377129bd8607be4e",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a3e26bbc730555f8ae59a6e6377129bd8607be4e/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "bc0e0edb582f7c2d528c689d659e913ebbf66ca7",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/bc0e0edb582f7c2d528c689d659e913ebbf66ca7",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/bc0e0edb582f7c2d528c689d659e913ebbf66ca7"
+        }
+      ]
+    },
+    {
+      "sha": "bc0e0edb582f7c2d528c689d659e913ebbf66ca7",
+      "node_id": "C_kwDOKIXnAdoAKGJjMGUwZWRiNTgyZjdjMmQ1MjhjNjg5ZDY1OWU5MTNlYmJmNjZjYTc",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-12T11:14:24Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-12T11:14:24Z"
+        },
+        "message": "updated langchain",
+        "tree": {
+          "sha": "5bd32733cb7eb7dac1cf5032864c92fedfa8dee3",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/5bd32733cb7eb7dac1cf5032864c92fedfa8dee3"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/bc0e0edb582f7c2d528c689d659e913ebbf66ca7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/bc0e0edb582f7c2d528c689d659e913ebbf66ca7",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/bc0e0edb582f7c2d528c689d659e913ebbf66ca7",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/bc0e0edb582f7c2d528c689d659e913ebbf66ca7/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "1f52f03708b77c5eae4c8147af2a1871860dede4",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/1f52f03708b77c5eae4c8147af2a1871860dede4",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/1f52f03708b77c5eae4c8147af2a1871860dede4"
+        }
+      ]
+    },
+    {
+      "sha": "1f52f03708b77c5eae4c8147af2a1871860dede4",
+      "node_id": "C_kwDOKIXnAdoAKDFmNTJmMDM3MDhiNzdjNWVhZTRjODE0N2FmMmExODcxODYwZGVkZTQ",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T09:02:59Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T09:02:59Z"
+        },
+        "message": "removed unneeded",
+        "tree": {
+          "sha": "ddfdc801286faa7677be7a37d4082873775eb6d3",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/ddfdc801286faa7677be7a37d4082873775eb6d3"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/1f52f03708b77c5eae4c8147af2a1871860dede4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/1f52f03708b77c5eae4c8147af2a1871860dede4",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/1f52f03708b77c5eae4c8147af2a1871860dede4",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/1f52f03708b77c5eae4c8147af2a1871860dede4/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a21725506d32697592d1d7aadedb8a231ee24da3",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a21725506d32697592d1d7aadedb8a231ee24da3",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/a21725506d32697592d1d7aadedb8a231ee24da3"
+        }
+      ]
+    },
+    {
+      "sha": "a21725506d32697592d1d7aadedb8a231ee24da3",
+      "node_id": "C_kwDOKIXnAdoAKGEyMTcyNTUwNmQzMjY5NzU5MmQxZDdhYWRlZGI4YTIzMWVlMjRkYTM",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T09:01:25Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T09:01:25Z"
+        },
+        "message": "minor readme fix",
+        "tree": {
+          "sha": "900c0959b57fb13792a41e8bc058fdae5fd39e18",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/900c0959b57fb13792a41e8bc058fdae5fd39e18"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/a21725506d32697592d1d7aadedb8a231ee24da3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a21725506d32697592d1d7aadedb8a231ee24da3",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/a21725506d32697592d1d7aadedb8a231ee24da3",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a21725506d32697592d1d7aadedb8a231ee24da3/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "9497f5eb0a86aff67d34e2549b30d0c52043c386",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/9497f5eb0a86aff67d34e2549b30d0c52043c386",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/9497f5eb0a86aff67d34e2549b30d0c52043c386"
+        }
+      ]
+    },
+    {
+      "sha": "9497f5eb0a86aff67d34e2549b30d0c52043c386",
+      "node_id": "C_kwDOKIXnAdoAKDk0OTdmNWViMGE4NmFmZjY3ZDM0ZTI1NDliMzBkMGM1MjA0M2MzODY",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:52:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-01T08:52:22Z"
+        },
+        "message": "Merge pull request #3 from aws-samples/GA\n\nFixed text",
+        "tree": {
+          "sha": "27a6fa460bc386575920fbeb6a81e97eea0d209a",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/27a6fa460bc386575920fbeb6a81e97eea0d209a"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/9497f5eb0a86aff67d34e2549b30d0c52043c386",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlGTNGCRBK7hj4Ov3rIwAApZ4IAGG0pSesqMH+9fNaaBCVuukj\nFSsy+KGNRDjnaZ8TRKPd0vJxTyvNecvFppzI/gqLC9thBzggCIzdsqsC8wRMuqFX\nn2+Ik0ftDFUd0SORWXlIqHQn32e8d+twsJQLxqqTqSnkgJridqPpp5mC7JJuUmSZ\nuVMt3hmSSRNI2+xfTJyeAfJVSLOhqbaO/Opy8gq1lM4/bWkE9JzRU8aAJzU+d3Zi\n7QlXbvly3+sWoPE6nI/IR169Zomax49VM0jlGAGNdsR7vkyUQxK87ylGeHHKqifa\nXP4OtUwF/Zhfleni2pbVSAkXMjFYwVil5lOzGz3sI6DBGdYa2D0nbAqb4Ieo6HY=\n=DNs5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 27a6fa460bc386575920fbeb6a81e97eea0d209a\nparent 540c1fef221c73cbcb3122e7b335759e85f6a44c\nparent c193a95b480a587d6bd522e8de810fe0d852a086\nauthor Omer Haim <omerha@protonmail.com> 1696150342 +0300\ncommitter GitHub <noreply@github.com> 1696150342 +0300\n\nMerge pull request #3 from aws-samples/GA\n\nFixed text",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/9497f5eb0a86aff67d34e2549b30d0c52043c386",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/9497f5eb0a86aff67d34e2549b30d0c52043c386",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/9497f5eb0a86aff67d34e2549b30d0c52043c386/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "540c1fef221c73cbcb3122e7b335759e85f6a44c",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/540c1fef221c73cbcb3122e7b335759e85f6a44c",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/540c1fef221c73cbcb3122e7b335759e85f6a44c"
+        },
+        {
+          "sha": "c193a95b480a587d6bd522e8de810fe0d852a086",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/c193a95b480a587d6bd522e8de810fe0d852a086",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/c193a95b480a587d6bd522e8de810fe0d852a086"
+        }
+      ]
+    },
+    {
+      "sha": "c193a95b480a587d6bd522e8de810fe0d852a086",
+      "node_id": "C_kwDOKIXnAdoAKGMxOTNhOTViNDgwYTU4N2Q2YmQ1MjJlOGRlODEwZmUwZDg1MmEwODY",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:51:14Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:51:14Z"
+        },
+        "message": "Fixed text",
+        "tree": {
+          "sha": "27a6fa460bc386575920fbeb6a81e97eea0d209a",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/27a6fa460bc386575920fbeb6a81e97eea0d209a"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/c193a95b480a587d6bd522e8de810fe0d852a086",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/c193a95b480a587d6bd522e8de810fe0d852a086",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/c193a95b480a587d6bd522e8de810fe0d852a086",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/c193a95b480a587d6bd522e8de810fe0d852a086/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62"
+        }
+      ]
+    },
+    {
+      "sha": "540c1fef221c73cbcb3122e7b335759e85f6a44c",
+      "node_id": "C_kwDOKIXnAdoAKDU0MGMxZmVmMjIxYzczY2JjYjMxMjJlN2IzMzU3NTllODVmNmE0NGM",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:50:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-01T08:50:04Z"
+        },
+        "message": "Merge pull request #2 from aws-samples/GA\n\nRemoved sdk beta download",
+        "tree": {
+          "sha": "ce97d17a323db56eca5d48f63b32523b0154acc6",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/ce97d17a323db56eca5d48f63b32523b0154acc6"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/540c1fef221c73cbcb3122e7b335759e85f6a44c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlGTK8CRBK7hj4Ov3rIwAAMFAIAJRA3gMn5cQugXNEg86ZA/mG\ncTat7BNo4sQhBlfkZpuhKlYdZdggju/eTWGUOm7hZ/GuVqihV3jAc8nuHZOSKn5V\nKI71wTynGDjZus6qNTa2WJUhx3ytjpvuy4xr9K8zPwMiEu9D8fAyNnhrx0I493+N\n7fSQSYCxxFXl7p2OKfSpOjpMCUxicSz2bEjT3FNJe41TBAxorFtN57jTtiX7hA/6\nDzpuuywErXuUsxzmX2OhUPT7fHADNl8qtMwcHLEOcQoB5FZ3F7eaQQUjmrvqHn5W\nKWIFrK0okQMxENe14fkVCo6eG4PnIDYPrbrfWbltvx8Ssop7HNsS4NsDFzRw+lc=\n=CymS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ce97d17a323db56eca5d48f63b32523b0154acc6\nparent b261fbeebcd6a9698393810d2ee86a24457058d5\nparent 2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62\nauthor Omer Haim <omerha@protonmail.com> 1696150204 +0300\ncommitter GitHub <noreply@github.com> 1696150204 +0300\n\nMerge pull request #2 from aws-samples/GA\n\nRemoved sdk beta download",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/540c1fef221c73cbcb3122e7b335759e85f6a44c",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/540c1fef221c73cbcb3122e7b335759e85f6a44c",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/540c1fef221c73cbcb3122e7b335759e85f6a44c/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b261fbeebcd6a9698393810d2ee86a24457058d5",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/b261fbeebcd6a9698393810d2ee86a24457058d5",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/b261fbeebcd6a9698393810d2ee86a24457058d5"
+        },
+        {
+          "sha": "2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62"
+        }
+      ]
+    },
+    {
+      "sha": "2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+      "node_id": "C_kwDOKIXnAdoAKDIxMTdlMWY0NmY5YzBlOWJhN2E4Nzk5ZDFiMWFmYzUwMTNkNjJkNjI",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:49:13Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:49:13Z"
+        },
+        "message": "Removed sdk beta download",
+        "tree": {
+          "sha": "ce97d17a323db56eca5d48f63b32523b0154acc6",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/ce97d17a323db56eca5d48f63b32523b0154acc6"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/2117e1f46f9c0e9ba7a8799d1b1afc5013d62d62/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "24084eb361bac1a0466c2dea61b7961e83f64dfe",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/24084eb361bac1a0466c2dea61b7961e83f64dfe",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/24084eb361bac1a0466c2dea61b7961e83f64dfe"
+        }
+      ]
+    },
+    {
+      "sha": "b261fbeebcd6a9698393810d2ee86a24457058d5",
+      "node_id": "C_kwDOKIXnAdoAKGIyNjFmYmVlYmNkNmE5Njk4MzkzODEwZDJlZTg2YTI0NDU3MDU4ZDU",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:48:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-10-01T08:48:14Z"
+        },
+        "message": "Merge pull request #1 from aws-samples/GA\n\nBedrock changes after GA",
+        "tree": {
+          "sha": "b523444b86e59ac6dd8bacdcea0bd659d53a9a38",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/b523444b86e59ac6dd8bacdcea0bd659d53a9a38"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/b261fbeebcd6a9698393810d2ee86a24457058d5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlGTJOCRBK7hj4Ov3rIwAAlTIIACtIC2tiCr96Z/bI78g56Hp1\nS6a2J+uXJTWo9KKh+HLwi2ch+EHWyrs9UvVkDKCVaaDCURBLHvwhDW/nGMypozux\nvOBWpu/QnA0ZymjkVF0psYfJZeMfzUW6DZFT852ZFqldl6UX4WANOkRV/J0lgVa1\nDbJa2+ymiuRfbkvYZPnFxIZVYLOXrGrYjSXLElbFXc5GagwhwRG6C8j+H49st5cZ\nG7Sgg4O1W7eNCO5BkGr3xErk27LaA4pYlRN8U787pzbaIrLj4b4WoksKiEHnB8fx\nnz3JC8XUix18RLUKHvC4+Hj4kgQSmA4rhqZkKtgMq39IDez9E86K+/2f3aZYOts=\n=4+PA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b523444b86e59ac6dd8bacdcea0bd659d53a9a38\nparent 803139430e07d549001e6dedb92b3893630abff8\nparent 24084eb361bac1a0466c2dea61b7961e83f64dfe\nauthor Omer Haim <omerha@protonmail.com> 1696150094 +0300\ncommitter GitHub <noreply@github.com> 1696150094 +0300\n\nMerge pull request #1 from aws-samples/GA\n\nBedrock changes after GA",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/b261fbeebcd6a9698393810d2ee86a24457058d5",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/b261fbeebcd6a9698393810d2ee86a24457058d5",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/b261fbeebcd6a9698393810d2ee86a24457058d5/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "803139430e07d549001e6dedb92b3893630abff8",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/803139430e07d549001e6dedb92b3893630abff8",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/803139430e07d549001e6dedb92b3893630abff8"
+        },
+        {
+          "sha": "24084eb361bac1a0466c2dea61b7961e83f64dfe",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/24084eb361bac1a0466c2dea61b7961e83f64dfe",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/24084eb361bac1a0466c2dea61b7961e83f64dfe"
+        }
+      ]
+    },
+    {
+      "sha": "24084eb361bac1a0466c2dea61b7961e83f64dfe",
+      "node_id": "C_kwDOKIXnAdoAKDI0MDg0ZWIzNjFiYWMxYTA0NjZjMmRlYTYxYjc5NjFlODNmNjRkZmU",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:47:27Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-10-01T08:47:27Z"
+        },
+        "message": "Bedrock changes after GA",
+        "tree": {
+          "sha": "b523444b86e59ac6dd8bacdcea0bd659d53a9a38",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/b523444b86e59ac6dd8bacdcea0bd659d53a9a38"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/24084eb361bac1a0466c2dea61b7961e83f64dfe",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/24084eb361bac1a0466c2dea61b7961e83f64dfe",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/24084eb361bac1a0466c2dea61b7961e83f64dfe",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/24084eb361bac1a0466c2dea61b7961e83f64dfe/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "803139430e07d549001e6dedb92b3893630abff8",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/803139430e07d549001e6dedb92b3893630abff8",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/803139430e07d549001e6dedb92b3893630abff8"
+        }
+      ]
+    },
+    {
+      "sha": "803139430e07d549001e6dedb92b3893630abff8",
+      "node_id": "C_kwDOKIXnAdoAKDgwMzEzOTQzMGUwN2Q1NDkwMDFlNmRlZGI5MmIzODkzNjMwYWJmZjg",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-09-14T06:37:12Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-09-14T06:37:12Z"
+        },
+        "message": "Printing vector text",
+        "tree": {
+          "sha": "f4d580be2244b597459955ecad04a775204886e9",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/f4d580be2244b597459955ecad04a775204886e9"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/803139430e07d549001e6dedb92b3893630abff8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/803139430e07d549001e6dedb92b3893630abff8",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/803139430e07d549001e6dedb92b3893630abff8",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/803139430e07d549001e6dedb92b3893630abff8/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "4ca026df611e36332819e5d721a5699a47c66e77",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/4ca026df611e36332819e5d721a5699a47c66e77",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/4ca026df611e36332819e5d721a5699a47c66e77"
+        }
+      ]
+    },
+    {
+      "sha": "4ca026df611e36332819e5d721a5699a47c66e77",
+      "node_id": "C_kwDOKIXnAdoAKDRjYTAyNmRmNjExZTM2MzMyODE5ZTVkNzIxYTU2OTlhNDdjNjZlNzc",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-09-14T06:31:03Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-09-14T06:31:03Z"
+        },
+        "message": "Minor fix to save every 500 or less",
+        "tree": {
+          "sha": "678d46cea32fa1e3ca987643badbd343161790ae",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/678d46cea32fa1e3ca987643badbd343161790ae"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/4ca026df611e36332819e5d721a5699a47c66e77",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/4ca026df611e36332819e5d721a5699a47c66e77",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/4ca026df611e36332819e5d721a5699a47c66e77",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/4ca026df611e36332819e5d721a5699a47c66e77/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "47e185f65032f619ae6016e2d59f761ab3273a56",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/47e185f65032f619ae6016e2d59f761ab3273a56",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/47e185f65032f619ae6016e2d59f761ab3273a56"
+        }
+      ]
+    },
+    {
+      "sha": "47e185f65032f619ae6016e2d59f761ab3273a56",
+      "node_id": "C_kwDOKIXnAdoAKDQ3ZTE4NWY2NTAzMmY2MTlhZTYwMTZlMmQ1OWY3NjFhYjMyNzNhNTY",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-09-12T09:09:41Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-09-12T09:09:41Z"
+        },
+        "message": "minor fix, default question",
+        "tree": {
+          "sha": "ad97197370afd614749cf011432a1a6d31f92e93",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/ad97197370afd614749cf011432a1a6d31f92e93"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/47e185f65032f619ae6016e2d59f761ab3273a56",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/47e185f65032f619ae6016e2d59f761ab3273a56",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/47e185f65032f619ae6016e2d59f761ab3273a56",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/47e185f65032f619ae6016e2d59f761ab3273a56/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "fe052805439b39caf626700d8fb6b7bd67e1ce6f",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/fe052805439b39caf626700d8fb6b7bd67e1ce6f",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/fe052805439b39caf626700d8fb6b7bd67e1ce6f"
+        }
+      ]
+    },
+    {
+      "sha": "fe052805439b39caf626700d8fb6b7bd67e1ce6f",
+      "node_id": "C_kwDOKIXnAdoAKGZlMDUyODA1NDM5YjM5Y2FmNjI2NzAwZDhmYjZiN2JkNjdlMWNlNmY",
+      "commit": {
+        "author": {
+          "name": "Omer Haim",
+          "email": "omerha@protonmail.com",
+          "date": "2023-08-17T21:57:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-17T21:57:24Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "59b2b2de76e78ab79327630cf03e853f04017c82",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/59b2b2de76e78ab79327630cf03e853f04017c82"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/fe052805439b39caf626700d8fb6b7bd67e1ce6f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk3pfECRBK7hj4Ov3rIwAA6OgIAGpl7peAqc3NA66xIbwGGCSa\nZuE5tOittgG72kT6W6KD8d2TX7LtBXAHfRBoHRP2ZJoPzRph5a9GwjsOHAq0f0e6\n6jQJ5sU9TTeCjjK+uB04tRgCrbYoPIZPyXqHoE5iYw5PXedlzz+z1Izh8jcrd+bO\n+JlgtI0EcGzVKOGgTVq//bY1LtKhceR9n+RJTKcC9EtfOoA3wuEJET6SI4/llrRg\nLkYoWUUZzoPyKflQwFPQSJnn0yd+Kz2x7OQgtN/1b93DszDEgQogwHOHFJAntz9o\nV2FKFUEg8YT10wryTirxW1Axv/QFKaDieACsir7GzlFbtDXWk2uVvaBRvldx4Bo=\n=LV5t\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 59b2b2de76e78ab79327630cf03e853f04017c82\nparent 8633b9ffa751ea1ec21e20151d75d4d933154594\nauthor Omer Haim <omerha@protonmail.com> 1692309444 +0300\ncommitter GitHub <noreply@github.com> 1692309444 +0300\n\nUpdate README.md",
+          "verified_at": "2024-11-12T01:57:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/fe052805439b39caf626700d8fb6b7bd67e1ce6f",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/fe052805439b39caf626700d8fb6b7bd67e1ce6f",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/fe052805439b39caf626700d8fb6b7bd67e1ce6f/comments",
+      "author": null,
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8633b9ffa751ea1ec21e20151d75d4d933154594",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/8633b9ffa751ea1ec21e20151d75d4d933154594",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/8633b9ffa751ea1ec21e20151d75d4d933154594"
+        }
+      ]
+    },
+    {
+      "sha": "8633b9ffa751ea1ec21e20151d75d4d933154594",
+      "node_id": "C_kwDOKIXnAdoAKDg2MzNiOWZmYTc1MWVhMWVjMjFlMjAxNTFkNzVkNGQ5MzMxNTQ1OTQ",
+      "commit": {
+        "author": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-08-17T19:46:03Z"
+        },
+        "committer": {
+          "name": "omerh",
+          "email": "omerha@protonmail.com",
+          "date": "2023-08-17T19:46:03Z"
+        },
+        "message": "First release",
+        "tree": {
+          "sha": "e10e32c5cc811c2536b65064d5bcb3194b438116",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/e10e32c5cc811c2536b65064d5bcb3194b438116"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/8633b9ffa751ea1ec21e20151d75d4d933154594",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/8633b9ffa751ea1ec21e20151d75d4d933154594",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/8633b9ffa751ea1ec21e20151d75d4d933154594",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/8633b9ffa751ea1ec21e20151d75d4d933154594/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "a13a0a01dd0ac4a728506bddafc0074fa35ac10a",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a13a0a01dd0ac4a728506bddafc0074fa35ac10a",
+          "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/a13a0a01dd0ac4a728506bddafc0074fa35ac10a"
+        }
+      ]
+    },
+    {
+      "sha": "a13a0a01dd0ac4a728506bddafc0074fa35ac10a",
+      "node_id": "C_kwDOKIXnAdoAKGExM2EwYTAxZGQwYWM0YTcyODUwNmJkZGFmYzAwNzRmYTM1YWMxMGE",
+      "commit": {
+        "author": {
+          "name": "Amazon GitHub Automation",
+          "email": "54958958+amazon-auto@users.noreply.github.com",
+          "date": "2023-08-17T19:40:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-17T19:40:19Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "02ada6e9144479e89c20949569bba85a307f1b8f",
+          "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/trees/02ada6e9144479e89c20949569bba85a307f1b8f"
+        },
+        "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/git/commits/a13a0a01dd0ac4a728506bddafc0074fa35ac10a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk3nejCRBK7hj4Ov3rIwAAsw8IAJkPHTyPHwrTqVSgguXs5nw9\nZifR+fVruJk751jTEW+sfbMwAqE9/q6sXaAThy5yxcPUx6bcLce8oYIGC+5Km+lw\nYrORGnLBCS8WiRBXBhfrHi0AMiEVUF4pFGxJipNyzsZzKG6lZDhW6/yPD08T3V1R\n0agWhgWuan14lh5+/Z3jCxDXMdz0UMMk4uBd8vvyq85kzDyK2oeXCgdi/4A0ve1l\nZdBhxYksFKOg3z1jGG+tGwvbOTe45v1CDsohrDSyRx8ncPhC7RyBO285lrfBHfgr\nVsLsZnER8Qw/iMI0BxRDuBz+loDICsBCelH7VbLp0m5NDpRV1D6/ib77E4HzP1s=\n=9SND\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 02ada6e9144479e89c20949569bba85a307f1b8f\nauthor Amazon GitHub Automation <54958958+amazon-auto@users.noreply.github.com> 1692301219 -0700\ncommitter GitHub <noreply@github.com> 1692301219 -0700\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a13a0a01dd0ac4a728506bddafc0074fa35ac10a",
+      "html_url": "https://github.com/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commit/a13a0a01dd0ac4a728506bddafc0074fa35ac10a",
+      "comments_url": "https://api.github.com/repos/aws-samples/rag-using-langchain-amazon-bedrock-and-opensearch/commits/a13a0a01dd0ac4a728506bddafc0074fa35ac10a/comments",
+      "author": {
+        "login": "amazon-auto",
+        "id": 54958958,
+        "node_id": "MDQ6VXNlcjU0OTU4OTU4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/54958958?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/amazon-auto",
+        "html_url": "https://github.com/amazon-auto",
+        "followers_url": "https://api.github.com/users/amazon-auto/followers",
+        "following_url": "https://api.github.com/users/amazon-auto/following{/other_user}",
+        "gists_url": "https://api.github.com/users/amazon-auto/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/amazon-auto/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/amazon-auto/subscriptions",
+        "organizations_url": "https://api.github.com/users/amazon-auto/orgs",
+        "repos_url": "https://api.github.com/users/amazon-auto/repos",
+        "events_url": "https://api.github.com/users/amazon-auto/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/amazon-auto/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "arik-porat",
+      "id": 55050457,
+      "node_id": "MDQ6VXNlcjU1MDUwNDU3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55050457?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arik-porat",
+      "html_url": "https://github.com/arik-porat",
+      "followers_url": "https://api.github.com/users/arik-porat/followers",
+      "following_url": "https://api.github.com/users/arik-porat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arik-porat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arik-porat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arik-porat/subscriptions",
+      "organizations_url": "https://api.github.com/users/arik-porat/orgs",
+      "repos_url": "https://api.github.com/users/arik-porat/repos",
+      "events_url": "https://api.github.com/users/arik-porat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arik-porat/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 6
+    },
+    {
+      "login": "yoavfish",
+      "id": 21334846,
+      "node_id": "MDQ6VXNlcjIxMzM0ODQ2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21334846?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yoavfish",
+      "html_url": "https://github.com/yoavfish",
+      "followers_url": "https://api.github.com/users/yoavfish/followers",
+      "following_url": "https://api.github.com/users/yoavfish/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yoavfish/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yoavfish/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yoavfish/subscriptions",
+      "organizations_url": "https://api.github.com/users/yoavfish/orgs",
+      "repos_url": "https://api.github.com/users/yoavfish/repos",
+      "events_url": "https://api.github.com/users/yoavfish/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yoavfish/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    },
+    {
+      "login": "amazon-auto",
+      "id": 54958958,
+      "node_id": "MDQ6VXNlcjU0OTU4OTU4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54958958?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/amazon-auto",
+      "html_url": "https://github.com/amazon-auto",
+      "followers_url": "https://api.github.com/users/amazon-auto/followers",
+      "following_url": "https://api.github.com/users/amazon-auto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/amazon-auto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/amazon-auto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/amazon-auto/subscriptions",
+      "organizations_url": "https://api.github.com/users/amazon-auto/orgs",
+      "repos_url": "https://api.github.com/users/amazon-auto/repos",
+      "events_url": "https://api.github.com/users/amazon-auto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/amazon-auto/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "omerh",
+      "id": 1240184,
+      "node_id": "MDQ6VXNlcjEyNDAxODQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1240184?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/omerh",
+      "html_url": "https://github.com/omerh",
+      "followers_url": "https://api.github.com/users/omerh/followers",
+      "following_url": "https://api.github.com/users/omerh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/omerh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/omerh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/omerh/subscriptions",
+      "organizations_url": "https://api.github.com/users/omerh/orgs",
+      "repos_url": "https://api.github.com/users/omerh/repos",
+      "events_url": "https://api.github.com/users/omerh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/omerh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 14488,
+    "HCL": 5156
+  },
+  "readme_html": "<h1 id=\"user-content-rag-using-langchain-with-amazon-bedrock-titan-text-and-embedding-using-opensearch-vector-engine\">RAG using LangChain with Amazon Bedrock Titan text, and embedding, using OpenSearch vector engine</h1>\n<p>This sample repository provides a sample code for using RAG (Retrieval augmented generation) method relaying on <a href=\"https://aws.amazon.com/bedrock/\">Amazon Bedrock</a> <a href=\"https://aws.amazon.com/bedrock/titan/\">Titan Embeddings Generation 1 (G1)</a> LLM (Large Language Model), for creating text embedding that will be stored in <a href=\"https://aws.amazon.com/opensearch-service/\">Amazon OpenSearch</a> with <a href=\"https://aws.amazon.com/about-aws/whats-new/2023/07/vector-engine-amazon-opensearch-serverless-preview/\">vector engine support</a> for assisting with the prompt engineering task for more accurate response from LLMs.</p>\n<p>After we successfully loaded embeddings into OpenSearch, we will then start querying our LLM, by using <a href=\"https://www.langchain.com/\">LangChain</a>. We will ask questions, retrieving similar embedding for a more accurate prompt.</p>\n<p>You can use <code>--bedrock-model-id</code> parameter, to seamlessly choose one of the available foundation model in Amazon Bedrock, that defaults to <a href=\"https://aws.amazon.com/bedrock/claude/\">Anthropic Claude v2</a> and can be replaced to any other model from any other model provider to choose your best performing foundation model.</p>\n<p>Anthropic:</p>\n<ul>\n<li>Claude v2 <code>python ./ask-bedrock-with-rag.py --ask \"How will AI will change our every day life?\"</code></li>\n<li>Claude v1.3 <code>python ./ask-bedrock-with-rag.py --bedrock-model-id anthropic.claude-v1 --ask \"How will AI will change our every day life?\"</code></li>\n<li>Claude Instance v1.2 <code>python ./ask-bedrock-with-rag.py --bedrock-model-id anthropic.claude-instant-v1 --ask \"How will AI will change our every day life?\"</code></li>\n</ul>\n<p>AI21 Labs:</p>\n<ul>\n<li>Jurassic-2 Ultra <code>python ./ask-bedrock-with-rag.py --bedrock-model-id ai21.j2-ultra-v1 --ask \"How will AI will change our every day life?\"</code></li>\n<li>Jurassic-2 Mid <code>python ./ask-bedrock-with-rag.py --bedrock-model-id ai21.j2-mid-v1 --ask \"How will AI will change our every day life?\"</code></li>\n</ul>\n<h2 id=\"user-content-prerequisites\">Prerequisites</h2>\n<ol>\n<li>\n<p>This was tested on Python 3.11.4</p>\n</li>\n<li>\n<p>It is advise to work on a clean environment, use <code>virtualenv</code> or any other virtual environment manager.</p>\n<pre><code class=\"language-bash\">pip install virtualenv\npython -m virtualenv venv\nsource ./venv/bin/activate\n</code></pre>\n</li>\n<li>\n<p>Install requirements <code>pip install -r requirements.txt</code></p>\n</li>\n<li>\n<p>Install <a href=\"https://developer.hashicorp.com/terraform/downloads?product_intent=terraform\">terraform</a> to create the OpenSearch cluster</p>\n<pre><code class=\"language-bash\">brew tap hashicorp/tap\nbrew install hashicorp/tap/terraform\n</code></pre>\n</li>\n<li>\n<p>Go to the Model Access <a href=\"https://us-east-1.console.aws.amazon.com/bedrock/home?region=us-east-1#/modelaccess\">page</a> and enable the foundation models you want to use.</p>\n</li>\n</ol>\n<h2 id=\"user-content-steps-for-using-this-sample-code\">Steps for using this sample code</h2>\n<ol>\n<li>\n<p>In the first step we will launch an OpenSearch cluster using Terraform.</p>\n<pre><code class=\"language-bash\">cd ./terraform\nterraform init\nterraform apply -auto-approve\n</code></pre>\n<blockquote>\n<blockquote>\n<p>This cluster configuration is for testing proposes only, as it's endpoint is public for simplifying the use of this sample code.</p>\n</blockquote>\n</blockquote>\n</li>\n<li>\n<p>Now that we have a running OpenSearch cluster with vector engine support we will start uploading our data that will help us with prompt engineering. For this sample, we will use a data source from <a href=\"https://huggingface.co\">Hugging Face</a> <a href=\"https://huggingface.co/datasets/sentence-transformers/embedding-training-data\">embedding-training-data</a> <a href=\"https://huggingface.co/datasets/sentence-transformers/embedding-training-data/resolve/main/gooaq_pairs.jsonl.gz\">gooaq_pairs</a>, we will download it, and invoke Titan embedding to get a text embedding, that we will store in OpenSearch for next steps.</p>\n<pre><code class=\"language-bash\">python load-data-to-opensearch.py --recreate 1 --early-stop 1\n</code></pre>\n<blockquote>\n<blockquote>\n<p>Optional arguments:</p>\n<ul>\n<li><code>--recreate</code> for recreating the index in OpenSearch</li>\n<li><code>--early-stop</code> to load only 100 embedded documents into OpenSearch</li>\n<li><code>--index</code> to use a different index than the default <strong>rag</strong></li>\n<li><code>--region</code> in case you are not using the default <strong>us-east-1</strong></li>\n<li><code>--multi-tenant</code> to use multi tenancy, will load data with tenant IDs (1-5)</li>\n</ul>\n</blockquote>\n</blockquote>\n</li>\n<li>\n<p>Now that we have embedded text, into our OpenSearch cluster, we can start querying our LLM model Titan text in Amazon Bedrock with RAG</p>\n<pre><code class=\"language-bash\">python ask-bedrock-with-rag.py --ask \"your question here\"\n</code></pre>\n<blockquote>\n<blockquote>\n<p>Optional arguments:</p>\n<ul>\n<li><code>--index</code> to use a different index than the default <strong>rag</strong></li>\n<li><code>--region</code> in case you are not using the default <strong>us-east-1</strong></li>\n<li><code>--bedrock-model-id</code> to choose different models than Anthropic's Claude v2</li>\n<li><code>--tenant-id</code> to filter only a specific tenant ID</li>\n</ul>\n</blockquote>\n</blockquote>\n</li>\n</ol>\n<h3 id=\"user-content-cleanup\">Cleanup</h3>\n<pre><code class=\"language-bash\">cd ./terraform\nterraform destroy # When prompt for confirmation, type yes, and press enter.\n</code></pre>\n<h2 id=\"user-content-contributing\">Contributing</h2>\n<p>See <a href=\"CONTRIBUTING.md#security-issue-notifications\">CONTRIBUTING</a> for more information.</p>\n<h2 id=\"user-content-license\">License</h2>\n<p>This library is licensed under the MIT-0 License. See the LICENSE file.</p>",
+  "_fetched_at": "2026-03-11T18:16:45.106Z"
+}

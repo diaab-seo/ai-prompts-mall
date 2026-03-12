@@ -1,0 +1,165 @@
+---
+/**
+ * ReadmeRenderer.astro — Renders pre-fetched README HTML safely.
+ * Uses sanitized HTML from the fetch pipeline. Adds anchor-linked headings.
+ */
+interface Props {
+  html: string;
+  repoFullName: string;
+}
+const { html, repoFullName } = Astro.props;
+const hasContent = html && html.trim().length > 0;
+---
+
+{hasContent ? (
+  <div class="readme-body prose" data-pagefind-body set:html={html} />
+) : (
+  <div class="readme-empty">
+    <p>No README available for this repository.</p>
+    <a
+      href={`https://github.com/${repoFullName}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="readme-gh-link"
+    >
+      View on GitHub →
+    </a>
+  </div>
+)}
+
+<style is:global>
+  /* Override README prose styles */
+  .readme-body {
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    color: var(--color-text);
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  /* Headings */
+  .readme-body h1,
+  .readme-body h2,
+  .readme-body h3,
+  .readme-body h4,
+  .readme-body h5,
+  .readme-body h6 {
+    margin-top: 1.75em;
+    margin-bottom: 0.5em;
+    line-height: 1.3;
+    scroll-margin-top: 80px;
+  }
+  .readme-body h1 { font-size: 1.75rem; border-bottom: 1px solid var(--color-border); padding-bottom: 0.4em; }
+  .readme-body h2 { font-size: 1.375rem; border-bottom: 1px solid var(--color-border); padding-bottom: 0.3em; }
+  .readme-body h3 { font-size: 1.125rem; }
+  .readme-body h4 { font-size: 1rem; }
+
+  /* Paragraphs */
+  .readme-body p { margin-bottom: 1em; }
+
+  /* Links */
+  .readme-body a { color: var(--color-accent); }
+  .readme-body a:hover { text-decoration: underline; }
+
+  /* Code */
+  .readme-body code {
+    font-family: var(--font-mono, monospace);
+    font-size: 0.875em;
+    background: var(--color-surface-2);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+  }
+  .readme-body pre {
+    background: var(--color-code-bg, #1e293b);
+    color: var(--color-code-text, #a5b4fc);
+    padding: 1rem 1.25rem;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin-bottom: 1.25em;
+    font-size: 0.8125rem;
+    line-height: 1.6;
+  }
+  .readme-body pre code {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    color: inherit;
+    font-size: inherit;
+  }
+
+  /* Lists */
+  .readme-body ul, .readme-body ol {
+    padding-left: 1.5em;
+    margin-bottom: 1em;
+  }
+  .readme-body li { margin-bottom: 0.25em; }
+
+  /* Blockquote */
+  .readme-body blockquote {
+    border-left: 4px solid var(--color-accent);
+    padding-left: 1em;
+    color: var(--color-text-muted);
+    margin: 1em 0;
+    font-style: italic;
+  }
+
+  /* Tables */
+  .readme-body table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    margin-bottom: 1.25em;
+    overflow-x: auto;
+    display: block;
+  }
+  .readme-body th, .readme-body td {
+    border: 1px solid var(--color-border);
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+  }
+  .readme-body th {
+    background: var(--color-surface);
+    font-weight: 600;
+  }
+  .readme-body tr:nth-child(even) td {
+    background: color-mix(in srgb, var(--color-surface) 40%, transparent);
+  }
+
+  /* Images */
+  .readme-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-block: 0.5em;
+  }
+
+  /* HR */
+  .readme-body hr { border: none; border-top: 1px solid var(--color-border); margin: 2em 0; }
+
+  /* Badges (small inline images) */
+  .readme-body img[src*="shields.io"],
+  .readme-body img[src*="badge"],
+  .readme-body img[src*="img.shields"] {
+    display: inline;
+    vertical-align: middle;
+    height: 20px;
+    width: auto;
+    border-radius: 4px;
+    margin: 0 2px;
+  }
+</style>
+
+<style>
+  .readme-empty {
+    text-align: center;
+    padding: 3rem;
+    color: var(--color-text-muted);
+  }
+  .readme-gh-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--color-accent);
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>

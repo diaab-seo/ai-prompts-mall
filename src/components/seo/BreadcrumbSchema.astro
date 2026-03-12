@@ -1,0 +1,17 @@
+---
+// BreadcrumbSchema — BreadcrumbList schema generator
+// Wraps Breadcrumb.astro for schema-only emission without visible HTML
+interface Crumb { label: string; href: string }
+interface Props { crumbs: Crumb[] }
+const { crumbs } = Astro.props;
+---
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": crumbs.map((c, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": c.label,
+    "item": `https://aipromptsmall.shop${c.href}`,
+  })),
+})} />

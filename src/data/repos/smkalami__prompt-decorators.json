@@ -1,0 +1,726 @@
+{
+  "id": 933588046,
+  "node_id": "R_kgDON6VsTg",
+  "name": "prompt-decorators",
+  "full_name": "smkalami/prompt-decorators",
+  "private": false,
+  "owner": {
+    "login": "smkalami",
+    "id": 26802922,
+    "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/smkalami",
+    "html_url": "https://github.com/smkalami",
+    "followers_url": "https://api.github.com/users/smkalami/followers",
+    "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+    "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+    "organizations_url": "https://api.github.com/users/smkalami/orgs",
+    "repos_url": "https://api.github.com/users/smkalami/repos",
+    "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/smkalami/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/smkalami/prompt-decorators",
+  "description": "Prompt Decorators are structured prefixes, such as +++Reasoning and +++StepByStep, designed to enhance AI responses. Inspired by Python decorators, they make AI outputs more logical, accurate, and well-organized without requiring lengthy instructions, simplifying interactions for users.",
+  "fork": false,
+  "url": "https://api.github.com/repos/smkalami/prompt-decorators",
+  "forks_url": "https://api.github.com/repos/smkalami/prompt-decorators/forks",
+  "keys_url": "https://api.github.com/repos/smkalami/prompt-decorators/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/smkalami/prompt-decorators/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/smkalami/prompt-decorators/teams",
+  "hooks_url": "https://api.github.com/repos/smkalami/prompt-decorators/hooks",
+  "issue_events_url": "https://api.github.com/repos/smkalami/prompt-decorators/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/smkalami/prompt-decorators/events",
+  "assignees_url": "https://api.github.com/repos/smkalami/prompt-decorators/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/smkalami/prompt-decorators/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/smkalami/prompt-decorators/tags",
+  "blobs_url": "https://api.github.com/repos/smkalami/prompt-decorators/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/smkalami/prompt-decorators/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/smkalami/prompt-decorators/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/smkalami/prompt-decorators/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/smkalami/prompt-decorators/languages",
+  "stargazers_url": "https://api.github.com/repos/smkalami/prompt-decorators/stargazers",
+  "contributors_url": "https://api.github.com/repos/smkalami/prompt-decorators/contributors",
+  "subscribers_url": "https://api.github.com/repos/smkalami/prompt-decorators/subscribers",
+  "subscription_url": "https://api.github.com/repos/smkalami/prompt-decorators/subscription",
+  "commits_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/smkalami/prompt-decorators/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/smkalami/prompt-decorators/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/smkalami/prompt-decorators/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/smkalami/prompt-decorators/merges",
+  "archive_url": "https://api.github.com/repos/smkalami/prompt-decorators/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/smkalami/prompt-decorators/downloads",
+  "issues_url": "https://api.github.com/repos/smkalami/prompt-decorators/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/smkalami/prompt-decorators/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/smkalami/prompt-decorators/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/smkalami/prompt-decorators/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/smkalami/prompt-decorators/labels{/name}",
+  "releases_url": "https://api.github.com/repos/smkalami/prompt-decorators/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/smkalami/prompt-decorators/deployments",
+  "created_at": "2025-02-16T10:36:08Z",
+  "updated_at": "2026-02-27T20:22:13Z",
+  "pushed_at": "2025-10-24T11:46:59Z",
+  "git_url": "git://github.com/smkalami/prompt-decorators.git",
+  "ssh_url": "git@github.com:smkalami/prompt-decorators.git",
+  "clone_url": "https://github.com/smkalami/prompt-decorators.git",
+  "svn_url": "https://github.com/smkalami/prompt-decorators",
+  "homepage": "",
+  "size": 485,
+  "stargazers_count": 462,
+  "watchers_count": 462,
+  "language": null,
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 56,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 1,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "generative-ai",
+    "large-language-model",
+    "large-language-models",
+    "llm",
+    "llms",
+    "prompt",
+    "prompt-decorators",
+    "prompt-engineering"
+  ],
+  "visibility": "public",
+  "forks": 56,
+  "open_issues": 1,
+  "watchers": 462,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "prompt-engineering",
+  "commits": [
+    {
+      "sha": "a44fead1e566fffffb57688e24fb2e4c3aa906af",
+      "node_id": "C_kwDON6VsTtoAKGE0NGZlYWQxZTU2NmZmZmZmYjU3Njg4ZTI0ZmIyZTRjM2FhOTA2YWY",
+      "commit": {
+        "author": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-24T11:46:56Z"
+        },
+        "committer": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-24T11:46:56Z"
+        },
+        "message": "README updated.",
+        "tree": {
+          "sha": "cda44890125cf777a96cc32eab8ed73aadb09425",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees/cda44890125cf777a96cc32eab8ed73aadb09425"
+        },
+        "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits/a44fead1e566fffffb57688e24fb2e4c3aa906af",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/a44fead1e566fffffb57688e24fb2e4c3aa906af",
+      "html_url": "https://github.com/smkalami/prompt-decorators/commit/a44fead1e566fffffb57688e24fb2e4c3aa906af",
+      "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/a44fead1e566fffffb57688e24fb2e4c3aa906af/comments",
+      "author": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ef99a4f347ac19441e97e1382f99f2437c122729",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/ef99a4f347ac19441e97e1382f99f2437c122729",
+          "html_url": "https://github.com/smkalami/prompt-decorators/commit/ef99a4f347ac19441e97e1382f99f2437c122729"
+        }
+      ]
+    },
+    {
+      "sha": "ef99a4f347ac19441e97e1382f99f2437c122729",
+      "node_id": "C_kwDON6VsTtoAKGVmOTlhNGYzNDdhYzE5NDQxZTk3ZTEzODJmOTlmMjQzN2MxMjI3Mjk",
+      "commit": {
+        "author": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-24T11:02:26Z"
+        },
+        "committer": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-24T11:02:26Z"
+        },
+        "message": "README updated.",
+        "tree": {
+          "sha": "2457f540619a3ee4b068a4eb0fcafe85ea86bc4e",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees/2457f540619a3ee4b068a4eb0fcafe85ea86bc4e"
+        },
+        "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits/ef99a4f347ac19441e97e1382f99f2437c122729",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/ef99a4f347ac19441e97e1382f99f2437c122729",
+      "html_url": "https://github.com/smkalami/prompt-decorators/commit/ef99a4f347ac19441e97e1382f99f2437c122729",
+      "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/ef99a4f347ac19441e97e1382f99f2437c122729/comments",
+      "author": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8f04975ce69911305d40e5405c3f07615c7427df",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/8f04975ce69911305d40e5405c3f07615c7427df",
+          "html_url": "https://github.com/smkalami/prompt-decorators/commit/8f04975ce69911305d40e5405c3f07615c7427df"
+        }
+      ]
+    },
+    {
+      "sha": "8f04975ce69911305d40e5405c3f07615c7427df",
+      "node_id": "C_kwDON6VsTtoAKDhmMDQ5NzVjZTY5OTExMzA1ZDQwZTU0MDVjM2YwNzYxNWM3NDI3ZGY",
+      "commit": {
+        "author": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-20T22:30:57Z"
+        },
+        "committer": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-20T22:30:57Z"
+        },
+        "message": "Minor Edits",
+        "tree": {
+          "sha": "a7eee5a81fbe547f45831032e11add44958502b5",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees/a7eee5a81fbe547f45831032e11add44958502b5"
+        },
+        "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits/8f04975ce69911305d40e5405c3f07615c7427df",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/8f04975ce69911305d40e5405c3f07615c7427df",
+      "html_url": "https://github.com/smkalami/prompt-decorators/commit/8f04975ce69911305d40e5405c3f07615c7427df",
+      "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/8f04975ce69911305d40e5405c3f07615c7427df/comments",
+      "author": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "56c3cfda502344c7b1e8a54c5a1f512d59ba34fc",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/56c3cfda502344c7b1e8a54c5a1f512d59ba34fc",
+          "html_url": "https://github.com/smkalami/prompt-decorators/commit/56c3cfda502344c7b1e8a54c5a1f512d59ba34fc"
+        }
+      ]
+    },
+    {
+      "sha": "56c3cfda502344c7b1e8a54c5a1f512d59ba34fc",
+      "node_id": "C_kwDON6VsTtoAKDU2YzNjZmRhNTAyMzQ0YzdiMWU4YTU0YzVhMWY1MTJkNTliYTM0ZmM",
+      "commit": {
+        "author": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-20T22:28:05Z"
+        },
+        "committer": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-10-20T22:28:05Z"
+        },
+        "message": "3rd Version of Prompt Decorators",
+        "tree": {
+          "sha": "f99e98ebd017cbe867cff175cfe3f18ea1c8b2f0",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees/f99e98ebd017cbe867cff175cfe3f18ea1c8b2f0"
+        },
+        "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits/56c3cfda502344c7b1e8a54c5a1f512d59ba34fc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/56c3cfda502344c7b1e8a54c5a1f512d59ba34fc",
+      "html_url": "https://github.com/smkalami/prompt-decorators/commit/56c3cfda502344c7b1e8a54c5a1f512d59ba34fc",
+      "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/56c3cfda502344c7b1e8a54c5a1f512d59ba34fc/comments",
+      "author": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0782a49578c78295f7e56901833423d13c0192af",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/0782a49578c78295f7e56901833423d13c0192af",
+          "html_url": "https://github.com/smkalami/prompt-decorators/commit/0782a49578c78295f7e56901833423d13c0192af"
+        }
+      ]
+    },
+    {
+      "sha": "0782a49578c78295f7e56901833423d13c0192af",
+      "node_id": "C_kwDON6VsTtoAKDA3ODJhNDk1NzhjNzgyOTVmN2U1NjkwMTgzMzQyM2QxM2MwMTkyYWY",
+      "commit": {
+        "author": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-04-26T07:21:01Z"
+        },
+        "committer": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-04-26T07:21:01Z"
+        },
+        "message": "Scope management added.",
+        "tree": {
+          "sha": "d8ad7bbb3fa7bacff60654135c80150bca863a86",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees/d8ad7bbb3fa7bacff60654135c80150bca863a86"
+        },
+        "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits/0782a49578c78295f7e56901833423d13c0192af",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/0782a49578c78295f7e56901833423d13c0192af",
+      "html_url": "https://github.com/smkalami/prompt-decorators/commit/0782a49578c78295f7e56901833423d13c0192af",
+      "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/0782a49578c78295f7e56901833423d13c0192af/comments",
+      "author": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4a5d9600145b6e36b5a34051eebd79db837b3882",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/4a5d9600145b6e36b5a34051eebd79db837b3882",
+          "html_url": "https://github.com/smkalami/prompt-decorators/commit/4a5d9600145b6e36b5a34051eebd79db837b3882"
+        }
+      ]
+    },
+    {
+      "sha": "4a5d9600145b6e36b5a34051eebd79db837b3882",
+      "node_id": "C_kwDON6VsTtoAKDRhNWQ5NjAwMTQ1YjZlMzZiNWEzNDA1MWVlYmQ3OWRiODM3YjM4ODI",
+      "commit": {
+        "author": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-02-16T10:36:44Z"
+        },
+        "committer": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-02-16T10:36:44Z"
+        },
+        "message": "README updated.",
+        "tree": {
+          "sha": "9d92311f96561ac2e9a99ff885aed68078c841dc",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees/9d92311f96561ac2e9a99ff885aed68078c841dc"
+        },
+        "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits/4a5d9600145b6e36b5a34051eebd79db837b3882",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/4a5d9600145b6e36b5a34051eebd79db837b3882",
+      "html_url": "https://github.com/smkalami/prompt-decorators/commit/4a5d9600145b6e36b5a34051eebd79db837b3882",
+      "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/4a5d9600145b6e36b5a34051eebd79db837b3882/comments",
+      "author": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b2e4beb07b2f12b3f27f12133be9e66662f949dc",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/b2e4beb07b2f12b3f27f12133be9e66662f949dc",
+          "html_url": "https://github.com/smkalami/prompt-decorators/commit/b2e4beb07b2f12b3f27f12133be9e66662f949dc"
+        }
+      ]
+    },
+    {
+      "sha": "b2e4beb07b2f12b3f27f12133be9e66662f949dc",
+      "node_id": "C_kwDON6VsTtoAKGIyZTRiZWIwN2IyZjEyYjNmMjdmMTIxMzNiZTllNjY2NjJmOTQ5ZGM",
+      "commit": {
+        "author": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-02-16T10:36:08Z"
+        },
+        "committer": {
+          "name": "Mostapha Kalami Heris",
+          "email": "sm.kalami@gmail.com",
+          "date": "2025-02-16T10:36:08Z"
+        },
+        "message": "first commit",
+        "tree": {
+          "sha": "4657a9456eabb4220fed379bbeb0cf51d3847bbe",
+          "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/trees/4657a9456eabb4220fed379bbeb0cf51d3847bbe"
+        },
+        "url": "https://api.github.com/repos/smkalami/prompt-decorators/git/commits/b2e4beb07b2f12b3f27f12133be9e66662f949dc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/b2e4beb07b2f12b3f27f12133be9e66662f949dc",
+      "html_url": "https://github.com/smkalami/prompt-decorators/commit/b2e4beb07b2f12b3f27f12133be9e66662f949dc",
+      "comments_url": "https://api.github.com/repos/smkalami/prompt-decorators/commits/b2e4beb07b2f12b3f27f12133be9e66662f949dc/comments",
+      "author": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "smkalami",
+        "id": 26802922,
+        "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/smkalami",
+        "html_url": "https://github.com/smkalami",
+        "followers_url": "https://api.github.com/users/smkalami/followers",
+        "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+        "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+        "organizations_url": "https://api.github.com/users/smkalami/orgs",
+        "repos_url": "https://api.github.com/users/smkalami/repos",
+        "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/smkalami/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "smkalami",
+      "id": 26802922,
+      "node_id": "MDQ6VXNlcjI2ODAyOTIy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26802922?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/smkalami",
+      "html_url": "https://github.com/smkalami",
+      "followers_url": "https://api.github.com/users/smkalami/followers",
+      "following_url": "https://api.github.com/users/smkalami/following{/other_user}",
+      "gists_url": "https://api.github.com/users/smkalami/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/smkalami/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/smkalami/subscriptions",
+      "organizations_url": "https://api.github.com/users/smkalami/orgs",
+      "repos_url": "https://api.github.com/users/smkalami/repos",
+      "events_url": "https://api.github.com/users/smkalami/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/smkalami/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 7
+    }
+  ],
+  "releases": [],
+  "languages": {},
+  "readme_html": "<h1 id=\"user-content-prompt-decorators-framework\">Prompt Decorators Framework</h1>\n<p>Prompt Decorators extend the functionality of large language models by allowing structured, modular control over reasoning, style, and behavior.\nEach decorator enforces specific response rules, enabling users to declaratively modify how the model thinks and writes — without retraining.</p>\n<hr>\n<h2 id=\"user-content-conceptual-overview\">Conceptual Overview</h2>\n<p>Prompt Decorators are lightweight control markers (for example, <code>+++Reasoning</code>) that alter the response generation process.\nThey can be combined, scoped, and remembered during conversation, forming a flexible behavioral layer over standard prompting.</p>\n<hr>\n<h2 id=\"user-content-categories-of-prompt-decorators\">Categories of Prompt Decorators</h2>\n<p>The Prompt Decorators framework is organized into two main families, as illustrated in the taxonomy diagram below:</p>\n<p><img src=\"https://raw.githubusercontent.com/smkalami/prompt-decorators/main/./images/prompt-decorator-categories.png\" alt=\"Prompt Decorator Categories\"></p>\n<h3 id=\"user-content-a-cognitive--generative-decorators\"><strong>A. Cognitive &#x26; Generative Decorators</strong></h3>\n<p>These decorators guide <em>how the model thinks, explores, and develops ideas.</em></p>\n<table>\n<thead>\n<tr>\n<th><strong>Subcategory</strong></th>\n<th><strong>Purpose</strong></th>\n<th><strong>Key Decorators</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Reasoning &#x26; Generation</strong></td>\n<td>Enforce analytical, logical, or multi-perspective reasoning.</td>\n<td><code>+++Reasoning</code>, <code>+++Debate</code>, <code>+++Socratic</code></td>\n</tr>\n<tr>\n<td><strong>Exploration, Interaction &#x26; Planning</strong></td>\n<td>Encourage open-ended exploration, inquiry, and planning.</td>\n<td><code>+++Interactive</code>, <code>+++Brainstorm</code>, <code>+++Planning</code>, <code>+++Import</code></td>\n</tr>\n<tr>\n<td><strong>Inquiry &#x26; Clarification</strong></td>\n<td>Ensure information gaps are identified and clarified before proceeding.</td>\n<td><code>+++Interactive</code>, <code>+++Rewrite</code></td>\n</tr>\n<tr>\n<td><strong>Idea Development &#x26; Structuring</strong></td>\n<td>Refine, structure, and extend ideas into coherent outputs.</td>\n<td><code>+++Rewrite</code>, <code>+++Planning</code></td>\n</tr>\n<tr>\n<td><strong>Evaluation, Feedback &#x26; Refinement</strong></td>\n<td>Critically assess and improve content through iteration.</td>\n<td><code>+++Critique</code>, <code>+++Refine</code>, <code>+++Candor</code></td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h3 id=\"user-content-b-expressive--systemic-decorators\"><strong>B. Expressive &#x26; Systemic Decorators</strong></h3>\n<p>These decorators control <em>how the model expresses results, manages sessions, and ensures consistency.</em></p>\n<table>\n<thead>\n<tr>\n<th><strong>Subcategory</strong></th>\n<th><strong>Purpose</strong></th>\n<th><strong>Key Decorators</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Output Formatting &#x26; Expression</strong></td>\n<td>Structure or constrain the format and tone of output.</td>\n<td><code>+++OutputFormat</code>, <code>+++Tone</code></td>\n</tr>\n<tr>\n<td><strong>Meta-Control &#x26; Session Management</strong></td>\n<td>Manage decorator state, memory, and operational flow.</td>\n<td><code>+++ChatScope</code>, <code>+++MessageScope</code>, <code>+++Clear</code>, <code>+++ActiveDecs</code>, <code>+++AvailableDecs</code>, <code>+++Validate</code>, <code>+++FactCheck</code>, <code>+++CiteSources</code>, <code>+++Export</code>, <code>+++Dump</code></td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2 id=\"user-content-combining-decorators\">Combining Decorators</h2>\n<p>Multiple decorators can be combined to refine responses.\nFor example:</p>\n<pre><code class=\"language-prompt\">+++Reasoning\n+++StepByStep\n+++Tone(style=formal)\n\nExplain the economic impact of renewable energy transitions.\n</code></pre>\n<p>This prompt enforces logical reasoning, structured progression, and formal tone simultaneously.</p>\n<hr>\n<h2 id=\"user-content-key-prompt-decorators-and-their-benefits\">Key Prompt Decorators and Their Benefits</h2>\n<table>\n<thead>\n<tr>\n<th><strong>Prompt Decorator</strong></th>\n<th><strong>Parameters</strong></th>\n<th><strong>Function</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>+++Reasoning</code></td>\n<td>—</td>\n<td>Ensures logical explanation before answering</td>\n</tr>\n<tr>\n<td><code>+++StepByStep</code></td>\n<td>—</td>\n<td>Breaks down complex tasks into sequential reasoning</td>\n</tr>\n<tr>\n<td><code>+++Socratic</code></td>\n<td>—</td>\n<td>Encourages critical thinking through guided questions</td>\n</tr>\n<tr>\n<td><code>+++Debate</code></td>\n<td>—</td>\n<td>Generates multiple perspectives before concluding</td>\n</tr>\n<tr>\n<td><code>+++Critique</code></td>\n<td>—</td>\n<td>Analyzes strengths and weaknesses before improving</td>\n</tr>\n<tr>\n<td><code>+++Refine(iterations=N)</code></td>\n<td><code>iterations</code> – number of refinement cycles</td>\n<td>Iterates through multiple improvements</td>\n</tr>\n<tr>\n<td><code>+++Interactive(limit=N, style=TYPE)</code></td>\n<td><code>limit</code>, <code>style</code></td>\n<td>Asks clarifying questions when context is incomplete</td>\n</tr>\n<tr>\n<td><code>+++Planning</code></td>\n<td>—</td>\n<td>Outlines objectives and approach before execution</td>\n</tr>\n<tr>\n<td><code>+++Brainstorm(limit=N, diversity=LEVEL)</code></td>\n<td><code>limit</code>, <code>diversity</code></td>\n<td>Produces diverse ideas without early evaluation</td>\n</tr>\n<tr>\n<td><code>+++Rewrite</code></td>\n<td>—</td>\n<td>Reframes the user’s prompt for clarity and precision</td>\n</tr>\n<tr>\n<td><code>+++Import(topic=STRING)</code></td>\n<td><code>topic</code> – conceptual or disciplinary lens</td>\n<td>Applies a named lens to reasoning</td>\n</tr>\n<tr>\n<td><code>+++Candor(level=LEVEL)</code></td>\n<td><code>level</code> – low, medium, or high</td>\n<td>Controls feedback directness while staying professional</td>\n</tr>\n<tr>\n<td><code>+++OutputFormat(format=FORMAT)</code></td>\n<td><code>format</code> – output type</td>\n<td>Structures the response in a specific format</td>\n</tr>\n<tr>\n<td><code>+++Tone(style=STYLE)</code></td>\n<td><code>style</code> – tone or register</td>\n<td>Adjusts the communication tone or style</td>\n</tr>\n<tr>\n<td><code>+++FactCheck</code></td>\n<td>—</td>\n<td>Verifies factual accuracy of key claims</td>\n</tr>\n<tr>\n<td><code>+++CiteSources</code></td>\n<td>—</td>\n<td>Ensures all major claims are supported by sources</td>\n</tr>\n<tr>\n<td><code>+++Validate</code></td>\n<td>—</td>\n<td>Performs self-check on grammar, logic, and consistency</td>\n</tr>\n<tr>\n<td><code>+++ChatScope</code></td>\n<td>—</td>\n<td>Applies decorators persistently across a conversation</td>\n</tr>\n<tr>\n<td><code>+++MessageScope</code></td>\n<td>—</td>\n<td>Limits decorator effects to a single message</td>\n</tr>\n<tr>\n<td><code>+++Clear(targets=LIST)</code></td>\n<td><code>targets</code> – decorators to clear (optional)</td>\n<td>Clears all or specified active decorators</td>\n</tr>\n<tr>\n<td><code>+++ActiveDecs</code></td>\n<td>—</td>\n<td>Lists currently active decorators</td>\n</tr>\n<tr>\n<td><code>+++AvailableDecs</code></td>\n<td>—</td>\n<td>Lists all available decorators and their status</td>\n</tr>\n<tr>\n<td><code>+++Export(format=FORMAT)</code></td>\n<td><code>format</code> – text, markdown, json, yaml</td>\n<td>Exports or summarizes conversation in a chosen format</td>\n</tr>\n<tr>\n<td><code>+++Dump</code></td>\n<td>Alias of <code>+++Export</code></td>\n<td>Quick or raw output version of <code>+++Export</code></td>\n</tr>\n</tbody>\n</table>\n<hr>\n<h2 id=\"user-content-how-scope-and-memory-work\">How Scope and Memory Work</h2>\n<p>Decorator scope controls <em>how long</em> and <em>where</em> a decorator applies:</p>\n<ul>\n<li><strong>Message Scope</strong> (<code>+++MessageScope</code>) → Affects only the current prompt.</li>\n<li><strong>Chat Scope</strong> (<code>+++ChatScope</code>) → Persists across conversation turns.</li>\n<li><strong>Clear</strong> (<code>+++Clear</code>) → Resets decorators selectively or entirely.</li>\n</ul>\n<p>The system retains awareness of active decorators to ensure consistent behavior between exchanges.</p>\n<hr>\n<h2 id=\"user-content-prompt-decorators-definitions\">Prompt Decorators Definitions</h2>\n<p>Detailed definitions for each decorator are provided in <strong><a href=\"./prompt-decorators.txt\"><code>prompt-decorators.txt</code></a></strong>.</p>\n<p>Each definition specifies:</p>\n<ul>\n<li>Behavioral rules</li>\n<li>Response structure</li>\n<li>Parameters (if applicable)</li>\n<li>Compliance and scope requirements</li>\n</ul>\n<h3 id=\"user-content-how-to-use-the-definition-file\">How to Use the Definition File</h3>\n<p>Prompt Decorators rely on the model’s memory of definitions.\nTo enable them in chat-based LLMs (such as ChatGPT, Gemini, Claude, or Grok):</p>\n<ol>\n<li><strong>Provide the definitions file once</strong> — paste the contents of <code>prompt-decorators.txt</code> into the chat or add it to your custom/system instructions.</li>\n<li>The model will then “remember” the rules and behaviors of each decorator for that session.</li>\n<li>You can activate decorators inline by prefixing them in your prompt, for example:</li>\n</ol>\n<pre><code class=\"language-prompt\">+++Reasoning\n+++Tone(style=formal)\n\nExplain why renewable energy transition affects global markets.\n</code></pre>\n<ol start=\"4\">\n<li>Multiple decorators can be combined to modify reasoning, tone, structure, and verification layers.</li>\n<li>To reset behaviors, use <code>+++Clear</code> or restart the session.</li>\n</ol>\n<p>This approach makes decorators portable and platform-agnostic — no code modification required.</p>\n<hr>\n<h2 id=\"user-content-examples-of-decorator-usage\">Examples of Decorator Usage</h2>\n<p>Below are simple examples illustrating how one, two, or three decorators change the model’s behavior.\nThese examples use natural language inputs that can be pasted directly into an LLM chat.</p>\n<h3 id=\"user-content-example-1--single-decorator\"><strong>Example 1 – Single Decorator</strong></h3>\n<pre><code class=\"language-prompt\">+++Reasoning\n\nWhy did the Roman Empire fall?\n</code></pre>\n<p><strong>Expected behavior:</strong> The model explains its reasoning process before answering, giving a logical chain of causes.</p>\n<hr>\n<h3 id=\"user-content-example-2--two-decorators\"><strong>Example 2 – Two Decorators</strong></h3>\n<pre><code class=\"language-prompt\">+++StepByStep\n+++Tone(style=formal)\n\nDescribe how neural networks learn from data.\n</code></pre>\n<p><strong>Expected behavior:</strong> The model breaks down the explanation into sequential steps, maintaining a formal tone.</p>\n<hr>\n<h3 id=\"user-content-example-3--three-decorators\"><strong>Example 3 – Three Decorators</strong></h3>\n<pre><code class=\"language-prompt\">+++Brainstorm(limit=5, diversity=high)\n+++Critique\n+++Refine(iterations=3)\nPropose innovative applications for large language models in healthcare.\n</code></pre>\n<p><strong>Expected behavior:</strong></p>\n<ol>\n<li>The model first generates five diverse ideas.</li>\n<li>Then it critiques their strengths and weaknesses.</li>\n<li>Finally, it refines and improves the top ideas over two iterations.</li>\n</ol>\n<p>These compositional examples show how decorators can stack logically to form complex cognitive workflows without retraining the model.</p>\n<hr>\n<h2 id=\"user-content-citation\">Citation</h2>\n<p>The Prompt Decorators framework is described in detail in the paper:</p>\n<p><strong>\"Prompt Decorators: A Declarative and Composable Syntax for Reasoning, Formatting, and Control in LLMs\"</strong><br>\n<em>Mostapha Kalami Heris</em><br>\narXiv preprint arXiv:2510.19850 (2025)</p>\n<p>📄 <strong>Read the full paper:</strong> <a href=\"https://arxiv.org/abs/2510.19850\">https://arxiv.org/abs/2510.19850</a></p>\n<h3 id=\"user-content-bibtex-citation\">BibTeX Citation</h3>\n<pre><code class=\"language-bibtex\">@misc{heris2025promptdecorators,\n      title={Prompt Decorators: A Declarative and Composable Syntax for Reasoning, Formatting, and Control in LLMs}, \n      author={Mostapha Kalami Heris},\n      year={2025},\n      eprint={2510.19850},\n      archivePrefix={arXiv},\n      primaryClass={cs.PL},\n      url={https://arxiv.org/abs/2510.19850}\n}\n</code></pre>\n<hr>\n<h2 id=\"user-content-license\">License</h2>\n<p>This framework is open-source under the MIT License.\nYou are free to adapt, extend, or integrate it in your own prompt engineering workflows with attribution.</p>",
+  "_fetched_at": "2026-03-11T18:04:06.477Z"
+}

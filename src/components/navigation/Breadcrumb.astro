@@ -1,0 +1,80 @@
+---
+// Breadcrumb — with container and proper SEO schema
+interface Crumb { label: string; href: string }
+interface Props { crumbs: Crumb[] }
+const { crumbs } = Astro.props;
+---
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <nav id="breadcrumb-nav" aria-label="Breadcrumb">
+      <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+        {crumbs.map((c, i) => (
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            {i < crumbs.length - 1
+              ? <a itemprop="item" href={c.href}><span itemprop="name">{c.label}</span></a>
+              : <span itemprop="name" aria-current="page">{c.label}</span>
+            }
+            <meta itemprop="position" content={String(i + 1)} />
+            {i < crumbs.length - 1 && <span class="bc-sep" aria-hidden="true">/</span>}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": crumbs.map((c, i) => ({
+    "@type": "ListItem",
+    "position": i + 1,
+    "name": c.label,
+    "item": `https://aipromptsmall.shop${c.href}`,
+  })),
+})} />
+
+<style>
+  .breadcrumb-bar {
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding-block: 0.5rem;
+  }
+
+  nav ol {
+    display: flex;
+    align-items: center;
+    
+    gap: 0;
+    list-style: none;
+    font-size: 0.8125rem;
+  }
+
+  nav li {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    color: var(--color-text-muted);
+  }
+
+  nav a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.12s;
+  }
+  nav a:hover { opacity: 0.75; text-decoration: underline; }
+
+  nav li:last-child span[aria-current] {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+
+  .bc-sep {
+    margin-inline: 0.5rem;
+    color: var(--color-border);
+    font-size: 0.875rem;
+    user-select: none;
+  }
+</style>

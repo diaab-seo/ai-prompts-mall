@@ -1,0 +1,1961 @@
+{
+  "id": 756867080,
+  "node_id": "R_kgDOLRzgCA",
+  "name": "scrapeGPT",
+  "full_name": "LexiestLeszek/scrapeGPT",
+  "private": false,
+  "owner": {
+    "login": "LexiestLeszek",
+    "id": 63610219,
+    "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LexiestLeszek",
+    "html_url": "https://github.com/LexiestLeszek",
+    "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+    "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+    "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+    "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+    "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/LexiestLeszek/scrapeGPT",
+  "description": "ScrapeGPT is a RAG-based Telegram bot designed to scrape and analyze websites, then answer questions based on the scraped content. The bot utilizes Retrieval Augmented Generation and webscraping to return natural language answers to the user's queries.",
+  "fork": false,
+  "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT",
+  "forks_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/forks",
+  "keys_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/teams",
+  "hooks_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/hooks",
+  "issue_events_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/events",
+  "assignees_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/tags",
+  "blobs_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/languages",
+  "stargazers_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/stargazers",
+  "contributors_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/contributors",
+  "subscribers_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/subscribers",
+  "subscription_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/subscription",
+  "commits_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/merges",
+  "archive_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/downloads",
+  "issues_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/labels{/name}",
+  "releases_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/deployments",
+  "created_at": "2024-02-13T13:17:26Z",
+  "updated_at": "2025-09-30T08:12:51Z",
+  "pushed_at": "2024-02-17T09:06:56Z",
+  "git_url": "git://github.com/LexiestLeszek/scrapeGPT.git",
+  "ssh_url": "git@github.com:LexiestLeszek/scrapeGPT.git",
+  "clone_url": "https://github.com/LexiestLeszek/scrapeGPT.git",
+  "svn_url": "https://github.com/LexiestLeszek/scrapeGPT",
+  "homepage": "",
+  "size": 64,
+  "stargazers_count": 87,
+  "watchers_count": 87,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 15,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "crawler",
+    "huggingface",
+    "large-language-models",
+    "llm",
+    "ollama",
+    "proxy",
+    "rag",
+    "retrieval-augmented-generation",
+    "robots-txt",
+    "scraper",
+    "telegram-bot",
+    "website-scraper"
+  ],
+  "visibility": "public",
+  "forks": 15,
+  "open_issues": 0,
+  "watchers": 87,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "open-source-llms",
+  "commits": [
+    {
+      "sha": "02433efeaca8d4ad42dc1eb580998e8608be7a5d",
+      "node_id": "C_kwDOLRzgCNoAKDAyNDMzZWZlYWNhOGQ0YWQ0MmRjMWViNTgwOTk4ZTg2MDhiZTdhNWQ",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-17T09:06:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-17T09:06:55Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "629238de03aef757106d391a25b0e38b458ec850",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/629238de03aef757106d391a25b0e38b458ec850"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/02433efeaca8d4ad42dc1eb580998e8608be7a5d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJl0HcvCRC1aQ7uu5UhlAAAwCwQAFAzPzCwliSJ5GOOCnzI0zC5\nPf/E+rRr8Cl6GRamE/v5sAac9K+ud/5lxYQBWHKJaj+fBmX4KPfIQ0fCiZXYW9oS\nIXRzVIPqlg9hd8ArqxNFPT+2tBLQRJHvUIF70N23pyX8NmQwVqrtco5pxFB81+TW\nCvynWXyWYeUJrreWpzz+CnWA+vwlKmLFHsV3QJs66P6i1Dah107VCx4M9exvA40H\nhIZ/Uk0MIUskFrW9d7WVclM1LUlwGAOBMKclJJjP3ZhFYDcV01BwtkJpp420jrDg\n6fJSDvzdD2AtmxeWuD/zeZmUdB38C/9Xz/ERghakjksxvtjXeUCsrsDBaOPLe5p0\nbV+AvTZ1D/5pqTPhFpY4W5MZZznW1G4l/PMs/KRd65Rw0jhbbdDvfqNgj6mKt2c4\nefoI9UWFTZgsnQ2i1pr3I8fWWFPERUQDgErFYskUeopuAmdVKxTmCPw9MQoAY/43\n1cIuOjVkIUNzrBg7gCLBPmjX/GF/PDu7zZ0fEERy7qmyHT5PZ4lUrgtbELlC1GiR\nY1e3/8qVyMQKWu+DOb4t9RqITtjHfiN4GrSFRI5QFKk5RLwxcktd7jlZteAnMV9s\nqi8ovc8q6/IblDtTY8PQEikLMnrkhOdCOVj5UktwQochGWP0x0UIa30A/Di13usG\nNkpHbIpkz47urbKgSmTg\n=vVrH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 629238de03aef757106d391a25b0e38b458ec850\nparent 86b776d727ec726e63b95428ba8babffda5620b9\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708160815 +0100\ncommitter GitHub <noreply@github.com> 1708160815 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-10T07:23:55Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/02433efeaca8d4ad42dc1eb580998e8608be7a5d",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/02433efeaca8d4ad42dc1eb580998e8608be7a5d",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/02433efeaca8d4ad42dc1eb580998e8608be7a5d/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "86b776d727ec726e63b95428ba8babffda5620b9",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/86b776d727ec726e63b95428ba8babffda5620b9",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/86b776d727ec726e63b95428ba8babffda5620b9"
+        }
+      ]
+    },
+    {
+      "sha": "86b776d727ec726e63b95428ba8babffda5620b9",
+      "node_id": "C_kwDOLRzgCNoAKDg2Yjc3NmQ3MjdlYzcyNmU2M2I5NTQyOGJhOGJhYmZmZGE1NjIwYjk",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-16T08:39:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-16T08:39:32Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "3ed6271d28ba1087713e49c69bfaef6172743847",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/3ed6271d28ba1087713e49c69bfaef6172743847"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/86b776d727ec726e63b95428ba8babffda5620b9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzx9ECRC1aQ7uu5UhlAAAAbcQAGSXq6ihMbzPi+UGuS6Prci1\n0DefoyVIuUL+vdITxHBy/decwkYgfN3gqPuk06s0FRF7jlh628SQUmurhrjQMmFa\nHeSsCG7ikFxSId34XxG6nnMODMiwjyf1ZakcB/Iw7nqLWnkgZ94mhf8pNcREos7h\nUrhTW66jFokc9fw3Tva/5oywWy1yK446vgHN2kIckzVClfUigOEBqrdb4f28JBVu\n7Ks6/LD4R7mHQb7E5Z3og+H8wflEpHyPWoohvuc7QD59OKLevEO0EZFkMUZw0d6D\nmmDUAaie5U8r6B3TbTu4gw7FtK3gzOYyRQbs+/da1wgaGeX8lvAHdNZY25foWasO\nubpazzKE4EVlEStUZhZ9zSLdlXY7ZtG3jXbn/oPP1JVcMbhaFGJfqTOpSYz+Yz6l\npRmsXw3kgq1yYEqzXLqHQm9CgmEzLL/NjB0V5LRJqIVshx4CmDe3vw3MvdNe3K7W\nLNvbaHs3uPV26pZtamqeT4C/IG6iQfX48FMPhLwqdUE4XuDSfTYjWHbqc9SoahR0\n6dEVtOjx1iRZf84JkV0jO68nGCruQpBomRwRJ6kjoFnuLj3D/I61eSxxBa18KNbq\nOkyxZ9oyQs6Sp2SceQH3IIaCBHtC2VYIjtWzy6TZuaudWz5Kaixu4mhNoxqF3JYs\nW+VQZpnA8MVpYqC6zYJf\n=qV6E\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3ed6271d28ba1087713e49c69bfaef6172743847\nparent a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708072772 +0100\ncommitter GitHub <noreply@github.com> 1708072772 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/86b776d727ec726e63b95428ba8babffda5620b9",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/86b776d727ec726e63b95428ba8babffda5620b9",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/86b776d727ec726e63b95428ba8babffda5620b9/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096"
+        }
+      ]
+    },
+    {
+      "sha": "a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096",
+      "node_id": "C_kwDOLRzgCNoAKGEzYThkOWNlYmI4Yzc3N2NjM2NlNWFjNGQyMDg5ZjhkMTIxMjkwOTY",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-16T08:38:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-16T08:38:41Z"
+        },
+        "message": "Rename gradio_version.py to scrapeGPT_gradio_app.py",
+        "tree": {
+          "sha": "6d159866f2e233a03d24b53e6591180e958c35aa",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/6d159866f2e233a03d24b53e6591180e958c35aa"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzx8RCRC1aQ7uu5UhlAAADBwQADZKd2f9uhTBsDroMvXydurO\n/qXhOxH1oSMi7hwuXMUmDdimTNL1r1R8LGDELAxTsLHnM9peFBLEmxVDgZNbwAPm\n/o4yx5oRy6Cstx1Zh2W3NGZxGOfym4T5eYF4QM9y1HXvJkX2cnqKI1njRIt+Ts1x\npOThlGHsqegHlDKF9WA+9BufU8DquOHNpufY0S05WLh0BUQPPbRLVxT3qm8nNK9Q\nxP0fzCME4n3G3kCcP8/udOkEyHg+VBHvZpc8FFZrj82vDTT8fRt8+SZrxdSUeQt4\nR9/MkaHOKnR4rGpiyOGEzTdITA2ILqY0zHE9jA3a5Gc/A1+WRV8+tV/QYTQgKw13\n7D0U1LEL+qaWewnhzcW7ogPuBvm8bFbXSEwt/ina01s6x2VcW+NUtLTW/oVuX7wj\nWtk9zGWwBRxuw+vZKmo3bRo/0IjKzgMXLjoXPKWA31fdUrgPvCbt6+KT2m2VRhWP\noaRN6vLZ7TKxSZcy8gSW166b9ycfaP1kUW61nJUPRj4hIsjU9wGkEEZlTXmBTW5f\n5w1iE8dtOFLSmb+v5S3efsj0wKHs0qo587RdwcJ2qkKSFYBWzrQe9+UDVZGyJz0O\nsTvSRmWSOjLew6vU62Fsr6DT6cvgFsWVQzq3UrhsiBevpLsp/DukHZpC/X6fNsB8\nK7is1skr7ccS4uWRZhQ8\n=YFcH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6d159866f2e233a03d24b53e6591180e958c35aa\nparent b6f0956ce52f16ec692926d3d84bdbf22ff63a87\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708072721 +0100\ncommitter GitHub <noreply@github.com> 1708072721 +0100\n\nRename gradio_version.py to scrapeGPT_gradio_app.py",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/a3a8d9cebb8c777cc3ce5ac4d2089f8d12129096/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b6f0956ce52f16ec692926d3d84bdbf22ff63a87",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/b6f0956ce52f16ec692926d3d84bdbf22ff63a87",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/b6f0956ce52f16ec692926d3d84bdbf22ff63a87"
+        }
+      ]
+    },
+    {
+      "sha": "b6f0956ce52f16ec692926d3d84bdbf22ff63a87",
+      "node_id": "C_kwDOLRzgCNoAKGI2ZjA5NTZjZTUyZjE2ZWM2OTI5MjZkM2Q4NGJkYmYyMmZmNjNhODc",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-15T15:25:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-15T15:25:56Z"
+        },
+        "message": "Update gradio_version.py",
+        "tree": {
+          "sha": "b6d678186da034c03a923a692f9e6f5db7cfc9b9",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/b6d678186da034c03a923a692f9e6f5db7cfc9b9"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/b6f0956ce52f16ec692926d3d84bdbf22ff63a87",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzi0ECRC1aQ7uu5UhlAAAhcgQAAf6y4rjJ27NKlJHYbQsDfFm\ne1HRWrJvZABwL4e9puJ34SDH5sz1WIEqOWYR1CmiNfdUPsMLJyVplsZjAgqyM/+n\nqIR7EMuOy2fsUI6yWZ6nRFjDIIOQbdOEYRMAqJE2SgH25RpmTl93CsdvLGePV4TP\naFdgFidV0JmKLBu89hhsWjzCqS0MRdaI1OpnsOgkpdNsQxNKT5RogmA70yGXQ9GH\nb3CVl1hft+vdWDBZTgHagbiETeKufyt5fr4FumFHFC7ULDuHDtWtaZO1QnNTx3Dm\n3SCZ9UNo0//ZbkJBsQi35y2+Dw4jmCCy6mNbhmh/IJbkxE44vwdmEChOXl/Hbx+I\nqVTxfbWpik9m2KWBwwqmFRzJ7dpOZLcQVM4U9TxIgvYsR5CU0VdoRjj+6XkBhe2O\nik0yu6TloUhj8i+rUWKRnkmwB+TlAacRnnWrWCqcG1ODVEvJ/xPPcaaP94NSICKI\nzB45Hlg36c7k+jEAoDBS7FLsKSUm3TwDVdm/rou3CYaTVbaKrnhZbPliW7Sf2cxQ\nPaTcRfWbSSRpsKSz158RSCbeIOYODdwx3QuH+52UIwID0Rcry1EfhCMTEjPlhVnT\nrWeFuoFElP+LL3J7irHwzGsevw+Z0UtOU5/jI+xYHWKTaS2uaphKzALGwZZ5bb1z\nHRrIhAMZAQb1D1MgVgVl\n=c3v/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b6d678186da034c03a923a692f9e6f5db7cfc9b9\nparent d88e5dea128b43173ae06f8ad7cd0003c9cba08e\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708010756 +0100\ncommitter GitHub <noreply@github.com> 1708010756 +0100\n\nUpdate gradio_version.py",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/b6f0956ce52f16ec692926d3d84bdbf22ff63a87",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/b6f0956ce52f16ec692926d3d84bdbf22ff63a87",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/b6f0956ce52f16ec692926d3d84bdbf22ff63a87/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d88e5dea128b43173ae06f8ad7cd0003c9cba08e",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d88e5dea128b43173ae06f8ad7cd0003c9cba08e",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d88e5dea128b43173ae06f8ad7cd0003c9cba08e"
+        }
+      ]
+    },
+    {
+      "sha": "d88e5dea128b43173ae06f8ad7cd0003c9cba08e",
+      "node_id": "C_kwDOLRzgCNoAKGQ4OGU1ZGVhMTI4YjQzMTczYWUwNmY4YWQ3Y2QwMDAzYzljYmEwOGU",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-15T15:16:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-15T15:16:07Z"
+        },
+        "message": "Update requirements.txt",
+        "tree": {
+          "sha": "0a7f280712691e43759eaf6e6c98e898e2712069",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/0a7f280712691e43759eaf6e6c98e898e2712069"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/d88e5dea128b43173ae06f8ad7cd0003c9cba08e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlziq3CRC1aQ7uu5UhlAAARuAQAJx0g/9MtbrR6ElBuIwQpLyi\n2yFjHy0tp+wbBuJ4S8NDeN2IuhZsbL9TIguCsPQqyM2Xwx7UuKxpFj5AvOrxkgEz\nvRfOutIyP9wMNRylNvZTWMGK6d92+2cr7hEJG6e4tFpVyqukpytxVbDOqNQPcrwl\nSRc4UeEeWTUlhP27j21olVLHnq2+nS4knVV8t4PTBKeQz/UwTvuKdWekOBVUIcgG\nNi/kLWVQrGdgfATGghcJ8IbE28iQ0KA4LaEZY1y2J5/BvZTSmcUeksjCcF2DvY84\nX8ns+708n4JDmf2wHXAH2e/PSKu4JpaOXsqQpo10JzntMhHH/1tqqn+yhqtrAXfn\nQzth8COxNU9CYPvA8yBvGqqrHWt8SW7Cx76CZRdepLZGhLEVSoo/YtGtVM5wAOv4\n/N3LhNP4G+lzb8pY08cVOI5DZPlrZKD6BYX+0ZPUG8zDIPCdhoGHOzafuLszHisc\nvMS4eZo57+ukQrxBpcVgZviclJQt8YLmsPxZeshknFdHMlZVH6BniV7hOY2X9LXu\nKNDQKPOhDFLME6zhTN5iPc7sFnHOlXDQGsdAxvpt6MbcHb6RXSpsABppky3qMvXn\nAWVlnVMELc25QtL5Me7B2nU7Y05uYG4ipw3/QgOS+26pKxH5arlFIlesOZINeddM\n3O6pWvksiuSQCGdRgcdm\n=KyPd\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0a7f280712691e43759eaf6e6c98e898e2712069\nparent 092decdbef5f1d426acf894d03d199ee1255cfb6\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708010167 +0100\ncommitter GitHub <noreply@github.com> 1708010167 +0100\n\nUpdate requirements.txt",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d88e5dea128b43173ae06f8ad7cd0003c9cba08e",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d88e5dea128b43173ae06f8ad7cd0003c9cba08e",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d88e5dea128b43173ae06f8ad7cd0003c9cba08e/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "092decdbef5f1d426acf894d03d199ee1255cfb6",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/092decdbef5f1d426acf894d03d199ee1255cfb6",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/092decdbef5f1d426acf894d03d199ee1255cfb6"
+        }
+      ]
+    },
+    {
+      "sha": "092decdbef5f1d426acf894d03d199ee1255cfb6",
+      "node_id": "C_kwDOLRzgCNoAKDA5MmRlY2RiZWY1ZjFkNDI2YWNmODk0ZDAzZDE5OWVlMTI1NWNmYjY",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-15T15:12:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-15T15:12:56Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7fcc05e5b32706a21a6fa47717573ebec22052b7",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/7fcc05e5b32706a21a6fa47717573ebec22052b7"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/092decdbef5f1d426acf894d03d199ee1255cfb6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzin4CRC1aQ7uu5UhlAAAb0QQABRWcSNpdl+3QoWfOB/M4POT\nNqhY4ki3IvlpYboVAoitaHt9A98UN2K30BrmDbTb4CIoMKneKm9JhmCT6titYuT6\nLA/jg2PGyUu0y8mnOdHLkshmY6X+Vm7hoTqipoLf+1P2s72m05Q5W46KQPZZ9Opm\nJUTIvu84NgWZ40H9GNNzwkxTZKUeOc951DtWDQqxgOsxxfaIFJKx0wYF6AeHh/7m\nsHXDcKyWPeXo706hKmjvbBTLJUrtXb+TjxF19L2X/yXCE877kQV7OxrzWbu6EogI\nah/6q7HWP8Xu+4jdzJKrk+GhfXfFA9jY2HZEvBj+ewIXMmlArz9E1C+bS7QDd+gZ\nMjfjGbpmK+ndNMi4WAKDgYuHvZB0CNXUFibruvmd9wLKEMrGrblU21scaH/58t5g\nFikRZaJMB+VpsOA9rpqVY4vSL12BqewciBC6FnsK56BheLM9ekSVO+KCwYRw4FmO\n/rdpx+sx8pxW9Irmwo91Esr/5ghhu9YFFUop3aMhX8JmEdgAi8HHj7hxTXn2YIb9\nveCE0XRPx6CjeAPMPIcYcRplcDkG+dWo6slCg2zUJAyJXRfJTRvp9y2bgBY+jvp+\nVnqXpOBdyQ8V9Oat0oBq/tHUVC1Dz8IY/2IjubSmmOXvEB/2YQBCwAHhR66cdFlT\n9Q7kih7dOhOQVT5xahsL\n=Can7\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7fcc05e5b32706a21a6fa47717573ebec22052b7\nparent fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708009976 +0100\ncommitter GitHub <noreply@github.com> 1708009976 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/092decdbef5f1d426acf894d03d199ee1255cfb6",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/092decdbef5f1d426acf894d03d199ee1255cfb6",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/092decdbef5f1d426acf894d03d199ee1255cfb6/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6"
+        }
+      ]
+    },
+    {
+      "sha": "fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6",
+      "node_id": "C_kwDOLRzgCNoAKGZhNjhiNDNkZGViYzU2MGJhM2JlMzVlNGMwYWFjZTkwZDVmZTNiYzY",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-15T15:11:38Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-15T15:11:38Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "bf5afb6d026309552027acf9568fdb8e78efbcdf",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/bf5afb6d026309552027acf9568fdb8e78efbcdf"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzimqCRC1aQ7uu5UhlAAAuiUQADexbfPZDtrJAgxT99Wjnq8I\nn51HUbNMR0SQ2bgeWvZi8oXYAKMtS/TiIfy92ERw2JhonYFlxrlRPQF5RzelaC/n\nStQlDRF7pT5EOkk0XRATT93vcpL0jVE4F+C5oon5/rmdfyZpFbVzuB3TPwbrlu+Q\nNHQSgEgHUxa/nfzIHSHnijhZe+/LsHo5jr1impjKvYKkLle9BkYEBjrRx7i8J6Ri\nhD0JC4nvSkVJ9PZhqa+JwToLYgXsyxAOjySPdZZyq2Gnwp1Z8rgTWlpNOv80BScA\nZ6ltDmNNBWa9QadZbliqwlECuJ1G6geyRvbpgrwlJkpxYlbch2tIpNafqZ8ya1YH\nY2yF7cOw1io16hEVowzFRjX1psJJtYYujghA9rsqW6OZNYkIB4cln8z71CdDlOf5\nuiH+0ECcOT4ni6GG3imbN7e5UVvrIe1G0PUOb2fXevS/eIJoSvyvA1Wc+VE1HdW8\nGrv5AxwFb+TlURurDaEkqx339G/wqQVvhITzU4NkrYTIKQcKQw0Jd0MAeFaNGK+Y\nJd9l3vX3ic+2rIyVkqSM2wSkfJyNCUrIt8Xyqe22LsIWJYV7r/Q3yqbtp34+FTE8\nrrhA0tFVisOfnvJ/60hTHPojMX77uI+3IuccdjFJdGFhu5bLb/38MKc6GKUqthFQ\n2QmCUFGmWvLw/WPlDgNB\n=jUf0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bf5afb6d026309552027acf9568fdb8e78efbcdf\nparent ab204577da7305199e42a9c45e9d7b046866cb29\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708009898 +0100\ncommitter GitHub <noreply@github.com> 1708009898 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/fa68b43ddebc560ba3be35e4c0aace90d5fe3bc6/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ab204577da7305199e42a9c45e9d7b046866cb29",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/ab204577da7305199e42a9c45e9d7b046866cb29",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/ab204577da7305199e42a9c45e9d7b046866cb29"
+        }
+      ]
+    },
+    {
+      "sha": "ab204577da7305199e42a9c45e9d7b046866cb29",
+      "node_id": "C_kwDOLRzgCNoAKGFiMjA0NTc3ZGE3MzA1MTk5ZTQyYTljNDVlOWQ3YjA0Njg2NmNiMjk",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-15T15:07:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-15T15:07:59Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "913b7cd688b7386e3892f8ce18cd091de066deab",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/913b7cd688b7386e3892f8ce18cd091de066deab"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/ab204577da7305199e42a9c45e9d7b046866cb29",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzijPCRC1aQ7uu5UhlAAAJd0QAI6NiHt5dQ7JlcDV+eiLLBE4\nNYSvbL0F4KNqSWSTfAesYwXzv8yAlrcxcMTP3HceXP7w8skYsA55jSQxruG/P658\npM3mX9fVc9k5PoAp2WYoaGL+QdA3W82EmBDWD2S2EHMH2jKtRv17kE6Gl8C6U9GS\nEtwcdEHq07qcITwKTjHGUzXAhGhiWVCZ0qhe+rnJBtTUGd0Ba7XlJEV2AA2p3T//\nr8ngWtk8VpaimdUHrmYV4me0B8MQ9OALRgGkfKpW6uzcrY3Z8xhQPAcg4XUmlCFg\nBC3z4rcp+7lENq4L63owPvjxppwWOK3aXHE+AP/IWXK7qYczquQ+ZQv/hkDfIzlV\n/ruq5ho7hZUo3+CNzv7uMdHRSSFVy9fy86QqBhVSajWVea7duWZLrTXNG8ThkUGY\nn6kERCb/zbEtP2vhOzgBTIwfELE1cIjLRMCrs/LOJcZYhGZ7SCShOE+uwrsEetki\n4mm+HsfT3r28BeRj33zEgCx3K4Jpx7dYOiSHiHgmgPICsBsu8WDvHBdNI+gsx7/M\naHrRf7pzxHvguMIjn/BghRjUmd9UZSpioAKFr0CKxmR2S81gpeBM+f7rzE2IqD36\njbdINeXw279IMKsCh50QTmk6Wb7tBwrm8OsE3GaNx49K7Z8xTJqTilEMJh3Kv4yy\nJ7bPtvjmQoTz8EKaVl4K\n=RN+b\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 913b7cd688b7386e3892f8ce18cd091de066deab\nparent 1fa15cb28848f27412dc74ac8cb622ced94a8f2b\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708009679 +0100\ncommitter GitHub <noreply@github.com> 1708009679 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/ab204577da7305199e42a9c45e9d7b046866cb29",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/ab204577da7305199e42a9c45e9d7b046866cb29",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/ab204577da7305199e42a9c45e9d7b046866cb29/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1fa15cb28848f27412dc74ac8cb622ced94a8f2b",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/1fa15cb28848f27412dc74ac8cb622ced94a8f2b",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/1fa15cb28848f27412dc74ac8cb622ced94a8f2b"
+        }
+      ]
+    },
+    {
+      "sha": "1fa15cb28848f27412dc74ac8cb622ced94a8f2b",
+      "node_id": "C_kwDOLRzgCNoAKDFmYTE1Y2IyODg0OGYyNzQxMmRjNzRhYzhjYjYyMmNlZDk0YThmMmI",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-15T15:07:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-15T15:07:43Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "f25dd22dc7ccae2ed90c3bb265f55d264a9b48c9",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/f25dd22dc7ccae2ed90c3bb265f55d264a9b48c9"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/1fa15cb28848f27412dc74ac8cb622ced94a8f2b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzii/CRC1aQ7uu5UhlAAAa58QAA2akHMkXonlbJ769Ua2DciJ\nP57ZKVss7+fSYY29ortiU003b59WEirdf6vG5ZeTW8C5eVE/VLVqQ/zJguGZxgba\npFjJf86JkskewRhiS4T/AfMW4wxmlJCMFuxKhSzEeFcXFIadSD3L3dY/sg8cFNw8\ngen/rqrGO9jLSZdboaWhyIoSHAv6tfVu/FBHGizSult3CF7/qXWMzZeedJI0Gf+P\nuFaBGI1WsMeXUp1uO41XaHPtGNXOXN6uT9TO7mqAdc3itCcNlyGxdXk3YgkGGS0o\nNkj6GsaPpYl/x5xT9KBWyJ4DPq1aBSxhLpNp8uc6ZJ+bY5DvsZqqu/ZSqJz8v9eU\naMijdU/v/3BPC86YWNLp/9sT4gu6PHXa91f5VAMa1ULm9g+gzuCeDIKoxmhfzoye\naB7XSfjjYFGVoN8i+waNWnOVGq+8bsmFQthorNl3AW/2FM0GtqrBxdCAxYETYMQV\nShYoSCqgU7OGWgtTHrIEUsJ5uuEgf2Gc0NJtxhKkK7YuwUV7yxVYj0L63eadbwhC\nBFAfsbNUwx3vJASGxtTwY+ahHhKLuCUeaoY6rYX5C24niDKnGIGKPFwyRI4jrsuq\n2TlT+hpkP+q1mVWungoPBRtUYC0LNp6s1+B3ZTMCsDrPkP4FGejpHKS+zMPXPU30\nKOu1vtlqZwNeJi1dYxKJ\n=d+CB\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f25dd22dc7ccae2ed90c3bb265f55d264a9b48c9\nparent 9752815aa7aacb740c2314bc5796ee97010a0670\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708009663 +0100\ncommitter GitHub <noreply@github.com> 1708009663 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/1fa15cb28848f27412dc74ac8cb622ced94a8f2b",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/1fa15cb28848f27412dc74ac8cb622ced94a8f2b",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/1fa15cb28848f27412dc74ac8cb622ced94a8f2b/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9752815aa7aacb740c2314bc5796ee97010a0670",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/9752815aa7aacb740c2314bc5796ee97010a0670",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/9752815aa7aacb740c2314bc5796ee97010a0670"
+        }
+      ]
+    },
+    {
+      "sha": "9752815aa7aacb740c2314bc5796ee97010a0670",
+      "node_id": "C_kwDOLRzgCNoAKDk3NTI4MTVhYTdhYWNiNzQwYzIzMTRiYzU3OTZlZTk3MDEwYTA2NzA",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-15T15:06:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-15T15:06:12Z"
+        },
+        "message": "separate version using gradio and qdrant vectordb",
+        "tree": {
+          "sha": "3dbcfefe7b94ece46c710616ab6d471a87527c05",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/3dbcfefe7b94ece46c710616ab6d471a87527c05"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/9752815aa7aacb740c2314bc5796ee97010a0670",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzihkCRC1aQ7uu5UhlAAAgnEQAFxATz5vaDg4IuSLQmg1roky\nSmwyS0LtTNh2T44GQO1pJbe3eNgyBs/s2jgtgH2QZiBTApoTg+zw9lgFlz76dcfe\nobAtwOgCHWcwcnjyEN9yZ7PGABWeOwWmlv6gjrGvFsqATrYekTn1QnYrtCNURKQa\nhnuIAjOqq4OgufTrpdmgOAkXR/ChjpWkF4ceCb6kRkn/HenFJIkA1QPIov1Ar40v\nRQtWOsNpL0nXYhW2MTiHtriuUv9o+A+7FsIeiMbTmiGIvxOlmegsR2/ZQW+mHAWf\nwWys7dk/BA2pgD4tjoDc97QgZfElO0a51WXGoq2Bahk5aIBrBY5h4lnf1+k0hM1h\ngxdoiSzMcXGnSzTGg5f7DxHEi7RwZNC1hvkSz3a9N0Qzna7b+NThRbt1ADC2k47X\n8ABnti1tslccjUCryeDRZlTmu3rMhDFYjm2bHF/3tMBVMeJGx154K5SOQrVLFcQf\nuU7EyCTOkfIpb9XyPCiZAFD8T6dTza0eP87x02prHU0UwGBCT00XfAq6spnjrD7q\nIi2bR+0I1WcVYxAHUJdgBL6Q8WiQEPnVAb9Zqo3tR0p0/KX4bPVKdry4hqZSlYZO\ncWfbngfb8Tf9zS0O9/FklRStEUDiV9ebzSYBsgWbi4mnzJ45U+QTPnsAZDGmaOA5\nPE+BiKCPfLhvbRON337e\n=h87p\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3dbcfefe7b94ece46c710616ab6d471a87527c05\nparent d542d4c0cd7d3158cb28699a0ef4bbf00356fd19\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1708009572 +0100\ncommitter GitHub <noreply@github.com> 1708009572 +0100\n\nseparate version using gradio and qdrant vectordb",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/9752815aa7aacb740c2314bc5796ee97010a0670",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/9752815aa7aacb740c2314bc5796ee97010a0670",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/9752815aa7aacb740c2314bc5796ee97010a0670/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d542d4c0cd7d3158cb28699a0ef4bbf00356fd19",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d542d4c0cd7d3158cb28699a0ef4bbf00356fd19",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d542d4c0cd7d3158cb28699a0ef4bbf00356fd19"
+        }
+      ]
+    },
+    {
+      "sha": "d542d4c0cd7d3158cb28699a0ef4bbf00356fd19",
+      "node_id": "C_kwDOLRzgCNoAKGQ1NDJkNGMwY2Q3ZDMxNThjYjI4Njk5YTBlZjRiYmYwMDM1NmZkMTk",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-14T21:27:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-14T21:27:45Z"
+        },
+        "message": "Update scrapeGPT.py",
+        "tree": {
+          "sha": "9082a83339421cce1ebc9194c17c96109c2bc525",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/9082a83339421cce1ebc9194c17c96109c2bc525"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/d542d4c0cd7d3158cb28699a0ef4bbf00356fd19",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzTBRCRC1aQ7uu5UhlAAArLEQAIjbqZZQ3TI6LqBF+Krmmzmg\nQXU7i7dt3kZsktabgzcil6QATf5wj3Furlmdw4nbE0eCBdZadslPP7ksXqf+B4ne\n2mDBJMGNMutQU2cjFrLWd8EUtDaz0T8LGi7G1++3Fni/fAxjhkggItHhpvdn+h4m\nzMM60OpEN4kJQesmRgH+g/RVrcXZxMIFkpJLrCCNNB3Tp04HVbOOrnC0n2wfC4pz\nhpWfe2Ph4EnCeoKxa8fyZRIBWJNinAY1ffbKQCL40tSTA3wPmaNcOcNTYw6/mWA/\ncnxlbFmoBEBuOm8N38LFJERgZ1jSgVLM2p186tXVKMDJjsSgX54Hw8Q2u1qF2Zd1\nclr7p+c0WVGgowefLPzfIKX7GGE/Zi+umGZE/gQthw6vK9G5yuuG3DUKsWJN4/3L\nqnhFYmHYmQ7EYEWCsNEWa5EvbVyCi4uldX7eAZQKqqIiFTL0kBFXwKDPEVJ1P+SM\n1RZ7ezC914WXbw4+ZojH9KzP4Yg2dgkiZ6gyU4v/MlFHFvM/m+Ou+aEzMbHm8tZX\nchpwhNEQBv/WtVixaWp6g+ThZQ9FJOyyNYCBHfiSBu13JXGXLD6nbdcM9nAC/tM9\npGXmbVO+fnQQNmLZzYDNnst9QVKylIt6w2xKnWBJqWIZGOuXhE14i9yJauqvNf81\np9ngcvVhEFfcz+uTdjGA\n=UppW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9082a83339421cce1ebc9194c17c96109c2bc525\nparent a5132e00e187e06cec11f757f171397d2a54c59f\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707946065 +0100\ncommitter GitHub <noreply@github.com> 1707946065 +0100\n\nUpdate scrapeGPT.py",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d542d4c0cd7d3158cb28699a0ef4bbf00356fd19",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d542d4c0cd7d3158cb28699a0ef4bbf00356fd19",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d542d4c0cd7d3158cb28699a0ef4bbf00356fd19/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a5132e00e187e06cec11f757f171397d2a54c59f",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/a5132e00e187e06cec11f757f171397d2a54c59f",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/a5132e00e187e06cec11f757f171397d2a54c59f"
+        }
+      ]
+    },
+    {
+      "sha": "a5132e00e187e06cec11f757f171397d2a54c59f",
+      "node_id": "C_kwDOLRzgCNoAKGE1MTMyZTAwZTE4N2UwNmNlYzExZjc1N2YxNzEzOTdkMmE1NGM1OWY",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-14T19:42:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-14T19:42:28Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "fcf3d6f3ebc4cfce833bf8008753e0e0cd4f7d92",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/fcf3d6f3ebc4cfce833bf8008753e0e0cd4f7d92"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/a5132e00e187e06cec11f757f171397d2a54c59f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzRekCRC1aQ7uu5UhlAAAjBQQACw5ZeeqqBgm+267Vj8tXAQ9\nWnHv4wFiV+YsZJR7EqZbOwcjl+738TsE3WAKHfVlsj5opfyLtZuW1HxFptwWDqhE\n5sgNgYynVlVmp0WNT3VkLg4Bw+wkpOTm/LeS37BSsiWk8Pn5XGuVzH2FDYdtZ9Nw\nMoktEs8Xm+NkOAc1Qp3XRjpZTijy5hE/Z2cDC2xpwf0vkM6RTW0OsrB2GIJODDSF\nWx4paNdVPghD3kMQ7Rug52vjMITCUlqpoz9hTsly/fvQhihUoNa1n2Bohhp7vXJo\n9+bmJz1F6+eo7NDNEua6AO/AXOoBsMKR/AXiF2OwOBz8+Z1nkNhZ3cIz4NozTW1T\nuREE2hV4O5gDdGToGm+6heXetrRFkAQGVqJJyV75pZqHmLdqjsFfSrngCBdSkNNk\nDt/2I50ResC1ZGDmGFCNEqHbjESOWjOdJ7kgyKeTGRPfOpDF57Leq0ylPl9sq9Pc\nuIzEXnjLgn5vn1GTO/u7Nr07+sb/BUDIete8/99yHllzZexJVR8GaV0M8AQUCkE/\n0n82tpKhZwMW6byFvrYvOR3iT+k2H15f1/bp0W+sLJt7KT0tMG0T2fUeseB0MpDC\nLuOVz9zeMDqR/0REdGb1mN5+oq36BieBEXAyD2Jo9QuRO+rvQ+GVv74w8sij+t24\n+dTyg+vXbTMR1NKh4dRy\n=7cMc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fcf3d6f3ebc4cfce833bf8008753e0e0cd4f7d92\nparent bdbaad563a0f45535cc08e63d55252abd6b05116\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707939748 +0100\ncommitter GitHub <noreply@github.com> 1707939748 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/a5132e00e187e06cec11f757f171397d2a54c59f",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/a5132e00e187e06cec11f757f171397d2a54c59f",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/a5132e00e187e06cec11f757f171397d2a54c59f/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bdbaad563a0f45535cc08e63d55252abd6b05116",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/bdbaad563a0f45535cc08e63d55252abd6b05116",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/bdbaad563a0f45535cc08e63d55252abd6b05116"
+        }
+      ]
+    },
+    {
+      "sha": "bdbaad563a0f45535cc08e63d55252abd6b05116",
+      "node_id": "C_kwDOLRzgCNoAKGJkYmFhZDU2M2EwZjQ1NTM1Y2MwOGU2M2Q1NTI1MmFiZDZiMDUxMTY",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-14T19:33:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-14T19:33:31Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "9eda3e79822a5678081112e83676e5f6e0ac4f38",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/9eda3e79822a5678081112e83676e5f6e0ac4f38"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/bdbaad563a0f45535cc08e63d55252abd6b05116",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzRWLCRC1aQ7uu5UhlAAANJEQAId+gX2S6ebx+ZvpRDNa6NWi\nCnMcBnQvVug8fPaz6og46AGW1cTi7PvceUeBj8UokycS17xbfRzoBkNcdWzp1mCX\nwjZlx7JMp62gpxUDUWKpfA6xYflu0o3XokGqibshUt0G7+cAfWmTpR5JWECKmNwU\n6NUGthuNeaFq99uyj8SPZMv36wJ0D9AJusX/oFfmc6UPk8G1WdWRrE9qSiXmCUWq\nvU2a7lN+c6odASNsbYxGTt+WqNi87aqvOG4vm1dVZIH9ifDIalMZbWXPaseyJ4g8\nQO9+PJvqI16Vup/l0jCy7x7Ku5UmS5JG3xfK/+54uczr1y1rbL7nxrZgsGdLFafQ\nkDzVFiuUKODLNA+Yj8xf2nYCEApE4pNpieNrBpWEz2rZpxnzVxysXhU8TY1ukW8Z\naNJGfZA4ihDBR6W1lzoYou3RkxKcOnqIw1of0s6gZVu6ddC1GOehkF3Ki3/hS9tx\nIhs0Wve6Rr42ExKYqq9Fc8kkSgt5T1S1mV2lkkgQ7SSzwxSL/1cctJD0YLnVRy3C\n5o3KNs67sePa+LSWzFFq3JXcqnoaidZJVyZxEfk+M13rHu1yMv083gCYI0xLYDpi\nAsYYF1ck7UAQ+pSD6coNcO0DuinWDeYjNOTOGnolQbWHORFp4Y6wwWWBMafsFMy8\nrLnBV9x2c8VOp0zmRvRS\n=u1z4\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9eda3e79822a5678081112e83676e5f6e0ac4f38\nparent 1e3640f0a4aa29a048b24056f269ad72d8839cc5\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707939211 +0100\ncommitter GitHub <noreply@github.com> 1707939211 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/bdbaad563a0f45535cc08e63d55252abd6b05116",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/bdbaad563a0f45535cc08e63d55252abd6b05116",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/bdbaad563a0f45535cc08e63d55252abd6b05116/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e3640f0a4aa29a048b24056f269ad72d8839cc5",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/1e3640f0a4aa29a048b24056f269ad72d8839cc5",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/1e3640f0a4aa29a048b24056f269ad72d8839cc5"
+        }
+      ]
+    },
+    {
+      "sha": "1e3640f0a4aa29a048b24056f269ad72d8839cc5",
+      "node_id": "C_kwDOLRzgCNoAKDFlMzY0MGYwYTRhYTI5YTA0OGIyNDA1NmYyNjlhZDcyZDg4MzljYzU",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-14T09:26:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-14T09:26:03Z"
+        },
+        "message": "+ default args for chunk_size&chunk_overlap",
+        "tree": {
+          "sha": "a2425eb2be920066a14deacaa84cbcdd158da1ba",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/a2425eb2be920066a14deacaa84cbcdd158da1ba"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/1e3640f0a4aa29a048b24056f269ad72d8839cc5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlzIcrCRC1aQ7uu5UhlAAAbNQQAGn0hKQNfzDkChDzq6CEEvPs\nehYmGO68RrsmUwRUTfZuTTf4O+Uuw4FbIy506sVCtTNBOm1ZJ6Kw57O1O80n1juG\n5IQEGPwnKBJJ1xFEh/JB+zfAZMzPmFDbXEOJM0phl0SONX6rpWt1J0CoeKsIjt5d\nGt24FNBLR4fYYEYfS7axY0XsvI8Mqq9ORw+OffPaxqXeNlr5Tw+74IEyZ0E1K3ea\nmJd+9UWPWNNu9KdSDttAkd/zU4uJA+FJWJNl0udLhI7FNsmFIgSpT8qYSkOTYKx4\nAYkk7H4d15BRXR1M18DA4PXuJIYbkQeZxhUVJKee0WH0WRsYBRnbJhvoQ+9Hwj3s\nd+2XP15922hZbpyti+o5rozQPYMe6RPOFdXheMdHC9cZMxhySA6MLa2wV/FEoEez\nVyTewfMte2yxv7tIma0POF/Aokoc9C199YtK6dMEwPpmMp3DYcRYyNT8SXRvSKf5\nA2BVAfsNJKgX25IJze8US4vVAPckMmTN2IcnK7V4N5GPDSPy3XhD/EXVSHQ0T4N7\nT+6xVEfzoZutVB04mb06L26gYH/5s2KgugINrLLxd1iSzieBO9XZ1mkMZ4TSZ8Bq\ncf92gq9WHm0MyqxeaR7vtGA7b4p4IvX3czESK377TjvsF8FtT4/GuSfs/Kg7vdV/\nfrtmzZ11eXD0kwjSklFX\n=cE2+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a2425eb2be920066a14deacaa84cbcdd158da1ba\nparent f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707902763 +0100\ncommitter GitHub <noreply@github.com> 1707902763 +0100\n\n+ default args for chunk_size&chunk_overlap",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/1e3640f0a4aa29a048b24056f269ad72d8839cc5",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/1e3640f0a4aa29a048b24056f269ad72d8839cc5",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/1e3640f0a4aa29a048b24056f269ad72d8839cc5/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855"
+        }
+      ]
+    },
+    {
+      "sha": "f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855",
+      "node_id": "C_kwDOLRzgCNoAKGYwZjA2OGYyZjU5ZjM2NjRhYjNmNDhhM2IxZDJjZTRiNDk3YWU4NTU",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T17:03:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T17:03:24Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "15ea19b7a278848424c0a12f2dce6b4fedb11cdf",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/15ea19b7a278848424c0a12f2dce6b4fedb11cdf"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly6DcCRC1aQ7uu5UhlAAAeSAQAGcMOmrA8DRGOsx/JI1mclgI\npGsWdvQkrzQZhy+CxCFCnm6X8z2EE/B9V2D9KDO1gV07B58kmJUMw4G2DoOtB8nP\nv7skd2FxkYYXcFpdJsgXQENeFCMULkxkV/qff1RlUJS0Wr/P0pBKDcbK/da4Nly3\ntdChBsRMWSlNnkk69qVs8SbU+snQhDAYX07dy+4iZv5zbsuQpvKCHIRuAfaBtFmj\nACxI7jz62Zf42laUDhfxWSQC0YLekWKM8Bq/baFQVJTW1EKOGJ0wotw6ama4wal9\nSkMtyhzotF1lE5Or7saQmpVb2W+erFSeGvwYrmi7PX6H+e4HoaVvv5fXNFy5NOy0\nib67QqBiIc70BK+7eQS96faPXtB4bM7Psgk55a4nRWVDMGOSH6ZgxWbLPARESWTd\nBJ9spYJ9UUBExUIE9CeCVRLa0DY0oszOdQjzDNnYnsPYI9j8AP27hoysDIS4gTQp\nguc+HnfCl+rWN4mmGry05lK+/NiD5GVDMVUUaUpyDkXUGzSVhg1S9Gt6HxPYouKw\nYfwwnRU8boyYDk/9WoVcImBDQWA4cwF+tK8iaz7Gk+d64rtChVcFDJehquHUApY5\nsi75gGUNPSlM2Ct1tsHXsOgLO3CurSMSvwfr8v/bAKC7lvO04/1AKRHwzQFKxDYM\nLP1Ik6TiUAUnuSzxplwc\n=Yj8B\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 15ea19b7a278848424c0a12f2dce6b4fedb11cdf\nparent 57c20b63d9de1b7dc677b7fdcb97bb0f08520efb\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707843804 +0100\ncommitter GitHub <noreply@github.com> 1707843804 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/f0f068f2f59f3664ab3f48a3b1d2ce4b497ae855/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "57c20b63d9de1b7dc677b7fdcb97bb0f08520efb",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/57c20b63d9de1b7dc677b7fdcb97bb0f08520efb",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/57c20b63d9de1b7dc677b7fdcb97bb0f08520efb"
+        }
+      ]
+    },
+    {
+      "sha": "57c20b63d9de1b7dc677b7fdcb97bb0f08520efb",
+      "node_id": "C_kwDOLRzgCNoAKDU3YzIwYjYzZDlkZTFiN2RjNjc3YjdmZGNiOTdiYjBmMDg1MjBlZmI",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T17:02:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T17:02:29Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "f1e0558599f3e039c76b62a4a1f94f3c2a0a98af",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/f1e0558599f3e039c76b62a4a1f94f3c2a0a98af"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/57c20b63d9de1b7dc677b7fdcb97bb0f08520efb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly6ClCRC1aQ7uu5UhlAAApZ4QAEjFkTOzUvqtBe6ALLeFRune\nWyzM/n9zms0U876N9OBQV/4p4nIOY0SrAes9Vt81ChIfgKjtWydBwYOgjfYd7YTB\nhM0Pr3RaGTKnfSzAP985BajA0cFh0SS+j5JtblugW4hEje8+jTOdGwz9ewuW5tDA\nt2b5mZ1qNNeu83pyLb/sbH3Dzxoziqcer9nuB+hI3dpIkMUbVfgf/hkg0nRrZKTs\nKRHNPzCSx+tLYZwPGvNNjh5qDG0irOyYT34CnRD/09086mZ6eFjmV2fsey6X4VbI\nbmGswxK1fT6mNegSMUUIlSoMTU2f3iFWnW5V96i4l2w1pN1wVpxKePkO+psUwIkN\n546nhe0WcEVZwQhaR76xtY/FH4xaFAgjXB6f+cHSAnST9MpBr2r9Q4l4SOdvxqPg\nEBdRDdlRWOISbQvaAlVz2+EsffD23mCMRrL4tOxBgu3Ezvala4B1jhhbFhCIlpKu\nKGtx+e5j78pdNVhLnQWz3ebLWx/6wqTl/02syMp/0SCzPLVT8Ctqt6yOOMm4lSHL\np4wrrDjh35KkxL1iheGY/QG9ChlvZPLl+aSVd/3ngTl/5C1O35AxlIkLcVwK4jop\ntQZCQzkCBHS/hLANWJTMtt2UNimM1ag5b0EGZXhDTP0Fz4RuyJWvkLBZxmgee+ZZ\naPjjWuEtff6mQL7XSAKA\n=Bqyi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f1e0558599f3e039c76b62a4a1f94f3c2a0a98af\nparent f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707843749 +0100\ncommitter GitHub <noreply@github.com> 1707843749 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/57c20b63d9de1b7dc677b7fdcb97bb0f08520efb",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/57c20b63d9de1b7dc677b7fdcb97bb0f08520efb",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/57c20b63d9de1b7dc677b7fdcb97bb0f08520efb/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d"
+        }
+      ]
+    },
+    {
+      "sha": "f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d",
+      "node_id": "C_kwDOLRzgCNoAKGY2ODU2ZWMzYzE3NjE1MjBlZTVhMWYyYmQ1YzBmYWYwYzA5MWYxNWQ",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T16:23:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T16:23:50Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "00de4df31b76b325d305895f3f1bdb7d8ff163bc",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/00de4df31b76b325d305895f3f1bdb7d8ff163bc"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly5eWCRC1aQ7uu5UhlAAAYJ8QADDYiAsLDUS9KkmqO9dvr2+L\nIeokH6IdkPGafktvQCq8QqlpUUCv5C1hB3IsHClXEStTYJT0OxXKTJjQCGsur3CZ\nXkqhMoS2xtlxzhS/yafSeS1urqdJx0BOYVU9EW2y+/fINB8EIDTxF+nLNp5ulDeb\nucng09nusQCPcrYI4YdNd0Y9SrxTSLrQ/WpRqtawC7362+WLLCs+/mgD2BjPZaSs\nz5FYUXHVTDb6VmfqlV5JotRrHSaT9dcTN9FPMsGip8Oe0hZeIkw1qL0wuok396Ak\nZDksxceTKoVNjLpgW2Iz1F7GmN4RZqJk5B+P7ncdqDOuHncpHPYrKaK4eyskuAE7\npDPEymkz+a2+NGt+Vc7fDGOAHTLxmeCxGJ5WGvlDodD0SL0GqdVgPACBabUVm2Ab\n6rGODCZj/je8SiHzaQLWs+KZZ1MQ+U//7Y1/Y+aa7slcR9tCFsHhPKF23Qyi1lEZ\nWVCN2/oMNhVc2doN1hCV6tmSpSxS3UJ6g6SV2vNWLPpO+2/McGqirSdVO2D/FjCU\nNW9kMXTiNDStqRfreE2sdgn0L9KUGUDPhDpJFgmg522tk6BsdZexmjPEVmv4JYyJ\nK116J3qIseqnb8Kfzecqutv9P0QLL+LnDH5h8E1u+d2OfbmIgi7I7bSUZf5L3qGl\n0SKcfPWjqT2JKuJq7Ive\n=mZGu\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 00de4df31b76b325d305895f3f1bdb7d8ff163bc\nparent d47ee036d052e6c4bb8503a7459d8a1f83ba8a10\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707841430 +0100\ncommitter GitHub <noreply@github.com> 1707841430 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/f6856ec3c1761520ee5a1f2bd5c0faf0c091f15d/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d47ee036d052e6c4bb8503a7459d8a1f83ba8a10",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d47ee036d052e6c4bb8503a7459d8a1f83ba8a10",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d47ee036d052e6c4bb8503a7459d8a1f83ba8a10"
+        }
+      ]
+    },
+    {
+      "sha": "d47ee036d052e6c4bb8503a7459d8a1f83ba8a10",
+      "node_id": "C_kwDOLRzgCNoAKGQ0N2VlMDM2ZDA1MmU2YzRiYjg1MDNhNzQ1OWQ4YTFmODNiYThhMTA",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T16:23:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T16:23:08Z"
+        },
+        "message": "fixed typos",
+        "tree": {
+          "sha": "ce62c83e474d6082c3dbbc97f94e203d3a7c9c93",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/ce62c83e474d6082c3dbbc97f94e203d3a7c9c93"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/d47ee036d052e6c4bb8503a7459d8a1f83ba8a10",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly5dsCRC1aQ7uu5UhlAAAEycQAEOeTqiAfIy3YD0kEErU1a7o\nxhalnaY/kFR+N/J4t5A+h8AGIepYJ40XM1lmX+nvqmqThzrMuPejy5Rl7hC41Zt/\n4rqwnzLkU5UdWjidWPv5PGtPZstthXLzYntorThNb8yMr9g2vkJojfXj5qJWv9kB\nMxWgO3U+q+X5wrAFadIlyPjxT3TCt6guZZk8Lu5nixkRhyDg3mUl4LuF/2vFD+UH\noluUhtnLswn2dEiiKGIJYPBSTMjcYQmUFy6EXnkqnOU4N4juJdmVrS/APdg8Mz3i\nCxggY6ltoX/9EcjLnduiP7/q2LDvYCDTXC5M3hnDhWBGwQfnC5B1WegZnR0K8HOt\nl/JAjek10oWWPcVPcF8n1xXR1iceDe/Wrwcv6sjU2BIKKs4MSIg7yQ8ma593kQas\nwEeKoNduKDCbg9PNQvvtck43aoPfhMzY7LRpuuQ94IjlM8iC5r9VRHjHbWtid3To\nm94FqZJxEFXqFztWH79CxytvT7e7gIvDyURKHCkJ8oY90rUAX55XTJQowtlj6MlV\nDyYScuOq1qHt1KYi0fNzFrxTsCIYOf4XixwEUFjZ0/lCbtJIfV1xuH/IhtbW7NsY\nWAz+xGlfR+tfpemmQMza/gDupQiowkMjJJuLFvCffbJS3cKMcspL6SkbN4JYh3n9\nwl75eutJipa7YWzE1W5M\n=lKzf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ce62c83e474d6082c3dbbc97f94e203d3a7c9c93\nparent 264dd9ef21bcfed015c06432574b9ec709630dc0\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707841388 +0100\ncommitter GitHub <noreply@github.com> 1707841388 +0100\n\nfixed typos",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d47ee036d052e6c4bb8503a7459d8a1f83ba8a10",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d47ee036d052e6c4bb8503a7459d8a1f83ba8a10",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d47ee036d052e6c4bb8503a7459d8a1f83ba8a10/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "264dd9ef21bcfed015c06432574b9ec709630dc0",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/264dd9ef21bcfed015c06432574b9ec709630dc0",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/264dd9ef21bcfed015c06432574b9ec709630dc0"
+        }
+      ]
+    },
+    {
+      "sha": "264dd9ef21bcfed015c06432574b9ec709630dc0",
+      "node_id": "C_kwDOLRzgCNoAKDI2NGRkOWVmMjFiY2ZlZDAxNWMwNjQzMjU3NGI5ZWM3MDk2MzBkYzA",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T13:19:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T13:19:08Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "a369d8932400b8081e3c87f5c99a1799967e2338",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/a369d8932400b8081e3c87f5c99a1799967e2338"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/264dd9ef21bcfed015c06432574b9ec709630dc0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly2xMCRC1aQ7uu5UhlAAATPEQAIjLkHmi7g1QY8hXuGw0Nd1X\nYaOaMPOCTLexMFmZiCwU6qtY/5xwqSCKif7ARRcvgMWnpkr3Cn2n/0svmkn/9Zse\nE4muEo9g0xAw3iDbZlbPiAkUpBEe+6R/GKgZW2+gM7N3LiZ+lPC7uepy/emdkDR4\nyNw10Crn0TA1fTzS+6n9bW6128VPS6RgYxWUYeXAHEwATtldTTjOKI0OHb8w0Ke3\n279oDwDh6CxxwRLKrd4NfPkk+nuwD9KzbaDecOhr/akg66+EFEIvv7l2Gnp6n66S\nX8SI9jVyefKt9gVu31Llea5tl03M2zPEy2OOfFlVBwXHZ+JZFPOjNj7Wk7EkEu6h\n1Lmqp+31V4ST3nl7Hkh9uU3J29bMO2xOLZUoGnjNkhkkV804ehZ6c2sSQ6CGfwcx\nWCli1odEJvcPbBYgYa5O9PZS0PnDxqj2W3KBLgbxP9mljWjje/KJKLnjOeeI0aJt\nUHgwhWgOVRSbL+PcOiSbJ98SUrQadu9MkqgAmbyr0HuqPNSWmmiXnkn+F688gnnA\nclkc+ra/YfZgjkYC1sPreStmQPO6jeXCEFWM3iVYDBYGg8UYypdzJYFW/vw22lJt\nsLAbDi/GMeFyIx8qxDSxtzsqBrgG+7VQpUqVxuUfWmA0RnFk8ukPaZi8eOA2gHw3\nu7sP73Ir4DwzaSwLQYDv\n=rFQa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a369d8932400b8081e3c87f5c99a1799967e2338\nparent c4868c1959d2caa7addd70d74099f327e2dbcb9e\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707830348 +0100\ncommitter GitHub <noreply@github.com> 1707830348 +0100\n\nUpdate README.md",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/264dd9ef21bcfed015c06432574b9ec709630dc0",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/264dd9ef21bcfed015c06432574b9ec709630dc0",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/264dd9ef21bcfed015c06432574b9ec709630dc0/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c4868c1959d2caa7addd70d74099f327e2dbcb9e",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/c4868c1959d2caa7addd70d74099f327e2dbcb9e",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/c4868c1959d2caa7addd70d74099f327e2dbcb9e"
+        }
+      ]
+    },
+    {
+      "sha": "c4868c1959d2caa7addd70d74099f327e2dbcb9e",
+      "node_id": "C_kwDOLRzgCNoAKGM0ODY4YzE5NTlkMmNhYTdhZGRkNzBkNzQwOTlmMzI3ZTJkYmNiOWU",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T13:18:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T13:18:30Z"
+        },
+        "message": "Update scrapeGPT.py",
+        "tree": {
+          "sha": "68fd522221decefd0806f382303c0072dc8afd78",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/68fd522221decefd0806f382303c0072dc8afd78"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/c4868c1959d2caa7addd70d74099f327e2dbcb9e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly2wmCRC1aQ7uu5UhlAAAqPcQACCoVUghFtTlVG9y0Ow3XIf/\n9oSs6Cuj8CbgFLALcmylBFUGeJkhDa0J+Tpjf57XPp42Eie3jyzHmKqO6inJmEUu\nwAeu5MxRVjBl1jFq6f+wzx+uINj1K24u9anf3P+lJEjEdylz1+ukOrB7EBP4F+XH\nYE8SFZwxCqC3s0H3LqcKhLhU5fklAo2Kss0LhU/CIRa7c/m997VnWnVq4SpIQBO8\nUlR2pjHlmrlU9wpBF1b94QWcZHhARrxa7VcMnqUo5t8T31I7Xgm1tg0JjbK0zQe+\njHeFPX8HoW8fU77IUXwSgrauiyOUGJSputQzTS6PzBB03xVbd2QxeHZYsbNsFgWl\n9ALs7wJZFVcMBoWjT+MwM2xJQT7tiHElzxadsGpcKZdu13CW6Sb/M6bt7MzKRu0L\nqh9LcJ25Gx5Qds4X4961L4qDOGpdFbdCeTgkZ+RM2/PgbUudQYID7Kw3OR/hbhvq\n2kQMQVfk5UwyegG0QwjLTZQCWGA6da4gi05cSLwnqH1EYDOodURFlRbId174UJje\n20RTWCN9ruMnsRvvYLW3ixXGOMw5MJbbMwKQ0LgSRdq9yKvbQ181/E+RuLof1+0v\npCDy022RcnT2VTNpWyQahzxvRbdny/nAdnRRKJRcQ9/slQwJ0ubdO6mQPg35WLJP\n/Fb0W0hryF0kss7cmnKt\n=06si\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 68fd522221decefd0806f382303c0072dc8afd78\nparent d418db76404a28fee00d4a9f4055a7f62887e4f8\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707830310 +0100\ncommitter GitHub <noreply@github.com> 1707830310 +0100\n\nUpdate scrapeGPT.py",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/c4868c1959d2caa7addd70d74099f327e2dbcb9e",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/c4868c1959d2caa7addd70d74099f327e2dbcb9e",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/c4868c1959d2caa7addd70d74099f327e2dbcb9e/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d418db76404a28fee00d4a9f4055a7f62887e4f8",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d418db76404a28fee00d4a9f4055a7f62887e4f8",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d418db76404a28fee00d4a9f4055a7f62887e4f8"
+        }
+      ]
+    },
+    {
+      "sha": "d418db76404a28fee00d4a9f4055a7f62887e4f8",
+      "node_id": "C_kwDOLRzgCNoAKGQ0MThkYjc2NDA0YTI4ZmVlMDBkNGE5ZjQwNTVhN2Y2Mjg4N2U0Zjg",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T13:17:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T13:17:50Z"
+        },
+        "message": "init commit",
+        "tree": {
+          "sha": "1ca76f643db73f8b4baee633b0157b79dbf03f63",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/1ca76f643db73f8b4baee633b0157b79dbf03f63"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/d418db76404a28fee00d4a9f4055a7f62887e4f8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly2v+CRC1aQ7uu5UhlAAASzIQAB/MJem15fn6ATaM3MQyeXun\nxj3nBhgH1S1bVnuEYJhYqcdIS3GBWHebOcH/RR/2WJA/Fh4OIIZFm07u8MVsJkDJ\nk1OuMYyzy6wxeE5M1hjVjzTtiPJB7gOkoMFqtiIRGrgz3T82cCoJYUUbEYONynxX\nzlgnxY0obuN8MvBR7MHB56HuTFGjzcfry/N2arDkSckYOHF6C70LniGRR+mRjGc/\nEil0fvNicKRZpBZTAb8NpurKmFAnfkUee8dtxGqNoNcNiU16YJ5YnYND23Qrr3b3\ncGpCSp2nyvBWuQPmT0y5sw0yuW4mEQswtWs9174PlWoOwEqKCLHj9Uwyp9shwcBl\nh8a1TkZcskAbkB0YWGPQb6VdoXOKU9+YUUFyXK/2+IwXYlkuTnMNa6sZRjCW3Mwu\n3PYgR2SVub9alNEaPvzdGEoInUEdOHhN1wbbtpXJot/D87ll2Ykqz0sbpxyGcLIL\nBbaoXqbzNJlM19UCe5kexP1IGcFxMcXJBOON1demgJe7/LWMHZn9PnLXWsG3kWGv\nYxdVU3FkHs417pHD44l9bCZy7u9TM3uJN1owXvfjj9lmCPKeq2bPmpFN3F8JEnFc\nO92FfEdtz3yYCETxFeBhdfNsXKOLgvpMhKk5CWm1LQK9n8a2keAvxtwlb73uI1cS\nd9UC/NFPnJ1yB0hXo0Ca\n=6g0K\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1ca76f643db73f8b4baee633b0157b79dbf03f63\nparent c51851f7d8a6ccf9dc4219be74f150f467a13cfa\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707830270 +0100\ncommitter GitHub <noreply@github.com> 1707830270 +0100\n\ninit commit",
+          "verified_at": "2024-11-22T00:21:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d418db76404a28fee00d4a9f4055a7f62887e4f8",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/d418db76404a28fee00d4a9f4055a7f62887e4f8",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/d418db76404a28fee00d4a9f4055a7f62887e4f8/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c51851f7d8a6ccf9dc4219be74f150f467a13cfa",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/c51851f7d8a6ccf9dc4219be74f150f467a13cfa",
+          "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/c51851f7d8a6ccf9dc4219be74f150f467a13cfa"
+        }
+      ]
+    },
+    {
+      "sha": "c51851f7d8a6ccf9dc4219be74f150f467a13cfa",
+      "node_id": "C_kwDOLRzgCNoAKGM1MTg1MWY3ZDhhNmNjZjlkYzQyMTliZTc0ZjE1MGY0NjdhMTNjZmE",
+      "commit": {
+        "author": {
+          "name": "Leszek Mielnikow",
+          "email": "leszekmel@gmail.com",
+          "date": "2024-02-13T13:17:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-02-13T13:17:26Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "7d6b9bd7c136d0e691c2a6f691e1291563190428",
+          "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/trees/7d6b9bd7c136d0e691c2a6f691e1291563190428"
+        },
+        "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/git/commits/c51851f7d8a6ccf9dc4219be74f150f467a13cfa",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJly2vmCRC1aQ7uu5UhlAAAG5QQACwFY2B/HMXQ10DRpNuV5zkC\nBdY3ukqGr51jU1PogO7cwnRw9uKUJOSBkWT3LVzCCjE06909rbCXmu6+FgaQT80h\nJztmOzq6rQxgGnkmYlwBPADoArjakW8RuvpcgjyOkgSKQ+LLTSdj4+Wic2uvF6LQ\nFZSiijzmTkLADMb+lKq4VTvvtpU53muyXhdw8yQC5RN7D/X2427W8CcMEMnNtMxL\nHKVoj/Admeb8HwhcTKMkDBoQvpDbm0ybf53c5Nk0HwbHnDWNrT7bbxsutU56sT9v\nidGiZnkJfiiP6Q09rIbNse+qU38wiBS+ZwNqMG9uGo+xyb1ut2IXBQUPXJO7KWRR\n3B7jAyN3or1XaFFb5aIpBoXv7N2K/wX6CGJW3lmH95T6u1UR6WGyR8xleaR2j/1v\nntusxGiyk0Hq9mcTqZNrQqFsEmh2HwYodkrdtoILiIEw4AJWlaNzr7Myw5A+JQ8u\nSCNVSX+Au+PRJGnF9mLSfPhkLN+JT8pELGiwpYBrgVCCkchSDxtpWZngRfr4lHv/\njFr7xh3Z64wgOrJ0CvhRXHiZYjAuyYeBLqu0WwfdgGv/Pm1G/GJfUgwD58jenYjs\nWjc7kOIL9f08lcpjXMWFPK5HTN1ZR+gnOQF3Fv8/3amtf/Vl2iSqoQ9IejC1fjUt\nsGZ7oYJ9+jp483NSD4VM\n=1Ziz\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7d6b9bd7c136d0e691c2a6f691e1291563190428\nauthor Leszek Mielnikow <leszekmel@gmail.com> 1707830246 +0100\ncommitter GitHub <noreply@github.com> 1707830246 +0100\n\nInitial commit",
+          "verified_at": "2024-11-18T14:08:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/c51851f7d8a6ccf9dc4219be74f150f467a13cfa",
+      "html_url": "https://github.com/LexiestLeszek/scrapeGPT/commit/c51851f7d8a6ccf9dc4219be74f150f467a13cfa",
+      "comments_url": "https://api.github.com/repos/LexiestLeszek/scrapeGPT/commits/c51851f7d8a6ccf9dc4219be74f150f467a13cfa/comments",
+      "author": {
+        "login": "LexiestLeszek",
+        "id": 63610219,
+        "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/LexiestLeszek",
+        "html_url": "https://github.com/LexiestLeszek",
+        "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+        "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+        "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+        "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+        "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+        "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "LexiestLeszek",
+      "id": 63610219,
+      "node_id": "MDQ6VXNlcjYzNjEwMjE5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63610219?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LexiestLeszek",
+      "html_url": "https://github.com/LexiestLeszek",
+      "followers_url": "https://api.github.com/users/LexiestLeszek/followers",
+      "following_url": "https://api.github.com/users/LexiestLeszek/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LexiestLeszek/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LexiestLeszek/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LexiestLeszek/subscriptions",
+      "organizations_url": "https://api.github.com/users/LexiestLeszek/orgs",
+      "repos_url": "https://api.github.com/users/LexiestLeszek/repos",
+      "events_url": "https://api.github.com/users/LexiestLeszek/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LexiestLeszek/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 22
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 17384
+  },
+  "readme_html": "<h1 id=\"user-content-scrapegpt\">ScrapeGPT</h1>\n<h2 id=\"user-content-telegram-bot-for-web-content-analysis-and-question-answering\">Telegram Bot for Web Content Analysis and Question Answering</h2>\n<p>ScrapeGPT is a Telegram bot designed to scrape and analyze websites, then answer questions based on the scraped content. The bot utilizes advanced natural language processing techniques to provide accurate responses to user queries.</p>\n<p>The idea came from the job interview question when I was given an assignment to \"study our company website and provide new product recommendations\"> I decided to automate the process of studying a whole website and made ScrapeGPT.</p>\n<p>Note:</p>\n<p><em>You don't have to use it as a Telegram bot, at the very end of the scrapeGPT.py there is a commented main() function to use it as CLI.</em>\n<em>Also, there is an experimental file called scrapeGPT_gradio_app.py, where the same functionality is implemented in the form of Gradio app and using qDrant VectorDB, Ollama and GPT4ALLEmbeddings.</em></p>\n<h2 id=\"user-content-features\">Features</h2>\n<ul>\n<li><strong>Web Scraping</strong>: Automatically scrapes text from provided URLs, including PDF files.</li>\n<li><strong>Context Retrieval</strong>: Utilizes embeddings and retrieval models to extract relevant context from scraped content.</li>\n<li><strong>Question Answering</strong>: Generates answers to user questions based on the retrieved context.</li>\n<li><strong>Robots.txt Parsing</strong>: Respects website's robots.txt to avoid scraping restricted areas.</li>\n<li><strong>Database Management</strong>: Stores scraped content in a database for future reference and quick access.</li>\n<li><strong>Proxy Support</strong>: Uses rotating proxies to bypass geo-restrictions and anonymize requests.</li>\n<li><strong>LLM-based</strong>: Supports both public and local LLMs.</li>\n</ul>\n<h2 id=\"user-content-getting-started\">Getting Started</h2>\n<h3 id=\"user-content-installation\">Installation</h3>\n<p>To get started with the bot, follow these steps:</p>\n<ol>\n<li>Clone the repository to your local machine:</li>\n</ol>\n<pre><code class=\"language-bash\">git clone https://github.com/LexiestLeszek/scrapeGPT.git\ncd scrapeGPT\n</code></pre>\n<ol start=\"2\">\n<li>Install the required dependencies:</li>\n</ol>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n<ol start=\"3\">\n<li>Go to ollama.com and download it</li>\n<li>download local model:</li>\n</ol>\n<pre><code class=\"language-bash\">ollama pull qwen:1.8b\n</code></pre>\n<ol start=\"5\">\n<li>Set up your Telegram bot by obtaining a token from the <a href=\"https://core.telegram.org/bots#botfather\">BotFather</a>.</li>\n<li>Replace <code>API_TOKEN</code> in the script with your actual token and don't forget bot's telegram nickname.</li>\n<li>Run the bot server script:</li>\n</ol>\n<pre><code class=\"language-bash\">python scrapeGPT.py\n</code></pre>\n<h3 id=\"user-content-usage\">Usage</h3>\n<p>Once the bot is running, interact with it on Telegram:</p>\n<ol>\n<li>Find the bot by its name and open the chat with the bot</li>\n<li>Send <code>/start</code> command to initialize the bot.</li>\n<li>Provide a website URL to begin analysis.</li>\n<li>Ask a question regarding the analyzed content, and the bot will respond with an answer.</li>\n</ol>\n<h2 id=\"user-content-contributing\">Contributing</h2>\n<p>Contributions are welcome! To contribute:</p>\n<ul>\n<li>Fork the repository.</li>\n<li>Make changes in your fork.</li>\n<li>Submit a pull request with a clear description of your changes.</li>\n</ul>\n<h2 id=\"user-content-license\">License</h2>\n<p>This project is licensed under the terms of the MIT license. See the LICENSE file for details.</p>\n<h2 id=\"user-content-contact\">Contact</h2>\n<p>If you have any questions or suggestions, feel free to open an issue on GitHub.</p>\n<h2 id=\"user-content-no-liability-for-the-developer\">No liability for the Developer</h2>\n<ul>\n<li>Usage of this software for attacking targets without prior mutual consent is illegal.</li>\n<li>It is the end user's responsibility to obey all applicable local, state and federal laws.</li>\n<li>Developers of this software assume no liability and are not responsible for any misuse or damage caused by this program\nby third parties using the software in violation of laws and regulations.</li>\n</ul>",
+  "_fetched_at": "2026-03-11T18:17:56.358Z"
+}

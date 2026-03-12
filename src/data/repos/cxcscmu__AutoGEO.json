@@ -1,0 +1,1638 @@
+{
+  "id": 1067343270,
+  "node_id": "R_kgDOP55dpg",
+  "name": "AutoGEO",
+  "full_name": "cxcscmu/AutoGEO",
+  "private": false,
+  "owner": {
+    "login": "cxcscmu",
+    "id": 142838272,
+    "node_id": "O_kgDOCIOKAA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/142838272?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/cxcscmu",
+    "html_url": "https://github.com/cxcscmu",
+    "followers_url": "https://api.github.com/users/cxcscmu/followers",
+    "following_url": "https://api.github.com/users/cxcscmu/following{/other_user}",
+    "gists_url": "https://api.github.com/users/cxcscmu/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/cxcscmu/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/cxcscmu/subscriptions",
+    "organizations_url": "https://api.github.com/users/cxcscmu/orgs",
+    "repos_url": "https://api.github.com/users/cxcscmu/repos",
+    "events_url": "https://api.github.com/users/cxcscmu/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/cxcscmu/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/cxcscmu/AutoGEO",
+  "description": "[ICLR'26] AutoGEO: a framework to automatically learn generative engine preferences, and rewrite web contents for more traction.",
+  "fork": false,
+  "url": "https://api.github.com/repos/cxcscmu/AutoGEO",
+  "forks_url": "https://api.github.com/repos/cxcscmu/AutoGEO/forks",
+  "keys_url": "https://api.github.com/repos/cxcscmu/AutoGEO/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/cxcscmu/AutoGEO/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/cxcscmu/AutoGEO/teams",
+  "hooks_url": "https://api.github.com/repos/cxcscmu/AutoGEO/hooks",
+  "issue_events_url": "https://api.github.com/repos/cxcscmu/AutoGEO/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/cxcscmu/AutoGEO/events",
+  "assignees_url": "https://api.github.com/repos/cxcscmu/AutoGEO/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/cxcscmu/AutoGEO/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/cxcscmu/AutoGEO/tags",
+  "blobs_url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/cxcscmu/AutoGEO/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/cxcscmu/AutoGEO/languages",
+  "stargazers_url": "https://api.github.com/repos/cxcscmu/AutoGEO/stargazers",
+  "contributors_url": "https://api.github.com/repos/cxcscmu/AutoGEO/contributors",
+  "subscribers_url": "https://api.github.com/repos/cxcscmu/AutoGEO/subscribers",
+  "subscription_url": "https://api.github.com/repos/cxcscmu/AutoGEO/subscription",
+  "commits_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/cxcscmu/AutoGEO/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/cxcscmu/AutoGEO/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/cxcscmu/AutoGEO/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/cxcscmu/AutoGEO/merges",
+  "archive_url": "https://api.github.com/repos/cxcscmu/AutoGEO/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/cxcscmu/AutoGEO/downloads",
+  "issues_url": "https://api.github.com/repos/cxcscmu/AutoGEO/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/cxcscmu/AutoGEO/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/cxcscmu/AutoGEO/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/cxcscmu/AutoGEO/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/cxcscmu/AutoGEO/labels{/name}",
+  "releases_url": "https://api.github.com/repos/cxcscmu/AutoGEO/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/deployments",
+  "created_at": "2025-09-30T18:12:29Z",
+  "updated_at": "2026-03-10T18:50:49Z",
+  "pushed_at": "2026-01-29T20:22:35Z",
+  "git_url": "git://github.com/cxcscmu/AutoGEO.git",
+  "ssh_url": "git@github.com:cxcscmu/AutoGEO.git",
+  "clone_url": "https://github.com/cxcscmu/AutoGEO.git",
+  "svn_url": "https://github.com/cxcscmu/AutoGEO",
+  "homepage": "https://zhongshsh.github.io/AutoGEO",
+  "size": 25933,
+  "stargazers_count": 56,
+  "watchers_count": 56,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 5,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai-search-engine",
+    "ai-search-optimization",
+    "content-optimization",
+    "generative-ai",
+    "generative-engine-optimization",
+    "generative-search",
+    "grpo",
+    "iclr",
+    "iclr2026",
+    "large-language-models",
+    "retrieval-augmented-generation",
+    "search",
+    "visibility"
+  ],
+  "visibility": "public",
+  "forks": 5,
+  "open_issues": 0,
+  "watchers": 56,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "0da4de740ec5cdd51506214bf74288123065af40",
+      "node_id": "C_kwDOP55dptoAKDBkYTRkZTc0MGVjNWNkZDUxNTA2MjE0YmY3NDI4ODEyMzA2NWFmNDA",
+      "commit": {
+        "author": {
+          "name": "Shanshan Zhong",
+          "email": "62104945+zhongshsh@users.noreply.github.com",
+          "date": "2026-01-29T20:22:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-01-29T20:22:35Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "76197d91e6f1f142a8f1f049f521c9e680320602",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/76197d91e6f1f142a8f1f049f521c9e680320602"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/0da4de740ec5cdd51506214bf74288123065af40",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpe8GLCRC1aQ7uu5UhlAAATJsQAIZcA8XaOj5cSAqeUeyztnss\nxGcWRuM7i6HyCM8qPkuhrlenQSSLGFPkMdPQ2eqnwyi4ZgBWE1jZD+vhJQPTUIjV\nknosIURhXerp6sLFL/0JzMMBbX1pS9a2ZH7S/2NPPdYQOViz2QHinNK+20jY0L/S\nVUXDBvOvYZAqtIeiw6PlWpliqscM0tDx1igQXwHSgfc4W9HLNSvPKEAa6JHAoBAF\nHNUWx1TIcf+43D/wN8CUki3VmwdN0ysrrx9bsQDeg1MamT6F8tp+TgPZZKz5BXSz\nNVYICq1WzFDhcWReyp9uO5+87ZtmfvfYo7pCsVhilFXbv0/yeS5FGaYqkk+FBg0Y\n6aNOMfiNnBJyK0Sg7YtOQh9zWTRdak83vzGgeR9y8n+PWrObGKDrDZRTQUJqGybb\nBRfSzygeFoV6rwZ60fzM38kYtCw6s7oBGUuyTBirnUfMKzAqOVGw4bQNp6gqSflE\nuYr7PLl8MPozwv9XU9aKbENn/0ZiQPGsOWT1h1L92yccVhwT+HIyhmHbjkg8NW+r\n5IT8tHHEcjbOoiTZB8DOgZFGv1kSd7m8n34J1vcwahRgRHA5fvLgxGDmopZaZT8o\n3QXZsYCgbVFtAUpeZjXk3hH7AgQfeh2we2pLgWnZqMs3gSJ0InAki8cySn34hzAj\nVWdxxfSSGr5tTjvgBWqA\n=5nUj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 76197d91e6f1f142a8f1f049f521c9e680320602\nparent 751662050b5ed89d72463b20e7b9272b8f4f5647\nauthor Shanshan Zhong <62104945+zhongshsh@users.noreply.github.com> 1769718155 -0500\ncommitter GitHub <noreply@github.com> 1769718155 -0500\n\nUpdate README.md",
+          "verified_at": "2026-01-29T20:22:35Z"
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/0da4de740ec5cdd51506214bf74288123065af40",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/0da4de740ec5cdd51506214bf74288123065af40",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/0da4de740ec5cdd51506214bf74288123065af40/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "751662050b5ed89d72463b20e7b9272b8f4f5647",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/751662050b5ed89d72463b20e7b9272b8f4f5647",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/751662050b5ed89d72463b20e7b9272b8f4f5647"
+        }
+      ]
+    },
+    {
+      "sha": "751662050b5ed89d72463b20e7b9272b8f4f5647",
+      "node_id": "C_kwDOP55dptoAKDc1MTY2MjA1MGI1ZWQ4OWQ3MjQ2M2IyMGU3YjkyNzJiOGY0ZjU2NDc",
+      "commit": {
+        "author": {
+          "name": "Shanshan Zhong",
+          "email": "62104945+zhongshsh@users.noreply.github.com",
+          "date": "2026-01-29T20:18:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-01-29T20:18:09Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "517ffa21786dd806db685aba4092b22e3b7f027a",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/517ffa21786dd806db685aba4092b22e3b7f027a"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/751662050b5ed89d72463b20e7b9272b8f4f5647",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpe8CBCRC1aQ7uu5UhlAAAPEEQAIIxc8tfyRDzRheJg7YhhU43\nnTwKzG10NvoYcoOQe6Cf40ne70cfXnGWdYhwgkw9gG0qz+T/PUY3w36c2ig5cSCU\n0oW89xoQWQQOw052mNxSqnUtFQhp8P9vTV0GOtPbrZnYaBrpt6AI5Cg+nwe8RmBz\nmcTY+GbEWHRtmKZGACSTnl6vLqWxsBewcAtzs9HA0dNa8NjziP85v5dhsKDq2sXy\nFJe5IF2xw2jW/rI9EyMItmwFVpBUp7DzvoZojPgblP07kkOsfozqlp7BDdp+WA7/\nEc5TnPoCKdlzSVTGii6CAZS4qePuyLpHcteJFnaVkJtjyEgs3qolsLsU+dcsK0XR\nXCIdn1kuz8ra5X3HUr9apuBCgcbhX/CkROC9myDraRwpssJj1TuYC7XmOqq1UJbK\nOVfX0YlVriEfcmbfmw1+j9q4tdHtv18BxfMiz9icc1a83cNmJixBPhsncq1epEXa\n94hgw7+2Ntqz2joI3atl0CtNKbOT51UBpr31RAnOOHsZpa5fjtsoo1BlKJfIplCT\niLs95zfq4Fg2FmXnkMKZHM8ih1JaqA04A75GEktQ5A4HhhGvVSIkNxJNb/AsVBum\nsRVTuVgNppdGzpcnUQB3rHHUCUfovUrlEAQEzg4SBNlwSgDZ4RAHOJUKQIT9Nf+V\nzDDrmeG1i7xyUiYZXYm1\n=Oj0l\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 517ffa21786dd806db685aba4092b22e3b7f027a\nparent d83f4cf09724677f4e96f81ed41afbc2e3486b1b\nauthor Shanshan Zhong <62104945+zhongshsh@users.noreply.github.com> 1769717889 -0500\ncommitter GitHub <noreply@github.com> 1769717889 -0500\n\nUpdate README.md",
+          "verified_at": "2026-01-29T20:18:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/751662050b5ed89d72463b20e7b9272b8f4f5647",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/751662050b5ed89d72463b20e7b9272b8f4f5647",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/751662050b5ed89d72463b20e7b9272b8f4f5647/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d83f4cf09724677f4e96f81ed41afbc2e3486b1b",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d83f4cf09724677f4e96f81ed41afbc2e3486b1b",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/d83f4cf09724677f4e96f81ed41afbc2e3486b1b"
+        }
+      ]
+    },
+    {
+      "sha": "d83f4cf09724677f4e96f81ed41afbc2e3486b1b",
+      "node_id": "C_kwDOP55dptoAKGQ4M2Y0Y2YwOTcyNDY3N2Y0ZTk2ZjgxZWQ0MWFmYmMyZTM0ODZiMWI",
+      "commit": {
+        "author": {
+          "name": "Shanshan Zhong",
+          "email": "62104945+zhongshsh@users.noreply.github.com",
+          "date": "2026-01-18T02:26:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-01-18T02:26:13Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "1ed93dc77509c34c013c54405ef7b8f0a93e43f8",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/1ed93dc77509c34c013c54405ef7b8f0a93e43f8"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/d83f4cf09724677f4e96f81ed41afbc2e3486b1b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpbETFCRC1aQ7uu5UhlAAAkucQAAoQEDHzvirB1cmq2LztS+f2\nAQRuFS0bYGcEsj7eTpAQer4FRRtButhl6s6p52px8J8xntjwDBVfRyknt5Xkxesk\n4t3stwATHVRrvgvEI6WywJ2MTR2c0/wR3YyfncHem+b5L1BY0X7+LlnzBWQceLjn\n8g2fOsBynlX0Uzj7qNd9u+VGkSvtwwZ/1ECtRq1onqyYBtAJC+JbaPnkEKigVlB0\nDvwpHDh4VEzNNX2kL91MAoChMS74wpPkrpPPhntbugqn2Y66h6Fb6zCEQxAJytV4\nhhPlBBEasBbJwRw4pdfm6TxVKihzy4Zh+UmJLWDLVeB2REc6aAP47yVX1unCz2ci\nGr9rQz7A1tBqmjKu3TuoU0zDHiylKabeKnHq1/IZTVmV45Kqv5J6260P0atk2sDe\noVf1m0nVFBwKmliXcmR6o1XOV0gAgspM7ONGfTaMYHkSpS4ksat5NrOjp7GbffPT\npt824k4cAYZq0alY3DfJqk/506eu7fUscIICSbAyzpl/biyAr0A/7Hr7Jt1pbW8T\nuMUifdTLPO3aLqmIg2ozeZKmygiAKjgTKthi+JXd5TTgWvHQcYy3TRYGEr5205ah\nX0Us7kTdBQNdLsxFVFcvFIBGynYt99CVQJZbhQ44A1/JpS2sfvvHe79FrfxGVNwF\nK1QiYeEQ+eSAdWWx4nEo\n=o1ky\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1ed93dc77509c34c013c54405ef7b8f0a93e43f8\nparent 5b96ec9e17cf85feea41576da89ccc1e56d8c7c4\nauthor Shanshan Zhong <62104945+zhongshsh@users.noreply.github.com> 1768703173 -0500\ncommitter GitHub <noreply@github.com> 1768703173 -0500\n\nUpdate README.md",
+          "verified_at": "2026-01-18T02:26:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d83f4cf09724677f4e96f81ed41afbc2e3486b1b",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/d83f4cf09724677f4e96f81ed41afbc2e3486b1b",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d83f4cf09724677f4e96f81ed41afbc2e3486b1b/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5b96ec9e17cf85feea41576da89ccc1e56d8c7c4",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/5b96ec9e17cf85feea41576da89ccc1e56d8c7c4",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/5b96ec9e17cf85feea41576da89ccc1e56d8c7c4"
+        }
+      ]
+    },
+    {
+      "sha": "5b96ec9e17cf85feea41576da89ccc1e56d8c7c4",
+      "node_id": "C_kwDOP55dptoAKDViOTZlYzllMTdjZjg1ZmVlYTQxNTc2ZGE4OWNjYzFlNTZkOGM3YzQ",
+      "commit": {
+        "author": {
+          "name": "Shanshan Zhong",
+          "email": "62104945+zhongshsh@users.noreply.github.com",
+          "date": "2026-01-18T02:25:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-01-18T02:25:03Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "f201706ef937a51a783e36db2c5f0f9a0828755b",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/f201706ef937a51a783e36db2c5f0f9a0828755b"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/5b96ec9e17cf85feea41576da89ccc1e56d8c7c4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpbESACRC1aQ7uu5UhlAAAU5UQAIvUVie7ypkoVSxv4VeZt0k6\nUTKi8J6Q+Vh+VuOBsColZXvJ5GZpmBEYl0CtFRnd8Wz4KzLraSeFWG4G7D9LnTPA\n2/U+WjMZhwJqu1i8wr56/Z3Ma75Y3KIsWx747tvZR7QTNy16VaF6nByuhhVSp9bb\n+ZXpwjmE+i7IZDGMdrwNq9a/eU9DmAVJQexaIML/u78vgT6X7lsIpBmUS/9QsERA\nG6M3Ky5rLKr3YNt3TuE7ity/YpwwuPc0HT4AIHj2/DoL6flYj/AI2TEfjc5VDO9/\nl7jv5GA4tsQ7HPw0ShqDkg0Q9WvyiDn2Z3obz1dIQ+C9kvQ9tgZupUMnjW96p8D0\nSr0Cusmr1Yons+MRPPfU7GtcM5I8ZQZbGVpctU5wLFBbmJUIkRCnHgGHKbcSohuw\nDiTZUjIZZQDavVk6JetzE1bKZ3yxCCmCd/1EP9T11+CqTZMMZ6PGeZwqOpC0fR7h\n3tFJfyfaE2SjX9NNOqBokr1g5w2hj2hFzb/dy4nBUsGtCHy3pE5xBCZ0zRiWHEi2\nNs8AkgB1UwbvDUtZKj1J0qvk1RRiyS8eEKGUDKYey15YtuLEljXV5DgD3mlEWXyJ\nX0fhxNnd/5KnA5DqveLm0eHtaQW0tgk8wiKyVJVyT13FpUoE5etQBAS5WLe/gPu3\nD3lw+B4oGw5eS+NS0LIS\n=OrX8\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f201706ef937a51a783e36db2c5f0f9a0828755b\nparent e7ef567bd87cd52c01fd0f323fbb47e839c92b2b\nauthor Shanshan Zhong <62104945+zhongshsh@users.noreply.github.com> 1768703103 -0500\ncommitter GitHub <noreply@github.com> 1768703103 -0500\n\nUpdate README.md",
+          "verified_at": "2026-01-18T02:25:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/5b96ec9e17cf85feea41576da89ccc1e56d8c7c4",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/5b96ec9e17cf85feea41576da89ccc1e56d8c7c4",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/5b96ec9e17cf85feea41576da89ccc1e56d8c7c4/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e7ef567bd87cd52c01fd0f323fbb47e839c92b2b",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/e7ef567bd87cd52c01fd0f323fbb47e839c92b2b",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/e7ef567bd87cd52c01fd0f323fbb47e839c92b2b"
+        }
+      ]
+    },
+    {
+      "sha": "e7ef567bd87cd52c01fd0f323fbb47e839c92b2b",
+      "node_id": "C_kwDOP55dptoAKGU3ZWY1NjdiZDg3Y2Q1MmMwMWZkMGYzMjNmYmI0N2U4MzljOTJiMmI",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2026-01-17T22:58:13Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2026-01-17T22:58:13Z"
+        },
+        "message": "support hf model",
+        "tree": {
+          "sha": "01eda4e6f34eb8492234f31c56bb1dfffa40ab8c",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/01eda4e6f34eb8492234f31c56bb1dfffa40ab8c"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/e7ef567bd87cd52c01fd0f323fbb47e839c92b2b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/e7ef567bd87cd52c01fd0f323fbb47e839c92b2b",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/e7ef567bd87cd52c01fd0f323fbb47e839c92b2b",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/e7ef567bd87cd52c01fd0f323fbb47e839c92b2b/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0fefcc55688e4d7024742043afad7e74c9e56b85",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/0fefcc55688e4d7024742043afad7e74c9e56b85",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/0fefcc55688e4d7024742043afad7e74c9e56b85"
+        }
+      ]
+    },
+    {
+      "sha": "0fefcc55688e4d7024742043afad7e74c9e56b85",
+      "node_id": "C_kwDOP55dptoAKDBmZWZjYzU1Njg4ZTRkNzAyNDc0MjA0M2FmYWQ3ZTc0YzllNTZiODU",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2026-01-17T22:23:11Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2026-01-17T22:23:11Z"
+        },
+        "message": "update news",
+        "tree": {
+          "sha": "fa3cc46c5755da5986a6cace27671352a561baa0",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/fa3cc46c5755da5986a6cace27671352a561baa0"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/0fefcc55688e4d7024742043afad7e74c9e56b85",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/0fefcc55688e4d7024742043afad7e74c9e56b85",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/0fefcc55688e4d7024742043afad7e74c9e56b85",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/0fefcc55688e4d7024742043afad7e74c9e56b85/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "69b42ab3c75f5656c41b6381758323fd22155dc4",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/69b42ab3c75f5656c41b6381758323fd22155dc4",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/69b42ab3c75f5656c41b6381758323fd22155dc4"
+        }
+      ]
+    },
+    {
+      "sha": "69b42ab3c75f5656c41b6381758323fd22155dc4",
+      "node_id": "C_kwDOP55dptoAKDY5YjQyYWIzYzc1ZjU2NTZjNDFiNjM4MTc1ODMyM2ZkMjIxNTVkYzQ",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2026-01-17T22:18:42Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2026-01-17T22:18:42Z"
+        },
+        "message": "update news",
+        "tree": {
+          "sha": "c5e92e159680bb38b8f5ec4d8af75eefe41f980a",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/c5e92e159680bb38b8f5ec4d8af75eefe41f980a"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/69b42ab3c75f5656c41b6381758323fd22155dc4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/69b42ab3c75f5656c41b6381758323fd22155dc4",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/69b42ab3c75f5656c41b6381758323fd22155dc4",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/69b42ab3c75f5656c41b6381758323fd22155dc4/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a31da90530e2d1b51c648997f8d55cea74f19204",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/a31da90530e2d1b51c648997f8d55cea74f19204",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/a31da90530e2d1b51c648997f8d55cea74f19204"
+        }
+      ]
+    },
+    {
+      "sha": "a31da90530e2d1b51c648997f8d55cea74f19204",
+      "node_id": "C_kwDOP55dptoAKGEzMWRhOTA1MzBlMmQxYjUxYzY0ODk5N2Y4ZDU1Y2VhNzRmMTkyMDQ",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-17T07:09:16Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-17T07:09:16Z"
+        },
+        "message": "change hf",
+        "tree": {
+          "sha": "bc5fa1063dfc069c550d8a8b3b3f7631f8f9e580",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/bc5fa1063dfc069c550d8a8b3b3f7631f8f9e580"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/a31da90530e2d1b51c648997f8d55cea74f19204",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/a31da90530e2d1b51c648997f8d55cea74f19204",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/a31da90530e2d1b51c648997f8d55cea74f19204",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/a31da90530e2d1b51c648997f8d55cea74f19204/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9"
+        }
+      ]
+    },
+    {
+      "sha": "c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9",
+      "node_id": "C_kwDOP55dptoAKGM0M2ZmM2MzZGU3Y2JjZTgxOGMzMDI0ZTVlZTZlNmNlOWNmZjRmZTk",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-10T09:45:12Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-10T09:45:12Z"
+        },
+        "message": "fix env install",
+        "tree": {
+          "sha": "dcbe9a902e4e8981f63195b471d968dbde45e23b",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/dcbe9a902e4e8981f63195b471d968dbde45e23b"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/c43ff3c3de7cbce818c3024e5ee6e6ce9cff4fe9/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "43290996e78882bd5533020f4e911aa8dbac960e",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/43290996e78882bd5533020f4e911aa8dbac960e",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/43290996e78882bd5533020f4e911aa8dbac960e"
+        }
+      ]
+    },
+    {
+      "sha": "43290996e78882bd5533020f4e911aa8dbac960e",
+      "node_id": "C_kwDOP55dptoAKDQzMjkwOTk2ZTc4ODgyYmQ1NTMzMDIwZjRlOTExYWE4ZGJhYzk2MGU",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T10:51:14Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T10:51:14Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "ee37b7752649370b05afdbacbc0d6c0b7643457e",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/ee37b7752649370b05afdbacbc0d6c0b7643457e"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/43290996e78882bd5533020f4e911aa8dbac960e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/43290996e78882bd5533020f4e911aa8dbac960e",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/43290996e78882bd5533020f4e911aa8dbac960e",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/43290996e78882bd5533020f4e911aa8dbac960e/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d95cff388e001c20df4429a8264714cd51f512c8",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d95cff388e001c20df4429a8264714cd51f512c8",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/d95cff388e001c20df4429a8264714cd51f512c8"
+        }
+      ]
+    },
+    {
+      "sha": "d95cff388e001c20df4429a8264714cd51f512c8",
+      "node_id": "C_kwDOP55dptoAKGQ5NWNmZjM4OGUwMDFjMjBkZjQ0MjlhODI2NDcxNGNkNTFmNTEyYzg",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:41:42Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:41:42Z"
+        },
+        "message": "update readme",
+        "tree": {
+          "sha": "07b1ea1c43b232b610f4c9f8e5c10ec431f342ab",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/07b1ea1c43b232b610f4c9f8e5c10ec431f342ab"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/d95cff388e001c20df4429a8264714cd51f512c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d95cff388e001c20df4429a8264714cd51f512c8",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/d95cff388e001c20df4429a8264714cd51f512c8",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d95cff388e001c20df4429a8264714cd51f512c8/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d9c3b08b9658962e5579af9c4abd42924f567b5c",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d9c3b08b9658962e5579af9c4abd42924f567b5c",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/d9c3b08b9658962e5579af9c4abd42924f567b5c"
+        }
+      ]
+    },
+    {
+      "sha": "d9c3b08b9658962e5579af9c4abd42924f567b5c",
+      "node_id": "C_kwDOP55dptoAKGQ5YzNiMDhiOTY1ODk2MmU1NTc5YWY5YzRhYmQ0MjkyNGY1NjdiNWM",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:40:29Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:40:29Z"
+        },
+        "message": "fix github download",
+        "tree": {
+          "sha": "b2ce569d4082270a1d218fe14f0a7fe17ed65924",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/b2ce569d4082270a1d218fe14f0a7fe17ed65924"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/d9c3b08b9658962e5579af9c4abd42924f567b5c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d9c3b08b9658962e5579af9c4abd42924f567b5c",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/d9c3b08b9658962e5579af9c4abd42924f567b5c",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/d9c3b08b9658962e5579af9c4abd42924f567b5c/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4307f5e30d3c8ac7edec01b8f1217812b9c17552",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/4307f5e30d3c8ac7edec01b8f1217812b9c17552",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/4307f5e30d3c8ac7edec01b8f1217812b9c17552"
+        }
+      ]
+    },
+    {
+      "sha": "4307f5e30d3c8ac7edec01b8f1217812b9c17552",
+      "node_id": "C_kwDOP55dptoAKDQzMDdmNWUzMGQzYzhhYzdlZGVjMDFiOGYxMjE3ODEyYjljMTc1NTI",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:24:13Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:24:13Z"
+        },
+        "message": "rm kp unnecessary file",
+        "tree": {
+          "sha": "2ea88f3cb5845d2761a0a5972885f45c97a085dc",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/2ea88f3cb5845d2761a0a5972885f45c97a085dc"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/4307f5e30d3c8ac7edec01b8f1217812b9c17552",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/4307f5e30d3c8ac7edec01b8f1217812b9c17552",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/4307f5e30d3c8ac7edec01b8f1217812b9c17552",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/4307f5e30d3c8ac7edec01b8f1217812b9c17552/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1569240b37771e37ef97be9c5bef1057889d2ca4",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/1569240b37771e37ef97be9c5bef1057889d2ca4",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/1569240b37771e37ef97be9c5bef1057889d2ca4"
+        }
+      ]
+    },
+    {
+      "sha": "1569240b37771e37ef97be9c5bef1057889d2ca4",
+      "node_id": "C_kwDOP55dptoAKDE1NjkyNDBiMzc3NzFlMzdlZjk3YmU5YzViZWYxMDU3ODg5ZDJjYTQ",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:22:25Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:22:25Z"
+        },
+        "message": "keypoint_data",
+        "tree": {
+          "sha": "cb88b99b2eac909d9ee9d789ef8633c0d288e114",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/cb88b99b2eac909d9ee9d789ef8633c0d288e114"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/1569240b37771e37ef97be9c5bef1057889d2ca4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/1569240b37771e37ef97be9c5bef1057889d2ca4",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/1569240b37771e37ef97be9c5bef1057889d2ca4",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/1569240b37771e37ef97be9c5bef1057889d2ca4/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "29a2cdb16f1bc1bd5c11cbc108018d9c80565f77",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/29a2cdb16f1bc1bd5c11cbc108018d9c80565f77",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/29a2cdb16f1bc1bd5c11cbc108018d9c80565f77"
+        }
+      ]
+    },
+    {
+      "sha": "29a2cdb16f1bc1bd5c11cbc108018d9c80565f77",
+      "node_id": "C_kwDOP55dptoAKDI5YTJjZGIxNmYxYmMxYmQ1YzExY2JjMTA4MDE4ZDljODA1NjVmNzc",
+      "commit": {
+        "author": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:21:56Z"
+        },
+        "committer": {
+          "name": "zhongshsh",
+          "email": "zhongshsh33@gmail.com",
+          "date": "2025-12-08T09:21:56Z"
+        },
+        "message": "autogeo",
+        "tree": {
+          "sha": "4e41c38075adfe1d3d83fd82ad96a83749aa8a85",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/4e41c38075adfe1d3d83fd82ad96a83749aa8a85"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/29a2cdb16f1bc1bd5c11cbc108018d9c80565f77",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/29a2cdb16f1bc1bd5c11cbc108018d9c80565f77",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/29a2cdb16f1bc1bd5c11cbc108018d9c80565f77",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/29a2cdb16f1bc1bd5c11cbc108018d9c80565f77/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "20a7bd2942e5a1f945973bbd99465007af3bd9d9",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/20a7bd2942e5a1f945973bbd99465007af3bd9d9",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/20a7bd2942e5a1f945973bbd99465007af3bd9d9"
+        }
+      ]
+    },
+    {
+      "sha": "20a7bd2942e5a1f945973bbd99465007af3bd9d9",
+      "node_id": "C_kwDOP55dptoAKDIwYTdiZDI5NDJlNWExZjk0NTk3M2JiZDk5NDY1MDA3YWYzYmQ5ZDk",
+      "commit": {
+        "author": {
+          "name": "Shanshan Zhong",
+          "email": "62104945+zhongshsh@users.noreply.github.com",
+          "date": "2025-10-14T02:37:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-10-14T02:37:12Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "fda1aa397bfe1602d82d8e635d6a967613340b10",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/fda1aa397bfe1602d82d8e635d6a967613340b10"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/20a7bd2942e5a1f945973bbd99465007af3bd9d9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo7bdYCRC1aQ7uu5UhlAAAMmgQALFM7I0C0vLpALwzssfP0aXn\n76OX7+Ogir67DhLNo1W2GLMvuzlxp1SEJhFWtf93jdcZQYaRi+e1E6oIxN5MZ4GF\nfxqhs3eyt5ROh8X9oOdgJRKjWmddqsdCYKXuNbNOjqR0Q43zGzxO81Ppy4x+b+8h\nvQDXfd04jgM7ZXD8M4eccBqioFLCghJMgGLqDmDF/HzXc9c3MM/2sH2zf6tcCA/A\nx0tXJC/J4U01UISzCgyBxo6Xkj1TgTVaQNA11Szpp2GGoMDXpVFQrv617bMLceGr\n63IEsIQ+0nSllrORpCwbcM5B3FfPDYTqOIkwfErJ2O/h2c1ip2uXR6klryXdxYMh\nTPnoz9ZVjLQ2eXWHsbOjFQN17ETY7454UadsXkFDgnHSDZDWFj+a6DUPIHau1flK\nMXW0PpgKv0Eq4wxg213G+MvrjX2+NEVie7qS7sj3Dm46mMC5yfHFeOwwZmCUkVcI\nxg316/n/TQSBp5gDdzhkhreFz7pAWQqTR8eHZoLb2bkniBQcnWeNaZtA+nAiQuMy\n6r46v6aZ5CE8R4z8FWTaw9hNd7DKHqKHXDk6JtHTYPztZxOQeS7l6iwnLDZIFI3k\niDmRNJoj+lGlt0s6DjQcn1rejVM3LBS/6R4kFIvDmDH9yehSStS62KMyjmMlIDA7\n/7zoySeJL0ReEM62h9uz\n=Je4N\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fda1aa397bfe1602d82d8e635d6a967613340b10\nparent b5ef086becb32ddffb75ab83b752076f7f19a8f7\nauthor Shanshan Zhong <62104945+zhongshsh@users.noreply.github.com> 1760409432 -0400\ncommitter GitHub <noreply@github.com> 1760409432 -0400\n\nUpdate README.md",
+          "verified_at": "2025-10-14T02:37:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/20a7bd2942e5a1f945973bbd99465007af3bd9d9",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/20a7bd2942e5a1f945973bbd99465007af3bd9d9",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/20a7bd2942e5a1f945973bbd99465007af3bd9d9/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b5ef086becb32ddffb75ab83b752076f7f19a8f7",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/b5ef086becb32ddffb75ab83b752076f7f19a8f7",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/b5ef086becb32ddffb75ab83b752076f7f19a8f7"
+        }
+      ]
+    },
+    {
+      "sha": "b5ef086becb32ddffb75ab83b752076f7f19a8f7",
+      "node_id": "C_kwDOP55dptoAKGI1ZWYwODZiZWNiMzJkZGZmYjc1YWI4M2I3NTIwNzZmN2YxOWE4Zjc",
+      "commit": {
+        "author": {
+          "name": "Shanshan Zhong",
+          "email": "62104945+zhongshsh@users.noreply.github.com",
+          "date": "2025-09-30T18:15:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-09-30T18:15:41Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "71c414e7447d62e7a455635aa7558b4697f8c012",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/71c414e7447d62e7a455635aa7558b4697f8c012"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/b5ef086becb32ddffb75ab83b752076f7f19a8f7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo3B5NCRC1aQ7uu5UhlAAAWCcQAIMuExlvKKxcOHfKpSkY79A/\nI+X8hmi+elTRGuLwpck8z4ZacBInX22cbc7DO6kaNuDlZjpkYTfb9893iSZZ7xRp\nix9diTjHWl9EcTgpyDtnQ7ZQBVkuA0Pk5Sa7dbt+rIavxMlMRJAF3vB4J+t+n0YW\nD7fvIFcIp5/nE6XhK8ahNmEiF5qWeqz5YsWvUyCMjOF81hANDDdMo8g/hOrNcB6Z\n3t0LQBVbStq+ho28e8ik+Xh4XXIz8vQaXPRIOEIv3vqY/3FE9ud6NgUegFXKKWno\npKA40TBSBm9DwZLt4zubKfmmJHMkCH3sNPd6Lh/LuqyUQiFuojXCIq5UJZdYucPh\nqEliErsbht2xtgyvvqzjYU3nkGxkDqH+E58RUK/DpJH8r0iA0KaSoSocxRCVINmC\nwJo/UGldG1nK1hklxtr7kpBk47Y+EzlPsqGlNrOKUYnpznd9Aj/tDp9kTjYb5e6O\n516VViq6uOwnTrbDPw7aZHn8LaBahcbCYx6Qzg5Mj0sZ+exYEiyykI5G+9zO8iDI\nuXyry61nL86zVHx76w6nOIPQROsD57bEMmzRLGwfkDU1EN/Q4kXrNEpi1zQBozuY\nNww/UIaIUwjEcZuKD0lnx3aumtIvJL69B4rQBf3y/ZGhoEL4iKYWBOyN4KB+dpHt\noo3nHAy7AdRPMmIsVpt9\n=NUsq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 71c414e7447d62e7a455635aa7558b4697f8c012\nparent fd87e48222e007c7074b73b0914bcd992de57ed3\nauthor Shanshan Zhong <62104945+zhongshsh@users.noreply.github.com> 1759256141 -0400\ncommitter GitHub <noreply@github.com> 1759256141 -0400\n\nUpdate README.md",
+          "verified_at": "2025-09-30T18:15:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/b5ef086becb32ddffb75ab83b752076f7f19a8f7",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/b5ef086becb32ddffb75ab83b752076f7f19a8f7",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/b5ef086becb32ddffb75ab83b752076f7f19a8f7/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fd87e48222e007c7074b73b0914bcd992de57ed3",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/fd87e48222e007c7074b73b0914bcd992de57ed3",
+          "html_url": "https://github.com/cxcscmu/AutoGEO/commit/fd87e48222e007c7074b73b0914bcd992de57ed3"
+        }
+      ]
+    },
+    {
+      "sha": "fd87e48222e007c7074b73b0914bcd992de57ed3",
+      "node_id": "C_kwDOP55dptoAKGZkODdlNDgyMjJlMDA3YzcwNzRiNzNiMDkxNGJjZDk5MmRlNTdlZDM",
+      "commit": {
+        "author": {
+          "name": "Shanshan Zhong",
+          "email": "62104945+zhongshsh@users.noreply.github.com",
+          "date": "2025-09-30T18:12:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-09-30T18:12:29Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "d8e41d385a4ad868b1d3b1808dc92c10d8d53fc4",
+          "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/trees/d8e41d385a4ad868b1d3b1808dc92c10d8d53fc4"
+        },
+        "url": "https://api.github.com/repos/cxcscmu/AutoGEO/git/commits/fd87e48222e007c7074b73b0914bcd992de57ed3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJo3B2NCRC1aQ7uu5UhlAAAZV0QAHinw4qQZIACcUSFi/m1yp7Y\nqZQdbjINaOOrQkTWn5JxxEbUyWWBgMW+TDSMYsybl4P5hHwEupMjROkdBbwhz+3h\nlv/6nygwgFFlrmQuc1sDvuX+Qz73H+/dAcl/asLS9CRYQeJmBMW8hzfMSpTmGU1m\nJ3XCUXiTHXmcZaLn9i+O3I/MdeqY+y72ge63NK3JeQl2bzLCOWXWIq9hexPVI6Oe\now92xv1ie6nChJGo3SEW6ejzn6q/leNrc/Bi1kzOFDNuYEcNHq/khebDLpuVSYLJ\ng2AgNG1e/vamfka0TvE/vRvejV/4Uc5N5Axz9c/XG6ByjMoAOV+9I2mCgspY8F6w\nghUQfBrJzrxpcyBHc5CXmqC4CUA6F+0fGHOMj/5RKygf6e5Nel9zFGq72DY9mQfS\ntNcEgx5k1k2Ojy2UcYkkEICcPao/syAVFwL0O/tz5DgivUEz8lMgtlM+ZtUPJoRg\nVS1pZthQfDXc/21F8W3rFlIkWEoUlDhyAPJyJR+3q3EUztaZwGXztSRiuJJCS8VX\nXI9pctU5F7W+iKHGrmALJX+BZS45vINcS+hFJGMplOH4TVAEmwdYEjQx2CqStG0d\nSOKv+qupBx17JAPY8JFPPPY0Xn/z0HhWZIWjfBq+m/6csy5QXIEHSqGfZTFH5R6v\nfPBp3YeSD2aHlOshToTE\n=p9vk\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d8e41d385a4ad868b1d3b1808dc92c10d8d53fc4\nauthor Shanshan Zhong <62104945+zhongshsh@users.noreply.github.com> 1759255949 -0400\ncommitter GitHub <noreply@github.com> 1759255949 -0400\n\nInitial commit",
+          "verified_at": "2025-09-30T18:12:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/fd87e48222e007c7074b73b0914bcd992de57ed3",
+      "html_url": "https://github.com/cxcscmu/AutoGEO/commit/fd87e48222e007c7074b73b0914bcd992de57ed3",
+      "comments_url": "https://api.github.com/repos/cxcscmu/AutoGEO/commits/fd87e48222e007c7074b73b0914bcd992de57ed3/comments",
+      "author": {
+        "login": "zhongshsh",
+        "id": 62104945,
+        "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zhongshsh",
+        "html_url": "https://github.com/zhongshsh",
+        "followers_url": "https://api.github.com/users/zhongshsh/followers",
+        "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+        "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+        "repos_url": "https://api.github.com/users/zhongshsh/repos",
+        "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "zhongshsh",
+      "id": 62104945,
+      "node_id": "MDQ6VXNlcjYyMTA0OTQ1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62104945?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zhongshsh",
+      "html_url": "https://github.com/zhongshsh",
+      "followers_url": "https://api.github.com/users/zhongshsh/followers",
+      "following_url": "https://api.github.com/users/zhongshsh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zhongshsh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zhongshsh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zhongshsh/subscriptions",
+      "organizations_url": "https://api.github.com/users/zhongshsh/orgs",
+      "repos_url": "https://api.github.com/users/zhongshsh/repos",
+      "events_url": "https://api.github.com/users/zhongshsh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zhongshsh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 18
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 1770679,
+    "Shell": 11990,
+    "Dockerfile": 5203,
+    "Jinja": 4168,
+    "Makefile": 2144
+  },
+  "readme_html": "<h1 id=\"user-content-autogeo\">AutoGEO</h1>\n<p><a href=\"https://zhongshsh.github.io/AutoGEO/\">Project Page</a> | <a href=\"https://arxiv.org/abs/2510.11438\">Paper</a> | <a href=\"https://huggingface.co/spaces/cx-cmu/AutoGEO_Mini\">Demo</a></p>\n<p><strong>AutoGEO</strong> is a framework for Automatic Generative Engine Optimization (GEO) that helps web content gain higher visibility in LLM-generated answers. Our paper has been accepted by ICLR 2026.</p>\n<p>📄 <strong>Paper:</strong> \"What Generative Search Engines Like and How to Optimize Web Content Cooperatively\"<br>\n👥 <strong>Authors:</strong> Yujiang Wu*, Shanshan Zhong*, Yubin Kim, Chenyan Xiong (*Equal contribution)</p>\n<h2 id=\"user-content--overview\">🔍 Overview</h2>\n<p>AutoGEO automatically extracts content preference rules from generative engines and rewrites documents to maximize visibility while preserving accuracy.</p>\n<p><strong>How GEO models work:</strong></p>\n<ul>\n<li><strong>Input:</strong> Target document</li>\n<li><strong>Output:</strong> Rewritten document with higher visibility in generative engine (GE) responses</li>\n<li><strong>Goal:</strong> Maximize visibility without harming GE utility</li>\n</ul>\n<p><strong>Three core components:</strong></p>\n<ol>\n<li><strong>Rule Extraction</strong> — Automatically mines content preferences from GEs.</li>\n<li><strong>AutoGEOAPI</strong> — Prompt-based GEO model using extracted rules</li>\n<li><strong>AutoGEOMini</strong> — Cost-effective GEO model trained with reinforcement learning</li>\n</ol>\n<p><strong>Evaluation metrics:</strong> <strong>GEO score</strong> (visibility) and <strong>GEU score</strong> (utility)</p>\n<h2 id=\"user-content-news\">News</h2>\n<ul>\n<li>🔥 <strong>[2026-01-28]</strong>: Cheers! Our paper has been accepted by ICLR 2026!</li>\n<li>🔥 <strong>[2026-01-17]</strong>: We have released our <a href=\"https://huggingface.co/spaces/cx-cmu/AutoGEO_Mini\">AutoGEOMini Demo</a>. Feel free to try it out!</li>\n<li>🔥 <strong>[2026-01-17]</strong>: We have released our checkpoints (<a href=\"https://huggingface.co/cx-cmu/AutoGEO_mini_Qwen1.7B_Ecommerce\">E-commerce</a>, <a href=\"https://huggingface.co/cx-cmu/AutoGEO_mini_Qwen1.7B_GEOBench\">GEO-Bench</a>, <a href=\"https://huggingface.co/cx-cmu/AutoGEO_mini_Qwen1.7B_ResearchyGEO\">Researchy-GEO</a>).</li>\n<li>🔥 <strong>[2025-12-08]</strong>: We have released our code and datasets (<a href=\"https://huggingface.co/datasets/cx-cmu/E-commerce\">E-commerce</a>, <a href=\"https://huggingface.co/datasets/cx-cmu/GEO-Bench\">GEO-Bench</a>, <a href=\"https://huggingface.co/datasets/cx-cmu/Researchy-GEO\">Researchy-GEO</a>).</li>\n<li>🔥 <strong>[2025-10-11]</strong>: Our paper is now available on <a href=\"https://arxiv.org/pdf/2510.11438\">arXiv</a>. Check it out!</li>\n</ul>\n<h2 id=\"user-content--installation\">🚀 Installation</h2>\n<p>For using AutoGEOAPI and rule extraction:</p>\n<pre><code class=\"language-bash\"># Clone the repository\ngit clone --recursive https://github.com/cxcscmu/AutoGEO\ncd AutoGEO\n\n# Run installation script\nbash install.sh\n\n# Activate environment\nconda activate autogeo\n\n# Configure API keys (required)\nnano keys.env  # Add your API keys\n</code></pre>\n<p>Optional: For training AutoGEOMini models:</p>\n<pre><code class=\"language-bash\"># First complete Option 1, then:\nconda activate autogeo\nbash install_mini.sh\n</code></pre>\n<p><strong>⚠️ Note:</strong> AutoGEOMini requires:</p>\n<ul>\n<li>CUDA-compatible GPU * 2 (A100 40GB+ recommended)</li>\n<li>~4h for SFT and ~48h for GRPO on Researchy-GEO</li>\n</ul>\n<h2 id=\"user-content--quick-start\">⚡ Quick Start</h2>\n<p>Rewrite a document using AutoGEOAPI:</p>\n<pre><code class=\"language-python\">from autogeo.rewriters import rewrite_document\n\nrewritten_text = rewrite_document(\n    document=\"AutoGEO automatically extracts content preference rules from generative engines and rewrites documents to maximize visibility while preserving accuracy.\",\n    dataset=\"Researchy-GEO\",   # Options: E-commerce, GEO-Bench, Researchy-GEO\n    engine_llm=\"gemini\"        # Options: gemini, gpt, claude\n)\n\nprint(rewritten_text)\n</code></pre>\n<h2 id=\"user-content--rule-extraction\">🧩 Rule Extraction</h2>\n<p>Extract content preference rules from a generative engine (example: Gemini on E-commerce):</p>\n<pre><code class=\"language-bash\">python -m autogeo.extract_rules \\\n    --dataset E-commerce \\\n    --engine_llm gemini-2.5-flash-lite\n</code></pre>\n<p>Rules are saved to: <code>data/E-commerce/rule_sets/gemini-2.5-flash-lite/</code>.\n<strong>Tips:</strong></p>\n<ul>\n<li>Reduce concurrency if hitting API rate limits: <code>--max_workers 4</code></li>\n<li>Test on a small subset: <code>--num_examples 10</code></li>\n</ul>\n<p>Use extracted or custom rules for rewriting:</p>\n<pre><code class=\"language-python\">from autogeo.rewriters import rewrite_document\n\nrewritten_text = rewrite_document(\n    document=\"Your document text here\",\n    rule_path=f\"data/{dataset}/rule_sets/{engine_llm}/merged_rules.json\"\n)\n</code></pre>\n<p><strong>Custom rules format:</strong> JSON file with root key <code>\"filtered_rules\"</code></p>\n<h2 id=\"user-content--autogeoapi\">🧩 AutoGEOAPI</h2>\n<p>AutoGEO provides a unified evaluation framework for all models.</p>\n<p><strong>Model types:</strong></p>\n<ul>\n<li><code>vanilla</code> — Original documents (baseline)</li>\n<li><code>autogeo_api</code> — Rewritten documents generated by prompt-based GEO model</li>\n<li><code>autogeo_mini</code> — Rewritten documents generated by cost-effective GEO model</li>\n</ul>\n<p><strong>Evaluate baseline:</strong></p>\n<pre><code class=\"language-bash\">python -m autogeo.evaluate \\\n    --model vanilla \\\n    --dataset E-commerce \\\n    --engine_llm gemini-2.5-flash-lite\n</code></pre>\n<p><strong>Evaluate AutoGEOAPI:</strong></p>\n<pre><code class=\"language-bash\">python -m autogeo.evaluate \\\n    --model autogeo_api \\\n    --dataset E-commerce \\\n    --engine_llm gemini-2.5-flash-lite\n</code></pre>\n<p><strong>Tips:</strong></p>\n<ul>\n<li>Include GEU score: <code>--need_geu_score</code></li>\n<li>Test subset: <code>--num_examples 10</code></li>\n</ul>\n<h2 id=\"user-content--autogeomini\">🧩 AutoGEOMini</h2>\n<p>Train a cost-effective GEO model using reinforcement learning.</p>\n<p><strong>Step 1: Cold Start (Supervised Fine-Tuning)</strong></p>\n<pre><code class=\"language-bash\">bash run_cold_start.sh E-commerce\n</code></pre>\n<p>Using training data (<code>data/E-commerce/RL/finetune.json</code>) and starts LLaMA-Factory training. Checkpoint saved to <code>outputs/E-commerce/cold_start</code>.</p>\n<p><strong>Step 2: GRPO Training</strong></p>\n<pre><code class=\"language-bash\">bash run_grpo.sh E-commerce\n</code></pre>\n<p>Trains the model using Group Relative Policy Optimization. Checkpoint saved to <code>outputs/E-commerce/grpo</code>.</p>\n<p>If you encounter GRPO-related dependency errors, it is usually caused by version conflicts between LLaMA-Factory and open-r1. To resolve this, reinstall open-r1:</p>\n<pre><code>cd open-r1\nGIT_LFS_SKIP_SMUDGE=1 pip install -e \".[dev]\"\n</code></pre>\n<p><strong>Step 3: Evaluation</strong></p>\n<pre><code class=\"language-bash\">python -m autogeo.evaluate \\\n    --model autogeo_mini \\\n    --model_path outputs/E-commerce/grpo \\\n    --dataset E-commerce \\\n    --engine_llm gemini-2.5-flash-lite\n</code></pre>\n<h2 id=\"user-content--supported-datasets--engines--metrics\">📚 Supported Datasets &#x26; Engines &#x26; Metrics</h2>\n<p><strong>Datasets:</strong></p>\n<ul>\n<li><strong>Researchy-GEO</strong> — Academic dataset</li>\n<li><strong>E-commerce</strong> — Commercial dataset</li>\n<li><strong>GEO-Bench</strong> — Benchmark from <a href=\"https://generative-engines.com/GEO/\">GEO</a></li>\n</ul>\n<p><strong>Generative Engines:</strong></p>\n<ul>\n<li><strong>Gemini</strong> (e.g., <code>gemini-2.5-flash-lite</code>)</li>\n<li><strong>GPT</strong> (e.g., <code>gpt-4o-mini</code>)</li>\n<li><strong>Claude</strong> (e.g., <code>claude-3-5-sonnet-20241022</code>)</li>\n</ul>\n<p><strong>Metrics:</strong></p>\n<ul>\n<li><strong>GEO Score</strong> — Visibility (position, token count, citation frequency)</li>\n<li><strong>GEU Score</strong> — Utility (citation quality, keypoint coverage, response quality)</li>\n</ul>\n<h2 id=\"user-content--acknowledgements\">🙏 Acknowledgements</h2>\n<p>We thank the authors of <a href=\"https://generative-engines.com/GEO/\">GEO</a>, <a href=\"https://github.com/cxcscmu/AutoRule\">AutoRule</a>, <a href=\"https://github.com/hiyouga/LLaMA-Factory\">LLaMA-Factory</a>, <a href=\"https://github.com/huggingface/open-r1\">open-r1</a>, and <a href=\"https://github.com/cxcscmu/deepresearch_benchmarking\">DeepResearchGym</a> for their inspiring works. We also thank <a href=\"https://github.com/QwenLM/Qwen3\">Qwen3</a> and <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-R1\">DeepSeek-R1</a> for their excellent models.</p>\n<h2 id=\"user-content--citation\">📖 Citation</h2>\n<p>If you find AutoGEO useful, please cite:</p>\n<pre><code class=\"language-bibtex\">@article{wu2025generative,\n  title={What Generative Search Engines Like and How to Optimize Web Content Cooperatively},\n  author={Wu, Yujiang and Zhong, Shanshan and Kim, Yubin and Xiong, Chenyan},\n  journal={arXiv preprint arXiv:2510.11438},\n  year={2025}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:18:20.470Z"
+}

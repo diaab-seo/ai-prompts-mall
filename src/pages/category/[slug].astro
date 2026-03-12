@@ -1,0 +1,480 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/navigation/Breadcrumb.astro';
+import CategorySidebar from '../../components/navigation/CategorySidebar.astro';
+import Pagination from '../../components/ui/Pagination.astro';
+import { buildCollectionPageSchema } from '../../utils/schema';
+import categories from '../../data/categories.json';
+import manifestRaw from '../../data/manifest.json';
+
+export async function getStaticPaths() {
+  const manifest: RepoEntry[] = manifestRaw as any;
+  const PER_PAGE = 24;
+
+  return categories.map((cat) => {
+    const repos = manifest
+      .filter((r) => r.primary_category === cat.slug)
+      .sort((a, b) => b.stars - a.stars);
+    const totalPages = Math.max(1, Math.ceil(repos.length / PER_PAGE));
+
+    return {
+      params: { slug: cat.slug },
+      props: {
+        category: cat,
+        repos: repos.slice(0, PER_PAGE),
+        totalPages,
+        currentPage: 1,
+        totalRepos: repos.length,
+      },
+    };
+  });
+}
+
+interface RepoEntry {
+  full_name: string;
+  owner: string;
+  repo: string;
+  stars: number;
+  forks: number;
+  language?: string;
+  topics: string[];
+  primary_category: string;
+  pushed_at: string;
+  description?: string;
+}
+
+interface Props {
+  category: { slug: string; label: string; description: string; githubQuery: string; estRepos: number };
+  repos: RepoEntry[];
+  totalPages: number;
+  currentPage: number;
+  totalRepos: number;
+}
+
+const { category, repos, totalPages, currentPage, totalRepos } = Astro.props;
+
+const SITE = 'https://aipromptsmall.shop';
+const canonical = `${SITE}/category/${category.slug}`;
+
+const schema = buildCollectionPageSchema({
+  name: `${category.label} — Open Source AI Tools`,
+  description: category.description,
+  url: canonical,
+  numberOfItems: totalRepos,
+});
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  { label: category.label, href: `/category/${category.slug}` },
+];
+
+const ICONS: Record<string, string> = {
+  'large-language-models': '🧠',
+  'ai-agents':             '🤖',
+  'rag-retrieval':         '🔍',
+  'vector-databases':      '🗄️',
+  'prompt-engineering':    '✍️',
+  'fine-tuning':           '🎛️',
+  'multimodal-ai':         '🖼️',
+  'ai-infrastructure':     '⚙️',
+  'ai-frameworks':         '🧩',
+  'open-source-llms':      '🦙',
+  'ai-datasets':           '📦',
+  'ai-evaluation':         '📊',
+  'ai-safety':             '🛡️',
+  'ai-applications':       '🚀',
+};
+
+function fmt(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k`;
+  return String(n);
+}
+
+function relativeDate(iso: string) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const days = Math.floor(diff / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 7) return `${days}d ago`;
+  if (days < 30) return `${Math.floor(days / 7)}w ago`;
+  if (days < 365) return `${Math.floor(days / 30)}mo ago`;
+  return `${Math.floor(days / 365)}y ago`;
+}
+---
+
+<Base
+  title={`${category.label} — Best Open Source AI Tools | aipromptsmall.shop`}
+  description={`Discover ${totalRepos}+ open-source ${category.label} tools and repositories on GitHub. ${category.description}`}
+  canonical={canonical}
+  ogType="website"
+  pageType="category"
+  schemas={[schema]}
+>
+
+  <!-- Breadcrumb -->
+  <Breadcrumb crumbs={breadcrumbs} />
+
+  <!-- Pagination link tags in head -->
+  <Fragment slot="head">
+    {currentPage > 1 && <link rel="prev" href={currentPage === 2 ? `/category/${category.slug}` : `/category/${category.slug}/page/${currentPage - 1}`} />}
+    {currentPage < totalPages && <link rel="next" href={`/category/${category.slug}/page/${currentPage + 1}`} />}
+  </Fragment>
+
+  <div class="category-layout container">
+    <!-- Sidebar -->
+    <aside class="cat-sidebar" aria-label="Category navigation">
+      <CategorySidebar activeCategorySlug={category.slug} />
+    </aside>
+
+    <!-- Main -->
+    <main id="main-content" class="cat-main">
+
+      <!-- Category header -->
+      <header class="cat-header">
+        <div class="cat-header-icon" aria-hidden="true">{ICONS[category.slug] ?? '🤖'}</div>
+        <div class="cat-header-text">
+          <h1 class="cat-title">{category.label}</h1>
+          <p class="cat-description">{category.description}</p>
+          <div class="cat-meta">
+            <span class="cat-count-badge">{totalRepos.toLocaleString()} repositories</span>
+            {totalPages > 1 && (
+              <span class="cat-page-badge">Page {currentPage} of {totalPages}</span>
+            )}
+          </div>
+        </div>
+      </header>
+
+      <!-- Sort/filter bar -->
+      <div class="repo-toolbar" role="toolbar" aria-label="Repository list controls">
+        <p class="repo-toolbar-label">
+          Showing <strong>{repos.length}</strong> of <strong>{totalRepos}</strong> repos, sorted by ⭐ stars
+        </p>
+        <div class="repo-toolbar-actions">
+          <a href="/search" class="toolbar-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            Filter by topic
+          </a>
+        </div>
+      </div>
+
+      <!-- Repo grid -->
+      <ul class="repo-grid" role="list" aria-label={`${category.label} repositories`} data-pagefind-body>
+        {repos.map((repo) => (
+          <li>
+            <a href={`/repo/${repo.owner}/${repo.repo}`} class="repo-card" aria-label={`${repo.owner}/${repo.repo} — ${repo.stars.toLocaleString()} stars`}>
+              <!-- Card header -->
+              <div class="rc-header">
+                <div class="rc-name-block">
+                  <span class="rc-owner">{repo.owner}/</span>
+                  <strong class="rc-repo">{repo.repo}</strong>
+                </div>
+                <div class="rc-stars" aria-label={`${repo.stars.toLocaleString()} stars`}>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                  {fmt(repo.stars)}
+                </div>
+              </div>
+
+              <!-- Description -->
+              {repo.description && (
+                <p class="rc-desc">
+                  {repo.description.length > 120 ? `${repo.description.slice(0, 120)}…` : repo.description}
+                </p>
+              )}
+
+              <!-- Footer meta -->
+              <div class="rc-footer">
+                <div class="rc-pills">
+                  {repo.language && (
+                    <span class="rc-pill rc-pill--lang">
+                      <span class="lang-dot" aria-hidden="true"></span>
+                      {repo.language}
+                    </span>
+                  )}
+                  {repo.forks > 0 && (
+                    <span class="rc-pill">
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><path d="M6 9v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9"/><line x1="12" y1="12" x2="12" y2="15"/></svg>
+                      {fmt(repo.forks)}
+                    </span>
+                  )}
+                </div>
+                <time class="rc-updated" datetime={repo.pushed_at} title={`Last push: ${repo.pushed_at}`}>
+                  {relativeDate(repo.pushed_at)}
+                </time>
+              </div>
+
+              <!-- Top 3 topics -->
+              {repo.topics?.length > 0 && (
+                <div class="rc-topics" aria-label="Topics">
+                  {repo.topics.slice(0, 3).map((t) => (
+                    <a
+                      href={`/topic/${t}`}
+                      class="rc-topic"
+                      aria-label={`Browse topic: ${t}`}
+                      onclick="event.stopPropagation()"
+                    >{t}</a>
+                  ))}
+                  {repo.topics.length > 3 && (
+                    <span class="rc-topic rc-topic--more">+{repo.topics.length - 3}</span>
+                  )}
+                </div>
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <!-- Empty state -->
+      {repos.length === 0 && (
+        <div class="empty-state">
+          <p>No repositories found yet for this category.</p>
+          <p class="empty-hint">Data is fetched from GitHub — run <code>node scripts/fetch-github-data.mjs</code> to populate.</p>
+        </div>
+      )}
+
+      <!-- Pagination -->
+      {totalPages > 1 && (
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          baseUrl={`/category/${category.slug}`}
+        />
+      )}
+    </main>
+  </div>
+</Base>
+
+<style>
+  /* Layout */
+  .category-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2.5rem;
+    padding-block: 1.5rem 4rem;
+    align-items: start;
+  }
+
+  .cat-sidebar {
+    position: sticky;
+    top: 80px;
+  }
+
+  /* Header */
+  .cat-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.5rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 14px;
+    margin-bottom: 1.5rem;
+  }
+  .cat-header-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .cat-title {
+    font-size: clamp(1.375rem, 3vw, 1.875rem);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.375rem;
+  }
+  .cat-description {
+    font-size: 0.9375rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    max-width: 65ch;
+  }
+  .cat-meta { display: flex; gap: 0.5rem;  }
+  .cat-count-badge, .cat-page-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .cat-count-badge { background: var(--color-accent-light); color: var(--color-accent); }
+  .cat-page-badge { background: var(--color-surface-2); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+
+  /* Toolbar */
+  .repo-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.625rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .repo-toolbar-label {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+  .repo-toolbar-label strong { color: var(--color-text); }
+  .toolbar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    text-decoration: none;
+    transition: color 0.15s, background 0.15s;
+  }
+  .toolbar-btn:hover { color: var(--color-text); background: var(--color-surface-2); }
+
+  /* Repo grid */
+  .repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+    list-style: none;
+  }
+
+  /* Repo card */
+  .repo-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 1.125rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--color-text);
+    margin-bottom: auto;
+    transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  }
+  .repo-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 20px color-mix(in srgb, var(--color-accent) 10%, transparent);
+    transform: translateY(-2px);
+  }
+
+  .rc-header { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+   }
+  
+  .rc-name-block { min-width: 0; }
+  .rc-owner { font-size: 0.8125rem; color: var(--color-text-muted); }
+  .rc-repo { display: block; font-size: 0.9375rem; font-weight: 700; color: var(--color-text); word-break: break-word; }
+
+  .rc-stars {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: #f59e0b;
+    flex-shrink: 0;
+    
+  }
+
+  .rc-desc { font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    line-height: 1.55;
+    flex: 1;}
+
+  .rc-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-top: auto;
+    
+    
+  }
+  .rc-pills { display: flex; gap: 0.375rem;  }
+  .rc-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+  }
+  .lang-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    flex-shrink: 0;
+  }
+  .rc-updated {
+    font-size: 0.6875rem;
+    color: var(--color-text-muted);
+    
+    flex-shrink: 0;
+  }
+
+  .rc-topics {
+    display: flex;
+    gap: 0.3rem;
+    
+  }
+  .rc-topic {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: opacity 0.15s;
+    
+    
+    
+    
+  }
+  .rc-topic:hover { opacity: 0.75; }
+  .rc-topic--more {
+    background: var(--color-surface-2);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+  }
+
+  /* Empty state */
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--color-text-muted);
+    font-size: 0.9375rem;
+    line-height: 1.7;
+  }
+  .empty-hint { margin-top: 0.5rem; font-size: 0.8125rem; }
+  .empty-hint code {
+    font-family: var(--font-mono, monospace);
+    background: var(--color-surface);
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    color: var(--color-accent);
+  }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .category-layout {
+      grid-template-columns: 1fr;
+    }
+    .cat-sidebar { position: static; }
+  }
+  @media (max-width: 600px) {
+    .cat-header { flex-direction: column; }
+    .repo-toolbar { flex-direction: column; align-items: flex-start; }
+    .repo-grid { grid-template-columns: 1fr; }
+  }
+</style>

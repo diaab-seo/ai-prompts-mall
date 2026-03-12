@@ -1,0 +1,246 @@
+---
+/**
+ * /trending — Repos ranked by a recency × stars composite score.
+ * Score = stars × recency_decay where decay = 1/(1 + days_since_push/30)
+ */
+import Base from '../layouts/Base.astro';
+import manifestRaw from '../data/manifest.json';
+import categories from '../data/categories.json';
+
+interface RepoEntry {
+  full_name: string; owner: string; repo: string; stars: number;
+  forks: number; language?: string; topics: string[];
+  primary_category: string; pushed_at: string; description?: string;
+}
+
+const manifest: RepoEntry[] = manifestRaw as any;
+
+// Trending score = stars weighted by recency (half-life = 90 days)
+const now = Date.now();
+const HALF_LIFE_MS = 90 * 24 * 60 * 60 * 1000;
+
+const scored = manifest.map((r) => {
+  const age = now - new Date(r.pushed_at).getTime();
+  const decayFactor = Math.exp((-age / HALF_LIFE_MS) * Math.LN2);
+  return { ...r, score: r.stars * (0.4 + 0.6 * decayFactor) };
+});
+
+scored.sort((a, b) => b.score - a.score);
+
+const trending = scored.slice(0, 60); // top 60
+const trendingToday = scored.filter((r) => {
+  const age = now - new Date(r.pushed_at).getTime();
+  return age < 24 * 60 * 60 * 1000; // pushed in last 24h
+}).slice(0, 10);
+
+const catMap = Object.fromEntries(categories.map((c) => [c.slug, c.label]));
+
+function fmt(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k`;
+  return String(n);
+}
+
+function relDate(iso: string) {
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return `${mins}m ago`;
+  const hours = Math.floor(diff / 3600000);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.floor(diff / 86400000);
+  if (days < 7) return `${days}d ago`;
+  if (days < 30) return `${Math.floor(days / 7)}w ago`;
+  return `${Math.floor(days / 30)}mo ago`;
+}
+
+const title = 'Trending AI Tools — Most Active Open Source Repos | aipromptsmall.shop';
+const description = `The ${trending.length} most active open-source AI repositories right now, ranked by GitHub stars × recent activity.`;
+---
+
+<Base title={title} description={description} canonical="https://aipromptsmall.shop/trending" pageType="trending">
+  <div class="trending-page container">
+
+    <header class="trending-header">
+      <h1 class="trending-title">🔥 Trending <span class="grad">AI Tools</span></h1>
+      <p class="trending-subtitle">
+        Repos ranked by GitHub stars × recent push activity — updated on every build.
+      </p>
+    </header>
+
+    <!-- Active today strip -->
+    {trendingToday.length > 0 && (
+      <section class="today-strip" aria-label="Active in the last 24 hours">
+        <h2 class="strip-label">⚡ Active in the last 24h</h2>
+        <ul class="strip-list" role="list">
+          {trendingToday.map((r, i) => (
+            <li>
+              <a href={`/repo/${r.owner}/${r.repo}`} class="strip-card">
+                <span class="strip-rank" aria-hidden="true">#{i + 1}</span>
+                <div class="strip-info">
+                  <span class="strip-name">{r.owner}/<strong>{r.repo}</strong></span>
+                  <span class="strip-stars">⭐ {fmt(r.stars)}</span>
+                </div>
+                <span class="strip-time">{relDate(r.pushed_at)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <!-- Main trending grid -->
+    <section aria-label="Top trending repositories">
+      <h2 class="section-label">📊 Top {trending.length} Trending Repos</h2>
+      <ol class="trending-list" role="list">
+        {trending.map((r, i) => (
+          <li class="trending-item">
+            <span class="t-rank" aria-label={`Rank ${i + 1}`}>#{i + 1}</span>
+            <a href={`/repo/${r.owner}/${r.repo}`} class="t-card">
+              <div class="t-header">
+                <div class="t-name-block">
+                  <span class="t-owner">{r.owner}/</span>
+                  <strong class="t-repo">{r.repo}</strong>
+                </div>
+                <div class="t-stars" aria-label={`${r.stars.toLocaleString()} stars`}>
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                  {fmt(r.stars)}
+                </div>
+              </div>
+              {r.description && (
+                <p class="t-desc">{r.description.length > 110 ? `${r.description.slice(0, 110)}…` : r.description}</p>
+              )}
+              <div class="t-footer">
+                <div class="t-pills">
+                  {r.language && <span class="t-pill t-pill--lang"><span class="lang-dot" aria-hidden="true" style={`background:var(--lang-${r.language?.toLowerCase().replace(/[^a-z]/g,'-')}, #94a3b8)`}></span>{r.language}</span>}
+                  {r.primary_category && (
+                    <a
+                      href={`/category/${r.primary_category}`}
+                      class="t-pill t-pill--cat"
+                      onclick="event.stopPropagation()"
+                    >
+                      {catMap[r.primary_category] ?? r.primary_category}
+                    </a>
+                  )}
+                </div>
+                <time class="t-time" datetime={r.pushed_at}>{relDate(r.pushed_at)}</time>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .trending-page { padding-block: 2rem 5rem; }
+
+  /* Header */
+  .trending-header { text-align: center; margin-bottom: 2rem; }
+  .trending-title {
+    font-size: clamp(1.875rem, 5vw, 2.75rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.5rem;
+  }
+  .grad {
+    background: linear-gradient(135deg, #f97316, #e11d48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .trending-subtitle { font-size: 1rem; color: var(--color-text-muted); max-width: 55ch; margin-inline: auto; }
+
+  /* Today strip */
+  .today-strip {
+    background: linear-gradient(135deg, color-mix(in srgb, #f97316 8%, var(--color-bg)), var(--color-bg));
+    border: 1px solid color-mix(in srgb, #f97316 30%, var(--color-border));
+    border-radius: 14px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .strip-label { font-size: 0.875rem; font-weight: 700; color: #f97316; margin-bottom: 0.875rem; }
+  .strip-list { list-style: none; display: flex; flex-direction: column; gap: 0.375rem; }
+  .strip-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0.625rem;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: background 0.12s;
+  }
+  .strip-card:hover { background: color-mix(in srgb, #f97316 8%, transparent); }
+  .strip-rank { font-size: 0.75rem; font-weight: 800; color: #f97316; width: 24px; text-align: center; flex-shrink: 0; }
+  .strip-info { flex: 1; display: flex; align-items: center; gap: 0.75rem; min-width: 0; }
+  .strip-name { font-size: 0.875rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .strip-name strong { color: var(--color-text); }
+  .strip-stars { font-size: 0.75rem; font-weight: 700; color: #f59e0b; flex-shrink: 0; }
+  .strip-time { font-size: 0.6875rem; color: var(--color-text-muted); flex-shrink: 0; }
+
+  /* Section label */
+  .section-label { font-size: 1rem; font-weight: 700; color: var(--color-text); margin-bottom: 1rem; }
+
+  /* Trending list */
+  .trending-list { list-style: none; display: flex; flex-direction: column; gap: 0.625rem; }
+  .trending-item { display: flex; align-items: flex-start; gap: 0.875rem; }
+  .t-rank {
+    font-size: 0.8125rem;
+    font-weight: 800;
+    color: var(--color-text-muted);
+    width: 36px;
+    text-align: right;
+    padding-top: 0.875rem;
+    flex-shrink: 0;
+  }
+
+  /* Trending card */
+  .t-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.875rem 1rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 0.15s, box-shadow 0.12s;
+  }
+  .t-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 12px color-mix(in srgb, var(--color-accent) 10%, transparent);
+  }
+  .t-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.5rem; }
+  .t-owner { font-size: 0.8125rem; color: var(--color-text-muted); }
+  .t-repo { font-size: 0.9375rem; font-weight: 700; color: var(--color-text); }
+  .t-stars { display: flex; align-items: center; gap: 0.25rem; font-size: 0.8125rem; font-weight: 700; color: #f59e0b; flex-shrink: 0; }
+  .t-desc { font-size: 0.8125rem; color: var(--color-text-muted); line-height: 1.5; }
+  .t-footer { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;  }
+  .t-pills { display: flex; gap: 0.375rem;  }
+  .t-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 100px;
+    font-size: 0.6875rem;
+    font-weight: 500;
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+    text-decoration: none;
+  }
+  .t-pill--cat { background: var(--color-accent-light); color: var(--color-accent); border-color: transparent; }
+  .t-pill--cat:hover { opacity: 0.8; }
+  .lang-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .t-time { font-size: 0.6875rem; color: var(--color-text-muted); white-space: nowrap; flex-shrink: 0; }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .trending-item { gap: 0.5rem; }
+    .t-rank { width: 24px; font-size: 0.75rem; }
+  }
+</style>

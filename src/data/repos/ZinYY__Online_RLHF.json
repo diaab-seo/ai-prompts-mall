@@ -1,0 +1,718 @@
+{
+  "id": 928890261,
+  "node_id": "R_kgDON129lQ",
+  "name": "Online_RLHF",
+  "full_name": "ZinYY/Online_RLHF",
+  "private": false,
+  "owner": {
+    "login": "ZinYY",
+    "id": 17381012,
+    "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ZinYY",
+    "html_url": "https://github.com/ZinYY",
+    "followers_url": "https://api.github.com/users/ZinYY/followers",
+    "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+    "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+    "repos_url": "https://api.github.com/users/ZinYY/repos",
+    "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/ZinYY/Online_RLHF",
+  "description": "A PyTorch implementation of the paper \"Provably Efficient Online RLHF with One-Pass Reward Modeling\". This repository provides a flexible and modular approach to Online Reinforcement Learning from Human Feedback (Online RLHF).",
+  "fork": false,
+  "url": "https://api.github.com/repos/ZinYY/Online_RLHF",
+  "forks_url": "https://api.github.com/repos/ZinYY/Online_RLHF/forks",
+  "keys_url": "https://api.github.com/repos/ZinYY/Online_RLHF/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/ZinYY/Online_RLHF/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/ZinYY/Online_RLHF/teams",
+  "hooks_url": "https://api.github.com/repos/ZinYY/Online_RLHF/hooks",
+  "issue_events_url": "https://api.github.com/repos/ZinYY/Online_RLHF/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/ZinYY/Online_RLHF/events",
+  "assignees_url": "https://api.github.com/repos/ZinYY/Online_RLHF/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/ZinYY/Online_RLHF/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/ZinYY/Online_RLHF/tags",
+  "blobs_url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/ZinYY/Online_RLHF/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/ZinYY/Online_RLHF/languages",
+  "stargazers_url": "https://api.github.com/repos/ZinYY/Online_RLHF/stargazers",
+  "contributors_url": "https://api.github.com/repos/ZinYY/Online_RLHF/contributors",
+  "subscribers_url": "https://api.github.com/repos/ZinYY/Online_RLHF/subscribers",
+  "subscription_url": "https://api.github.com/repos/ZinYY/Online_RLHF/subscription",
+  "commits_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/ZinYY/Online_RLHF/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/ZinYY/Online_RLHF/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/ZinYY/Online_RLHF/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/ZinYY/Online_RLHF/merges",
+  "archive_url": "https://api.github.com/repos/ZinYY/Online_RLHF/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/ZinYY/Online_RLHF/downloads",
+  "issues_url": "https://api.github.com/repos/ZinYY/Online_RLHF/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/ZinYY/Online_RLHF/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/ZinYY/Online_RLHF/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/ZinYY/Online_RLHF/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/ZinYY/Online_RLHF/labels{/name}",
+  "releases_url": "https://api.github.com/repos/ZinYY/Online_RLHF/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/deployments",
+  "created_at": "2025-02-07T12:28:42Z",
+  "updated_at": "2026-02-02T08:38:47Z",
+  "pushed_at": "2025-12-13T06:43:06Z",
+  "git_url": "git://github.com/ZinYY/Online_RLHF.git",
+  "ssh_url": "git@github.com:ZinYY/Online_RLHF.git",
+  "clone_url": "https://github.com/ZinYY/Online_RLHF.git",
+  "svn_url": "https://github.com/ZinYY/Online_RLHF",
+  "homepage": "https://arxiv.org/abs/2502.07193",
+  "size": 175,
+  "stargazers_count": 88,
+  "watchers_count": 88,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 17,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "large-language-model",
+    "llm",
+    "post-training",
+    "rlhf"
+  ],
+  "visibility": "public",
+  "forks": 17,
+  "open_issues": 0,
+  "watchers": 88,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "fine-tuning",
+  "commits": [
+    {
+      "sha": "a5a813106fb6501d32a7d7c9ed2752e36901673e",
+      "node_id": "C_kwDON129ldoAKGE1YTgxMzEwNmZiNjUwMWQzMmE3ZDdjOWVkMjc1MmUzNjkwMTY3M2U",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-12-13T06:43:03Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-12-13T06:43:03Z"
+        },
+        "message": "Modify Readme",
+        "tree": {
+          "sha": "3517adafcac0868ee71b3665fa779e9e4c7f4e37",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees/3517adafcac0868ee71b3665fa779e9e4c7f4e37"
+        },
+        "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits/a5a813106fb6501d32a7d7c9ed2752e36901673e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/a5a813106fb6501d32a7d7c9ed2752e36901673e",
+      "html_url": "https://github.com/ZinYY/Online_RLHF/commit/a5a813106fb6501d32a7d7c9ed2752e36901673e",
+      "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/a5a813106fb6501d32a7d7c9ed2752e36901673e/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d19ccbc34aee47621d6615958ec548a4d79c287b",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/d19ccbc34aee47621d6615958ec548a4d79c287b",
+          "html_url": "https://github.com/ZinYY/Online_RLHF/commit/d19ccbc34aee47621d6615958ec548a4d79c287b"
+        }
+      ]
+    },
+    {
+      "sha": "d19ccbc34aee47621d6615958ec548a4d79c287b",
+      "node_id": "C_kwDON129ldoAKGQxOWNjYmMzNGFlZTQ3NjIxZDY2MTU5NThlYzU0OGE0ZDc5YzI4N2I",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-10-05T06:25:20Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-10-05T06:25:20Z"
+        },
+        "message": "modify README.md",
+        "tree": {
+          "sha": "99977d7eb92aadf637e9ed42bff0dca23403fcf9",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees/99977d7eb92aadf637e9ed42bff0dca23403fcf9"
+        },
+        "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits/d19ccbc34aee47621d6615958ec548a4d79c287b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/d19ccbc34aee47621d6615958ec548a4d79c287b",
+      "html_url": "https://github.com/ZinYY/Online_RLHF/commit/d19ccbc34aee47621d6615958ec548a4d79c287b",
+      "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/d19ccbc34aee47621d6615958ec548a4d79c287b/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "463812615fdeac8a44ff5d682cd3c5370917e0e1",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/463812615fdeac8a44ff5d682cd3c5370917e0e1",
+          "html_url": "https://github.com/ZinYY/Online_RLHF/commit/463812615fdeac8a44ff5d682cd3c5370917e0e1"
+        }
+      ]
+    },
+    {
+      "sha": "463812615fdeac8a44ff5d682cd3c5370917e0e1",
+      "node_id": "C_kwDON129ldoAKDQ2MzgxMjYxNWZkZWFjOGE0NGZmNWQ2ODJjZDNjNTM3MDkxN2UwZTE",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-23T03:36:54Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-23T03:36:54Z"
+        },
+        "message": "refine scripts",
+        "tree": {
+          "sha": "bccb33f5f6361b0d067df5c92a6d9b8c52e500eb",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees/bccb33f5f6361b0d067df5c92a6d9b8c52e500eb"
+        },
+        "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits/463812615fdeac8a44ff5d682cd3c5370917e0e1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/463812615fdeac8a44ff5d682cd3c5370917e0e1",
+      "html_url": "https://github.com/ZinYY/Online_RLHF/commit/463812615fdeac8a44ff5d682cd3c5370917e0e1",
+      "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/463812615fdeac8a44ff5d682cd3c5370917e0e1/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "605204adfe17095a14cfb04634630f8fb93911da",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/605204adfe17095a14cfb04634630f8fb93911da",
+          "html_url": "https://github.com/ZinYY/Online_RLHF/commit/605204adfe17095a14cfb04634630f8fb93911da"
+        }
+      ]
+    },
+    {
+      "sha": "605204adfe17095a14cfb04634630f8fb93911da",
+      "node_id": "C_kwDON129ldoAKDYwNTIwNGFkZmUxNzA5NWExNGNmYjA0NjM0NjMwZjhmYjkzOTExZGE",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-21T12:53:40Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-21T12:53:40Z"
+        },
+        "message": "update rlhf repo",
+        "tree": {
+          "sha": "371149c802b06b208a21291b420b55f26393094d",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees/371149c802b06b208a21291b420b55f26393094d"
+        },
+        "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits/605204adfe17095a14cfb04634630f8fb93911da",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/605204adfe17095a14cfb04634630f8fb93911da",
+      "html_url": "https://github.com/ZinYY/Online_RLHF/commit/605204adfe17095a14cfb04634630f8fb93911da",
+      "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/605204adfe17095a14cfb04634630f8fb93911da/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "885fcccb9a803414d94ce34cd6cc2ca870a7742b",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/885fcccb9a803414d94ce34cd6cc2ca870a7742b",
+          "html_url": "https://github.com/ZinYY/Online_RLHF/commit/885fcccb9a803414d94ce34cd6cc2ca870a7742b"
+        }
+      ]
+    },
+    {
+      "sha": "885fcccb9a803414d94ce34cd6cc2ca870a7742b",
+      "node_id": "C_kwDON129ldoAKDg4NWZjY2NiOWE4MDM0MTRkOTRjZTM0Y2Q2Y2MyY2E4NzBhNzc0MmI",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-15T08:58:11Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-15T08:58:11Z"
+        },
+        "message": "update scripts and readme",
+        "tree": {
+          "sha": "3a5f2bd09f959718f4ee4e518db0d004581862fa",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees/3a5f2bd09f959718f4ee4e518db0d004581862fa"
+        },
+        "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits/885fcccb9a803414d94ce34cd6cc2ca870a7742b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/885fcccb9a803414d94ce34cd6cc2ca870a7742b",
+      "html_url": "https://github.com/ZinYY/Online_RLHF/commit/885fcccb9a803414d94ce34cd6cc2ca870a7742b",
+      "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/885fcccb9a803414d94ce34cd6cc2ca870a7742b/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cdf8c4bbef7425bae90fe0c89c7d26b41713b898",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/cdf8c4bbef7425bae90fe0c89c7d26b41713b898",
+          "html_url": "https://github.com/ZinYY/Online_RLHF/commit/cdf8c4bbef7425bae90fe0c89c7d26b41713b898"
+        }
+      ]
+    },
+    {
+      "sha": "cdf8c4bbef7425bae90fe0c89c7d26b41713b898",
+      "node_id": "C_kwDON129ldoAKGNkZjhjNGJiZWY3NDI1YmFlOTBmZTBjODljN2QyNmI0MTcxM2I4OTg",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-15T08:38:13Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-15T08:38:13Z"
+        },
+        "message": "Update readme, add more scripts.",
+        "tree": {
+          "sha": "ffcc0affcf7182102f4a3408d7153f39940b501b",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees/ffcc0affcf7182102f4a3408d7153f39940b501b"
+        },
+        "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits/cdf8c4bbef7425bae90fe0c89c7d26b41713b898",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/cdf8c4bbef7425bae90fe0c89c7d26b41713b898",
+      "html_url": "https://github.com/ZinYY/Online_RLHF/commit/cdf8c4bbef7425bae90fe0c89c7d26b41713b898",
+      "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/cdf8c4bbef7425bae90fe0c89c7d26b41713b898/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "56d89ed9986d46e111c07caa56f5a4e43f01a65d",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/56d89ed9986d46e111c07caa56f5a4e43f01a65d",
+          "html_url": "https://github.com/ZinYY/Online_RLHF/commit/56d89ed9986d46e111c07caa56f5a4e43f01a65d"
+        }
+      ]
+    },
+    {
+      "sha": "56d89ed9986d46e111c07caa56f5a4e43f01a65d",
+      "node_id": "C_kwDON129ldoAKDU2ZDg5ZWQ5OTg2ZDQ2ZTExMWMwN2NhYTU2ZjVhNGU0M2YwMWE2NWQ",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-02-07T12:34:40Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-02-07T12:34:40Z"
+        },
+        "message": "initial commit",
+        "tree": {
+          "sha": "196df5ac51dd486c90ef0e7f0cc1a70edacca2dd",
+          "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/trees/196df5ac51dd486c90ef0e7f0cc1a70edacca2dd"
+        },
+        "url": "https://api.github.com/repos/ZinYY/Online_RLHF/git/commits/56d89ed9986d46e111c07caa56f5a4e43f01a65d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/56d89ed9986d46e111c07caa56f5a4e43f01a65d",
+      "html_url": "https://github.com/ZinYY/Online_RLHF/commit/56d89ed9986d46e111c07caa56f5a4e43f01a65d",
+      "comments_url": "https://api.github.com/repos/ZinYY/Online_RLHF/commits/56d89ed9986d46e111c07caa56f5a4e43f01a65d/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ZinYY",
+      "id": 17381012,
+      "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ZinYY",
+      "html_url": "https://github.com/ZinYY",
+      "followers_url": "https://api.github.com/users/ZinYY/followers",
+      "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+      "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+      "repos_url": "https://api.github.com/users/ZinYY/repos",
+      "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 7
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 918200,
+    "Shell": 23174
+  },
+  "readme_html": "<h1 id=\"user-content-online-rlhf-pipeline-a-pytorch-implementation\">Online RLHF Pipeline: A Pytorch Implementation</h1>\n<p>A PyTorch implementation of the NeurIPS'25 paper \"Provably Efficient Online RLHF with One-Pass Reward Modeling\". This repository provides a flexible and modular approach to Online Reinforcement Learning from Human Feedback (Online RLHF).</p>\n<p>This repository is forked from <a href=\"https://github.com/OpenRLHF/OpenRLHF\">OpenRLHF</a> repo, and modified to implement our Online RLHF Pipeline.</p>\n<h2 id=\"user-content--cook-your-own-online-rlhf-recipe\">🌟 Cook Your Own Online-RLHF Recipe!</h2>\n<p>Think of Online-RLHF training as cooking - each step is an ingredient that contributes to the final dish. This implementation lets you mix and match different training components to create your perfect RLHF recipe!</p>\n<h3 id=\"user-content--recipe-format\">🧑‍🍳 Recipe Format</h3>\n<pre><code class=\"language-python\"># A recipe is a list of ingredients (steps):\n# 1. Single ingredient: A string representing one step (e.g., \"SFT\")\n# 2. Ingredient group: A list of steps that cook together in one iteration\n\n# Example Recipe for Online PPO:\nrlhf_recipe = [\"SFT\"] + [[\"RM\", \"PPO\", \"generate\", \"evaluate\", \"rewarding\", \"generate_dataset\", \"collect_results\"]] * stop_t\n</code></pre>\n<h3 id=\"user-content--available-ingredients\">🥘 Available Ingredients</h3>\n<ul>\n<li><code>\"SFT\"</code>: Supervised Fine-Tuning (base preparation)</li>\n<li><code>\"RM\"</code>: Reward Model Training (regular or HVP flavor)</li>\n<li><code>\"PPO\"</code>: Proximal Policy Optimization (main course)</li>\n<li><code>\"DPO\"</code>: Direct Preference Optimization (alternative main)</li>\n<li><code>\"generate\"</code>: Response Generation (plating)</li>\n<li><code>\"evaluate\"</code>: Response Evaluation (tasting)</li>\n<li><code>\"rewarding\"</code>: Reward Calculation (seasoning)</li>\n<li><code>\"generate_dataset\"</code>: Dataset Creation (meal prep)</li>\n<li><code>\"collect_results\"</code>: Results Collection (food review)</li>\n</ul>\n<h2 id=\"user-content--quick-start\">🚀 Quick Start</h2>\n<h3 id=\"user-content-install-the-requirements\">Install the requirements:</h3>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n<h3 id=\"user-content-for-the-passive-stage\">For the Passive Stage:</h3>\n<ol>\n<li>you should first run SFT to get the initial reward model's checkpoint,</li>\n</ol>\n<pre><code class=\"language-bash\">export gpu_nodes=\"0,1,2,3\"\nexport CUDA_VISIBLE_DEVICES=$gpu_nodes\ndeepspeed --include=localhost:$gpu_nodes --master_port 27010 --module openrlhf.cli.train_sft \\\n    --max_len 2048 \\\n    --dataset HuggingFaceH4/ultrafeedback_binarized \\\n    --train_split train_sft \\\n    --input_key prompt \\\n    --output_key messages/-1/content \\\n    --train_batch_size 4\n    --max_samples 50000 \\\n    --pretrain meta-llama/Meta-Llama-3-8B-Instruct \\\n    --save_path ./checkpoint_ultraFB/llama3-8b-sft \\\n    --save_steps -1 \\\n    --logging_steps 1 \\\n    --eval_steps -1 \\\n    --zero_stage 3 \\\n    --max_epochs 1 \\\n    --bf16 \\\n    --flash_attn \\\n    --learning_rate 5e-6 \\\n    --load_checkpoint \\\n    --gradient_checkpointing \\\n    --use_wandb XXXXX \\\n    --wandb_project openrlhf_sft_ultraFB\n</code></pre>\n<ol start=\"2\">\n<li>then run the passive training pipeline:</li>\n</ol>\n<pre><code class=\"language-bash\"># Train Reward Model (SGD):\nexport gpu_nodes=\"0,1,2,3\"\nexport train_batch_size=32\nexport CUDA_VISIBLE_DEVICES=$gpu_nodes\ndeepspeed --include=localhost:$gpu_nodes --master_port 27109 --module openrlhf.cli.train_rm_head \\\n --save_path ./checkpoint_ultraFB/llama3-8b-rm \\\n --save_steps -1 \\\n --logging_steps 1 \\\n --eval_steps 100 \\\n --train_batch_size $train_batch_size \\\n --micro_train_batch_size 8 \\\n --max_len 1024 \\\n --max_samples 30000 \\\n --pretrain ./checkpoint_ultraFB/llama3-8b-sft \\\n --bf16 \\\n --max_epochs 1 \\\n --zero_stage 0 \\\n --learning_rate 1e-3 \\\n --dataset HuggingFaceH4/ultrafeedback_binarized \\\n --train_split train_prefs \\\n --eval_split test_prefs \\\n --apply_chat_template \\\n --chosen_key chosen \\\n --rejected_key rejected \\\n --flash_attn \\\n --packing_samples \\\n --use_wandb XXXXX \\\n  --wandb_run_name llama3-8b-rm-head-SGD \\\n --wandb_project openrlhf_RM_ultraFB_head\n\n\n# Train Reward Model (Ours Method):\nexport gpu_nodes=\"0,1,2,3\"\nexport train_batch_size=32\nexport CUDA_VISIBLE_DEVICES=$gpu_nodes\ndeepspeed --include=localhost:$gpu_nodes --master_port 29319 --module openrlhf.cli.train_rm_head_hvp \\\n --save_path ./checkpoint_ultraFB/llama3-8b-rm \\\n --save_steps -1 \\\n --logging_steps 1 \\\n --eval_steps 100 \\\n --train_batch_size $train_batch_size \\\n --micro_train_batch_size 8 \\\n --max_len 1024 \\\n --max_samples 30000 \\\n --damping 0.8 \\\n --damping_strategy linear \\\n --damping_growth_rate 100 \\\n --num_cg_steps 3 \\\n --use_hvp \\\n --pretrain ./checkpoint_ultraFB/llama3-8b-sft \\\n --bf16 \\\n --max_epochs 1 \\\n --zero_stage 3 \\\n --learning_rate 1e-3 \\\n --dataset HuggingFaceH4/ultrafeedback_binarized \\\n --train_split train_prefs \\\n --eval_split test_prefs \\\n --apply_chat_template \\\n --chosen_key chosen \\\n --rejected_key rejected \\\n --flash_attn \\\n --packing_samples \\\n --use_wandb XXXXX \\\n --wandb_project openrlhf_RM_ultraFB_head \\\n --wandb_run_name llama3-8b-rm-head-hvp\n</code></pre>\n<h3 id=\"user-content-for-the-online-rlhf-with-deployment-time-adaptation\">For the online RLHF with deployment-time adaptation:</h3>\n<ol>\n<li>Cook your favorite recipe style, then run:</li>\n</ol>\n<pre><code class=\"language-bash\"># Cook with PPO + OMD (hvp)\npython pipeline/Ultrafeedback/llama/online_deployment_ultrafeedback_llama.py \\\n    --method ppo \\\n    --rm_type hvp \\\n    --rm_strategy best_worst \\\n    --total_T 50 \\\n    --stop_T 20\n\n</code></pre>\n<h2 id=\"user-content--code-structure\">📁 Code Structure</h2>\n<pre><code>./\n├── openrlhf/\n│ ├── cli/ # Command line tools\n│ ├── trainer/ # Training implementations\n│ └── utils/ # Utility functions\n├── pipeline/\n│ └── Different scripts of RLHF pipeline\n├── plot/ # Visualization tools\n└── requirements.txt # Dependencies\n\n</code></pre>\n<h2 id=\"user-content--requirements\">🛠 Requirements</h2>\n<ul>\n<li>PyTorch</li>\n<li>transformers==4.46.3</li>\n<li>accelerate</li>\n<li>bitsandbytes</li>\n<li>peft</li>\n<li>wandb</li>\n<li>And more (see requirements.txt)</li>\n</ul>\n<h2 id=\"user-content--configuration-options\">🎛 Configuration Options</h2>\n<ul>\n<li><code>--method</code>: Choose between 'ppo' or 'dpo'</li>\n<li><code>--rm_type</code>: Select 'regular' or 'hvp' reward model</li>\n<li><code>--rm_strategy</code>: Pick from 'best_worst', 'best_second', 'best_quartile', 'random'</li>\n<li><code>--total_T</code>: Total number of training iterations</li>\n<li><code>--start_t</code>: Starting iteration</li>\n<li><code>--stop_t</code>: Stopping iteration</li>\n</ul>\n<h2 id=\"user-content--ciatation\">📖 Ciatation</h2>\n<p>If you find this repository useful, please consider citing our paper:</p>\n<pre><code class=\"language-bibtex\">@inproceedings{NeurIPS'25:OnlineRLHF,\n    author = {Long-Fei Li and Yu-Yang Qian and Peng Zhao and Zhi-Hua Zhou},\n    title = {Provably Efficient Online RLHF with One-Pass Reward Modeling},\n    booktitle = {Advances in Neural Information Processing Systems 38 (NeurIPS)},\n    year = {2025},\n    pages = {to appear}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:05:05.574Z"
+}

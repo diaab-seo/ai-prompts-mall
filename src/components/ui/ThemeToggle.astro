@@ -1,0 +1,116 @@
+---
+// ThemeToggle — 3-state: light / dark / system (Section 7.5)
+---
+
+<button
+  id="theme-toggle"
+  class="theme-toggle"
+  aria-label="Switch to dark mode"
+  title="Toggle color theme"
+  type="button"
+>
+  <!-- Sun (light) -->
+  <svg class="theme-icon theme-icon--light" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="5"/>
+    <line x1="12" y1="1" x2="12" y2="3"/>
+    <line x1="12" y1="21" x2="12" y2="23"/>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+    <line x1="1" y1="12" x2="3" y2="12"/>
+    <line x1="21" y1="12" x2="23" y2="12"/>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+  </svg>
+  <!-- Moon (dark) -->
+  <svg class="theme-icon theme-icon--dark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+  </svg>
+  <!-- Monitor (system) -->
+  <svg class="theme-icon theme-icon--system" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+  </svg>
+</button>
+
+<script>
+  type Theme = 'light' | 'dark' | 'system';
+  const CYCLE: Theme[] = ['light', 'dark', 'system'];
+  const LABELS: Record<Theme, string> = {
+    light: 'Switch to dark mode',
+    dark: 'Switch to system theme',
+    system: 'Switch to light mode',
+  };
+
+  function getStored(): Theme {
+    try { return (localStorage.getItem('theme-preference') as Theme) ?? 'system'; }
+    catch { return 'system'; }
+  }
+
+  function apply(theme: Theme) {
+    const resolved = theme === 'system'
+      ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+      : theme;
+    document.documentElement.setAttribute('data-theme', resolved);
+    try { localStorage.setItem('theme-preference', theme); } catch {}
+
+    // Update all toggle buttons on page
+    document.querySelectorAll<HTMLButtonElement>('.theme-toggle').forEach((btn) => {
+      btn.setAttribute('aria-label', LABELS[theme]);
+      btn.setAttribute('data-theme-state', theme);
+    });
+
+    // Announce to screen readers
+    const announce = document.getElementById('theme-announce');
+    if (announce) announce.textContent = `Theme changed to ${resolved} mode`;
+  }
+
+  // Init on load
+  apply(getStored());
+
+  // Wire click handler
+  document.querySelectorAll<HTMLButtonElement>('.theme-toggle').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const current = getStored();
+      const next = CYCLE[(CYCLE.indexOf(current) + 1) % CYCLE.length];
+      apply(next);
+    });
+  });
+
+  // React to OS theme changes when in 'system' mode
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    if (getStored() === 'system') apply('system');
+  });
+</script>
+
+<style>
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: var(--color-text-muted);
+    transition: background 0.15s, color 0.15s;
+    position: relative;
+  }
+  .theme-toggle:hover {
+    background: var(--color-surface);
+    color: var(--color-text);
+  }
+
+  /* Show the correct icon based on data-theme-state */
+  .theme-icon { position: absolute; transition: opacity 0.2s, transform 0.2s; }
+  .theme-icon--light  { opacity: 0; transform: scale(0.7); }
+  .theme-icon--dark   { opacity: 0; transform: scale(0.7); }
+  .theme-icon--system { opacity: 0; transform: scale(0.7); }
+
+  :global([data-theme-state="light"])  .theme-icon--light  { opacity: 1; transform: scale(1); }
+  :global([data-theme-state="dark"])   .theme-icon--dark   { opacity: 1; transform: scale(1); }
+  :global([data-theme-state="system"]) .theme-icon--system { opacity: 1; transform: scale(1); }
+
+  /* Fallback before JS: show sun by default */
+  .theme-toggle:not([data-theme-state]) .theme-icon--light { opacity: 1; transform: scale(1); }
+</style>

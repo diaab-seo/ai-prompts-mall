@@ -1,0 +1,2877 @@
+{
+  "id": 811395738,
+  "node_id": "R_kgDOMFzqmg",
+  "name": "buffer-of-thought-llm",
+  "full_name": "YangLing0818/buffer-of-thought-llm",
+  "private": false,
+  "owner": {
+    "login": "YangLing0818",
+    "id": 62683396,
+    "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/YangLing0818",
+    "html_url": "https://github.com/YangLing0818",
+    "followers_url": "https://api.github.com/users/YangLing0818/followers",
+    "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+    "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+    "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+    "repos_url": "https://api.github.com/users/YangLing0818/repos",
+    "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm",
+  "description": "[NeurIPS 2024 Spotlight] Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models",
+  "fork": false,
+  "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm",
+  "forks_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/forks",
+  "keys_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/teams",
+  "hooks_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/hooks",
+  "issue_events_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/events",
+  "assignees_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/tags",
+  "blobs_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/languages",
+  "stargazers_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/stargazers",
+  "contributors_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/contributors",
+  "subscribers_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/subscribers",
+  "subscription_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/subscription",
+  "commits_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/merges",
+  "archive_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/downloads",
+  "issues_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/labels{/name}",
+  "releases_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/deployments",
+  "created_at": "2024-06-06T14:12:48Z",
+  "updated_at": "2026-03-10T09:41:31Z",
+  "pushed_at": "2025-06-28T11:56:05Z",
+  "git_url": "git://github.com/YangLing0818/buffer-of-thought-llm.git",
+  "ssh_url": "git@github.com:YangLing0818/buffer-of-thought-llm.git",
+  "clone_url": "https://github.com/YangLing0818/buffer-of-thought-llm.git",
+  "svn_url": "https://github.com/YangLing0818/buffer-of-thought-llm",
+  "homepage": "https://openreview.net/forum?id=ANO1i9JPtb",
+  "size": 1125,
+  "stargazers_count": 674,
+  "watchers_count": 674,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 64,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 14,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdx_id": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "node_id": "MDc6TGljZW5zZTEz"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "chain-of-thought-reasoning",
+    "large-language-models",
+    "llm-reasoning",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 64,
+  "open_issues": 14,
+  "watchers": 674,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "b46ac813cc2aa2c8f98aa93022d0e491b3862cfc",
+      "node_id": "C_kwDOMFzqmtoAKGI0NmFjODEzY2MyYWEyYzhmOThhYTkzMDIyZDBlNDkxYjM4NjJjZmM",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2025-06-28T11:56:01Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2025-06-28T11:56:01Z"
+        },
+        "message": "update subsequent work",
+        "tree": {
+          "sha": "786dd8379d82954848e3f040dc2dc85ea1d43857",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/786dd8379d82954848e3f040dc2dc85ea1d43857"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/b46ac813cc2aa2c8f98aa93022d0e491b3862cfc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/b46ac813cc2aa2c8f98aa93022d0e491b3862cfc",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/b46ac813cc2aa2c8f98aa93022d0e491b3862cfc",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/b46ac813cc2aa2c8f98aa93022d0e491b3862cfc/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "da27647f7d0fabc10a225c5a42f334b7e888aa62",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/da27647f7d0fabc10a225c5a42f334b7e888aa62",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/da27647f7d0fabc10a225c5a42f334b7e888aa62"
+        }
+      ]
+    },
+    {
+      "sha": "da27647f7d0fabc10a225c5a42f334b7e888aa62",
+      "node_id": "C_kwDOMFzqmtoAKGRhMjc2NDdmN2QwZmFiYzEwYTIyNWM1YTQyZjMzNGI3ZTg4OGFhNjI",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2025-03-23T23:12:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-03-23T23:12:28Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "cfe16ada11d741c59b41d89aae7f8148997c4ce7",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/cfe16ada11d741c59b41d89aae7f8148997c4ce7"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/da27647f7d0fabc10a225c5a42f334b7e888aa62",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn4JVcCRC1aQ7uu5UhlAAADrMQAI53LaHtTQ8Y8k/8aD2NETDt\n8H0lQRSTqHreZZjHxGPSyROxG2TYZPPD/LYAwotS4asP1dVTPTFW5O7xvdT/JYOf\nye/ONo5Ymo7nkYJFD20316SMNxgvGMKnvEjacKzKqwdF+CbNG06ySTviVTvNdkhZ\nNvgh9AtBJoi+xIfKaxhw6mEq6WMU06cZFz+J0Xos/DzlRKomOu99FXtOP6x1gVHL\noHs0Dh8MmSLVUsItl9i1wJ7jS6AXCFSFRq1x/WLJ3tJSTbuCaTkc4Xv7XKGN6a9n\nRPFOotG04zt2bzz9wMkePId0v/32Pa7rffeHmGbcDXRWl9bk9VHS25JV1S5JiMi6\nPCFgvaIM9RJjIZVcgc5fRvZ1UK8CL0lY062PWTubLzxzjo/j4xXei/zsH4w+rVmg\nosFidhnp27FDrtEvykWHZ8VXHPY3ehPSU/XP54vz2xW/ufms3MN2gYrlI02RF9T+\noWB/jfMskhSb0/eXKEKgbRbbAgi82YeTNdvxvawW3xMlEHQPQvaXiYHmncPMzKQq\nZnkIkuDJWsKuNVkTmE+btyx0AVpMdQSyPrNV2rOXWl61b1WrFIJOlzKEu4E26odm\nlA2UUl3ypwnCRK2cS79VaEhjWmoKyAZ+6ZqLBpE89u6Ftl5eNR2kOAUVrI9xIqWf\n/ggK24QeQaVI/FruR0Kw\n=+2cX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cfe16ada11d741c59b41d89aae7f8148997c4ce7\nparent f018bb1ae174940ea44f21d877448220264a90fe\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1742771548 +0800\ncommitter GitHub <noreply@github.com> 1742771548 +0800\n\nUpdate README.md",
+          "verified_at": "2025-03-23T23:17:31Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/da27647f7d0fabc10a225c5a42f334b7e888aa62",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/da27647f7d0fabc10a225c5a42f334b7e888aa62",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/da27647f7d0fabc10a225c5a42f334b7e888aa62/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f018bb1ae174940ea44f21d877448220264a90fe",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/f018bb1ae174940ea44f21d877448220264a90fe",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/f018bb1ae174940ea44f21d877448220264a90fe"
+        }
+      ]
+    },
+    {
+      "sha": "f018bb1ae174940ea44f21d877448220264a90fe",
+      "node_id": "C_kwDOMFzqmtoAKGYwMThiYjFhZTE3NDk0MGVhNDRmMjFkODc3NDQ4MjIwMjY0YTkwZmU",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2025-03-23T23:06:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-03-23T23:06:20Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "1bba8e0d751dd0e6623a7de0d5864146cd78387c",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/1bba8e0d751dd0e6623a7de0d5864146cd78387c"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/f018bb1ae174940ea44f21d877448220264a90fe",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn4JPsCRC1aQ7uu5UhlAAAzkYQAHSgaPJnvgLMJI8/YGYlqfqV\ng4PnLPyuIMEvL2DcRUyl3pxqk/FepiVoH+oQrLEDwSyg94UhCpOBKkN85dVORMiz\nhuFm5zivxT9VsjV8VqdBg4lMHy/zThF1o/a4T/gufUvpLC+1apsQEd8uDJOad04Q\nzwnBtvM3jPKF61V1xYROOPLX9/sX344wpe/rkDM/UtQkzQ6NTRHMvtJUP+E6Fh+0\nSeNyiDiYIDQATFLoyiQ6rW+hAIQtjYKL7rWbpPHYGnq5o90srJyCWkrfh1ujjVqg\nXrlNFeggaItHprTdFAR+6mRLYdtcGobKGUn/zcAIMhtkTFgTEPkJkOSXanX9LYCf\nDKWm6AOnaWsRSwBH+LTHaCgCj8oc8m83btfLtD1thzfyai7sGB93SCsPgb3cxus1\nD/SjNW95MV11pVp3W0wM5nzB+uuk9yuQSueXU5jsHgUscIexdmyQxQZ1Ae3jAl8h\n3X0N2uI1VAW1aj+pjVbeaA6aTHvjWz8aUVZSpcQ5/zNuv0DIvRwVTGlWumBSMsy+\n3Xw4RJboDItIIkvj70Hx5rVz1d5pMvSVEfxezmy9qMbBCKQ/TGEJpCTJHDxr+dUW\n/Q86HC61c71h5rco5rqdMF2/tVERJWdetl5/6h8JaIkKFoY8/OkOxrEF6fmYjyTZ\nbkrZf/7spiSdFCyDQsA/\n=AhHa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1bba8e0d751dd0e6623a7de0d5864146cd78387c\nparent 6fb83b22758da1821c74cb7078700eb22b29267a\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1742771180 +0800\ncommitter GitHub <noreply@github.com> 1742771180 +0800\n\nUpdate README.md",
+          "verified_at": "2025-03-23T23:09:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/f018bb1ae174940ea44f21d877448220264a90fe",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/f018bb1ae174940ea44f21d877448220264a90fe",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/f018bb1ae174940ea44f21d877448220264a90fe/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6fb83b22758da1821c74cb7078700eb22b29267a",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6fb83b22758da1821c74cb7078700eb22b29267a",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/6fb83b22758da1821c74cb7078700eb22b29267a"
+        }
+      ]
+    },
+    {
+      "sha": "6fb83b22758da1821c74cb7078700eb22b29267a",
+      "node_id": "C_kwDOMFzqmtoAKDZmYjgzYjIyNzU4ZGExODIxYzc0Y2I3MDc4NzAwZWIyMmIyOTI2N2E",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2025-03-23T23:05:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-03-23T23:05:25Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "4ab322936b02290568a9bb708fe3639e53bec046",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/4ab322936b02290568a9bb708fe3639e53bec046"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/6fb83b22758da1821c74cb7078700eb22b29267a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn4JO1CRC1aQ7uu5UhlAAAkwoQAGTnirSM9ZGYiM+B5D7npIKr\n1i166qD5yhV5MUaeVS4qTVjwjeEU7Fkkdsim6K29GCxWRbjpAl3EnbFNGpGF5dez\n+OVUiLEKkxD4M47bQ9x9E/D4m/Lwin02bFWg9Io+mhDaqT7aFBHUQOExFcdKMxrF\nfSjYOBgz+VrYXerALXz6JO6LkzMx83Jz0F6Xu4fRL+4mvN/JxXo96hBpq4c0MTOt\n2IshoB6/EhFiBUxald4suppbuKXP0GX08prQpWxsOj+OLOIxnPmorBdH5HfAgYFm\np0I+sf9IOLXtc4+x0Ewe/Dki+V2NCP3I4D5Y56zwe1Zbwfq5E5eQa2VxWC6uz/hn\naOIjtHu1eD5dVAh09ffeqtvUj7JrdLyFcjRKrN/WNXRE1fwWS3z+m89dNA3pQfk4\n5ZzJ3KDTGloAeoLG1E8KVVv6pNuJWDqGKG9FzeT/McF3LPc0MjJ3DhfNI8woKJCM\n6z1JUyH8+pVg1OkOsmE5u19Zn3V5PuDyqZss7WolGsxH7LL/W/drWyrVKUv5Nws8\nJ26+mQZ10HHRHQDkSSpt2FTfAQFNHcqBtSyYJap81Ek/1sRlEw1TSV1z14vOWKBB\n1wYgFmmvqIGR66lluUvV7bHeMFlhEVs5f4P+UeWvSBozqGBQr77Cat/OUDqHEUR+\nDQZzFQH2h1r4n0piEmna\n=gCV0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4ab322936b02290568a9bb708fe3639e53bec046\nparent fa59a04f7e8c7910962c7d706f971d079db91abf\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1742771125 +0800\ncommitter GitHub <noreply@github.com> 1742771125 +0800\n\nUpdate README.md",
+          "verified_at": "2025-03-23T23:09:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6fb83b22758da1821c74cb7078700eb22b29267a",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/6fb83b22758da1821c74cb7078700eb22b29267a",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6fb83b22758da1821c74cb7078700eb22b29267a/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fa59a04f7e8c7910962c7d706f971d079db91abf",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/fa59a04f7e8c7910962c7d706f971d079db91abf",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/fa59a04f7e8c7910962c7d706f971d079db91abf"
+        }
+      ]
+    },
+    {
+      "sha": "fa59a04f7e8c7910962c7d706f971d079db91abf",
+      "node_id": "C_kwDOMFzqmtoAKGZhNTlhMDRmN2U4Yzc5MTA5NjJjN2Q3MDZmOTcxZDA3OWRiOTFhYmY",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2025-02-11T03:22:00Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2025-02-11T03:22:00Z"
+        },
+        "message": "update news with ReasonFlux",
+        "tree": {
+          "sha": "749ce5465bf212660fb2ab9d869469f312280ff4",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/749ce5465bf212660fb2ab9d869469f312280ff4"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/fa59a04f7e8c7910962c7d706f971d079db91abf",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/fa59a04f7e8c7910962c7d706f971d079db91abf",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/fa59a04f7e8c7910962c7d706f971d079db91abf",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/fa59a04f7e8c7910962c7d706f971d079db91abf/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6b390b75a366416eb7ba167050153be21f67c6f0",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6b390b75a366416eb7ba167050153be21f67c6f0",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/6b390b75a366416eb7ba167050153be21f67c6f0"
+        }
+      ]
+    },
+    {
+      "sha": "6b390b75a366416eb7ba167050153be21f67c6f0",
+      "node_id": "C_kwDOMFzqmtoAKDZiMzkwYjc1YTM2NjQxNmViN2JhMTY3MDUwMTUzYmUyMWY2N2M2ZjA",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2025-02-11T03:20:51Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2025-02-11T03:20:51Z"
+        },
+        "message": "update news with ReasonFlux",
+        "tree": {
+          "sha": "149efb9eb5d7e052cba663ab6a8bd943a3c98fb3",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/149efb9eb5d7e052cba663ab6a8bd943a3c98fb3"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/6b390b75a366416eb7ba167050153be21f67c6f0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6b390b75a366416eb7ba167050153be21f67c6f0",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/6b390b75a366416eb7ba167050153be21f67c6f0",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6b390b75a366416eb7ba167050153be21f67c6f0/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "85272fd898ce03cb4bf7737e2af5ae1e00b23e2e",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/85272fd898ce03cb4bf7737e2af5ae1e00b23e2e",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/85272fd898ce03cb4bf7737e2af5ae1e00b23e2e"
+        }
+      ]
+    },
+    {
+      "sha": "85272fd898ce03cb4bf7737e2af5ae1e00b23e2e",
+      "node_id": "C_kwDOMFzqmtoAKDg1MjcyZmQ4OThjZTAzY2I0YmY3NzM3ZTJhZjVhZTFlMDBiMjNlMmU",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2025-01-03T03:01:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-03T03:01:09Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d7a2a3dae19340f6118419ceceb2b418b7bf9194",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/d7a2a3dae19340f6118419ceceb2b418b7bf9194"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/85272fd898ce03cb4bf7737e2af5ae1e00b23e2e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnd1L1CRC1aQ7uu5UhlAAAUQAQAC3j/ldaPI91zOE2m1gasRKk\nau47IQxCr7xlihhKWdzitvnShay82LOvyd53n0FkzSXtJM469Lbh+UgaDK23Ye98\nrG+F69oBTXzhJeAR5WATBIiTzx250eTLztxAcL53bfYBHvnY4CajmBCUo3avyt4z\nEzAOz9e2sU66VZnYj4avGzgvb7C21I9q18iHXETkGlzD+9TBBgpVvsPYbnSEc2nr\nItDbV6BSDBYUTiR/78FqJcdM0oYCqoVldSJCgixUOdMU81lVW41FvuRG0Hta1by5\nQU5YneBt9XPtYO/Yrs8RJRVxFlsxGRAfygnmhyzs3niOlrxKUZBcQ18S/M33NCyC\nFZ0hIDTSFE24CHVNM+IisPseraoF76zM+ijzSDQbcAdvyMZAUKVjYwbAVQBY82ZH\n7ZZAp+AwuZnxiDJ3AvwwnttCrR46TGZ5ZHh3TFoXNFOFn2+zP+ruw6KgB7veXPv4\neWm/oinM94XGKPVrYpUTTxwuGcoM3tqIei4wTAAwWasBC8UdlY+V8+1kX7HUi4Us\nOEr8pW5sRneWppsUC3SYEclqFwLnImWY+YPfX8jC5XRZxaHwl/b/7H5aK5RYsyXN\nvzNciN6siBzv9xKqsUNuncyAnw44743P0B9jNJ3RLyLo0d3pEvzFeqFeu58saQTd\nZFsMhW9r6FWQwbH21o8v\n=qapG\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d7a2a3dae19340f6118419ceceb2b418b7bf9194\nparent 5b0230a9b4ac212c4760d24b4eda33dc21983ae7\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1735873269 +0800\ncommitter GitHub <noreply@github.com> 1735873269 +0800\n\nUpdate README.md",
+          "verified_at": "2025-01-03T03:06:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/85272fd898ce03cb4bf7737e2af5ae1e00b23e2e",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/85272fd898ce03cb4bf7737e2af5ae1e00b23e2e",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/85272fd898ce03cb4bf7737e2af5ae1e00b23e2e/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5b0230a9b4ac212c4760d24b4eda33dc21983ae7",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/5b0230a9b4ac212c4760d24b4eda33dc21983ae7",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/5b0230a9b4ac212c4760d24b4eda33dc21983ae7"
+        }
+      ]
+    },
+    {
+      "sha": "5b0230a9b4ac212c4760d24b4eda33dc21983ae7",
+      "node_id": "C_kwDOMFzqmtoAKDViMDIzMGE5YjRhYzIxMmM0NzYwZDI0YjRlZGEzM2RjMjE5ODNhZTc",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-10-28T13:59:11Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-10-28T13:59:11Z"
+        },
+        "message": "update BoT with LightRAG",
+        "tree": {
+          "sha": "2dfdffbd41b32b322e78fd8041fb7280b1e0564e",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/2dfdffbd41b32b322e78fd8041fb7280b1e0564e"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/5b0230a9b4ac212c4760d24b4eda33dc21983ae7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/5b0230a9b4ac212c4760d24b4eda33dc21983ae7",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/5b0230a9b4ac212c4760d24b4eda33dc21983ae7",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/5b0230a9b4ac212c4760d24b4eda33dc21983ae7/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd"
+        }
+      ]
+    },
+    {
+      "sha": "3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd",
+      "node_id": "C_kwDOMFzqmtoAKDNhMTAxMmY0Y2QyZWNhYWFmZDY1NTU0ZmU0MGZhZGMwZjZhMjk2YmQ",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-10-28T13:57:01Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-10-28T13:57:01Z"
+        },
+        "message": "update BoT with LightRAG",
+        "tree": {
+          "sha": "987ad34070acbb181fc83f9651a51ca3ebaefcd3",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/987ad34070acbb181fc83f9651a51ca3ebaefcd3"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3a1012f4cd2ecaaafd65554fe40fadc0f6a296bd/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "170aea2b89c61e19f8bdbdf0625a2fda1ed37859",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/170aea2b89c61e19f8bdbdf0625a2fda1ed37859",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/170aea2b89c61e19f8bdbdf0625a2fda1ed37859"
+        }
+      ]
+    },
+    {
+      "sha": "170aea2b89c61e19f8bdbdf0625a2fda1ed37859",
+      "node_id": "C_kwDOMFzqmtoAKDE3MGFlYTJiODljNjFlMTlmOGJkYmRmMDYyNWEyZmRhMWVkMzc4NTk",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-10-14T04:00:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-10-14T04:00:33Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "c8c0ffb5db62b9d4780bbe53d9dbf13640fad8ca",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/c8c0ffb5db62b9d4780bbe53d9dbf13640fad8ca"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/170aea2b89c61e19f8bdbdf0625a2fda1ed37859",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnDJdhCRC1aQ7uu5UhlAAAz1cQAHaANmq0Rrw2R2nCKifmQBGN\nH0FVL8MW828XWIqkFM98QJ8go7bH0S7SY7lEE+RbOOzl1YUlSpNpFboPVtlmBjau\n9TrO3Zkz/EHMp4v0iu+GudR0oH+WEH/A0g+bnxcQwTfNF4pDuw/UCBAJcBflMU3m\nj2TUv0RcIqXyVAPY666VBGAioKZt4t0ewBqCeyfL9/KNkwRE+hdZiIH/b0XgtjBF\n+yeaMISRW5kBAbZuW2HKvolFO8xfb9k+OfD89vyhHRuzY/jKqJuWS8fjpIQzvr8g\nbs+4l8rTlYMabtg7YvvDls0mBqqi36yUHn4c3x3AvI+mfzMyeCibWVHB+FwBCigQ\nmRo0aOLhwcIOPYOZW+qwA/Q+xeRQmy2BDWyPfUJiBdyB8rxm+HmLNj6eaSCNCltn\n5PZJy9+8wV85cWib7GIOTI0Z85tdFOg8oRyMrVI4O+H113omQYxpGE1R63pK/RLN\ndzUewO8PKmZTrgUsCsZg3ym2a+umRJlmNgMoFcQey1E/VilmBDWhXgJt0qvPwHpx\nQCbLnnswNjHTvWi3YwkXF3WlI+L5rQT4QOl4tWwbcZbDHFzoJ3XKVFn0FAkJrgui\ndnXMH70rLAiWCQLxHIaRTSyRy9C/UwrPNQXJdrdtkt3X8j9RqpCYL2lBaq9lIgOP\nFg6PG3mLNfEoJj5Qb41V\n=YymT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c8c0ffb5db62b9d4780bbe53d9dbf13640fad8ca\nparent de7771c36028499b48eae02d11d3c8bc3a6f4eea\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1728878433 +0800\ncommitter GitHub <noreply@github.com> 1728878433 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/170aea2b89c61e19f8bdbdf0625a2fda1ed37859",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/170aea2b89c61e19f8bdbdf0625a2fda1ed37859",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/170aea2b89c61e19f8bdbdf0625a2fda1ed37859/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "de7771c36028499b48eae02d11d3c8bc3a6f4eea",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/de7771c36028499b48eae02d11d3c8bc3a6f4eea",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/de7771c36028499b48eae02d11d3c8bc3a6f4eea"
+        }
+      ]
+    },
+    {
+      "sha": "de7771c36028499b48eae02d11d3c8bc3a6f4eea",
+      "node_id": "C_kwDOMFzqmtoAKGRlNzc3MWMzNjAyODQ5OWI0OGVhZTAyZDExZDNjOGJjM2E2ZjRlZWE",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-09-27T02:29:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-27T02:29:28Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "0f3a0e539cdd05808db77b20349cd50be1b133f7",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/0f3a0e539cdd05808db77b20349cd50be1b133f7"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/de7771c36028499b48eae02d11d3c8bc3a6f4eea",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm9hiICRC1aQ7uu5UhlAAAZi8QAB9M1DBtuAy+7mybklZqpN92\n3IsObMqxVX8RnGkyATcz0AEZGtNgnkQeyXN82T4LYSpFwFgZl9durMDCkDKBXb7P\n37YY0iVjwLM3yBCBzFry/Xdw9QHdSqgIjz/ZpeIBMe/pwUqTVwBcfiPvZiZJy0sH\nqRlPQZdwPJGYJRFBLKSJiIF7NVmH2aJgb/tZm9OYrWHQfy2t6KfSFdT+PqJMBOhL\noAtq0tDXMrcBl9wQA91d6KR2PHBFr7Q+yytJbxosD1p8+B/7vvu7i/R5np9W+/pA\netiBQ55dV313UeiV+bYUM4coB/YGdfu/3CTidSUT5U4TbixZZlHSimgWtYXzY7K/\nMxXQ2+k7H95fQwFO1c3vKbuuylbe38D2p0/2sZNJAhiGouglLDUsYkT24gD3ywkB\n2Ln4cHATWXDGRM1CEk4n5MJdR8NtEEYpMBnmTQJ3Y5VYHLm0T+DXbaqsTogqdIQH\nHcpgdhxcXSiL0dDzu50tiLkoRbS7Zg0rmD3tdzYuZt2Q331cukXiG1/gefcyAHG6\nc89NEBGfWntLZhviMAn0fztK1aBX47fTy5DidNAsC+6UpH7MvdvDEQUNEpS6Is20\nDXaPfCVc1w6fwsevDRy0KOugyK+dk8l7qaozzigWh/LXf7OGOuuBGLUHHATCHHJu\nZahODPXuI+Ft61ccgY+F\n=b2B0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0f3a0e539cdd05808db77b20349cd50be1b133f7\nparent 01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1727404168 +0800\ncommitter GitHub <noreply@github.com> 1727404168 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/de7771c36028499b48eae02d11d3c8bc3a6f4eea",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/de7771c36028499b48eae02d11d3c8bc3a6f4eea",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/de7771c36028499b48eae02d11d3c8bc3a6f4eea/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca"
+        }
+      ]
+    },
+    {
+      "sha": "01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca",
+      "node_id": "C_kwDOMFzqmtoAKDAxZmY4ZjYxNDU1ODFmYzljNWZiOTM3ZjFmYTk0ZDRiYmM3Y2YyY2E",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-09-27T02:29:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-27T02:29:03Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "00c0a4d36ae8936cf9e44b90440ee56c7c9e68f4",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/00c0a4d36ae8936cf9e44b90440ee56c7c9e68f4"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm9hhvCRC1aQ7uu5UhlAAA4OkQABOl8GB6vQ3qbWAWFv9XDq9/\nY2dft/OSCdLCv2aBG1j+B2ok56ChDZMpqllFehEOq+kQGqGD63Ews9U1T0IPqmIO\nqSJrbHoNua+8dxPQQX1zGXFcvAE3HrlFxm4887N9PI7WTgUTQPibimY3jKe7tHiP\nHwy/KswX5Yr7yRV+nqt2CS1oDuC+vsZ9+wC/stNczsDqLRJGrZoPLGMmqwTiG7Bt\nyQJix1CbRY2pjCYSbfHIXs15YvsWDkqSuysE1O3eIhai5lX3yv9bhSJ3Y0Hjz+dy\n/oqO0uOHe7Uu/gEMVethP94+nABMAtZuOuoL+ZWEufT4t4X/dz5gTbqqRVQgUKa1\ndWYvnMtpdqY6u1Hy7gyC0oVUE3Ec7BJzROyYBxmKb7wQbjAOV4XBrIzCejzZ449Z\nAHqKPJwd7W7kBU1CkuwBX1dytTWj70bRGy2GK4utMrLwEyk+vZlgOYRaZ8mSEsV4\nMkHSI1mMWBkEBX1N1c3inzQY12gVjmifWnEKQILGZg5LTjGXypBVb9aer6ZqGoBv\ncpfiFbNcDnss1vC9Fg39x6hmK6ZvTIzTfSktFNidhxomBZBgxCOrh5U5Pxtpp3N2\nzF3x3gbPkxaQGNaVxa7S3o0VjlGp3qCPfUrojK0eSJ4kEIA+X+ou80O/PyYxKZiF\nUwH23uQqFJ+E0I9qAbGl\n=m6pm\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 00c0a4d36ae8936cf9e44b90440ee56c7c9e68f4\nparent c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1727404143 +0800\ncommitter GitHub <noreply@github.com> 1727404143 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/01ff8f6145581fc9c5fb937f1fa94d4bbc7cf2ca/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111"
+        }
+      ]
+    },
+    {
+      "sha": "c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111",
+      "node_id": "C_kwDOMFzqmtoAKGM0NWY4ZTc3Yjk5Y2RmZGM1MmIzNGU0ZDBmOWExZmI4NmIzYTUxMTE",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-09-25T10:23:38Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-25T10:23:38Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "de1d87b80d9ac881b32b9dae122bc5151f9c8e2c",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/de1d87b80d9ac881b32b9dae122bc5151f9c8e2c"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm8+SqCRC1aQ7uu5UhlAAAufMQAAmtpuJRzfvfv+7Fy7b9Fa+F\n75OB10C+IIRXHzHIxY4UYbmL0XCgLG9Dzl2vFPHLrkcK7frslCJVjTzLInpehsW6\nB/C4ZZAQ6LrS7By/LYHlmSz01Tlej1y4hW8CW8qde9Bx1EWSXTWHlPKcWXJO4H1n\nApLHIaZ8x1NMO8e0T8A3ovz1JrAT5LqEnTUKHQu+H3L/V9WDUszGEyyu9SHlSZS+\n3aifJC8mqabDemdHtFG5h2g8BGlODmo4Fvwe+rJQKPeWv0cDmQtVEUJF2EAbXutq\nV8P4YMfR4pv/4EeKPx3wb/S45/W99wY5LmBJfZl4CTNp6Qd11UShJ1Nmz0sTKUEq\ndJcpVjsz9w5cKXTTRByuhndu9uSJ/mOUWICgfuS6aipLVwPkw6fL/3E+2DP1lKTq\nfgo6QC80KnPpjrWv+ScM8ZvhsKbw9Rd9l4t7zYcOQfnOQ7AGTcTaY81NJ7qzTtMd\n6g05JywAv0GhMyCuINe1bmE0uYtikA0w3pNC6l0EoTpt02HztlhMYXC10J526MCD\ntFgMr5zhr8HiNuhgR+fQJV3hIs2BkKf1mFYuxF9bSFv2P4zObPB+qYUvsd53cByB\n72N9iLV9YzpPlk1uROVB/VZJkapnHUj21SZbpx0psEKh08cUOyQLsouCmAk7+6Bm\nfumkD9cFIuYWyU1pd2Hd\n=efL3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree de1d87b80d9ac881b32b9dae122bc5151f9c8e2c\nparent da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1727259818 +0800\ncommitter GitHub <noreply@github.com> 1727259818 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/c45f8e77b99cdfdc52b34e4d0f9a1fb86b3a5111/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c"
+        }
+      ]
+    },
+    {
+      "sha": "da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c",
+      "node_id": "C_kwDOMFzqmtoAKGRhMThlN2I5MmFhMzE3ZmZjNWJhOGEzZjY0ZWY1NGM2YTI4M2MwOWM",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-09-06T00:14:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-06T00:14:46Z"
+        },
+        "message": "Create LICENSE",
+        "tree": {
+          "sha": "c7676342a95486ed39e104925fa0331a4e404b1f",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/c7676342a95486ed39e104925fa0331a4e404b1f"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm2kl2CRC1aQ7uu5UhlAAAwTYQACl9RFFhp7Rfjp/2TAtVaU4Y\nbdMBCWdibeTk2teBAddUCdp+XeLVmTNlqynM8IVpLK48CsouW1J9lVHAiY0iO1to\nbafetNCix5S2djPTJvv/J7t5ON4GrhvJN3UdzFSrAbsgXhqWLBvEgftN8UXtV2la\nKYFwwIniJWLsD6UQRfuiD+mv5QlP41DJtCh/hjE7Ll24QtDhDtxv8Wh/fj8Ogxmb\n2byiHSPPKfU+1s+xrqFYSLGjkE8jaJf8jq88+1WWCM9j4bnagJK8tATBywf4z+lU\n8L1pK/eyYWNOuLIqbe2niz2c3GodblY0fSXR2To/raDBY9NuB1RXqk7aH8uFu7VK\nHZhBdZZFrCW/97dO551Ngth+eW5yxYvinM3U5EAptqCsgrdydBPa86b1CBDDsPXm\nt1s/5iRmwgVHyDoozZA6215JZpWJzGgUXwFOeVFOBeuhwtJOUioE32brk6+yKUeK\nqtnG6k2OhL0zgWu/pkdbA1nIJ+J5sg3NSKUltBZwL9k8BCkgP6lT5uTRB35k1LUX\n8d5vNmZmSSa6wpRPn0prOkaQHjTHZifYZPXglg1KZVLInFKs1e44RFhss50pCdni\nOG6GfTcURVP7Kya778Rmlo55elk7onDFAdesAvYu3iB6qFWJgr/j62Qmo/N6kICR\nEC7b3mc79J9+YrpqNqpi\n=SufM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c7676342a95486ed39e104925fa0331a4e404b1f\nparent 45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1725581686 +0800\ncommitter GitHub <noreply@github.com> 1725581686 +0800\n\nCreate LICENSE",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/da18e7b92aa317ffc5ba8a3f64ef54c6a283c09c/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d"
+        }
+      ]
+    },
+    {
+      "sha": "45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d",
+      "node_id": "C_kwDOMFzqmtoAKDQ1ZTlhZjhlOGQ1N2RmYjI3YzZmMWVhMWUxNzM0Nzk3YWQzYTc2MmQ",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T17:11:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T17:11:54Z"
+        },
+        "message": "Update test_templates.py",
+        "tree": {
+          "sha": "3558c2eb6fd793cb30a8a63665b905f910993f05",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/3558c2eb6fd793cb30a8a63665b905f910993f05"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeajaCRC1aQ7uu5UhlAAAt6QQAIeVfn2rDtU2ycGSPTWajfku\nW/f91eD8abODQCncl9WNU8jSt1FRunZB8BKfLv8ETNMG1Sc/sHe/H+d+Y6oLfnIO\nqtWebfuNFPK4JrU5R1aJG/ueLCMKRizz/N6NmJxHfBIM+DluZ43W/R0D0kBw9r9M\njb/gPObvDJLtsIC0LFZkZoqpKiweXD4njfIRLjz0IQLQIkUaDB58F9ZXEaSLkRKw\nVbHmx5V8+E3N5iwbrEJBrcrtjsHGMFLg0CHBBjVu4aNoXVZdbt9xfIfNw1fWGhLq\nj4rYro/I8WF34gZth9+ETIsYBrFSnhQl3Fj8sm8HU3XhKzpoddhv0ZKaBOyFvGVA\nLzTcWm4DvZh/NHxfKQT2iIZlgvi6Ixi208NDdAhDPKMRClEPQvnuKIkACDmcuQ6u\n/evHnnYD3wEHjwG4gXAR2Wijtlu2/jbnhKKzXV0Vkhtl6cS8g/0nTcVkB2g7r8VS\nOl2od6bRM2W1HMc3u34Cj/KOF8O1CrhzA0MmDiI4n6e2LAKrB6mDgY5gxIYYzKsM\nxvFadm3XsZcmnn5TX2MLsd1iM7vUUX3qt7oXng6zwzHt/A4i1hsEprMqhqEAS7Lp\no52FDaMEFONsH+TLWlkbR5WJlNNNXfTWqCeIY1Elm4YniD8qYJzdidijHbN9hzv1\npYMDxvCYrLEvMD0NS5Nl\n=lq4H\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3558c2eb6fd793cb30a8a63665b905f910993f05\nparent e29f9b23ee668678f16fa0fc41e47853f635a662\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719249114 +0800\ncommitter GitHub <noreply@github.com> 1719249114 +0800\n\nUpdate test_templates.py",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/45e9af8e8d57dfb27c6f1ea1e1734797ad3a762d/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e29f9b23ee668678f16fa0fc41e47853f635a662",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e29f9b23ee668678f16fa0fc41e47853f635a662",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e29f9b23ee668678f16fa0fc41e47853f635a662"
+        }
+      ]
+    },
+    {
+      "sha": "e29f9b23ee668678f16fa0fc41e47853f635a662",
+      "node_id": "C_kwDOMFzqmtoAKGUyOWY5YjIzZWU2Njg2NzhmMTZmYTBmYzQxZTQ3ODUzZjYzNWE2NjI",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T17:10:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T17:10:49Z"
+        },
+        "message": "Update bot_pipeline.py",
+        "tree": {
+          "sha": "069fce63aeb16c6c7ae6a65963c2730e690ad69d",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/069fce63aeb16c6c7ae6a65963c2730e690ad69d"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/e29f9b23ee668678f16fa0fc41e47853f635a662",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeaiZCRC1aQ7uu5UhlAAAY1MQAD6oQDt3BVkhfdrODscFMh8A\n0qMlzeNBqI5vTJFwek0jDjuXK5yMUoI8UWIcawDe89MDHvBtJRIx7loDToHL2pS9\n+P0UyyIhCGdwjGuJoms2uKi1do0O0SjQeLHahRMUolc7qqHPCqY68KIT0b7gO0bR\nwDIFs1592fS+UHLEr5O8TZmG4Yo+d70wIdY+GsC82ENmoq/f/vUgHWsmud+no3gp\neW2/vYxkgNkKKQ81MrG29PBUNR9zH1+cuizXhYlUaxBybvwfkYXTGpGadOnbV831\nBJqD/rC8OT+67PE/JMuNEQHKGhiMmZuZ5i8lF1ibjoBLGMGQnzmteqwKAURX7NFy\niHiksqmWjHrF62iuVeghPEkzyLuHwtJHDuQaVcTYIua9Y/gEboXFVQT+VYeFNnwr\nrxp+hbiVmgFFflY+M8jYtB6hdv8GwOTgwPpvqLxEIRoMnE1Zr7KOqxkQrZzsdPRt\nDNk48iFEUntfqzgK1YwoN+NO5bLTwZ/YgY0xzIvIIZEP9e/e/HIBbwn27Of5f7W2\nXdEr75TE9xSxRe09zqFCyGdKbWKzw1X8h96DYF1e/o2QwPHXhjpq3hzaI1XAGZb9\njhdbseDnRKklOHGVVoO9Bqh89e13ORrlGbZOI7bxyq1SLAxQ0feRQzpuSe+Y6Hf3\n18s5RQrI6NQTjMMtr0EV\n=SbCA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 069fce63aeb16c6c7ae6a65963c2730e690ad69d\nparent 4fb23512bd62be04f2beedcf73e8c337fc4765fe\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719249049 +0800\ncommitter GitHub <noreply@github.com> 1719249049 +0800\n\nUpdate bot_pipeline.py",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e29f9b23ee668678f16fa0fc41e47853f635a662",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e29f9b23ee668678f16fa0fc41e47853f635a662",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e29f9b23ee668678f16fa0fc41e47853f635a662/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4fb23512bd62be04f2beedcf73e8c337fc4765fe",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/4fb23512bd62be04f2beedcf73e8c337fc4765fe",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/4fb23512bd62be04f2beedcf73e8c337fc4765fe"
+        }
+      ]
+    },
+    {
+      "sha": "4fb23512bd62be04f2beedcf73e8c337fc4765fe",
+      "node_id": "C_kwDOMFzqmtoAKDRmYjIzNTEyYmQ2MmJlMDRmMmJlZWRjZjczZThjMzM3ZmM0NzY1ZmU",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T17:10:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T17:10:16Z"
+        },
+        "message": "Update meta_buffer_utilis.py",
+        "tree": {
+          "sha": "9658e37087f83623482d85b0286106c28ad5c7e9",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/9658e37087f83623482d85b0286106c28ad5c7e9"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/4fb23512bd62be04f2beedcf73e8c337fc4765fe",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeah4CRC1aQ7uu5UhlAAAZUQQAJ8FTtxV+G0h4eDpzzeTtAKI\nlenM8J8F//mseEmr1TSYeWQ3CK35zkviVFqN56DYSdFK+DG8oO3cAvL+V+l96JfF\nk7Dpdb2QGhFBL/nDlvA2udFB1Ih0BXT21CFoxBGWAPEWrAImiyA28GivXEzsGQjB\niEDep9+Z2+g4jlT60ZSQPb1mzYEeZ489xCIaPvvOKYpxfrCD2WCVULMo1NhP8p93\n90sdHHdm63hpyP1iz37UEbFagJ1s0KaSVALx97fz474K0hHRqL+DMEi6nGsKNHvU\nv1N+y6G+hqMw6TLMMYQRssCAMFydW5OmWcDMiGb9ncNH6sH7LvrzVip/yVvLbmh3\nmK9ssBT1qGTcGc6QnyPUtfBJugwOrNA/g+ucifgk6jP66fZunQ372avJgKjoIRQI\nBFp38fdFlXy5G1KA1zS5/Gv+gHYN9Hpb+VzF1jnC4xvg9vUCDjWfpsDL2iQoFlSu\nRb7Ywi9Db6J97WYQ0rx48btyzQCSeEMpqyj5xTQEN7JLvcuZ72d2Q8wjSEo+58nH\n3ljcnrx6XNoI3dmBIpuHzNGvi13+Ub1GAHD3oKBYbH9Yz0Mx4RKMslrGAyH7fd8Z\nk8SgbHNYD5ZRra8C6D/FtlrsjZp8IUm+GBlwuS0ROwtfw4sssjtXsJaaSRZljUm4\nb5JTpWB1ASit8rN14hiS\n=4AM2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9658e37087f83623482d85b0286106c28ad5c7e9\nparent 3b669fe942d7cad06e1007fdf9fb6d05b4858dc5\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719249016 +0800\ncommitter GitHub <noreply@github.com> 1719249016 +0800\n\nUpdate meta_buffer_utilis.py",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/4fb23512bd62be04f2beedcf73e8c337fc4765fe",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/4fb23512bd62be04f2beedcf73e8c337fc4765fe",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/4fb23512bd62be04f2beedcf73e8c337fc4765fe/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3b669fe942d7cad06e1007fdf9fb6d05b4858dc5",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3b669fe942d7cad06e1007fdf9fb6d05b4858dc5",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/3b669fe942d7cad06e1007fdf9fb6d05b4858dc5"
+        }
+      ]
+    },
+    {
+      "sha": "3b669fe942d7cad06e1007fdf9fb6d05b4858dc5",
+      "node_id": "C_kwDOMFzqmtoAKDNiNjY5ZmU5NDJkN2NhZDA2ZTEwMDdmZGY5ZmI2ZDA1YjQ4NThkYzU",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T14:59:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:59:27Z"
+        },
+        "message": "Update run_benchmarks.py",
+        "tree": {
+          "sha": "65efdc5b132dd9d68774f185f2d77ce4980f3f69",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/65efdc5b132dd9d68774f185f2d77ce4980f3f69"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/3b669fe942d7cad06e1007fdf9fb6d05b4858dc5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeYnPCRC1aQ7uu5UhlAAAdEIQAK51swTFASEq7aqaMcA59ngE\nB0M+9IQbMN+QcEcQBoWJGkGPb8RsRcgq6rxl7VXSdUXKBCH9IkjxZzsRSvXvU5ZR\npu6HGIhaaeHyd7RaEZPYuEf6bKfb3aWwcBdJZ0JoMITqqjF4WgLCcNujrCG2DIJx\n8rJspquMwDLr6+zZWtVK/QNeDDqNShXld0a6SqJS+1zZvSzBRNsky8ox4Wpr6Lt2\nb+kcHqe1iPFJ0b3olESLmkxNixpcMfx36c0zAQlp2g/hxZCaAW5CT0gSQNlByml5\npE7vPNwZCJ4GDApqiKbsW8euS/3TvMabL7QGabT077U4jJOw5x+XDfpWEPTOH0hc\n2qeHK2h4+x3pWRrnuU3uNFPcqSBX/YUXsqKTO8ksugkjhzZfGqeyUn5qXz0/MrKg\n1EX3ZlFocrN4nutUhb4BcBjDKnTxGUkhPBJs7FrXbSlLnT4FGorwsawnkTtA7dSF\nHTqAynB5h0edg3vrGe5KxfAYGeGojTrDDINv/fmrfprXQOIAy9PoCKlgf/2Mvf/Y\nM939WXBMNvarJ+3qTzPUQOWmtc/w7hxwklbJp8qG11l6LpcESNVIagYDM2Qpio3P\nssrARO4g3h9l0axDQSJOT3YkudPDwEmFLM6BEQ5no7XCybSQJwy66rEcZkFwkobf\n8V5G1HwtMbHp7SHht8tE\n=C5HW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 65efdc5b132dd9d68774f185f2d77ce4980f3f69\nparent e8bca77d27e8de766975c666efaa0493c2bce6fe\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719241167 +0800\ncommitter GitHub <noreply@github.com> 1719241167 +0800\n\nUpdate run_benchmarks.py",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3b669fe942d7cad06e1007fdf9fb6d05b4858dc5",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/3b669fe942d7cad06e1007fdf9fb6d05b4858dc5",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3b669fe942d7cad06e1007fdf9fb6d05b4858dc5/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e8bca77d27e8de766975c666efaa0493c2bce6fe",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e8bca77d27e8de766975c666efaa0493c2bce6fe",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e8bca77d27e8de766975c666efaa0493c2bce6fe"
+        }
+      ]
+    },
+    {
+      "sha": "e8bca77d27e8de766975c666efaa0493c2bce6fe",
+      "node_id": "C_kwDOMFzqmtoAKGU4YmNhNzdkMjdlOGRlNzY2OTc1YzY2NmVmYWEwNDkzYzJiY2U2ZmU",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-06-24T14:23:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:23:06Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "cc65de4db4ecad7da073affa31c574d453aed4da",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/cc65de4db4ecad7da073affa31c574d453aed4da"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/e8bca77d27e8de766975c666efaa0493c2bce6fe",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeYFKCRC1aQ7uu5UhlAAAezsQAE9V6Tzk1ozV9dxg9jjtfAMQ\nj1s/rBMaW2d2wwteH1V9dNj5vFJSQc+885Lm+EhTXkcmBPBMu2dx8XVQFT5kWvQJ\n25I2GVP2clTettiT+0+VB8jtHvh5CMdFEjZmh1hw9JMHkUAxPUYUeMzuusynid0+\np3wvR4azIsNejhiXnWipawuapvPXggy7l2fjh5elFdi13DgPyed8d/FXO8/X1eFh\nDr0Co+4HiThw4D8N0/6sYHw3vf66Gt1Q6IEuHkVVl4mx1yAbESzQV3iw/TcQqKZs\ngiUBpRbbhawHq6y3fIjdFBcZRPGXH3smfY7vn0ullDP//Cf/bcy3TFkE3gFrL/0o\n9pH5sR5sDz167283BcKGUf8Nwg12sSNa997QSaSEL5OtfWbxVbtVzulYFG2TRerN\npkNe9UqV1ysXQdF5JlPCK+wDuRisbpVxwVFBPXqAyvI0rhoXkOm2dZ/4r3aZqlec\nyV1bU9frHVEKmXvip17FMwbvLJA0iybPJRMyNOjnkb0lGUYR3W71N+zcAUECve6a\nOxz/SvSOiCn/Kk15x/+t9+aOYAcdB/Tq2Sx1FgfBZihEWZlIpIGjE0NPC7nhCuZd\neq/WI5asPuH3zTbp3rlwdVmUf/hN71XuOCTGVedB2uI/+7xBspTXL7ZADumlht+a\nrIGimII6liExwgjmApHH\n=50gv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cc65de4db4ecad7da073affa31c574d453aed4da\nparent 2e8f71a5b9261530057536b508ca54a33580f45c\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1719238986 +0800\ncommitter GitHub <noreply@github.com> 1719238986 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e8bca77d27e8de766975c666efaa0493c2bce6fe",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e8bca77d27e8de766975c666efaa0493c2bce6fe",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e8bca77d27e8de766975c666efaa0493c2bce6fe/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2e8f71a5b9261530057536b508ca54a33580f45c",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/2e8f71a5b9261530057536b508ca54a33580f45c",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/2e8f71a5b9261530057536b508ca54a33580f45c"
+        }
+      ]
+    },
+    {
+      "sha": "2e8f71a5b9261530057536b508ca54a33580f45c",
+      "node_id": "C_kwDOMFzqmtoAKDJlOGY3MWE1YjkyNjE1MzAwNTc1MzZiNTA4Y2E1NGEzMzU4MGY0NWM",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-06-24T14:22:34Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:22:34Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "60a9bdf6ca49a3c56a71bbaed93b718b42bcc54f",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/60a9bdf6ca49a3c56a71bbaed93b718b42bcc54f"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/2e8f71a5b9261530057536b508ca54a33580f45c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeYEqCRC1aQ7uu5UhlAAAbGAQAJBGxWqFrWX3nxi8LQ02wOZA\nGLZAvWTCaT+rAgsY+QYBXqH2DlXsPTrgJnd4IZsasg5paCKgdTzWS8xVYwfsCaAC\nwzd9oD8HHuQjGf/Z9oSghQJwi6/OXDTh/85O/VTEQPfrt/UjKfpvpeZRUX90+xwK\nb/+nu09+MyXAtcOyAMJPh3cu9U0pnvcbeBoO0e6qytBCzCnq7GZcTCoZ80l0JNUs\nlXht4yPIKVfv/fYLwPicmcF7zW2B1TAhG6PmdERH8huWs+sYpL4CsNpCOBb+uaFL\nOAUtRWlzvMdi5rN7MASFYzVH2SJ5aAXXVg8TAOFLgJJVZx31cOpw9kpZC3vNj5+i\nkr+mmjdB4nGv9izaoXCUzpl4WrPRoMWlBPClg+nw2T1ilOP1qjeCKsfkNjLzUm/t\n3rucYkQ0kHhtOYalJs+O5ZhVhuxa+qKC/kctl+vlG41PXMgDSQW5ewY75jA+VnBm\nE4NT+kUoxIT89wkSiqs+rfGccusxoA2BOuVA+p9teNKwwHSf28bhv7YD8ivgQPHd\nH3v7XQm08VWP6eINFcY0Bijgqgd4GVkCMEj9Nl+BHKxuo68bM+5f8rQ6ls2ZYuWy\nv28LFdPRlB3a4Iv9WQJiw6zcWz3dtLHlwRpnDGtxzDD+KQzqipIj4sMmGLouPxma\n03IyZnqGdCW7Y8EFZNJq\n=Nc6o\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 60a9bdf6ca49a3c56a71bbaed93b718b42bcc54f\nparent 3eacaec71819d9cf5e8229b1f499cd7b129cee85\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1719238954 +0800\ncommitter GitHub <noreply@github.com> 1719238954 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/2e8f71a5b9261530057536b508ca54a33580f45c",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/2e8f71a5b9261530057536b508ca54a33580f45c",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/2e8f71a5b9261530057536b508ca54a33580f45c/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3eacaec71819d9cf5e8229b1f499cd7b129cee85",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3eacaec71819d9cf5e8229b1f499cd7b129cee85",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/3eacaec71819d9cf5e8229b1f499cd7b129cee85"
+        }
+      ]
+    },
+    {
+      "sha": "3eacaec71819d9cf5e8229b1f499cd7b129cee85",
+      "node_id": "C_kwDOMFzqmtoAKDNlYWNhZWM3MTgxOWQ5Y2Y1ZTgyMjliMWY0OTljZDdiMTI5Y2VlODU",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T14:16:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:16:56Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d56b056e2acddef0618e8b200a3c87c4c9471448",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/d56b056e2acddef0618e8b200a3c87c4c9471448"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/3eacaec71819d9cf5e8229b1f499cd7b129cee85",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeX/YCRC1aQ7uu5UhlAAAGUQQAA8TVt+e/ZiroBLyS7QIneUx\ncFNRh7xhL2tWXq9WTX9UYRLaVj3BKQ+/GHZWOWkJxDT7iHM0B6t9P+KDnJ7052vG\nVawIs+9mNRtS0BnTwYzAgGJGAr0Ir5+foCpKfW9quN8ImxnEWz4SCjFhGSl43UWK\nbaPTA6ykoft/H+Oax6xVvBLPXUoNm0/xmFtqS5PMm3dI+WnGZvTuRAjh0s2ils2f\nFEuX2C7ZJHKoGWAwbjz/Lqyyhd1VnmuifN3EztvjZ0bGccOui18QkHYlkc2tR2iK\nSZYHSHwdd0vgwl6hQq0udR43rVcnB37tQw3/RB84W2dCmQO8AGSLxw3Ry4ULRfgD\nf0qGR9MrJv8ksGOv23F3qU+lLwQscV8oEzfgvsR4JgsduGAOMwUHQAYRRMYLiGEy\n1zHrKNtEupeKrvpPgjkR3955Asl/KZDRsmyhcHk9n3Nj3OUZea/2SKankEfZDz4/\nsYw6ht4e6zJgE8tw9dtTYFm8m7tdS72UmTXjP9gpQhk7A0u0HC/l5ctYOsVFtEFM\nFGKqUSw84w26szQ781nsZT6H1XqgD0Fm24CrV0Lsx+85T1T/blvqvybchmUqogix\nmEFOnwBw3IKZr/BY8z6UVLlYd5QpjXu83LkZcl1LEKZru5zzL7mJ7fD5mcx0JBa4\nM85EPJtdNrVwbto4goij\n=xJWK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d56b056e2acddef0618e8b200a3c87c4c9471448\nparent e9b9f1caef464b8047288d7e8e1184c6f7e41e3d\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719238616 +0800\ncommitter GitHub <noreply@github.com> 1719238616 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3eacaec71819d9cf5e8229b1f499cd7b129cee85",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/3eacaec71819d9cf5e8229b1f499cd7b129cee85",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/3eacaec71819d9cf5e8229b1f499cd7b129cee85/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e9b9f1caef464b8047288d7e8e1184c6f7e41e3d",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e9b9f1caef464b8047288d7e8e1184c6f7e41e3d",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e9b9f1caef464b8047288d7e8e1184c6f7e41e3d"
+        }
+      ]
+    },
+    {
+      "sha": "e9b9f1caef464b8047288d7e8e1184c6f7e41e3d",
+      "node_id": "C_kwDOMFzqmtoAKGU5YjlmMWNhZWY0NjRiODA0NzI4OGQ3ZThlMTE4NGM2ZjdlNDFlM2Q",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T14:08:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:08:04Z"
+        },
+        "message": "Update run_benchmarks.py\n\nUpdate for inspector usage",
+        "tree": {
+          "sha": "d85bebba50e6249b4b665d7a28db723b158329d2",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/d85bebba50e6249b4b665d7a28db723b158329d2"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/e9b9f1caef464b8047288d7e8e1184c6f7e41e3d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeX3ECRC1aQ7uu5UhlAAASGIQABBXXXD+gIZcD3LepbEix9jb\nZIlEZEKE5AtKO/T001h43Gpt2JJTJTGj4BCDIugL0x89BebtxqIGl5iu593jdxBg\nS9w2kaLdvDyIY9hZUXXdoLO6yEv/GWNlLVVpBjdIos6tRo87bZRBJoht39i8qq+P\naeTUV61F1AgL4dDU/O55hzTis1agUGEnmTbB1o8BYTl4XvNh4qpMlQGuyv9KF/C0\nDBnGXaFscq8/QtxIviXHRKFVWmZDrSiDovm8va2fAthwgi7M5bJOY7tOoPOqJKuF\nroqnZyWhfUYX4Jar8jxZdKVzcLaRiCxLVeOowVWnchdv06LBRBiS11KOhS96krQo\nv7hnQaIFim9t/XfWjATuxHUWs7FUnX8+Ds2yDkEuPGv89f7Fb14E28CvObLgS3Id\n0SiM6QF/9CMljIvpr9RrKcjzzjZM/+RKCVDw+fcgBihpyHVVsKgT/nO3nWJzJB6g\nTe2oA42dJzHV7c2cafLPciGlklXBcMbwzpt6iKQmuD1NOfwFEwyaJhxLWI5e+emT\nwJ4V5Jd75B0sVP2QghHy+UqYnNhdp2TFixTDHuQgmtR6KhtWgH5QoOPH1Sbk7L+G\nDIYWfeC0RJQZPksH7Oz18fx10z2mZSan8g3jMDeOdrrYwKzqgB7h+AN3B+eq8ugo\n2VPEPtzPZLVOSbgxn4FS\n=ORdj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d85bebba50e6249b4b665d7a28db723b158329d2\nparent e87fb62f739f1c64f390605a9af75a47db665a8a\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719238084 +0800\ncommitter GitHub <noreply@github.com> 1719238084 +0800\n\nUpdate run_benchmarks.py\n\nUpdate for inspector usage",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e9b9f1caef464b8047288d7e8e1184c6f7e41e3d",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e9b9f1caef464b8047288d7e8e1184c6f7e41e3d",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e9b9f1caef464b8047288d7e8e1184c6f7e41e3d/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e87fb62f739f1c64f390605a9af75a47db665a8a",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e87fb62f739f1c64f390605a9af75a47db665a8a",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e87fb62f739f1c64f390605a9af75a47db665a8a"
+        }
+      ]
+    },
+    {
+      "sha": "e87fb62f739f1c64f390605a9af75a47db665a8a",
+      "node_id": "C_kwDOMFzqmtoAKGU4N2ZiNjJmNzM5ZjFjNjRmMzkwNjA1YTlhZjc1YTQ3ZGI2NjVhOGE",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T14:07:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:07:16Z"
+        },
+        "message": "Update meta_buffer_utilis.py\n\nUpdate annotations",
+        "tree": {
+          "sha": "7d798c0c74d11dc9c46b05049d5a59da446cacf0",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/7d798c0c74d11dc9c46b05049d5a59da446cacf0"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/e87fb62f739f1c64f390605a9af75a47db665a8a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeX2UCRC1aQ7uu5UhlAAAzsoQACUInjD/WbRWhfChkmkeqXKY\n8mzUq5RjeChTzA2oxJR/c6L54m0JP/vzn9YugmHXD8IeF3QY0BSFzryb6+d+gdhX\n6J3iMW3OyawWnQxL6gHm6r/odRDL2mQDAVEIcIKsfg80E+dumtmQXB74gGdmmfTN\n24Ns3jsQL9CqvcWtz7IAvJm1YCcjivdNs/LJBee49d6u9FtLrjn3ia7EoNgYR+IA\nWWZTTN0NwOx2VxpBn/SKvehNai6iVfnX62mIuuqb7CjTEWyZ5DwaqT5DNA6kf+8N\n4axiqVYhUO5OGeeunXAcmpkIUeJErprC098JBLV2sTB+zQsj8sJWMHz2sVLZF0jc\naemNchOWSb9rwjemTgGujvd6Xx5pHybciuTIMXfwHQyHSk24D6bwkrRPm2rIoIKu\nPhcXktsdGKSyVTxmDPNRvPNc8t0eJ4u3ylL77oUy1IaH0kfOrqbWwwQ7hO7kZsuF\nt9ZHTeukTRM2iPqjnbK8L1573bhXFhZSGbnhOe42I/k9t7nI1zdQp8uWhRKrJiNh\nAj7JfsW4p9cLLuDVrs5oBXKODTihlFQVQWGwDWvuEtUF6wWxPYrlWnpDuj/CVqQ+\ng2GiBRVvShLsQPvgsNmrUO2HUosgGk2/rqN6i33gkVByr+n2Gefj/XeAoNbm5XOS\n5NvdNCopS3i3UWYgY6/9\n=dP01\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7d798c0c74d11dc9c46b05049d5a59da446cacf0\nparent 46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719238036 +0800\ncommitter GitHub <noreply@github.com> 1719238036 +0800\n\nUpdate meta_buffer_utilis.py\n\nUpdate annotations",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e87fb62f739f1c64f390605a9af75a47db665a8a",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/e87fb62f739f1c64f390605a9af75a47db665a8a",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/e87fb62f739f1c64f390605a9af75a47db665a8a/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2"
+        }
+      ]
+    },
+    {
+      "sha": "46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2",
+      "node_id": "C_kwDOMFzqmtoAKDQ2ZTkwZjQzMjVjNThiODhiNDZjYTk2ZjFiZDkxZWQxYWY4ZDJlZDI",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T14:06:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:06:29Z"
+        },
+        "message": "Update meta_buffer_utilis.py\n\nUpdate for inspector usage",
+        "tree": {
+          "sha": "8eacc7f912730a785fdb8070923a1a01064eabd0",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/8eacc7f912730a785fdb8070923a1a01064eabd0"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeX1lCRC1aQ7uu5UhlAAAbJ8QAIq+AGOBTHvimjIK+ASgqzIH\nq/4TpL4nRiQCgsIySTp8gSGdRiqc39kwxDniYkIZOn1atv4aumnShbWQlTgnTdT9\n8tWTOfFTBwC4tXUl8j0cRrPs1IBz9Rlf3EoOeiSb/OR3TH9lGMFshUYeTxCro5sE\ne4RgQL+4L5MJLiwwebkL7xJXWmu647dTxElVDr/AZkMbkAqs+v71YjjT5ZC3C4ya\npRnZX43rEgxalPylmaxM3ilkrz2+/nqznT2G+iomhYGG5od8i0WclbFuZeJQlNLZ\nrNsVQ3N6vNIe1psoQfUsNj6tGbPTG3cHVtZtZw3OJmLokiq3ql6Mb7amuFVLbF9h\n7J5nVAqA5MOyEE3Q1QYrmZTzROZgqMve+iPCBiQn3bhRKjp4uzdhIPI4DZmAVh9V\nR2aLv6VsN/TW08Kv9UxdU0RxfoMYuiYrvMeG2G1F6kgxbyPlWx1ZPNmYo2c+NE17\n3epVAQoWTjW1vy4Bvpez4Q28aq8e4tdMSpaG9bmAoNmhWt4ItbpXpo9R95bSVvYp\nJzyRie2S12AMVQyNS88iS7qczvWV2yKvbVb0TkWfp7PbBB16QUOpSkyYx7rj75Zi\ndaYs10LTiBdSVQvNUnoKYpX5ROLRGi4b0y92kH6np9u4kimbf5gyNzUMUVi1+caC\neYuBOEHEi88+0umHvLkW\n=ab6z\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8eacc7f912730a785fdb8070923a1a01064eabd0\nparent cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719237989 +0800\ncommitter GitHub <noreply@github.com> 1719237989 +0800\n\nUpdate meta_buffer_utilis.py\n\nUpdate for inspector usage",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/46e90f4325c58b88b46ca96f1bd91ed1af8d2ed2/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723"
+        }
+      ]
+    },
+    {
+      "sha": "cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723",
+      "node_id": "C_kwDOMFzqmtoAKGNmY2QzZjFiNGZhZDAwODgzYzBkMjUyM2M4ZTVlY2JhMWQ4ZGQ3MjM",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T14:05:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:05:47Z"
+        },
+        "message": "Update bot_pipeline.py\n\nUpdate inspector for more stable generation",
+        "tree": {
+          "sha": "aaa4126243e4507bf54c0e820a30e49868b55da9",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/aaa4126243e4507bf54c0e820a30e49868b55da9"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeX07CRC1aQ7uu5UhlAAA2pIQAI2gWMeDYufCkVtVwRb7Nyie\nLvGjONK3WALf5pArzT+uPf5lISRZKUWT7A9S+3HTUYTSpdwhApaDiRwt1ZtWiEQW\ndp1RfZ/gNW/shQ91lL0/o90m9Zb5HbgW1dsDq44+Fc34rT5kiQa/a427SBv9U0ng\nwYM6aOmnOrWCbuk7iXJyCERjP0KxixRPc0KY+U+zhlI43HfVXlbwdKfyfeEaJNXg\n1i7pgMRnRRMVHrzEPSg/3qY1vNN1xTM542asQ9qLg+ItKWbGZ/Q855BAuUew6U76\nuk7Au8DrsCCBQ12g3tUIGJp83Lsseywg9RyxW/AsBAmhaAkzI2pDdQTUBOf6YDH2\nEDTEChds7YUZ3x3iggljspDwfjaFBk/5QrNUX7Sh0ORt8OH/HqBCBB1aOnxypiiv\nsRxWRY6sX2cYAA97N+5Gr0swm9Z5UthA3hvGa7l3FC+ymc25QmTWPClhzZYoZspw\nv02KBhMX757sO4Xz67C+naLBnHgQpzuBdL0BxU5yvc4HCqsAowJg+tzABUTHv7hF\nRH1zDd8ZUgsVk3jn+tMQAx1T0hYX4jbBq1eQunjvOlR+hMGBM1e0G3mRWmJaqEhC\n8wsuJ04pHUv3OR2D2TZMAUSjEi0Z+gnqVPv/82B6dHvwsU/KydScScMq0mge9ez4\nZHfgbWtrmnm6mc/4TDL/\n=39te\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree aaa4126243e4507bf54c0e820a30e49868b55da9\nparent 9a6d3f3276c1819136b783ad002eb3c73bdc17da\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719237947 +0800\ncommitter GitHub <noreply@github.com> 1719237947 +0800\n\nUpdate bot_pipeline.py\n\nUpdate inspector for more stable generation",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/cfcd3f1b4fad00883c0d2523c8e5ecba1d8dd723/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9a6d3f3276c1819136b783ad002eb3c73bdc17da",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/9a6d3f3276c1819136b783ad002eb3c73bdc17da",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/9a6d3f3276c1819136b783ad002eb3c73bdc17da"
+        }
+      ]
+    },
+    {
+      "sha": "9a6d3f3276c1819136b783ad002eb3c73bdc17da",
+      "node_id": "C_kwDOMFzqmtoAKDlhNmQzZjMyNzZjMTgxOTEzNmI3ODNhZDAwMmViM2M3M2JkYzE3ZGE",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-24T14:04:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-24T14:04:12Z"
+        },
+        "message": "Update validate_results.py\n\nAllow more flexible validation.",
+        "tree": {
+          "sha": "8674d8370a29907d4af0493366c4428042e943e2",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/8674d8370a29907d4af0493366c4428042e943e2"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/9a6d3f3276c1819136b783ad002eb3c73bdc17da",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmeXzcCRC1aQ7uu5UhlAAA8n8QACsRkocF04gioGufC+8kHy+l\nzC+AB4VVqlKBPGqPtnoAK5+V24s7f1g2hTH/c3CMcGg0S/PyDx6FuTOYsim2IwKi\n4/ITUZAvSqOKeQNPE2jlx4VipYREaEpLE80ecxdFqTMN0ektSJUqn5gtXKHf6Hlc\nxYi5ZZ884jYsnd+t7liYl4f2aJ+75oUT2oXRGCfUl6V3M3k4Wrbf/P6uODNha0y5\nESNjXCZRnZwrUygTnHSMbohKF0eY396DMRAmWma2Kkbpt4oUCapBrB7AJpMANW6X\nzDpKzFYZszqZHHTswH5JY4Q8FZFnjbdElcKRqQxlTEj7kKI47WoF53u7ENwd8bvK\n+Y49o72EzVekfHohS7hCIfDHovu6sRE8icASZvE1PVjhScFNZFvZ4/vedeJ3b/et\nG2mxSV1VesIzIZEX0b0IWaExecKc+QVkmKcwLy0/e7x1JTD3og03Y4JqtsTsQ3q4\nfj7B7t/pPL+cNHpg0y6NdPwug1c2WDYg7sgmS5/GQJhfuUR+qamCV+5iYtlrycct\ndW1mmZAogyxRoAeGEWR2H0Qvqd/Gli20A9LV41diHTY9VxAKWAsVLszDzh94Mz5r\n3EVw8e8Fr5c1GzPV47Hq+HQMm/DzEOwK4L3Vy6UZOREc0C6wmQZuk0MIBB9Zyu/c\nU4nTEPV+iQ6yHlUdLxpk\n=+r+1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8674d8370a29907d4af0493366c4428042e943e2\nparent 6476fbfe278e080739fe1f6d275c40d010366c12\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1719237852 +0800\ncommitter GitHub <noreply@github.com> 1719237852 +0800\n\nUpdate validate_results.py\n\nAllow more flexible validation.",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/9a6d3f3276c1819136b783ad002eb3c73bdc17da",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/9a6d3f3276c1819136b783ad002eb3c73bdc17da",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/9a6d3f3276c1819136b783ad002eb3c73bdc17da/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6476fbfe278e080739fe1f6d275c40d010366c12",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6476fbfe278e080739fe1f6d275c40d010366c12",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/6476fbfe278e080739fe1f6d275c40d010366c12"
+        }
+      ]
+    },
+    {
+      "sha": "6476fbfe278e080739fe1f6d275c40d010366c12",
+      "node_id": "C_kwDOMFzqmtoAKDY0NzZmYmZlMjc4ZTA4MDczOWZlMWY2ZDI3NWM0MGQwMTAzNjZjMTI",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-06-14T10:57:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-14T10:57:52Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "67ca88804de11218d171eb8edf735551a07b6818",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/67ca88804de11218d171eb8edf735551a07b6818"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/6476fbfe278e080739fe1f6d275c40d010366c12",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmbCIwCRC1aQ7uu5UhlAAAeOYQAESQGVw3XFQPfA0FPi7Q8S5l\n59BjHrn6oQKui7TxOgiJn5/afJt9vn+5reTvcPg1cq29lVMNVlbyA9Zup/gWsuP4\n2QELp1LszRHKEF24FObAZ7a/Kazxd+npPTGsvqi26a4mU3LqHKwVguW8hxuZzDGS\nJ+evdEyV8iJI8aasGr63u/O73b0acY1QvnNLMia/SNzhNgz/SppTfVt6yGBv1Ttn\np2Y2Sy/o1EydzPAic/biff8P02Wkptdg9CKNYspmsq4qn17/VOB6whwx3allGm9L\n3MVJa9cY13uJsJlA5bCTPXBna7Ja6dGjmbQAgaraBumJkr7+eWdIXAYa7IoIRdge\ndcK3dyn4hqeO0DrLmUShbrZSwNcOrgTD+o8jDTaWUMBAz1CnslGTxlBm+N6UbfvT\npaNGmXNPIAKQqJ2lfIq+2Ez/W00g8F7WNVHmkKRJxaSP7HvA+FABr8H71t2YL76u\ny6E/JTB9mj9b3KxyfqUc39VZ882i1ulEj8z0umJndu0hDdMYb/Wk6jJGTIuD0I44\n7TJAk5awsPSrgZurk2moT/sIH0ViHN0kEAbrzcjkLwP+ec/w7HF+pjOBMf8h7lZA\nVVIuvwU0ccZvxe36dOvyyUU2Hd4VELNvUHJ0EXZalZs6nrO30gJkpGe5VYEvvJ6E\nKMdRsnGTUVIrvufK2X9L\n=8yZw\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 67ca88804de11218d171eb8edf735551a07b6818\nparent d4afb653782b6034f13c0a1396a325396b7ac375\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1718362672 +0800\ncommitter GitHub <noreply@github.com> 1718362672 +0800\n\nUpdate README.md",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6476fbfe278e080739fe1f6d275c40d010366c12",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/6476fbfe278e080739fe1f6d275c40d010366c12",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/6476fbfe278e080739fe1f6d275c40d010366c12/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4afb653782b6034f13c0a1396a325396b7ac375",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/d4afb653782b6034f13c0a1396a325396b7ac375",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/d4afb653782b6034f13c0a1396a325396b7ac375"
+        }
+      ]
+    },
+    {
+      "sha": "d4afb653782b6034f13c0a1396a325396b7ac375",
+      "node_id": "C_kwDOMFzqmtoAKGQ0YWZiNjUzNzgyYjYwMzRmMTNjMGExMzk2YTMyNTM5NmI3YWMzNzU",
+      "commit": {
+        "author": {
+          "name": "Zhaochen Yu",
+          "email": "115272494+BitCodingWalkin@users.noreply.github.com",
+          "date": "2024-06-09T03:36:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-09T03:36:05Z"
+        },
+        "message": "Update meta_buffer_utilis.py\n\nupdate annotations",
+        "tree": {
+          "sha": "98e0538d37f03f95c6eec430f68e13af84470cf2",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/98e0538d37f03f95c6eec430f68e13af84470cf2"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/d4afb653782b6034f13c0a1396a325396b7ac375",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmZSMlCRC1aQ7uu5UhlAAAjDUQAC5O1ZTpVOfHoQEcvY60Sas8\nY1CEL45A7QLSTB+daBiZmLo5fVbf9pIlEAIaz3uE07QdZGEWxQNMfRzNwzHc4bIs\nJyTVscxHr7p+YprQPt9H5mv6WfLXkGTTnyLwAOX0B4cT258nNPselpNDL+QRd2Vo\ndmgFkXIr4XQy1nrsm1xPu0oim7WrRNrNs/iQECw+kAmkhtEd4S9xLNJ5KuBRBMsr\nsKP971JCfchND3X0+ETlHDKRtHEmpURcT/q3q3un0FqI6oisEY+4Lc/JFuWt0bx7\ngCYOEz+eNjlPdxI6KLQ67+kg5YaPEl5Lv/BEx4BCtS8d6gU4zjIJJiU7Tkm9YkeM\n9sQzDngJmRvvbZvlCRTlC+Omco+rf/0z8upB+TEGaAOmf7lZ6uJKXGKaYoHIXKZK\nAikcIX1U4nKO5nREygz3r1fzHuooxhY+T5SbdjobQJYuVK1qVYCYE3F34rXARzWe\nYkOP3LhErmILjkasxcO5y/FbxNYR9vvoqP54K2qpisEADIh4609ePIwYQW8hJTwA\nkiW5pwQOeGD2aXvBByHOAZfqfwQLQjXFki601OYp1xx5zMekUSPrYi7k8uXS2yoD\nLJTTbANoNbS+BxWcpstrP+rVa/uORyljEOFTLmZBhFtZKBvFxwWNCbb5DxoDrvtJ\njA8pfhiCAnbUsj5L733R\n=DTdQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 98e0538d37f03f95c6eec430f68e13af84470cf2\nparent 8bd426483a1ec1f1a57e02851a7ad450253ace9a\nauthor Zhaochen Yu <115272494+BitCodingWalkin@users.noreply.github.com> 1717904165 +0800\ncommitter GitHub <noreply@github.com> 1717904165 +0800\n\nUpdate meta_buffer_utilis.py\n\nupdate annotations",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/d4afb653782b6034f13c0a1396a325396b7ac375",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/d4afb653782b6034f13c0a1396a325396b7ac375",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/d4afb653782b6034f13c0a1396a325396b7ac375/comments",
+      "author": {
+        "login": "ZhaochenYu0201",
+        "id": 115272494,
+        "node_id": "U_kgDOBt7rLg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZhaochenYu0201",
+        "html_url": "https://github.com/ZhaochenYu0201",
+        "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+        "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+        "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+        "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8bd426483a1ec1f1a57e02851a7ad450253ace9a",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/8bd426483a1ec1f1a57e02851a7ad450253ace9a",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/8bd426483a1ec1f1a57e02851a7ad450253ace9a"
+        }
+      ]
+    },
+    {
+      "sha": "8bd426483a1ec1f1a57e02851a7ad450253ace9a",
+      "node_id": "C_kwDOMFzqmtoAKDhiZDQyNjQ4M2ExZWMxZjFhNTdlMDI4NTFhN2FkNDUwMjUzYWNlOWE",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-07T06:41:41Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-07T06:41:41Z"
+        },
+        "message": "init",
+        "tree": {
+          "sha": "c8bcf6ef474cc0514e5723fc9d4884e9c40ddce9",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/c8bcf6ef474cc0514e5723fc9d4884e9c40ddce9"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/8bd426483a1ec1f1a57e02851a7ad450253ace9a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/8bd426483a1ec1f1a57e02851a7ad450253ace9a",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/8bd426483a1ec1f1a57e02851a7ad450253ace9a",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/8bd426483a1ec1f1a57e02851a7ad450253ace9a/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e"
+        }
+      ]
+    },
+    {
+      "sha": "c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e",
+      "node_id": "C_kwDOMFzqmtoAKGMxNDgyZjFhODdlMWZiMzgzYmZiNmVjZDdhZDdjNGU0MmI0OGZjN2U",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-07T01:33:33Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-07T01:33:33Z"
+        },
+        "message": "init",
+        "tree": {
+          "sha": "9d52e2cb8a090dc844c8c0c1dbb1c62dda2087d4",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/9d52e2cb8a090dc844c8c0c1dbb1c62dda2087d4"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/c1482f1a87e1fb383bfb6ecd7ad7c4e42b48fc7e/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "24ecd7b0f265a475aa3b68572859d98833de6cce",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/24ecd7b0f265a475aa3b68572859d98833de6cce",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/24ecd7b0f265a475aa3b68572859d98833de6cce"
+        }
+      ]
+    },
+    {
+      "sha": "24ecd7b0f265a475aa3b68572859d98833de6cce",
+      "node_id": "C_kwDOMFzqmtoAKDI0ZWNkN2IwZjI2NWE0NzVhYTNiNjg1NzI4NTlkOTg4MzNkZTZjY2U",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-06T17:20:55Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-06T17:20:55Z"
+        },
+        "message": "init",
+        "tree": {
+          "sha": "687d91838a2175d14ef5900c0eb2b528cc031f55",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/687d91838a2175d14ef5900c0eb2b528cc031f55"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/24ecd7b0f265a475aa3b68572859d98833de6cce",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/24ecd7b0f265a475aa3b68572859d98833de6cce",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/24ecd7b0f265a475aa3b68572859d98833de6cce",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/24ecd7b0f265a475aa3b68572859d98833de6cce/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "70ddfc9edd958fff48756beece6a74d5a4c328f1",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/70ddfc9edd958fff48756beece6a74d5a4c328f1",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/70ddfc9edd958fff48756beece6a74d5a4c328f1"
+        }
+      ]
+    },
+    {
+      "sha": "70ddfc9edd958fff48756beece6a74d5a4c328f1",
+      "node_id": "C_kwDOMFzqmtoAKDcwZGRmYzllZGQ5NThmZmY0ODc1NmJlZWNlNmE3NGQ1YTRjMzI4ZjE",
+      "commit": {
+        "author": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-06T17:17:04Z"
+        },
+        "committer": {
+          "name": "YangLing0818",
+          "email": "yangling0818@163.com",
+          "date": "2024-06-06T17:17:04Z"
+        },
+        "message": "init",
+        "tree": {
+          "sha": "eda8346fb77f147490b224002206acdb4701f33a",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/eda8346fb77f147490b224002206acdb4701f33a"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/70ddfc9edd958fff48756beece6a74d5a4c328f1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/70ddfc9edd958fff48756beece6a74d5a4c328f1",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/70ddfc9edd958fff48756beece6a74d5a4c328f1",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/70ddfc9edd958fff48756beece6a74d5a4c328f1/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7501e5bd81a854cb53d8ba4d08b9ac297f6368c6",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/7501e5bd81a854cb53d8ba4d08b9ac297f6368c6",
+          "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/7501e5bd81a854cb53d8ba4d08b9ac297f6368c6"
+        }
+      ]
+    },
+    {
+      "sha": "7501e5bd81a854cb53d8ba4d08b9ac297f6368c6",
+      "node_id": "C_kwDOMFzqmtoAKDc1MDFlNWJkODFhODU0Y2I1M2Q4YmE0ZDA4YjlhYzI5N2Y2MzY4YzY",
+      "commit": {
+        "author": {
+          "name": "Ling Yang",
+          "email": "62683396+YangLing0818@users.noreply.github.com",
+          "date": "2024-06-06T14:12:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-06T14:12:49Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "804dd3ca123c51a64d7fdd6e604743a9bded4404",
+          "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/trees/804dd3ca123c51a64d7fdd6e604743a9bded4404"
+        },
+        "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/git/commits/7501e5bd81a854cb53d8ba4d08b9ac297f6368c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmYcPhCRC1aQ7uu5UhlAAAI0YQADSO2qd9faKIw5BAkVP6s16U\nu4261qXy9EWOq/oXWg5mfxzJIfV7pvrOhd5s3hNS1C0t5tiYF8JypcYCk1Q8pzth\nflcxi+uYwbRAnNjjMyIP6EUWn5mXSZYPtkqpdbrzYIblNivdKspe85IdSmYEBjlZ\nL4GqnNW+NwbOm5919uX1zc4d3f/WioSjLjMJyvkwtrYQE3f8VyP4G9tZRILwYBvQ\nVPBYtfsTASxpttdK6iC2QyNLOoXkwWmK/yuJ2mNDopYEo2Ta53qEVGNggMsjhVnF\ngH+JOQCqo1lu7cDms3wfvg2B2S1+8K+bgd9FShvGjIBE/28XTF3BwyO/VxheiqTX\nC4H06yEZj1c/FvJK6lrzA0TZHeMZKGY/dbEZjpE19AaYFlriVSKWW6UNWvG8w1Wz\nuDVC56NImUaYGR6Gh/Si8O2v/VSk0JLlG5dDcEMgc9Ti2DNUN6dbGE0z4gbF5tlq\nPU0qwfMBCeUgouNEHrQdP4QJpFjrY5WOA7Bd6BI3Wxjp4CJbypVihZwNvgbqrUrN\njLfqfSvxQsC0IypWUo1aocsA6InchviC4n479eSbVR0FN9ICJ56kH/vY0VCch9UJ\naJcIwMXrs+bnCUQrht2dkIfs3ftKkjSmV+222+KDlq/hrvTbd3Z1RgmTBrYi9OPu\n2rbJ0FG6YJ1mlmYOOhcQ\n=WkAU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 804dd3ca123c51a64d7fdd6e604743a9bded4404\nauthor Ling Yang <62683396+YangLing0818@users.noreply.github.com> 1717683169 +0800\ncommitter GitHub <noreply@github.com> 1717683169 +0800\n\nInitial commit",
+          "verified_at": "2024-11-06T19:39:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/7501e5bd81a854cb53d8ba4d08b9ac297f6368c6",
+      "html_url": "https://github.com/YangLing0818/buffer-of-thought-llm/commit/7501e5bd81a854cb53d8ba4d08b9ac297f6368c6",
+      "comments_url": "https://api.github.com/repos/YangLing0818/buffer-of-thought-llm/commits/7501e5bd81a854cb53d8ba4d08b9ac297f6368c6/comments",
+      "author": {
+        "login": "YangLing0818",
+        "id": 62683396,
+        "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/YangLing0818",
+        "html_url": "https://github.com/YangLing0818",
+        "followers_url": "https://api.github.com/users/YangLing0818/followers",
+        "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+        "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+        "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+        "repos_url": "https://api.github.com/users/YangLing0818/repos",
+        "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "YangLing0818",
+      "id": 62683396,
+      "node_id": "MDQ6VXNlcjYyNjgzMzk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62683396?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YangLing0818",
+      "html_url": "https://github.com/YangLing0818",
+      "followers_url": "https://api.github.com/users/YangLing0818/followers",
+      "following_url": "https://api.github.com/users/YangLing0818/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YangLing0818/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YangLing0818/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YangLing0818/subscriptions",
+      "organizations_url": "https://api.github.com/users/YangLing0818/orgs",
+      "repos_url": "https://api.github.com/users/YangLing0818/repos",
+      "events_url": "https://api.github.com/users/YangLing0818/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YangLing0818/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 22
+    },
+    {
+      "login": "ZhaochenYu0201",
+      "id": 115272494,
+      "node_id": "U_kgDOBt7rLg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115272494?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ZhaochenYu0201",
+      "html_url": "https://github.com/ZhaochenYu0201",
+      "followers_url": "https://api.github.com/users/ZhaochenYu0201/followers",
+      "following_url": "https://api.github.com/users/ZhaochenYu0201/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ZhaochenYu0201/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ZhaochenYu0201/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ZhaochenYu0201/subscriptions",
+      "organizations_url": "https://api.github.com/users/ZhaochenYu0201/orgs",
+      "repos_url": "https://api.github.com/users/ZhaochenYu0201/repos",
+      "events_url": "https://api.github.com/users/ZhaochenYu0201/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ZhaochenYu0201/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 11
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 137421
+  },
+  "readme_html": "<h1 id=\"user-content-buffer-of-thoughts-thought-augmented-reasoning-with-large-language-models\">Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models</h1>\n<p>      </p>\n<p>Official implementation of our <a href=\"https://arxiv.org/abs/2406.04271\">Buffer of Thoughts (BoT)</a> framework (<strong>NeurIPS 2024 Spotlight</strong>). Affiliation: Peking University, UC Berkeley, Stanford University</p>\n<h2 id=\"user-content--news\">📢 News</h2>\n<p>[2025.6] 🎉 Based on our <a href=\"https://arxiv.org/abs/2406.04271\">Buffer of Thoughts (BoT)</a>, we develop <a href=\"https://arxiv.org/abs/2506.18896\"><strong>ReasonFlux-PRM</strong></a>, a family of trajectory-aware process reward models (PRMs) for long CoT reasoning in LLMs. ReasonFlux-PRM is able to support <strong>both offline and online reward supervision</strong>, by selecting high-quality training data for model distillation, providing dense process-level rewards for policy optimization during reinforcement learning, and enabling reward-guided test-time scaling.\r\nOur trained PRMs including <a href=\"https://huggingface.co/Gen-Verse/ReasonFlux-PRM-7B\">ReasonFlux-PRM-7B</a> and <a href=\"https://huggingface.co/Gen-Verse/ReasonFlux-PRM-1.5B\">ReasonFlux-PRM-1.5B</a> are now available on <a href=\"https://huggingface.co/Gen-Verse\">HuggingFace-GenX</a>. We also release a 7B advanced thinking and reasoning model <a href=\"https://huggingface.co/Gen-Verse/ReasonFlux-PRM-Qwen-2.5-7B\">ReasonFlux-PRM-Qwen-2.5-7B</a> supervised via our PRM.</p>\n<p>[2025.3] 🎉 We release <a href=\"https://huggingface.co/Gen-Verse/ReasonFlux-F1\">ReasonFlux-F1-32B</a>, <a href=\"https://huggingface.co/Gen-Verse/ReasonFlux-F1-14B\">ReasonFlux-F1-14B</a>, <a href=\"https://huggingface.co/Gen-Verse/ReasonFlux-F1-7B\">ReasonFlux-F1-7B</a>, a series of SOTA-level reasoning LLMs by leveraging the <strong>template-augmented reasoning (based on BoT) trajectories</strong> collected from our <a href=\"https://github.com/Gen-Verse/ReasonFlux\">ReasonFlux-Zero</a>. For the training and evaluation scripts, please refer to <a href=\"https://github.com/Gen-Verse/ReasonFlux/tree/main/reasonflux-f1\">Reasonflux-F1</a> for detail.</p>\n<table>\n<thead>\n<tr>\n<th align=\"left\">Task/Pass@1</th>\n<th align=\"center\"><a href=\"https://huggingface.co/Gen-Verse/ReasonFlux-F1\"><strong>ReasonFlux-F1-32B</strong></a></th>\n<th align=\"center\"><strong>ReasonFlux-Zero-32B</strong></th>\n<th align=\"center\"><strong>DeepSeek-R1-Distill-32B</strong></th>\n<th align=\"center\"><strong>o1-mini</strong></th>\n<th align=\"center\"><strong>LIMO -32B</strong></th>\n<th align=\"center\"><strong>s1-32B</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"left\">MATH500</td>\n<td align=\"center\"><strong>96.0</strong></td>\n<td align=\"center\">91.2</td>\n<td align=\"center\">94.3</td>\n<td align=\"center\">90.0</td>\n<td align=\"center\">90.6</td>\n<td align=\"center\">93.0</td>\n</tr>\n<tr>\n<td align=\"left\">AIME 2024</td>\n<td align=\"center\"><strong>76.7</strong></td>\n<td align=\"center\">56.7</td>\n<td align=\"center\">72.6</td>\n<td align=\"center\">56.7</td>\n<td align=\"center\">50.0</td>\n<td align=\"center\">56.7</td>\n</tr>\n<tr>\n<td align=\"left\">AIME 2025</td>\n<td align=\"center\"><strong>53.3</strong></td>\n<td align=\"center\">37.2</td>\n<td align=\"center\">46.67</td>\n<td align=\"center\">50.8</td>\n<td align=\"center\">37.2</td>\n<td align=\"center\">49.3</td>\n</tr>\n<tr>\n<td align=\"left\">GPQA-Diamond</td>\n<td align=\"center\"><strong>67.2</strong></td>\n<td align=\"center\">61.2</td>\n<td align=\"center\">62.1</td>\n<td align=\"center\">60.0</td>\n<td align=\"center\">65.2</td>\n<td align=\"center\">59.6</td>\n</tr>\n</tbody>\n</table>\n<p>[2024.10] 🎉 We release <a href=\"https://github.com/YangLing0818/SuperCorrect-llm\">SuperCorrect</a> based on Buffer of Thoughts, a new self-correction LLM reasoning framework. Notably, this new SupperCorrect-7B model achieves SOTA performance on MATH and GSM8K benchmarks among all 7B models.</p>\n<p>[2024.10] 🎉 We update our repo and release our implementation of <strong>Meta Buffer</strong> and <strong>Buffer Manager</strong>  on math problems such as <strong>GSM8K</strong> based on amazing work <a href=\"https://github.com/HKUDS/LightRAG\">light-RAG</a>.</p>\n<p>[2024.6] 🎉 We release our code for evaluation on three benchmarks.</p>\n<h2 id=\"user-content-introduction\">Introduction</h2>\n<p>We introduce <strong>BoT</strong>, a novel and versatile thought-augmented reasoning approach designed to enhance the accuracy, efficiency, and robustness of large language models (LLMs). Specifically, we propose a <strong>meta-buffer</strong> to store a series of high-level thoughts, referred to as <strong>thought-templates</strong>, distilled from problem-solving processes across various tasks. For each problem, we retrieve a relevant thought-template and adaptively instantiate it with specific reasoning structures to conduct efficient reasoning. To ensure scalability and stability, we also propose a <strong>buffer-manager</strong> to dynamically update the meta-buffer, thus enhancing its capacity as more tasks are solved. We conduct extensive experiments on 10 challenging reasoning-intensive tasks, achieving significant performance improvements over previous state-of-the-art (SOTA) methods: 11% on Game of 24, 20% on Geometric Shapes, and 51% on Checkmate-in-One. Further analysis demonstrates the superior generalization ability and robustness of our BoT, while requiring only 12% of the cost of multi-query prompting methods (e.g., tree/graph of thoughts) on average. Notably, we find that our <strong>Llama3-8B + BoT has the potential to surpass Llama3-70B</strong> model.</p>\n<h2 id=\"user-content-comparison-between-different-methods\">Comparison between Different Methods</h2>\n<table>\n<thead>\n<tr>\n<th>Task/Method</th>\n<th align=\"center\">GPT-4</th>\n<th>PAL</th>\n<th>ToT</th>\n<th align=\"center\">Meta Prompting</th>\n<th align=\"center\">BoT (Ours)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Game of 24</td>\n<td align=\"center\">3.0</td>\n<td>64.0</td>\n<td>74.0</td>\n<td align=\"center\">67.0</td>\n<td align=\"center\"><strong>82.4</strong></td>\n</tr>\n<tr>\n<td>MGSM (avg)</td>\n<td align=\"center\">84.4</td>\n<td>72.0</td>\n<td>86.4</td>\n<td align=\"center\">84.8</td>\n<td align=\"center\"><strong>89.2</strong></td>\n</tr>\n<tr>\n<td>Multi-Step Arithmetic</td>\n<td align=\"center\">84.0</td>\n<td>87.4</td>\n<td>88.2</td>\n<td align=\"center\">90.0</td>\n<td align=\"center\"><strong>99.8</strong></td>\n</tr>\n<tr>\n<td>WordSorting</td>\n<td align=\"center\">80.4</td>\n<td>93.2</td>\n<td>96.4</td>\n<td align=\"center\">99.6</td>\n<td align=\"center\"><strong>100.0</strong></td>\n</tr>\n<tr>\n<td>Python Puzzles</td>\n<td align=\"center\">31.1</td>\n<td>47.3</td>\n<td>43.5</td>\n<td align=\"center\">45.8</td>\n<td align=\"center\"><strong>52.4</strong></td>\n</tr>\n<tr>\n<td>Geometric Shapes</td>\n<td align=\"center\">52.6</td>\n<td>51.2</td>\n<td>56.8</td>\n<td align=\"center\">78.2</td>\n<td align=\"center\"><strong>93.6</strong></td>\n</tr>\n<tr>\n<td>Checkmate-in-One</td>\n<td align=\"center\">36.4</td>\n<td>10.8</td>\n<td>49.2</td>\n<td align=\"center\">57.0</td>\n<td align=\"center\"><strong>86.4</strong></td>\n</tr>\n<tr>\n<td>Date Understanding</td>\n<td align=\"center\">68.4</td>\n<td>76.2</td>\n<td>78.6</td>\n<td align=\"center\">79.2</td>\n<td align=\"center\"><strong>88.2</strong></td>\n</tr>\n<tr>\n<td>Penguins</td>\n<td align=\"center\">71.1</td>\n<td>93.3</td>\n<td>84.2</td>\n<td align=\"center\">88.6</td>\n<td align=\"center\"><strong>94.7</strong></td>\n</tr>\n<tr>\n<td>Sonnet Writing</td>\n<td align=\"center\">62.0</td>\n<td>36.2</td>\n<td>68.4</td>\n<td align=\"center\">79.6</td>\n<td align=\"center\"><strong>80.0</strong></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-evaluation-and-inference-with-buffer-of-thoughts\">Evaluation and Inference with Buffer of Thoughts</h2>\n<h3 id=\"user-content-1-benchmarks\">1. Benchmarks</h3>\n<p>For now, we release our demo version of BoT based on three different benchmarks:</p>\n<ul>\n<li><strong>The Game of 24</strong> from <a href=\"https://github.com/princeton-nlp/tree-of-thought-llm\">Yao et al., 2023</a></li>\n<li><strong>Checkmate-in-One</strong> from <a href=\"https://github.com/google/BIG-bench/tree/main\">the BIG-Bench suite</a> <a href=\"https://arxiv.org/abs/2206.04615\">(BIG-Bench authors, 2023)</a></li>\n<li><strong>Word Sorting</strong> from <a href=\"https://github.com/suzgunmirac/BIG-Bench-Hard\">BIG-Bench Hard</a> (<a href=\"https://arxiv.org/abs/2210.09261\">Suzgun et al., 2023</a>; <a href=\"https://github.com/google/BIG-bench/tree/main\">BIG-Bench authors, 2023</a>)</li>\n</ul>\n<h3 id=\"user-content-2-meta-buffer\">2. Meta Buffer</h3>\n<p>For each task, we choose one thought template sampled from our meta-buffer library. You may use our framework to construct your own meta buffer.</p>\n<h3 id=\"user-content-3-quick-start\">3. Quick Start</h3>\n<p>First, set up the environment:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/YangLing0818/buffer-of-thought-llm\r\ncd buffer-of-thought-llm\r\nconda create -n BoT python==3.9 \r\npip install -r requirements.txt\n</code></pre>\n<h4 id=\"user-content-31-inference-on-math-problems\">3.1. Inference on math problems</h4>\n<p>Here we provide our inference code of  <strong>BoT</strong> based on <strong>light-RAG</strong> on GSM8K problems.  We provide some thought templates about math problems in <a href=\"./math.txt\">math.txt</a></p>\n<pre><code class=\"language-python\">from bot_pipeline import BoT\r\nimport argparse\r\n\r\nparser = argparse.ArgumentParser(description='Use of argparse')\r\n\r\nparser.add_argument('--llm_model',type=str,default='gpt-4o-mini',help='Model id of LLMs')\r\nparser.add_argument('--embedding_model',type=str,default='text-embedding-3-large',help='Model id of embedding model')\r\nparser.add_argument('--api_key',type=str,help='The api key of user')\r\nparser.add_argument('--base_url',type=str,default='https://api.openai.com/v1/',help='we also support Open AI-like chat/embeddings APIs')\r\nparser.add_argument('--rag_dir',type=str,default='./math',help='The path to save the meta buffer')\r\n\r\nargs = parser.parse_args()\r\n\r\nllm_model = args.llm_model\r\nembedding_model = args.embedding_model\r\napi_key = args.api_key\r\nbase_url = args.base_url\r\nrag_dir = args.rag_dir\r\n\r\nprompt = \"Solve the problem: Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raymond had a son at the age of 23. If Samantha is now 31, how many years ago was Raymond's son born?\"\r\n\r\nbot = BoT(\r\n          user_input= prompt, \r\n          api_key = api_key,\r\n          model_id = llm_model,\r\n          embedding_model = embedding_model,\r\n          base_url = base_url,\r\n          rag_dir = rag_dir\r\n          )\r\n\r\nbot.bot_inference()\n</code></pre>\n<p>Here you can use command below to conduct a quick test with OpenAI api using gpt-4o-mini and text-embedding-3-large by default</p>\n<pre><code>python inference.py --api_key 'Input your api key here'\n</code></pre>\n<p>You can also modify the problem within the prompt to solve different math problems.</p>\n<p>(Our code is currently only support online LLMs on math problems, we will soon update and support local models !)</p>\n<h4 id=\"user-content-32-running-on-three-benchmarks\">3.2. Running on Three Benchmarks</h4>\n<p>Our BoT is easy to use. Just run:</p>\n<pre><code class=\"language-bash\">python run_benchmarks.py --task_name 'gameof24' --api_key 'input your API key here if you want to use GPT-4' --model_id 'the model ID of GPT-4 or the path to your local LLM'\n</code></pre>\n<p>Here, <strong>--task_name</strong> could be one of gameof24, checkmate, wordsorting.</p>\n<p>The <strong>--api_key</strong> is required if you want to use GPT-series; if not, you can skip it.</p>\n<p>The <strong>--model_id</strong> should be the model ID of GPT-series like gpt-4o, gpt-4-turbo, or the path to your local LLM if you do not set <strong>--api_key</strong>.</p>\n<p>The data for these three tasks are located in the <code>/benchmarks</code> directory.</p>\n<p>The results generated during the experiment are stored in the <code>/test_results</code> directory.</p>\n<h4 id=\"user-content-33-validate-the-test-results\">3.3. Validate the Test Results</h4>\n<p>Run the command below to validate the test results of our BoT:</p>\n<pre><code class=\"language-python\">python validate_results.py --task_name 'gameof24' --test_path 'The path to the .jsonl file you want to validate'\n</code></pre>\n<p>This will print out the accuracy of the selected task on your relevant .jsonl file.</p>\n<h2 id=\"user-content--bibtex\">📖 BibTeX</h2>\n<pre><code>@article{yang2024buffer,\r\n  title={Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models},\r\n  author={Yang, Ling and Yu, Zhaochen and Zhang, Tianjun and Cao, Shiyi and Xu, Minkai and Zhang, Wentao and Gonzalez, Joseph E and Cui, Bin},\r\n  journal={Advances in Neural Information Processing Systems},\r\n  year={2024}\r\n}\n</code></pre>\n<h2 id=\"user-content-acknowledgements\">Acknowledgements</h2>\n<p>The implementation of our Meta Buffer and Buffer Manager is based on  <a href=\"https://github.com/HKUDS/LightRAG\">light-RAG</a>. We want to express our gratitude for their amazing work and we will continue to update and adapt more different RAG frameworks.</p>",
+  "_fetched_at": "2026-03-11T18:15:44.457Z"
+}

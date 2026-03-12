@@ -1,0 +1,100 @@
+---
+/**
+ * CommitSparkline.astro — SVG sparkline of weekly commit frequency
+ */
+interface Props {
+  commits: Array<{ commit: { author: { date?: string } } }>;
+  label?: string;
+}
+const { commits, label = 'Commit activity (last 52 weeks)' } = Astro.props;
+
+// Bucket commits into 52 weekly bins
+const now = Date.now();
+const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+const bins = Array(52).fill(0);
+
+for (const c of commits) {
+  const date = c.commit?.author?.date;
+  if (!date) continue;
+  const age = now - new Date(date).getTime();
+  const weekIdx = Math.floor(age / WEEK_MS);
+  if (weekIdx >= 0 && weekIdx < 52) bins[51 - weekIdx]++;
+}
+
+const maxVal = Math.max(...bins, 1);
+const W = 520;
+const H = 60;
+const barW = W / 52;
+const points = bins
+  .map((v, i) => {
+    const x = i * barW + barW / 2;
+    const y = H - (v / maxVal) * H;
+    return `${x},${y}`;
+  })
+  .join(' ');
+const hasData = bins.some((b) => b > 0);
+---
+
+<div class="sparkline-wrap">
+  <p class="sparkline-label" aria-label={label}>{label}</p>
+  {hasData ? (
+    <svg
+      class="sparkline-svg"
+      viewBox={`0 0 ${W} ${H}`}
+      preserveAspectRatio="none"
+      aria-hidden="true"
+      role="img"
+    >
+      <defs>
+        <linearGradient id="spark-fill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="var(--sparkline-fill, #6366f1)" stop-opacity="0.3" />
+          <stop offset="100%" stop-color="var(--sparkline-fill, #6366f1)" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <!-- Fill area -->
+      <polygon
+        points={`0,${H} ${points} ${W},${H}`}
+        fill="url(#spark-fill)"
+      />
+      <!-- Line -->
+      <polyline
+        points={points}
+        fill="none"
+        stroke="var(--sparkline-fill, #6366f1)"
+        stroke-width="2"
+        stroke-linejoin="round"
+        stroke-linecap="round"
+      />
+    </svg>
+  ) : (
+    <p class="sparkline-nodata">No commit data available</p>
+  )}
+</div>
+
+<style>
+  .sparkline-wrap {
+    padding: 1rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+  }
+  .sparkline-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+  }
+  .sparkline-svg {
+    display: block;
+    width: 100%;
+    height: 60px;
+  }
+  .sparkline-nodata {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    text-align: center;
+    padding: 1rem 0;
+  }
+</style>

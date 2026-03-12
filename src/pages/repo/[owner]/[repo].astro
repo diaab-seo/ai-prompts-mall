@@ -1,0 +1,734 @@
+---
+/**
+ * /repo/[owner]/[repo].astro — Repository Detail Page
+ *
+ * Strategy: Load from pre-fetched JSON glob cache (bundled at build time).
+ * This works in Cloudflare Workers without node:fs.
+ * For repos not in cache: show a "not found" state.
+ *
+ * export const prerender = false → SSR on-demand via Cloudflare adapter.
+ * In practice with static output, Astro falls back to a 404 for routes
+ * not matched statically. We use getStaticPaths to pre-render all cached repos.
+ */
+
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/navigation/Breadcrumb.astro';
+import StarMeter from '../../../components/widgets/StarMeter.astro';
+import CommitSparkline from '../../../components/widgets/CommitSparkline.astro';
+import ContributorGrid from '../../../components/widgets/ContributorGrid.astro';
+import TopicCloud from '../../../components/widgets/TopicCloud.astro';
+import ReadmeRenderer from '../../../components/widgets/ReadmeRenderer.astro';
+import { buildSoftwareApplicationSchema } from '../../../utils/schema';
+import categories from '../../../data/categories.json';
+import manifestRaw from '../../../data/manifest.json';
+
+// ── Lazy glob: load all repo JSONs without bundling all of them eagerly ──
+const repoFiles = import.meta.glob('../../../data/repos/*.json');
+
+export async function getStaticPaths() {
+  const manifest: ManifestEntry[] = manifestRaw as any;
+  return manifest.map((r) => ({
+    params: { owner: r.owner, repo: r.repo },
+  }));
+}
+
+interface ManifestEntry {
+  full_name: string; owner: string; repo: string; stars: number;
+  forks: number; language?: string; topics: string[];
+  primary_category: string; pushed_at: string; description?: string;
+}
+
+const { owner, repo } = Astro.params;
+
+// ── Load repo JSON from glob cache ──
+const key = `../../../data/repos/${owner}__${repo}.json`;
+let repoData: any = null;
+if (repoFiles[key]) {
+  repoData = (await repoFiles[key]() as any).default ?? await repoFiles[key]();
+}
+
+// ── 404 if not in cache ──
+if (!repoData) {
+  return Astro.redirect('/404');
+}
+
+const SITE = 'https://aipromptsmall.shop';
+
+// ── Derived fields ──
+const fullName = repoData.full_name ?? `${owner}/${repo}`;
+const stars: number = repoData.stargazers_count ?? 0;
+const forks: number = repoData.forks_count ?? 0;
+const watchers: number = repoData.subscribers_count ?? 0;
+const description: string = repoData.description ?? '';
+const language: string | null = repoData.language ?? null;
+const license: string | null = repoData.license?.spdx_id ?? null;
+const homepage: string | null = repoData.homepage || null;
+const topics: string[] = repoData.topics ?? [];
+const pushedAt: string = repoData.pushed_at ?? '';
+const createdAt: string = repoData.created_at ?? '';
+const defaultBranch: string = repoData.default_branch ?? 'main';
+const isArchived: boolean = repoData.archived ?? false;
+const openIssues: number = repoData.open_issues_count ?? 0;
+const size: number = repoData.size ?? 0; // KB
+
+const ownerObj = repoData.owner ?? { login: owner, avatar_url: '', type: 'User' };
+const commits: any[] = repoData.commits ?? [];
+const contributors: any[] = repoData.contributors ?? [];
+const releases: any[] = repoData.releases ?? [];
+const readmeHtml: string = repoData.readme_html ?? '';
+const languages: Record<string, number> = repoData.languages ?? {};
+
+// ── Similar repos from same category ──
+const manifest: ManifestEntry[] = manifestRaw as any;
+const similar = manifest
+  .filter((r) => r.primary_category === repoData.primary_category && r.full_name !== fullName)
+  .sort((a, b) => b.stars - a.stars)
+  .slice(0, 5);
+
+// ── Category info ──
+const catInfo = categories.find((c) => c.slug === repoData.primary_category);
+
+// ── Language bar (CSS-only) ──
+const langTotal = Object.values(languages).reduce((a, b) => a + b, 0);
+const langBars = Object.entries(languages)
+  .slice(0, 8)
+  .map(([lang, bytes]) => ({
+    lang,
+    pct: langTotal ? ((bytes / langTotal) * 100).toFixed(1) : '0',
+  }));
+
+const LANG_COLORS: Record<string, string> = {
+  Python: '#3572A5', JavaScript: '#f1e05a', TypeScript: '#3178c6',
+  Go: '#00ADD8', Rust: '#dea584', Java: '#b07219', 'C++': '#f34b7d',
+  C: '#555555', Ruby: '#701516', Kotlin: '#A97BFF', Swift: '#F05138',
+  Scala: '#c22d40', Shell: '#89e051', 'C#': '#178600', Dart: '#00B4AB',
+  R: '#198CE7', Julia: '#a270ba', Jupyter: '#DA5B0B', HTML: '#e34c26',
+  CSS: '#563d7c', Vue: '#41b883', Svelte: '#ff3e00',
+};
+
+// ── Format helpers ──
+function fmt(n: number) {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k`;
+  return String(n);
+}
+
+function relDate(iso: string) {
+  if (!iso) return 'unknown';
+  const diff = Date.now() - new Date(iso).getTime();
+  const days = Math.floor(diff / 86400000);
+  if (days === 0) return 'today';
+  if (days === 1) return 'yesterday';
+  if (days < 7) return `${days} days ago`;
+  if (days < 30) return `${Math.floor(days / 7)} weeks ago`;
+  if (days < 365) return `${Math.floor(days / 30)} months ago`;
+  return `${Math.floor(days / 365)} years ago`;
+}
+
+function fmtDate(iso: string) {
+  if (!iso) return '';
+  return new Date(iso).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+// ── Canonical & Schema ──
+const canonical = `${SITE}/repo/${owner}/${repo}`;
+const schema = buildSoftwareApplicationSchema({
+  full_name: fullName,
+  description,
+  owner: ownerObj,
+  created_at: createdAt,
+  pushed_at: pushedAt,
+  stargazers_count: stars,
+  forks_count: forks,
+  subscribers_count: watchers,
+  license: repoData.license,
+  language: language ?? undefined,
+  topics,
+  homepage: homepage ?? undefined,
+  category: catInfo?.label ?? repoData.primary_category,
+  slug: `${owner}/${repo}`,
+});
+
+const breadcrumbs = [
+  { label: 'Home', href: '/' },
+  ...(catInfo ? [{ label: catInfo.label, href: `/category/${catInfo.slug}` }] : []),
+  { label: repo, href: `/repo/${owner}/${repo}` },
+];
+
+// ── Category max stars (for StarMeter bar scaling) ──
+const catMaxStars = Math.max(
+  ...manifest.filter((r) => r.primary_category === repoData.primary_category).map((r) => r.stars),
+  1
+);
+---
+
+<Base
+  title={`${fullName} — ${description ? description.slice(0, 60) + '…' : 'Open Source AI Tool'} | aipromptsmall.shop`}
+  description={description
+    ? `${description.slice(0, 150)} — ${stars.toLocaleString()} GitHub stars, ${forks.toLocaleString()} forks.`
+    : `${fullName}: ${stars.toLocaleString()} GitHub stars. Open-source ${catInfo?.label ?? 'AI'} tool.`}
+  canonical={canonical}
+  pageType="repo"
+  schemas={[schema]}
+>
+  <Breadcrumb crumbs={breadcrumbs} />
+
+  <div class="repo-page container">
+
+    <!-- ═══════════════════════════════════════
+         HERO HEADER
+    ═══════════════════════════════════════ -->
+    <header class="repo-hero">
+      <div class="repo-hero-left">
+        <!-- Owner avatar -->
+        {ownerObj.avatar_url && (
+          <a href={`/owner/${ownerObj.login.toLowerCase()}`} class="owner-avatar-link" aria-label={`View ${ownerObj.login}'s profile`}>
+            <img
+              src={`${ownerObj.avatar_url}&s=80`}
+              alt={ownerObj.login}
+              width="48"
+              height="48"
+              class="owner-avatar"
+              loading="eager"
+            />
+          </a>
+        )}
+        <div class="repo-hero-names">
+          <div class="repo-owner-row">
+            <a href={`/owner/${ownerObj.login.toLowerCase()}`} class="repo-owner">{ownerObj.login}</a>
+            <span class="repo-slash" aria-hidden="true">/</span>
+          </div>
+          <h1 class="repo-name">{repo}</h1>
+        </div>
+      </div>
+
+      <div class="repo-hero-badges">
+        {isArchived && <span class="badge badge--archived">Archived</span>}
+        {catInfo && (
+          <a href={`/category/${catInfo.slug}`} class="badge badge--category">
+            {catInfo.label}
+          </a>
+        )}
+        <a
+          href={`https://github.com/${fullName}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-github"
+          aria-label={`View ${fullName} on GitHub`}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          View on GitHub
+        </a>
+        {homepage && (
+          <a
+            href={homepage}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-website"
+            aria-label={`Visit ${repo} website`}
+          >
+            🌐 Website
+          </a>
+        )}
+      </div>
+    </header>
+
+    <!-- Description -->
+    {description && (
+      <p class="repo-description">{description}</p>
+    )}
+
+    <!-- Topic cloud -->
+    {topics.length > 0 && (
+      <div class="repo-topics">
+        <TopicCloud topics={topics} />
+      </div>
+    )}
+
+    <!-- ═══════════════════════════════════════
+         STAT BARS (quick metrics)
+    ═══════════════════════════════════════ -->
+    <dl class="repo-stats-bar">
+      <div class="rsb-item">
+        <dt>⭐ Stars</dt>
+        <dd>{fmt(stars)}</dd>
+      </div>
+      <div class="rsb-item">
+        <dt>⑂ Forks</dt>
+        <dd>{fmt(forks)}</dd>
+      </div>
+      <div class="rsb-item">
+        <dt>👁️ Watchers</dt>
+        <dd>{fmt(watchers)}</dd>
+      </div>
+      <div class="rsb-item">
+        <dt>🐛 Issues</dt>
+        <dd>{fmt(openIssues)}</dd>
+      </div>
+      {license && (
+        <div class="rsb-item">
+          <dt>📄 License</dt>
+          <dd>{license}</dd>
+        </div>
+      )}
+      {language && (
+        <div class="rsb-item">
+          <dt>🔵 Language</dt>
+          <dd>{language}</dd>
+        </div>
+      )}
+      <div class="rsb-item">
+        <dt>🕐 Updated</dt>
+        <dd>{relDate(pushedAt)}</dd>
+      </div>
+      <div class="rsb-item">
+        <dt>📅 Created</dt>
+        <dd>{fmtDate(createdAt)}</dd>
+      </div>
+    </dl>
+
+    <!-- ═══════════════════════════════════════
+         MAIN 2-COLUMN LAYOUT
+    ═══════════════════════════════════════ -->
+    <div class="repo-body">
+
+      <!-- LEFT SIDEBAR -->
+      <aside class="repo-sidebar" aria-label="Repository metrics">
+
+        <!-- Star meter -->
+        <div class="sidebar-card">
+          <StarMeter stars={stars} maxStars={catMaxStars} />
+        </div>
+
+        <!-- Fork count -->
+        <div class="sidebar-card">
+          <div class="metric-row">
+            <span class="metric-icon" aria-hidden="true">⑂</span>
+            <div>
+              <strong class="metric-value">{fmt(forks)}</strong>
+              <span class="metric-label">forks</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Language breakdown -->
+        {langBars.length > 0 && (
+          <div class="sidebar-card">
+            <p class="sidebar-section-label">Languages</p>
+            <!-- Mini bar -->
+            <div class="lang-bar" aria-label="Language breakdown" role="img">
+              {langBars.map((l) => (
+                <span
+                  class="lang-bar-seg"
+                  style={`width:${l.pct}%; background:${LANG_COLORS[l.lang] ?? '#94a3b8'}`}
+                  title={`${l.lang}: ${l.pct}%`}
+                />
+              ))}
+            </div>
+            <ul class="lang-legend" role="list">
+              {langBars.map((l) => (
+                <li class="lang-legend-item">
+                  <span class="lang-dot" style={`background:${LANG_COLORS[l.lang] ?? '#94a3b8'}`} aria-hidden="true" />
+                  <span class="lang-name">{l.lang}</span>
+                  <span class="lang-pct">{l.pct}%</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        <!-- Contributors -->
+        {contributors.length > 0 && (
+          <div class="sidebar-card">
+            <ContributorGrid contributors={contributors} maxShow={15} />
+          </div>
+        )}
+
+        <!-- Latest release -->
+        {releases[0] && (
+          <div class="sidebar-card">
+            <p class="sidebar-section-label">Latest Release</p>
+            <a
+              href={releases[0].html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="release-link"
+            >
+              <strong>{releases[0].tag_name}</strong>
+              <span class="release-date">{fmtDate(releases[0].published_at)}</span>
+            </a>
+          </div>
+        )}
+
+        <!-- Quick links -->
+        <div class="sidebar-card">
+          <p class="sidebar-section-label">Links</p>
+          <ul class="quick-links" role="list">
+            <li>
+              <a href={`https://github.com/${fullName}`} target="_blank" rel="noopener noreferrer" class="quick-link">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                GitHub Repository
+              </a>
+            </li>
+            {homepage && (
+              <li>
+                <a href={homepage} target="_blank" rel="noopener noreferrer" class="quick-link">
+                  🌐 Official Website
+                </a>
+              </li>
+            )}
+            <li>
+              <a href={`https://github.com/${fullName}/issues`} target="_blank" rel="noopener noreferrer" class="quick-link">
+                🐛 Issues ({fmt(openIssues)})
+              </a>
+            </li>
+            {catInfo && (
+              <li>
+                <a href={`/category/${catInfo.slug}`} class="quick-link">
+                  🗂️ More {catInfo.label} tools
+                </a>
+              </li>
+            )}
+          </ul>
+        </div>
+
+        <!-- Similar repos -->
+        {similar.length > 0 && (
+          <div class="sidebar-card">
+            <p class="sidebar-section-label">Similar Repos</p>
+            <ul class="similar-list" role="list">
+              {similar.map((r) => (
+                <li>
+                  <a href={`/repo/${r.owner}/${r.repo}`} class="similar-link">
+                    <span class="similar-name">{r.repo}</span>
+                    <span class="similar-stars">⭐ {fmt(r.stars)}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main id="main-content" class="repo-main">
+
+        <!-- Commit sparkline -->
+        {commits.length > 0 && (
+          <div class="main-card">
+            <CommitSparkline commits={commits} />
+          </div>
+        )}
+
+        <!-- README -->
+        <div class="main-card readme-card">
+          <div class="readme-header">
+            <div class="readme-header-left">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              <strong>README.md</strong>
+            </div>
+            <a
+              href={`https://github.com/${fullName}/blob/${defaultBranch}/README.md`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="readme-raw-link"
+              aria-label="View raw README on GitHub"
+            >
+              View raw ↗
+            </a>
+          </div>
+          <ReadmeRenderer html={readmeHtml} repoFullName={fullName} />
+        </div>
+
+        <!-- Releases timeline (if any) -->
+        {releases.length > 0 && (
+          <div class="main-card">
+            <p class="card-section-label">📦 Recent Releases</p>
+            <ol class="releases-list" role="list">
+              {releases.slice(0, 5).map((r) => (
+                <li class="release-item">
+                  <a href={r.html_url} target="_blank" rel="noopener noreferrer" class="release-tag">
+                    {r.tag_name}
+                  </a>
+                  <span class="release-name">{r.name || r.tag_name}</span>
+                  <time class="release-time" datetime={r.published_at}>{fmtDate(r.published_at)}</time>
+                </li>
+              ))}
+            </ol>
+          </div>
+        )}
+      </main>
+    </div>
+  </div>
+</Base>
+
+<style>
+  /* Page container */
+  .repo-page { padding-block: 1.5rem 5rem; }
+
+  /* Hero */
+  .repo-hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.5rem;
+    
+    margin-bottom: 1rem;
+  }
+  .repo-hero-left { display: flex; align-items: center; gap: 1rem; }
+  .owner-avatar-link { flex-shrink: 0; }
+  .owner-avatar { width: 48px; height: 48px; border-radius: 50%; border: 2px solid var(--color-border); }
+  .repo-owner-row { display: flex; align-items: center; gap: 0.25rem; }
+  .repo-owner {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    text-decoration: none;
+  }
+  .repo-owner:hover { color: var(--color-accent); }
+  .repo-slash { color: var(--color-text-muted); }
+  .repo-name {
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: var(--color-text);
+  }
+
+  .repo-hero-badges { display: flex; align-items: center; gap: 0.5rem;  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.65rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .badge--archived { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+  .badge--category { background: var(--color-accent-light); color: var(--color-accent); }
+
+  .btn-github, .btn-website {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.15s, transform 0.1s;
+    white-space: nowrap;
+  }
+  .btn-github {
+    background: var(--color-text);
+    color: var(--color-bg);
+  }
+  .btn-github:hover { opacity: 0.85; transform: translateY(-1px); }
+  .btn-website {
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+  }
+  .btn-website:hover { background: var(--color-surface-2); transform: translateY(-1px); }
+
+  /* Description */
+  .repo-description {
+    font-size: 1.0625rem;
+    color: var(--color-text-muted);
+    line-height: 1.65;
+    max-width: 70ch;
+    margin-bottom: 0.875rem;
+  }
+
+  /* Topics */
+  .repo-topics { margin-bottom: 1.25rem; }
+
+  /* Stats bar */
+  .repo-stats-bar {
+    display: flex;
+    
+    gap: 0;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  .rsb-item {
+    flex: 1;
+    min-width: 100px;
+    padding: 0.875rem 1rem;
+    border-right: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+  .rsb-item:last-child { border-right: none; }
+  .rsb-item dt {
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+  .rsb-item dd {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-text);
+  }
+
+  /* 2-column body */
+  .repo-body {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .repo-sidebar { display: flex; flex-direction: column; gap: 1rem; position: sticky; top: 80px; }
+
+  /* Sidebar cards */
+  .sidebar-card {
+    padding: 1rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+  }
+  .sidebar-section-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.625rem;
+  }
+
+  /* Metric row */
+  .metric-row { display: flex; align-items: center; gap: 0.5rem; }
+  .metric-icon { font-size: 1.25rem; }
+  .metric-value { font-size: 1.25rem; font-weight: 800; color: var(--color-text); letter-spacing: -0.02em; }
+  .metric-label { font-size: 0.75rem; color: var(--color-text-muted); margin-left: 0.25rem; }
+
+  /* Language bar */
+  .lang-bar {
+    display: flex;
+    height: 8px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+  }
+  .lang-bar-seg { height: 100%; transition: flex 0.3s; }
+  .lang-legend { list-style: none; display: flex; flex-direction: column; gap: 0.3rem; }
+  .lang-legend-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.75rem; }
+  .lang-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+  .lang-name { flex: 1; color: var(--color-text); }
+  .lang-pct { color: var(--color-text-muted); font-weight: 600; }
+
+  /* Release */
+  .release-link { display: flex; flex-direction: column; gap: 0.2rem; text-decoration: none; }
+  .release-link strong { font-size: 0.9375rem; color: var(--color-accent); }
+  .release-date { font-size: 0.75rem; color: var(--color-text-muted); }
+
+  /* Quick links */
+  .quick-links { list-style: none; display: flex; flex-direction: column; gap: 0.25rem; }
+  .quick-link {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    padding: 0.3rem 0;
+    transition: color 0.12s;
+  }
+  .quick-link:hover { color: var(--color-accent); }
+
+  /* Similar repos */
+  .similar-list { list-style: none; display: flex; flex-direction: column; gap: 0.25rem; }
+  .similar-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.3rem 0;
+    text-decoration: none;
+    transition: color 0.12s;
+  }
+  .similar-link:hover .similar-name { color: var(--color-accent); }
+  .similar-name { font-size: 0.8125rem; font-weight: 500; color: var(--color-text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .similar-stars { font-size: 0.75rem; color: var(--color-text-muted); flex-shrink: 0; }
+
+  /* Main content cards */
+  .repo-main { display: flex; flex-direction: column; gap: 1.25rem; min-width: 0; }
+  .main-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  /* README card */
+  .readme-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.125rem;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    font-size: 0.875rem;
+  }
+  .readme-header-left { display: flex; align-items: center; gap: 0.5rem; color: var(--color-text-muted); }
+  .readme-header-left strong { color: var(--color-text); }
+  .readme-raw-link {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.12s;
+  }
+  .readme-raw-link:hover { color: var(--color-accent); }
+  .readme-card :global(.readme-body) { padding: 1.5rem 1.75rem; }
+  .readme-card :global(.readme-empty) { padding: 2rem; }
+
+  /* Section labels */
+  .card-section-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    padding: 0.875rem 1.125rem 0;
+  }
+
+  /* Releases */
+  .releases-list { list-style: none; padding: 0.75rem 1.125rem 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+  .release-item { display: flex; align-items: center; gap: 0.75rem; font-size: 0.875rem;  }
+  .release-tag {
+    display: inline-block;
+    padding: 0.15rem 0.6rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .release-name { flex: 1; color: var(--color-text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .release-time { font-size: 0.75rem; color: var(--color-text-muted); white-space: nowrap; }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .repo-body { grid-template-columns: 220px 1fr; }
+  }
+  @media (max-width: 768px) {
+    .repo-body { grid-template-columns: 1fr; }
+    .repo-sidebar { position: static; }
+    .repo-stats-bar {  }
+    .rsb-item { min-width: calc(50% - 1px); }
+  }
+  @media (max-width: 540px) {
+    .repo-hero { flex-direction: column; }
+    .rsb-item { min-width: 100%; border-right: none; border-bottom: 1px solid var(--color-border); }
+    .rsb-item:last-child { border-bottom: none; }
+  }
+</style>

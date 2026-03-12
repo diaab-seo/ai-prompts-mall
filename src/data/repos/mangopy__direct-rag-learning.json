@@ -1,0 +1,1606 @@
+{
+  "id": 915561339,
+  "node_id": "R_kgDONpJbew",
+  "name": "direct-rag-learning",
+  "full_name": "mangopy/direct-rag-learning",
+  "private": false,
+  "owner": {
+    "login": "mangopy",
+    "id": 179788286,
+    "node_id": "U_kgDOCrdZ_g",
+    "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/mangopy",
+    "html_url": "https://github.com/mangopy",
+    "followers_url": "https://api.github.com/users/mangopy/followers",
+    "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+    "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+    "organizations_url": "https://api.github.com/users/mangopy/orgs",
+    "repos_url": "https://api.github.com/users/mangopy/repos",
+    "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/mangopy/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/mangopy/direct-rag-learning",
+  "description": "Official code for TOIS2026 \"Direct Retrieval-augmented Optimization: Synergizing Knowledge Selection and Language Models\"",
+  "fork": false,
+  "url": "https://api.github.com/repos/mangopy/direct-rag-learning",
+  "forks_url": "https://api.github.com/repos/mangopy/direct-rag-learning/forks",
+  "keys_url": "https://api.github.com/repos/mangopy/direct-rag-learning/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/mangopy/direct-rag-learning/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/mangopy/direct-rag-learning/teams",
+  "hooks_url": "https://api.github.com/repos/mangopy/direct-rag-learning/hooks",
+  "issue_events_url": "https://api.github.com/repos/mangopy/direct-rag-learning/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/mangopy/direct-rag-learning/events",
+  "assignees_url": "https://api.github.com/repos/mangopy/direct-rag-learning/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/mangopy/direct-rag-learning/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/mangopy/direct-rag-learning/tags",
+  "blobs_url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/mangopy/direct-rag-learning/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/mangopy/direct-rag-learning/languages",
+  "stargazers_url": "https://api.github.com/repos/mangopy/direct-rag-learning/stargazers",
+  "contributors_url": "https://api.github.com/repos/mangopy/direct-rag-learning/contributors",
+  "subscribers_url": "https://api.github.com/repos/mangopy/direct-rag-learning/subscribers",
+  "subscription_url": "https://api.github.com/repos/mangopy/direct-rag-learning/subscription",
+  "commits_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/mangopy/direct-rag-learning/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/mangopy/direct-rag-learning/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/mangopy/direct-rag-learning/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/mangopy/direct-rag-learning/merges",
+  "archive_url": "https://api.github.com/repos/mangopy/direct-rag-learning/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/mangopy/direct-rag-learning/downloads",
+  "issues_url": "https://api.github.com/repos/mangopy/direct-rag-learning/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/mangopy/direct-rag-learning/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/mangopy/direct-rag-learning/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/mangopy/direct-rag-learning/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/mangopy/direct-rag-learning/labels{/name}",
+  "releases_url": "https://api.github.com/repos/mangopy/direct-rag-learning/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/deployments",
+  "created_at": "2025-01-12T07:15:24Z",
+  "updated_at": "2026-03-05T03:25:35Z",
+  "pushed_at": "2026-01-14T09:18:12Z",
+  "git_url": "git://github.com/mangopy/direct-rag-learning.git",
+  "ssh_url": "git@github.com:mangopy/direct-rag-learning.git",
+  "clone_url": "https://github.com/mangopy/direct-rag-learning.git",
+  "svn_url": "https://github.com/mangopy/direct-rag-learning",
+  "homepage": "https://arxiv.org/abs/2505.03075",
+  "size": 14069,
+  "stargazers_count": 276,
+  "watchers_count": 276,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 2,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "information-retrieval",
+    "large-language-models",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 2,
+  "open_issues": 0,
+  "watchers": 276,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "rag-retrieval",
+  "commits": [
+    {
+      "sha": "4f40f970443fcf35a995bfbe3f49d5f81ad9f1da",
+      "node_id": "C_kwDONpJbe9oAKDRmNDBmOTcwNDQzZmNmMzVhOTk1YmZiZTNmNDlkNWY4MWFkOWYxZGE",
+      "commit": {
+        "author": {
+          "name": "Zhengliang Shi",
+          "email": "zhengliang.shii@gmail.com",
+          "date": "2026-01-14T09:18:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-01-14T09:18:11Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "b75ea3dfa46b300ba70014ec2ed3550cd33dbf4d",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/b75ea3dfa46b300ba70014ec2ed3550cd33dbf4d"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/4f40f970443fcf35a995bfbe3f49d5f81ad9f1da",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpZ19TCRC1aQ7uu5UhlAAApxMQAHqKPoWEwzeQQxzILqA/ZXBz\nKpHIePXpWM3HiB8BCPz4TdEDIQeaBwpVFOJEGXS7Gt2nrQengJgis6VMWDf+X5P4\nO31HODxuVSS0709XkfhRTkws18lAlK0EnFOzmxHbEDlHIVFbNNIsJsyzo9n9Jfuv\nsnbs3F2ZNAiXU4PnOhje9cbM2O5Auy3HICbFHMicGh+ddkfKDnx/8oyUFgriXZvu\nsI+Q4Un3wfWl2dB/JO5iD5xTa4s2UxgjaWK0O5vQFiXkvwIZFOpwomWdXcZ7FhNf\nmQ1PxORQ1y7+//hmgmbADG34+dghdXHAv3q8AWJ1oTKinOWrNifgIiTuV9pMUAgJ\nXHdPGSbtDLop6IFTkNAdojmX/6sflO3mGsgTlTdAhnerw1PissnGVS8za8rebTlH\nvG950aJHI+jSRrWdWGxk9wenHIK40AWrqSyvVksiBt8FWPNj3RHPTDOzBl1Hrl35\n+/QQgNnPZIbbQrmBnfBMU03nyvLV4Q17FuGXztmLmJS7vIHzZsOXqkXjhuB6Cy1S\njS/HDRpRRaN8VdPCTYHQcD2egvMrEcxPoM1//SdqT1R4xGXGuD9RpBM4OKD0RG0M\ns6ztyRazo9jwBMY32HS7nmHOpJMrAjiRhdGIy3KM9Sxrc9VfW9nC6d/WQo2RtOaX\nRorjfAdZYbvRnEFNhEar\n=mI9O\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b75ea3dfa46b300ba70014ec2ed3550cd33dbf4d\nparent e6f5b3bc2c1e03de0926cfd20da1531503c112bf\nauthor Zhengliang Shi <zhengliang.shii@gmail.com> 1768382291 +0800\ncommitter GitHub <noreply@github.com> 1768382291 +0800\n\nUpdate README.md",
+          "verified_at": "2026-01-14T09:18:12Z"
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/4f40f970443fcf35a995bfbe3f49d5f81ad9f1da",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/4f40f970443fcf35a995bfbe3f49d5f81ad9f1da",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/4f40f970443fcf35a995bfbe3f49d5f81ad9f1da/comments",
+      "author": {
+        "login": "mangopy",
+        "id": 179788286,
+        "node_id": "U_kgDOCrdZ_g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mangopy",
+        "html_url": "https://github.com/mangopy",
+        "followers_url": "https://api.github.com/users/mangopy/followers",
+        "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+        "organizations_url": "https://api.github.com/users/mangopy/orgs",
+        "repos_url": "https://api.github.com/users/mangopy/repos",
+        "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mangopy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e6f5b3bc2c1e03de0926cfd20da1531503c112bf",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/e6f5b3bc2c1e03de0926cfd20da1531503c112bf",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/e6f5b3bc2c1e03de0926cfd20da1531503c112bf"
+        }
+      ]
+    },
+    {
+      "sha": "e6f5b3bc2c1e03de0926cfd20da1531503c112bf",
+      "node_id": "C_kwDONpJbe9oAKGU2ZjViM2JjMmMxZTAzZGUwOTI2Y2ZkMjBkYTE1MzE1MDNjMTEyYmY",
+      "commit": {
+        "author": {
+          "name": "Zhengliang Shi",
+          "email": "zhengliang.shii@gmail.com",
+          "date": "2026-01-14T08:55:34Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-01-14T08:55:34Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "0dd1cf6d72f44b6745c502be88694cb4101bce9d",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/0dd1cf6d72f44b6745c502be88694cb4101bce9d"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/e6f5b3bc2c1e03de0926cfd20da1531503c112bf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpZ1oGCRC1aQ7uu5UhlAAAZtMQAFxoSxjXZ8Lz6oT5Kd80RZ6b\niIbpU33JuJxt4ZLRwKgXhCw23VqFykFAj8Wc0rLY8hUJK2vp/PK4AmTtyE7EFd0o\nejAf2RqaBGI6lieViBGlTwOC+zC2uyAO0ng67m5zRNBANA3G4W1DqSY39Pay4uSf\nJD78m4Fdn4wnmbWtucLrXsd3SKVClzSxIzXRUs8bUsP5O9wERQLl8TGmNeS+RX4r\nKeThnrdFwm0WoUMy3ri/sKlsEq0fBrbT9q0StIP29VhEwCEYOA2Kh+SsqqYOG9Do\nyUjU83hrS8W+j4kTT60u4rn2P+SNa7Px7qskS79jtN8P7+A2Zw1+ccMcR+B28ZgY\nC57TLy5e0Lxb4DmikqFKfcEGsVTrXwtwnzuBNpwZZrUPcolDIeZ+mJYeK/7Kx75Z\nE6WJslT399jBcetHiyQHStqvDzI3xO6Y6RrCLZ555yNxxkcU38tSGUBx6KXn/nMu\njwoUErIr8NZByERNafOSVNtlJm/vl0AwTle57CiCSNKnIIhb1Zt1TMZhXzRBEeTE\n+sP6EVy4zofWy99qql95oROFFRf3glXyr4He9mclA5g+Jtbj56cjNBX1+pQ8yYK7\n5EzjuX165Ql3UkWo4ll90tDKb3DX5T7Q3KOAXFgiXiTmPQ6hNd8HfJbwfNUQt+X2\nzqg6sfw72XwV3N18fEmY\n=enhP\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0dd1cf6d72f44b6745c502be88694cb4101bce9d\nparent 4ebca524831227b61c6f7f1a8f607c3bf4b514d3\nauthor Zhengliang Shi <zhengliang.shii@gmail.com> 1768380934 +0800\ncommitter GitHub <noreply@github.com> 1768380934 +0800\n\nUpdate README.md",
+          "verified_at": "2026-01-14T08:55:35Z"
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/e6f5b3bc2c1e03de0926cfd20da1531503c112bf",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/e6f5b3bc2c1e03de0926cfd20da1531503c112bf",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/e6f5b3bc2c1e03de0926cfd20da1531503c112bf/comments",
+      "author": {
+        "login": "mangopy",
+        "id": 179788286,
+        "node_id": "U_kgDOCrdZ_g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mangopy",
+        "html_url": "https://github.com/mangopy",
+        "followers_url": "https://api.github.com/users/mangopy/followers",
+        "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+        "organizations_url": "https://api.github.com/users/mangopy/orgs",
+        "repos_url": "https://api.github.com/users/mangopy/repos",
+        "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mangopy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4ebca524831227b61c6f7f1a8f607c3bf4b514d3",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/4ebca524831227b61c6f7f1a8f607c3bf4b514d3",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/4ebca524831227b61c6f7f1a8f607c3bf4b514d3"
+        }
+      ]
+    },
+    {
+      "sha": "4ebca524831227b61c6f7f1a8f607c3bf4b514d3",
+      "node_id": "C_kwDONpJbe9oAKDRlYmNhNTI0ODMxMjI3YjYxYzZmN2YxYThmNjA3YzNiZjRiNTE0ZDM",
+      "commit": {
+        "author": {
+          "name": "Zhengliang Shi",
+          "email": "zhengliang.shii@gmail.com",
+          "date": "2025-05-12T05:54:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-05-12T05:54:30Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "eb6c61dae6087a18297524da4a45fef03d760f79",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/eb6c61dae6087a18297524da4a45fef03d760f79"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/4ebca524831227b61c6f7f1a8f607c3bf4b514d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoIY0WCRC1aQ7uu5UhlAAA3ngQAK1HZVXwMViU38lJdlxynA9+\n2caJwfli489PzKv7Ep/HyGx4MY+pNW9MDESmojhUjHSaiIfvii/ddI6yJFKT3DCC\n1IemjPiPu8FTcvgtYt6n+MVv5a/TVnnNHX8EH/ygIfXxwiN3B8EesSI8a56Nle8v\nBdj/fd96cnSo5U5GPkOptKkE5732UUXrTxs3mCOQnvyBniQ+GcLgsZHy6zdzDiTd\nFtkVVRtw8ZRcHqfOXLY8k7XklIVdq+KBOubkkgdcRcSWyxZpN1nhto8NB602Je5o\nZkk9ps06tnv+tVAFP8etyhf0xC/cBbcRWxoNp6f/jG0Y5bhkL0iG4M+4201LZB7j\nLiKCHTOw3Axik8gxhz6JoQcOd8rtPUqG11+cDgRwqrwLf6/gZIcM+LnY9QyZ52WM\nT7fqG3A8iJIk+na9Lffww+decVc+bZVoHjZ/jG2FPxABpOFIg6iwMsaf6gkCIrOc\ngW8NGHV0TfaF4qTX4rjIgpTgUUTuVETCI2Nag9bwp3SrXHk5z+DpbCihc87yCe+2\n3uHByUIbdm4qLRggaPGrZ7Vw8pI0yFjfNuNmEGb9KCAuXKQ86om2NqlZIqs5+SfP\nU3tRyG/lshHl/nWfQX5pfzdopFJV4qCbbO9E6ci6qF8ZggWPnhw05D+k9eA861kB\n7OeNt7ZxPg7jA4B8APKg\n=NpzL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree eb6c61dae6087a18297524da4a45fef03d760f79\nparent 240ad13c1866dfa58b365a239bb2ae658f2635ed\nauthor Zhengliang Shi <zhengliang.shii@gmail.com> 1747029270 +0800\ncommitter GitHub <noreply@github.com> 1747029270 +0800\n\nUpdate README.md",
+          "verified_at": "2025-05-12T05:59:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/4ebca524831227b61c6f7f1a8f607c3bf4b514d3",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/4ebca524831227b61c6f7f1a8f607c3bf4b514d3",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/4ebca524831227b61c6f7f1a8f607c3bf4b514d3/comments",
+      "author": {
+        "login": "mangopy",
+        "id": 179788286,
+        "node_id": "U_kgDOCrdZ_g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mangopy",
+        "html_url": "https://github.com/mangopy",
+        "followers_url": "https://api.github.com/users/mangopy/followers",
+        "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+        "organizations_url": "https://api.github.com/users/mangopy/orgs",
+        "repos_url": "https://api.github.com/users/mangopy/repos",
+        "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mangopy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "240ad13c1866dfa58b365a239bb2ae658f2635ed",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/240ad13c1866dfa58b365a239bb2ae658f2635ed",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/240ad13c1866dfa58b365a239bb2ae658f2635ed"
+        }
+      ]
+    },
+    {
+      "sha": "240ad13c1866dfa58b365a239bb2ae658f2635ed",
+      "node_id": "C_kwDONpJbe9oAKDI0MGFkMTNjMTg2NmRmYTU4YjM2NWEyMzliYjJhZTY1OGYyNjM1ZWQ",
+      "commit": {
+        "author": {
+          "name": "Zhengliang Shi",
+          "email": "zhengliang.shii@gmail.com",
+          "date": "2025-05-12T05:54:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-05-12T05:54:18Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "4b6bc2c9c478747746dd04a470c677b3c12eabbe",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/4b6bc2c9c478747746dd04a470c677b3c12eabbe"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/240ad13c1866dfa58b365a239bb2ae658f2635ed",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoIY0KCRC1aQ7uu5UhlAAAR6sQABBl9eIa4hHjm+4JA615EAgm\njR6nA+cadUEbnNhPZnozkcmNojMWxtnMaDXqzztLs8k6ro9dMo1zNtyLcQ56CRwZ\nODa986rwxWwd3hEoB/H/nFUaPWP2a54qX08RR3mWKVmUz/i8ynZqJUYwgFQrEBH8\nvdx3GL8UUAW+HnF4pc0r3HDVDwsihnAi/nQ1BC5pFiYQjqgIL7mH0utQbgELZPE8\ndWkDxLF3Nbc8cohkVwxT5USfEnLYStq0lBL5f975c8XhaJBE4J1nUVFHR4PgY7G+\nayz+thGPFmz5LYoRymUf63DN00hy0FFPRSgGZcqycLdlz/0Fw0v5Sl1oFnU7ACKL\npIewOQMUiURcHiyXRCEFZIaR3wc8x9q4qvnC55uRXAH62AnyBR3AwaWdNbiCkyuw\nhZZcUi+kw8itM7tGkEyXiWOmJDPdRjumI2IoA7Mis9JN4o9asCJGCnwBcBeeyjIi\nkzhWDynL8iDB78zLUv/SSzqOjGjtlaaArSXwtM/gBxDYdBXc9gBaJou7oWcGpGUr\n+REUv5B24DVPydLOcW/shW2bTPBaHay/w6EzrLdz1rtmLH9La6DiQc55DflSzGWa\njQ3OmWhBNj/LcMTBbNf9Qbkey9q6gL0uxt4baCf1qXflcjx5xd9e3PgzYBdjts9V\n/LQe4jIjoXIXk/f0ZpHY\n=yapK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4b6bc2c9c478747746dd04a470c677b3c12eabbe\nparent adf3b7c2358d45b10ff2a75227105425bb5d7630\nauthor Zhengliang Shi <zhengliang.shii@gmail.com> 1747029258 +0800\ncommitter GitHub <noreply@github.com> 1747029258 +0800\n\nUpdate README.md",
+          "verified_at": "2025-05-12T05:59:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/240ad13c1866dfa58b365a239bb2ae658f2635ed",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/240ad13c1866dfa58b365a239bb2ae658f2635ed",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/240ad13c1866dfa58b365a239bb2ae658f2635ed/comments",
+      "author": {
+        "login": "mangopy",
+        "id": 179788286,
+        "node_id": "U_kgDOCrdZ_g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mangopy",
+        "html_url": "https://github.com/mangopy",
+        "followers_url": "https://api.github.com/users/mangopy/followers",
+        "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+        "organizations_url": "https://api.github.com/users/mangopy/orgs",
+        "repos_url": "https://api.github.com/users/mangopy/repos",
+        "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mangopy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "adf3b7c2358d45b10ff2a75227105425bb5d7630",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/adf3b7c2358d45b10ff2a75227105425bb5d7630",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/adf3b7c2358d45b10ff2a75227105425bb5d7630"
+        }
+      ]
+    },
+    {
+      "sha": "adf3b7c2358d45b10ff2a75227105425bb5d7630",
+      "node_id": "C_kwDONpJbe9oAKGFkZjNiN2MyMzU4ZDQ1YjEwZmYyYTc1MjI3MTA1NDI1YmI1ZDc2MzA",
+      "commit": {
+        "author": {
+          "name": "Zhengliang Shi",
+          "email": "zhengliang.shii@gmail.com",
+          "date": "2025-04-08T02:29:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-04-08T02:29:35Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "ad73834fcf5a22aa395fed550e0d5599f7656b2d",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/ad73834fcf5a22aa395fed550e0d5599f7656b2d"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/adf3b7c2358d45b10ff2a75227105425bb5d7630",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn9IoPCRC1aQ7uu5UhlAAAssUQAHN2b/FpqF2/1SP8iEXA09T3\nJMRuHEVQMziS0HWA5LWVxKb5yZJPN8vt0CcXHgzy2jyPpgKDKscGsL848Uc0Tkl0\n/gRe9LvvTf20TFEAokBrNn/5eiiaVYQ24VfCDpooOO4XU/4rP8y3YXNi5BRRV8S9\nSOfD182mLMNBn16oFm6/NM5ZqQ9OIFd3+0BVIgx7Cdg/kA4k2xIhmD8DO0TiwMgz\nWgPiDM70aZMKf0kcdoRIJeeitnS+7AUyNYjIerq9bR4oYhfcrTuEN5s+d0OAEJs5\n3jaXmUUWzuImCWu95fFErS/QmsX9M2H6T9OOlimnnnvxmmJ2s/rY9AdpsctjmH7T\nBz4JelXu9lmzO76+vH24dad7wmCODqF+E35nZkleQvN9yhLavFZeiLVCpJSX79fd\nyETr8C5KEL2uiOhAe4uazs4IKSLtG1LRCvCLGvkWfZKWA55qM57V4MGuP1VDoqbD\nfSKfuldUepPdnmxhN/uEdZgZCt/9ATAJJ/4/Ga5ttdmhDvLvmllo/4c1yT4y7IFD\nAM0N7GuUVKjzDnArFwr30+bss+Ha8Z7FipAoDISR9AJ1FwdAAPoDxrsXF1fYpfLv\ncTyqWWae1mtmKZ4Ck1X3Au163FnlqgsVCFV544FkAlLOhX0GvskhskP0UCt+AWPS\nhKQBNM8sQzqUf4kTy2nR\n=CHdH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ad73834fcf5a22aa395fed550e0d5599f7656b2d\nparent 0758a2b257a70d5a29719503c00175d3699b72d5\nauthor Zhengliang Shi <zhengliang.shii@gmail.com> 1744079375 +0800\ncommitter GitHub <noreply@github.com> 1744079375 +0800\n\nUpdate README.md",
+          "verified_at": "2025-04-08T02:34:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/adf3b7c2358d45b10ff2a75227105425bb5d7630",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/adf3b7c2358d45b10ff2a75227105425bb5d7630",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/adf3b7c2358d45b10ff2a75227105425bb5d7630/comments",
+      "author": {
+        "login": "mangopy",
+        "id": 179788286,
+        "node_id": "U_kgDOCrdZ_g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mangopy",
+        "html_url": "https://github.com/mangopy",
+        "followers_url": "https://api.github.com/users/mangopy/followers",
+        "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+        "organizations_url": "https://api.github.com/users/mangopy/orgs",
+        "repos_url": "https://api.github.com/users/mangopy/repos",
+        "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mangopy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0758a2b257a70d5a29719503c00175d3699b72d5",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/0758a2b257a70d5a29719503c00175d3699b72d5",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/0758a2b257a70d5a29719503c00175d3699b72d5"
+        }
+      ]
+    },
+    {
+      "sha": "0758a2b257a70d5a29719503c00175d3699b72d5",
+      "node_id": "C_kwDONpJbe9oAKDA3NThhMmIyNTdhNzBkNWEyOTcxOTUwM2MwMDE3NWQzNjk5YjcyZDU",
+      "commit": {
+        "author": {
+          "name": "Zhengliang Shi",
+          "email": "zhengliang.shii@gmail.com",
+          "date": "2025-04-05T14:53:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-04-05T14:53:15Z"
+        },
+        "message": "Create LICENSE",
+        "tree": {
+          "sha": "7cf6435bf5ce043ca897e5ed71bd17f8187cb27b",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/7cf6435bf5ce043ca897e5ed71bd17f8187cb27b"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/0758a2b257a70d5a29719503c00175d3699b72d5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn8UPbCRC1aQ7uu5UhlAAA6xoQAFnJb/3imkzLVjtSzDL5anjA\nqDmDmIarY8zaq1SqD7T8XViN+dS71o6lZTwr0xZN+iazr3MJmZRlne0xOw9lIfqv\nDQyS0tzdwo2SF2GSUQJdOSxmJn0AStZMMyAWyZoZjYtp0nHU9EG+LfR3JhBlqQhx\nkkaenZ5BPmb97FX/KaQHfB310iRBGwD/qLwUpWG40h32GOUPiC5LvReE/aj8AN69\nxoYP3+er/U6B0E2DkPYYIXKFajDB7o/GsRbxy+V2uez9yEbe4ywOSVVLopVEhxqd\nRI+tP3TM2DIrESinTPe0eo5Yd0r6ZKrheWFc9w4aMAM6YyYnNnnPbShdd6CfERw/\nIjq+Z4n0fP+zA/slmDSlgzaqWZM/dDH1e4SuE6D2mr4QX8dOaGiW7F0J7A5B3v3a\nY573s3HTbQ7sZxHXLLcY+NtdGFvqYzujUlNkaBu9CByM0uzGIFCJKFw3cBkO3QaU\nmBJWewaoUly8NHMH+ebSW/tdsG+jXcb1PKyLRK+Zknxzm7dmICi2nFjGmPc2UMl1\n+GMTZbSPLTC0uBxJRCJhkmOIY1972K1LYbHS0idYANmhl4tK/ETMq77IHI3AFQw7\nD4QwMYoP0yGy51gk3aoyze0FExVsuZw/jfP+r5ZYOAes7P0GjXnnn6wlqZpNwNpk\nrubrHbBxOE8BY9bZ1rKg\n=n1JA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7cf6435bf5ce043ca897e5ed71bd17f8187cb27b\nparent 7909a7bb77f288a4ac4f139948e9d2a4f112c0dd\nauthor Zhengliang Shi <zhengliang.shii@gmail.com> 1743864795 +0800\ncommitter GitHub <noreply@github.com> 1743864795 +0800\n\nCreate LICENSE",
+          "verified_at": "2025-04-05T14:58:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/0758a2b257a70d5a29719503c00175d3699b72d5",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/0758a2b257a70d5a29719503c00175d3699b72d5",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/0758a2b257a70d5a29719503c00175d3699b72d5/comments",
+      "author": {
+        "login": "mangopy",
+        "id": 179788286,
+        "node_id": "U_kgDOCrdZ_g",
+        "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/mangopy",
+        "html_url": "https://github.com/mangopy",
+        "followers_url": "https://api.github.com/users/mangopy/followers",
+        "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+        "organizations_url": "https://api.github.com/users/mangopy/orgs",
+        "repos_url": "https://api.github.com/users/mangopy/repos",
+        "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/mangopy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7909a7bb77f288a4ac4f139948e9d2a4f112c0dd",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/7909a7bb77f288a4ac4f139948e9d2a4f112c0dd",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/7909a7bb77f288a4ac4f139948e9d2a4f112c0dd"
+        }
+      ]
+    },
+    {
+      "sha": "7909a7bb77f288a4ac4f139948e9d2a4f112c0dd",
+      "node_id": "C_kwDONpJbe9oAKDc5MDlhN2JiNzdmMjg4YTRhYzRmMTM5OTQ4ZTlkMmE0ZjExMmMwZGQ",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T14:41:19Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T14:41:19Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "1dd398fb8ef849c6fc41986a24c1d2eb33a7ac08",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/1dd398fb8ef849c6fc41986a24c1d2eb33a7ac08"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/7909a7bb77f288a4ac4f139948e9d2a4f112c0dd",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/7909a7bb77f288a4ac4f139948e9d2a4f112c0dd",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/7909a7bb77f288a4ac4f139948e9d2a4f112c0dd",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/7909a7bb77f288a4ac4f139948e9d2a4f112c0dd/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "460e57d823ed3d92cfba70daa26c005fd72fb4a0",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/460e57d823ed3d92cfba70daa26c005fd72fb4a0",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/460e57d823ed3d92cfba70daa26c005fd72fb4a0"
+        }
+      ]
+    },
+    {
+      "sha": "460e57d823ed3d92cfba70daa26c005fd72fb4a0",
+      "node_id": "C_kwDONpJbe9oAKDQ2MGU1N2Q4MjNlZDNkOTJjZmJhNzBkYWEyNmMwMDVmZDcyZmI0YTA",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T14:39:04Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T14:39:04Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "24a767a6ffb1b2f4e171d03f781725d9bb7455ac",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/24a767a6ffb1b2f4e171d03f781725d9bb7455ac"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/460e57d823ed3d92cfba70daa26c005fd72fb4a0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/460e57d823ed3d92cfba70daa26c005fd72fb4a0",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/460e57d823ed3d92cfba70daa26c005fd72fb4a0",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/460e57d823ed3d92cfba70daa26c005fd72fb4a0/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "28344de709cc5890083748c6b7651773c005eeff",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/28344de709cc5890083748c6b7651773c005eeff",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/28344de709cc5890083748c6b7651773c005eeff"
+        }
+      ]
+    },
+    {
+      "sha": "28344de709cc5890083748c6b7651773c005eeff",
+      "node_id": "C_kwDONpJbe9oAKDI4MzQ0ZGU3MDljYzU4OTAwODM3NDhjNmI3NjUxNzczYzAwNWVlZmY",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T05:04:06Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T05:04:06Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "32e533a15e1b5d79443b3a661fe92d41f7c47f1a",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/32e533a15e1b5d79443b3a661fe92d41f7c47f1a"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/28344de709cc5890083748c6b7651773c005eeff",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/28344de709cc5890083748c6b7651773c005eeff",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/28344de709cc5890083748c6b7651773c005eeff",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/28344de709cc5890083748c6b7651773c005eeff/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "b195ca10c40560005a635fc530558721f15789cc",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/b195ca10c40560005a635fc530558721f15789cc",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/b195ca10c40560005a635fc530558721f15789cc"
+        }
+      ]
+    },
+    {
+      "sha": "b195ca10c40560005a635fc530558721f15789cc",
+      "node_id": "C_kwDONpJbe9oAKGIxOTVjYTEwYzQwNTYwMDA1YTYzNWZjNTMwNTU4NzIxZjE1Nzg5Y2M",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T04:41:58Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T04:41:58Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "598a01fa47d50ce222418039709c4fc1b6d6ff7f",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/598a01fa47d50ce222418039709c4fc1b6d6ff7f"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/b195ca10c40560005a635fc530558721f15789cc",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/b195ca10c40560005a635fc530558721f15789cc",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/b195ca10c40560005a635fc530558721f15789cc",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/b195ca10c40560005a635fc530558721f15789cc/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6"
+        }
+      ]
+    },
+    {
+      "sha": "56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6",
+      "node_id": "C_kwDONpJbe9oAKDU2ZjYxZGQzNTM5YmUwNjcyYmY1YzVlZTEwYWJjZDVmNmEyZDJjYjY",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T04:40:18Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T04:40:18Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "9a3c5461722268420216f0c2bc9e522d1ea62b78",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/9a3c5461722268420216f0c2bc9e522d1ea62b78"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/56f61dd3539be0672bf5c5ee10abcd5f6a2d2cb6/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "13c370e0359c2e3938433b606f3a7805fc687da5",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/13c370e0359c2e3938433b606f3a7805fc687da5",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/13c370e0359c2e3938433b606f3a7805fc687da5"
+        }
+      ]
+    },
+    {
+      "sha": "13c370e0359c2e3938433b606f3a7805fc687da5",
+      "node_id": "C_kwDONpJbe9oAKDEzYzM3MGUwMzU5YzJlMzkzODQzM2I2MDZmM2E3ODA1ZmM2ODdkYTU",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T04:02:35Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T04:02:35Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "7c7e64dfc15880e78cccbdf7cd07644db031956f",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/7c7e64dfc15880e78cccbdf7cd07644db031956f"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/13c370e0359c2e3938433b606f3a7805fc687da5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/13c370e0359c2e3938433b606f3a7805fc687da5",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/13c370e0359c2e3938433b606f3a7805fc687da5",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/13c370e0359c2e3938433b606f3a7805fc687da5/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "3d649341b1f6a6b55aff8b6a84c656a19a87cd1f",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/3d649341b1f6a6b55aff8b6a84c656a19a87cd1f",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/3d649341b1f6a6b55aff8b6a84c656a19a87cd1f"
+        }
+      ]
+    },
+    {
+      "sha": "3d649341b1f6a6b55aff8b6a84c656a19a87cd1f",
+      "node_id": "C_kwDONpJbe9oAKDNkNjQ5MzQxYjFmNmE2YjU1YWZmOGI2YTg0YzY1NmExOWE4N2NkMWY",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:43:48Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:43:48Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "0bd4dbb4b7e48efc7916dbd2879975e51291f89c",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/0bd4dbb4b7e48efc7916dbd2879975e51291f89c"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/3d649341b1f6a6b55aff8b6a84c656a19a87cd1f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/3d649341b1f6a6b55aff8b6a84c656a19a87cd1f",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/3d649341b1f6a6b55aff8b6a84c656a19a87cd1f",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/3d649341b1f6a6b55aff8b6a84c656a19a87cd1f/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "1dade272c1d2e9fd59295b0505aa663ddcff2522",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/1dade272c1d2e9fd59295b0505aa663ddcff2522",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/1dade272c1d2e9fd59295b0505aa663ddcff2522"
+        }
+      ]
+    },
+    {
+      "sha": "1dade272c1d2e9fd59295b0505aa663ddcff2522",
+      "node_id": "C_kwDONpJbe9oAKDFkYWRlMjcyYzFkMmU5ZmQ1OTI5NWIwNTA1YWE2NjNkZGNmZjI1MjI",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:31:03Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:31:03Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "8545d2645fdb57226267fcfb33f35d1bf89ef617",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/8545d2645fdb57226267fcfb33f35d1bf89ef617"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/1dade272c1d2e9fd59295b0505aa663ddcff2522",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/1dade272c1d2e9fd59295b0505aa663ddcff2522",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/1dade272c1d2e9fd59295b0505aa663ddcff2522",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/1dade272c1d2e9fd59295b0505aa663ddcff2522/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "c96b777fc0a2943a7b3d0f0178aa0f2b15382281",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/c96b777fc0a2943a7b3d0f0178aa0f2b15382281",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/c96b777fc0a2943a7b3d0f0178aa0f2b15382281"
+        }
+      ]
+    },
+    {
+      "sha": "c96b777fc0a2943a7b3d0f0178aa0f2b15382281",
+      "node_id": "C_kwDONpJbe9oAKGM5NmI3NzdmYzBhMjk0M2E3YjNkMGYwMTc4YWEwZjJiMTUzODIyODE",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:30:27Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:30:27Z"
+        },
+        "message": "update the background",
+        "tree": {
+          "sha": "f2413316a35eb64510a8f7ee55bae81298f0b876",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/f2413316a35eb64510a8f7ee55bae81298f0b876"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/c96b777fc0a2943a7b3d0f0178aa0f2b15382281",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/c96b777fc0a2943a7b3d0f0178aa0f2b15382281",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/c96b777fc0a2943a7b3d0f0178aa0f2b15382281",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/c96b777fc0a2943a7b3d0f0178aa0f2b15382281/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b"
+        }
+      ]
+    },
+    {
+      "sha": "8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b",
+      "node_id": "C_kwDONpJbe9oAKDhkOTg1YmJlNWY5NzkyOTJlYTQ4ZjI0YmYxYzFmN2YzYzE3NWJhMGI",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:30:09Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:30:09Z"
+        },
+        "message": "update the data link",
+        "tree": {
+          "sha": "d72dd9ddf86c1c275d53f97f61ed919b2cbfe86b",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/d72dd9ddf86c1c275d53f97f61ed919b2cbfe86b"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/8d985bbe5f979292ea48f24bf1c1f7f3c175ba0b/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "d9e909c0d1109f961aab63954ac5957664d6313f",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/d9e909c0d1109f961aab63954ac5957664d6313f",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/d9e909c0d1109f961aab63954ac5957664d6313f"
+        }
+      ]
+    },
+    {
+      "sha": "d9e909c0d1109f961aab63954ac5957664d6313f",
+      "node_id": "C_kwDONpJbe9oAKGQ5ZTkwOWMwZDExMDlmOTYxYWFiNjM5NTRhYzU5NTc2NjRkNjMxM2Y",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:17:23Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:17:23Z"
+        },
+        "message": "update the data link",
+        "tree": {
+          "sha": "1678bafc4abae5a79bfec46874f6183409c03aab",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/1678bafc4abae5a79bfec46874f6183409c03aab"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/d9e909c0d1109f961aab63954ac5957664d6313f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/d9e909c0d1109f961aab63954ac5957664d6313f",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/d9e909c0d1109f961aab63954ac5957664d6313f",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/d9e909c0d1109f961aab63954ac5957664d6313f/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "988e28982366be6038104b6e44f619e0a4f9f6fa",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/988e28982366be6038104b6e44f619e0a4f9f6fa",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/988e28982366be6038104b6e44f619e0a4f9f6fa"
+        }
+      ]
+    },
+    {
+      "sha": "988e28982366be6038104b6e44f619e0a4f9f6fa",
+      "node_id": "C_kwDONpJbe9oAKDk4OGUyODk4MjM2NmJlNjAzODEwNGI2ZTQ0ZjYxOWUwYTRmOWY2ZmE",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:15:05Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T03:15:05Z"
+        },
+        "message": "update the data link",
+        "tree": {
+          "sha": "599f2d1abb463574e51518b1f8fb656ee1a774d8",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/599f2d1abb463574e51518b1f8fb656ee1a774d8"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/988e28982366be6038104b6e44f619e0a4f9f6fa",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/988e28982366be6038104b6e44f619e0a4f9f6fa",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/988e28982366be6038104b6e44f619e0a4f9f6fa",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/988e28982366be6038104b6e44f619e0a4f9f6fa/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "360280f428e4fb247b05c549238e866d16d29890",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/360280f428e4fb247b05c549238e866d16d29890",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/360280f428e4fb247b05c549238e866d16d29890"
+        }
+      ]
+    },
+    {
+      "sha": "360280f428e4fb247b05c549238e866d16d29890",
+      "node_id": "C_kwDONpJbe9oAKDM2MDI4MGY0MjhlNGZiMjQ3YjA1YzU0OTIzOGU4NjZkMTZkMjk4OTA",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T00:18:35Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T00:18:35Z"
+        },
+        "message": "update the data link",
+        "tree": {
+          "sha": "1293f2e22e14547d02460e55a0e782aaf753bd45",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/1293f2e22e14547d02460e55a0e782aaf753bd45"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/360280f428e4fb247b05c549238e866d16d29890",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/360280f428e4fb247b05c549238e866d16d29890",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/360280f428e4fb247b05c549238e866d16d29890",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/360280f428e4fb247b05c549238e866d16d29890/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "f78017a45d1a4556176c6beb06708e515ad42f8d",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/f78017a45d1a4556176c6beb06708e515ad42f8d",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/f78017a45d1a4556176c6beb06708e515ad42f8d"
+        }
+      ]
+    },
+    {
+      "sha": "f78017a45d1a4556176c6beb06708e515ad42f8d",
+      "node_id": "C_kwDONpJbe9oAKGY3ODAxN2E0NWQxYTQ1NTYxNzZjNmJlYjA2NzA4ZTUxNWFkNDJmOGQ",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T00:17:06Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-04-05T00:17:06Z"
+        },
+        "message": "update the data link",
+        "tree": {
+          "sha": "e521e07e65f5c74f74ddea2be3b84ad500d21e72",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/e521e07e65f5c74f74ddea2be3b84ad500d21e72"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/f78017a45d1a4556176c6beb06708e515ad42f8d",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/f78017a45d1a4556176c6beb06708e515ad42f8d",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/f78017a45d1a4556176c6beb06708e515ad42f8d",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/f78017a45d1a4556176c6beb06708e515ad42f8d/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "aef97ba7e73d7a0b2f63b763633922d6111597a4",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/aef97ba7e73d7a0b2f63b763633922d6111597a4",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/aef97ba7e73d7a0b2f63b763633922d6111597a4"
+        }
+      ]
+    },
+    {
+      "sha": "aef97ba7e73d7a0b2f63b763633922d6111597a4",
+      "node_id": "C_kwDONpJbe9oAKGFlZjk3YmE3ZTczZDdhMGIyZjYzYjc2MzYzMzkyMmQ2MTExNTk3YTQ",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-26T12:41:12Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-26T12:41:12Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "de2968eb77e81cb085149f35a5c32810830e0fec",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/de2968eb77e81cb085149f35a5c32810830e0fec"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/aef97ba7e73d7a0b2f63b763633922d6111597a4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/aef97ba7e73d7a0b2f63b763633922d6111597a4",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/aef97ba7e73d7a0b2f63b763633922d6111597a4",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/aef97ba7e73d7a0b2f63b763633922d6111597a4/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "aa36d994f34b1574978b72e9a08df729ab623068",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/aa36d994f34b1574978b72e9a08df729ab623068",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/aa36d994f34b1574978b72e9a08df729ab623068"
+        }
+      ]
+    },
+    {
+      "sha": "aa36d994f34b1574978b72e9a08df729ab623068",
+      "node_id": "C_kwDONpJbe9oAKGFhMzZkOTk0ZjM0YjE1NzQ5NzhiNzJlOWEwOGRmNzI5YWI2MjMwNjg",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-21T13:14:00Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-21T13:14:00Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "e98c500d99c6289cd630391b416be75b3032c926",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/e98c500d99c6289cd630391b416be75b3032c926"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/aa36d994f34b1574978b72e9a08df729ab623068",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/aa36d994f34b1574978b72e9a08df729ab623068",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/aa36d994f34b1574978b72e9a08df729ab623068",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/aa36d994f34b1574978b72e9a08df729ab623068/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "14e3481d13a39176dfd86ed04e52c6d47dca3196",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/14e3481d13a39176dfd86ed04e52c6d47dca3196",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/14e3481d13a39176dfd86ed04e52c6d47dca3196"
+        }
+      ]
+    },
+    {
+      "sha": "14e3481d13a39176dfd86ed04e52c6d47dca3196",
+      "node_id": "C_kwDONpJbe9oAKDE0ZTM0ODFkMTNhMzkxNzZkZmQ4NmVkMDRlNTJjNmQ0N2RjYTMxOTY",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-13T08:22:46Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-13T08:22:46Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "ec2e4b9560ab893970f080ded95145e992e66922",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/ec2e4b9560ab893970f080ded95145e992e66922"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/14e3481d13a39176dfd86ed04e52c6d47dca3196",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/14e3481d13a39176dfd86ed04e52c6d47dca3196",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/14e3481d13a39176dfd86ed04e52c6d47dca3196",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/14e3481d13a39176dfd86ed04e52c6d47dca3196/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "51d9d9af2f0edad196cd945955df76df6004b106",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/51d9d9af2f0edad196cd945955df76df6004b106",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/51d9d9af2f0edad196cd945955df76df6004b106"
+        }
+      ]
+    },
+    {
+      "sha": "51d9d9af2f0edad196cd945955df76df6004b106",
+      "node_id": "C_kwDONpJbe9oAKDUxZDlkOWFmMmYwZWRhZDE5NmNkOTQ1OTU1ZGY3NmRmNjAwNGIxMDY",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:52:15Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:52:15Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "41eeffb129d1292408b02080592146bd52da6edb",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/41eeffb129d1292408b02080592146bd52da6edb"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/51d9d9af2f0edad196cd945955df76df6004b106",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/51d9d9af2f0edad196cd945955df76df6004b106",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/51d9d9af2f0edad196cd945955df76df6004b106",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/51d9d9af2f0edad196cd945955df76df6004b106/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "ba84e40ab87dd4aed3a47d7e12117fa3887132e0",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/ba84e40ab87dd4aed3a47d7e12117fa3887132e0",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/ba84e40ab87dd4aed3a47d7e12117fa3887132e0"
+        }
+      ]
+    },
+    {
+      "sha": "ba84e40ab87dd4aed3a47d7e12117fa3887132e0",
+      "node_id": "C_kwDONpJbe9oAKGJhODRlNDBhYjg3ZGQ0YWVkM2E0N2Q3ZTEyMTE3ZmEzODg3MTMyZTA",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:25:45Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:25:45Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "25ded649edb301827f5c749a9237160aba8fe057",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/25ded649edb301827f5c749a9237160aba8fe057"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/ba84e40ab87dd4aed3a47d7e12117fa3887132e0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/ba84e40ab87dd4aed3a47d7e12117fa3887132e0",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/ba84e40ab87dd4aed3a47d7e12117fa3887132e0",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/ba84e40ab87dd4aed3a47d7e12117fa3887132e0/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e"
+        }
+      ]
+    },
+    {
+      "sha": "46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e",
+      "node_id": "C_kwDONpJbe9oAKDQ2YzQ2Mzc3ZGQ0YmM0ZTBlNzA4YWI2NDdkYjljOThhNWZlM2RjNGU",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:25:06Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:25:06Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "fec4cc7bee10b36e4f8e3191aac1d6823c4637d7",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/fec4cc7bee10b36e4f8e3191aac1d6823c4637d7"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/46c46377dd4bc4e0e708ab647db9c98a5fe3dc4e/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "59672a28e2fc2c5d18bd9d83a484048eb23b770b",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/59672a28e2fc2c5d18bd9d83a484048eb23b770b",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/59672a28e2fc2c5d18bd9d83a484048eb23b770b"
+        }
+      ]
+    },
+    {
+      "sha": "59672a28e2fc2c5d18bd9d83a484048eb23b770b",
+      "node_id": "C_kwDONpJbe9oAKDU5NjcyYTI4ZTJmYzJjNWQxOGJkOWQ4M2E0ODQwNDhlYjIzYjc3MGI",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:23:56Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:23:56Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "db2ebe2e8f41947913a7ff5b9d0790fe35e0d846",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/db2ebe2e8f41947913a7ff5b9d0790fe35e0d846"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/59672a28e2fc2c5d18bd9d83a484048eb23b770b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/59672a28e2fc2c5d18bd9d83a484048eb23b770b",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/59672a28e2fc2c5d18bd9d83a484048eb23b770b",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/59672a28e2fc2c5d18bd9d83a484048eb23b770b/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "b61c91a6cf0b4d5c9b808332fc78ed4855daeba7",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/b61c91a6cf0b4d5c9b808332fc78ed4855daeba7",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/b61c91a6cf0b4d5c9b808332fc78ed4855daeba7"
+        }
+      ]
+    },
+    {
+      "sha": "b61c91a6cf0b4d5c9b808332fc78ed4855daeba7",
+      "node_id": "C_kwDONpJbe9oAKGI2MWM5MWE2Y2YwYjRkNWM5YjgwODMzMmZjNzhlZDQ4NTVkYWViYTc",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:23:18Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:23:18Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "ee1884e256b1e2a813a3021b4a771e797fff17e8",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/ee1884e256b1e2a813a3021b4a771e797fff17e8"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/b61c91a6cf0b4d5c9b808332fc78ed4855daeba7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/b61c91a6cf0b4d5c9b808332fc78ed4855daeba7",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/b61c91a6cf0b4d5c9b808332fc78ed4855daeba7",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/b61c91a6cf0b4d5c9b808332fc78ed4855daeba7/comments",
+      "author": {},
+      "committer": {},
+      "parents": [
+        {
+          "sha": "39c778df6112301f55e2e355bc66e8f0742efcea",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/39c778df6112301f55e2e355bc66e8f0742efcea",
+          "html_url": "https://github.com/mangopy/direct-rag-learning/commit/39c778df6112301f55e2e355bc66e8f0742efcea"
+        }
+      ]
+    },
+    {
+      "sha": "39c778df6112301f55e2e355bc66e8f0742efcea",
+      "node_id": "C_kwDONpJbe9oAKDM5Yzc3OGRmNjExMjMwMWY1NWUyZTM1NWJjNjZlOGYwNzQyZWZjZWE",
+      "commit": {
+        "author": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:20:18Z"
+        },
+        "committer": {
+          "name": "shizhl",
+          "email": "",
+          "date": "2025-01-12T07:20:18Z"
+        },
+        "message": "release initial code",
+        "tree": {
+          "sha": "1b5251f7fc6c33c8274a08e4531fcec03ba03bb5",
+          "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/trees/1b5251f7fc6c33c8274a08e4531fcec03ba03bb5"
+        },
+        "url": "https://api.github.com/repos/mangopy/direct-rag-learning/git/commits/39c778df6112301f55e2e355bc66e8f0742efcea",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/39c778df6112301f55e2e355bc66e8f0742efcea",
+      "html_url": "https://github.com/mangopy/direct-rag-learning/commit/39c778df6112301f55e2e355bc66e8f0742efcea",
+      "comments_url": "https://api.github.com/repos/mangopy/direct-rag-learning/commits/39c778df6112301f55e2e355bc66e8f0742efcea/comments",
+      "author": {},
+      "committer": {},
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "mangopy",
+      "id": 179788286,
+      "node_id": "U_kgDOCrdZ_g",
+      "avatar_url": "https://avatars.githubusercontent.com/u/179788286?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mangopy",
+      "html_url": "https://github.com/mangopy",
+      "followers_url": "https://api.github.com/users/mangopy/followers",
+      "following_url": "https://api.github.com/users/mangopy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mangopy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mangopy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mangopy/subscriptions",
+      "organizations_url": "https://api.github.com/users/mangopy/orgs",
+      "repos_url": "https://api.github.com/users/mangopy/repos",
+      "events_url": "https://api.github.com/users/mangopy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mangopy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 6
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 284298
+  },
+  "readme_html": "<p>If you like our project, please give us a star ⭐ on GitHub for the latest update.</p>\n<p>Retrieval-augmented generation (RAG) is powerful but still limited by a lack of synergy between knowledge selection and answer generation process. Our project introduces a novel framework named Direct Retrieval-augmented Optimization (DRO) that brings Selector and Generator into one collaborative loop, allowing them to learn from each other and optimize jointly. Forget one-sided fine-tuning—we enable mutual enhancement for better factuality, relevance, and performance. If you're working on knowledge-grounded LLMs, this is a drop-in upgrade you don't want to miss. Please checkout our paper for more details.</p>\n<h2 id=\"user-content-news\">News</h2>\n<ul>\n<li><strong>[2026.1.13]</strong> Our paper has been accepted by the <a href=\"https://dl.acm.org/journal/tois\">TOIS 2026</a> 🎉🎉🎉!</li>\n<li><strong>[2025.5.05]</strong> The first version of our paper has been released in arxiv. See our paper in this <a href=\"https://arxiv.org/abs/2505.03075\">link</a>.</li>\n<li><strong>[2025.2.01]</strong>  Our code was released, including main code for evaluation and training script.</li>\n</ul>\n<h2 id=\"user-content-environment\">Environment</h2>\n<ol>\n<li>create the <code>python</code> env with <code>conda</code></li>\n</ol>\n<pre><code class=\"language-txt\">conda create -n rag python=3.10\nconda activate dro\npip install -r requirements.txt\npip install pytrec_eval -i https://pypi.tuna.tsinghua.edu.cn/simple\n\nconda activate dro\n</code></pre>\n<ol start=\"2\">\n<li>[Optional] set the <code>vllm</code> environment variable when using it.</li>\n</ol>\n<pre><code class=\"language-txt\">VLLM_WORKER_MULTIPROC_METHOD=spawn\n</code></pre>\n<ol start=\"3\">\n<li>[Optional] Please login the <code>wandb</code> if use it to record the loss.</li>\n</ol>\n<pre><code class=\"language-txt\">wandb login\n</code></pre>\n<p>(<code>wandb login --relogin</code> to force relogin)</p>\n<h1 id=\"user-content-dataset\">Dataset</h1>\n<h2 id=\"user-content-download-raw-dataset\">Download raw dataset</h2>\n<table>\n<thead>\n<tr>\n<th align=\"left\">Dataset</th>\n<th align=\"left\">Note</th>\n<th align=\"center\">Link</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"left\">Nature Question</td>\n<td align=\"left\"><a href=\"https://aclanthology.org/Q19-1026/\">Natural Questions: A Benchmark for Question Answering Research</a></td>\n<td align=\"center\"><a href=\"https://github.com/facebookresearch/DPR/blob/main/dpr/data/download_data.py\">Github</a>(click the NQ link)</td>\n</tr>\n<tr>\n<td align=\"left\">HotpotQA</td>\n<td align=\"left\"><a href=\"https://arxiv.org/abs/1809.09600\">HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering</a></td>\n<td align=\"center\"><a href=\"https://hotpotqa.github.io/\">Homepage</a></td>\n</tr>\n<tr>\n<td align=\"left\">MuSiQue</td>\n<td align=\"left\"><a href=\"https://arxiv.org/abs/2108.00573\">MuSiQue: Multihop Questions via Single-hop Question Composition</a></td>\n<td align=\"center\"><a href=\"https://github.com/StonyBrookNLP/musique\">Github</a></td>\n</tr>\n<tr>\n<td align=\"left\">2WikiMultihopQA</td>\n<td align=\"left\"><a href=\"https://aclanthology.org/2020.coling-main.580.pdf\">Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps</a></td>\n<td align=\"center\"><a href=\"https://github.com/Alab-NII/2wikimultihop\">Github</a></td>\n</tr>\n<tr>\n<td align=\"left\">Wizard of Wikipedia</td>\n<td align=\"left\"><a href=\"https://arxiv.org/abs/1811.01241\">Wizard of Wikipedia: Knowledge-Powered Conversational agents</a></td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1z327WOKr70rC4UfOlQVBQnuLxChi_uPs/view?usp=share_link\">Google drive</a></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-retrieval-corpus\">Retrieval Corpus</h2>\n<p>We follow previous work and use the Wikipedia as our document corpus, which can be found in <a href=\"https://github.com/facebookresearch/DPR/blob/main/dpr/data/download_data.py\">DPR</a> repo (<a href=\"https://dl.fbaipublicfiles.com/dpr/wikipedia_split/psgs_w100.tsv.gz\">Link</a>).\nWe use the <a href=\"https://github.com/stanford-futuredata/ColBERT/tree/main\">ColBERT</a> as the retrieval model to pair each query with top-20 documents. The pre-trained ColBERT checkpoint can be downloaded in either its official repo or its <a href=\"https://downloads.cs.stanford.edu/nlp/data/colbert/colbertv2/colbertv2.0.tar.gz\">link</a>.\nYou can deploy the ColBERT retrieval or other customized retrieval model in your local environment to pre-process the dataset. Or you can download our processed dataset as follows <code>Training Data Download</code>.</p>\n<h2 id=\"user-content-unified-the-format\">Unified the format</h2>\n<p>We use the code in <code>./src/prepare/prepare.py</code> to pre-process the raw datasets. Below shows an concrete example in our reformatted datasets.</p>\n<pre><code class=\"language-json\">{\n    \"question\": \"where do the great lakes meet the ocean\",\n    \"answer\": \"the Saint Lawrence River\",\n    \"positive\": [\n        \"Title: Great Lakes. Content: Great Lakes The Great Lakes (), also called the Laurentian Great Lakes and the Great Lakes of North America, are a series of interconnected freshwater lakes located primarily in the upper mid-east region of North America, on the Canada\\u2013United States border, which connect to the Atlantic Ocean through the Saint Lawrence River. They consist of Lakes Superior, Michigan, Huron, Erie, and Ontario, although hydrologically, there are four lakes, Superior, Erie, Ontario, and Michigan-Huron. The lakes are interconnected by the Great Lakes Waterway. The Great Lakes are the largest group of freshwater lakes on Earth by total area, and second largest\",\n        \"Title: Great Lakes. Content: Great Lakes The Great Lakes (), also called the Laurentian Great Lakes and the Great Lakes of North America, are a series of interconnected freshwater lakes located primarily in the upper mid-east region of North America, on the Canada\\u2013United States border, which connect to the Atlantic Ocean through the Saint Lawrence River. They consist of Lakes Superior, Michigan, Huron, Erie, and Ontario, although hydrologically, there are four lakes, Superior, Erie, Ontario, and Michigan-Huron. The lakes are interconnected by the Great Lakes Waterway. The Great Lakes are the largest group of freshwater lakes on Earth by total area, and second largest\"\n    ],\n    \"query_id\": \"query_1\",\n    \"retrieval\": [\n        \"Title: \\\"Great Lakes\\\" Text:  Great Lakes The Great Lakes (), also called the Laurentian Great Lakes and the Great Lakes of North America, are a series of interconnected freshwater lakes located primarily in the upper mid-east region of North America, on the Canada\\u2013United States border, which connect to the Atlantic Ocean through the Saint Lawrence River. They consist of Lakes Superior, Michigan, Huron, Erie, and Ontario, although hydrologically, there are four lakes, Superior, Erie, Ontario, and Michigan-Huron. The lakes are interconnected by the Great Lakes Waterway.\",\n        \"Title: \\\"Great Lakes\\\" Text:  The surrounding region is called the Great Lakes region, which includes the Great Lakes Megalopolis. Though the five lakes lie in separate basins, they form a single, naturally interconnected body of fresh water, within the Great Lakes Basin. They form a chain connecting the east-central interior of North America to the Atlantic Ocean. From the interior to the outlet at the Saint Lawrence River, water flows from Superior to Huron and Michigan, southward to Erie, and finally northward to Lake Ontario. The lakes drain a large watershed via many rivers, and are studded with approximately 35,000 islands.\",\n        \"...\",\n        \"Title: \\\"Great Lakes region\\\" Text:  The Commission's authorities are confirmed by the Canadian and American federal governments, and by its constituent states and provinces. The states and provinces are represented in the Conference of Great Lakes and St. Lawrence Governors and Premiers. The Great Lakes region takes its name from the corresponding geological formation of the Great Lakes Basin, a narrow watershed encompassing The Great Lakes, bounded by watersheds to the region's north (Hudson Bay), west (Mississippi), east and south (Ohio). To the east, the rivers of St. Lawrence, Richelieu, Hudson, Mohawk and Susquehanna form an arc of watersheds east to The Atlantic.\"\n    ]\n}\n</code></pre>\n<h1 id=\"user-content-our-method\">Our method</h1>\n<h2 id=\"user-content-e-step-permutation-sampling\">E-step: Permutation Sampling</h2>\n<p>Running the following two commands to sample the permutation and transform the collect samples into training dataset for the M-step.</p>\n<pre><code class=\"language-shell\">PROCEDURE=offpolicy CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 VLLM_WORKER_MULTIPROC_METHOD=spawn  \\\npython ./src/run.py \\\n    --devices 0,1,2,3,4,5,6,7 \\\n    --data_path  ./example/nq_train_examples.json \\\n    --ranker_name  RANKING_MODEL_PATH \\\n    --generator_name  LLM_GENERATOR_MODEL_PATH \\\n    --k_positive 0 \\\n    --k_retrieval 20 \\\n    --sampling_num 16 \\\n    --batch_size 16 \\\n    --cutoff_len 8192 \\\n    --output_folder  ./example \\\n    --left 0 \\\n    --right 1000 \n</code></pre>\n<p>Below shows a permutation samples.</p>\n<pre><code class=\"language-json\">{\n    \"prompt\": \"You are RankLLM, an intelligent assistant that can rank passages based on their relevance and usefulness to the user's query.\\n\\nI will provide you with 20 passages. Please rank these passages based on their usefulness in answering the user's search query: \\\"big little lies season 2 how many episodes\\\". \\n\\nA passage's usefulness is defined as:\\n1. Relevance to the question.\\n2. Contains necessary information to help the user.\\n\\nThe passages are listed below, each with a numerical identifier [].\\nTitle: \\\"Big Brother 2 (UK)\\\" Text:  There were a total of 55 episodes this series. This was the first season to feature the spin-off series \\\"\\\"Big Brother's Little Brother\\\"\\\" (2001\\u201310), presented by Dermot O'Leary; Natalie Casey co-presented the series with O'Leary during the first week. \\\"\\\"Big Brother Reveals More\\\"\\\" (2001) aired solely during this series, and saw the major plot points of the past week being recapped. The series was sponsored by BT Cellnet (now called O2). For the first two series, the house was located in Bow, London near to the 3 Mills Studios.\\nTitle: \\\"I Bet You\\\" Text:  Most episodes were centered on a big bet (referred to in the title of the episode) of which the development was shown in several pieces. Between those pieces, smaller bets around town were shown. The first season consisted of eight regular episodes and two bonus episodes. The second season premiered on April 10, 2008 at 9:30 PM and concluded its 14 episodes on July 10. Each episode was filmed in a different location, though usually in or around a major American city, such as New York City, Las Vegas or Miami.\\nTitle: \\\"The Big O\\\" Text:  Along with the 13 episodes of season two, Cartoon Network had an option for 26 additional episodes to be written by Konaka, but according to Jason DeMarco, executive producer for season two, the middling ratings and DVD sales in the United States and Japan made any further episodes impossible to be produced. Following the closure of Bandai Entertainment by parent company in 2012, Sunrise announced at Otakon 2013 that Sentai Filmworks rescued both seasons of \\\"\\\"The Big O\\\"\\\". On June 20, 2017, Sentai Filmworks released both seasons on Blu-ray.\\nTitle: \\\"The Riches\\\" Text:  The pilot episode and episode 1.2 (\\\"\\\"Believe the Lie\\\"\\\") were made available early for online viewing at MSN, Yahoo!, and TV.com at various times. The original airdates (US) are listed here for each episode. A second season of 13 episodes was announced on May 8, 2007 by FX for broadcast in the first half of 2008. It premiered on March 18, 2008. Due to a long writer's strike, only 7 episodes were produced. The pilot episode of \\\"\\\"The Riches\\\"\\\" drew 3.8 million viewers.\\nTitle: \\\"Little Men (TV series)\\\" Text:  Filming of the first season took place between August 1998 and January 1999. The second season was filmed from April through October 1999. The series has a total of 26 episodes. Region 1 DVDs of the series distributed by BFS Entertainment in 4 episode installments. BFS has only released the first eight episodes from season one. Episodes 1-4 were also released on VHS by BFS. There is also a Region 4 DVD release from Madmen Entertainment. While being a Canadian production, \\\"\\\"Little Men\\\"\\\" premiered in the United States on PAX in November 1998.\\nTitle: \\\"The Big O\\\" Text:  Originally planned as a 26-episode series, low viewership in Japan reduced production to the first 13. Positive international reception resulted in a second season consisting of the remaining 13 episodes; co-produced by Cartoon Network, Sunrise, and Bandai Visual. Season two premiered on Japan's SUN-TV on January 2, 2003, and the American premiere took place seven months later. Following the closure of Bandai Entertainment by parent company Bandai (owned by Bandai Namco Holdings) in 2012, Sunrise announced at Otakon 2013 that Sentai Filmworks rescued both seasons of \\\"\\\"The Big O\\\"\\\".\\nTitle: \\\"Little People, Big World\\\" Text:  On October 5, 2012, TLC announced a spin-off series \\u2013 \\\"\\\"\\\"\\\". It chronicles Matt and Amy as they jump-start their wedding business on the farm. The series premiered on November 13, 2012, and ran for six episodes. It was announced in October 2013 that \\\"\\\"Little People, Big World\\\"\\\" would return for a seventh season. Season seven consists of eight episodes, and premiered on October 29, 2013. An eighth season began on September 2, 2014, and a ninth season began on July 6, 2015.\\nTitle: \\\"Big Brother 1 (UK)\\\" Text:  The series had a total of 52 episodes, the least amount of episodes for any series thus far. The theme song for the series was produced by Elementfour, and was used for the series intro as well as promotional tools. The series saw the \\\"\\\"Little Brother\\\"\\\" segment air during select episodes. For the first series, the House was located in Bow, London near the 3 Mills Studios. The House used was a one-story house with two bedrooms, a kitchen and dining room, and one bathroom.\\nTitle: \\\"Reese Witherspoon\\\" Text:  In January 2016, Witherspoon began filming her first television project since \\\"\\\"Return To Lonesome Dove\\\"\\\", the seven-part miniseries adaptation of the Liane Moriarty bestseller, \\\"\\\"Big Little Lies\\\"\\\". She produced the miniseries, along with her co-star, Nicole Kidman, and the show's director, Jean-Marc Vall\\u00e9e, her second project under his direction. The series premiered on February 19, 2017 on HBO and finished on April 2. Witherspoon has garnered critical acclaim for her performance, with TV Line proclaiming her as \\\"\\\"Performer of the Week\\\"\\\" of February 26 to March 4.\\nTitle: \\\"The Hardy Boys\\\" Text:  The show lasted for only one season of thirteen episodes due to poor ratings; a series based on \\\"\\\"Nancy Drew\\\"\\\" that ran alongside it in syndication suffered the same fate. Several Hardy Boys video games have been released: In March, 2017 Dynamite Entertainment released Anthony Del Col\\u2019s reboot of classic characters Nancy Drew and The Hardy Boys with \\\"\\\"NANCY DREW &#x26; THE HARDY BOYS: THE BIG LIE\\\"\\\". Del Col has been a lifelong fan of the characters and was successful in working with Simon &#x26; Schuster to secure the comic book rights and then pitch to publishers.\\nTitle: \\\"Grounded for Life\\\" Text:  17 episodes were produced for season two, with the addition of the five season one episodes, making it a 22-episode season. Many problems occurred during the production of season three. 19 episodes had been produced for season three, and with Fox cancelling the series later being picked up by The WB, only 11 episodes aired through the two networks, 12 &#x26; 13 never aired, and episodes 14 through 19, were included as part of season four. The fourth season originally produced 22 episodes, with the new addition of six from season three, making it the longest season with 28 episodes.\\nTitle: \\\"Degrassi: The Next Generation (season 2)\\\" Text:  The season finale of season one, \\\"\\\"Jagged Little Pill\\\"\\\", had been held over, and was shown in an edited format as this season's third episode, along with season two's true third episode to form an hour-long special. Due to the sensitive subject of rape, episodes seven and eight, the \\\"\\\"Shout\\\"\\\" two-part special, were held over until 11 July 2003 and opened the second half of the season creating an hour-and-a-half long special with episode twenty, \\\"\\\"How Soon Is Now?\\\"\\\".\\nTitle: \\\"To Tell the Truth\\\" Text:  There were two \\\"\\\"games\\\"\\\" per episode, and there was often a live demonstration or video to illustrate the central character's story after many of the games. The show was first released to local stations on September 8, 1969. A total of 1,715 episodes of this version were produced, with the series ending on September 7, 1978. Some markets that added the series after its 1969 release opted to carry the show for another season or two in order to catch up on the episodes that had not aired in their viewing area.\\nTitle: \\\"Little Britain\\\" Text:  A two-part Christmas special, \\\"\\\"Little Britain Abroad\\\"\\\", was broadcast in December 2006 and January 2007. This makes a total of 25 episodes to date. There has also been the \\\"\\\"Little Britain Live\\\"\\\" show. In the UK, the series was originally broadcast on BBC Three and BBC One and was aired in repeats on Dave, Gold, and Watch. In the US and in Bermuda, the series airs on BBC America. BBC Canada aired the program from 3 March 2005 \\u2013 present.\\nTitle: \\\"Little Mosque on the Prairie\\\" Text:  CBC Television renewed the show for a second season consisting of 20 episodes, which began airing on October 3, 2007, and continued to attract an average of one million viewers per episode. CBC renewed the show for a third season on March 7, 2008. Season three premiered on CBC Television October 1, 2008. In its third season ratings declined and as of December 2008 it was attracting a quarter of its original audience. In its fourth season ratings declined further and as of December 2009 it was drawing 420,000 viewers a week, or twenty percent of its original audience.\\nTitle: \\\"The Littles\\\" Text:  The Littles The Littles is a series of children's novels by American author John Peterson, the first of which was published in 1967. Sixteen years later, Peterson's books were adapted into \\\"\\\"The Littles\\\"\\\", an animated series by DIC Entertainment. The television show ran on ABC Saturday mornings from September 10, 1983 to November 2, 1985 for three seasons and 29 episodes. In 1985, DiC released an animated feature film spun off the series titled \\\"\\\"Here Come the Littles\\\"\\\". Similar to Mary Norton's earlier novel \\\"\\\"The Borrowers\\\"\\\", \\\"\\\"The Littles\\\"\\\" features a family of tiny, intelligent humanoid creatures with mouse-like features (the Littles) who live in a house owned by the Bigg family.\\nTitle: \\\"Moon TV\\\" Text:  This season has also seen the return of Season 2's mini-shows (such as Hamsterman from Amsterdam and Bookzone), which were absent in season 3. Series 5 (10 episodes) aired from 7 May to 2 July 2008. Series 6 aired from 25 August to 27 October 2010. In this season, Moon TV goes to New York as the Late Night Big Breakfast is picked up by an American TV Network. However, it fails badly as no one interesting comes on the show, and it eventually gets cancelled.\\nTitle: \\\"Chance in a Million\\\" Text:  (Or at least was, before it was chewed up by next door's alsatian.) There were three series, each of six episodes, as follows: Series 1 (10 September 1984 \\u2013 15 October 1984) Series 2 (6 January 1986 \\u2013 10 February 1986) Series 3 (27 October 1986 \\u2013 1 December 1986) Speaking about the series following its release on DVD Simon Callow said: \\\"\\\"I loved doing it and it's one of the most popular things I ever did. The central character, Tom Chance, was a guy who was plagued by coincidence that was the basic formula of the series.\\nTitle: \\\"My Little Pony Tales\\\" Text:  It was released \\\"\\\"My Little Pony Tales \\u2013 The Complete TV Series\\\"\\\" on DVD on April 28, 2015. The two-disc set contains all 26 episodes of the series. My Little Pony Tales My Little Pony Tales is an American Saturday-morning animated television series produced by Sunbow Productions and Graz Entertainment, animation produced by AKOM, and based on the My Little Pony toys by Hasbro. It ran weekly on The Disney Channel from August 2, 1992 to December 25, 1992 for 26 episodes. The series also aired in syndication starting in 1993.\\nTitle: \\\"The Big O\\\" Text:  The first season is episodic. Each episode (referred to as an \\\"\\\"Act\\\"\\\") relates a separate instance the resurgence of lost \\\"\\\"memories\\\"\\\" and how the citizens cope with their collective amnesia. The final episodes introduce elements that come into play during season two, like the discovery of people living outside of Paradigm City, the true nature of the Event, and something obliquely described as \\\"\\\"the Power of God wielded by the hand of man\\\"\\\". While the majority of the first season's episodes are self-contained stories, the second season comprises a single serialized story arc.\\n\\nRank the 20 passages based on their usefulness in descending order. Use the format [] > [], e.g., [2] > [1]. Only respond with the ranking results; do not provide explanations.\\n\\nSearch Query: big little lies season 2 how many episodes\\nYour output: \",\n    \"response\": \"[9] > [20] > [6] > [3] > [11]\"\n}\n</code></pre>\n<p>Further transform the collected samples into training dataset to support the training in M-step.</p>\n<pre><code class=\"language-shell\">PROCEDURE=weight python ./src/run.py \\\n--output_folder ./example/\n--permutation ./example/nq_permutation.json\n--permutation_reward ./example/nq_permutation_reward.device-num=8.0.1000.json\n</code></pre>\n<p>The training examples are shown below.</p>\n<pre><code class=\"language-json\">{\n    \"prompt\": \"You are RankLLM, an intelligent assistant that can rank passages based on their relevance and usefulness to the user's query.\\n\\nI will provide you with 20 passages. Please rank these passages based on their usefulness in answering the user's search query: \\\"big little lies season 2 how many episodes\\\". \\n\\nA passage's usefulness is defined as:\\n1. Relevance to the question.\\n2. Contains necessary information to help the user.\\n\\nThe passages are listed below, each with a numerical identifier [].\\nTitle: \\\"Big Brother 2 (UK)\\\" Text:  There were a total of 55 episodes this series. This was the first season to feature the spin-off series \\\"\\\"Big Brother's Little Brother\\\"\\\" (2001\\u201310), presented by Dermot O'Leary; Natalie Casey co-presented the series with O'Leary during the first week. \\\"\\\"Big Brother Reveals More\\\"\\\" (2001) aired solely during this series, and saw the major plot points of the past week being recapped. The series was sponsored by BT Cellnet (now called O2). For the first two series, the house was located in Bow, London near to the 3 Mills Studios.\\nTitle: \\\"I Bet You\\\" Text:  Most episodes were centered on a big bet (referred to in the title of the episode) of which the development was shown in several pieces. Between those pieces, smaller bets around town were shown. The first season consisted of eight regular episodes and two bonus episodes. The second season premiered on April 10, 2008 at 9:30 PM and concluded its 14 episodes on July 10. Each episode was filmed in a different location, though usually in or around a major American city, such as New York City, Las Vegas or Miami.\\nTitle: \\\"The Big O\\\" Text:  Along with the 13 episodes of season two, Cartoon Network had an option for 26 additional episodes to be written by Konaka, but according to Jason DeMarco, executive producer for season two, the middling ratings and DVD sales in the United States and Japan made any further episodes impossible to be produced. Following the closure of Bandai Entertainment by parent company in 2012, Sunrise announced at Otakon 2013 that Sentai Filmworks rescued both seasons of \\\"\\\"The Big O\\\"\\\". On June 20, 2017, Sentai Filmworks released both seasons on Blu-ray.\\nTitle: \\\"The Riches\\\" Text:  The pilot episode and episode 1.2 (\\\"\\\"Believe the Lie\\\"\\\") were made available early for online viewing at MSN, Yahoo!, and TV.com at various times. The original airdates (US) are listed here for each episode. A second season of 13 episodes was announced on May 8, 2007 by FX for broadcast in the first half of 2008. It premiered on March 18, 2008. Due to a long writer's strike, only 7 episodes were produced. The pilot episode of \\\"\\\"The Riches\\\"\\\" drew 3.8 million viewers.\\nTitle: \\\"Little Men (TV series)\\\" Text:  Filming of the first season took place between August 1998 and January 1999. The second season was filmed from April through October 1999. The series has a total of 26 episodes. Region 1 DVDs of the series distributed by BFS Entertainment in 4 episode installments. BFS has only released the first eight episodes from season one. Episodes 1-4 were also released on VHS by BFS. There is also a Region 4 DVD release from Madmen Entertainment. While being a Canadian production, \\\"\\\"Little Men\\\"\\\" premiered in the United States on PAX in November 1998.\\nTitle: \\\"The Big O\\\" Text:  Originally planned as a 26-episode series, low viewership in Japan reduced production to the first 13. Positive international reception resulted in a second season consisting of the remaining 13 episodes; co-produced by Cartoon Network, Sunrise, and Bandai Visual. Season two premiered on Japan's SUN-TV on January 2, 2003, and the American premiere took place seven months later. Following the closure of Bandai Entertainment by parent company Bandai (owned by Bandai Namco Holdings) in 2012, Sunrise announced at Otakon 2013 that Sentai Filmworks rescued both seasons of \\\"\\\"The Big O\\\"\\\".\\nTitle: \\\"Little People, Big World\\\" Text:  On October 5, 2012, TLC announced a spin-off series \\u2013 \\\"\\\"\\\"\\\". It chronicles Matt and Amy as they jump-start their wedding business on the farm. The series premiered on November 13, 2012, and ran for six episodes. It was announced in October 2013 that \\\"\\\"Little People, Big World\\\"\\\" would return for a seventh season. Season seven consists of eight episodes, and premiered on October 29, 2013. An eighth season began on September 2, 2014, and a ninth season began on July 6, 2015.\\nTitle: \\\"Big Brother 1 (UK)\\\" Text:  The series had a total of 52 episodes, the least amount of episodes for any series thus far. The theme song for the series was produced by Elementfour, and was used for the series intro as well as promotional tools. The series saw the \\\"\\\"Little Brother\\\"\\\" segment air during select episodes. For the first series, the House was located in Bow, London near the 3 Mills Studios. The House used was a one-story house with two bedrooms, a kitchen and dining room, and one bathroom.\\nTitle: \\\"Reese Witherspoon\\\" Text:  In January 2016, Witherspoon began filming her first television project since \\\"\\\"Return To Lonesome Dove\\\"\\\", the seven-part miniseries adaptation of the Liane Moriarty bestseller, \\\"\\\"Big Little Lies\\\"\\\". She produced the miniseries, along with her co-star, Nicole Kidman, and the show's director, Jean-Marc Vall\\u00e9e, her second project under his direction. The series premiered on February 19, 2017 on HBO and finished on April 2. Witherspoon has garnered critical acclaim for her performance, with TV Line proclaiming her as \\\"\\\"Performer of the Week\\\"\\\" of February 26 to March 4.\\nTitle: \\\"The Hardy Boys\\\" Text:  The show lasted for only one season of thirteen episodes due to poor ratings; a series based on \\\"\\\"Nancy Drew\\\"\\\" that ran alongside it in syndication suffered the same fate. Several Hardy Boys video games have been released: In March, 2017 Dynamite Entertainment released Anthony Del Col\\u2019s reboot of classic characters Nancy Drew and The Hardy Boys with \\\"\\\"NANCY DREW &#x26; THE HARDY BOYS: THE BIG LIE\\\"\\\". Del Col has been a lifelong fan of the characters and was successful in working with Simon &#x26; Schuster to secure the comic book rights and then pitch to publishers.\\nTitle: \\\"Grounded for Life\\\" Text:  17 episodes were produced for season two, with the addition of the five season one episodes, making it a 22-episode season. Many problems occurred during the production of season three. 19 episodes had been produced for season three, and with Fox cancelling the series later being picked up by The WB, only 11 episodes aired through the two networks, 12 &#x26; 13 never aired, and episodes 14 through 19, were included as part of season four. The fourth season originally produced 22 episodes, with the new addition of six from season three, making it the longest season with 28 episodes.\\nTitle: \\\"Degrassi: The Next Generation (season 2)\\\" Text:  The season finale of season one, \\\"\\\"Jagged Little Pill\\\"\\\", had been held over, and was shown in an edited format as this season's third episode, along with season two's true third episode to form an hour-long special. Due to the sensitive subject of rape, episodes seven and eight, the \\\"\\\"Shout\\\"\\\" two-part special, were held over until 11 July 2003 and opened the second half of the season creating an hour-and-a-half long special with episode twenty, \\\"\\\"How Soon Is Now?\\\"\\\".\\nTitle: \\\"To Tell the Truth\\\" Text:  There were two \\\"\\\"games\\\"\\\" per episode, and there was often a live demonstration or video to illustrate the central character's story after many of the games. The show was first released to local stations on September 8, 1969. A total of 1,715 episodes of this version were produced, with the series ending on September 7, 1978. Some markets that added the series after its 1969 release opted to carry the show for another season or two in order to catch up on the episodes that had not aired in their viewing area.\\nTitle: \\\"Little Britain\\\" Text:  A two-part Christmas special, \\\"\\\"Little Britain Abroad\\\"\\\", was broadcast in December 2006 and January 2007. This makes a total of 25 episodes to date. There has also been the \\\"\\\"Little Britain Live\\\"\\\" show. In the UK, the series was originally broadcast on BBC Three and BBC One and was aired in repeats on Dave, Gold, and Watch. In the US and in Bermuda, the series airs on BBC America. BBC Canada aired the program from 3 March 2005 \\u2013 present.\\nTitle: \\\"Little Mosque on the Prairie\\\" Text:  CBC Television renewed the show for a second season consisting of 20 episodes, which began airing on October 3, 2007, and continued to attract an average of one million viewers per episode. CBC renewed the show for a third season on March 7, 2008. Season three premiered on CBC Television October 1, 2008. In its third season ratings declined and as of December 2008 it was attracting a quarter of its original audience. In its fourth season ratings declined further and as of December 2009 it was drawing 420,000 viewers a week, or twenty percent of its original audience.\\nTitle: \\\"The Littles\\\" Text:  The Littles The Littles is a series of children's novels by American author John Peterson, the first of which was published in 1967. Sixteen years later, Peterson's books were adapted into \\\"\\\"The Littles\\\"\\\", an animated series by DIC Entertainment. The television show ran on ABC Saturday mornings from September 10, 1983 to November 2, 1985 for three seasons and 29 episodes. In 1985, DiC released an animated feature film spun off the series titled \\\"\\\"Here Come the Littles\\\"\\\". Similar to Mary Norton's earlier novel \\\"\\\"The Borrowers\\\"\\\", \\\"\\\"The Littles\\\"\\\" features a family of tiny, intelligent humanoid creatures with mouse-like features (the Littles) who live in a house owned by the Bigg family.\\nTitle: \\\"Moon TV\\\" Text:  This season has also seen the return of Season 2's mini-shows (such as Hamsterman from Amsterdam and Bookzone), which were absent in season 3. Series 5 (10 episodes) aired from 7 May to 2 July 2008. Series 6 aired from 25 August to 27 October 2010. In this season, Moon TV goes to New York as the Late Night Big Breakfast is picked up by an American TV Network. However, it fails badly as no one interesting comes on the show, and it eventually gets cancelled.\\nTitle: \\\"Chance in a Million\\\" Text:  (Or at least was, before it was chewed up by next door's alsatian.) There were three series, each of six episodes, as follows: Series 1 (10 September 1984 \\u2013 15 October 1984) Series 2 (6 January 1986 \\u2013 10 February 1986) Series 3 (27 October 1986 \\u2013 1 December 1986) Speaking about the series following its release on DVD Simon Callow said: \\\"\\\"I loved doing it and it's one of the most popular things I ever did. The central character, Tom Chance, was a guy who was plagued by coincidence that was the basic formula of the series.\\nTitle: \\\"My Little Pony Tales\\\" Text:  It was released \\\"\\\"My Little Pony Tales \\u2013 The Complete TV Series\\\"\\\" on DVD on April 28, 2015. The two-disc set contains all 26 episodes of the series. My Little Pony Tales My Little Pony Tales is an American Saturday-morning animated television series produced by Sunbow Productions and Graz Entertainment, animation produced by AKOM, and based on the My Little Pony toys by Hasbro. It ran weekly on The Disney Channel from August 2, 1992 to December 25, 1992 for 26 episodes. The series also aired in syndication starting in 1993.\\nTitle: \\\"The Big O\\\" Text:  The first season is episodic. Each episode (referred to as an \\\"\\\"Act\\\"\\\") relates a separate instance the resurgence of lost \\\"\\\"memories\\\"\\\" and how the citizens cope with their collective amnesia. The final episodes introduce elements that come into play during season two, like the discovery of people living outside of Paradigm City, the true nature of the Event, and something obliquely described as \\\"\\\"the Power of God wielded by the hand of man\\\"\\\". While the majority of the first season's episodes are self-contained stories, the second season comprises a single serialized story arc.\\n\\nRank the 20 passages based on their usefulness in descending order. Use the format [] > [], e.g., [2] > [1]. Only respond with the ranking results; do not provide explanations.\\n\\nSearch Query: big little lies season 2 how many episodes\\nYour output: \",\n    \"response\": \"[9] > [20] > [6] > [3] > [11]\",\n    \"sample_id\": 0,\n    \"query_id\": \"0\",\n    \"probs\": 1.0\n}\n</code></pre>\n<pre><code class=\"language-json\">{\n    \"prompt\": \"You are an artificial intelligence assistant. You should gives helpful and precise answers to the user\\u2019s questions based on the context. The context here refer to external passages related to user's questions.\\n\\nPlease answer the question: \\\"big little lies season 2 how many episodes\\\" using provided passages. Each passage is indicated by a numerical identifier [].\\nHere are the related passages for your reference.\\n[1] Title: \\\"Reese Witherspoon\\\" Text:  In January 2016, Witherspoon began filming her first television project since \\\"\\\"Return To Lonesome Dove\\\"\\\", the seven-part miniseries adaptation of the Liane Moriarty bestseller, \\\"\\\"Big Little Lies\\\"\\\". She produced the miniseries, along with her co-star, Nicole Kidman, and the show's director, Jean-Marc Vall\\u00e9e, her second project under his direction. The series premiered on February 19, 2017 on HBO and finished on April 2. Witherspoon has garnered critical acclaim for her performance, with TV Line proclaiming her as \\\"\\\"Performer of the Week\\\"\\\" of February 26 to March 4.\\n[2] Title: \\\"The Big O\\\" Text:  The first season is episodic. Each episode (referred to as an \\\"\\\"Act\\\"\\\") relates a separate instance the resurgence of lost \\\"\\\"memories\\\"\\\" and how the citizens cope with their collective amnesia. The final episodes introduce elements that come into play during season two, like the discovery of people living outside of Paradigm City, the true nature of the Event, and something obliquely described as \\\"\\\"the Power of God wielded by the hand of man\\\"\\\". While the majority of the first season's episodes are self-contained stories, the second season comprises a single serialized story arc.\\n[3] Title: \\\"The Big O\\\" Text:  Originally planned as a 26-episode series, low viewership in Japan reduced production to the first 13. Positive international reception resulted in a second season consisting of the remaining 13 episodes; co-produced by Cartoon Network, Sunrise, and Bandai Visual. Season two premiered on Japan's SUN-TV on January 2, 2003, and the American premiere took place seven months later. Following the closure of Bandai Entertainment by parent company Bandai (owned by Bandai Namco Holdings) in 2012, Sunrise announced at Otakon 2013 that Sentai Filmworks rescued both seasons of \\\"\\\"The Big O\\\"\\\".\\n[4] Title: \\\"The Big O\\\" Text:  Along with the 13 episodes of season two, Cartoon Network had an option for 26 additional episodes to be written by Konaka, but according to Jason DeMarco, executive producer for season two, the middling ratings and DVD sales in the United States and Japan made any further episodes impossible to be produced. Following the closure of Bandai Entertainment by parent company in 2012, Sunrise announced at Otakon 2013 that Sentai Filmworks rescued both seasons of \\\"\\\"The Big O\\\"\\\". On June 20, 2017, Sentai Filmworks released both seasons on Blu-ray.\\n[5] Title: \\\"Grounded for Life\\\" Text:  17 episodes were produced for season two, with the addition of the five season one episodes, making it a 22-episode season. Many problems occurred during the production of season three. 19 episodes had been produced for season three, and with Fox cancelling the series later being picked up by The WB, only 11 episodes aired through the two networks, 12 &#x26; 13 never aired, and episodes 14 through 19, were included as part of season four. The fourth season originally produced 22 episodes, with the new addition of six from season three, making it the longest season with 28 episodes.\\nQuestion: big little lies season 2 how many episodes\\nYour answer: \",\n    \"response\": \"seven\",\n    \"sample_id\": 0,\n    \"query_id\": \"0\",\n    \"probs\": 1.0\n}\n</code></pre>\n<p>We provide example files on <code>./example</code> folder.</p>\n<h2 id=\"user-content-m-step-maximization\">M-step: Maximization</h2>\n<pre><code class=\"language-shell\">TRAINER=weight PROCEDURE=train CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  nohup torchrun  --nproc_per_node=8 --master_port=11020 ./src/run.py \\\n    --model_name_or_path  \\\n    --dataset_name_or_path TRAINING_DATASET_PATH \\\n    --deepspeed ./scripts/ds_z3_config.json \\\n    --output_dir ../output/ \\\n    --overwrite_cache True \\\n    --warmup_ratio 0.1 \\\n    --report_to wandb \\\n    --run_name test_run \\\n    --logging_steps 1 \\\n    --cutoff_len 8192 \\\n    --max_samples 50000 \\\n    --save_steps 200 \\\n    --per_device_train_batch_size 2 \\\n    --gradient_accumulation_steps 8 \\\n    --learning_rate 2.0e-5 \\\n    --num_train_epochs 3 \\\n    --lr_scheduler_type cosine \\\n    --bf16 True\n</code></pre>\n<h2 id=\"user-content-warmup-learning-for-answer-generator-and-document-selector\">Warmup learning for answer generator and document selector</h2>\n<p>The warm-up learning aims to initialize the LLM with basic skills, which can fit the LLM into downstream tasks better.\nIn this work, we achieve the warm-up for both answer generator and document selector through supervised fine-tuning.</p>\n<ol>\n<li>\n<p>To achieve the warm-up of answer generator, you can download the dataset from our <a href=\"https://drive.google.com/file/d/1VN8fnFvNj6DmlMaf4qE_cWBVkd72_Zp-/view?usp=sharing\">Google drive</a> to train the base LLM.</p>\n</li>\n<li>\n<p>To achieve the warm-up of document selector, please download generative ranking dataset from <a href=\"https://huggingface.co/datasets/castorini/rank_zephyr_training_data\">RankZephyr</a> to train the base LLM.</p>\n</li>\n</ol>\n<h1 id=\"user-content-evaluation-on-benchmarks\">Evaluation on Benchmarks</h1>\n<p>We evaluate our method using the <code>EM</code> and <code>F1</code> metrics. We use the evaluation scripts from official <a href=\"https://github.com/facebookresearch/KILT/blob/main/kilt/eval_downstream.py\">KILT</a>.</p>\n<p>The main experiment results are as follows, where we compare the proposed DRO with <strong>25+ baselines</strong> on a wide range of benchmarks, including open-domain QA, multi-hop QA and knowledge-grounded dialogue tasks.</p>\n<h2 id=\"user-content-pre-processed-data\">Pre-processed Data</h2>\n<h3 id=\"user-content-download-pre-processed-evaluation-data\">Download pre-processed evaluation data</h3>\n<p>You can directly download our pre-processed benchmarks. We process these benchmark into a unified format, which is more convenient for evaluation.</p>\n<table>\n<thead>\n<tr>\n<th align=\"left\">File</th>\n<th align=\"left\">Note</th>\n<th align=\"center\">Link</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"left\">nq_dev.json</td>\n<td align=\"left\">Pre-processed data of the NQ dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1hp6SjahfoLLmnjNnahyVFkxPDlnmErTO/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">hotpotqa_dev.json</td>\n<td align=\"left\">Pre-processed data of the HotpotQA dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1DaWl5SV0KvIUHEIk5MO4tSn7jeWDsLTI/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">musiqueqa_dev.json</td>\n<td align=\"left\">Pre-processed data of the MuSiQue  dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1zPXhLAOe1ktDqJDmxNoRLMQ2ml-Jup-6/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">wikimultihop_dev.json</td>\n<td align=\"left\">Pre-processed data of the 2WikimultihopQA dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1HAjSFswVDmmfJIAXo4qMLjtAUB8YWjD1/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">wow_dev.json</td>\n<td align=\"left\">Pre-processed data of the Wizard-of-Wikipedia dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1B2qSjEzR5w_AG1nZQVEKzeLbCvOCQPLd/view?usp=sharing\">Google drive</a></td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"user-content-download-pre-processed-training-data\">Download pre-processed training data</h3>\n<p>You can directly download our pre-processed training data. We process these benchmark into a unified format, which is more convenient for evaluation.</p>\n<table>\n<thead>\n<tr>\n<th align=\"left\">File</th>\n<th align=\"left\">Note</th>\n<th align=\"center\">Link</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"left\">nq_train.json</td>\n<td align=\"left\">Training data of the NQ dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1hw_h2gsroJZiWKRiBb2aIaXGjy1Wvgdw/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">hotpotqa_train.json</td>\n<td align=\"left\">Training data of the HotpotQA dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1GxE-1psv-ksoY313Dq1qgYA98vw7t2JQ/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">musiqueqa_train.json</td>\n<td align=\"left\">Training data of the MuSiQue  dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1REtwkyPwLVL7NVXPvHJ9ezYletsmhSwK/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">wikimultihop_train.json</td>\n<td align=\"left\">Training data of the 2WikimultihopQA dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1D6PRMwaj-7ilXajz70OP54h8KNWwOV8l/view?usp=sharing\">Google drive</a></td>\n</tr>\n<tr>\n<td align=\"left\">wow_train.json</td>\n<td align=\"left\">Training data of the Wizard-of-Wikipedia dataset</td>\n<td align=\"center\"><a href=\"https://drive.google.com/file/d/1bv6BK_eWRch60gP5rJ-Q_gPbUQI_EOxZ/view?usp=sharing\">Google drive</a></td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-todo\">Todo</h2>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> add the command for evaluation</li>\n<li class=\"task-list-item\"><input type=\"checkbox\" disabled> Our paper will be released as soon as possible!</li>\n</ul>\n<h2 id=\"user-content-acknowledgement\">Acknowledgement</h2>\n<p>We sincerely thank prior work, including <a href=\"https://github.com/sunnweiwei/RankGPT\">RankGPT</a> and <a href=\"https://github.com/hiyouga/LLaMA-Factory/tree/main\">Llama-Factory</a>.</p>",
+  "_fetched_at": "2026-03-11T18:16:37.408Z"
+}

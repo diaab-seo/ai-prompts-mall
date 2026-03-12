@@ -1,0 +1,6 @@
+---
+// TrendingBadge — shows "Trending" pill if stars gained rapidly
+interface Props { isTrending?: boolean }
+const { isTrending = false } = Astro.props;
+---
+{isTrending && <span class="trending-badge" aria-label="This repository is trending">🔥 Trending</span>}

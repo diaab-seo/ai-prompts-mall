@@ -1,0 +1,834 @@
+{
+  "id": 718814616,
+  "node_id": "R_kgDOKtg9mA",
+  "name": "filco",
+  "full_name": "zorazrw/filco",
+  "private": false,
+  "owner": {
+    "login": "zorazrw",
+    "id": 49503887,
+    "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/zorazrw",
+    "html_url": "https://github.com/zorazrw",
+    "followers_url": "https://api.github.com/users/zorazrw/followers",
+    "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+    "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+    "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+    "repos_url": "https://api.github.com/users/zorazrw/repos",
+    "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/zorazrw/filco",
+  "description": "[Preprint] Learning to Filter Context for Retrieval-Augmented Generaton",
+  "fork": false,
+  "url": "https://api.github.com/repos/zorazrw/filco",
+  "forks_url": "https://api.github.com/repos/zorazrw/filco/forks",
+  "keys_url": "https://api.github.com/repos/zorazrw/filco/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/zorazrw/filco/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/zorazrw/filco/teams",
+  "hooks_url": "https://api.github.com/repos/zorazrw/filco/hooks",
+  "issue_events_url": "https://api.github.com/repos/zorazrw/filco/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/zorazrw/filco/events",
+  "assignees_url": "https://api.github.com/repos/zorazrw/filco/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/zorazrw/filco/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/zorazrw/filco/tags",
+  "blobs_url": "https://api.github.com/repos/zorazrw/filco/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/zorazrw/filco/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/zorazrw/filco/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/zorazrw/filco/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/zorazrw/filco/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/zorazrw/filco/languages",
+  "stargazers_url": "https://api.github.com/repos/zorazrw/filco/stargazers",
+  "contributors_url": "https://api.github.com/repos/zorazrw/filco/contributors",
+  "subscribers_url": "https://api.github.com/repos/zorazrw/filco/subscribers",
+  "subscription_url": "https://api.github.com/repos/zorazrw/filco/subscription",
+  "commits_url": "https://api.github.com/repos/zorazrw/filco/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/zorazrw/filco/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/zorazrw/filco/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/zorazrw/filco/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/zorazrw/filco/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/zorazrw/filco/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/zorazrw/filco/merges",
+  "archive_url": "https://api.github.com/repos/zorazrw/filco/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/zorazrw/filco/downloads",
+  "issues_url": "https://api.github.com/repos/zorazrw/filco/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/zorazrw/filco/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/zorazrw/filco/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/zorazrw/filco/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/zorazrw/filco/labels{/name}",
+  "releases_url": "https://api.github.com/repos/zorazrw/filco/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/zorazrw/filco/deployments",
+  "created_at": "2023-11-14T21:18:30Z",
+  "updated_at": "2026-01-25T17:05:37Z",
+  "pushed_at": "2024-04-06T18:57:53Z",
+  "git_url": "git://github.com/zorazrw/filco.git",
+  "ssh_url": "git@github.com:zorazrw/filco.git",
+  "clone_url": "https://github.com/zorazrw/filco.git",
+  "svn_url": "https://github.com/zorazrw/filco",
+  "homepage": "https://arxiv.org/pdf/2311.08377.pdf",
+  "size": 46,
+  "stargazers_count": 196,
+  "watchers_count": 196,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 20,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 2,
+  "license": {
+    "key": "cc-by-sa-4.0",
+    "name": "Creative Commons Attribution Share Alike 4.0 International",
+    "spdx_id": "CC-BY-SA-4.0",
+    "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+    "node_id": "MDc6TGljZW5zZTI2"
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "dialog-generation",
+    "fact-verification",
+    "flan-t5",
+    "llama2",
+    "question-answering",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 20,
+  "open_issues": 2,
+  "watchers": 196,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "open-source-llms",
+  "commits": [
+    {
+      "sha": "4fe80c6a9c5dbd6aab8b12c8c0f31533050d0ec7",
+      "node_id": "C_kwDOKtg9mNoAKDRmZTgwYzZhOWM1ZGJkNmFhYjhiMTJjOGMwZjMxNTMzMDUwZDBlYzc",
+      "commit": {
+        "author": {
+          "name": "Zora/Zhiruo Wang",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-04-06T18:57:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-06T18:57:53Z"
+        },
+        "message": "Update title in README.md",
+        "tree": {
+          "sha": "4f90225bc30e4f3e7a3164e10087ad38c2940e90",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/4f90225bc30e4f3e7a3164e10087ad38c2940e90"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/4fe80c6a9c5dbd6aab8b12c8c0f31533050d0ec7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmEZsxCRC1aQ7uu5UhlAAAstQQAFHhIOTIdLtra/olWO6/SVRW\nHHYhd8paq8aHbi9nNb/HXrI9wK4JW+HnsN1gdd8ux8+TKOvIAOGcXsoBzzxXpTp5\n1FgSZlxsaOykqi3LTyi1cHWkgMeQGzaWkTT0XEUQg52TUJMnxnCTsuM68VWclwEd\n9AAefJg8p1SOA56KQopXLLmbz/i2t5mDwDY2N5FC7t0UE0Y3xylXhPYkLCaBu7uB\nbG5xVh2NcLVz4rvCEV0SfE7XCQYpaJjDEUngYZmwrjOsNcZtGvwUzbPMvXOsGQTz\nkXCSUylI1lyaOVXQBMXvTWilWlMOERAvng0Zekb+G33n60BJ0Nz1IxtCYkv/i2fK\nUICKewglNsuvsZoYOUBL0xn+YiUjoq/QbbgzUbCG8pqZtE+g1BmetEXxifBMQWTc\nBGlgJSMYqLm1cEh7/Wrmwsvpl+ApAmyjM4sFkoVxTFG5VOyqGa65lO0p2x7HgN5T\n8pbt+mkTH1yQgmLeM+OjXyRg5deiIZtL6KnwugoSz7m3V831Cb9v1hN8WBjmENOp\nOFjpzsWURb1h+gjdkQPjUVKbwqLC3sZTnblJpldNWrjxFolKXrJnz6PmEgaasYXv\nuzMfYBWu0riWrK4ipXOVVSEyWZZuXS+EurX/3GwieuLXnhsvdcuK8YRQRYJUNFwa\n5T+FIy0PrLaxpm22GZu5\n=iErx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4f90225bc30e4f3e7a3164e10087ad38c2940e90\nparent f2e60f2655d7ce977ab8d44531a48806d2b3c185\nauthor Zora/Zhiruo Wang <zhiruo.zora.wang@gmail.com> 1712429873 -0400\ncommitter GitHub <noreply@github.com> 1712429873 -0400\n\nUpdate title in README.md",
+          "verified_at": "2024-11-08T23:51:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/4fe80c6a9c5dbd6aab8b12c8c0f31533050d0ec7",
+      "html_url": "https://github.com/zorazrw/filco/commit/4fe80c6a9c5dbd6aab8b12c8c0f31533050d0ec7",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/4fe80c6a9c5dbd6aab8b12c8c0f31533050d0ec7/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f2e60f2655d7ce977ab8d44531a48806d2b3c185",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/f2e60f2655d7ce977ab8d44531a48806d2b3c185",
+          "html_url": "https://github.com/zorazrw/filco/commit/f2e60f2655d7ce977ab8d44531a48806d2b3c185"
+        }
+      ]
+    },
+    {
+      "sha": "f2e60f2655d7ce977ab8d44531a48806d2b3c185",
+      "node_id": "C_kwDOKtg9mNoAKGYyZTYwZjI2NTVkN2NlOTc3YWI4ZDQ0NTMxYTQ4ODA2ZDJiM2MxODU",
+      "commit": {
+        "author": {
+          "name": "Zora/Zhiruo Wang",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-04-06T18:25:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-04-06T18:25:22Z"
+        },
+        "message": "fix strinc processing",
+        "tree": {
+          "sha": "4a5e8d1ba8d64f892068d8fd469a0f38ad027340",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/4a5e8d1ba8d64f892068d8fd469a0f38ad027340"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/f2e60f2655d7ce977ab8d44531a48806d2b3c185",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmEZOSCRC1aQ7uu5UhlAAAZiwQAHHz1D9VlP/c8xlnf5jWK6eh\nhyli/K5RiVtowzlEnjyNb4v3T8TBGprWkL1bd3LBDktZneJcriW8cbxOP44bCMla\n9bDRfOHr7u2GRkqdhqL5jmAZ9nsp4J0/YcmqM+dy9M6DW3ITC8bQFj9NHXAx+4b8\nrHLglqbeiE1N3TG39f4lDMFhn9h1EZcmO8TLdVG8FcrlbTTQOeSxAY/LTgI5IAvx\nvaxWTNsZPmNgWqo3wbXedFFyWhrh3UDpF3d+aQgja2z1o3JJnyzQS+9qwxRf03sl\n5fMykuBtJScBQynkOTzmmIUefQsDFv1ESX6Kn/2cZJGUEfin2Ifb23a7dlPHP5MO\nkMtS0mN3g/UD+d6XBpx91uLTpxnP071fcv7dUksSY/Z55tYKoZnsT7P3YXNUEJeY\nqwjfdc86oedV0Svo4rENFxgOWKffZ4sGNGjPz1rM4tfmEBG7z7pcSrDUuWaNeyFU\nnsNrH4y2cir9SMOOQ5mzobPRQXXyEYwt81P1Qalz6z1aqg1IJ5oyxBGC8/ppmHb1\nv2tNYW/uBdZnSMg+3WU6h60rAeq44/1m8ty/eJFebE3F3Xp0g1++E/oA/nnbnFiL\nVztXB5vSRC+eFxUxRbgmmh6IlE9+02ucT9U0DCa65+Kj5EJ0IHYDwFfCDrEgjwi8\nOa5efDLSnL3YaHrU1pl4\n=xJRX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4a5e8d1ba8d64f892068d8fd469a0f38ad027340\nparent ff49b488fe62569da69803e1a65b628b26c0bcf9\nauthor Zora/Zhiruo Wang <zhiruo.zora.wang@gmail.com> 1712427922 -0400\ncommitter GitHub <noreply@github.com> 1712427922 -0400\n\nfix strinc processing",
+          "verified_at": "2024-11-17T07:18:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/f2e60f2655d7ce977ab8d44531a48806d2b3c185",
+      "html_url": "https://github.com/zorazrw/filco/commit/f2e60f2655d7ce977ab8d44531a48806d2b3c185",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/f2e60f2655d7ce977ab8d44531a48806d2b3c185/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ff49b488fe62569da69803e1a65b628b26c0bcf9",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/ff49b488fe62569da69803e1a65b628b26c0bcf9",
+          "html_url": "https://github.com/zorazrw/filco/commit/ff49b488fe62569da69803e1a65b628b26c0bcf9"
+        }
+      ]
+    },
+    {
+      "sha": "ff49b488fe62569da69803e1a65b628b26c0bcf9",
+      "node_id": "C_kwDOKtg9mNoAKGZmNDliNDg4ZmU2MjU2OWRhNjk4MDNlMWE2NWI2MjhiMjZjMGJjZjk",
+      "commit": {
+        "author": {
+          "name": "Zora/Zhiruo Wang",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2023-12-11T00:44:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-12-11T00:44:18Z"
+        },
+        "message": "remove fixed vars",
+        "tree": {
+          "sha": "1970c7aee39c4bd113eb598a4854974c3aacde21",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/1970c7aee39c4bd113eb598a4854974c3aacde21"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/ff49b488fe62569da69803e1a65b628b26c0bcf9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJldltiCRBK7hj4Ov3rIwAAEnkIAAzqBV4un31GzSsSn8RjT0qU\njqeEj1d9zolPuv1rVqqOCDkflaOUWDoDgKtud/Ib+m/qjWS4wULEEDc7/5KFienj\nwcNHbRSea9gegxkUlxnIol1MkdjZTUb3K8xCJclH4/81HZRd+aez1+mjDItl8cwb\nVmsM/aJEN+2htSynEENSyLYyDZ1SCLp90Cm1Y5mGE/tvHfcZ7xM6cdulD4TIJYAY\nxczmZHoBOP5hcIEg1+bcDEs4fNhchrKuQi/AVsmpRXYuoMOEoUKxd5rghk6oicrX\nd3h3GjbFSWVZSw8X8Az0KEsg2xgHC/MMMYjpQXUrqYpfeHddb8kIWCyg82+FdjQ=\n=ZhUk\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1970c7aee39c4bd113eb598a4854974c3aacde21\nparent fb113ade0c4166ee2d269703d80bb59adb32cd73\nauthor Zora/Zhiruo Wang <zhiruo.zora.wang@gmail.com> 1702255458 +0800\ncommitter GitHub <noreply@github.com> 1702255458 +0800\n\nremove fixed vars",
+          "verified_at": "2024-11-13T18:25:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/ff49b488fe62569da69803e1a65b628b26c0bcf9",
+      "html_url": "https://github.com/zorazrw/filco/commit/ff49b488fe62569da69803e1a65b628b26c0bcf9",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/ff49b488fe62569da69803e1a65b628b26c0bcf9/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fb113ade0c4166ee2d269703d80bb59adb32cd73",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/fb113ade0c4166ee2d269703d80bb59adb32cd73",
+          "html_url": "https://github.com/zorazrw/filco/commit/fb113ade0c4166ee2d269703d80bb59adb32cd73"
+        }
+      ]
+    },
+    {
+      "sha": "fb113ade0c4166ee2d269703d80bb59adb32cd73",
+      "node_id": "C_kwDOKtg9mNoAKGZiMTEzYWRlMGM0MTY2ZWUyZDI2OTcwM2Q4MGJiNTlhZGIzMmNkNzM",
+      "commit": {
+        "author": {
+          "name": "Zora/Zhiruo Wang",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2023-11-19T19:19:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-19T19:19:37Z"
+        },
+        "message": "Update README.md with datasets",
+        "tree": {
+          "sha": "b91bc5d1c75827c45e4cc8f63ffde50b55f936ce",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/b91bc5d1c75827c45e4cc8f63ffde50b55f936ce"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/fb113ade0c4166ee2d269703d80bb59adb32cd73",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlWl/JCRBK7hj4Ov3rIwAAMvwIACLXAAuZHQpA/w25dfEftMXL\nCRc57zm4VqhEOnn50oerN34ZZpLJ345xU/FU/g5Q0SfOYLUUsiimhnfoF/2FZFVo\n8zPspZOTGcv7zUOXLO6pGfujPwWafVBV2CNXy6ou3XN/nXCKKp86O47evLpoMVLf\nC3rpzo/nVIWVJW9dfY+JV9iyLQrACu1uVim3SioL8I6ynHaiSUMcZazjjRZmMw8S\nALBEyqts+det2Uut1THSosKFx7PZf61Xn+LaNM7FN/sU2Tfr4AJBHhomHv6HHn8k\nutgEijlrv2kmKIA6EqeOKtXbMSDRIrJ6lDKoZI/mSKeHDmqpbeaOInZ3PQUa55c=\n=zyA+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b91bc5d1c75827c45e4cc8f63ffde50b55f936ce\nparent 7155c2470d69ddad3c625560f7b06521fd07df62\nauthor Zora/Zhiruo Wang <zhiruo.zora.wang@gmail.com> 1700421577 -0500\ncommitter GitHub <noreply@github.com> 1700421577 -0500\n\nUpdate README.md with datasets",
+          "verified_at": "2024-11-13T18:25:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/fb113ade0c4166ee2d269703d80bb59adb32cd73",
+      "html_url": "https://github.com/zorazrw/filco/commit/fb113ade0c4166ee2d269703d80bb59adb32cd73",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/fb113ade0c4166ee2d269703d80bb59adb32cd73/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7155c2470d69ddad3c625560f7b06521fd07df62",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/7155c2470d69ddad3c625560f7b06521fd07df62",
+          "html_url": "https://github.com/zorazrw/filco/commit/7155c2470d69ddad3c625560f7b06521fd07df62"
+        }
+      ]
+    },
+    {
+      "sha": "7155c2470d69ddad3c625560f7b06521fd07df62",
+      "node_id": "C_kwDOKtg9mNoAKDcxNTVjMjQ3MGQ2OWRkYWQzYzYyNTU2MGY3YjA2NTIxZmQwN2RmNjI",
+      "commit": {
+        "author": {
+          "name": "Zora/Zhiruo Wang",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2023-11-19T18:26:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-19T18:26:35Z"
+        },
+        "message": "Merge pull request #1 from eltociear/patch-1\n\nUpdate README.md",
+        "tree": {
+          "sha": "fa2e96b63fd53f021e95593176c0f7876424711b",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/fa2e96b63fd53f021e95593176c0f7876424711b"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/7155c2470d69ddad3c625560f7b06521fd07df62",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlWlNbCRBK7hj4Ov3rIwAA/l0IAIvAhzZUntMb8Xwz0E3+LAlm\n+deHUAQbUIJuz3ASabvCYv2zTXuO94+cnK+V5Ua6aqsO1okyFL621CMyyA93Xjky\nZInADGNWB0U0v7tzfG7oBiNPq9n6t8W3WZRXchXrJ2zozK17dHzoeMvmw2wjkwTT\no4lQo1RS4ItC6BKSp86fPdMyInxAI6pOpKUoLd7Gf9rhNbbZ0EA15DEse8gHSquo\nCO+mXCnWMbvDqjQPwkDKllE26PKQM7miZWoFE4a09Vu64pwjw/6wBA8qxFoA4gC3\noZwsm+9sjUSO6S5ARpYqzoww3nZmZgMyAWyCnf7eaRRT84649Ap9p8yOCa83zC4=\n=jTrr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fa2e96b63fd53f021e95593176c0f7876424711b\nparent acf2d35381a6c66752d486ba47d76b9d40cd41e1\nparent b25389067e4fe3938228147602be29830952f7e7\nauthor Zora/Zhiruo Wang <zhiruo.zora.wang@gmail.com> 1700418395 -0500\ncommitter GitHub <noreply@github.com> 1700418395 -0500\n\nMerge pull request #1 from eltociear/patch-1\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/7155c2470d69ddad3c625560f7b06521fd07df62",
+      "html_url": "https://github.com/zorazrw/filco/commit/7155c2470d69ddad3c625560f7b06521fd07df62",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/7155c2470d69ddad3c625560f7b06521fd07df62/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+          "html_url": "https://github.com/zorazrw/filco/commit/acf2d35381a6c66752d486ba47d76b9d40cd41e1"
+        },
+        {
+          "sha": "b25389067e4fe3938228147602be29830952f7e7",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/b25389067e4fe3938228147602be29830952f7e7",
+          "html_url": "https://github.com/zorazrw/filco/commit/b25389067e4fe3938228147602be29830952f7e7"
+        }
+      ]
+    },
+    {
+      "sha": "b25389067e4fe3938228147602be29830952f7e7",
+      "node_id": "C_kwDOKtg9mNoAKGIyNTM4OTA2N2U0ZmUzOTM4MjI4MTQ3NjAyYmUyOTgzMDk1MmY3ZTc",
+      "commit": {
+        "author": {
+          "name": "Ikko Eltociear Ashimine",
+          "email": "eltociear@gmail.com",
+          "date": "2023-11-17T22:52:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-17T22:52:04Z"
+        },
+        "message": "Update README.md\n\nverion -> version",
+        "tree": {
+          "sha": "fa2e96b63fd53f021e95593176c0f7876424711b",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/fa2e96b63fd53f021e95593176c0f7876424711b"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/b25389067e4fe3938228147602be29830952f7e7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlV+6UCRBK7hj4Ov3rIwAAQQIIAIvRtduwMMV9gO8Z0TH0aUvg\nm6PXN/a5E/BsYQ5vnJs0rz3xSKSToMAQgyjSOd26B6rwmzYzeuOlF/J8b+5gw7Gw\nikYmtAz/Pp6LEI44hqW8jAR/7tIxpXvBd5BVQooTe0uT07z5SBGQbbNHYERTxpUv\nvJhOh4GUN3ng/9pw8j+xqxOwm5P6DslA385kVRFCxC+c4SxjVKqOchMIV4JH0upC\nlQzs33PX7amC7Fe2KbIuM8uXx3Yjz6MzFNoNXNEWhLMabGSTRWwpRF7D9gBN5UQO\nkNHiGZxg7rI153npVElZEEZ5DKz132hzV7T/Tdwa0Ukfg4tXa46afvdlQkJ/HKw=\n=hhq7\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fa2e96b63fd53f021e95593176c0f7876424711b\nparent acf2d35381a6c66752d486ba47d76b9d40cd41e1\nauthor Ikko Eltociear Ashimine <eltociear@gmail.com> 1700261524 +0900\ncommitter GitHub <noreply@github.com> 1700261524 +0900\n\nUpdate README.md\n\nverion -> version",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/b25389067e4fe3938228147602be29830952f7e7",
+      "html_url": "https://github.com/zorazrw/filco/commit/b25389067e4fe3938228147602be29830952f7e7",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/b25389067e4fe3938228147602be29830952f7e7/comments",
+      "author": {
+        "login": "eltociear",
+        "id": 22633385,
+        "node_id": "MDQ6VXNlcjIyNjMzMzg1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22633385?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/eltociear",
+        "html_url": "https://github.com/eltociear",
+        "followers_url": "https://api.github.com/users/eltociear/followers",
+        "following_url": "https://api.github.com/users/eltociear/following{/other_user}",
+        "gists_url": "https://api.github.com/users/eltociear/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/eltociear/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/eltociear/subscriptions",
+        "organizations_url": "https://api.github.com/users/eltociear/orgs",
+        "repos_url": "https://api.github.com/users/eltociear/repos",
+        "events_url": "https://api.github.com/users/eltociear/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/eltociear/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+          "html_url": "https://github.com/zorazrw/filco/commit/acf2d35381a6c66752d486ba47d76b9d40cd41e1"
+        }
+      ]
+    },
+    {
+      "sha": "acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+      "node_id": "C_kwDOKtg9mNoAKGFjZjJkMzUzODFhNmM2Njc1MmQ0ODZiYTQ3ZDc2YjlkNDBjZDQxZTE",
+      "commit": {
+        "author": {
+          "name": "Zora/Zhiruo Wang",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2023-11-15T02:08:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-11-15T02:08:01Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "ecf2944ee2b6bf5faeb8479e88718a1569e6f96c",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/ecf2944ee2b6bf5faeb8479e88718a1569e6f96c"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlVCgBCRBK7hj4Ov3rIwAAa/MIAB+HfvpPvioUoRa3CfCrVZUZ\nMuCAeUVCD8A4fcfCv+wbijjF8cFmG03+6DnhIZpTTKLnmKV0xW/ni6jv9Wa2K/dL\noh6MAAX6Rcs01T3OySr25mHNX3mRTuQcE6KMlyhEibMZZ5UWknXLpOG2lbwB674F\n3qMjxjUwgqVH/EIWhRArvDwd1eRMQxrIJkAiiSOb8+QER9FnD7ThAhqGV4Yyk0fe\npyUr2HWvAOSgmlwrdd6mqFRXn3lQt4Y1nTuQQ4ZEEYmEjQH84L2I9hWbjOCUmSU/\nA1wQXulc9pkmHHsfUXkfbtoiOUGMkBPrMPJ4ZwtNP5EYM24f++rE/m+3NCq5y+c=\n=g3We\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ecf2944ee2b6bf5faeb8479e88718a1569e6f96c\nparent 702ba8db0b5d852045a8d986fe04fa278ac0cbb6\nauthor Zora/Zhiruo Wang <zhiruo.zora.wang@gmail.com> 1700014081 -0500\ncommitter GitHub <noreply@github.com> 1700014081 -0500\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+      "html_url": "https://github.com/zorazrw/filco/commit/acf2d35381a6c66752d486ba47d76b9d40cd41e1",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/acf2d35381a6c66752d486ba47d76b9d40cd41e1/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "702ba8db0b5d852045a8d986fe04fa278ac0cbb6",
+          "url": "https://api.github.com/repos/zorazrw/filco/commits/702ba8db0b5d852045a8d986fe04fa278ac0cbb6",
+          "html_url": "https://github.com/zorazrw/filco/commit/702ba8db0b5d852045a8d986fe04fa278ac0cbb6"
+        }
+      ]
+    },
+    {
+      "sha": "702ba8db0b5d852045a8d986fe04fa278ac0cbb6",
+      "node_id": "C_kwDOKtg9mNoAKDcwMmJhOGRiMGI1ZDg1MjA0NWE4ZDk4NmZlMDRmYTI3OGFjMGNiYjY",
+      "commit": {
+        "author": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2023-11-14T21:18:32Z"
+        },
+        "committer": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2023-11-14T21:18:32Z"
+        },
+        "message": "first commit",
+        "tree": {
+          "sha": "373363fa3a19746ba25ac422d73904cad53011d1",
+          "url": "https://api.github.com/repos/zorazrw/filco/git/trees/373363fa3a19746ba25ac422d73904cad53011d1"
+        },
+        "url": "https://api.github.com/repos/zorazrw/filco/git/commits/702ba8db0b5d852045a8d986fe04fa278ac0cbb6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/zorazrw/filco/commits/702ba8db0b5d852045a8d986fe04fa278ac0cbb6",
+      "html_url": "https://github.com/zorazrw/filco/commit/702ba8db0b5d852045a8d986fe04fa278ac0cbb6",
+      "comments_url": "https://api.github.com/repos/zorazrw/filco/commits/702ba8db0b5d852045a8d986fe04fa278ac0cbb6/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "zorazrw",
+      "id": 49503887,
+      "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zorazrw",
+      "html_url": "https://github.com/zorazrw",
+      "followers_url": "https://api.github.com/users/zorazrw/followers",
+      "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+      "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+      "repos_url": "https://api.github.com/users/zorazrw/repos",
+      "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 7
+    },
+    {
+      "login": "eltociear",
+      "id": 22633385,
+      "node_id": "MDQ6VXNlcjIyNjMzMzg1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22633385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eltociear",
+      "html_url": "https://github.com/eltociear",
+      "followers_url": "https://api.github.com/users/eltociear/followers",
+      "following_url": "https://api.github.com/users/eltociear/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eltociear/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eltociear/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eltociear/subscriptions",
+      "organizations_url": "https://api.github.com/users/eltociear/orgs",
+      "repos_url": "https://api.github.com/users/eltociear/repos",
+      "events_url": "https://api.github.com/users/eltociear/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eltociear/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 53794
+  },
+  "readme_html": "<h1 id=\"user-content-filco\">FilCo</h1>\n<p>This repository contains the code and data about the project:\n<a href=\"https://arxiv.org/pdf/2311.08377.pdf\">Learning to Filter Context for Retrieval-Augmented Generation</a></p>\n<h2 id=\"user-content-install\">Install</h2>\n<p>Install all required libraries by running</p>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n<p>Retrieve top relevant Wikipedia passages using <a href=\"https://github.com/facebookresearch/DPR\">Dense Passage Retriever (DPR)</a>\nand store into the <code>./datasets/${name}</code> directory. We also provide preprocessed datasets with top-5 retrieved passages <a href=\"https://drive.google.com/file/d/13z_qrVOBlgu75IJBpX-1vMSCC6hC9yH4/view?usp=sharing\">(here)</a>.\nWe specify <code>${name}</code> for six datasets with ['nq', 'tqa', 'hotpotqa', 'fever', 'wow'] in following example commands.</p>\n<h2 id=\"user-content-measure-retrieved-passages\">Measure Retrieved Passages</h2>\n<p>Before filtering out potentially redundant context, we need to measure the utility scores of individual spans in the retrieved passages.\nYou can use any of the three context filtering strategies:\n(i) entailment, (ii) lexical overlap, and (iii) conditional cross-mutual information (CXMI).</p>\n<p>Use <code>measure_ctxs.py</code> to measure the utility score of each retrieved passage,\nas well as individual sentences within, for example:</p>\n<pre><code class=\"language-bash\">python measure_ctxs.py \\\n--dataset_path \"./datasets/nq/base/test.json\" \\\n--output_path  \"./datasets/nq/scored/test.json\" \\\n--metric_name  \"strinc\" \"lexical\" \"cxmi\" \\\n--n_contexts 5 \\\n--prefix \"Given the ['context', 'question'], predict the answer to the question:\"\n</code></pre>\n<p>If \"cxmi\" is specified as one of the <code>metric_name</code>s, make sure you specify the huggingface model to use in <code>model_name_or_path</code>. Or it will use \"google/flan-t5-xl\" by default.</p>\n<h2 id=\"user-content-obtain-training--testing-data\">Obtain Training &#x26; Testing Data</h2>\n<p>Use <code>get_inputs.py</code> to create input-output training pairs for both the context filtering model $M_{ctx}$ and generation model $M_{gen}$.</p>\n<p>For the <em>context filtering task</em>, the input should be all top-K retrieved passages, and the output is context filtered with one of the three strategies.</p>\n<pre><code class=\"language-bash\">python get_inputs.py \\\n--dataset_path \"./datasets/nq/scored/train.json\" \\\n--output_path \"./datasets/nq/mctx/em/train_em_top1.json\" \\\n--input_list question passage --output_list filtered \\\n--n_examples 0 --n_contexts 1 \\\n--filter_criteria strinc --print_example\n</code></pre>\n<p>Alter the value of <code>n_examples</code> to include more in-context examples. Adjust the value of <code>n_contexts</code> to change the number of retrieved passages involved. <code>filter_criteria</code> specifies which filtering strategy you want to use, among ['strinc', 'lexical', 'cxmi'].</p>\n<p>For the <em>generation task</em>, the input should be filtered context, and output is the annotated output.</p>\n<pre><code class=\"language-bash\">python get_inputs.py \\\n--dataset_path \"./datasets/nq/scored/train.json\" \\\n--output_path \"./datasets/nq/mgen/em/train_em_top1.json\" \\\n--input_list question filtered --output_list answer \\\n--n_examples 0 --n_contexts 1 \\\n--filter_criteria strinc --print_example\n</code></pre>\n<p>The only changes to the context filtering case is the <code>input_list</code> and <code>output_list</code>, where we switched the input context to from entire passages ('passage') to filtered sentences ('filtered').</p>\n<h2 id=\"user-content-training-a-context-filtering-model\">Training A Context Filtering Model</h2>\n<p>Perform the above processing on training, validation, and test data,\nthen to fine-tune a FlanT5 (xl) model using <code>train.py</code>, which passes\nin \"google/flan-t5-xl\" to the <code>model_name_or_path</code> argument by default.</p>\n<pre><code class=\"language-bash\">python train.py \\\n--train_data_path \"./datasets/nq/mctx/em/train_em_top1.json\" \\\n--eval_data_path \"./datasets/nq/mctx/em/dev_em_top1.json\" \\\n--test_data_path \"./datasets/nq/mctx/em/test_em_top1.json\" \\\n--output_dir \"./checkpoints/nq-mctx_filco-em\" \\\n--do_train --do_eval --do_predict\n</code></pre>\n<p>After training, load the fine-tuned checkpoint to predict filtered context for testing examples.</p>\n<pre><code class=\"language-bash\">python query.py \\\n--dataset_path \"./datasets/nq/mctx/em/test_em_top1.json\" \\\n--output_path \"./output/nq/mctx/filco-em_tuned-ft5.json\" \\\n--model_name_or_path \"./checkpoints/nq-mctx_filco-em\"\n</code></pre>\n<p>After this, convert the dataset to generation example format by</p>\n<pre><code class=\"language-bash\">python replace_context.py \\\n--dataset_path \"./datasets/nq/base/test.json\" \\\n--predset_path \"./output/nq/mctx/filco-em_tuned-ft5.json\" \\\n--output_path \"./datasets/nq/mgen/em/test_em_top1_predict-ft5.json\" \\\n--process_dataset nq\n</code></pre>\n<p>To train and query LLaMa models, switch the model name to \"meta-llama/Llama-2-7b-hf\".\nAlternatively using xTuring, run <code>train_llama.py</code> and <code>query_llama.py</code> with similar arguments, but transform the examples into instruction style using <code>convert_dataset.py</code>.</p>\n<h2 id=\"user-content-training-a-generation-model-with-filtered-context\">Training A Generation Model with Filtered Context</h2>\n<p>Prepare the training and validation data using the same method,\nthen train Flan-T5 models using <code>train.py</code> and LLaMa models with <code>train_llama.py</code>.</p>\n<pre><code class=\"language-bash\">python train.py \\\n--train_data_path \"./datasets/nq/mgen/em/train_em_top1.json\" \\\n--eval_data_path \"./datasets/nq/mgen/em/dev_em_top1.json\" \\\n--test_data_path \"./datasets/nq/mgen/em/test_em_top1.json\" \\\n--output_dir \"./checkpoints/nq-mgen_filco-em\" \\\n--do_train --do_eval --do_predict\n</code></pre>\n<p>To use the tuned model checkpoint for inference, run</p>\n<pre><code class=\"language-bash\">python query.py \\\n--dataset_path \"./datasets/nq/mgen/em/test_em_top1.json\" \\\n--output_path \"./output/nq/mgen/silver-em_tuned-ft5.json\" \\\n--model_name_or_path \"./checkpoints/nq-mgen_filco-em\"\n</code></pre>\n<p>Switch the silver filtered context (e.g., \"./datasets/nq/mgen/em/train_em_top1.json\") to model filtered context (e.g., \"./output/nq/mctx/filco-em_tuned-ft5.json\") to experiment in the <strong>FilCo</strong> setting.</p>\n<h2 id=\"user-content-evaluating-filtering-and-generation-models\">Evaluating Filtering and Generation Models</h2>\n<p>To evaluate the generation performance, use the EM (~Accuracy) or F1\naccording to the task formulation.</p>\n<pre><code class=\"language-bash\">python eval.py \\\n--dataset_path \"./datasets/nq/base/test.json\" \\\n--predset_path \"./output/nq/mgen/silver-em_tuned-ft5.json\" \\\n--metric_name \"em\"\n</code></pre>\n<h2 id=\"user-content-reference\">Reference</h2>\n<p>If you find our paper or code useful, please cite the paper</p>\n<pre><code>@article{wang2023learning,\n  title={Learning to Filter Context for Retrieval-Augmented Generation},\n  author={Zhiruo Wang, Jun Araki, Zhengbao Jiang, Md Rizwan Parvez, Graham Neubig},\n  journal={arXiv preprint arXiv:2311.08377},\n  year={2023}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:16:58.252Z"
+}

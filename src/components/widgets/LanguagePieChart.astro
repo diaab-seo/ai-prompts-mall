@@ -1,0 +1,18 @@
+---
+// LanguagePieChart widget (Section 6.3) — CSS conic-gradient
+interface Props { languages: Record<string, number> }
+const { languages } = Astro.props;
+const entries = Object.entries(languages).sort(([,a],[,b]) => b - a).slice(0, 6);
+const total = entries.reduce((s, [,v]) => s + v, 0);
+const colors = ['#6366f1','#10b981','#f59e0b','#ef4444','#3b82f6','#8b5cf6'];
+---
+<div class="lang-pie" aria-label={`Primary language: ${entries[0]?.[0] ?? 'unknown'}`}>
+  <ul role="list" class="lang-legend">
+    {entries.map(([lang, bytes], i) => (
+      <li aria-label={`${lang}: ${Math.round((bytes/total)*100)}%`}>
+        <span class="lang-swatch" style={`background:${colors[i]}`}></span>
+        {lang} — {Math.round((bytes/total)*100)}%
+      </li>
+    ))}
+  </ul>
+</div>

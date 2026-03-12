@@ -1,0 +1,869 @@
+{
+  "id": 814306063,
+  "node_id": "R_kgDOMIlTDw",
+  "name": "code-rag-bench",
+  "full_name": "code-rag-bench/code-rag-bench",
+  "private": false,
+  "owner": {
+    "login": "code-rag-bench",
+    "id": 171500571,
+    "node_id": "O_kgDOCjjkGw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/171500571?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/code-rag-bench",
+    "html_url": "https://github.com/code-rag-bench",
+    "followers_url": "https://api.github.com/users/code-rag-bench/followers",
+    "following_url": "https://api.github.com/users/code-rag-bench/following{/other_user}",
+    "gists_url": "https://api.github.com/users/code-rag-bench/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/code-rag-bench/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/code-rag-bench/subscriptions",
+    "organizations_url": "https://api.github.com/users/code-rag-bench/orgs",
+    "repos_url": "https://api.github.com/users/code-rag-bench/repos",
+    "events_url": "https://api.github.com/users/code-rag-bench/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/code-rag-bench/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/code-rag-bench/code-rag-bench",
+  "description": "CodeRAG-Bench: Can Retrieval Augment Code Generation?",
+  "fork": false,
+  "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench",
+  "forks_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/forks",
+  "keys_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/teams",
+  "hooks_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/hooks",
+  "issue_events_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/events",
+  "assignees_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/tags",
+  "blobs_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/languages",
+  "stargazers_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/stargazers",
+  "contributors_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/contributors",
+  "subscribers_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/subscribers",
+  "subscription_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/subscription",
+  "commits_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/merges",
+  "archive_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/downloads",
+  "issues_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/labels{/name}",
+  "releases_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/deployments",
+  "created_at": "2024-06-12T18:40:30Z",
+  "updated_at": "2026-03-09T03:44:00Z",
+  "pushed_at": "2024-11-15T19:58:55Z",
+  "git_url": "git://github.com/code-rag-bench/code-rag-bench.git",
+  "ssh_url": "git@github.com:code-rag-bench/code-rag-bench.git",
+  "clone_url": "https://github.com/code-rag-bench/code-rag-bench.git",
+  "svn_url": "https://github.com/code-rag-bench/code-rag-bench",
+  "homepage": "https://code-rag-bench.github.io/",
+  "size": 328250,
+  "stargazers_count": 170,
+  "watchers_count": 170,
+  "language": "HTML",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 17,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 10,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "code-generation",
+    "execution-based-evaluation",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 17,
+  "open_issues": 10,
+  "watchers": 170,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-agents",
+  "commits": [
+    {
+      "sha": "f9e100ca9ed94b8f1983b356ae81966e30210cf4",
+      "node_id": "C_kwDOMIlTD9oAKGY5ZTEwMGNhOWVkOTRiOGYxOTgzYjM1NmFlODE5NjZlMzAyMTBjZjQ",
+      "commit": {
+        "author": {
+          "name": "Yiqing Xie",
+          "email": "yiqingxi@andrew.cmu.edu",
+          "date": "2024-11-15T19:58:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-15T19:58:55Z"
+        },
+        "message": "Merge pull request #4 from code-rag-bench/debug\n\ndebug: arguments for get_top_docs()",
+        "tree": {
+          "sha": "dde936268b033e9db3efa41b2b7cebc3a0e8e31e",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/dde936268b033e9db3efa41b2b7cebc3a0e8e31e"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/f9e100ca9ed94b8f1983b356ae81966e30210cf4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnN6f/CRC1aQ7uu5UhlAAAQEIQADHSW6eRUQp1u0ep42sGEr+y\nwSfqAeJ3UGCTMW2bnyJlpqWLhYokqKjKxt2In+02uaSk8BHef/WaIidXM2JqSwST\njCrZ7ajCaUFANWo3XfJe6RzkEUjOoJTTqt3D8aeNlGtbO+qPQ5iv2GQVQmAfTU2t\nao3YlBae3W3KvlRKxDwtseNW5yUu8kiK9/7XhIhysL6CQ/VvqJwMMhzLjLNO6YyC\nnjTOfp3bvSbQl2Zdm2IwnwwtxlwV5wUtPXQ1YMfhFJM1JhgL9YAPKWivrLRjtJb9\neZiyIpQOZ5Ju4i2tukUCMO1eRlgnmGdc9Nd3sfuzRxGIK7IqHBsIKaLewWB/JVre\nxhAyoupwFvKmorr10CLJfzbsnl8jvLcEPzfDXCCjJjPn9oqJXxMVkhjUV6ysX8UW\nEV7hfXGazd1q/oXgPPMmPKFbexpM30Pxf6sGeC6hVqWychJJQd98Jp6uUVx/BUwH\nM6fZuC2SeGIxYzil0GD8YSvuCAebRAIyVc9GIGGn2QbdM9fKAgVdx3cCX2TSVmhk\n7YSXkA2yliksQMmwiU1c1nnz2HPh1pSaPDYkgBtrmGqGRaciBqGBxWZDt7doVera\nU/70P2KFTpWb+kqZK9Jz9RkIsPirgwM1mZgfn/Bc0kFWq62PgOh3uTULh1FH7Sqy\nmyU8YB1htbsXPGi6U3Fu\n=fcJh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dde936268b033e9db3efa41b2b7cebc3a0e8e31e\nparent 35e201f7354aff0cc768c11aa4d600bb4a62e0d9\nparent d5a037052acd5833a0f92acb82f83d0db0b145e1\nauthor Yiqing Xie <yiqingxi@andrew.cmu.edu> 1731700735 -0500\ncommitter GitHub <noreply@github.com> 1731700735 -0500\n\nMerge pull request #4 from code-rag-bench/debug\n\ndebug: arguments for get_top_docs()",
+          "verified_at": "2024-11-15T20:04:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/f9e100ca9ed94b8f1983b356ae81966e30210cf4",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/f9e100ca9ed94b8f1983b356ae81966e30210cf4",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/f9e100ca9ed94b8f1983b356ae81966e30210cf4/comments",
+      "author": {
+        "login": "yiqingxyq",
+        "id": 29749047,
+        "node_id": "MDQ6VXNlcjI5NzQ5MDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/29749047?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yiqingxyq",
+        "html_url": "https://github.com/yiqingxyq",
+        "followers_url": "https://api.github.com/users/yiqingxyq/followers",
+        "following_url": "https://api.github.com/users/yiqingxyq/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yiqingxyq/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yiqingxyq/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yiqingxyq/subscriptions",
+        "organizations_url": "https://api.github.com/users/yiqingxyq/orgs",
+        "repos_url": "https://api.github.com/users/yiqingxyq/repos",
+        "events_url": "https://api.github.com/users/yiqingxyq/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yiqingxyq/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/35e201f7354aff0cc768c11aa4d600bb4a62e0d9"
+        },
+        {
+          "sha": "d5a037052acd5833a0f92acb82f83d0db0b145e1",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/d5a037052acd5833a0f92acb82f83d0db0b145e1",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/d5a037052acd5833a0f92acb82f83d0db0b145e1"
+        }
+      ]
+    },
+    {
+      "sha": "d5a037052acd5833a0f92acb82f83d0db0b145e1",
+      "node_id": "C_kwDOMIlTD9oAKGQ1YTAzNzA1MmFjZDU4MzNhMGY5MmFjYjgyZjgzZDBkYjBiMTQ1ZTE",
+      "commit": {
+        "author": {
+          "name": "veronicium",
+          "email": "xyiqing2@illinois.edu",
+          "date": "2024-11-13T19:58:57Z"
+        },
+        "committer": {
+          "name": "veronicium",
+          "email": "xyiqing2@illinois.edu",
+          "date": "2024-11-13T19:58:57Z"
+        },
+        "message": "debug: arguments for get_top_docs()",
+        "tree": {
+          "sha": "dde936268b033e9db3efa41b2b7cebc3a0e8e31e",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/dde936268b033e9db3efa41b2b7cebc3a0e8e31e"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/d5a037052acd5833a0f92acb82f83d0db0b145e1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/d5a037052acd5833a0f92acb82f83d0db0b145e1",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/d5a037052acd5833a0f92acb82f83d0db0b145e1",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/d5a037052acd5833a0f92acb82f83d0db0b145e1/comments",
+      "author": null,
+      "committer": null,
+      "parents": [
+        {
+          "sha": "35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/35e201f7354aff0cc768c11aa4d600bb4a62e0d9"
+        }
+      ]
+    },
+    {
+      "sha": "35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+      "node_id": "C_kwDOMIlTD9oAKDM1ZTIwMWY3MzU0YWZmMGNjNzY4YzExYWE0ZDYwMGJiNGE2MmUwZDk",
+      "commit": {
+        "author": {
+          "name": "Yiqing Xie",
+          "email": "yiqingxi@andrew.cmu.edu",
+          "date": "2024-11-11T19:13:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-11-11T19:13:28Z"
+        },
+        "message": "Minor edit of README.md: specify `PYTHONPATH=./` if `ModuleNotFoundError`",
+        "tree": {
+          "sha": "bd541768cba962b8c07fb6453f590887e8e75e23",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/bd541768cba962b8c07fb6453f590887e8e75e23"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnMldYCRC1aQ7uu5UhlAAAPb0QAB8SwNLoNkD0jg2ASVBT1Qfw\nQcueeKeWCNadkTITmBrTBkPlpxSp8jCUJYBq2aAezews3KOzMDhxE7L7dASkOB6O\naLMDFQuES1MxX3Y97rnl+463pjjLU0fGlvoOyrGi4KZTolTx1yAhPFKBMol4n59d\nlAP6iDS2qysMtIdgGYFCpioY6FLDobjmftJ+4n0QJsLfej58spE0y/c5aEurKvqy\npWdSymGcxHMBGsX9ictqFFsht6HSa6f3AlovXqZ7AiFnLz0/NMPFU4/vj2S9NWxg\nhOKUbtqAfLkvRCSALkqJxDcyrEgePBAUv5zOksI+WQo5/owteFtmyqZfVYSgPgkU\nl12cscq0PwQgSB6GP6NoOapvT6qw1DiXeJHXGrjGZqCfQBhryQU5lcIyhZKaX82N\n0FQufzGzd1ozZmqNCrqpIgcWZuH/EXCCCXePicBhxoLj85K3wgr3+kxUSZSK7yEr\ndw9iKuMy056UM1lUhVSI7260N1Q/YlNJv8sOOuDq62U57CANUp7t9dT4JDeytcpa\nV+3OZGg6E0od4Q5ZCubtKkKIK6SyTJCdg5N980/ThsHxd2eRr5FlsxSBRLQgE9I9\nXtqz7BeJXi8ib0rJHyoMy1AU+mcwDlNi8sYuleAdvY0HGWHhcvvRpS2Hsm1rkAMP\n5BOF1i0yUXEUsR0UAZep\n=jNfC\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bd541768cba962b8c07fb6453f590887e8e75e23\nparent 9116ead00abb41abc03c08853485c11e51355a7b\nauthor Yiqing Xie <yiqingxi@andrew.cmu.edu> 1731352408 -0500\ncommitter GitHub <noreply@github.com> 1731352408 -0500\n\nMinor edit of README.md: specify `PYTHONPATH=./` if `ModuleNotFoundError`",
+          "verified_at": "2024-11-11T19:18:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/35e201f7354aff0cc768c11aa4d600bb4a62e0d9",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/35e201f7354aff0cc768c11aa4d600bb4a62e0d9/comments",
+      "author": {
+        "login": "yiqingxyq",
+        "id": 29749047,
+        "node_id": "MDQ6VXNlcjI5NzQ5MDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/29749047?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yiqingxyq",
+        "html_url": "https://github.com/yiqingxyq",
+        "followers_url": "https://api.github.com/users/yiqingxyq/followers",
+        "following_url": "https://api.github.com/users/yiqingxyq/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yiqingxyq/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yiqingxyq/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yiqingxyq/subscriptions",
+        "organizations_url": "https://api.github.com/users/yiqingxyq/orgs",
+        "repos_url": "https://api.github.com/users/yiqingxyq/repos",
+        "events_url": "https://api.github.com/users/yiqingxyq/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yiqingxyq/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9116ead00abb41abc03c08853485c11e51355a7b",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/9116ead00abb41abc03c08853485c11e51355a7b",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/9116ead00abb41abc03c08853485c11e51355a7b"
+        }
+      ]
+    },
+    {
+      "sha": "9116ead00abb41abc03c08853485c11e51355a7b",
+      "node_id": "C_kwDOMIlTD9oAKDkxMTZlYWQwMGFiYjQxYWJjMDNjMDg4NTM0ODVjMTFlNTEzNTVhN2I",
+      "commit": {
+        "author": {
+          "name": "Yiqing Xie",
+          "email": "yiqingxi@andrew.cmu.edu",
+          "date": "2024-06-22T22:26:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-22T22:26:36Z"
+        },
+        "message": "Update default argument values for RepoEval-func",
+        "tree": {
+          "sha": "4480e724101bd0318a585c4b84b6b1bf407e9ecf",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/4480e724101bd0318a585c4b84b6b1bf407e9ecf"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/9116ead00abb41abc03c08853485c11e51355a7b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmd0+cCRC1aQ7uu5UhlAAAaTwQAHpI9U90W4i6kvNmINORh7VO\nY3GJmc4Dq8/rwJ0Z5I/ALfxTv6978K5nrxGc7tMrxNTmjAjbpNuYFdU+TKYSHMnN\n3EOBi6JpvNzhxIDwuv7taXUuWafuRgFnn1FcPcksuKwnKTWXT7rF0HG+bzrEscFN\neov//qeSp5Vn+RaMQz8AgIXoSwc3oRNXN9foJEPFfEhoBkqg5L7+QhRiKE4nzk5Q\nIAtiaAvp0DObEsJv/y+FZQP3sxOxI0yqeM3YdqB+BDtz2s5xwfqpgQ3IRhaMfg+M\nF6rZv8105NUWPqK3WV8ecg3clorcd4TZ0F53dv2qOjSYTilU8zDCGmly+Jpa1l6Z\nOmuw/NdLuKV1Xmalv1886ANalJ0R7rI7lA5i9aryfU5nl/cY7VYrHJLtNUIIlSxa\n8ZY/4cEZgk564rIQDQn3HH1YHlnMPhATsQd2lZhGYRwTva/sK09a249tmavn6J5H\n2cZ4qwkZA2hnwtf3ixSMHuHpT6L5hX/ur9Ju+r5zEpNwVW+R1vvRo1VsTSV6d4Fe\ntthf5tKjNwF4YH9YmtrFkoDLTIkmr1vTyuJqUTHLsW+/d42TjtIGVfmx417GtIf6\n3yuJP8Ft7QeRipHv2HfvyyUg9lVKlh5s3rzBN6V2mQQ2aKJJjsqVHeB2cu/D3IJw\njg+Z6Uii4ptGWoAEVFyh\n=vuku\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4480e724101bd0318a585c4b84b6b1bf407e9ecf\nparent 9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0\nauthor Yiqing Xie <yiqingxi@andrew.cmu.edu> 1719095196 -0400\ncommitter GitHub <noreply@github.com> 1719095196 -0400\n\nUpdate default argument values for RepoEval-func",
+          "verified_at": "2024-11-04T23:23:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/9116ead00abb41abc03c08853485c11e51355a7b",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/9116ead00abb41abc03c08853485c11e51355a7b",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/9116ead00abb41abc03c08853485c11e51355a7b/comments",
+      "author": {
+        "login": "yiqingxyq",
+        "id": 29749047,
+        "node_id": "MDQ6VXNlcjI5NzQ5MDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/29749047?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yiqingxyq",
+        "html_url": "https://github.com/yiqingxyq",
+        "followers_url": "https://api.github.com/users/yiqingxyq/followers",
+        "following_url": "https://api.github.com/users/yiqingxyq/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yiqingxyq/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yiqingxyq/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yiqingxyq/subscriptions",
+        "organizations_url": "https://api.github.com/users/yiqingxyq/orgs",
+        "repos_url": "https://api.github.com/users/yiqingxyq/repos",
+        "events_url": "https://api.github.com/users/yiqingxyq/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yiqingxyq/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0"
+        }
+      ]
+    },
+    {
+      "sha": "9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0",
+      "node_id": "C_kwDOMIlTD9oAKDlmZjc2YTFmZDg0NWZjZGQ1OGMzYWQ5YzFiOTNkMzFiN2ZiZmY1ZTA",
+      "commit": {
+        "author": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T19:43:05Z"
+        },
+        "committer": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T19:43:05Z"
+        },
+        "message": "add README",
+        "tree": {
+          "sha": "60080789a16102567c507194ab1eafd146c7df53",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/60080789a16102567c507194ab1eafd146c7df53"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/9ff76a1fd845fcdd58c3ad9c1b93d31b7fbff5e0/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0853f7488e16351235dc151021cb74a53956f003",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/0853f7488e16351235dc151021cb74a53956f003",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/0853f7488e16351235dc151021cb74a53956f003"
+        }
+      ]
+    },
+    {
+      "sha": "0853f7488e16351235dc151021cb74a53956f003",
+      "node_id": "C_kwDOMIlTD9oAKDA4NTNmNzQ4OGUxNjM1MTIzNWRjMTUxMDIxY2I3NGE1Mzk1NmYwMDM",
+      "commit": {
+        "author": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T19:43:00Z"
+        },
+        "committer": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T19:43:00Z"
+        },
+        "message": "add retrieval scripts",
+        "tree": {
+          "sha": "69740b18963922b72aecf2ba254f1725aa89a30a",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/69740b18963922b72aecf2ba254f1725aa89a30a"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/0853f7488e16351235dc151021cb74a53956f003",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/0853f7488e16351235dc151021cb74a53956f003",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/0853f7488e16351235dc151021cb74a53956f003",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/0853f7488e16351235dc151021cb74a53956f003/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46"
+        }
+      ]
+    },
+    {
+      "sha": "02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46",
+      "node_id": "C_kwDOMIlTD9oAKDAyYzZhY2RjYjVkMjBhYzJiN2RjYzRlZjJmODFiOGJmYTI3ZjNlNDY",
+      "commit": {
+        "author": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T18:46:31Z"
+        },
+        "committer": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T18:46:31Z"
+        },
+        "message": "add generation scripts",
+        "tree": {
+          "sha": "e0de07a0dea2c04f1f43895922ce7d4d30ee8295",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/e0de07a0dea2c04f1f43895922ce7d4d30ee8295"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/02c6acdcb5d20ac2b7dcc4ef2f81b8bfa27f3e46/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "76a9e20d887edd9c1b549b5867a972581541a709",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/76a9e20d887edd9c1b549b5867a972581541a709",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/76a9e20d887edd9c1b549b5867a972581541a709"
+        }
+      ]
+    },
+    {
+      "sha": "76a9e20d887edd9c1b549b5867a972581541a709",
+      "node_id": "C_kwDOMIlTD9oAKDc2YTllMjBkODg3ZWRkOWMxYjU0OWI1ODY3YTk3MjU4MTU0MWE3MDk",
+      "commit": {
+        "author": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T18:44:30Z"
+        },
+        "committer": {
+          "name": "zorazrw",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T18:44:30Z"
+        },
+        "message": "add preprocessing scripts",
+        "tree": {
+          "sha": "02516a1bc6dc28f07389c477a7296f0e0197e86f",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/02516a1bc6dc28f07389c477a7296f0e0197e86f"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/76a9e20d887edd9c1b549b5867a972581541a709",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/76a9e20d887edd9c1b549b5867a972581541a709",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/76a9e20d887edd9c1b549b5867a972581541a709",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/76a9e20d887edd9c1b549b5867a972581541a709/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "23feb2102f5e9e2b533d9441c38f1305e55ab904",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/23feb2102f5e9e2b533d9441c38f1305e55ab904",
+          "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/23feb2102f5e9e2b533d9441c38f1305e55ab904"
+        }
+      ]
+    },
+    {
+      "sha": "23feb2102f5e9e2b533d9441c38f1305e55ab904",
+      "node_id": "C_kwDOMIlTD9oAKDIzZmViMjEwMmY1ZTllMmI1MzNkOTQ0MWMzOGYxMzA1ZTU1YWI5MDQ",
+      "commit": {
+        "author": {
+          "name": "Zora/Zhiruo Wang",
+          "email": "zhiruo.zora.wang@gmail.com",
+          "date": "2024-06-12T18:40:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-12T18:40:31Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "7e9d45b54b9620a26dd541cc3f265180856cd1da",
+          "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/trees/7e9d45b54b9620a26dd541cc3f265180856cd1da"
+        },
+        "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/git/commits/23feb2102f5e9e2b533d9441c38f1305e55ab904",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmaeufCRC1aQ7uu5UhlAAAAAQQAK59o8vdW7qLepAGmSDgEFFh\ngnQWwoWpFVWQUFq40xd4T+8A3kRaLWFisEsfn+ZaBhoU2xe32CVn7hc6BRC2lQ9l\nV99ozElLkcwBBF4I9I1RSMoLdUxuWWXQaBf3wuzFXoMkDp4cOdww1neTICATfgnu\nLw47J39Ql0XHNlzo1yQ/yEDD+i07w80Fk+dHFbfxfMhTyv9VlCkPsl1s82AvykyJ\nJsGXXK2XeluN1SowH8usQGV1A1c6roG7x0dhcPjYT3rYTVREroMuuq1aMAI3+K7i\n750i/jVp5Uaji0SWkMjbrMZ4FGsb24/TEM27SZcYyoa5G98UcHOQgzhXHXkLqA+g\n5zKGGWEFqal4KyAF922JYdJCltFrh4NnMvmz0wwA/U5R5GklFZAyiFwWf5SWNbEc\ntFHkJ+rL2zM49SneYErEv2+imcU1dPEXoMecziveFLw4FZM62/nauE5c6UraqrL+\nU7AJ01oept3lni0dyQdECT1aaJ2UW7t7t+uNsUeoTCMvbJApHJWZwaMe1QpdVbFq\nMYDLDELQoO+vT0YbrLXTb6h56ESYB8Bjrl/bNiv1Yguvu5xfnoPaMeubo79i80MY\nv+l67pgthX++NUlstHhoLi/gV0Ad/RsBKuoT98wHFQs+CEKFW5LssWQCuk3o66LY\nw7AOBj6jmLqKGbLHMtgE\n=piXi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7e9d45b54b9620a26dd541cc3f265180856cd1da\nauthor Zora/Zhiruo Wang <zhiruo.zora.wang@gmail.com> 1718217631 -0400\ncommitter GitHub <noreply@github.com> 1718217631 -0400\n\nInitial commit",
+          "verified_at": "2024-11-10T07:57:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/23feb2102f5e9e2b533d9441c38f1305e55ab904",
+      "html_url": "https://github.com/code-rag-bench/code-rag-bench/commit/23feb2102f5e9e2b533d9441c38f1305e55ab904",
+      "comments_url": "https://api.github.com/repos/code-rag-bench/code-rag-bench/commits/23feb2102f5e9e2b533d9441c38f1305e55ab904/comments",
+      "author": {
+        "login": "zorazrw",
+        "id": 49503887,
+        "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zorazrw",
+        "html_url": "https://github.com/zorazrw",
+        "followers_url": "https://api.github.com/users/zorazrw/followers",
+        "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+        "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+        "repos_url": "https://api.github.com/users/zorazrw/repos",
+        "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "zorazrw",
+      "id": 49503887,
+      "node_id": "MDQ6VXNlcjQ5NTAzODg3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49503887?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zorazrw",
+      "html_url": "https://github.com/zorazrw",
+      "followers_url": "https://api.github.com/users/zorazrw/followers",
+      "following_url": "https://api.github.com/users/zorazrw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zorazrw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zorazrw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zorazrw/subscriptions",
+      "organizations_url": "https://api.github.com/users/zorazrw/orgs",
+      "repos_url": "https://api.github.com/users/zorazrw/repos",
+      "events_url": "https://api.github.com/users/zorazrw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zorazrw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 5
+    },
+    {
+      "login": "yiqingxyq",
+      "id": 29749047,
+      "node_id": "MDQ6VXNlcjI5NzQ5MDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29749047?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yiqingxyq",
+      "html_url": "https://github.com/yiqingxyq",
+      "followers_url": "https://api.github.com/users/yiqingxyq/followers",
+      "following_url": "https://api.github.com/users/yiqingxyq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yiqingxyq/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yiqingxyq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yiqingxyq/subscriptions",
+      "organizations_url": "https://api.github.com/users/yiqingxyq/orgs",
+      "repos_url": "https://api.github.com/users/yiqingxyq/repos",
+      "events_url": "https://api.github.com/users/yiqingxyq/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yiqingxyq/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 3
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "HTML": 208362155,
+    "Python": 467144,
+    "Shell": 3418
+  },
+  "readme_html": "<h1 id=\"user-content-coderag-bench\">CodeRAG-Bench</h1>\n<p>This is the code repository for the project <a href=\"https://code-rag-bench.github.io/\">\"CodeRAG-Bench: Can Retrieval Augment Code Generation?\"</a>.</p>\n<h2 id=\"user-content-installation\">Installation</h2>\n<p>Create a new environment:</p>\n<pre><code>conda env create -n crag python=3.10 -y\nconda activate crag\n</code></pre>\n<p>And install the necessary libraries:</p>\n<pre><code>pip install -r requirements.txt\n</code></pre>\n<h2 id=\"user-content-organization\">Organization</h2>\n<ul>\n<li><a href=\"retrieval/\">Retrieval</a>: Code to run retrieval, with BM25, dense retrievers via <a href=\"https://www.sbert.net/\">sentence-transformers</a>, and proprietary API embeddings.</li>\n<li><a href=\"generation/\">Generation</a>: Code to run model generation and execution-based evaluation.</li>\n<li><a href=\"preprocessor/\">Preprocess</a>: code to preprocess raw data for retrieval pool construction, see inside the directory for details.</li>\n</ul>\n<h2 id=\"user-content-retrieval\">Retrieval</h2>\n<pre><code>cd retrieval/\n</code></pre>\n<h3 id=\"user-content-dataset-preprocessing\">Dataset Preprocessing</h3>\n<p>Before running retrieval on a dataset, you need to create the datastore for it. Following</p>\n<pre><code>python -m create/${data_name}.py\n# choices for ${data_name}\n# basic programming: 'humaneval', 'mbpp', 'live_code_bench'\n# open-domain: 'ds1000', 'odex'\n# repository-level: 'repoeval_repo', 'swebench_repo'\n</code></pre>\n<p>If you come across the <code>ModuleNotFoundError</code>, try running the command with <code>PYTHONPATH=./ python create/${data_name}.py</code>.</p>\n<h4 id=\"user-content-adding-new-datasets\">Adding new datasets</h4>\n<p>To run a new dataset, you can simply reformat your data into the BEIR official format, which creates a dataset directory containing the three following files, <code>corpus.jsonl</code>, <code>queries.jsonl</code> and <code>qrel/test.tsv</code>.\nSee <a href=\"benchmarks/code_search_net.py\">code_search_net.py</a> for some example script to combert code search net to document-to-code retrieval tasks.\nMake sure your resulting dataset is under <code>retrieval/datasets</code>.</p>\n<h3 id=\"user-content-run-dense-embedding-models\">Run dense embedding models</h3>\n<h4 id=\"user-content-retrieval-using-canonical-retrieval-source\">Retrieval using canonical retrieval source</h4>\n<p>Run your embedding models by loading embedding models from <code>sentence-transformers</code> as follows:</p>\n<pre><code class=\"language-sh\">python3 eval_beir_sbert_canonical.py \\\n    --model YOUR_MODEL_NAME_OR_PATH \\\n    --dataset TASK_NAME \\\n    --output_file PATH_TO_YOUR_SCORE_FILE \\\n    --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE\n</code></pre>\n<p>By specifying the output file name <code>--output_file</code>, you can save the retrieval results as a json file.</p>\n<pre><code class=\"language-json\">{'ndcg': {'NDCG@1': 0.61667, 'NDCG@3': 0.68203, 'NDCG@5': 0.70804, 'NDCG@10': 0.72701, 'NDCG@100': 0.74926, 'NDCG@1000': 0.75551}, 'mrr': {'MRR@1': 0.61667, 'MRR@3': 0.67278, 'MRR@5': 0.68611, 'MRR@10': 0.69368, 'MRR@100': 0.69721, 'MRR@1000': 0.69744}, 'recall': {'Recall@1': 0.58817, 'Recall@3': 0.728, 'Recall@5': 0.79294, 'Recall@10': 0.84789, 'Recall@100': 0.95, 'Recall@1000': 0.99667}, 'precision': {'P@1': 0.61667, 'P@3': 0.26444, 'P@5': 0.176, 'P@10': 0.09533, 'P@100': 0.01077, 'P@1000': 0.00113}}\n</code></pre>\n<p><code>--results_file</code> indicates the file name to store retrieval results, which will be used in the subsequent RAG evaluations.</p>\n<h4 id=\"user-content-generate-embeddings-for-open-retrieval\">Generate embeddings for open retrieval</h4>\n<p>For open retrieval, you can load a corpus file on our huggingface space (<a href=\"https://huggingface.co/collections/code-rag-bench/retrieval-sources-665c8ad60d71762b86506a58\">list of the corpora</a>), and generate embeddings using single or multiple GPUs.</p>\n<ul>\n<li>Generate embeddings using a single GPU</li>\n</ul>\n<pre><code>python generate_embeddings.py \\\n    --model YOUR_MODEL_NAME_OR_PATH \\\n    --output_dir OUTPUT_EMBEDDING_DIR \\\n    --hf_datasets HF_DATASET_NAME \\\n    --shard_id 0 \\\n    --num_shards 1\n</code></pre>\n<ul>\n<li>Generate embeddings using multiple GPUS (e.g. 8)</li>\n</ul>\n<pre><code>for i in {0..7}; do\n  export CUDA_VISIBLE_DEVICES=${i}\n  nohup python generate_embeddings.py --model_name_or_path YOUR_MODEL_NAME_OR_PATH \\\n  --output_dir OUTPUT_EMBEDDING_DIR \\\n  --hf_datasets HF_DATASET_NAME \\\n  --shard_id ${i} --num_shards 8 > ./log/embeddings_logs.${i} 2>&#x26;1 &#x26;\n</code></pre>\n<h4 id=\"user-content-open-retrieval-using-generated-embeddings\">Open retrieval using generated embeddings</h4>\n<p>Now you can load generated embeddings to run open retrieval for a target dataset.</p>\n<pre><code>python3 eval_beir_sbert_open.py \\\n    --model avsolatorio/GIST-large-Embedding-v0 \\\n    --embdding_path \"OUTPUT_EMBEDDING_DIR/*\" \\\n    --dataset DATASET_NAME \\\n    --hf_dataset HF_DATASET_NAME \\\n    --output_file PATH_TO_YOUR_SCORE_FILE \\\n    --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE\n</code></pre>\n<h3 id=\"user-content-run-bm25\">Run BM25</h3>\n<p>Start with a fresh environment with python 3.10</p>\n<pre><code class=\"language-sh\"># install pyserini\npip install pyserini==0.25.0\n# install openjdk-11 and maven (if you don't have any)\nconda install -c conda-forge openjdk=11 maven -y\n</code></pre>\n<p>For more information of installing pyserini, please refer to <a href=\"https://github.com/castorini/pyserini/blob/master/docs/installation.md\">installation guide for pyserini</a></p>\n<h4 id=\"user-content-for-canonical-retrieval-source-non-repo\">For canonical retrieval source (non-repo)</h4>\n<p>We provide a convenient meta script to navigate your experiments:\nPreprocess all the corpus file of existing datasets into pyserini indexable format. For each dataset, the modified corpus will be saved in <code>OUTPUT_DIR/{DATASET_NAME}_corpus/edit.jsonl</code>:</p>\n<pre><code class=\"language-sh\">python3 modify_corpus_for_bm25.py \\\n  --dataset DATASET_NAME, \"all\" if you want to do operation all datasets \\\n  --output_metadir OUTPUT_DIR \\\n  --stage preprocess\n</code></pre>\n<p>Indexing the corpus from <code>OUTPUT_DIR/{DATASET_NAME}_corpus/edit.jsonl</code>, and the index will be saved in <code>INDEX_DIR/{DATASET_NAME}_corpus/</code>:</p>\n<pre><code class=\"language-sh\">python3 modify_corpus_for_bm25.py \\\n  --dataset DATASET_NAME, \"all\" if you want to do operation all datasets \\\n  --output_metadir OUTPUT_DIR \\\n  --index_dir INDEX_DIR \\\n  --stage index\n</code></pre>\n<p>Search the query from the target dataset using BM25:</p>\n<pre><code class=\"language-sh\">python3 modify_corpus_for_bm25.py \\\n  --dataset DATASET_NAME, \"all\" if you want to do operation all datasets \\\n  --output_metadir OUTPUT_DIR \\\n  --index_dir INDEX_DIR \\\n  --top_k TOP_K \\\n  --k1 K1 \\\n  --b B \\\n  --stage search\n</code></pre>\n<p>The score file will be saved in <code>results/{DATASET_NAME}_k1={K1}_b={B}_pyserini_bm25_output.jsonl</code>, retrieval results in <code>results/{DATASET_NAME}_k1={K1}_b={B}_pyserini_bm25.jsonl</code></p>\n<p>For your convenience, you can run all the stages at once by passing <code>--stage all</code> and the corresponding parameters.</p>\n<h4 id=\"user-content-for-canonical-retrieval-source-repo\">For canonical retrieval source (repo)</h4>\n<p>We modify and index and search each instance's corpus,</p>\n<pre><code class=\"language-sh\">python eval_beir_pyserini_repo.py \\\n  --dataset DATASET_NAME \\\n  --output_metadir OUTPUT_DIR \\\n  --index_dir INDEX_DIR \\\n  --top_k TOP_K \\\n  --k1 K1 \\\n  --b B \\\n  --output_file PATH_TO_YOUR_SCORE_FILE \\\n  --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE\n</code></pre>\n<p>The modified corpus will be saved in <code>OUTPUT_DIR/{DATASET_NAME}_corpus/{instance dir}/edit.jsonl</code>,\nthe index will be saved in <code>INDEX_DIR/{DATASET_NAME}_corpus/{instance dir}</code>.</p>\n<h4 id=\"user-content-for-open-retrieval\">For open retrieval</h4>\n<p>Datasets other than swe-bench-lite are supported in this meta script:</p>\n<pre><code class=\"language-sh\">python3 eval_corpora_ablations.py \\\n  --model bm25 \\\n  --dataset DATASET_NAME, \"all\" if you want to do operation all datasets \\\n  --corpus CORPUS_NAME, \"all\" if you want to do operation all corpora \\\n  --output_metadir OUTPUT_DIR \\\n  --index_dir INDEX_DIR \\\n  --top_k TOP_K \\\n  --k1 K1 \\\n  --b B \\\n  --stage {preprocess, index, search, all}\n</code></pre>\n<p>The modified corpus will be saved in <code>OUTPUT_DIR/{CORPUS NAME}_corpus/edit.jsonl</code>,\nthe index will be saved in <code>INDEX_DIR/{CORPUS NAME}_corpus/</code>. The search result will be saved in <code>results/{DATASET_NAME}_k1={K1}_b={B}_pyserini_bm25_corpus</code>,\nand the score file will be saved in <code>{DATASET_NAME}_corpus={CORPUS_NAME}_k1={K1}_b={B}_pyserini_bm25_output.jsonl</code>, retrieval results in <code>{DATASET_NAME}_corpus={CORPUS_NAME}_k1={K1}_b={B}_pyserini_bm25.jsonl</code>.</p>\n<h3 id=\"user-content-run-api-based-models\">Run API-based models</h3>\n<h4 id=\"user-content-for-canonical-retrieval-source\">For canonical retrieval source</h4>\n<ul>\n<li>\n<p>For non-repository level datasets:\nRun your API-based models by loading embeddings from the proprietary APIs as follows:</p>\n<pre><code class=\"language-sh\"># voyage.ai\npython3 eval_voyage.py \\\n    --dataset TASK_NAME \\\n    --model MODEL_NAME (default is voyage-code-2) \\\n    --api_key_fp PATH_TO_YOUR_API_KEY_FILE (need to have a new line) \\\n    --batch_size YOUR_BATCH_SIZE \\\n    --output_file PATH_TO_YOUR_SCORE_FILE \\\n    --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE\n    \n# openai\npython3 eval_openai.py \\\n    --dataset TASK_NAME \\\n    --model MODEL_NAME (default is text-embedding-3-small) \\\n    --api_key_fp PATH_TO_YOUR_API_KEY_FILE (need to have a new line) \\\n    --batch_size YOUR_BATCH_SIZE \\\n    --output_file PATH_TO_YOUR_SCORE_FILE \\\n    --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE\n</code></pre>\n<p><code>--run_async</code> can be used to run the retrieval asynchronously.</p>\n<p>The default behavior is to cache and use the generated document embedding and doc ids of voyage in <code>datasets/{dataset}/voyage_doc_embeddings.npy</code> and <code>datasets/{dataset}/voyage_doc_ids.json</code>,\nand of openai in <code>datasets/{dataset}/doc_embeddings.npy</code>, <code>datasets/{dataset}/doc_ids.json</code>.</p>\n<p>Query embeddings and query to ids are also cached in <code>datasets/{dataset}/voyage_query_embeddings.npy</code> and <code>datasets/{dataset}/voyage_queryidx2truncatedidx.json</code>,\nand of openai in <code>datasets/{dataset}/query_embeddings.npy</code>, <code>datasets/{dataset}/queryidx2truncatedidx.json</code>.\nPlease erase them if you would like a fresh start.</p>\n</li>\n<li>\n<p>For repository level datasets:</p>\n<pre><code class=\"language-sh\">python3 eval_api_repo.py \\\n    --dataset TASK_NAME \\\n    --model MODEL_NAME \\\n    --api_key_fp PATH_TO_YOUR_API_KEY_FILE (need to have a new line) \\\n    --batch_size YOUR_BATCH_SIZE \\\n    --output_file PATH_TO_YOUR_SCORE_FILE \\\n    --results_file PATH_TO_YOUR_RETRIEVAL_RESULTS_FILE\n</code></pre>\n<p><code>--run_async</code> can be used to run the retrieval asynchronously. Both query embeddings, query to id and document embeddings and document ids will be saved in <code>datasets/{dataset}/{instance dir}</code>, where instance dir is one specific instance of the dataset.</p>\n</li>\n</ul>\n<h4 id=\"user-content-for-open-retrieval-1\">For open retrieval</h4>\n<p>Datasets other than swe-bench-lite are supported.\nAdd <code>--corpus_path THE_PATH_TO_YOUR_CORPUS_FILE (we expect an edit.jsonl in a separate directory, you can use the processed one for BM25)</code> to the above commands.\nQuery embeddings and query to ids will be cached in the same manner as above, while the document will be cached in generated document embedding and doc ids of voyage in\n<code>THE_PARENT_DIR_OF_CORPUS_PATH/voyage_doc_embeddings.npy</code> and <code>THE_PARENT_DIR_OF_CORPUS_PATH/voyage_doc_ids.json</code>,\nand of openai in <code>THE_PARENT_DIR_OF_CORPUS_PATH/doc_embeddings.npy</code>, <code>THE_PARENT_DIR_OF_CORPUS_PATH/doc_ids.json</code>.\nPlease erase them if you would like a fresh start.</p>\n<h2 id=\"user-content-generation\">Generation</h2>\n<p>The <code>main.py</code> script supports running code generation with any models supported by huggingface or OpenAI.</p>\n<h3 id=\"user-content-baseline-generation\">Baseline Generation</h3>\n<p>To run no-retrieval generation on the orignal dataset, specify its huggingface dataset name in the <code>dataset_path</code> argument:</p>\n<pre><code class=\"language-bash\">python main.py --task \"humaneval\" \\\n--model \"bigcode/starcoder2-7b\" \\\n--dataset_path \"openai_humaneval\" \\\n--allow_code_execution\n</code></pre>\n<p>Set <code>--allow_code_execution</code> to evaluate generations with code execution, this is required for all tasks.</p>\n<p>Note that the <code>task</code> should align with the <code>dataset_path</code>. All tasks available are:</p>\n<ul>\n<li>basic programming: 'humaneval', 'mbpp', 'lcb' (for livecodebench)</li>\n<li>open domain: 'ds1000-all-completion', 'odex-en'</li>\n<li>repository level: 'repoeval-function', 'swebench-lite'</li>\n</ul>\n<h3 id=\"user-content-retrieval-augmented-code-generation\">Retrieval-Augmented Code Generation</h3>\n<p>Running generation with previous retrieval results, e.g., \"retrieval/humaneval/gist_large.json\", specify the files as follows:</p>\n<pre><code class=\"language-bash\">python main.py --task \"humaneval\" \\\n--model \"bigcode/starcoder2-7b\" \\\n--dataset_path \"json\" --data_files_test \"retrieval/humaneval/gist_large.json\" \\\n--allow_code_execution\n</code></pre>\n<p>Running the <code>main.py</code> script will automatically conduct execution-based evaluation after the generation is finished.\nHowever, for RepoEval(-function) and SWE-bench(-Lite) datasets, additional setups are required due to their problem complexity.</p>\n<h3 id=\"user-content-execution-based-evaluation\">Execution-based Evaluation</h3>\n<h4 id=\"user-content-repoeval-function\">RepoEval(-function)</h4>\n<p>After downloading the repositories for RepoEval (e.g., under <code>retrieval/output/repoeval/repositories/function_level/</code>), obtaining retrieval results (e.g., <code>/path/to/retrieval/results/retriever-name.jsonl</code>), and obtaining the code generation outputs in previous steps (e.g., <code>/path/to/generation/outputs/model-name.json</code>), we can run execution-based evaluation.</p>\n<p>First, build an environment called <code>repoeval</code>. Note that you can use a separate environment to run the experiments. It will automatically switch to the <code>repoeval</code> environment when running execution.</p>\n<pre><code class=\"language-bash\">cd generation\nconda env create --file eval/tasks/custom_metrics/repoeval_environment.yml -n repoeval\n</code></pre>\n<p>Then, run the following command to test the environment. It runs the tests under all the repositories and checks whether the original code (i.e., the ground truth code) can pass all the test cases.</p>\n<pre><code class=\"language-bash\">cd generation\nPYTHONPATH=./ python eval/tasks/custom_metrics/repoeval_execution.py\n</code></pre>\n<p>If all the tests are passed, you can evaluate your code generation outputs with Pass@1.</p>\n<pre><code class=\"language-bash\">cd generation\n\nMODEL_NAME=\"model-name\"\nRETRIEVAL_FILE=\"/path/to/retrieval/results/retriever-name.jsonl\"\nGENERATION_OUTPUTS=\"/path/to/generation/outputs/model-name.json\"\nPYTHONPATH=./ python main.py --task \"repoeval-function\" --model $MODEL_NAME --dataset_path \"json\" \\\n    --data_files_test $RETRIEVAL_FILE \\\n    --metric_output_path results/repoeval-function_${PROMPT_NAME}_4k_${MODEL_SAVE_NAME}_evaluation_results.vllm.json \\\n    --max_length_input 3596 --max_length_generation 4096 --precision auto \\\n    --save_every_k_tasks 100 --ignore_eos --model_backend vllm --new_tokens_only --topk_docs 5 \\\n    --allow_code_execution \\\n    --load_generations_path $GENERATION_OUTPUTS\n</code></pre>\n<h4 id=\"user-content-swe-bench-lite\">SWE-bench(-Lite)</h4>\n<p>After obtaining the generation output file from previous steps, e.g. <code>/path/to/generation/outputs/model-name.json</code></p>\n<p>Run the following to transform the generation output file in-place for SWE-Bench evaluation harness:</p>\n<pre><code class=\"language-bash\">python generation/eval/tasks/custom_metrics/swebench_transform.py \\\n--output_path /path/to/generation/outputs/model-name.json\n</code></pre>\n<p>Then, start the SWE-bench evaluation docker (beware, huge size more than 30GB) provided by OpenDevin:</p>\n<pre><code class=\"language-bash\">docker run -it \\\n-v /path/to/generation/outputs:/swe_bench_output \\\nghcr.io/opendevin/eval-swe-bench:full-v1.0 /bin/bash\n</code></pre>\n<p>And run evaluation inside the docker to get the final evaluation stats:</p>\n<pre><code class=\"language-bash\">export MINICONDA3=/swe_util/miniforge3\nexport OD_SWE_BENCH=/swe_util/OD-SWE-bench\nexport EVAL_DATA_DIR=/swe_util/eval_data\n\ncd /swe_util &#x26;&#x26; ./get_model_report.sh --output-file /swe_bench_output/model-name.json --model-name \"model-name\" --dataset swe-bench-test-lite\n</code></pre>\n<h3 id=\"user-content-other-experiments\">Other Experiments</h3>\n<p>We also explored document chunking and reranking for better RACG.</p>\n<h4 id=\"user-content-document-reranking\">Document Reranking</h4>\n<p>To reranking the top-100 retrieved documents and possibly get better top-k (k&#x3C;&#x3C;100) documents, we use an existing reranker model:</p>\n<pre><code>python rerank.py --results_path ${retrieval_results_file}\n</code></pre>\n<p>This script will prompt to ask the query field by providing a list of options available in the <code>results_path</code>.\nFor example, on the humaneval retrieval results, it will prompt</p>\n<pre><code>Choose query field from [dict_keys(['task_id', 'prompt', 'canonical_solution', 'test', 'entry_point', 'docs'])]:\n</code></pre>\n<p>You can type in (\"prompt\" + Enter) and it will automatically finish the reranking.</p>\n<p>For other datasets, use \"text\" for mbpp and livecodebench, \"prompt\" for ds-1000, \"intent\" for odex, \"prompt\" for repoeval, and \"problem_statement\" for swebench.</p>\n<h4 id=\"user-content-document-chunking\">Document chunking</h4>\n<p>To take the first N-token chunk from the retrieved document, and process them as a new retrieval file:</p>\n<pre><code>python chunk.py --results_path ${retrieval_results_file} --max_num_tokens 500\n</code></pre>\n<p>We also support a heuristic-based chunking specifically for library documentation, to take only the beginning textual descriptions. To do this, run:</p>\n<pre><code>python chunk.py --results_path ${retrieval_results_file} --is_docs\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:17:08.368Z"
+}

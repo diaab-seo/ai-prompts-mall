@@ -1,0 +1,883 @@
+{
+  "id": 989662672,
+  "node_id": "R_kgDOOv0N0A",
+  "name": "TreeLoRA",
+  "full_name": "ZinYY/TreeLoRA",
+  "private": false,
+  "owner": {
+    "login": "ZinYY",
+    "id": 17381012,
+    "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ZinYY",
+    "html_url": "https://github.com/ZinYY",
+    "followers_url": "https://api.github.com/users/ZinYY/followers",
+    "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+    "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+    "repos_url": "https://api.github.com/users/ZinYY/repos",
+    "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/ZinYY/TreeLoRA",
+  "description": "A pytorch implementation of the paper \"TreeLoRA: Efficient Continual Learning via Layer-Wise LoRAs Guided by a Hierarchical Gradient-Similarity Tree\".",
+  "fork": false,
+  "url": "https://api.github.com/repos/ZinYY/TreeLoRA",
+  "forks_url": "https://api.github.com/repos/ZinYY/TreeLoRA/forks",
+  "keys_url": "https://api.github.com/repos/ZinYY/TreeLoRA/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/ZinYY/TreeLoRA/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/ZinYY/TreeLoRA/teams",
+  "hooks_url": "https://api.github.com/repos/ZinYY/TreeLoRA/hooks",
+  "issue_events_url": "https://api.github.com/repos/ZinYY/TreeLoRA/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/ZinYY/TreeLoRA/events",
+  "assignees_url": "https://api.github.com/repos/ZinYY/TreeLoRA/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/ZinYY/TreeLoRA/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/ZinYY/TreeLoRA/tags",
+  "blobs_url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/ZinYY/TreeLoRA/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/ZinYY/TreeLoRA/languages",
+  "stargazers_url": "https://api.github.com/repos/ZinYY/TreeLoRA/stargazers",
+  "contributors_url": "https://api.github.com/repos/ZinYY/TreeLoRA/contributors",
+  "subscribers_url": "https://api.github.com/repos/ZinYY/TreeLoRA/subscribers",
+  "subscription_url": "https://api.github.com/repos/ZinYY/TreeLoRA/subscription",
+  "commits_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/ZinYY/TreeLoRA/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/ZinYY/TreeLoRA/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/ZinYY/TreeLoRA/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/ZinYY/TreeLoRA/merges",
+  "archive_url": "https://api.github.com/repos/ZinYY/TreeLoRA/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/ZinYY/TreeLoRA/downloads",
+  "issues_url": "https://api.github.com/repos/ZinYY/TreeLoRA/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/ZinYY/TreeLoRA/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/ZinYY/TreeLoRA/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/ZinYY/TreeLoRA/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/ZinYY/TreeLoRA/labels{/name}",
+  "releases_url": "https://api.github.com/repos/ZinYY/TreeLoRA/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/deployments",
+  "created_at": "2025-05-24T15:08:21Z",
+  "updated_at": "2026-03-11T16:30:32Z",
+  "pushed_at": "2025-12-15T11:21:15Z",
+  "git_url": "git://github.com/ZinYY/TreeLoRA.git",
+  "ssh_url": "git@github.com:ZinYY/TreeLoRA.git",
+  "clone_url": "https://github.com/ZinYY/TreeLoRA.git",
+  "svn_url": "https://github.com/ZinYY/TreeLoRA",
+  "homepage": "https://www.lamda.nju.edu.cn/qianyy/paper/ICML25_TreeLoRA.pdf",
+  "size": 6046,
+  "stargazers_count": 346,
+  "watchers_count": 346,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 63,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "continual-learning",
+    "large-language-model",
+    "large-language-models",
+    "llm",
+    "non-stationary-environment"
+  ],
+  "visibility": "public",
+  "forks": 63,
+  "open_issues": 0,
+  "watchers": 346,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "large-language-models",
+  "commits": [
+    {
+      "sha": "1c7260c42b34e1961283797c742f08b9c3842501",
+      "node_id": "C_kwDOOv0N0NoAKDFjNzI2MGM0MmIzNGUxOTYxMjgzNzk3Yzc0MmYwOGI5YzM4NDI1MDE",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-12-15T11:21:12Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-12-15T11:21:12Z"
+        },
+        "message": "refine readme",
+        "tree": {
+          "sha": "581f493f3af8c67068d861f3733f9cc65dcf493e",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/581f493f3af8c67068d861f3733f9cc65dcf493e"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/1c7260c42b34e1961283797c742f08b9c3842501",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/1c7260c42b34e1961283797c742f08b9c3842501",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/1c7260c42b34e1961283797c742f08b9c3842501",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/1c7260c42b34e1961283797c742f08b9c3842501/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "06ad23234cfdda23ccfaccc51b34b7edb6bad2ff",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/06ad23234cfdda23ccfaccc51b34b7edb6bad2ff",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/06ad23234cfdda23ccfaccc51b34b7edb6bad2ff"
+        }
+      ]
+    },
+    {
+      "sha": "06ad23234cfdda23ccfaccc51b34b7edb6bad2ff",
+      "node_id": "C_kwDOOv0N0NoAKDA2YWQyMzIzNGNmZGRhMjNjY2ZhY2NjNTFiMzRiN2VkYjZiYWQyZmY",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-10-10T23:01:50Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-10-10T23:01:50Z"
+        },
+        "message": "Update README",
+        "tree": {
+          "sha": "e2f1b7d6a3fb98055e9c227897b82f431cbb4874",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/e2f1b7d6a3fb98055e9c227897b82f431cbb4874"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/06ad23234cfdda23ccfaccc51b34b7edb6bad2ff",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/06ad23234cfdda23ccfaccc51b34b7edb6bad2ff",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/06ad23234cfdda23ccfaccc51b34b7edb6bad2ff",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/06ad23234cfdda23ccfaccc51b34b7edb6bad2ff/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0fc411d755bb3897849835a7599d4cc67380015f",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/0fc411d755bb3897849835a7599d4cc67380015f",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/0fc411d755bb3897849835a7599d4cc67380015f"
+        }
+      ]
+    },
+    {
+      "sha": "0fc411d755bb3897849835a7599d4cc67380015f",
+      "node_id": "C_kwDOOv0N0NoAKDBmYzQxMWQ3NTViYjM4OTc4NDk4MzVhNzU5OWQ0Y2M2NzM4MDAxNWY",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-07-10T14:29:50Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-07-10T14:29:50Z"
+        },
+        "message": "Update requirements.txt",
+        "tree": {
+          "sha": "bd9ee0ad016a7bbe4dcfad3f730c06eccbc0d1fb",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/bd9ee0ad016a7bbe4dcfad3f730c06eccbc0d1fb"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/0fc411d755bb3897849835a7599d4cc67380015f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/0fc411d755bb3897849835a7599d4cc67380015f",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/0fc411d755bb3897849835a7599d4cc67380015f",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/0fc411d755bb3897849835a7599d4cc67380015f/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c6a9b6dc935508a363a178d4d8162c5a79d1a612",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/c6a9b6dc935508a363a178d4d8162c5a79d1a612",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/c6a9b6dc935508a363a178d4d8162c5a79d1a612"
+        }
+      ]
+    },
+    {
+      "sha": "c6a9b6dc935508a363a178d4d8162c5a79d1a612",
+      "node_id": "C_kwDOOv0N0NoAKGM2YTliNmRjOTM1NTA4YTM2M2ExNzhkNGQ4MTYyYzVhNzlkMWE2MTI",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T06:49:45Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T06:49:45Z"
+        },
+        "message": "remove files",
+        "tree": {
+          "sha": "e62db73cfddedd76e6918638e53be163c804c3d3",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/e62db73cfddedd76e6918638e53be163c804c3d3"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/c6a9b6dc935508a363a178d4d8162c5a79d1a612",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/c6a9b6dc935508a363a178d4d8162c5a79d1a612",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/c6a9b6dc935508a363a178d4d8162c5a79d1a612",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/c6a9b6dc935508a363a178d4d8162c5a79d1a612/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5"
+        }
+      ]
+    },
+    {
+      "sha": "e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5",
+      "node_id": "C_kwDOOv0N0NoAKGU4N2I1YzEwMWY0Y2Y3MjIzOWE2MzgzM2U3YzA0YTlmY2YyZWQxZjU",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T06:45:59Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T06:45:59Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "b1482aa73ae095a880a420eac897befe9b81387c",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/b1482aa73ae095a880a420eac897befe9b81387c"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/e87b5c101f4cf72239a63833e7c04a9fcf2ed1f5/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "931c62b535ca6c2cc5a2334ff7f998397038ff20",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/931c62b535ca6c2cc5a2334ff7f998397038ff20",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/931c62b535ca6c2cc5a2334ff7f998397038ff20"
+        }
+      ]
+    },
+    {
+      "sha": "931c62b535ca6c2cc5a2334ff7f998397038ff20",
+      "node_id": "C_kwDOOv0N0NoAKDkzMWM2MmI1MzVjYTZjMmNjNWEyMzM0ZmY3Zjk5ODM5NzAzOGZmMjA",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T06:44:58Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T06:44:58Z"
+        },
+        "message": "add instructions for downloading PTMs",
+        "tree": {
+          "sha": "e7d6a92e0ae720c18494700aab7c83b2fe62452d",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/e7d6a92e0ae720c18494700aab7c83b2fe62452d"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/931c62b535ca6c2cc5a2334ff7f998397038ff20",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/931c62b535ca6c2cc5a2334ff7f998397038ff20",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/931c62b535ca6c2cc5a2334ff7f998397038ff20",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/931c62b535ca6c2cc5a2334ff7f998397038ff20/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fde173bfbce7fb3e9cacd6b490a3a1e648a6a566",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/fde173bfbce7fb3e9cacd6b490a3a1e648a6a566",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/fde173bfbce7fb3e9cacd6b490a3a1e648a6a566"
+        }
+      ]
+    },
+    {
+      "sha": "fde173bfbce7fb3e9cacd6b490a3a1e648a6a566",
+      "node_id": "C_kwDOOv0N0NoAKGZkZTE3M2JmYmNlN2ZiM2U5Y2FjZDZiNDkwYTNhMWU2NDhhNmE1NjY",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T03:23:31Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T03:23:31Z"
+        },
+        "message": "Update Readme",
+        "tree": {
+          "sha": "176b5c3563a458ded867328d8183ffe4f88f1d21",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/176b5c3563a458ded867328d8183ffe4f88f1d21"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/fde173bfbce7fb3e9cacd6b490a3a1e648a6a566",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/fde173bfbce7fb3e9cacd6b490a3a1e648a6a566",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/fde173bfbce7fb3e9cacd6b490a3a1e648a6a566",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/fde173bfbce7fb3e9cacd6b490a3a1e648a6a566/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7c76809da0632a885c0173b759c43cdc8a241698",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/7c76809da0632a885c0173b759c43cdc8a241698",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/7c76809da0632a885c0173b759c43cdc8a241698"
+        }
+      ]
+    },
+    {
+      "sha": "7c76809da0632a885c0173b759c43cdc8a241698",
+      "node_id": "C_kwDOOv0N0NoAKDdjNzY4MDlkYTA2MzJhODg1YzAxNzNiNzU5YzQzY2RjOGEyNDE2OTg",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T03:22:17Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T03:22:17Z"
+        },
+        "message": "Refine Scripts",
+        "tree": {
+          "sha": "387ea93226b2ce5909c7dd73aaf3979fd1fd3af7",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/387ea93226b2ce5909c7dd73aaf3979fd1fd3af7"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/7c76809da0632a885c0173b759c43cdc8a241698",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/7c76809da0632a885c0173b759c43cdc8a241698",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/7c76809da0632a885c0173b759c43cdc8a241698",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/7c76809da0632a885c0173b759c43cdc8a241698/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "20c2dc273309063b7f4a7b6df6481bab4eb3c0ed",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/20c2dc273309063b7f4a7b6df6481bab4eb3c0ed",
+          "html_url": "https://github.com/ZinYY/TreeLoRA/commit/20c2dc273309063b7f4a7b6df6481bab4eb3c0ed"
+        }
+      ]
+    },
+    {
+      "sha": "20c2dc273309063b7f4a7b6df6481bab4eb3c0ed",
+      "node_id": "C_kwDOOv0N0NoAKDIwYzJkYzI3MzMwOTA2M2I3ZjRhN2I2ZGY2NDgxYmFiNGViM2MwZWQ",
+      "commit": {
+        "author": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T03:13:17Z"
+        },
+        "committer": {
+          "name": "Yu-Yang Qian",
+          "email": "qianyy@lamda.nju.edu.cn",
+          "date": "2025-05-28T03:13:17Z"
+        },
+        "message": "Upload Code and Dataset",
+        "tree": {
+          "sha": "5baeab3118f54f84c86eb59a6900a05a4dea439b",
+          "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/trees/5baeab3118f54f84c86eb59a6900a05a4dea439b"
+        },
+        "url": "https://api.github.com/repos/ZinYY/TreeLoRA/git/commits/20c2dc273309063b7f4a7b6df6481bab4eb3c0ed",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/20c2dc273309063b7f4a7b6df6481bab4eb3c0ed",
+      "html_url": "https://github.com/ZinYY/TreeLoRA/commit/20c2dc273309063b7f4a7b6df6481bab4eb3c0ed",
+      "comments_url": "https://api.github.com/repos/ZinYY/TreeLoRA/commits/20c2dc273309063b7f4a7b6df6481bab4eb3c0ed/comments",
+      "author": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "ZinYY",
+        "id": 17381012,
+        "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ZinYY",
+        "html_url": "https://github.com/ZinYY",
+        "followers_url": "https://api.github.com/users/ZinYY/followers",
+        "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+        "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+        "repos_url": "https://api.github.com/users/ZinYY/repos",
+        "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "ZinYY",
+      "id": 17381012,
+      "node_id": "MDQ6VXNlcjE3MzgxMDEy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17381012?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ZinYY",
+      "html_url": "https://github.com/ZinYY",
+      "followers_url": "https://api.github.com/users/ZinYY/followers",
+      "following_url": "https://api.github.com/users/ZinYY/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ZinYY/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ZinYY/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ZinYY/subscriptions",
+      "organizations_url": "https://api.github.com/users/ZinYY/orgs",
+      "repos_url": "https://api.github.com/users/ZinYY/repos",
+      "events_url": "https://api.github.com/users/ZinYY/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ZinYY/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 9
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 552816,
+    "Shell": 116904
+  },
+  "readme_html": "<h1 id=\"user-content-pytorch-implementation-for-treelora-efficient-continual-learning-via-layer-wise-loras-guided-by-a-hierarchical-gradient-similarity-tree\">Pytorch Implementation for \"TreeLoRA: Efficient Continual Learning via Layer-Wise LoRAs Guided by a Hierarchical Gradient-Similarity Tree\"</h1>\n<p>This repository contains the official PyTorch implementation of TreeLoRA, an efficient continual learning method for Large Language Models (LLMs) that uses layer-wise LoRA adapters guided by a hierarchical gradient-similarity tree.</p>\n<h2 id=\"user-content-code-structure\">Code Structure</h2>\n<pre><code>.\n├── data/                    # Data directory for LLM-CL-Benchmark\n├── model/                   # Model implementations\n│   ├── Regular/            # Regular model implementations\n│   │   └── Tree_LoRA.py   # TreeLoRA implementation\n│   ├── Dynamic_network/    # Dynamic network implementations\n│   └── Replay/            # Replay-based methods\n├── training/               # Training related code\n│   ├── main.py            # Main training script\n│   └── params.py          # Training parameters\n├── utils/                  # Utility functions\n│   ├── data/              # Data processing utilities\n│   ├── flash_attention/   # Flash attention implementation\n│   ├── my_peft/          # Custom PEFT implementations\n│   └── kd_lora_tree.py   # KD-tree implementation for TreeLoRA\n├── inference/             # Inference related code\n└── scripts/               # Training and evaluation scripts\n</code></pre>\n<h2 id=\"user-content-requirements\">Requirements</h2>\n<p>The main dependencies are listed below. For a complete list, see <code>requirements.txt</code>:</p>\n<pre><code>accelerate==1.0.1\nbitsandbytes==0.46.1\ndeepspeed==0.15.3+cu124torch2.4\ntorch==2.4.1\ntorchvision==0.19.1\n</code></pre>\n<h2 id=\"user-content-quick-start\">Quick Start</h2>\n<h3 id=\"user-content-1-installation\">1. Installation</h3>\n<pre><code class=\"language-bash\"># Install dependencies\npip install -r requirements.txt\n</code></pre>\n<h3 id=\"user-content-2-data-and-model-preparation\">2. Data and Model Preparation</h3>\n<ul>\n<li>\n<ol>\n<li>\n<p>Extract the dataset in the <code>data/LLM-CL-Benchmark</code> directory. Our benchmark includes 24 different tasks, a mixing of <a href=\"https://github.com/BeyonderXX/TRACE\">TRACE-LLM</a> and the datasets used in <a href=\"https://github.com/cmnfriend/O-LoRA\">O-LoRA</a>. Specifically, the tasks are:</p>\n<table>\n<thead>\n<tr>\n<th align=\"left\">C-STANCE</th>\n<th align=\"center\">NumGLUE-cm</th>\n<th align=\"center\">QQP</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"left\"><strong>NumGLUE-ds</strong></td>\n<td align=\"center\"><strong>MultiRC</strong></td>\n<td align=\"center\"><strong>RTE</strong></td>\n</tr>\n<tr>\n<td align=\"left\"><strong>yelp</strong></td>\n<td align=\"center\"><strong>ScienceQA</strong></td>\n<td align=\"center\"><strong>amazon</strong></td>\n</tr>\n<tr>\n<td align=\"left\"><strong>MeetingBank</strong></td>\n<td align=\"center\"><strong>FOMC</strong></td>\n<td align=\"center\"><strong>Lima</strong></td>\n</tr>\n<tr>\n<td align=\"left\"><strong>BoolQA</strong></td>\n<td align=\"center\"><strong>CB</strong></td>\n<td align=\"center\"><strong>Py150</strong></td>\n</tr>\n<tr>\n<td align=\"left\"><strong>dbpedia</strong></td>\n<td align=\"center\"><strong>WiC</strong></td>\n<td align=\"center\"><strong>yahoo</strong></td>\n</tr>\n<tr>\n<td align=\"left\"><strong>IMDB</strong></td>\n<td align=\"center\"><strong>MNLI</strong></td>\n<td align=\"center\"><strong>20Minuten</strong></td>\n</tr>\n<tr>\n<td align=\"left\"><strong>agnews</strong></td>\n<td align=\"center\"><strong>COPA</strong></td>\n<td align=\"center\"><strong>SST-2</strong></td>\n</tr>\n</tbody>\n</table>\n</li>\n</ol>\n</li>\n<li>\n<ol start=\"2\">\n<li>\n<p>Download the pre-trained model from HuggingFace and place it in the <code>./PTM/</code> directory. e.g., for Llama-3.2-1B-Instruct:</p>\n<pre><code class=\"language-bash\">cd ./PTM\ngit clone https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct\n</code></pre>\n</li>\n</ol>\n</li>\n</ul>\n<h3 id=\"user-content-3-training-and-evaluating\">3. Training and Evaluating</h3>\n<p>To train and evaluate a method on the TRACE dataset, just run:</p>\n<pre><code class=\"language-bash\">export model_name=\"Llama-3.2-1B-Instruct\"\n\n# Run training script with default parameters (e.g., TreeLoRA)\nbash scripts/lora_based_methods/Tree_LoRA.sh\n</code></pre>\n<p>Key parameters in the training script:</p>\n<ul>\n<li><code>--model_name_or_path</code>: Path to the pretrained model</li>\n<li><code>--data_path</code>: Path to the training dataset</li>\n<li><code>--dataset_name</code>: Names of the datasets to train on</li>\n<li><code>--reg</code>: Regularization parameter (default: 0.5)</li>\n<li><code>--num_train_epochs</code>: Number of training epochs per task</li>\n</ul>\n<p>Or simply, run <code>./scripts/run_all_exps.sh</code> to run all the experiments.</p>\n<h2 id=\"user-content-features\">Features</h2>\n<ul>\n<li>Efficient continual learning through layer-wise LoRA adapters</li>\n<li>Hierarchical gradient-similarity tree for adapter organization</li>\n<li>Support for multiple LLM architectures (Gemma, LLaMA, Mistral, etc.)</li>\n<li>DeepSpeed integration for efficient training</li>\n<li>Flash attention implementation for improved performance</li>\n</ul>\n<h2 id=\"user-content-citation\">Citation</h2>\n<p>If you find this code useful, please cite our paper:</p>\n<pre><code class=\"language-bibtex\">@inproceedings{ICML'25:TreeLoRA,\n    author = {Yu-Yang Qian and Yuan-Ze Xu and Zhen-Yu Zhang and Peng Zhao and Zhi-Hua Zhou},\n    title = {{T}ree{L}o{RA}: Efficient Continual Learning via Layer-Wise {L}o{RA}s Guided by a Hierarchical Gradient-Similarity Tree},\n    booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},\n    year = {2025},\n    pages = {50066--50085}\n}\n</code></pre>",
+  "_fetched_at": "2026-03-11T18:04:16.718Z"
+}

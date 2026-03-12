@@ -1,0 +1,33 @@
+---
+// SimilarRepos widget (Section 6.7)
+interface RepoData { full_name: string; owner: string; repo: string; description?: string; stars: number; language?: string; topics: string[]; primary_category: string }
+interface Props { currentRepo: RepoData; allRepos: RepoData[] }
+const { currentRepo, allRepos } = Astro.props;
+
+function score(r: RepoData): number {
+  const sharedTopics = r.topics.filter((t) => currentRepo.topics.includes(t)).length * 3;
+  const sameLang = r.language === currentRepo.language ? 2 : 0;
+  const sameCat = r.primary_category === currentRepo.primary_category ? 1 : 0;
+  return sharedTopics + sameLang + sameCat;
+}
+
+const similar = allRepos
+  .filter((r) => r.full_name !== currentRepo.full_name)
+  .map((r) => ({ ...r, _score: score(r) }))
+  .sort((a, b) => b._score - a._score)
+  .slice(0, 6);
+---
+<section class="similar-repos">
+  <ul>
+    {similar.map((r) => (
+      <li>
+        <a href={`/repo/${r.owner}/${r.repo}`}>
+          <strong>{r.full_name}</strong>
+        </a>
+        {r.description && <p>{r.description.slice(0, 80)}{r.description.length > 80 ? '…' : ''}</p>}
+        <span>⭐ {r.stars.toLocaleString()}</span>
+        {r.language && <span>{r.language}</span>}
+      </li>
+    ))}
+  </ul>
+</section>

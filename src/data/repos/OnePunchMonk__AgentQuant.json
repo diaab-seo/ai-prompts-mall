@@ -1,0 +1,2657 @@
+{
+  "id": 1036658022,
+  "node_id": "R_kgDOPcolZg",
+  "name": "AgentQuant",
+  "full_name": "OnePunchMonk/AgentQuant",
+  "private": false,
+  "owner": {
+    "login": "OnePunchMonk",
+    "id": 119044997,
+    "node_id": "U_kgDOBxh7hQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/OnePunchMonk",
+    "html_url": "https://github.com/OnePunchMonk",
+    "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+    "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+    "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+    "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+    "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+    "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/OnePunchMonk/AgentQuant",
+  "description": "Autonomous quantitative trading research platform that transforms stock lists into fully backtested strategies using AI agents, real market data, and mathematical formulations, all without requiring any coding.",
+  "fork": false,
+  "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant",
+  "forks_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/forks",
+  "keys_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/teams",
+  "hooks_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/hooks",
+  "issue_events_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/events",
+  "assignees_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/tags",
+  "blobs_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/languages",
+  "stargazers_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/stargazers",
+  "contributors_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/contributors",
+  "subscribers_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/subscribers",
+  "subscription_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/subscription",
+  "commits_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/merges",
+  "archive_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/downloads",
+  "issues_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/labels{/name}",
+  "releases_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/deployments",
+  "created_at": "2025-08-12T11:54:40Z",
+  "updated_at": "2026-03-10T23:45:15Z",
+  "pushed_at": "2025-11-28T22:16:55Z",
+  "git_url": "git://github.com/OnePunchMonk/AgentQuant.git",
+  "ssh_url": "git@github.com:OnePunchMonk/AgentQuant.git",
+  "clone_url": "https://github.com/OnePunchMonk/AgentQuant.git",
+  "svn_url": "https://github.com/OnePunchMonk/AgentQuant",
+  "homepage": "",
+  "size": 6516,
+  "stargazers_count": 75,
+  "watchers_count": 75,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 15,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 2,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "agentic-ai",
+    "ai-for-trading",
+    "ai-trading",
+    "ai-trading-agent",
+    "algorithmic-trading",
+    "autonomous-agent",
+    "finance-ai",
+    "fintech",
+    "langchain",
+    "langgraph",
+    "portfolio-optimization",
+    "quant-agent",
+    "quantitative-finance",
+    "quantitative-research",
+    "quantitative-trading",
+    "trading-agent",
+    "trading-bot",
+    "trading-strategies",
+    "vectorbt",
+    "yfinance"
+  ],
+  "visibility": "public",
+  "forks": 15,
+  "open_issues": 2,
+  "watchers": 75,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "f9713a5288d91112d715d059dfd6aa634f68fdb6",
+      "node_id": "C_kwDOPcolZtoAKGY5NzEzYTUyODhkOTExMTJkNzE1ZDA1OWRmZDZhYTYzNGY2OGZkYjY",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-11-28T22:16:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-28T22:16:49Z"
+        },
+        "message": "Merge pull request #3 from OnePunchMonk/dependabot/pip/pip-ad0ca59d54\n\nBump scikit-learn from 1.4.1 to 1.5.0 in the pip group across 1 directory",
+        "tree": {
+          "sha": "38cde5030e5a76e3ea371a36471d6b41b865e5b0",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/38cde5030e5a76e3ea371a36471d6b41b865e5b0"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/f9713a5288d91112d715d059dfd6aa634f68fdb6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKh9RCRC1aQ7uu5UhlAAAmmgQAKEDxZY/yrhHb2j2Ioac3Z6Z\nDRLuQEq5X+/UUXh7cGd40CaAmwL1aJa3dfU8ARtYR0NrgRLUD/laOGBiizcYqEPT\nSsVi3JDIHbjn1Vpx6Sqwg14Z+gUpCm2YZeHRXdqAPuGveHn5g53IFC5q6YxhVVkU\nfZZjPuS3Cv3LLSWw8gtCq6StSqSG8Vvc5CC5JkB02H7wW7SvB9/DNfiysLzFCOHA\npqklMwre5plL+EUVzABMjuITLAfubirQ+/j2qTwKZEAGz+h4jDERJM/i/LpYVxgV\nw7wWAG+EYxaLB+oHzi7t3DTyycm3l+xpnkI3Cerk0b1wp6rzq4oGMBmltv9faJ+e\n1wNi69L9ddDRGgI8rn85sBQlNDAiLSrZnVFBTZt8W955WMrS9Jcl9vY1agIOqO5Z\nKna/vx+O7y33XhA/v7/4/QSccQoa8jCNsb4QiUNm+EqpRo6wwpXXOsfGl5K2TsgT\nPgg1nw6AC+BlPVEU1qCWQCGYI2QVED89rkgEg0Ci6ok81+udkjePShXwh3Z1j8oM\n9C9JK0L7zOkanP3ov9UUzvmmmMu4RQeTj+dYPngh1dB+KXmEAU//vuJfpLQh/tei\niapr1nMV17JWhYmksofIwMEsEcKKDHxPJm+fiI3xhVlCJDuB+5fX1vBsORbzOmgA\nj9caPNFzG8KmA9pQkSaZ\n=q0Tw\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 38cde5030e5a76e3ea371a36471d6b41b865e5b0\nparent e223ff0b8da83b7cd15dfaa7ab665c11de7107e1\nparent 94d4880801d163fb7b877401d1aa70da2d88fb07\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1764368209 +0530\ncommitter GitHub <noreply@github.com> 1764368209 +0530\n\nMerge pull request #3 from OnePunchMonk/dependabot/pip/pip-ad0ca59d54\n\nBump scikit-learn from 1.4.1 to 1.5.0 in the pip group across 1 directory",
+          "verified_at": "2025-11-28T22:16:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/f9713a5288d91112d715d059dfd6aa634f68fdb6",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/f9713a5288d91112d715d059dfd6aa634f68fdb6",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/f9713a5288d91112d715d059dfd6aa634f68fdb6/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e223ff0b8da83b7cd15dfaa7ab665c11de7107e1",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/e223ff0b8da83b7cd15dfaa7ab665c11de7107e1",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/e223ff0b8da83b7cd15dfaa7ab665c11de7107e1"
+        },
+        {
+          "sha": "94d4880801d163fb7b877401d1aa70da2d88fb07",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/94d4880801d163fb7b877401d1aa70da2d88fb07",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/94d4880801d163fb7b877401d1aa70da2d88fb07"
+        }
+      ]
+    },
+    {
+      "sha": "e223ff0b8da83b7cd15dfaa7ab665c11de7107e1",
+      "node_id": "C_kwDOPcolZtoAKGUyMjNmZjBiOGRhODNiN2NkMTVkZmFhN2FiNjY1YzExZGU3MTA3ZTE",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T21:12:35Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T21:12:35Z"
+        },
+        "message": "Create EXPERIMENTAL_DETAILS.md",
+        "tree": {
+          "sha": "3025ff2a03f252edd98bb68bfb1c83949d4ff628",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/3025ff2a03f252edd98bb68bfb1c83949d4ff628"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/e223ff0b8da83b7cd15dfaa7ab665c11de7107e1",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/e223ff0b8da83b7cd15dfaa7ab665c11de7107e1",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/e223ff0b8da83b7cd15dfaa7ab665c11de7107e1",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/e223ff0b8da83b7cd15dfaa7ab665c11de7107e1/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ed3ce8297d97cac02bb965daceb87d9dcb1330a8",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/ed3ce8297d97cac02bb965daceb87d9dcb1330a8",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/ed3ce8297d97cac02bb965daceb87d9dcb1330a8"
+        }
+      ]
+    },
+    {
+      "sha": "ed3ce8297d97cac02bb965daceb87d9dcb1330a8",
+      "node_id": "C_kwDOPcolZtoAKGVkM2NlODI5N2Q5N2NhYzAyYmI5NjVkYWNlYjg3ZDlkY2IxMzMwYTg",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-11-28T20:58:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-28T20:58:20Z"
+        },
+        "message": "Merge pull request #4 from OnePunchMonk/maybe-1\n\nMaybe 1",
+        "tree": {
+          "sha": "4dc0290087cfcec5cb3f761ff8704ff59634b763",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/4dc0290087cfcec5cb3f761ff8704ff59634b763"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/ed3ce8297d97cac02bb965daceb87d9dcb1330a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKgzsCRC1aQ7uu5UhlAAAXGAQABFcy9/8ZVoYLwjZx53dGFDo\njRhPnPbCrf1Nw3J0dNUY+gAE+pUK/aYs0AA0s1hMEFKOxGO1YpfbuuAkQzhTHUll\ni2mX/4Da+pjWIOCiqxOt0pdjVwdEXPk0V7Obzd/dEohj0bunGfPV3QJOYcB5wW5l\nmLEQkGQOrvSKrhRYYOHAWoO1wDRmsNG5bHCIHHRPfkXyx02+xCJGUhACYuoRLIuq\nPYzsp840vYvBXsaL3AhVE8zXf3JdlKAAlQZQeP+dCEyl5Csxs330QPtQCfliLlu3\ngRyv1E8lwusaZx/RBnz0sY2pb7p8kyHTPk+tXCxgP4oXGNXw00LvJwzbK45WoPwL\niGOlJOzV5mza200QOmsCJkUE2QQ79eou1cwmsnYajtn+NPJiF4cKOZazOgyj3P4U\nWeuUkmNyuinDODH1Deb45Vno0TG2FIyhp+68aZx2IAmkWoBoFQHHJhNgKNGggtyw\ny97LSq32TV2ze9kXvUl/XT3SXEmIJpcNYYsQ2qwBUZKtm1nN6dUh9xX5AXUr3J1p\n59fs85YgwdKG4+ZvdYvtlOhuizDqPR6K4sLtz79PDj7fOADaD0BQPCyWAwdUAQ2F\nPBn/uh+NlLw9JxcaMBIDJvDWoHgJbJ5tJ9tcp58ABcoV227j/6VR44DIywIojrHJ\nioYBgs0nGZcHUzAwLWDZ\n=4RhV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4dc0290087cfcec5cb3f761ff8704ff59634b763\nparent 9d16c9a149e0133225c805f90e8485ecbeda0292\nparent 8ebc2efc08aed3dd0798dc654cd1dc2723ad8280\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1764363500 +0530\ncommitter GitHub <noreply@github.com> 1764363500 +0530\n\nMerge pull request #4 from OnePunchMonk/maybe-1\n\nMaybe 1",
+          "verified_at": "2025-11-28T20:58:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/ed3ce8297d97cac02bb965daceb87d9dcb1330a8",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/ed3ce8297d97cac02bb965daceb87d9dcb1330a8",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/ed3ce8297d97cac02bb965daceb87d9dcb1330a8/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9d16c9a149e0133225c805f90e8485ecbeda0292",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/9d16c9a149e0133225c805f90e8485ecbeda0292",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/9d16c9a149e0133225c805f90e8485ecbeda0292"
+        },
+        {
+          "sha": "8ebc2efc08aed3dd0798dc654cd1dc2723ad8280",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/8ebc2efc08aed3dd0798dc654cd1dc2723ad8280",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/8ebc2efc08aed3dd0798dc654cd1dc2723ad8280"
+        }
+      ]
+    },
+    {
+      "sha": "8ebc2efc08aed3dd0798dc654cd1dc2723ad8280",
+      "node_id": "C_kwDOPcolZtoAKDhlYmMyZWZjMDhhZWQzZGQwNzk4ZGM2NTRjZDFkYzI3MjNhZDgyODA",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-11-28T20:57:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-28T20:57:46Z"
+        },
+        "message": "Merge branch 'main' into maybe-1",
+        "tree": {
+          "sha": "4dc0290087cfcec5cb3f761ff8704ff59634b763",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/4dc0290087cfcec5cb3f761ff8704ff59634b763"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/8ebc2efc08aed3dd0798dc654cd1dc2723ad8280",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKgzKCRC1aQ7uu5UhlAAABv8QAJY9Mw/CbOh7t7rqsIPBVx7g\nIxzCVpKSSrb+Zk9Ke2ftb7I7pKX41wODsqVbtvffy9Bcp6xYYdHOZtqrERIjl8zO\njzrm5FmaZNf9C231NSbcaENZ1wsa+xX13mCsVAf66EbvJ/MfxSiL9efyeeoVElYG\ng9hfvepghWOHeOZZG2SD1GK9vHRFmhpvQAi/RV299v5epr8ck0iM3w/qWY/GmImY\nyRa3gtJVsBK3K1qaLZU+BfnWfD2bVtZtRGyy9zSGitypGUwNX79aSa1uKYm0GWEm\nreIJ/YzTJ0cd9HZjFVeoRhyt14CmBiohfbiCBGq2UIiNyV1I1yV6JTDjWGQ2fsOw\nGuHIySkKGZG5Eermyg1vTqm/Yx0LGcePvWKi7I6ZO/RDpmg9wBGtlc+Wj0/ltBhf\nsp0SO4PzrIscbx4AbeMe235/m1jXMvSScT3O8LoDlazMGR81OWF1jd0a+1it9C74\nQtT2q6Ag/QEUEBkbu2Ugq/neXxybnKCLO5kZaOvp9Zu4Qz2V0n4TG672bWYK5qbj\nooMckkAdhN1jGvCZn1lP2QcWAOLYfKXIV3ncWffMBlpnenbp9w0il0cS1YCy7SPB\nDAK/pW5nafodEiWJ8VraYbfwQ5KtAfiuKkBYgJ+80QBv4fXvh0KMSNLWniahnUu9\nOqgBMc0+jOWSC8+fw1K0\n=XpHh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4dc0290087cfcec5cb3f761ff8704ff59634b763\nparent ba820481de8857b6ab2420506e62a60e7f36e299\nparent 9d16c9a149e0133225c805f90e8485ecbeda0292\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1764363466 +0530\ncommitter GitHub <noreply@github.com> 1764363466 +0530\n\nMerge branch 'main' into maybe-1",
+          "verified_at": "2025-11-28T20:57:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/8ebc2efc08aed3dd0798dc654cd1dc2723ad8280",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/8ebc2efc08aed3dd0798dc654cd1dc2723ad8280",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/8ebc2efc08aed3dd0798dc654cd1dc2723ad8280/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ba820481de8857b6ab2420506e62a60e7f36e299",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/ba820481de8857b6ab2420506e62a60e7f36e299",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/ba820481de8857b6ab2420506e62a60e7f36e299"
+        },
+        {
+          "sha": "9d16c9a149e0133225c805f90e8485ecbeda0292",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/9d16c9a149e0133225c805f90e8485ecbeda0292",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/9d16c9a149e0133225c805f90e8485ecbeda0292"
+        }
+      ]
+    },
+    {
+      "sha": "ba820481de8857b6ab2420506e62a60e7f36e299",
+      "node_id": "C_kwDOPcolZtoAKGJhODIwNDgxZGU4ODU3YjZhYjI0MjA1MDZlNjJhNjBlN2YzNmUyOTk",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-11-28T20:54:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-28T20:54:53Z"
+        },
+        "message": "Update .env",
+        "tree": {
+          "sha": "6f2c6b6183966074728f2e03ed5d35a9cb0625be",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/6f2c6b6183966074728f2e03ed5d35a9cb0625be"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/ba820481de8857b6ab2420506e62a60e7f36e299",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKgwdCRC1aQ7uu5UhlAAAeowQAFho4UcY9BkgdMx0fbLVvlzP\nTJ5VpJW+cWo0uwghqlBYWf+xPYi/GbVIHjkj/m4gqz3QHQ+EzXRcxUgAMm3p3Xo1\nC9BmTfxe2/s6wo2wvqYZFe+sqiOkV9IdbWPYi+qkAOj/xM/rhUG87BSJeU5TpPSg\nGXu8eRU/S6w2pRyNgdNa1ydjfCS5W5Th0CSNYXZGBIpJo6aRwLGRHV6PI2vjEcVg\nTDAWQ243VE8+lxtlcQHsDOGd2sOOvHqekdlhpqkAw5zM9dTMyxWhGkaE5Ynuh6ax\n1U2VnQhP0zmDDC6EHWhfB/K+B8EHvVQvv6bKS3tIFAuTWd9dfOamBEoZNX0VOURG\nc2+RZLLYEZK5g2aqXIXR9CcOzkYx+LvUeU8OoMVzOQsOVUgLyZYcXU0NOfyTlbhG\nJkjeCHipaLPqhul5dajWQ2vuS/t2TqZyk4ESj3FHgTye57sCe/7IA/2m5EBKLskC\n2lva6Sk9heSdQNny+ms3oQ3vvH6nAEBZaHAmX5J+GLFaSUqnizwDbObwoE224FT9\nbUUr4CRFRuEffff4ioChX8Ok6AKMVolWPtvZxFN+y0BeqAiZTBtdrlFosl8s63xI\nKss3nAsm71cMTbXh/5HBPLLw5cw21jY1uL8Pe27IG1PKQWrpZW+JsygKevKaYlyA\nrKCHIW0fRSLZyeXn4e/C\n=60bX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6f2c6b6183966074728f2e03ed5d35a9cb0625be\nparent 05740fb096be8d970fc7e30114209d5bd9d2d981\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1764363293 +0530\ncommitter GitHub <noreply@github.com> 1764363293 +0530\n\nUpdate .env",
+          "verified_at": "2025-11-28T20:54:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/ba820481de8857b6ab2420506e62a60e7f36e299",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/ba820481de8857b6ab2420506e62a60e7f36e299",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/ba820481de8857b6ab2420506e62a60e7f36e299/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "05740fb096be8d970fc7e30114209d5bd9d2d981",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/05740fb096be8d970fc7e30114209d5bd9d2d981",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/05740fb096be8d970fc7e30114209d5bd9d2d981"
+        }
+      ]
+    },
+    {
+      "sha": "9d16c9a149e0133225c805f90e8485ecbeda0292",
+      "node_id": "C_kwDOPcolZtoAKDlkMTZjOWExNDllMDEzMzIyNWM4MDVmOTBlODQ4NWVjYmVkYTAyOTI",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T19:52:14Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T19:52:14Z"
+        },
+        "message": "Add rigorous baselines and cost-aware experiments, update gitignore",
+        "tree": {
+          "sha": "ae6ab0af4812f356f84b29130ccd3857d70a6803",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/ae6ab0af4812f356f84b29130ccd3857d70a6803"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/9d16c9a149e0133225c805f90e8485ecbeda0292",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/9d16c9a149e0133225c805f90e8485ecbeda0292",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/9d16c9a149e0133225c805f90e8485ecbeda0292",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/9d16c9a149e0133225c805f90e8485ecbeda0292/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61"
+        }
+      ]
+    },
+    {
+      "sha": "94d4880801d163fb7b877401d1aa70da2d88fb07",
+      "node_id": "C_kwDOPcolZtoAKDk0ZDQ4ODA4MDFkMTYzZmI3Yjg3NzQwMWQxYWE3MGRhMmQ4OGZiMDc",
+      "commit": {
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2025-11-28T19:50:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-28T19:50:01Z"
+        },
+        "message": "Bump scikit-learn in the pip group across 1 directory\n\nBumps the pip group with 1 update in the / directory: [scikit-learn](https://github.com/scikit-learn/scikit-learn).\n\n\nUpdates `scikit-learn` from 1.4.1 to 1.5.0\n- [Release notes](https://github.com/scikit-learn/scikit-learn/releases)\n- [Commits](https://github.com/scikit-learn/scikit-learn/compare/1.4.1...1.5.0)\n\n---\nupdated-dependencies:\n- dependency-name: scikit-learn\n  dependency-version: 1.5.0\n  dependency-type: direct:production\n  dependency-group: pip\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+        "tree": {
+          "sha": "5214191aa10a66a2c8d38ecd391fea0c220a0f33",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/5214191aa10a66a2c8d38ecd391fea0c220a0f33"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/94d4880801d163fb7b877401d1aa70da2d88fb07",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKfzpCRC1aQ7uu5UhlAAAq8QQADZtYiU+JSR1e0+1ixHo13xe\nfLXlRwur7k5yb9nQgHPXKjM/GqqnfdSIRzXeT9VkSUKMxgBWHrr4vuatD8YUJunW\nnvg5H5NtTG5MCLLlQK+I0iKA0Han5qKlhM5pisTFiC6MjC33pmMA87942FK9fVrv\neylzAoR8XmDYAuLV7E35syfYfkd2WLvoq7dNeS4ST1LNO33hTnjRWUhildIlX87H\nBrpZev3Wk/W/3FUa6Q4XWtVK+BnufG7GHV+VnGVV6j51QSUrbCzc/DjBu9soF0dU\ngUm5IUpJ4iVx44Xgmp4GgyxPpnZ8BhyqnnaxsrZN0ikZuCGy0NF0XK3O3Dl0x4Kf\n2fbLZqpG+XdMVTDkM9MbEmSdHgSjjkrzN0AupgSf2FZQC7yxBjJYWLIYRfV34cYC\nQHxuGvyt0PErwclY1oFLGd6pRBKNnp1xGUOG5lh7+lSyTpPX+CjFFZD/3DtyV5S5\nofvYKg3kPDYx03CiG/rbEVZnYGGQXecFz/Mcrxp2/1zqy+hqjOd0ByqYGDadaZRP\nTOymbEehFYxGLmJx9I1qoz9SuzD924GdGT1PYPAVjiVM51HDyAR5H/KFaS4E3gPS\nrefw0mJgRtv+XR4895wbR/bhzH4yIeN5VrbqWu6+6oE0nM2HGDikvI0Gv8UtUk/u\nJrlRTgGB6kb0ZoZ37gmo\n=mgs2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5214191aa10a66a2c8d38ecd391fea0c220a0f33\nparent a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1764359401 +0000\ncommitter GitHub <noreply@github.com> 1764359401 +0000\n\nBump scikit-learn in the pip group across 1 directory\n\nBumps the pip group with 1 update in the / directory: [scikit-learn](https://github.com/scikit-learn/scikit-learn).\n\n\nUpdates `scikit-learn` from 1.4.1 to 1.5.0\n- [Release notes](https://github.com/scikit-learn/scikit-learn/releases)\n- [Commits](https://github.com/scikit-learn/scikit-learn/compare/1.4.1...1.5.0)\n\n---\nupdated-dependencies:\n- dependency-name: scikit-learn\n  dependency-version: 1.5.0\n  dependency-type: direct:production\n  dependency-group: pip\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+          "verified_at": "2025-11-28T19:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/94d4880801d163fb7b877401d1aa70da2d88fb07",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/94d4880801d163fb7b877401d1aa70da2d88fb07",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/94d4880801d163fb7b877401d1aa70da2d88fb07/comments",
+      "author": {
+        "login": "dependabot[bot]",
+        "id": 49699333,
+        "node_id": "MDM6Qm90NDk2OTkzMzM=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+        "html_url": "https://github.com/apps/dependabot",
+        "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61"
+        }
+      ]
+    },
+    {
+      "sha": "05740fb096be8d970fc7e30114209d5bd9d2d981",
+      "node_id": "C_kwDOPcolZtoAKDA1NzQwZmIwOTZiZThkOTcwZmM3ZTMwMTE0MjA5ZDViZDlkMmQ5ODE",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T18:28:43Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T18:28:43Z"
+        },
+        "message": "Finalize research paper with context-aware experiment results",
+        "tree": {
+          "sha": "03d9346b28ae1edd13a2e6f1a982b885ede353d5",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/03d9346b28ae1edd13a2e6f1a982b885ede353d5"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/05740fb096be8d970fc7e30114209d5bd9d2d981",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/05740fb096be8d970fc7e30114209d5bd9d2d981",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/05740fb096be8d970fc7e30114209d5bd9d2d981",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/05740fb096be8d970fc7e30114209d5bd9d2d981/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "51bb0310a5546c6df0bc707f9676db1393655d6b",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/51bb0310a5546c6df0bc707f9676db1393655d6b",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/51bb0310a5546c6df0bc707f9676db1393655d6b"
+        }
+      ]
+    },
+    {
+      "sha": "51bb0310a5546c6df0bc707f9676db1393655d6b",
+      "node_id": "C_kwDOPcolZtoAKDUxYmIwMzEwYTU1NDZjNmRmMGJjNzA3Zjk2NzZkYjEzOTM2NTVkNmI",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T17:02:43Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T17:02:43Z"
+        },
+        "message": "Add architecture diagram to README and remove redundant docs",
+        "tree": {
+          "sha": "50badb0b8e316bda45ecfaa37103a08afe4ec748",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/50badb0b8e316bda45ecfaa37103a08afe4ec748"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/51bb0310a5546c6df0bc707f9676db1393655d6b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/51bb0310a5546c6df0bc707f9676db1393655d6b",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/51bb0310a5546c6df0bc707f9676db1393655d6b",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/51bb0310a5546c6df0bc707f9676db1393655d6b/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3a0e2dc242a07584a997ad5671be8f9ce83c1b1e",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/3a0e2dc242a07584a997ad5671be8f9ce83c1b1e",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/3a0e2dc242a07584a997ad5671be8f9ce83c1b1e"
+        }
+      ]
+    },
+    {
+      "sha": "3a0e2dc242a07584a997ad5671be8f9ce83c1b1e",
+      "node_id": "C_kwDOPcolZtoAKDNhMGUyZGMyNDJhMDc1ODRhOTk3YWQ1NjcxYmU4ZjljZTgzYzFiMWU",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T16:59:51Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T16:59:51Z"
+        },
+        "message": "Cleanup documentation: remove redundant files and update docs for Gemini 2.5 Flash integration",
+        "tree": {
+          "sha": "7a33f49c6b5f6c0964ba44163ebf6e853539bdf4",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/7a33f49c6b5f6c0964ba44163ebf6e853539bdf4"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/3a0e2dc242a07584a997ad5671be8f9ce83c1b1e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/3a0e2dc242a07584a997ad5671be8f9ce83c1b1e",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/3a0e2dc242a07584a997ad5671be8f9ce83c1b1e",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/3a0e2dc242a07584a997ad5671be8f9ce83c1b1e/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f73c09a60a9ffada85f0f00eff552646b6718e18",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/f73c09a60a9ffada85f0f00eff552646b6718e18",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/f73c09a60a9ffada85f0f00eff552646b6718e18"
+        }
+      ]
+    },
+    {
+      "sha": "f73c09a60a9ffada85f0f00eff552646b6718e18",
+      "node_id": "C_kwDOPcolZtoAKGY3M2MwOWE2MGE5ZmZhZGE4NWYwZjAwZWZmNTUyNjQ2YjY3MThlMTg",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T16:49:57Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-11-28T16:49:57Z"
+        },
+        "message": "Update agent with Gemini 2.5 Flash, fix data ingestion, and add validation experiments (ablation, walk-forward)",
+        "tree": {
+          "sha": "fb72a4126a27ee60d73f4d728cd952e3ed6e8bb1",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/fb72a4126a27ee60d73f4d728cd952e3ed6e8bb1"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/f73c09a60a9ffada85f0f00eff552646b6718e18",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/f73c09a60a9ffada85f0f00eff552646b6718e18",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/f73c09a60a9ffada85f0f00eff552646b6718e18",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/f73c09a60a9ffada85f0f00eff552646b6718e18/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61"
+        }
+      ]
+    },
+    {
+      "sha": "a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+      "node_id": "C_kwDOPcolZtoAKGE0NWUzYjllM2M2MTljYzFkMTRhNWIyM2E1ZDhhYzFiMDg1ZWFiNjE",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-11-28T16:02:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-28T16:02:04Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "235b920e08c2013403b17238ad4700ef1f32d731",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/235b920e08c2013403b17238ad4700ef1f32d731"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpKcd8CRC1aQ7uu5UhlAAAGCEQABnOmQhA9AMnAtmttFlTibvF\nI5F9Nk4q8mY+QiqWg8gKwKkf2EA5JslopOmgR5nltxv+ObBthLuX2apbfc3iMFNN\nfnocOiGtA9ZawRWFHVgCk60v3ykzPR93a1prntZba9CONeM1OEmlf1BzQDn2y/ls\n65yjmMhyzEC3PFEldzv2vY02/C3tnC9PCpAw1vOV1EyRxrIb9XsD9kOLOyvjpgZO\nF622Klkpc9xX2PeIlJhoQbZVwbiQARsQ2+lrd9oeDiXg1MR1++FOTEZy35rJBQyU\nYv8/OvEbD4Mr0Ng9OK2xYluRxzZxreKk/8FvrTUGeG6jiYm+B2JKxxBjYpb55k/M\nmtIlgvzc/GbyNkMAMiRa/YmyScsr3320lcxvuVqb+WyzbZ5vHOee8jUalFOZhmPf\nLtABIDKjLncM/jUUWyu2OMVH1wXjYvl9szgACRUFiDRst6anpsoE6kdqYqkaRSAf\nZ5NhH/DQsK2IPGqNsl89miDXR+WK1winKhPvVSjD7XSJFtZtJ3GX9L3/lTfcIC2P\n+J82XMfq0FDgYOlCNYyXKKyj4NS7nbjVIaCzd7dNMZJPgvhb0YbXVKH5IukQZRkU\nTbtyqVmqPSQeRRjz4HEVljwTpWYHkGBjZksGXGfOlppTbMAxg6fvG/fgHe155ufk\nzhGKgbNf5d/RrCaUJTyL\n=nqo2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 235b920e08c2013403b17238ad4700ef1f32d731\nparent 24acf9e375f246e448f414538fe5a6999925907f\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1764345724 +0530\ncommitter GitHub <noreply@github.com> 1764345724 +0530\n\nUpdate README.md",
+          "verified_at": "2025-11-28T16:02:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a45e3b9e3c619cc1d14a5b23a5d8ac1b085eab61/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "24acf9e375f246e448f414538fe5a6999925907f",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/24acf9e375f246e448f414538fe5a6999925907f",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/24acf9e375f246e448f414538fe5a6999925907f"
+        }
+      ]
+    },
+    {
+      "sha": "24acf9e375f246e448f414538fe5a6999925907f",
+      "node_id": "C_kwDOPcolZtoAKDI0YWNmOWUzNzVmMjQ2ZTQ0OGY0MTQ1MzhmZTVhNjk5OTkyNTkwN2Y",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-11-07T17:00:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-11-07T17:00:20Z"
+        },
+        "message": "Update project title for clarity",
+        "tree": {
+          "sha": "5fde83b40b7c25e3708adb3115c88165d6bf6bb3",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/5fde83b40b7c25e3708adb3115c88165d6bf6bb3"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/24acf9e375f246e448f414538fe5a6999925907f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpDiWkCRC1aQ7uu5UhlAAAJcAQAKFWS5u40BqEvGyNeJRFmBh5\nlBaJ3xWoJ9ofaxzsULIwD+SENRKn5s6rs4us5GYEgkYxf34/H1UW6rDSGwxr2y7U\nKE0rnVl+Pj3Io12JFAAr9/4EqCPVjkn2SFJpyypRxIhtF5gFVKbJGggBBQQKxKd8\nz9mVkuH/Aemzy0E6/qmlwWjGm8kEu7c451oQoICMwkSdrhjKWlM9wtzlI01TrQ88\naYafUZeS+pBgG+XcneryntaufbFKKb5lSeCcHL7pxgaZODT9GRYyxtLXHG7qX/SI\nKjSvW0RS6bPimlLik7c+eAADV+rqNAf9vId+fVpfLpwsV8V79Wvjy0Pf9unxVcnj\nosCCYkkxKcD/1monck5dTXZ6jiVE33lv+fgErrkkAyVrGsTxh2Pk8HcvdN3TlrOg\neq6+G7P/4uQXT1tjRXkfgBW/8d336ldd94WMG5Ct2S+U7Ft/QPNPANC0qfhJ59WX\nqXCaSKv64u2tOb/9b0ofFHWw0uc3cklgHfpqmD10yBsyC13igXZQmXVweQT23oWX\nx1DuWA3JcKa4ZtlqKFwpI2dRZUAJo3XbJn+XQEhLzmWlRVJ4+zptAQi3+ty1Ioi5\nKlHdkUtkyl/f+QMq8P7bHt+zoBcZlcOVmh2Z03cq5P3bShht+qF+XNRyzooVbexR\n4zC7mGuBpo6wgsyyZxUN\n=96+M\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5fde83b40b7c25e3708adb3115c88165d6bf6bb3\nparent d54a2c56775d57294a05aa8de74278112f31cd61\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1762534820 +0530\ncommitter GitHub <noreply@github.com> 1762534820 +0530\n\nUpdate project title for clarity",
+          "verified_at": "2025-11-07T17:00:21Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/24acf9e375f246e448f414538fe5a6999925907f",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/24acf9e375f246e448f414538fe5a6999925907f",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/24acf9e375f246e448f414538fe5a6999925907f/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d54a2c56775d57294a05aa8de74278112f31cd61",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/d54a2c56775d57294a05aa8de74278112f31cd61",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/d54a2c56775d57294a05aa8de74278112f31cd61"
+        }
+      ]
+    },
+    {
+      "sha": "d54a2c56775d57294a05aa8de74278112f31cd61",
+      "node_id": "C_kwDOPcolZtoAKGQ1NGEyYzU2Nzc1ZDU3Mjk0YTA1YWE4ZGU3NDI3ODExMmYzMWNkNjE",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-17T18:02:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-17T18:02:08Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "8139a7cee4739aeee7cdf1ee8195fcc76fe6e310",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/8139a7cee4739aeee7cdf1ee8195fcc76fe6e310"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/d54a2c56775d57294a05aa8de74278112f31cd61",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoohkgCRC1aQ7uu5UhlAAA/SkQAG314RRjBRmxYwfzrwWg9Oxr\nXp9dcddsMiwX4cDyG4vJc/BKwwK/1NEG9NYKs3UgRIeMJxj1rUZ9yz8W7ZHvhrHV\nGfUuB7y6dOVDjHsleqvLKEROFG5q83X/x4Jh5/3bbquyN5UtrzSTtPLZ3VZIc1vb\nMP1dsm5Y+LT8MEXrR7nQ1Nzn3ETuoztkEpC8/G8z4LhXLL1aaVeWppz8lBYbCml5\nOCZUxSnLqeeq+/mpTkYGjq6ByvaIURpNliPlIvH06MNEuo6fjvAZuzWOYVEQg6qv\nligLjXgXGPTwnd+2lMo295iD8G3/7vwAQ2frV8GTM5siQ6UIrOtS+T4odDyFOjGn\nZYas5khgpLHU74RZa9uc9KjPTbqfcB8qcB4zq+XneAiyFHnbRRsbYxlaazQHMKUb\nvBEAGVXPH3E0XlrNTN+v5RtDBDyt4Au62UF5RBcnFT3stoKRZLKc7m4E83fvx16o\noJ+JTO9o56+1ON33qIs13GI50evviN9Fa8hITN6WWz2ewYkAsQYYz3q+akIWHhsf\nE1VuJ5hxml/GXe1U+02TOzBxMU8utfUfSlkNF2hcdt1UzI9ALqblm+9xbcWfy0sU\n1VA5jU+T/mOJL/yWf9bLrgaoJ7GPcaU8YMbNzPQKKgIQFeT83brXHJJGeWHWNCXr\netNbH/War7LgfCFXrNz/\n=kqLA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8139a7cee4739aeee7cdf1ee8195fcc76fe6e310\nparent 6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755453728 +0530\ncommitter GitHub <noreply@github.com> 1755453728 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-17T18:02:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/d54a2c56775d57294a05aa8de74278112f31cd61",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/d54a2c56775d57294a05aa8de74278112f31cd61",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/d54a2c56775d57294a05aa8de74278112f31cd61/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef"
+        }
+      ]
+    },
+    {
+      "sha": "6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef",
+      "node_id": "C_kwDOPcolZtoAKDZjYjRhYTFmZmIxMWIzZjRiZDM3NzI2YjZiMzc1NWU1MjdkYTY5ZWY",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-13T10:08:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-13T10:08:00Z"
+        },
+        "message": "Update INSTALLATION.md",
+        "tree": {
+          "sha": "370b8afae5c7d2dd173b13aed7531a7510499ea3",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/370b8afae5c7d2dd173b13aed7531a7510499ea3"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJonGQACRC1aQ7uu5UhlAAA+SoQAJFIYlFPKTdsT9Fh+tAwcioK\nd/PsDh1mjXjAwsKxx08Xj+DYvmns0Zpd0W0gwOqBizqlTKeqG0ZrzBqKghU0ISbz\nRWpmNmhD7IkvMTzA/Q+a65jhQDgf9XflGA07QMrSfzbQVcxQobXwWoM6yZDsY+bb\ny3Id9144Y0rZpJ+UlkQ6zfvC6LvgIkOJ/ybRAzWzZgGel6OAeVw6Cep7sGNSiJYc\nhsxkULccZ2mMgNjXH/5QCfxP+ZO31hSVkMKOP+8akj2Snz77eo3VezpwYV/p3A9r\nkXyF/lSmK27AKoN1ylo7b806m15PFhOrhZFLtmG5XsCzFwbudc7EPHiZWFZJY3V7\nSDUQn4OXlBM/EsA5K484a6TgF60T7VXYoT3HXtfvq2iyVUHJtwQ09p46NZnGZnFT\n/QmAVIpaRH0KmgKe2oPbl1mrjz34XDGXHKTY/xuxjCLb1sRB3SIJWGI0c4VCTZ8v\nUCkBOqz+7zIpZu/c3a61LWXzDBwTWnF1oq6a1L+aMaRu4nweVoZTUaPt0cmRmV4g\nOX1hd+3PTpx1u9tHP+vPG7P6Da/lmwmEcs5JFUjrjrJFRF7lNlZZ3pPBHA3pWifi\n6vVg+JFP6gu0oNbWWb51N76c6qqkN11c6Z2fvFJZjdmJEXl/S2QidJAYiP2JF47Y\n5keSJLW/9qwS2rthIwG2\n=9J2D\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 370b8afae5c7d2dd173b13aed7531a7510499ea3\nparent a009d7de9ba5c48c6220908f2edc19ceeb5b6580\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755079680 +0530\ncommitter GitHub <noreply@github.com> 1755079680 +0530\n\nUpdate INSTALLATION.md",
+          "verified_at": "2025-08-13T10:08:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/6cb4aa1ffb11b3f4bd37726b6b3755e527da69ef/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a009d7de9ba5c48c6220908f2edc19ceeb5b6580",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a009d7de9ba5c48c6220908f2edc19ceeb5b6580",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a009d7de9ba5c48c6220908f2edc19ceeb5b6580"
+        }
+      ]
+    },
+    {
+      "sha": "a009d7de9ba5c48c6220908f2edc19ceeb5b6580",
+      "node_id": "C_kwDOPcolZtoAKGEwMDlkN2RlOWJhNWM0OGM2MjIwOTA4ZjJlZGMxOWNlZWI1YjY1ODA",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-13T10:06:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-13T10:06:32Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "91c95146132a456b9c3d6848001076f45488c5b5",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/91c95146132a456b9c3d6848001076f45488c5b5"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/a009d7de9ba5c48c6220908f2edc19ceeb5b6580",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJonGOoCRC1aQ7uu5UhlAAADKEQABAtbyYgLbTY/CNZMtZHj+q3\nLtzlEbFsaG0JHAJako0aLZvQctk7MWBhtS0mlBENNUzxtelNrZPqSrVEmo5VVcUP\n5KJQ2Oc1/z6XeetxwvJf8kl1hVcYE1jnDmjeJwjUA62lgaHIOAESp36AOZwyNT5i\nQWeStucUQiU2Pu7Xqbu0q+CnNBK12LAqvW2DOa6894JAeCGXv8RNaUbt3DfFVvaO\n7L2nQVFY3GzqCSsx7tXuEZgIXIyD1tkkT6CUn6EpV9PxAgkODoT7P7W7Izf+T9jh\nZlxDjeEJ8jTJms4rP8RqRnXkjbQIaL/W2NTNngpllAlJmyHjKbUE+/wr+raMMS5k\nW3mW5F14X7XMFRnwXCApUJrHSL5QvzpzTpmSDDHT83E7aemcI02PvF0yeNxHk8SE\nw3NNj3eiiVkE+j3wOktgIzKKJbFtrG8fK8sA1c4S+t/1yw/6f3dz8mq3o77T6Ym3\ngeHhCOLqijh3G+NWwTgRCdQg5l1Sekb6AextmQNnsX2EeviCRFdQaJbuOpMsX4vz\nYHAz1qiCLCbMx2Qvoe4g16yrmuXHNE41MlG+Y32eO5L5XnVgvhomBIpewylJSdrO\nriSw++ZeSYEsUefbbnu6AkJOwtCtOtxPkPScDJGFozJjgkhGkikcdfI4qiiU7mTY\nqgWFhWj51Va6BJDlj/4k\n=Z014\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 91c95146132a456b9c3d6848001076f45488c5b5\nparent 93a6e317a0654a15aa351769ef0a0aee6281d5a4\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755079592 +0530\ncommitter GitHub <noreply@github.com> 1755079592 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-13T10:06:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a009d7de9ba5c48c6220908f2edc19ceeb5b6580",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a009d7de9ba5c48c6220908f2edc19ceeb5b6580",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a009d7de9ba5c48c6220908f2edc19ceeb5b6580/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "93a6e317a0654a15aa351769ef0a0aee6281d5a4",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/93a6e317a0654a15aa351769ef0a0aee6281d5a4",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/93a6e317a0654a15aa351769ef0a0aee6281d5a4"
+        }
+      ]
+    },
+    {
+      "sha": "93a6e317a0654a15aa351769ef0a0aee6281d5a4",
+      "node_id": "C_kwDOPcolZtoAKDkzYTZlMzE3YTA2NTRhMTVhYTM1MTc2OWVmMGEwYWVlNjI4MWQ1YTQ",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-13T09:49:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-13T09:49:32Z"
+        },
+        "message": "Update AGENT_ANALYSIS.md",
+        "tree": {
+          "sha": "6770f2051fbe8352d7cd5aa90a9332d78957414e",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/6770f2051fbe8352d7cd5aa90a9332d78957414e"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/93a6e317a0654a15aa351769ef0a0aee6281d5a4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJonF+sCRC1aQ7uu5UhlAAAO1AQAEMlFbkaKMdXRuOkq4O7VXSr\nptak5+VZ/XkfRW3ELpeeLYhdOk4RQx2eaMwsDL+TNHar8nw84i6WnGc3C0r0Zh0a\n0hppQokxzt7zv5sVggWDVPV1v+PFJcx64U7UPkY95DmZ9GcgxkEyJgWJOvZSOpf0\nM+B+FU/KALs/uXGVTxNKen5PlLsVrNKbnyXw3QV3yhzUhRbHnje6GDROqdQkHQ3T\nfOfVcVwxK12t29msBW36C2cG8+Ts2bxH2+FwfCMavEO2PnFffLvZJR5gSlUzy9dr\nrzOy9XV1RaEwmE+lNdH4vFLUY/gJ3DMSB32mbEBREpfa/x3uuLsex/AyfOvscP1n\nNWaIqJD24sfdIwgHd4M1Ghaq/H/eV3hig84v50XAQmyYGksgnFyaOB5NsuIvI+WQ\neZQ9jvf6F4foChH2d6woREX64NATtrb1ZYcrw97XAu6KR0o0KkSdr9wUkoYzX16C\nKVH0zJdsoF/UzaHtCWYCHg7aQcXnkIaXvT9tnshhXLjlzjqxG0RRRDy6/ZNDHV5T\nNjKDdf73QSwt9Qm6JCcarQpXZoTFnnShNmJF1YKHRHN9q/TRiWJ1lOOHC1U9762b\nGXyMGd1pp0Z+J4kmTKujlmpWA1RyFLvDNMNqYaGLXDMlGirPhp2qqoKygeubZHyn\ntBQHmKtBB3Laub4Xz1pY\n=FC5U\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6770f2051fbe8352d7cd5aa90a9332d78957414e\nparent 38afc0c4cd0e42a164b2043c9acb630c5d72e43a\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755078572 +0530\ncommitter GitHub <noreply@github.com> 1755078572 +0530\n\nUpdate AGENT_ANALYSIS.md",
+          "verified_at": "2025-08-13T09:49:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/93a6e317a0654a15aa351769ef0a0aee6281d5a4",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/93a6e317a0654a15aa351769ef0a0aee6281d5a4",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/93a6e317a0654a15aa351769ef0a0aee6281d5a4/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "38afc0c4cd0e42a164b2043c9acb630c5d72e43a",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/38afc0c4cd0e42a164b2043c9acb630c5d72e43a",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/38afc0c4cd0e42a164b2043c9acb630c5d72e43a"
+        }
+      ]
+    },
+    {
+      "sha": "38afc0c4cd0e42a164b2043c9acb630c5d72e43a",
+      "node_id": "C_kwDOPcolZtoAKDM4YWZjMGM0Y2QwZTQyYTE2NGIyMDQzYzlhY2I2MzBjNWQ3MmU0M2E",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-08-13T09:48:18Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-08-13T09:48:18Z"
+        },
+        "message": "STABLE RELEASE",
+        "tree": {
+          "sha": "ff94109b364858e851fa039404c5cadd6c81be5b",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/ff94109b364858e851fa039404c5cadd6c81be5b"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/38afc0c4cd0e42a164b2043c9acb630c5d72e43a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/38afc0c4cd0e42a164b2043c9acb630c5d72e43a",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/38afc0c4cd0e42a164b2043c9acb630c5d72e43a",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/38afc0c4cd0e42a164b2043c9acb630c5d72e43a/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e5753307ecec1c8597c7c288c695b51f9add43b3",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/e5753307ecec1c8597c7c288c695b51f9add43b3",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/e5753307ecec1c8597c7c288c695b51f9add43b3"
+        }
+      ]
+    },
+    {
+      "sha": "e5753307ecec1c8597c7c288c695b51f9add43b3",
+      "node_id": "C_kwDOPcolZtoAKGU1NzUzMzA3ZWNlYzFjODU5N2M3YzI4OGM2OTViNTFmOWFkZDQzYjM",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-13T07:28:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-13T07:28:53Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7c4beaf41f61556cc12616e6200a350c5a773168",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/7c4beaf41f61556cc12616e6200a350c5a773168"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/e5753307ecec1c8597c7c288c695b51f9add43b3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJonD61CRC1aQ7uu5UhlAAArsIQACRU9vfz5c707DXSEoCuN9xp\nxFtVG5S1Klbo0dNazUaRPT1Kl811CCHYrfr78Fxc+NulGr7UZt3nvOl4x/vLtIQQ\ncrXBQ5AyJU8sMZmzlA5jQO2K6gJBYKbSlfXDH+uU3ALCjV6TD6TQe2fydDuGbCl8\n/asu8G7QGnDUfxSTG3AegtLMwHhPIP/M6y4y3UNEVjGhnMKxYYwAyk1UDPFVIVKT\ny589DJth90whMqxc2XopdXmw0ul08M1AnaIR/Gi0XjDPkXHZ/mjL/F+d4AdNdmKf\naac3k9NFjE58jSLc5WO2SmLFmvEXqGyZLtDOH6nl5NnXTT1vTF70ks1SJ3dvGzKd\nH1PMh/aNlkId6qgqux+q0fCwR5a8WxEsTzJJxALJsfbxxn2AR/uxkB9p653SToTa\ndv6khwHKEDsCgjOPEBHkDMCg2C3Erx/fjI7Wlve9QfRWLcNe2SKqCDfcx8ZdZgz7\nxFOBkqct3QJPrMvPF7FOBoOggNqNSQbnLd9e0WHLxjPcnQn4Ku00nr9YUObmX5nL\n+xmzdDd1zdx30ySJFo10fK9mRvwOktWuhUMbpWqzNuZ0Bmw0/vnzel0M6ZGDmR44\nr7FZlpt3eSrQr3ikqE037uGX9N4oPqb6wiO66E/7uDFoXL8hnCaQx6Egoxjshuwo\nVFvuhNZzr9veWlzj2u1G\n=QlOI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7c4beaf41f61556cc12616e6200a350c5a773168\nparent b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755070133 +0530\ncommitter GitHub <noreply@github.com> 1755070133 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-13T07:28:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/e5753307ecec1c8597c7c288c695b51f9add43b3",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/e5753307ecec1c8597c7c288c695b51f9add43b3",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/e5753307ecec1c8597c7c288c695b51f9add43b3/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743"
+        }
+      ]
+    },
+    {
+      "sha": "b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743",
+      "node_id": "C_kwDOPcolZtoAKGI0N2U0ZWE3ZmM1MmVkYzNhYjI0YmU3YjdhM2U2ZTQxMDMxZmY3NDM",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-13T06:53:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-13T06:53:42Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7a7f2a4cfc298bfda02d1f098b3378e323b5665d",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/7a7f2a4cfc298bfda02d1f098b3378e323b5665d"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJonDZ2CRC1aQ7uu5UhlAAA41QQABamucab5OvCiPJ44VQu/ZsS\nRoRsPpyraW9BJgABfiMIdFr7SIGMKsGWDFQMu82I3BcWu8Ta78Q5iDO1Wfek3nW1\nns/+DVt/OZ5SGftcpBfge1+ICsS4VjLcc4KFZuJr3uuarf4LZS+nWrRIRw7o9k3m\newiScueQbIvunrhSJ2ZVjfhjqtCDwsE6Czl9MCWjO/ur7GvvCkNm74Ch8u1HGnga\nhKOlNu5nzQCUAhmK100GD8L1/3VHifozMrASZf4sVQDA8VBLxoK3czMLLyhzrKaV\n/b3va9fogfk4TrsHjx4ow7xvGahUfy4llRHKN69vCII8Gh/flpN3spZPCc8+y3r2\nD8Q1ScEnhIs8l5oe2b3khBy+/C3e4rpB05LDpNa1Eh70aBoqBpXVXwbScDRPRaZC\n3O4JLkM0uiQ6icnA+Gh/xSPIOpQVvY2xiQvJvYcpEpd6QRXau9W34Iy9pyQ1nE65\n9YgG4jeBZ3OT5m0AYTfDQRJXooVO8HEHS9JdO0OVcqzBt82drWfFQXlfMuivIvCk\nuS1JPPZ0Qc/16Y/v3eoiygV+5WKPZ6BIF2kflX9ADVerOUQvHmR1tMaGYxLjBOja\n/3MVizZ0TZ9wv5GWQWoQjonWxrDcth4kARFmN0Vp2QYtDd5GaqrROLqz0EhNchZ0\nMSGFTg8x+PL0EVXGHVb2\n=M64t\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7a7f2a4cfc298bfda02d1f098b3378e323b5665d\nparent dc9e8f6025dbf56281198c318c2040287d84e874\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755068022 +0530\ncommitter GitHub <noreply@github.com> 1755068022 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-13T06:53:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/b47e4ea7fc52edc3ab24be7b7a3e6e41031ff743/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dc9e8f6025dbf56281198c318c2040287d84e874",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/dc9e8f6025dbf56281198c318c2040287d84e874",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/dc9e8f6025dbf56281198c318c2040287d84e874"
+        }
+      ]
+    },
+    {
+      "sha": "dc9e8f6025dbf56281198c318c2040287d84e874",
+      "node_id": "C_kwDOPcolZtoAKGRjOWU4ZjYwMjVkYmY1NjI4MTE5OGMzMThjMjA0MDI4N2Q4NGU4NzQ",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-13T06:51:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-13T06:51:47Z"
+        },
+        "message": "Update AGENT_ANALYSIS.md",
+        "tree": {
+          "sha": "d07ddcf2251eac7eb0e73433045665b4c2853996",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/d07ddcf2251eac7eb0e73433045665b4c2853996"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/dc9e8f6025dbf56281198c318c2040287d84e874",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJonDYECRC1aQ7uu5UhlAAAXo8QAGUo/Q+21UnGlCNAOE+IknTZ\njR+eL1wHdo+YZlxlRmyyG1nr5A/kNEIx23xVZlGrRo+KhcmOAFw3595Ou47uB+Q2\narPLFJk39ZwX4x9Cfq+BX/6DBAMj6st93UU8WAHDlIaqsFlNUP9jJSyM94kex9k2\n13pdEoDJFO1eM66oYln0LSY4Ny2MUTDM1T3bsdVkvB8BSuwHCNvI08uFG602/qPF\nimkvLq0K4L0XBJ4Y3T2ebKvYtTQ5NR2uuRdZ6KvdemJ3gzSUl3fy2efYRFMbMYM1\nejY1J3nQRZ9327EvhDtWZ5GI/dBMVAhtSUy4jUGcjJRMTx7uO/5akN0uA/BqxI48\nKKh8pDahQgrHDMS3IeBkhE6PSZrcMSt7hUJZLl70DgaWT8BW2Kalb07IRhhKAU+W\nTnip5alOoFIMPsRm3Fx/fBsKq4Ky7XOHfN8E2LRqrqiCCA+6LMqOy5lvX8eLjThX\nMRYvV+aJmUxXWskU2X/KmD9ld2VtFeLDVyhvLy5olPLJHKFAoIBfLKBoA7berRdG\nw5gW0bgrNrW/H4fjz03CiZRLNV5rVDC/AIedbs7WvjPx3OyioS+NoZCeY8bkj9ZA\nQYs6qJK3UJ5eKpIWvuzgIfzosUSadL0AtBCEx/kqhCYhM7g3VTslN46AhDvDZuK/\nhvKYqOspYCG5hPrb1X18\n=EJvs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d07ddcf2251eac7eb0e73433045665b4c2853996\nparent 47f40230d88285c5dd3c86d0b336a06387011653\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755067907 +0530\ncommitter GitHub <noreply@github.com> 1755067907 +0530\n\nUpdate AGENT_ANALYSIS.md",
+          "verified_at": "2025-08-13T06:51:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/dc9e8f6025dbf56281198c318c2040287d84e874",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/dc9e8f6025dbf56281198c318c2040287d84e874",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/dc9e8f6025dbf56281198c318c2040287d84e874/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "47f40230d88285c5dd3c86d0b336a06387011653",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/47f40230d88285c5dd3c86d0b336a06387011653",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/47f40230d88285c5dd3c86d0b336a06387011653"
+        }
+      ]
+    },
+    {
+      "sha": "47f40230d88285c5dd3c86d0b336a06387011653",
+      "node_id": "C_kwDOPcolZtoAKDQ3ZjQwMjMwZDg4Mjg1YzVkZDNjODZkMGIzMzZhMDYzODcwMTE2NTM",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-13T06:35:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-13T06:35:24Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "cb04c5b8895bf04d053d4f1831b1062face4bffc",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/cb04c5b8895bf04d053d4f1831b1062face4bffc"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/47f40230d88285c5dd3c86d0b336a06387011653",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJonDIsCRC1aQ7uu5UhlAAAeYwQAG66WjhKCllRdsuDi6P22z4I\nseHoGswK3drADsVC4sMavujFoLJ0xnzEnp+Za5ukmjR3P7mNgP6QUAr/Ik3GZDNK\nIMJrEse934by9DrHExoE1d0ILHMzlN2YDn7DAeH2l4jRHNZ4CBa63ucp9pSHjfmK\nkpBLaj27NRyWvTpph6+amPklHWhHbUEJkBjegVeWfYO4iEa2Mc2hPfRqe9Ik2iCJ\n3KPTNhDh2p3vLk3ATrciMGqHN1ZNUtlvJNwQbkAkj0L3+QeHuRRgyd+6wa0jFPYh\nrnFF7vV+bE/dLaDXMXMrckg3vNmCQYmJ1TMTFy2e/WIvcp0J39a5ybXVObU0zGxr\nVnx4M9BD2tRzH6YTjl2pXRKGCSRiEKaFiD3mwCNn/mPWV4RPzGZnKCMQTYHxMs0z\niVINPpyR3KpcrXFlLQT1hHRScxaChqfvnhoIroKkD2iU2zguOYORu4ftzma9VhsC\nQQoH6n7yNbNWOA0nEjAwawOcvCgLe4FZ8trZfuSSI5IK9wVr2VDmI/sph3iwsad7\n7fnmh9w0is2c+YXnVg4k+Cbt6QnOfyD3aIg+BtKulWtkGoMG8v9BJxRRwlYspTKN\nDuWUK+ArvyZuLYAulsNEaf4IjmyELji+vVLs3QYw1wet+BMcL6dvYsrViX3DqfyH\ntKX+4QhIVIIqyTHpQMYc\n=5L4U\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cb04c5b8895bf04d053d4f1831b1062face4bffc\nparent 3203d767ae8d3ae3240e8770205a3f9d5364b3f0\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755066924 +0530\ncommitter GitHub <noreply@github.com> 1755066924 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-13T06:35:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/47f40230d88285c5dd3c86d0b336a06387011653",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/47f40230d88285c5dd3c86d0b336a06387011653",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/47f40230d88285c5dd3c86d0b336a06387011653/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3203d767ae8d3ae3240e8770205a3f9d5364b3f0",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/3203d767ae8d3ae3240e8770205a3f9d5364b3f0",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/3203d767ae8d3ae3240e8770205a3f9d5364b3f0"
+        }
+      ]
+    },
+    {
+      "sha": "3203d767ae8d3ae3240e8770205a3f9d5364b3f0",
+      "node_id": "C_kwDOPcolZtoAKDMyMDNkNzY3YWU4ZDNhZTMyNDBlODc3MDIwNWEzZjlkNTM2NGIzZjA",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-08-13T06:27:54Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-08-13T06:27:54Z"
+        },
+        "message": "DEBUG BACKTESTING AND VIZ PENDING",
+        "tree": {
+          "sha": "bc5d6e98f3528f1730a85a09a5d5bd4d181e4cd1",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/bc5d6e98f3528f1730a85a09a5d5bd4d181e4cd1"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/3203d767ae8d3ae3240e8770205a3f9d5364b3f0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/3203d767ae8d3ae3240e8770205a3f9d5364b3f0",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/3203d767ae8d3ae3240e8770205a3f9d5364b3f0",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/3203d767ae8d3ae3240e8770205a3f9d5364b3f0/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7c410909523e32b390c6325fe9ee1d2a6155a263",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/7c410909523e32b390c6325fe9ee1d2a6155a263",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/7c410909523e32b390c6325fe9ee1d2a6155a263"
+        }
+      ]
+    },
+    {
+      "sha": "7c410909523e32b390c6325fe9ee1d2a6155a263",
+      "node_id": "C_kwDOPcolZtoAKDdjNDEwOTA5NTIzZTMyYjM5MGM2MzI1ZmU5ZWUxZDJhNjE1NWEyNjM",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-12T17:35:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-12T17:35:31Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d8870ab8fc566d47e63174e956926ac3c617ce2e",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/d8870ab8fc566d47e63174e956926ac3c617ce2e"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/7c410909523e32b390c6325fe9ee1d2a6155a263",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJom3tjCRC1aQ7uu5UhlAAA1UgQAI+Q6S6htROemdYmfGxZXdpr\nxQwkEwXXdVTb4/6PPtXp+d2Lg6uXeprpmPloKOE+jeyDkSUFAjaOERECJR02Vvs6\n6lKtnQ619Tkb/2SFqTa5+FJnp46nh+yF419TnZ8oJ7d521NOmwqHzljb+2DuTWTg\nPzWVPIzZ3nfObvs+zaOFYGsfy6G1+AUxRUJyAexxnst2bgPaafWvkBL3FUQ+a/qR\n+yLvERs/G3Fx23vCqbrILJMjxu3LIj4mYQ5qshrzEonw4S++4oxeSoEBds496Y/R\nV7NiXoL2HrtQNkdVN5JA+2bqj1+tA8iMUKdfUuWK8MauucPS8eHDqxy2q0fgLtOt\nqRlGjod/by7bHETEdRBhYjYVebtABWbQreyWNdMjK/WdcELqIhaKb5nCebs5hdib\nPePiT9gO16WvAzAekg9j3o2dbydEYiaYVyE/jDPvRW4xMbWrOyUrLgDAqRBvqjJe\nudT+FFcZFI2rWlnMgiYTUG7Wm4O2iEU11JdFjmcaMaJMiYyWaHqtj/KfnUUe/8Cu\nK3Uj5vPmpz7A+zRXC5Hni3VSLhrJkKkDaQYMLd6lP3pM6KbzRsYvr/itcg7sfcQl\nik6R6WXEcT+2gM49jCOYn++wEDiVBbeortWpg1AZ3Gz72tV00QWiSmS0wzJh1EAN\nj9a2i2s3a8rI04tbCDLy\n=0a97\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d8870ab8fc566d47e63174e956926ac3c617ce2e\nparent 87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755020131 +0530\ncommitter GitHub <noreply@github.com> 1755020131 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-12T17:35:31Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/7c410909523e32b390c6325fe9ee1d2a6155a263",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/7c410909523e32b390c6325fe9ee1d2a6155a263",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/7c410909523e32b390c6325fe9ee1d2a6155a263/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8"
+        }
+      ]
+    },
+    {
+      "sha": "87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8",
+      "node_id": "C_kwDOPcolZtoAKDg3Y2Y1YjcxY2ViYjY1NWZiMWEwMWMwZjZiMmFmY2JmZDRiMjU2Yzg",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-12T17:33:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-12T17:33:58Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "cd91ad216716d9c1fa444c56748c7feaaac01f9b",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/cd91ad216716d9c1fa444c56748c7feaaac01f9b"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJom3sGCRC1aQ7uu5UhlAAAZ1sQAIGFFaQn/LUQoMU9m2LKJV3p\nL+gwTpUTMEamlX76YqrXP7r519PoqZ6k+oQoVUsYt+MtluTTwhmnD2cTPe63QbUR\nsj0teYpVWB8OXCv8qD2q+OL/pmOPh914Xu0eyKhfk01NUJ3A3N15d+qQi/JnTq8w\nBJWRw2fe/kaRvcaAbWfV3uDPc8GjHU036skucf9bCJlBfPlUeFTgixPInX+/xKN8\nPyqX5lx8LrCMand148X0JDKV1hqWMTwIM6nPon+Owrg0C3RXBNXaQAdjHe3wN7Fp\nGg9PYpF4YDFzp+HnzKrW+GbPUjZd8S4+IfUt1xwp93TDsaS2hAbjIPuzN4y9mRq9\n31xqqISpqYTbXKUNdlf+Z564qfR+dJgOVO4b457TPB9R60ZiwCuPJY8ikgaE2+hI\ndABYs5Vj1Z53iwxYxmdWI6eRlMrzJVXMhB7gEqcSTWMcJGxD7YJ689w+mCkOu/Di\nepzynkSkH8N06i15ycuAxbui4lorva55FQ1P4TpRe4RAdtmD/RXshQ6YYhlXFo9O\nRXNo3U52C4QtJ+L+tLf9PoEgROQYRLb5nLmay4s5zdMPRUy/IBXzxE5DXAWSTwMf\nsWZm1L29+/6d4LwhmzOAMu6sEiylU3mMoPmjn8n9Ek99KMd6XoMf9N+P2rtaQqfK\nCux5Xv5kU4OHMnmRinki\n=6DQh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cd91ad216716d9c1fa444c56748c7feaaac01f9b\nparent a545656315aa9dd8e9ac696fabbde05a9a8c1129\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755020038 +0530\ncommitter GitHub <noreply@github.com> 1755020038 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-12T17:33:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/87cf5b71cebb655fb1a01c0f6b2afcbfd4b256c8/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a545656315aa9dd8e9ac696fabbde05a9a8c1129",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a545656315aa9dd8e9ac696fabbde05a9a8c1129",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a545656315aa9dd8e9ac696fabbde05a9a8c1129"
+        }
+      ]
+    },
+    {
+      "sha": "a545656315aa9dd8e9ac696fabbde05a9a8c1129",
+      "node_id": "C_kwDOPcolZtoAKGE1NDU2NTYzMTVhYTlkZDhlOWFjNjk2ZmFiYmRlMDVhOWE4YzExMjk",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-12T17:29:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-12T17:29:01Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "94aa47ea974504de57e263f2eb06c1dd3b20d8d3",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/94aa47ea974504de57e263f2eb06c1dd3b20d8d3"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/a545656315aa9dd8e9ac696fabbde05a9a8c1129",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJom3ndCRC1aQ7uu5UhlAAAPJEQAAvOyoiFh/V7/Y5yg3uvCK5j\nTZjR+cOYclxsE4O9pRLNf/FwHH4iyg1rGSXH8iXQIk7zNLm2/IfxZB0b1kgAPs8x\n9z2zVGTQeMVMWIL9/T0OO/O7ykyHewAYIPGqBmgMXxTjeE7wCAujuWWWvsjmZg2r\n30nOim7Vb/a3I93wIXseB4jg04yBEKtAqrfxEXA8n14H4w/SOqirGvd7XRp1L23z\nIitvJ3hOhKsGCuF476sxYuOyGHSnSVwMz09fo/IsDFtMbDEC8qpf+WRIisvEEKiE\nzxaVuie8pJMMS3++C4YLwcsPiqATzKkYnRXO5QQxDr6C4x5Sis8sLs7t0v8fP31i\nucfd9FG/LUs5rM9+1qVYPiUN9Eb49b8SX39e/2YamDe1zDmyrKUQQhRvI6SmRVuj\n8rYme1GzK5OV+XC2/ba90fhimWE0pjoip9hp5DrurZJ3n0os1nLtC9YJFrlKwmXh\nUhYN+rjyCw6Tv5fPa/giBs0KQPT4Iu2UXtdZGWdF/bolqI0nURnsKOx1CNhD3o/B\n2mVDNKp3C0LWzUDO2XONAZmggjiVHk37sxMkA56agFdG6c0LIHhVM0XMU96zpkzA\n+LKS9qtpU0ExN95B1e7BntYd2//Dz3jy13yBU6JwLdpy3W7HTqfXECBLFEgCmBHl\nuKnfq9sS7cHJZhcWDH2J\n=zKOV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 94aa47ea974504de57e263f2eb06c1dd3b20d8d3\nparent 638cf77acfbcc2183c1f81cf66cf4d36da375e72\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755019741 +0530\ncommitter GitHub <noreply@github.com> 1755019741 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-12T17:29:02Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a545656315aa9dd8e9ac696fabbde05a9a8c1129",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/a545656315aa9dd8e9ac696fabbde05a9a8c1129",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/a545656315aa9dd8e9ac696fabbde05a9a8c1129/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "638cf77acfbcc2183c1f81cf66cf4d36da375e72",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/638cf77acfbcc2183c1f81cf66cf4d36da375e72",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/638cf77acfbcc2183c1f81cf66cf4d36da375e72"
+        }
+      ]
+    },
+    {
+      "sha": "638cf77acfbcc2183c1f81cf66cf4d36da375e72",
+      "node_id": "C_kwDOPcolZtoAKDYzOGNmNzdhY2ZiY2MyMTgzYzFmODFjZjY2Y2Y0ZDM2ZGEzNzVlNzI",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-12T16:45:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-12T16:45:16Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "dc48e76f2bb550eec320b1ba1694983470d1b410",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/dc48e76f2bb550eec320b1ba1694983470d1b410"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/638cf77acfbcc2183c1f81cf66cf4d36da375e72",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJom2+cCRC1aQ7uu5UhlAAAHLQQAC7dczWhaxDANxc/9tNgRQmW\nTwuGeVh4694Gyjd2T7DoCJh2eAt/ixec9V3znXz2ceEwuXMZM9LitlEc7OfDavwv\niEwDtxXARLN340UUVpwGXZ8vprFpXm0l7wV2fLdU3X88ZDy6+2NTU1GGDeO2CZ8+\nm5oMVgPJV7XuTFRIwl83jVZBjfvHYhb5BbScdQ+1vV4e/VEw+joBohG5/jETIybc\nRYeQy8f/yZKxmttTuXBixiCmj6fiBO9ObvtuZM0vRFIVUFe/ycYt34Bl3gxSmHyN\nhof4gPufbIlVmxt+tokzdPQBqZ7yWS8OqgHli5qzSdYVRHkOzAa9ljWqifyFV7On\nMY57bmeE/2awbXII9v33gIyKCchMUo3NHkd+nUHvt7LHTS9kQYnpyu+jCgXFX09P\n0DhRAxf+TE5Gu0BbFBPw6t66OK0y5ocYyNitDRQ1hS4Y9aThifqNljgPCsayEFE7\nYZP3NvVxlhqOcMYavOOK5c3oh0txv/LyftnDscez2bgApfqO3qwCmz1ccAtaGP5h\nbwQBKqQDMse8N+3mcHnwnLMdF3HBqa0u4svZcXwSy6bZj8/CdaH2kjRceNqXz1Ei\njxcrt+G1nx+QvFY3pRTlGg4eADSTVhlxnHO4ZnIRUkcIfh2ZFj+IxZzOKfcGa6FR\nQKu8Jm/e62IyHNUQEXZI\n=LoJp\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dc48e76f2bb550eec320b1ba1694983470d1b410\nparent 9d0c5811a47f20c747d4381ce339aadd6f441b44\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755017116 +0530\ncommitter GitHub <noreply@github.com> 1755017116 +0530\n\nUpdate README.md",
+          "verified_at": "2025-08-12T16:45:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/638cf77acfbcc2183c1f81cf66cf4d36da375e72",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/638cf77acfbcc2183c1f81cf66cf4d36da375e72",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/638cf77acfbcc2183c1f81cf66cf4d36da375e72/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9d0c5811a47f20c747d4381ce339aadd6f441b44",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/9d0c5811a47f20c747d4381ce339aadd6f441b44",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/9d0c5811a47f20c747d4381ce339aadd6f441b44"
+        }
+      ]
+    },
+    {
+      "sha": "9d0c5811a47f20c747d4381ce339aadd6f441b44",
+      "node_id": "C_kwDOPcolZtoAKDlkMGM1ODExYTQ3ZjIwYzc0N2Q0MzgxY2UzMzlhYWRkNmY0NDFiNDQ",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-12T14:54:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-12T14:54:59Z"
+        },
+        "message": "Update DESGIN.md",
+        "tree": {
+          "sha": "43cd678c01a6f6b31cfeb1796ec9531d6a3f4d7c",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/43cd678c01a6f6b31cfeb1796ec9531d6a3f4d7c"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/9d0c5811a47f20c747d4381ce339aadd6f441b44",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJom1XDCRC1aQ7uu5UhlAAAwFgQAKDgyg1Etjf+WUIXMONtb74x\nSW5Wo+K0+PJV2e7uaUtikr2rMiiC4FVwOlF+uexLGJMPEVsCvne0tbkg7puUcaWs\ngB9i4u8bBQPdWOfkgV/j6PtJS/IV3cW9VsYngZ+dVBUYWnEtYpLtJkrIXoOQ7O8h\nlXTwZQpu4fesEihlC86jo+Jv2PqEixHnChTm6GuwLHIWqbZDx5obGOag6TExpybM\nnknTLNvRSfuk+oU8DDg/fAtSCkyd0pCNLMg9IypHhMSbrb216Hg+JYqAJE6LXbDN\n9rYATdl8idF/2k9ZzLBYWJKmYLNWjPhi4B0Cbso+boVwEQFNtRf12OH9GCBsJz//\nJXA7JS0DLIukk6hc2R4kaZKEKHO5UbZbxMaZKLBbDFz/HeDiDRzJxziUaMkqFNoa\nOPtDO3kQmJb8QKjWx553suspMkBZ/+IaX00gHSidiSFjxf1Me8gFuUD7xKj5lrsp\nW6lMZfXdtNX3N6NzYW4uI+4nNehSazJuQnDymMVt9HuwzfvUP8uhqN2AXNvw+dRL\n+obFQVwvOE5rOmwuViqnLtHOyLqFhAbFbbHFHaAYXSZ8vaN9BX85Gt1uNkKQtoCe\nVFjnUOckOWyqo7Qh6UaJnftfYJsc8v9BietVz1FHu/USh9A1ftcFj83xVJORZDNl\nj1H1GJHay1ETH7CrsY4T\n=VgZ4\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 43cd678c01a6f6b31cfeb1796ec9531d6a3f4d7c\nparent d1781d9128ba2ea96fe68e122915a44d0dfd1e44\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755010499 +0530\ncommitter GitHub <noreply@github.com> 1755010499 +0530\n\nUpdate DESGIN.md",
+          "verified_at": "2025-08-12T14:54:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/9d0c5811a47f20c747d4381ce339aadd6f441b44",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/9d0c5811a47f20c747d4381ce339aadd6f441b44",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/9d0c5811a47f20c747d4381ce339aadd6f441b44/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d1781d9128ba2ea96fe68e122915a44d0dfd1e44",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/d1781d9128ba2ea96fe68e122915a44d0dfd1e44",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/d1781d9128ba2ea96fe68e122915a44d0dfd1e44"
+        }
+      ]
+    },
+    {
+      "sha": "d1781d9128ba2ea96fe68e122915a44d0dfd1e44",
+      "node_id": "C_kwDOPcolZtoAKGQxNzgxZDkxMjhiYTJlYTk2ZmU2OGUxMjI5MTVhNDRkMGRmZDFlNDQ",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "119044997+OnePunchMonk@users.noreply.github.com",
+          "date": "2025-08-12T14:54:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-08-12T14:54:15Z"
+        },
+        "message": "Update DESGIN.md",
+        "tree": {
+          "sha": "635a92e02ab442b2cf365aed51618387d6f1ced8",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/635a92e02ab442b2cf365aed51618387d6f1ced8"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/d1781d9128ba2ea96fe68e122915a44d0dfd1e44",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJom1WXCRC1aQ7uu5UhlAAAFHgQACPtITMN5gGua+ZrZwtMfx+F\nDMi9n0h4wCpRz4kUfOPnkGRdaFQZqZUC+3HFqPD3rX3Hwrx/ivEz+4CO7TJjDup2\nS4KzOn2gOc4oglOQLKoGtuSTE8o725rW8VFhF1d7kzBVYXgI+tj501nTOfiPPbQb\nYegk4RVle+C+PgPgxyv1ym7H8W6fBXkT/+suzMWtHqt01HQnRy8ztQQqgX1NSiDk\nJUGyXL3jyhV/0VWKa+LKDB0twbuzAR2o/5m2MK7NPIKqqn81NBij05CpivhCiEoT\nxxBjdJQuptqidzBko4RyiugSCng6hdN+6Xm/3x00tv0hCRovIVHqnk7D4Zd3EhGN\nyAp/BoMpj9mYf3n5uJffdfx7xhrCRVqU/GnsaLVkPAgRHReGq1wkO4djhse1zhxC\n/9yighYxIMDqI0fms1uKCGd8ETuLoJ5qrauSQ5u3QTC8+rGEMlQEXFpUfpC7ea1V\n3iZJSOfrf4u9Ox/EEtQkZogNxt13pZmh4U1V4YZ6hwj2guBFZ1Ff2M5C3WGV/8dH\nbnGdBn+K/3EE6MXW72GKXB7cXpUl/ikFLb97U2P6PAHvCOKvQhK/UTLm7GoJ2kMg\nspbQIDYCBUUf19u0dNWtswY/R5MGHvp4lDI9SQXJgINEHCSRO2ijUwq3LbD1/JuC\nghbxJo2ON9eCCv6fmXXi\n=BjTC\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 635a92e02ab442b2cf365aed51618387d6f1ced8\nparent 793d5a147956197387802724c85a01075153636c\nauthor Avaya Aggarwal <119044997+OnePunchMonk@users.noreply.github.com> 1755010455 +0530\ncommitter GitHub <noreply@github.com> 1755010455 +0530\n\nUpdate DESGIN.md",
+          "verified_at": "2025-08-12T14:54:16Z"
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/d1781d9128ba2ea96fe68e122915a44d0dfd1e44",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/d1781d9128ba2ea96fe68e122915a44d0dfd1e44",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/d1781d9128ba2ea96fe68e122915a44d0dfd1e44/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "793d5a147956197387802724c85a01075153636c",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/793d5a147956197387802724c85a01075153636c",
+          "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/793d5a147956197387802724c85a01075153636c"
+        }
+      ]
+    },
+    {
+      "sha": "793d5a147956197387802724c85a01075153636c",
+      "node_id": "C_kwDOPcolZtoAKDc5M2Q1YTE0Nzk1NjE5NzM4NzgwMjcyNGM4NWEwMTA3NTE1MzYzNmM",
+      "commit": {
+        "author": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-08-12T14:52:44Z"
+        },
+        "committer": {
+          "name": "Avaya Aggarwal",
+          "email": "aggarwal.avaya@yahoo.com",
+          "date": "2025-08-12T14:52:44Z"
+        },
+        "message": " FIRST COMMIT , MAJOR UPRGRADES PENDING",
+        "tree": {
+          "sha": "d1584c7f82929c38e4e26d290904b4185b33c7bf",
+          "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/trees/d1584c7f82929c38e4e26d290904b4185b33c7bf"
+        },
+        "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/git/commits/793d5a147956197387802724c85a01075153636c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/793d5a147956197387802724c85a01075153636c",
+      "html_url": "https://github.com/OnePunchMonk/AgentQuant/commit/793d5a147956197387802724c85a01075153636c",
+      "comments_url": "https://api.github.com/repos/OnePunchMonk/AgentQuant/commits/793d5a147956197387802724c85a01075153636c/comments",
+      "author": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "OnePunchMonk",
+        "id": 119044997,
+        "node_id": "U_kgDOBxh7hQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/OnePunchMonk",
+        "html_url": "https://github.com/OnePunchMonk",
+        "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+        "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+        "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+        "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+        "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+        "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "OnePunchMonk",
+      "id": 119044997,
+      "node_id": "U_kgDOBxh7hQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119044997?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OnePunchMonk",
+      "html_url": "https://github.com/OnePunchMonk",
+      "followers_url": "https://api.github.com/users/OnePunchMonk/followers",
+      "following_url": "https://api.github.com/users/OnePunchMonk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OnePunchMonk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OnePunchMonk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OnePunchMonk/subscriptions",
+      "organizations_url": "https://api.github.com/users/OnePunchMonk/orgs",
+      "repos_url": "https://api.github.com/users/OnePunchMonk/repos",
+      "events_url": "https://api.github.com/users/OnePunchMonk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OnePunchMonk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 29
+    },
+    {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 212606,
+    "Jupyter Notebook": 7615
+  },
+  "readme_html": "<h1 id=\"user-content-agentquant-autonomous-quantitative-research-agent\">AgentQuant: Autonomous Quantitative Research Agent</h1>\n<p><strong>A fully autonomous AI agent that researches, generates, and validates trading strategies.</strong></p>\n<blockquote>\n<p><strong>🚀 Update (Nov 2025):</strong> Now powered by <strong>Google Gemini 2.5 Flash</strong>. The agent is fully functional and no longer uses random simulation. It actively analyzes market regimes and proposes context-aware strategies.</p>\n</blockquote>\n<h2 id=\"user-content--what-this-project-is\">🎯 What This Project Is</h2>\n<p>AgentQuant is an AI-powered research platform that automates the quantitative workflow. It replaces the manual work of a junior quant researcher:</p>\n<ol>\n<li><strong>Market Analysis:</strong> Detects regimes (Bull, Bear, Crisis) using VIX and Momentum.</li>\n<li><strong>Strategy Generation:</strong> Uses <strong>Gemini 2.5 Flash</strong> to propose mathematical strategy parameters optimized for the current regime.</li>\n<li><strong>Validation:</strong> Runs rigorous <strong>Walk-Forward Analysis</strong> and <strong>Ablation Studies</strong> to prove strategy robustness.</li>\n<li><strong>Backtesting:</strong> Executes vectorized backtests to verify performance.</li>\n</ol>\n<h2 id=\"user-content-️-system-architecture\">🏗️ System Architecture</h2>\n<pre><code class=\"language-mermaid\">graph TD\n    subgraph \"User Interface\"\n        UI[Streamlit Dashboard]\n        Config[config.yaml]\n    end\n\n    subgraph \"Data Layer\"\n        Ingest[Data Ingestion&#x3C;br/>yfinance]\n        Features[Feature Engine&#x3C;br/>Indicators]\n        Regime[Regime Detection&#x3C;br/>VIX/Momentum]\n    end\n\n    subgraph \"Agent Core (Gemini 2.5 Flash)\"\n        Planner[Strategy Planner]\n        Context[Market Context&#x3C;br/>Analysis]\n    end\n\n    subgraph \"Execution Layer\"\n        Strategies[Strategy Registry&#x3C;br/>Momentum, MeanRev, etc.]\n        Backtest[Backtest Engine&#x3C;br/>VectorBT/Pandas]\n    end\n\n    subgraph \"Validation\"\n        WalkForward[Walk-Forward&#x3C;br/>Validation]\n        Ablation[Ablation&#x3C;br/>Study]\n    end\n\n    UI --> Config\n    Config --> Ingest\n    Ingest --> Features\n    Features --> Regime\n    \n    Regime --> Context\n    Features --> Context\n    Context --> Planner\n    \n    Planner -->|Proposes Params| Strategies\n    Strategies --> Backtest\n    \n    Backtest --> UI\n    Backtest --> WalkForward\n    Backtest --> Ablation\n</code></pre>\n<h2 id=\"user-content--the-brain-gemini-25-flash\">🧠 The \"Brain\" (Gemini 2.5 Flash)</h2>\n<p>The agent uses a sophisticated prompt engineering framework to:</p>\n<ul>\n<li>Analyze technical indicators (RSI, MACD, Volatility).</li>\n<li>Understand market context (e.g., \"High Volatility Bear Market\").</li>\n<li>Propose specific parameters (e.g., \"Use a shorter 20-day lookback for momentum in this volatile regime\").</li>\n</ul>\n<h2 id=\"user-content--scientific-validation\">🔬 Scientific Validation</h2>\n<p>We have implemented rigorous experiments to validate the agent's intelligence:</p>\n<h3 id=\"user-content-1-ablation-study-experimentsablation_studypy\">1. Ablation Study (<code>experiments/ablation_study.py</code>)</h3>\n<ul>\n<li><strong>Hypothesis:</strong> Does giving the AI \"Market Context\" improve performance?</li>\n<li><strong>Method:</strong> Compare an agent with access to market data vs. a \"blind\" agent.</li>\n<li><strong>Result:</strong> Context-aware agents significantly outperform blind agents in Sharpe Ratio.</li>\n</ul>\n<h3 id=\"user-content-2-walk-forward-validation-experimentswalk_forwardpy\">2. Walk-Forward Validation (<code>experiments/walk_forward.py</code>)</h3>\n<ul>\n<li><strong>Hypothesis:</strong> Can the agent adapt to changing markets over time?</li>\n<li><strong>Method:</strong> The agent re-trains every 6 months, looking only at past data to predict the next 6 months.</li>\n<li><strong>Result:</strong> The agent successfully adapts parameters (e.g., switching from long-term trend following to short-term mean reversion) as regimes change.</li>\n</ul>\n<h2 id=\"user-content--quick-start\">🚀 Quick Start</h2>\n<p><strong>Prerequisites:</strong> Python 3.10+ and a Google Gemini API Key.</p>\n<ol>\n<li>\n<p><strong>Clone the repo</strong></p>\n<pre><code class=\"language-bash\">git clone https://github.com/OnePunchMonk/AgentQuant.git\ncd AgentQuant\n</code></pre>\n</li>\n<li>\n<p><strong>Install dependencies</strong></p>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n</li>\n<li>\n<p><strong>Set up API Key</strong>\nCreate a <code>.env</code> file:</p>\n<pre><code class=\"language-env\">GOOGLE_API_KEY=your_gemini_api_key_here\n</code></pre>\n</li>\n<li>\n<p><strong>Run the Experiments</strong></p>\n<pre><code class=\"language-bash\"># Run the Walk-Forward Validation\npython experiments/walk_forward.py\n\n# Run the Ablation Study\npython experiments/ablation_study.py\n</code></pre>\n</li>\n<li>\n<p><strong>Run the Dashboard</strong></p>\n<pre><code class=\"language-bash\">streamlit run run_app.py\n</code></pre>\n</li>\n</ol>\n<h2 id=\"user-content--project-structure\">📂 Project Structure</h2>\n<pre><code class=\"language-text\">AgentQuant/\n├── src/\n│   ├── agent/          # LLM Planner (Gemini 2.5 Flash)\n│   ├── data/           # Data fetching (yfinance wrapper)\n│   ├── features/       # Technical indicators &#x26; Regime detection\n│   ├── backtest/       # Vectorized backtesting engine\n│   └── strategies/     # Multi-strategy logic (Momentum, Mean Reversion, etc.)\n├── experiments/        # Validation scripts (Walk-Forward, Ablation)\n├── config.yaml         # Configuration (Tickers, Dates)\n└── run_app.py          # Main entry point\n</code></pre>\n<p>This software is for educational purposes only.</p>",
+  "_fetched_at": "2026-03-11T18:10:48.487Z"
+}

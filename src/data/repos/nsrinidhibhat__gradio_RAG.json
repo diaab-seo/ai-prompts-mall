@@ -1,0 +1,557 @@
+{
+  "id": 680833393,
+  "node_id": "R_kgDOKJSxcQ",
+  "name": "gradio_RAG",
+  "full_name": "nsrinidhibhat/gradio_RAG",
+  "private": false,
+  "owner": {
+    "login": "nsrinidhibhat",
+    "id": 15133695,
+    "node_id": "MDQ6VXNlcjE1MTMzNjk1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/15133695?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/nsrinidhibhat",
+    "html_url": "https://github.com/nsrinidhibhat",
+    "followers_url": "https://api.github.com/users/nsrinidhibhat/followers",
+    "following_url": "https://api.github.com/users/nsrinidhibhat/following{/other_user}",
+    "gists_url": "https://api.github.com/users/nsrinidhibhat/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/nsrinidhibhat/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/nsrinidhibhat/subscriptions",
+    "organizations_url": "https://api.github.com/users/nsrinidhibhat/orgs",
+    "repos_url": "https://api.github.com/users/nsrinidhibhat/repos",
+    "events_url": "https://api.github.com/users/nsrinidhibhat/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/nsrinidhibhat/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/nsrinidhibhat/gradio_RAG",
+  "description": "Code and resources showcasing the Retrieval-Augmented Generation (RAG) technique, a solution for enhancing data freshness in Large Language Models (LLMs). Incorporate up-to-date external knowledge into LLM-generated responses. Additionally, this repository includes a Gradio-based user interface for seamless model deployment. ",
+  "fork": false,
+  "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG",
+  "forks_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/forks",
+  "keys_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/teams",
+  "hooks_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/hooks",
+  "issue_events_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/events",
+  "assignees_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/tags",
+  "blobs_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/languages",
+  "stargazers_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/stargazers",
+  "contributors_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/contributors",
+  "subscribers_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/subscribers",
+  "subscription_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/subscription",
+  "commits_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/merges",
+  "archive_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/downloads",
+  "issues_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/labels{/name}",
+  "releases_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/deployments",
+  "created_at": "2023-08-20T14:57:14Z",
+  "updated_at": "2026-03-09T08:00:45Z",
+  "pushed_at": "2023-08-22T08:51:03Z",
+  "git_url": "git://github.com/nsrinidhibhat/gradio_RAG.git",
+  "ssh_url": "git@github.com:nsrinidhibhat/gradio_RAG.git",
+  "clone_url": "https://github.com/nsrinidhibhat/gradio_RAG.git",
+  "svn_url": "https://github.com/nsrinidhibhat/gradio_RAG",
+  "homepage": "",
+  "size": 798,
+  "stargazers_count": 54,
+  "watchers_count": 54,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 14,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 1,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "embedding-models",
+    "faiss",
+    "falcon-7b",
+    "generative-ai",
+    "gradio",
+    "llama2",
+    "llm",
+    "retrieval-augmented-generation"
+  ],
+  "visibility": "public",
+  "forks": 14,
+  "open_issues": 1,
+  "watchers": 54,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "open-source-llms",
+  "commits": [
+    {
+      "sha": "e5c5b9e1a5a10a5c3241074f3c20c97130c85db2",
+      "node_id": "C_kwDOKJSxcdoAKGU1YzViOWUxYTVhMTBhNWMzMjQxMDc0ZjNjMjBjOTcxMzBjODVkYjI",
+      "commit": {
+        "author": {
+          "name": "Srinidhi Bhat",
+          "email": "nsrinidhibhat6996@gmail.com",
+          "date": "2023-08-22T08:51:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-22T08:51:03Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "b67ac047c8a0c86370fe61ec4e18894867a7b924",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/trees/b67ac047c8a0c86370fe61ec4e18894867a7b924"
+        },
+        "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/commits/e5c5b9e1a5a10a5c3241074f3c20c97130c85db2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk5Hb3CRBK7hj4Ov3rIwAA3v0IAKjhmVD0CkssgXyyTj8rt5zL\n8wFpVTLgj7hHVqhhG3KA9Ia34I+7OWhbRjgxy6+EaAHZWgyZE1wwtExKNYwgY8H0\nEL88nvLT9l0Q5TIorf9pzNF3buavHASNPlaTIDd7jUokflbGy5xqmazikovyy82R\n8I0hudaap0gD72YuAZGq+Y/3pHT1xQpRwGqA+VRXO8MKMwIiwVZbGOAvv+OAh3+/\nrS7XypEE978e+dSSjUCkNBkxpaCA7FNhegqQi1Nz1NlTrk3xEiKQpv+c5rwzAKsy\nIUQaCaPqltc15Gx+ZPWLSabn4xpS4Ph1PqAW7zMr5WdIEJGP7xJldDtkmxuyc00=\n=JteP\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b67ac047c8a0c86370fe61ec4e18894867a7b924\nparent 7881ad1dbda73bbfec02a29a241a24b8c6ec6594\nauthor Srinidhi Bhat <nsrinidhibhat6996@gmail.com> 1692694263 +0530\ncommitter GitHub <noreply@github.com> 1692694263 +0530\n\nUpdate README.md",
+          "verified_at": "2024-11-07T20:54:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/e5c5b9e1a5a10a5c3241074f3c20c97130c85db2",
+      "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/e5c5b9e1a5a10a5c3241074f3c20c97130c85db2",
+      "comments_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/e5c5b9e1a5a10a5c3241074f3c20c97130c85db2/comments",
+      "author": {
+        "login": "nsrinidhibhat",
+        "id": 15133695,
+        "node_id": "MDQ6VXNlcjE1MTMzNjk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15133695?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/nsrinidhibhat",
+        "html_url": "https://github.com/nsrinidhibhat",
+        "followers_url": "https://api.github.com/users/nsrinidhibhat/followers",
+        "following_url": "https://api.github.com/users/nsrinidhibhat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nsrinidhibhat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/nsrinidhibhat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nsrinidhibhat/subscriptions",
+        "organizations_url": "https://api.github.com/users/nsrinidhibhat/orgs",
+        "repos_url": "https://api.github.com/users/nsrinidhibhat/repos",
+        "events_url": "https://api.github.com/users/nsrinidhibhat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/nsrinidhibhat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7881ad1dbda73bbfec02a29a241a24b8c6ec6594",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/7881ad1dbda73bbfec02a29a241a24b8c6ec6594",
+          "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/7881ad1dbda73bbfec02a29a241a24b8c6ec6594"
+        }
+      ]
+    },
+    {
+      "sha": "7881ad1dbda73bbfec02a29a241a24b8c6ec6594",
+      "node_id": "C_kwDOKJSxcdoAKDc4ODFhZDFkYmRhNzNiYmZlYzAyYTI5YTI0MWEyNGI4YzZlYzY1OTQ",
+      "commit": {
+        "author": {
+          "name": "Srinidhi Bhat",
+          "email": "nsrinidhibhat6996@gmail.com",
+          "date": "2023-08-21T03:32:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-21T03:32:57Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "268ff669282c5c922d603c134cccedc64b15aa6b",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/trees/268ff669282c5c922d603c134cccedc64b15aa6b"
+        },
+        "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/commits/7881ad1dbda73bbfec02a29a241a24b8c6ec6594",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk4trpCRBK7hj4Ov3rIwAAGYYIAEilQCsJU0Q7XEn89EOb9NoY\n3Ppm2oPw6QneaNGdCvwV0jFJi07htNHVM0Ri/G1TtAVVOx3sjuVHpV0ePL0x3vFG\ngoZbfyvLMTkI1k/8/W1kfl45ffQHYzPpoeYprBW4IFIl7JUR2J0D9I8i8ZcS1NZQ\nP3wkQv7kSf06bUYfctu8KQ6w20UmpSLdA2AvlmOZ4REoDeuIfRqFcDZiLYl29t5U\n/x+Cumc7roWZZEp0EAUm8U/ylSN8YxECYqinsnJIYuz69SWtnvXN8W7Y3x95+v34\nY8qGoven3//qxxVmVVdG++sXQj+9wExEvm0wYiEcrhbCpKe2lLGUaebiUWXvkLg=\n=w4YP\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 268ff669282c5c922d603c134cccedc64b15aa6b\nparent d21c879ccd6f4770c5c268bdf9080d0947b025a1\nauthor Srinidhi Bhat <nsrinidhibhat6996@gmail.com> 1692588777 +0530\ncommitter GitHub <noreply@github.com> 1692588777 +0530\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/7881ad1dbda73bbfec02a29a241a24b8c6ec6594",
+      "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/7881ad1dbda73bbfec02a29a241a24b8c6ec6594",
+      "comments_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/7881ad1dbda73bbfec02a29a241a24b8c6ec6594/comments",
+      "author": {
+        "login": "nsrinidhibhat",
+        "id": 15133695,
+        "node_id": "MDQ6VXNlcjE1MTMzNjk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15133695?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/nsrinidhibhat",
+        "html_url": "https://github.com/nsrinidhibhat",
+        "followers_url": "https://api.github.com/users/nsrinidhibhat/followers",
+        "following_url": "https://api.github.com/users/nsrinidhibhat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nsrinidhibhat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/nsrinidhibhat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nsrinidhibhat/subscriptions",
+        "organizations_url": "https://api.github.com/users/nsrinidhibhat/orgs",
+        "repos_url": "https://api.github.com/users/nsrinidhibhat/repos",
+        "events_url": "https://api.github.com/users/nsrinidhibhat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/nsrinidhibhat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d21c879ccd6f4770c5c268bdf9080d0947b025a1",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/d21c879ccd6f4770c5c268bdf9080d0947b025a1",
+          "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/d21c879ccd6f4770c5c268bdf9080d0947b025a1"
+        }
+      ]
+    },
+    {
+      "sha": "d21c879ccd6f4770c5c268bdf9080d0947b025a1",
+      "node_id": "C_kwDOKJSxcdoAKGQyMWM4NzljY2Q2ZjQ3NzBjNWMyNjhiZGY5MDgwZDA5NDdiMDI1YTE",
+      "commit": {
+        "author": {
+          "name": "Srinidhi Bhat",
+          "email": "nsrinidhibhat6996@gmail.com",
+          "date": "2023-08-20T15:20:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-20T15:20:49Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "787d9ed965e9628f5b18e2033521b7fc8d3af45b",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/trees/787d9ed965e9628f5b18e2033521b7fc8d3af45b"
+        },
+        "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/commits/d21c879ccd6f4770c5c268bdf9080d0947b025a1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk4i9RCRBK7hj4Ov3rIwAAjlwIAFJVTT0OQEQtm+aswbbUvzhr\niTnP6aGaE9Hp64miFdcM+Z9i/UgkqoPVtJAgimSW2x8BIG+JLNZi8vsSx/EqygLR\nWvJHsvz+zpbNE3zuZth22iy4ZiPOTDTMS/M1R9bK1EcPJ8NF6Z4hennNX/EsrMX4\n9SOSahplwn6fICDvgJ0LGBU+vj/a8F70zGvSU+usIBW0dNKu4MdJqa4rz/TKJCdq\nJgH+VbZRdBrkxE1PVhgdHldPXqDESNhmbofCX/PFULerVPiP8kcwwj7G1fAITqPt\nqm7v/sEVPtFiAoApdp0FPuHxlhEx+ppl39N0xEJGSlj3KI9G0RGXM2K0f57z+Y8=\n=dlU/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 787d9ed965e9628f5b18e2033521b7fc8d3af45b\nparent 0e1cfa0061492c288e94cd5799dce54084e12a17\nauthor Srinidhi Bhat <nsrinidhibhat6996@gmail.com> 1692544849 +0530\ncommitter GitHub <noreply@github.com> 1692544849 +0530\n\nUpdate README.md",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/d21c879ccd6f4770c5c268bdf9080d0947b025a1",
+      "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/d21c879ccd6f4770c5c268bdf9080d0947b025a1",
+      "comments_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/d21c879ccd6f4770c5c268bdf9080d0947b025a1/comments",
+      "author": {
+        "login": "nsrinidhibhat",
+        "id": 15133695,
+        "node_id": "MDQ6VXNlcjE1MTMzNjk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15133695?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/nsrinidhibhat",
+        "html_url": "https://github.com/nsrinidhibhat",
+        "followers_url": "https://api.github.com/users/nsrinidhibhat/followers",
+        "following_url": "https://api.github.com/users/nsrinidhibhat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nsrinidhibhat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/nsrinidhibhat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nsrinidhibhat/subscriptions",
+        "organizations_url": "https://api.github.com/users/nsrinidhibhat/orgs",
+        "repos_url": "https://api.github.com/users/nsrinidhibhat/repos",
+        "events_url": "https://api.github.com/users/nsrinidhibhat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/nsrinidhibhat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0e1cfa0061492c288e94cd5799dce54084e12a17",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/0e1cfa0061492c288e94cd5799dce54084e12a17",
+          "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/0e1cfa0061492c288e94cd5799dce54084e12a17"
+        }
+      ]
+    },
+    {
+      "sha": "0e1cfa0061492c288e94cd5799dce54084e12a17",
+      "node_id": "C_kwDOKJSxcdoAKDBlMWNmYTAwNjE0OTJjMjg4ZTk0Y2Q1Nzk5ZGNlNTQwODRlMTJhMTc",
+      "commit": {
+        "author": {
+          "name": "Srinidhi Bhat",
+          "email": "nsrinidhibhat6996@gmail.com",
+          "date": "2023-08-20T15:05:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-20T15:05:00Z"
+        },
+        "message": "Add files via upload",
+        "tree": {
+          "sha": "0a60f260d5ed9d8e1c51cdc7dab27950e45f58f3",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/trees/0a60f260d5ed9d8e1c51cdc7dab27950e45f58f3"
+        },
+        "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/commits/0e1cfa0061492c288e94cd5799dce54084e12a17",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk4iucCRBK7hj4Ov3rIwAAN0QIAImpN/U84hpylntb6S3+AMy4\nl/G2aQG05rdkPv4eGIRBQZESKTXfIzMdkwcMpdwtqnrJ66NIeOm0uzhZQBGEXeRV\nI+EsBxHAwKe3ltnijK3+eR/w8Xf//Cd1dOHnu0D9AJpcuRszf04KlIibbfOJx0Y3\nY4WW1aw8wVfPdcAl/wGTdqKEjzZVd0jGrq59XTK1xrxcFii4TWTJLp3cq+ASKweA\nt7WzRSyXIXTOHhYaCIhHOW0PQMUlQ+PguWjmZZCMoskQY+4claQKzJcSB7OZKLrN\nsFbxg5kDnfJr0O0G2SRF+bBkOZOYJmC6hCQkEuSE25pOmBzpY1SrPK5QWwb0nr8=\n=TKFW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0a60f260d5ed9d8e1c51cdc7dab27950e45f58f3\nparent 276d10283aedef55f34b2c4096e4b97564a8c67c\nauthor Srinidhi Bhat <nsrinidhibhat6996@gmail.com> 1692543900 +0530\ncommitter GitHub <noreply@github.com> 1692543900 +0530\n\nAdd files via upload",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/0e1cfa0061492c288e94cd5799dce54084e12a17",
+      "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/0e1cfa0061492c288e94cd5799dce54084e12a17",
+      "comments_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/0e1cfa0061492c288e94cd5799dce54084e12a17/comments",
+      "author": {
+        "login": "nsrinidhibhat",
+        "id": 15133695,
+        "node_id": "MDQ6VXNlcjE1MTMzNjk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15133695?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/nsrinidhibhat",
+        "html_url": "https://github.com/nsrinidhibhat",
+        "followers_url": "https://api.github.com/users/nsrinidhibhat/followers",
+        "following_url": "https://api.github.com/users/nsrinidhibhat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nsrinidhibhat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/nsrinidhibhat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nsrinidhibhat/subscriptions",
+        "organizations_url": "https://api.github.com/users/nsrinidhibhat/orgs",
+        "repos_url": "https://api.github.com/users/nsrinidhibhat/repos",
+        "events_url": "https://api.github.com/users/nsrinidhibhat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/nsrinidhibhat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "276d10283aedef55f34b2c4096e4b97564a8c67c",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/276d10283aedef55f34b2c4096e4b97564a8c67c",
+          "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/276d10283aedef55f34b2c4096e4b97564a8c67c"
+        }
+      ]
+    },
+    {
+      "sha": "276d10283aedef55f34b2c4096e4b97564a8c67c",
+      "node_id": "C_kwDOKJSxcdoAKDI3NmQxMDI4M2FlZGVmNTVmMzRiMmM0MDk2ZTRiOTc1NjRhOGM2N2M",
+      "commit": {
+        "author": {
+          "name": "Srinidhi Bhat",
+          "email": "nsrinidhibhat6996@gmail.com",
+          "date": "2023-08-20T14:57:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2023-08-20T14:57:14Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "0f472babe4cb4dd238b25101bdac8231a220310f",
+          "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/trees/0f472babe4cb4dd238b25101bdac8231a220310f"
+        },
+        "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/git/commits/276d10283aedef55f34b2c4096e4b97564a8c67c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJk4inKCRBK7hj4Ov3rIwAAWrgIACKeUtN5IT21zvaiEvBvzs5k\nRebGJO7UzBOjBbq/TIi19biVtSIHcpWQzA6z6DG1KBS6VEL6s5OFLoS5/ZmzmIIz\nZ4ZuKbtGtK/lPUhYt5077OhCl0pRQEau3YtHB5voe8LupFxlHeKUJ+FuQXq92eT5\nxwNEpFfEsKTx0HM62shbzs6EBeWgqnpTFC/jf4EO6B7jSyxkyqWCUMZUjc5NDOP4\nMRB7r2slFvoK3AN0eV627dDPNX+L10RV8TqsrHHDYGc9Zvykdth/wQ8pB5wJZsYG\n08ABnVUB96x7OJA3L1WtSH8QugRwTYbdFwgkf2ELYMl5+YdJtr7p0poUXVe7zSc=\n=4chR\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0f472babe4cb4dd238b25101bdac8231a220310f\nauthor Srinidhi Bhat <nsrinidhibhat6996@gmail.com> 1692543434 +0530\ncommitter GitHub <noreply@github.com> 1692543434 +0530\n\nInitial commit",
+          "verified_at": "2024-01-16T19:59:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/276d10283aedef55f34b2c4096e4b97564a8c67c",
+      "html_url": "https://github.com/nsrinidhibhat/gradio_RAG/commit/276d10283aedef55f34b2c4096e4b97564a8c67c",
+      "comments_url": "https://api.github.com/repos/nsrinidhibhat/gradio_RAG/commits/276d10283aedef55f34b2c4096e4b97564a8c67c/comments",
+      "author": {
+        "login": "nsrinidhibhat",
+        "id": 15133695,
+        "node_id": "MDQ6VXNlcjE1MTMzNjk1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/15133695?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/nsrinidhibhat",
+        "html_url": "https://github.com/nsrinidhibhat",
+        "followers_url": "https://api.github.com/users/nsrinidhibhat/followers",
+        "following_url": "https://api.github.com/users/nsrinidhibhat/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nsrinidhibhat/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/nsrinidhibhat/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nsrinidhibhat/subscriptions",
+        "organizations_url": "https://api.github.com/users/nsrinidhibhat/orgs",
+        "repos_url": "https://api.github.com/users/nsrinidhibhat/repos",
+        "events_url": "https://api.github.com/users/nsrinidhibhat/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/nsrinidhibhat/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "nsrinidhibhat",
+      "id": 15133695,
+      "node_id": "MDQ6VXNlcjE1MTMzNjk1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15133695?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nsrinidhibhat",
+      "html_url": "https://github.com/nsrinidhibhat",
+      "followers_url": "https://api.github.com/users/nsrinidhibhat/followers",
+      "following_url": "https://api.github.com/users/nsrinidhibhat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nsrinidhibhat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nsrinidhibhat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nsrinidhibhat/subscriptions",
+      "organizations_url": "https://api.github.com/users/nsrinidhibhat/orgs",
+      "repos_url": "https://api.github.com/users/nsrinidhibhat/repos",
+      "events_url": "https://api.github.com/users/nsrinidhibhat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nsrinidhibhat/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 5
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 15639
+  },
+  "readme_html": "<h1 id=\"user-content-retrieval-augmented-generation\">Retrieval Augmented Generation</h1>\n<p>This repository contains code and resources related to Retrieval Augmented Generation (RAG), a technique designed to address the data freshness problem in Large Language Models (LLMs) like Llama-2. LLMs often lack awareness of recent events and up-to-date information. RAG incorporates external knowledge from a knowledge base into LLM responses, enabling accurate and well-grounded responses.</p>\n<h2 id=\"user-content-repository-contents\">Repository Contents</h2>\n<ul>\n<li><code>src</code>: Contains the source code for implementing the RAG technique and interactions with the knowledge base.</li>\n<li><code>data</code>: Stores datasets and relevant resources for building the knowledge base.</li>\n<li><code>db</code>: To manage and store token embeddings or vector representations for knowledge base searches.</li>\n<li><code>requirements.txt</code>: Required Python packages to run the code in this repository.</li>\n</ul>\n<h2 id=\"user-content-about-rag-retrieval-augmented-generation\">About RAG (Retrieval Augmented Generation)</h2>\n<p>RAG is a novel approach combining Large Language Models (LLMs) capabilities with external knowledge bases to enhance the quality and freshness of generated responses. It addresses the challenge of outdated information by retrieving contextually relevant knowledge from external sources and incorporating it into LLM-generated content.</p>\n<h2 id=\"user-content-about-gradio\">About Gradio</h2>\n<p><a href=\"https://www.gradio.app\">Gradio</a> is a Python library that helps you quickly create UIs for your machine learning models. It allows you to quickly deploy models and make them accessible through a user-friendly interface without extensive frontend development.</p>\n<p>A Gradio app is launched when <code>gradio_chatbot.py</code> code is run. It contains modifiable elements such as the Embedding model, Generation model, editable system prompt, and tunable parameters of the chosen LLM.</p>\n<h3 id=\"user-content-steps\">Steps</h3>\n<p>To use the code in this repository, follow these steps:</p>\n<ol>\n<li>\n<p>Clone the repository to your local machine.</p>\n</li>\n<li>\n<p>Navigate to the repository directory using the command line.</p>\n</li>\n<li>\n<p>Install the required packages using the following command:</p>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n</li>\n<li>\n<p>Run the chatbot application using the command:</p>\n<pre><code class=\"language-bash\">python src/gradio_chatbot.py\n</code></pre>\n</li>\n<li>\n<p>Once the Gradio app is up, upload a document (pdf or csv), choose the models (embedding and generation), adjust the tunable parameters, fiddle with the system prompt, and ask anything you need!</p>\n</li>\n</ol>",
+  "_fetched_at": "2026-03-11T18:18:21.908Z"
+}

@@ -1,0 +1,1627 @@
+{
+  "id": 1150945133,
+  "node_id": "R_kgDORJoHbQ",
+  "name": "total-recall",
+  "full_name": "davegoldblatt/total-recall",
+  "private": false,
+  "owner": {
+    "login": "davegoldblatt",
+    "id": 33435588,
+    "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+    "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/davegoldblatt",
+    "html_url": "https://github.com/davegoldblatt",
+    "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+    "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+    "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+    "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+    "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+    "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/davegoldblatt/total-recall",
+  "description": "Persistent memory plugin for Claude Code. Tiered memory system with write gates, correction propagation, and slash commands.",
+  "fork": false,
+  "url": "https://api.github.com/repos/davegoldblatt/total-recall",
+  "forks_url": "https://api.github.com/repos/davegoldblatt/total-recall/forks",
+  "keys_url": "https://api.github.com/repos/davegoldblatt/total-recall/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/davegoldblatt/total-recall/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/davegoldblatt/total-recall/teams",
+  "hooks_url": "https://api.github.com/repos/davegoldblatt/total-recall/hooks",
+  "issue_events_url": "https://api.github.com/repos/davegoldblatt/total-recall/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/davegoldblatt/total-recall/events",
+  "assignees_url": "https://api.github.com/repos/davegoldblatt/total-recall/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/davegoldblatt/total-recall/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/davegoldblatt/total-recall/tags",
+  "blobs_url": "https://api.github.com/repos/davegoldblatt/total-recall/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/davegoldblatt/total-recall/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/davegoldblatt/total-recall/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/davegoldblatt/total-recall/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/davegoldblatt/total-recall/languages",
+  "stargazers_url": "https://api.github.com/repos/davegoldblatt/total-recall/stargazers",
+  "contributors_url": "https://api.github.com/repos/davegoldblatt/total-recall/contributors",
+  "subscribers_url": "https://api.github.com/repos/davegoldblatt/total-recall/subscribers",
+  "subscription_url": "https://api.github.com/repos/davegoldblatt/total-recall/subscription",
+  "commits_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/davegoldblatt/total-recall/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/davegoldblatt/total-recall/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/davegoldblatt/total-recall/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/davegoldblatt/total-recall/merges",
+  "archive_url": "https://api.github.com/repos/davegoldblatt/total-recall/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/davegoldblatt/total-recall/downloads",
+  "issues_url": "https://api.github.com/repos/davegoldblatt/total-recall/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/davegoldblatt/total-recall/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/davegoldblatt/total-recall/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/davegoldblatt/total-recall/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/davegoldblatt/total-recall/labels{/name}",
+  "releases_url": "https://api.github.com/repos/davegoldblatt/total-recall/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/davegoldblatt/total-recall/deployments",
+  "created_at": "2026-02-05T21:50:09Z",
+  "updated_at": "2026-03-10T15:41:39Z",
+  "pushed_at": "2026-02-12T22:21:31Z",
+  "git_url": "git://github.com/davegoldblatt/total-recall.git",
+  "ssh_url": "git@github.com:davegoldblatt/total-recall.git",
+  "clone_url": "https://github.com/davegoldblatt/total-recall.git",
+  "svn_url": "https://github.com/davegoldblatt/total-recall",
+  "homepage": null,
+  "size": 135,
+  "stargazers_count": 185,
+  "watchers_count": 185,
+  "language": "Shell",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 10,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 2,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai-agent",
+    "claude-code",
+    "claude-code-plugin",
+    "context-management",
+    "llm",
+    "memory",
+    "persistent-memory"
+  ],
+  "visibility": "public",
+  "forks": 10,
+  "open_issues": 2,
+  "watchers": 185,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "large-language-models",
+  "commits": [
+    {
+      "sha": "c04b4ec6650d2a04343d50894d378bed32604325",
+      "node_id": "C_kwDORJoHbdoAKGMwNGI0ZWM2NjUwZDJhMDQzNDNkNTA4OTRkMzc4YmVkMzI2MDQzMjU",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-12T21:57:26Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-12T21:57:26Z"
+        },
+        "message": "Add Remove Gate v1: durable entry IDs and pressure-based demotion\n\nMemory can now get out. Adds ^tr IDs to managed entries and a\npressure-based /recall-maintain that surfaces demotion candidates\nwhen working memory exceeds the 1500-word budget. Users choose\nper-entry: keep, pin, snooze, demote, archive, or mark superseded.\n\nNew: /recall-init-ids (one-time migration to tag entries)\nRewritten: /recall-maintain (pressure-based with pin/snooze/demote/archive)\nUpdated: recall-write, recall-promote (auto-assign IDs on promotion)\nUpdated: recall-forget (metadata.json updates on supersede)\nUpdated: recall-status (ID coverage reporting)\nInfra: install.sh (.recall/ dir), plugin.json v1.1.0, SCHEMA.md\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "9086ecaa7197f843d095a43a53a85dd2f46470e6",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/9086ecaa7197f843d095a43a53a85dd2f46470e6"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/c04b4ec6650d2a04343d50894d378bed32604325",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/c04b4ec6650d2a04343d50894d378bed32604325",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/c04b4ec6650d2a04343d50894d378bed32604325",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/c04b4ec6650d2a04343d50894d378bed32604325/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4d8927b0df6b794228b492904dc9d23e75fe1a22",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/4d8927b0df6b794228b492904dc9d23e75fe1a22",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/4d8927b0df6b794228b492904dc9d23e75fe1a22"
+        }
+      ]
+    },
+    {
+      "sha": "4d8927b0df6b794228b492904dc9d23e75fe1a22",
+      "node_id": "C_kwDORJoHbdoAKDRkODkyN2IwZGY2Yjc5NDIyOGI0OTI5MDRkYzlkMjNlNzVmZTFhMjI",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "33435588+davegoldblatt@users.noreply.github.com",
+          "date": "2026-02-10T21:42:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2026-02-10T21:42:09Z"
+        },
+        "message": "Merge pull request #1 from davegoldblatt/onboarding-polish\n\nOnboarding polish: start-here demo + consistent defaults + feedback template",
+        "tree": {
+          "sha": "5e18791e0431b8dd53dd867b03637ecaedc04dbf",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/5e18791e0431b8dd53dd867b03637ecaedc04dbf"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/4d8927b0df6b794228b492904dc9d23e75fe1a22",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpi6YxCRC1aQ7uu5UhlAAAxOwQAGO6A/utYeC4seSuQCN/45KD\nf9XguPXR4J0ZV/pkj4U0/CycmW3y5pR8RZTsHowuFPrXv94PvrLsX9HaTTvGXF8g\nmJ3CPyJ1329Jq47/1z8/9x2JgPrPH09ABnLyGKyi204kIKDxZS4m9q9qvjr/pwMp\np7Po/Q6CiimfofY5+LRr1RY2x1aii83vaGjdn+PbLuBE5KqnIupGekDYfQuJueWn\neGkagGHImmmrD47uHD+AFYJayBPSDGI/hAmk8wusL+krEIMWNvBAeUSrOnamm8hy\neJ/a07GDmpJ7GXhJtAmHl4eVmvFglnK8pTHTGu0JmZxOsAo/belGecP2KlkkW7J9\nnWbr+WBMJ8cEEveND2obkne+4AxRQN+IRBFi+KzwZBvJ7ga4BS3tOptpyTL4CC8I\nGXwlJwN31w1Cyi+9O56GMulFW+GttWr2NYrrkdxWztGW1vnQBZoMIrnIgwRvG71s\noSF19MlzLSCxBHCB1Ss8g30WIctFUwKyO2EvZQcaujzANpp1ikrp9pFptOXGmmYz\n9Sy8mjuUrOglSdfPCiVxLAiM0EcLQaxPtaJZJP71aVztE/O9josN4wFkVWIwm10V\nBIudHiO5MMKtS9O7wI2ro2BbXDIKunv0xQiDH05Ff0vNL/ZOWInCWR65GJDIWowT\n2M663c7HPAKmtmydv1jx\n=KEsP\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5e18791e0431b8dd53dd867b03637ecaedc04dbf\nparent b79d8654212d3564eb4935222731fb8d2f78f587\nparent 5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce\nauthor Dave Goldblatt <33435588+davegoldblatt@users.noreply.github.com> 1770759729 -0800\ncommitter GitHub <noreply@github.com> 1770759729 -0800\n\nMerge pull request #1 from davegoldblatt/onboarding-polish\n\nOnboarding polish: start-here demo + consistent defaults + feedback template",
+          "verified_at": "2026-02-10T21:42:09Z"
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/4d8927b0df6b794228b492904dc9d23e75fe1a22",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/4d8927b0df6b794228b492904dc9d23e75fe1a22",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/4d8927b0df6b794228b492904dc9d23e75fe1a22/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b79d8654212d3564eb4935222731fb8d2f78f587",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b79d8654212d3564eb4935222731fb8d2f78f587",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/b79d8654212d3564eb4935222731fb8d2f78f587"
+        },
+        {
+          "sha": "5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce"
+        }
+      ]
+    },
+    {
+      "sha": "5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce",
+      "node_id": "C_kwDORJoHbdoAKDVjYzc0YWM4N2FhYWYzNGFjYTMxOWVmZGIyMWIzMmNiZmIxNGE3Y2U",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-10T21:40:32Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-10T21:40:32Z"
+        },
+        "message": "Rewrite README for humans: problem/solution framing, kitchen metaphor, simpler structure\n\nReplaces the technical-first README with one that leads with the problem,\nexplains the system using everyday metaphors, and puts quick start + daily\nusage before architecture details. Fixes Superpowers link (obra/superpowers).\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "5e18791e0431b8dd53dd867b03637ecaedc04dbf",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/5e18791e0431b8dd53dd867b03637ecaedc04dbf"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/5cc74ac87aaaf34aca319efdb21b32cbfb14a7ce/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e608b8a3b24f8ab5a8e2e883558187ebedd96be4",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/e608b8a3b24f8ab5a8e2e883558187ebedd96be4",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/e608b8a3b24f8ab5a8e2e883558187ebedd96be4"
+        }
+      ]
+    },
+    {
+      "sha": "e608b8a3b24f8ab5a8e2e883558187ebedd96be4",
+      "node_id": "C_kwDORJoHbdoAKGU2MDhiOGEzYjI0ZjhhYjVhOGUyZTg4MzU1ODE4N2ViZWRkOTZiZTQ",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T02:07:02Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T02:07:02Z"
+        },
+        "message": "Onboarding polish: start-here demo, consistent nudge defaults, feedback template\n\n- Add \"Start here (2 minutes)\" block with install, init, holy-fuck demo\n- Flip recall_suggestions default to off everywhere (earn trust first)\n- Fix stale installer message about gitignore\n- Add GitHub issue template for structured early-user feedback\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "f8cf93834413b412d7b4666cce0d3442ad3abfec",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/f8cf93834413b412d7b4666cce0d3442ad3abfec"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/e608b8a3b24f8ab5a8e2e883558187ebedd96be4",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/e608b8a3b24f8ab5a8e2e883558187ebedd96be4",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/e608b8a3b24f8ab5a8e2e883558187ebedd96be4",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/e608b8a3b24f8ab5a8e2e883558187ebedd96be4/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b79d8654212d3564eb4935222731fb8d2f78f587",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b79d8654212d3564eb4935222731fb8d2f78f587",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/b79d8654212d3564eb4935222731fb8d2f78f587"
+        }
+      ]
+    },
+    {
+      "sha": "b79d8654212d3564eb4935222731fb8d2f78f587",
+      "node_id": "C_kwDORJoHbdoAKGI3OWQ4NjU0MjEyZDM1NjRlYjQ5MzUyMjI3MzFmYjhkMmY3OGY1ODc",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T01:27:31Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T01:27:31Z"
+        },
+        "message": "Fix nudge format to show both plugin and standalone commands\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "187b811fb862b1d06f85f4c9c910081376c46a40",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/187b811fb862b1d06f85f4c9c910081376c46a40"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/b79d8654212d3564eb4935222731fb8d2f78f587",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b79d8654212d3564eb4935222731fb8d2f78f587",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/b79d8654212d3564eb4935222731fb8d2f78f587",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b79d8654212d3564eb4935222731fb8d2f78f587/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b9db303c3b3604b125c6c8743725c1da5eda090c",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b9db303c3b3604b125c6c8743725c1da5eda090c",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/b9db303c3b3604b125c6c8743725c1da5eda090c"
+        }
+      ]
+    },
+    {
+      "sha": "b9db303c3b3604b125c6c8743725c1da5eda090c",
+      "node_id": "C_kwDORJoHbdoAKGI5ZGIzMDNjM2IzNjA0YjEyNWM2Yzg3NDM3MjVjMWRhNWVkYTA5MGM",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T01:24:15Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T01:24:15Z"
+        },
+        "message": "Add recall nudges: optional footer suggestions for memory candidates\n\nAdds a low-friction suggestion mechanism that appends a small footer\nwhen users make corrections, commitments, decisions, or state preferences.\nMax 2 per session, never mid-response, controlled via recall_suggestions\nsetting in CLAUDE.local.md.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "8dc641cd29f525ceb795b7ffd271b3c402adf7f5",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/8dc641cd29f525ceb795b7ffd271b3c402adf7f5"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/b9db303c3b3604b125c6c8743725c1da5eda090c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b9db303c3b3604b125c6c8743725c1da5eda090c",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/b9db303c3b3604b125c6c8743725c1da5eda090c",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b9db303c3b3604b125c6c8743725c1da5eda090c/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "80b34584f939bd34bc3b800e380f328983ebc0a7",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/80b34584f939bd34bc3b800e380f328983ebc0a7",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/80b34584f939bd34bc3b800e380f328983ebc0a7"
+        }
+      ]
+    },
+    {
+      "sha": "80b34584f939bd34bc3b800e380f328983ebc0a7",
+      "node_id": "C_kwDORJoHbdoAKDgwYjM0NTg0ZjkzOWJkMzRiYzNiODAwZTM4MGYzMjg5ODNlYmMwYTc",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T00:58:06Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T00:58:06Z"
+        },
+        "message": "Fix Superpowers link (obra/superpowers, not superpowers-ai)\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "01e1e4bae651b1c1e26f402c645afa0d286a27c4",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/01e1e4bae651b1c1e26f402c645afa0d286a27c4"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/80b34584f939bd34bc3b800e380f328983ebc0a7",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/80b34584f939bd34bc3b800e380f328983ebc0a7",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/80b34584f939bd34bc3b800e380f328983ebc0a7",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/80b34584f939bd34bc3b800e380f328983ebc0a7/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "152ab12ddd3c89051e53396eaeeb1b8b4caa4021",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/152ab12ddd3c89051e53396eaeeb1b8b4caa4021",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/152ab12ddd3c89051e53396eaeeb1b8b4caa4021"
+        }
+      ]
+    },
+    {
+      "sha": "152ab12ddd3c89051e53396eaeeb1b8b4caa4021",
+      "node_id": "C_kwDORJoHbdoAKDE1MmFiMTJkZGQzYzg5MDUxZTUzMzk2ZWFlZWIxYjhiNGNhYTQwMjE",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T00:49:38Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T00:49:38Z"
+        },
+        "message": "Labeled gitignore block + team mode docs\n\n- Installer now writes a labeled comment block with CLAUDE.local.md,\n  .claude/settings.local.json, and memory/ all gitignored\n- Skips if Total Recall block already exists (idempotent)\n- README adds \"Team mode\" section showing selective gitignore pattern\n  for teams that want to version decisions/projects while keeping\n  daily logs and personal registers local\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "22d0d98f69bf34b50b2164b42994fa796e8b7b68",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/22d0d98f69bf34b50b2164b42994fa796e8b7b68"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/152ab12ddd3c89051e53396eaeeb1b8b4caa4021",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/152ab12ddd3c89051e53396eaeeb1b8b4caa4021",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/152ab12ddd3c89051e53396eaeeb1b8b4caa4021",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/152ab12ddd3c89051e53396eaeeb1b8b4caa4021/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "18921efc88ef96a20f040d7dbf7830e7410b7229",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/18921efc88ef96a20f040d7dbf7830e7410b7229",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/18921efc88ef96a20f040d7dbf7830e7410b7229"
+        }
+      ]
+    },
+    {
+      "sha": "18921efc88ef96a20f040d7dbf7830e7410b7229",
+      "node_id": "C_kwDORJoHbdoAKDE4OTIxZWZjODhlZjk2YTIwZjA0MGQ3ZGJmNzgzMGU3NDEwYjcyMjk",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T00:48:39Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-06T00:48:39Z"
+        },
+        "message": "Add memory/ to .gitignore by default\n\nmemory/ contains personal context (preferences, people notes, decisions)\nand should not be committed. install.sh now gitignores both CLAUDE.local.md\nand memory/ automatically.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "1edf8c9bc3cf6cccd9ac3a3c51f771d65ef4e577",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/1edf8c9bc3cf6cccd9ac3a3c51f771d65ef4e577"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/18921efc88ef96a20f040d7dbf7830e7410b7229",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/18921efc88ef96a20f040d7dbf7830e7410b7229",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/18921efc88ef96a20f040d7dbf7830e7410b7229",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/18921efc88ef96a20f040d7dbf7830e7410b7229/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0e778af9735c1bf878aa184952d4fa364b841af0",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/0e778af9735c1bf878aa184952d4fa364b841af0",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/0e778af9735c1bf878aa184952d4fa364b841af0"
+        }
+      ]
+    },
+    {
+      "sha": "0e778af9735c1bf878aa184952d4fa364b841af0",
+      "node_id": "C_kwDORJoHbdoAKDBlNzc4YWY5NzM1YzFiZjg3OGFhMTg0OTUyZDRmYTM2NGI4NDFhZjA",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:52:52Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:52:52Z"
+        },
+        "message": "Fix MEMORY.md → CLAUDE.local.md in commands and skills\n\nrecall-promote, recall-maintain, and recall-forget all referenced\nMEMORY.md (from the original design spec) instead of CLAUDE.local.md\n(the actual working memory file). Fixed in both standalone commands\nand plugin skills.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "b65e0346ac7cf512c9b5d3a1e460e3c08b355474",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/b65e0346ac7cf512c9b5d3a1e460e3c08b355474"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/0e778af9735c1bf878aa184952d4fa364b841af0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/0e778af9735c1bf878aa184952d4fa364b841af0",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/0e778af9735c1bf878aa184952d4fa364b841af0",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/0e778af9735c1bf878aa184952d4fa364b841af0/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c301599bc67169818e98f97bebb88a4b1b991d73",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/c301599bc67169818e98f97bebb88a4b1b991d73",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/c301599bc67169818e98f97bebb88a4b1b991d73"
+        }
+      ]
+    },
+    {
+      "sha": "c301599bc67169818e98f97bebb88a4b1b991d73",
+      "node_id": "C_kwDORJoHbdoAKGMzMDE1OTliYzY3MTY5ODE4ZTk4Zjk3YmViYjg4YTRiMWI5OTFkNzM",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:46:22Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:46:22Z"
+        },
+        "message": "Fix hooks.json schema: require nested hooks array\n\nThe settings schema requires each hook event entry to have a `hooks`\narray, not bare type/command objects. Fixed in hooks.json (plugin),\ninstall.sh (standalone), and manual instructions.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "eab2254c7b2329fd3ac63faa4457a0de6bec888b",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/eab2254c7b2329fd3ac63faa4457a0de6bec888b"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/c301599bc67169818e98f97bebb88a4b1b991d73",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/c301599bc67169818e98f97bebb88a4b1b991d73",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/c301599bc67169818e98f97bebb88a4b1b991d73",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/c301599bc67169818e98f97bebb88a4b1b991d73/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "70c6fd946fceaac485e53a07b5ed9408502259ca",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/70c6fd946fceaac485e53a07b5ed9408502259ca",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/70c6fd946fceaac485e53a07b5ed9408502259ca"
+        }
+      ]
+    },
+    {
+      "sha": "70c6fd946fceaac485e53a07b5ed9408502259ca",
+      "node_id": "C_kwDORJoHbdoAKDcwYzZmZDk0NmZjZWFhYzQ4NWU1M2EwN2I1ZWQ5NDA4NTAyMjU5Y2E",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:28:34Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:28:34Z"
+        },
+        "message": "Strip transcript parsing, add skill frontmatter for safety\n\n- PreCompact hook no longer reads transcripts at all (not opt-in, fully\n  removed). Only writes compaction markers to daily log. Drains stdin\n  to prevent hangs.\n- Side-effect skills (write, log, init, promote, maintain, forget) marked\n  disable-model-invocation: true — user-invoked only\n- Read-only skills (search, status, context) stay model-invocable with\n  descriptions so Claude can fetch context when relevant\n- All skills now have YAML frontmatter (description, argument-hint)\n- README updated: removed transcript opt-in language, now states\n  \"no transcript parsing\" definitively\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "ab6fba822ccb62b50ff31b02fa9bd26bc990d597",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/ab6fba822ccb62b50ff31b02fa9bd26bc990d597"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/70c6fd946fceaac485e53a07b5ed9408502259ca",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/70c6fd946fceaac485e53a07b5ed9408502259ca",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/70c6fd946fceaac485e53a07b5ed9408502259ca",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/70c6fd946fceaac485e53a07b5ed9408502259ca/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b64e73b92fd58b707a28d95e98c6525dbc77b89a",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b64e73b92fd58b707a28d95e98c6525dbc77b89a",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/b64e73b92fd58b707a28d95e98c6525dbc77b89a"
+        }
+      ]
+    },
+    {
+      "sha": "b64e73b92fd58b707a28d95e98c6525dbc77b89a",
+      "node_id": "C_kwDORJoHbdoAKGI2NGU3M2I5MmZkNThiNzA3YTI4ZDk1ZTk4YzY1MjVkYmM3N2I4OWE",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:18:27Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:18:27Z"
+        },
+        "message": "Fix install commands, clarify hook behavior\n\n- Install syntax: /plugin marketplace add + /plugin install (not /install)\n- Clarify SessionStart injects context vs PreCompact writes files only\n- Add \"hooks fail open\" safety note\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "b5ff67368ea2f0832b2793a96e45ad9eeeea45d7",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/b5ff67368ea2f0832b2793a96e45ad9eeeea45d7"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/b64e73b92fd58b707a28d95e98c6525dbc77b89a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b64e73b92fd58b707a28d95e98c6525dbc77b89a",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/b64e73b92fd58b707a28d95e98c6525dbc77b89a",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b64e73b92fd58b707a28d95e98c6525dbc77b89a/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415"
+        }
+      ]
+    },
+    {
+      "sha": "fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415",
+      "node_id": "C_kwDORJoHbdoAKGZjNWI5ZDU2ZDY5ZTQ2Yjk4Y2NmZDgzYmU2YmY4M2MyYmE5N2M0MTU",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:14:11Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T23:14:11Z"
+        },
+        "message": "Rename plugin to `recall`, make transcript extraction opt-in\n\n- Plugin name changed from `total-recall` to `recall` so commands are\n  /recall:write instead of /total-recall:recall-write\n- PreCompact transcript extraction now requires RECALL_EXTRACT_TRANSCRIPT=1\n  (off by default to comply with Anthropic directory policy)\n- Expanded Privacy & Security section: local-only, no telemetry, audit guide\n- Updated README with opt-in docs\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "653fb68a024c3501d464882e4bab57cc1f6aa63d",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/653fb68a024c3501d464882e4bab57cc1f6aa63d"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/fc5b9d56d69e46b98ccfd83be6bf83c2ba97c415/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7904a76afe67045cab3eeb93398743399d0a5c5f",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/7904a76afe67045cab3eeb93398743399d0a5c5f",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/7904a76afe67045cab3eeb93398743399d0a5c5f"
+        }
+      ]
+    },
+    {
+      "sha": "7904a76afe67045cab3eeb93398743399d0a5c5f",
+      "node_id": "C_kwDORJoHbdoAKDc5MDRhNzZhZmU2NzA0NWNhYjNlZWI5MzM5ODc0MzM5OWQwYTVjNWY",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T22:59:47Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T22:59:47Z"
+        },
+        "message": "Add plugin format support for marketplace distribution\n\n- Add .claude-plugin/plugin.json manifest\n- Add root-level skills/ with SKILL.md for each command (namespaced as /total-recall:recall-*)\n- Add root-level hooks/ with hooks.json + scripts (using ${CLAUDE_PLUGIN_ROOT})\n- Add root-level rules/ for plugin auto-loading\n- Sharpen README: write gate as hero, plugin install as primary path, comparison table\n- Keep standalone .claude/ format for install.sh users\n- Both formats coexist — plugin for /install, standalone for manual setup\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "fa6047b4f05eec9f98751a46815e5202073b5d1d",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/fa6047b4f05eec9f98751a46815e5202073b5d1d"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/7904a76afe67045cab3eeb93398743399d0a5c5f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/7904a76afe67045cab3eeb93398743399d0a5c5f",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/7904a76afe67045cab3eeb93398743399d0a5c5f",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/7904a76afe67045cab3eeb93398743399d0a5c5f/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2"
+        }
+      ]
+    },
+    {
+      "sha": "b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2",
+      "node_id": "C_kwDORJoHbdoAKGI5M2QyNjU4ZjVmYjlkZDNmOTZiNjhjZDdkNzM5YjdhNmI2MjEyZDI",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T22:42:15Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T22:42:15Z"
+        },
+        "message": "v2.1: Use $CLAUDE_PROJECT_DIR, move hooks to .claude/hooks/, add restart notice\n\n- Hook scripts use $CLAUDE_PROJECT_DIR for portable path resolution\n- Hooks moved from hooks/ to .claude/hooks/ (conventional location)\n- Settings reference hooks via \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/\n- Install script warns about restart / /hooks review requirement\n- PreCompact hook comments clarified: input is JSON, transcript is JSONL\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "b7608c7033815add10e6419f7c7d1144bb402486",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/b7608c7033815add10e6419f7c7d1144bb402486"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/b93d2658f5fb9dd3f96b68cd7d739b7a6b6212d2/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7fb1f38ad0a1a67b7cb268ea6352368836619c6b",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/7fb1f38ad0a1a67b7cb268ea6352368836619c6b",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/7fb1f38ad0a1a67b7cb268ea6352368836619c6b"
+        }
+      ]
+    },
+    {
+      "sha": "7fb1f38ad0a1a67b7cb268ea6352368836619c6b",
+      "node_id": "C_kwDORJoHbdoAKDdmYjFmMzhhZDBhMWE2N2I3Y2IyNjhlYTYzNTIzNjg4MzY2MTljNmI",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T22:27:15Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T22:27:15Z"
+        },
+        "message": "v2: Deterministic loading, real hooks, daily-log-first writes\n\nKey changes based on review feedback:\n- Protocol moves to .claude/rules/total-recall.md (auto-loaded, not aspirational)\n- Working memory moves to CLAUDE.local.md (auto-loaded, gitignored)\n- CLAUDE.md slimmed to supplementary docs (rules carry the protocol)\n- Real SessionStart hook injects open loops + recent daily context\n- Real PreCompact hook flushes to daily log before compaction\n- /recall-write defaults to daily log first, suggests promotion separately\n- /recall-search drops \"semantic\" language (v1 is keyword/grep)\n- Install script handles rules/, hooks, settings.local.json, .gitignore\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "a2f6651e38adcdf9580f57777dcd0f8a6e3294d4",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/a2f6651e38adcdf9580f57777dcd0f8a6e3294d4"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/7fb1f38ad0a1a67b7cb268ea6352368836619c6b",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/7fb1f38ad0a1a67b7cb268ea6352368836619c6b",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/7fb1f38ad0a1a67b7cb268ea6352368836619c6b",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/7fb1f38ad0a1a67b7cb268ea6352368836619c6b/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8d01966427080e419cd23cd0a17461f56f16ed37",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/8d01966427080e419cd23cd0a17461f56f16ed37",
+          "html_url": "https://github.com/davegoldblatt/total-recall/commit/8d01966427080e419cd23cd0a17461f56f16ed37"
+        }
+      ]
+    },
+    {
+      "sha": "8d01966427080e419cd23cd0a17461f56f16ed37",
+      "node_id": "C_kwDORJoHbdoAKDhkMDE5NjY0MjcwODBlNDE5Y2QyM2NkMGExNzQ2MWY1NmYxNmVkMzc",
+      "commit": {
+        "author": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T21:50:02Z"
+        },
+        "committer": {
+          "name": "Dave Goldblatt",
+          "email": "davegoldblatt@gmail.com",
+          "date": "2026-02-05T21:50:02Z"
+        },
+        "message": "Initial release of Total Recall — persistent memory plugin for Claude Code\n\nTiered memory system (daily logs → registers → working memory → archive)\nwith write gate, correction propagation, and 9 slash commands.\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>",
+        "tree": {
+          "sha": "d8b788de79b08f9cf4bd488869a9244107960d10",
+          "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/trees/d8b788de79b08f9cf4bd488869a9244107960d10"
+        },
+        "url": "https://api.github.com/repos/davegoldblatt/total-recall/git/commits/8d01966427080e419cd23cd0a17461f56f16ed37",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/8d01966427080e419cd23cd0a17461f56f16ed37",
+      "html_url": "https://github.com/davegoldblatt/total-recall/commit/8d01966427080e419cd23cd0a17461f56f16ed37",
+      "comments_url": "https://api.github.com/repos/davegoldblatt/total-recall/commits/8d01966427080e419cd23cd0a17461f56f16ed37/comments",
+      "author": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "davegoldblatt",
+        "id": 33435588,
+        "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/davegoldblatt",
+        "html_url": "https://github.com/davegoldblatt",
+        "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+        "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+        "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+        "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+        "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+        "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "davegoldblatt",
+      "id": 33435588,
+      "node_id": "MDQ6VXNlcjMzNDM1NTg4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33435588?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davegoldblatt",
+      "html_url": "https://github.com/davegoldblatt",
+      "followers_url": "https://api.github.com/users/davegoldblatt/followers",
+      "following_url": "https://api.github.com/users/davegoldblatt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davegoldblatt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davegoldblatt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davegoldblatt/subscriptions",
+      "organizations_url": "https://api.github.com/users/davegoldblatt/orgs",
+      "repos_url": "https://api.github.com/users/davegoldblatt/repos",
+      "events_url": "https://api.github.com/users/davegoldblatt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davegoldblatt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 18
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Shell": 16235
+  },
+  "readme_html": "<h1 id=\"user-content-total-recall\">Total Recall</h1>\n<p>A memory system for Claude Code that remembers what matters and forgets what doesn't.</p>\n<h2 id=\"user-content-the-problem\">The Problem</h2>\n<p>Claude Code forgets everything between sessions. Every time you start a new conversation, it's like talking to someone with amnesia. You end up repeating yourself:</p>\n<ul>\n<li>\"We already tried that approach, it didn't work.\"</li>\n<li>\"Don't touch the auth file.\"</li>\n<li>\"I prefer tabs over spaces.\"</li>\n<li>\"The client's name is Sarah, not Sara.\"</li>\n</ul>\n<p>This gets old fast.</p>\n<h2 id=\"user-content-what-total-recall-does\">What Total Recall Does</h2>\n<p>It gives Claude Code a notepad that carries over between sessions, but a <em>picky</em> notepad. Not everything goes in. Before anything gets saved permanently, it has to pass a simple test: <strong>will this matter tomorrow?</strong></p>\n<p>A preference you'll have for months? Saved. A decision you made and why? Saved. The fact that you ran a test five minutes ago? Not saved. The system keeps itself clean so Claude isn't wading through junk to find what's relevant.</p>\n<h2 id=\"user-content-how-it-works\">How It Works</h2>\n<p>Think of it like a kitchen with four storage areas:</p>\n<p><strong>Counter</strong> (<code>CLAUDE.local.md</code>): The stuff you reach for every day. Loads automatically, every session. Kept small on purpose, around a page of text.</p>\n<p><strong>Pantry</strong> (<code>memory/registers/</code>): Organized by category. Your preferences, key decisions, project details, people you work with. Claude checks here when it needs something specific.</p>\n<p><strong>Daily notebook</strong> (<code>memory/daily/</code>): Timestamped scratch notes from each day. Everything gets written here first. You decide later what's worth keeping permanently.</p>\n<p><strong>Storage closet</strong> (<code>memory/archive/</code>): Old stuff that's done or outdated. Still searchable, but never loaded automatically.</p>\n<p>The key idea: <strong>notes hit the daily notebook first, then you promote the keepers.</strong> Claude doesn't get to decide on its own what's important enough to remember permanently. You do.</p>\n<h2 id=\"user-content-quick-start\">Quick Start</h2>\n<h3 id=\"user-content-install-as-a-plugin-recommended\">Install as a plugin (recommended)</h3>\n<pre><code>/plugin marketplace add davegoldblatt/recall-marketplace\n/plugin install recall@recall-marketplace\n</code></pre>\n<h3 id=\"user-content-or-install-standalone\">Or install standalone</h3>\n<pre><code>git clone https://github.com/davegoldblatt/total-recall.git\ncd total-recall\n./install.sh /path/to/your/project\n</code></pre>\n<p>After installing, restart Claude Code or run <code>/hooks</code> to activate.</p>\n<h2 id=\"user-content-using-it\">Using It</h2>\n<p>Here's your day-to-day:</p>\n<p><strong>Claude notices something worth remembering.</strong> It writes to your daily notebook and tells you. You don't have to do anything.</p>\n<p><strong>You want Claude to remember something.</strong> Just say \"remember this\" or use the write command:</p>\n<pre><code>/recall-write Dave prefers concise error messages, no stack traces in prod\n</code></pre>\n<p><strong>End of day (or whenever).</strong> Review what piled up and promote the good stuff:</p>\n<pre><code>/recall-promote\n</code></pre>\n<p><strong>Find something from last week.</strong> Search across everything:</p>\n<pre><code>/recall-search authentication decision\n</code></pre>\n<p><strong>You correct Claude.</strong> The correction updates everywhere at once: daily notebook, registers, and the counter. The same mistake won't happen again.</p>\n<h3 id=\"user-content-all-commands\">All Commands</h3>\n<table>\n<thead>\n<tr>\n<th>Command</th>\n<th>What it does</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>/recall-init</code></td>\n<td>Set up the memory folders for the first time</td>\n</tr>\n<tr>\n<td><code>/recall-write &#x3C;note></code></td>\n<td>Save a note (checks if it's worth keeping, suggests where)</td>\n</tr>\n<tr>\n<td><code>/recall-log &#x3C;note></code></td>\n<td>Quick note to the daily notebook, no questions asked</td>\n</tr>\n<tr>\n<td><code>/recall-search &#x3C;query></code></td>\n<td>Search everything</td>\n</tr>\n<tr>\n<td><code>/recall-promote</code></td>\n<td>Review daily notes, move the keepers to registers</td>\n</tr>\n<tr>\n<td><code>/recall-status</code></td>\n<td>Health check. Is everything working?</td>\n</tr>\n<tr>\n<td><code>/recall-maintain</code></td>\n<td>Clean up stale or duplicate entries</td>\n</tr>\n<tr>\n<td><code>/recall-forget &#x3C;query></code></td>\n<td>Mark something as outdated</td>\n</tr>\n<tr>\n<td><code>/recall-context</code></td>\n<td>Show what memory Claude has loaded right now</td>\n</tr>\n</tbody>\n</table>\n<p>If installed as a plugin, commands are namespaced: <code>/recall:recall-write</code> instead of <code>/recall-write</code>.</p>\n<h2 id=\"user-content-the-write-gate\">The Write Gate</h2>\n<p>This is the core idea. Before anything gets promoted to permanent memory, it has to pass at least one of these checks:</p>\n<ol>\n<li><strong>Will it change how Claude behaves next time?</strong> (a preference, a boundary, a pattern)</li>\n<li><strong>Is it a commitment someone's counting on?</strong> (a deadline, a deliverable, a follow-up)</li>\n<li><strong>Is it a decision worth remembering the reasoning for?</strong> (why you picked X over Y)</li>\n<li><strong>Is it a stable fact that'll come up again?</strong> (not something that'll be different tomorrow)</li>\n<li><strong>Did you explicitly say \"remember this\"?</strong></li>\n</ol>\n<p>If none of those are true, it stays in the daily notebook and eventually ages out. This keeps memory lean. No junk drawer.</p>\n<h2 id=\"user-content-when-corrections-happen\">When Corrections Happen</h2>\n<p>If you tell Claude it got something wrong, it doesn't just say \"sorry\" and move on. It updates the daily notebook, the relevant register, and the counter, all in one shot. The old information gets marked as superseded (not deleted) so there's a trail of what changed and when.</p>\n<h2 id=\"user-content-what-loads-automatically\">What Loads Automatically</h2>\n<p>Only two things, every session:</p>\n<table>\n<thead>\n<tr>\n<th>What</th>\n<th>Where</th>\n<th>How</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>The rules (write gate, correction protocol)</td>\n<td><code>rules/total-recall.md</code></td>\n<td>Claude Code loads all rules files automatically</td>\n</tr>\n<tr>\n<td>Counter / working memory</td>\n<td><code>CLAUDE.local.md</code></td>\n<td>Claude Code loads this automatically</td>\n</tr>\n</tbody>\n</table>\n<p>Everything else loads on demand: when you search, when it's relevant, or at session start via hooks.</p>\n<h2 id=\"user-content-hooks\">Hooks</h2>\n<p>Two things happen automatically in the background:</p>\n<p><strong>When a session starts:</strong> Claude gets a summary of open items and recent daily notes. This is the \"here's where we left off\" briefing.</p>\n<p><strong>Before memory gets compacted:</strong> A timestamp gets written to the daily notebook so there's a record. This one is silent. Claude doesn't see it, it's just bookkeeping.</p>\n<p>Both hooks fail safely. If something goes wrong, they don't block Claude Code from working.</p>\n<p>Hooks use <code>$CLAUDE_PROJECT_DIR</code> (standalone) or <code>${CLAUDE_PLUGIN_ROOT}</code> (plugin) to resolve paths. No transcript parsing. The PreCompact hook only writes a timestamp marker to the daily log. It does not read or parse conversation transcripts.</p>\n<h2 id=\"user-content-architecture\">Architecture</h2>\n<p>For those who want the technical details.</p>\n<pre><code>Conversation (ephemeral, compacted/discarded)\n    |\n    v  WRITE GATE: \"Does this change future behavior?\"\n    |\nDaily Log (memory/daily/YYYY-MM-DD.md)\n    All writes land here first. Raw, timestamped.\n    |\n    v  PROMOTION: user-controlled via /recall-promote\n    |\nRegisters (memory/registers/*.md)\n    Structured claims with metadata (confidence, evidence, last_verified)\n    |\n    v  DISTILLATION: only what's essential for every session\n    |\nWorking Memory (CLAUDE.local.md)\n    ~1500 words. Auto-loaded. The persistent \"personality.\"\n    |\n    v  EXPIRY\n    |\nArchive (memory/archive/)\n    Searchable history. Never auto-loaded.\n</code></pre>\n<h3 id=\"user-content-key-mechanisms\">Key Mechanisms</h3>\n<p><strong>Write Gate:</strong> Filters out noise. Only behavior-changing facts, commitments, decisions, and explicit \"remember this\" requests pass through.</p>\n<p><strong>Daily Log First:</strong> All writes land in the daily log. Promotion to registers is a separate step, controlled by the user. This prevents the model from prematurely solidifying inferences.</p>\n<p><strong>Contradiction Protocol:</strong> Never silently overwrites. Old claims are marked <code>[superseded]</code> with date and reason. The pattern of change is preserved.</p>\n<p><strong>Correction Gate:</strong> Human corrections get highest priority. One correction triggers writes to daily log + register + working memory.</p>\n<h3 id=\"user-content-file-structure\">File Structure</h3>\n<p><strong>Plugin format</strong> (installed via <code>/plugin install</code>):</p>\n<pre><code>total-recall/                     # Plugin root\n├── .claude-plugin/\n│   └── plugin.json               # Plugin manifest\n├── skills/                       # Slash commands (namespaced)\n│   ├── recall-write/SKILL.md\n│   ├── recall-search/SKILL.md\n│   └── ...\n├── hooks/\n│   ├── hooks.json                # Hook configuration\n│   ├── session-start.sh\n│   └── pre-compact.sh\n├── rules/\n│   └── total-recall.md           # Protocol (auto-loaded)\n└── templates/                    # Scaffolding templates\n    ├── SCHEMA.md\n    ├── CLAUDE.local.md\n    └── registers/\n</code></pre>\n<p><strong>Standalone format</strong> (installed via <code>install.sh</code>):</p>\n<pre><code>your-project/\n├── .claude/\n│   ├── commands/recall-*.md      # Slash commands\n│   ├── rules/total-recall.md     # Protocol (auto-loaded)\n│   ├── hooks/*.sh                # Hook scripts\n│   └── settings.local.json       # Hook configuration\n├── memory/\n│   ├── SCHEMA.md\n│   ├── daily/YYYY-MM-DD.md\n│   ├── registers/*.md\n│   └── archive/\n├── CLAUDE.md\n└── CLAUDE.local.md               # Working memory (gitignored)\n</code></pre>\n<h3 id=\"user-content-compared-to-other-memory-tools\">Compared to Other Memory Tools</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Total Recall</th>\n<th>Auto-ingest tools</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>What gets saved</strong></td>\n<td>Only what passes the write gate</td>\n<td>Everything</td>\n</tr>\n<tr>\n<td><strong>Default destination</strong></td>\n<td>Daily log (promote later)</td>\n<td>Permanent storage</td>\n</tr>\n<tr>\n<td><strong>Context cost</strong></td>\n<td>~1500 words working memory</td>\n<td>Grows unbounded</td>\n</tr>\n<tr>\n<td><strong>Corrections</strong></td>\n<td>Propagate to all tiers immediately</td>\n<td>Varies</td>\n</tr>\n<tr>\n<td><strong>User control</strong></td>\n<td>Promotion is explicit</td>\n<td>Automatic</td>\n</tr>\n<tr>\n<td><strong>Architecture</strong></td>\n<td>4-tier with metadata</td>\n<td>Flat or 2-tier</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"user-content-privacy\">Privacy</h2>\n<ul>\n<li>Everything is local. No network calls, no telemetry, no external services.</li>\n<li>All memory is plain markdown files you can read and edit yourself.</li>\n<li><code>CLAUDE.local.md</code> is gitignored by default (it's personal).</li>\n<li><code>memory/</code> is gitignored by default (it can contain personal notes).</li>\n<li>Hooks never read your conversation transcripts.</li>\n<li>To see exactly what's happening: check <code>hooks/*.sh</code> and <code>memory/</code>. It's all plain text.</li>\n<li>To uninstall: delete <code>memory/</code>, <code>CLAUDE.local.md</code>, and the <code>.claude/</code> entries (or <code>/plugin uninstall recall</code>).</li>\n</ul>\n<h2 id=\"user-content-works-alongside-superpowers\">Works Alongside Superpowers</h2>\n<p>If you use <a href=\"https://github.com/obra/superpowers\">Superpowers</a>, there are no conflicts. Superpowers handles <em>how</em> Claude works (methodology, TDD, plans). Total Recall handles <em>what</em> Claude remembers. Different jobs, same project.</p>\n<h2 id=\"user-content-license\">License</h2>\n<p>MIT</p>",
+  "_fetched_at": "2026-03-11T18:09:05.734Z"
+}

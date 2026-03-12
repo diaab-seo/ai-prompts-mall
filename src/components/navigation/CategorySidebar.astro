@@ -1,0 +1,120 @@
+---
+import categories from '../../data/categories.json';
+
+interface Props {
+  activeCategorySlug?: string;
+}
+const { activeCategorySlug } = Astro.props;
+
+const ICONS: Record<string, string> = {
+  'large-language-models': '🧠',
+  'ai-agents':             '🤖',
+  'rag-retrieval':         '🔍',
+  'vector-databases':      '🗄️',
+  'prompt-engineering':    '✍️',
+  'fine-tuning':           '🎛️',
+  'multimodal-ai':         '🖼️',
+  'ai-infrastructure':     '⚙️',
+  'ai-frameworks':         '🧩',
+  'open-source-llms':      '🦙',
+  'ai-datasets':           '📦',
+  'ai-evaluation':         '📊',
+  'ai-safety':             '🛡️',
+  'ai-applications':       '🚀',
+};
+---
+
+<nav class="cat-sidebar-nav" aria-label="Browse by AI category">
+  <p class="sidebar-label">AI Categories</p>
+  <ul role="list">
+    {categories.map((cat) => {
+      const active = cat.slug === activeCategorySlug;
+      return (
+        <li>
+          <a
+            href={`/category/${cat.slug}`}
+            class={`sidebar-link ${active ? 'sidebar-link--active' : ''}`}
+            aria-current={active ? 'page' : undefined}
+          >
+            <span class="sidebar-icon" aria-hidden="true">{ICONS[cat.slug] ?? '🤖'}</span>
+            <span class="sidebar-label-text">{cat.label}</span>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+
+  <div class="sidebar-extras">
+    <a href="/trending" class="sidebar-link sidebar-link--extra">
+      <span class="sidebar-icon" aria-hidden="true">🔥</span>
+      <span>Trending</span>
+    </a>
+    <a href="/search" class="sidebar-link sidebar-link--extra">
+      <span class="sidebar-icon" aria-hidden="true">🔍</span>
+      <span>Search All</span>
+    </a>
+  </div>
+</nav>
+
+<style>
+  .cat-sidebar-nav {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 1rem 0.5rem;
+    overflow: hidden;
+  }
+
+  .sidebar-label {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    padding: 0 0.625rem;
+    margin-bottom: 0.5rem;
+  }
+
+  ul { list-style: none; }
+
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.625rem;
+    border-radius: 8px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: background 0.12s, color 0.12s;
+    width: 100%;
+  }
+  .sidebar-link:hover {
+    background: var(--color-surface-2);
+    color: var(--color-text);
+  }
+  .sidebar-link--active {
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+  .sidebar-link--active:hover {
+    background: var(--color-accent-light);
+    color: var(--color-accent);
+    opacity: 0.9;
+  }
+
+  .sidebar-icon { font-size: 1rem; flex-shrink: 0; line-height: 1; }
+  .sidebar-label-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .sidebar-extras {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .sidebar-link--extra {
+    color: var(--color-text-muted);
+  }
+</style>

@@ -1,0 +1,11 @@
+---
+// DependencyList widget
+interface Props { dependencies: Record<string, string> }
+const { dependencies } = Astro.props;
+const entries = Object.entries(dependencies);
+---
+<ul class="dependency-list">
+  {entries.map(([name, version]) => (
+    <li><code>{name}</code> <span>{version}</span></li>
+  ))}
+</ul>

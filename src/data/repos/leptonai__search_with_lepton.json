@@ -1,0 +1,2262 @@
+{
+  "id": 747030811,
+  "node_id": "R_kgDOLIbJGw",
+  "name": "search_with_lepton",
+  "full_name": "leptonai/search_with_lepton",
+  "private": false,
+  "owner": {
+    "login": "leptonai",
+    "id": 124112888,
+    "node_id": "O_kgDOB2XP-A",
+    "avatar_url": "https://avatars.githubusercontent.com/u/124112888?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/leptonai",
+    "html_url": "https://github.com/leptonai",
+    "followers_url": "https://api.github.com/users/leptonai/followers",
+    "following_url": "https://api.github.com/users/leptonai/following{/other_user}",
+    "gists_url": "https://api.github.com/users/leptonai/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/leptonai/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/leptonai/subscriptions",
+    "organizations_url": "https://api.github.com/users/leptonai/orgs",
+    "repos_url": "https://api.github.com/users/leptonai/repos",
+    "events_url": "https://api.github.com/users/leptonai/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/leptonai/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/leptonai/search_with_lepton",
+  "description": "Building a quick conversation-based search demo with Lepton AI.",
+  "fork": false,
+  "url": "https://api.github.com/repos/leptonai/search_with_lepton",
+  "forks_url": "https://api.github.com/repos/leptonai/search_with_lepton/forks",
+  "keys_url": "https://api.github.com/repos/leptonai/search_with_lepton/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/leptonai/search_with_lepton/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/leptonai/search_with_lepton/teams",
+  "hooks_url": "https://api.github.com/repos/leptonai/search_with_lepton/hooks",
+  "issue_events_url": "https://api.github.com/repos/leptonai/search_with_lepton/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/leptonai/search_with_lepton/events",
+  "assignees_url": "https://api.github.com/repos/leptonai/search_with_lepton/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/leptonai/search_with_lepton/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/leptonai/search_with_lepton/tags",
+  "blobs_url": "https://api.github.com/repos/leptonai/search_with_lepton/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/leptonai/search_with_lepton/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/leptonai/search_with_lepton/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/leptonai/search_with_lepton/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/leptonai/search_with_lepton/languages",
+  "stargazers_url": "https://api.github.com/repos/leptonai/search_with_lepton/stargazers",
+  "contributors_url": "https://api.github.com/repos/leptonai/search_with_lepton/contributors",
+  "subscribers_url": "https://api.github.com/repos/leptonai/search_with_lepton/subscribers",
+  "subscription_url": "https://api.github.com/repos/leptonai/search_with_lepton/subscription",
+  "commits_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/leptonai/search_with_lepton/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/leptonai/search_with_lepton/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/leptonai/search_with_lepton/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/leptonai/search_with_lepton/merges",
+  "archive_url": "https://api.github.com/repos/leptonai/search_with_lepton/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/leptonai/search_with_lepton/downloads",
+  "issues_url": "https://api.github.com/repos/leptonai/search_with_lepton/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/leptonai/search_with_lepton/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/leptonai/search_with_lepton/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/leptonai/search_with_lepton/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/leptonai/search_with_lepton/labels{/name}",
+  "releases_url": "https://api.github.com/repos/leptonai/search_with_lepton/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/leptonai/search_with_lepton/deployments",
+  "created_at": "2024-01-23T05:51:43Z",
+  "updated_at": "2026-03-11T03:06:56Z",
+  "pushed_at": "2025-12-02T03:48:24Z",
+  "git_url": "git://github.com/leptonai/search_with_lepton.git",
+  "ssh_url": "git@github.com:leptonai/search_with_lepton.git",
+  "clone_url": "https://github.com/leptonai/search_with_lepton.git",
+  "svn_url": "https://github.com/leptonai/search_with_lepton",
+  "homepage": "https://search.lepton.run",
+  "size": 323,
+  "stargazers_count": 8110,
+  "watchers_count": 8110,
+  "language": "TypeScript",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": true,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 1013,
+  "mirror_url": null,
+  "archived": true,
+  "disabled": false,
+  "open_issues_count": 47,
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdx_id": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "node_id": "MDc6TGljZW5zZTI="
+  },
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "ai-applications",
+    "leptonai",
+    "llm"
+  ],
+  "visibility": "public",
+  "forks": 1013,
+  "open_issues": 47,
+  "watchers": 8110,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "large-language-models",
+  "commits": [
+    {
+      "sha": "0a2fe3713ee42c4c0c6da1bb56d3cbbeccf431d5",
+      "node_id": "C_kwDOLIbJG9oAKDBhMmZlMzcxM2VlNDJjNGMwYzZkYTFiYjU2ZDNjYmJlY2NmNDMxZDU",
+      "commit": {
+        "author": {
+          "name": "Yuxi Shi",
+          "email": "leo_shi01@outlook.com",
+          "date": "2025-04-01T01:00:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-04-01T01:00:53Z"
+        },
+        "message": "init (#106)\n\nCo-authored-by: Yuxi Shi <yuxishi@yuxidemacbook-pro>",
+        "tree": {
+          "sha": "98fef383ac152cc27fbf17cd92029bff46902e7d",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/98fef383ac152cc27fbf17cd92029bff46902e7d"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/0a2fe3713ee42c4c0c6da1bb56d3cbbeccf431d5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn6zrFCRC1aQ7uu5UhlAAA+bgQADhNmMDidA0Sn7CrxDlDxB8H\nMWiwX7Y1tJwES2PTfLCDn3uOHsTUeZHNZkicNMlClXjrp1FH03wpXf1K8tlxWqbg\nYJsCdTSiKVjE18i6+u85AjKBQWIEbwAcI6wWqs+PhJ4mYE8VfJaYjpGg0ERsGy7R\ntC5B3/POwzW5CfwrBzkb3pCFAGjMHeJ8AwsyZpOiiZ2RbT/xfU8NhmVnHjPqI/3G\nOvFCaj2JTmUp2AJShxZ+4oOGbdfmNNsbDpWVTr0XF+HSzUcZU0+a+lCej5j3muPM\n8YxA5HUE/DgugwRirt+bQLGLHF/wO8f3GPu42I1xt3GAZjIhXvueeRxEu5qr5kho\n6ii2XbGuiQLYr59XYe/g2+FRg8ZD79n5JdPVj35ElqJYh/aybwNwgcH6lCQn8a7z\n9wAOGL35lZiDOFTzeVPLF3CuVzmX0l08rgGVdXdCQYkNUueOMvgY6zS4/W38QHhk\nfks3iMG51hxateBTX4dGJ9gZelotIF0KvO07Xk5BMXGCMabG2Azo5aX2zmlpFOfQ\nvVp8iExXer8JPpE0JF1vonI9f2IHzhtIcGvefc9noVbgVceFHtKQVZiW2HFP6SgR\ndtlCmnC1widXsLuOTVB6zGP/MU3kh9KWj59a8uVHBIXVMlzumVhTFC/ouDY7kT5c\nXF/NkdyYL+Lt8SZNzj/w\n=qyqQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 98fef383ac152cc27fbf17cd92029bff46902e7d\nparent eab3716d6d28f61e17fb580a0d21993dde9ac973\nauthor Yuxi Shi <leo_shi01@outlook.com> 1743469253 +0800\ncommitter GitHub <noreply@github.com> 1743469253 +0800\n\ninit (#106)\n\nCo-authored-by: Yuxi Shi <yuxishi@yuxidemacbook-pro>",
+          "verified_at": "2025-04-01T01:05:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/0a2fe3713ee42c4c0c6da1bb56d3cbbeccf431d5",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/0a2fe3713ee42c4c0c6da1bb56d3cbbeccf431d5",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/0a2fe3713ee42c4c0c6da1bb56d3cbbeccf431d5/comments",
+      "author": {
+        "login": "leoshi01",
+        "id": 20643919,
+        "node_id": "MDQ6VXNlcjIwNjQzOTE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20643919?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/leoshi01",
+        "html_url": "https://github.com/leoshi01",
+        "followers_url": "https://api.github.com/users/leoshi01/followers",
+        "following_url": "https://api.github.com/users/leoshi01/following{/other_user}",
+        "gists_url": "https://api.github.com/users/leoshi01/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/leoshi01/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/leoshi01/subscriptions",
+        "organizations_url": "https://api.github.com/users/leoshi01/orgs",
+        "repos_url": "https://api.github.com/users/leoshi01/repos",
+        "events_url": "https://api.github.com/users/leoshi01/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/leoshi01/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "eab3716d6d28f61e17fb580a0d21993dde9ac973",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/eab3716d6d28f61e17fb580a0d21993dde9ac973",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/eab3716d6d28f61e17fb580a0d21993dde9ac973"
+        }
+      ]
+    },
+    {
+      "sha": "eab3716d6d28f61e17fb580a0d21993dde9ac973",
+      "node_id": "C_kwDOLIbJG9oAKGVhYjM3MTZkNmQyOGY2MWUxN2ZiNTgwYTBkMjE5OTNkZGU5YWM5NzM",
+      "commit": {
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2025-01-14T08:58:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-01-14T08:58:04Z"
+        },
+        "message": "build(deps): bump next from 14.2.12 to 14.2.22 in /web (#104)\n\nBumps [next](https://github.com/vercel/next.js) from 14.2.12 to 14.2.22.\r\n- [Release notes](https://github.com/vercel/next.js/releases)\r\n- [Changelog](https://github.com/vercel/next.js/blob/canary/release.js)\r\n- [Commits](https://github.com/vercel/next.js/compare/v14.2.12...v14.2.22)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: next\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "tree": {
+          "sha": "39d431ec3400df74bb29eaa50ee51944e1f47d6b",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/39d431ec3400df74bb29eaa50ee51944e1f47d6b"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/eab3716d6d28f61e17fb580a0d21993dde9ac973",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnhiccCRC1aQ7uu5UhlAAAjDMQAF3+Os8XjyVMK2Z/oCl3C94p\ngWj5fP+Lr8uWLGsAaNGv1vQChQMdQzd/Q9nZ5XoWM5jbryv71LTk8Ksr3oq+f0TW\n4yGqs1MPIVTWVhCapMyoGbOHUjkb7NPHOqrvzwCNK05pfkroRm8PnyYEQeyQxS5j\n9I1RYdiFyYS3ZU+vJ2/6egwdJ2HSdW7qeGcOXOx8cLRC6aJV4FVKpDTqhtbeqTAA\nKsb1Tg1t7sK91rb0uqjHA8JSqDh2E/cVlCcrv5B7jUgnpbU58sB2AKXSB/DE/n+6\nyRA7gxd/xyisUWfHA+uNZoO98yeZgmhxQ1Rw8JoBFOlR0Ntz84pDzOW3jBT6h/fh\nLWeRYDSFY6cheWa10QSKpLNEEQhbgXVzCJwyga1chj57XgUWge4RgA9G2oKK4EyH\nw8Di3JCHXF+Ptoq5JqhmdSDND1M54j186hszfAJsnkGlI1C06xo7Qa8KGt0SwN92\nCrl1ZL8ZEqVvBOhvC9X6tdm7Psgb/PJ6QuM8PMZIKFucpaZbCCZtQ3IOm3bdQZ7O\nFyV3uZwpTlIKX876UjjymllNzt9FtI+k6qPt9xkQontTwrGcg8KAMrX80J84bwBu\nd+Xb35jFiibIUu0HNu5XxQZA71IPewY7AcHFUJZScutlMHxxIHDFWr9WKf51peLX\nwkE8PVFGzohlvdwQ7bAf\n=PxF1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 39d431ec3400df74bb29eaa50ee51944e1f47d6b\nparent a8c464ebb7c2f5f251dfcb0e24307553b02778ff\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1736845084 +0000\ncommitter GitHub <noreply@github.com> 1736845084 +0000\n\nbuild(deps): bump next from 14.2.12 to 14.2.22 in /web (#104)\n\nBumps [next](https://github.com/vercel/next.js) from 14.2.12 to 14.2.22.\r\n- [Release notes](https://github.com/vercel/next.js/releases)\r\n- [Changelog](https://github.com/vercel/next.js/blob/canary/release.js)\r\n- [Commits](https://github.com/vercel/next.js/compare/v14.2.12...v14.2.22)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: next\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "verified_at": "2025-01-14T09:03:06Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/eab3716d6d28f61e17fb580a0d21993dde9ac973",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/eab3716d6d28f61e17fb580a0d21993dde9ac973",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/eab3716d6d28f61e17fb580a0d21993dde9ac973/comments",
+      "author": {
+        "login": "dependabot[bot]",
+        "id": 49699333,
+        "node_id": "MDM6Qm90NDk2OTkzMzM=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+        "html_url": "https://github.com/apps/dependabot",
+        "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a8c464ebb7c2f5f251dfcb0e24307553b02778ff",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/a8c464ebb7c2f5f251dfcb0e24307553b02778ff",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/a8c464ebb7c2f5f251dfcb0e24307553b02778ff"
+        }
+      ]
+    },
+    {
+      "sha": "a8c464ebb7c2f5f251dfcb0e24307553b02778ff",
+      "node_id": "C_kwDOLIbJG9oAKGE4YzQ2NGViYjdjMmY1ZjI1MWRmY2IwZTI0MzA3NTUzYjAyNzc4ZmY",
+      "commit": {
+        "author": {
+          "name": "Yuxi Shi",
+          "email": "leo_shi01@outlook.com",
+          "date": "2024-12-06T01:03:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-12-06T01:03:42Z"
+        },
+        "message": " fix workspace method import issue (#100)\n\nCo-authored-by: Yuxi Shi <yuxishi@YuxideMacBook-Pro.local>",
+        "tree": {
+          "sha": "46c14a160b7f4e89ee4faae4f1eb39ee5ea51ed9",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/46c14a160b7f4e89ee4faae4f1eb39ee5ea51ed9"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/a8c464ebb7c2f5f251dfcb0e24307553b02778ff",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnUk1uCRC1aQ7uu5UhlAAAfRkQAKgj04b8O5+NWXsZQ6dzXl9c\n/G/bQMy5ghrbETlmSt69771rdeaPpG+YxstcOKx6Ic7tz7wpuhehLFI6QaNXEU5H\n/fECjGck72KbInnL1sGKMkRnZpHV6XZTaQVdxN0ybr0AhoBjRr4GtXTVEQCV6Htf\ntQpLLz+hY6fA9Kf+9sqoaNt31nIBUhvbrgCv4dQ9G9j/eIcstJUiBX6jSRIBLtKh\nogijecZUbQPmZj4GOcH7DT0BBrEYm6nPOXOhacdFzC3esCsCkPLeflULAxxah04M\ngEHREvtDDJWdI5OPSedySlzVRKDz8zH9oVRTlr2W8I/JudRCOu+dHkNPCifX1VCK\n7GFw89XgijTheySQ7PdK3DGmJQC6cmEqkZFPDYUVeoEAwXzdR+IhZsYSu0zLwZuA\nNW0mT+XeaYTrmpzFkvpn0qFrz+JPBI5zR+fRddQ88eJulaCrzFxYoPvm9as7jvqW\nh7gPqfcYaMfvHULJrnOWS8PqXXtDE1vP4QFOmJSyc8WEvIk6rwm6MZiGv4JbmK8d\nBLbn7ASymInvdPnmE0CjjhbytjajT4+edQ2O75SuefjciGuPg24BenSSehQyx4C8\n1DoZcTdoXWEtbgcgVdG/UWlve+jnVr6kBjVFSfdCKuqI3fbG3I7E+6Dk3khDgzbh\nW79pTJzH9OODtVWWyD3A\n=WNcQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 46c14a160b7f4e89ee4faae4f1eb39ee5ea51ed9\nparent 89363bf932c6fc1d1750b89b357ac679d798d6d3\nauthor Yuxi Shi <leo_shi01@outlook.com> 1733447022 +0800\ncommitter GitHub <noreply@github.com> 1733447022 +0800\n\n fix workspace method import issue (#100)\n\nCo-authored-by: Yuxi Shi <yuxishi@YuxideMacBook-Pro.local>",
+          "verified_at": "2024-12-06T01:08:44Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/a8c464ebb7c2f5f251dfcb0e24307553b02778ff",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/a8c464ebb7c2f5f251dfcb0e24307553b02778ff",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/a8c464ebb7c2f5f251dfcb0e24307553b02778ff/comments",
+      "author": {
+        "login": "leoshi01",
+        "id": 20643919,
+        "node_id": "MDQ6VXNlcjIwNjQzOTE5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/20643919?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/leoshi01",
+        "html_url": "https://github.com/leoshi01",
+        "followers_url": "https://api.github.com/users/leoshi01/followers",
+        "following_url": "https://api.github.com/users/leoshi01/following{/other_user}",
+        "gists_url": "https://api.github.com/users/leoshi01/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/leoshi01/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/leoshi01/subscriptions",
+        "organizations_url": "https://api.github.com/users/leoshi01/orgs",
+        "repos_url": "https://api.github.com/users/leoshi01/repos",
+        "events_url": "https://api.github.com/users/leoshi01/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/leoshi01/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "89363bf932c6fc1d1750b89b357ac679d798d6d3",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/89363bf932c6fc1d1750b89b357ac679d798d6d3",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/89363bf932c6fc1d1750b89b357ac679d798d6d3"
+        }
+      ]
+    },
+    {
+      "sha": "89363bf932c6fc1d1750b89b357ac679d798d6d3",
+      "node_id": "C_kwDOLIbJG9oAKDg5MzYzYmY5MzJjNmZjMWQxNzUwYjg5YjM1N2FjNjc5ZDc5OGQ2ZDM",
+      "commit": {
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2024-09-18T04:14:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-18T04:14:15Z"
+        },
+        "message": "build(deps): bump next from 14.0.4 to 14.2.12 in /web (#97)\n\nBumps [next](https://github.com/vercel/next.js) from 14.0.4 to 14.2.12.\r\n- [Release notes](https://github.com/vercel/next.js/releases)\r\n- [Changelog](https://github.com/vercel/next.js/blob/canary/release.js)\r\n- [Commits](https://github.com/vercel/next.js/compare/v14.0.4...v14.2.12)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: next\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "tree": {
+          "sha": "fa496c8acb5d3604a4b689c504e09309c94f483c",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/fa496c8acb5d3604a4b689c504e09309c94f483c"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/89363bf932c6fc1d1750b89b357ac679d798d6d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm6lOXCRC1aQ7uu5UhlAAAqJoQAFdK5XanB8+2XGleDN1Q0Icp\n9kHWk6JMmNB57qCWYcSFyV4a1+jPXydXNPcFnKS3Q53LECJpXwL43o0A5crQiWpR\nDTPvwgmWUAeWTdzOnrhvvNwUKs6CPM33jQWQZZBZF8Ee1NxPDd61NtwZ1jUXtl8T\nJHjTXLYoTcyKRpK/dQ/sSO31xM/E6Y8q0ZKYuLupkXHdQvbHUvA1NwvRpE0hk/+1\n1t4OGC11SJXmZYfOOiW2RneYS1RQB5OWHsZFWcd682qNUdYhHPEugfLFHSdotkbw\nO4mAlv1//G0qhGBSbAd73bN/KzTgHTzz2p3tsJ0tg4wvl0HanU9nMxQTYWx8GrZF\nj90LoaT9WHoUtUw2YR1kus6bgOapYj+lMYb9lQ3MwLvyUvY8WEb9z5JS9bWgzT/C\nkFtcOjFmYJ28EWRaLu+PdQQWuBWLvfUMfveuTOe8CKYjtTnAUQrwNG+5RffHtptU\nuvBAVfR5kFSbRblUEziVCGi27tPs8yKqHUEM/XsrupfDCdP8mijot7F4miC0VTAg\nWO5hqPuNWQRz4EmpIUoxRxOOoHP15aUukR4SAcqOrXFz15ajyReJhX1UkCYGbpsa\nRMU83UVvV8VWTu7ZlUmgm202ZnYN6An4c26ZGSrulHpF7NS7PRXF4pIhV15cHm9v\nZWphfp2mORhrE7fkZxY9\n=Q4/N\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fa496c8acb5d3604a4b689c504e09309c94f483c\nparent 87e011466fe29fd519c678e9ff3c4dd544730b5c\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1726632855 +0800\ncommitter GitHub <noreply@github.com> 1726632855 +0800\n\nbuild(deps): bump next from 14.0.4 to 14.2.12 in /web (#97)\n\nBumps [next](https://github.com/vercel/next.js) from 14.0.4 to 14.2.12.\r\n- [Release notes](https://github.com/vercel/next.js/releases)\r\n- [Changelog](https://github.com/vercel/next.js/blob/canary/release.js)\r\n- [Commits](https://github.com/vercel/next.js/compare/v14.0.4...v14.2.12)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: next\r\n  dependency-type: direct:production\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "verified_at": "2024-11-07T16:02:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/89363bf932c6fc1d1750b89b357ac679d798d6d3",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/89363bf932c6fc1d1750b89b357ac679d798d6d3",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/89363bf932c6fc1d1750b89b357ac679d798d6d3/comments",
+      "author": {
+        "login": "dependabot[bot]",
+        "id": 49699333,
+        "node_id": "MDM6Qm90NDk2OTkzMzM=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+        "html_url": "https://github.com/apps/dependabot",
+        "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "87e011466fe29fd519c678e9ff3c4dd544730b5c",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/87e011466fe29fd519c678e9ff3c4dd544730b5c",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/87e011466fe29fd519c678e9ff3c4dd544730b5c"
+        }
+      ]
+    },
+    {
+      "sha": "87e011466fe29fd519c678e9ff3c4dd544730b5c",
+      "node_id": "C_kwDOLIbJG9oAKDg3ZTAxMTQ2NmZlMjlmZDUxOWM2NzhlOWZmM2M0ZGQ1NDQ3MzBiNWM",
+      "commit": {
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2024-09-01T13:40:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-09-01T13:40:23Z"
+        },
+        "message": "build(deps): bump micromatch from 4.0.5 to 4.0.8 in /web (#96)\n\nBumps [micromatch](https://github.com/micromatch/micromatch) from 4.0.5 to 4.0.8.\r\n- [Release notes](https://github.com/micromatch/micromatch/releases)\r\n- [Changelog](https://github.com/micromatch/micromatch/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/micromatch/compare/4.0.5...4.0.8)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: micromatch\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "tree": {
+          "sha": "3903bbfbba118e02f181f3ea75f491b475c945dc",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/3903bbfbba118e02f181f3ea75f491b475c945dc"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/87e011466fe29fd519c678e9ff3c4dd544730b5c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJm1G7HCRC1aQ7uu5UhlAAAS0cQAFUWay1lWPOgHttIfy8c7dr0\nW2eApzD7Wu2acOc06q6kNZpeUqOZSmRD8lifIFCVbGsRKLCSRpP9OB0rpOkObUNh\n/o7LsmBLSq1n0zhRuzVJlMSw/1Z86SnwNjhPEKr3Zb/cNHtcfaqa13Zq2X7FmWRZ\npf7OfgenHGN78idEF9qnp53K81tS2f7KC0r1m+wmDocBskVEQ51byCS+T30v4yzA\n34JKs+s/sfPO23S9GFKnE2nUVx7fssmVXzbbD1wexcbJxn41jKw74CnfDD8uYaHn\n6cYp1X6qsJEDcDkUmHixP/3VQw/uN8xI7Hamtv25sXz8XIsBNYW/IjIh3NVLSIMW\njfzcvm0n8bftphJnlHVoUvBzmxZ/lXQLTh8eQ0ZTp5jtcP6zkMmm52kK1sblHnT3\nbUPSfIZ8DwSYcgS1KHzxI7Wg2Y/X2gq/RNlob4LX9Zod5PVpGd2XJEq1POsiaGy2\nSFleuQce+jOQtV0xUVlZINTFQD0t1S7IgkLhF19FIegHhSU5yYPP6ULDYqa4Y1JK\nnBdOeS88K+BftZCvUIIjupiYOuIcOOjB7r83f0EQW/InP+vFfMSrWDYULM29oAhA\nTf0h76qEccNfDTQDotp8J82X6jlSKv3NhcE3wTvvDpFzahe1U6Ct3gHZED1+p51Q\nDPS5aELlEeuXNjiYh5sa\n=evdF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3903bbfbba118e02f181f3ea75f491b475c945dc\nparent bf83f41069f5641ece91ce67455180acdcd6d49d\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1725198023 +0800\ncommitter GitHub <noreply@github.com> 1725198023 +0800\n\nbuild(deps): bump micromatch from 4.0.5 to 4.0.8 in /web (#96)\n\nBumps [micromatch](https://github.com/micromatch/micromatch) from 4.0.5 to 4.0.8.\r\n- [Release notes](https://github.com/micromatch/micromatch/releases)\r\n- [Changelog](https://github.com/micromatch/micromatch/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/micromatch/compare/4.0.5...4.0.8)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: micromatch\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/87e011466fe29fd519c678e9ff3c4dd544730b5c",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/87e011466fe29fd519c678e9ff3c4dd544730b5c",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/87e011466fe29fd519c678e9ff3c4dd544730b5c/comments",
+      "author": {
+        "login": "dependabot[bot]",
+        "id": 49699333,
+        "node_id": "MDM6Qm90NDk2OTkzMzM=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+        "html_url": "https://github.com/apps/dependabot",
+        "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bf83f41069f5641ece91ce67455180acdcd6d49d",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/bf83f41069f5641ece91ce67455180acdcd6d49d",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/bf83f41069f5641ece91ce67455180acdcd6d49d"
+        }
+      ]
+    },
+    {
+      "sha": "bf83f41069f5641ece91ce67455180acdcd6d49d",
+      "node_id": "C_kwDOLIbJG9oAKGJmODNmNDEwNjlmNTY0MWVjZTkxY2U2NzQ1NTE4MGFjZGNkNmQ0OWQ",
+      "commit": {
+        "author": {
+          "name": "NickN0309",
+          "email": "83996994+NickN0309@users.noreply.github.com",
+          "date": "2024-07-10T09:41:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-07-10T09:41:02Z"
+        },
+        "message": "fix some installation and setup issues in the README (#90)\n\nCo-authored-by: Leting Ni <leting.ni@lepton.ai>",
+        "tree": {
+          "sha": "9550c35a7730e043561e61456ed2108ef543e559",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/9550c35a7730e043561e61456ed2108ef543e559"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/bf83f41069f5641ece91ce67455180acdcd6d49d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmjlcuCRC1aQ7uu5UhlAAAKZ8QADLlnHcJleuy3ZDP/b1pmB58\nb9p6bRftoeqqYx3XsyJOKHBXoCzawB68yYr3Z15O8khSdPY98UQ6Mrt6n2XhaJVH\neJVTF6IkG6nOZ9fpmqVS2qDgTuIqU1Sm7MDEHvQQWH3tHdhGyyy4OkNh8QVC6bfV\njfGQiaU5GfEjUsvkPlYAV9DrG2J17zeDaOMMV1kVDs0owUjNtSAlrCk4uG88gh2t\nGJD4AMxQ7HJOFq3LWWn8013K96yTv2uJM8QqSTxOAnaIu4RtzYzvr0Gkx9wotpAs\n3wDeY9jCsW07+Qtk7rBjMPsW8xQLYYjxoHrua+Ap5xU6eDVb7hfbipAA+7hwq6yz\ng/wPpSOjuABjxbqGaIS2hDTCUkm9Fmavc2tlFUSLA4kRqNSQlJVwVKAg+YB5XKUp\n4gcIGhr+coyRlmXDcJ+JjiMxHHM+x7rhuGnf9sFmN03s0ZGrmxXT7wrThNduomV9\nu/cmNumtsjGSZlSZIdf9WsDRIg3NTQdTbAzh3Ltv5Z6Gi1GkGh6iAHqHTUQpGoVz\nEEDbF/anqqJ2oPCMgEg98l0obqOqRF/vfVUrQ5ZVcFX7I1FCk34RUFin96SHlkb8\n9RpdfTiWG3egwmx/jt5ghRXok0bDMJYNFXGaO1T6awww0i6rWJslO7VNq3J/RNdJ\nwnwUe7GNECffyOxEb3cN\n=YEHI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9550c35a7730e043561e61456ed2108ef543e559\nparent 3758658dd5d444c94019d1a53252acc62e1ff0fd\nauthor NickN0309 <83996994+NickN0309@users.noreply.github.com> 1720604462 +0800\ncommitter GitHub <noreply@github.com> 1720604462 +0800\n\nfix some installation and setup issues in the README (#90)\n\nCo-authored-by: Leting Ni <leting.ni@lepton.ai>",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/bf83f41069f5641ece91ce67455180acdcd6d49d",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/bf83f41069f5641ece91ce67455180acdcd6d49d",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/bf83f41069f5641ece91ce67455180acdcd6d49d/comments",
+      "author": {
+        "login": "NickN0309",
+        "id": 83996994,
+        "node_id": "MDQ6VXNlcjgzOTk2OTk0",
+        "avatar_url": "https://avatars.githubusercontent.com/u/83996994?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/NickN0309",
+        "html_url": "https://github.com/NickN0309",
+        "followers_url": "https://api.github.com/users/NickN0309/followers",
+        "following_url": "https://api.github.com/users/NickN0309/following{/other_user}",
+        "gists_url": "https://api.github.com/users/NickN0309/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/NickN0309/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/NickN0309/subscriptions",
+        "organizations_url": "https://api.github.com/users/NickN0309/orgs",
+        "repos_url": "https://api.github.com/users/NickN0309/repos",
+        "events_url": "https://api.github.com/users/NickN0309/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/NickN0309/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3758658dd5d444c94019d1a53252acc62e1ff0fd",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/3758658dd5d444c94019d1a53252acc62e1ff0fd",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/3758658dd5d444c94019d1a53252acc62e1ff0fd"
+        }
+      ]
+    },
+    {
+      "sha": "3758658dd5d444c94019d1a53252acc62e1ff0fd",
+      "node_id": "C_kwDOLIbJG9oAKDM3NTg2NThkZDVkNDQ0Yzk0MDE5ZDFhNTMyNTJhY2M2MmUxZmYwZmQ",
+      "commit": {
+        "author": {
+          "name": "dependabot[bot]",
+          "email": "49699333+dependabot[bot]@users.noreply.github.com",
+          "date": "2024-06-22T07:54:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-06-22T07:54:17Z"
+        },
+        "message": "build(deps): bump braces from 3.0.2 to 3.0.3 in /web (#87)\n\nBumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.\r\n- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: braces\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "tree": {
+          "sha": "2e84c9c79d32ec54c7aa3370298976d44b65c49f",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/2e84c9c79d32ec54c7aa3370298976d44b65c49f"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/3758658dd5d444c94019d1a53252acc62e1ff0fd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmdoMpCRC1aQ7uu5UhlAAAoeoQAFEAnmH2zZ3BWGAwNHYiLjNV\nIOJ8lzqhTbZ+C5jb1rl5amopYUEVUsnjqVlFtK0mMssHTqxc8QW6p6kgukm58zGA\nzGNwq6C1WjNDV4ioAXMPYaxFRp4/W/vR7msp0rZXaF0PoiLCZxZR9iSm3UDIJuU8\n1JvZ6VVPQ8OdKJYCiLy+CN3wN3wx8mSpeqHA4FMsHY3Ynp1k8ZpZh9BhgwPhCYQh\nnbCq1i6/Ee/u/yvoK02vkaA/U7eugC9jP8c9ABO5J6ziFNzzNC5uatji1O9rC9DE\nXpbunxdGKJuN5er83isKW1SPRpf7sbax1vNvb3kYLJT49eKtC0bg3+PB1/eQlnqh\n0qPFskVQYDhm2p6VBuof6OjP9jre2ja8mUxscsFdscgDvMyxVLALc5rLoVyJh+W8\n1bHTAqn7Fn2pg5jJCdoyWcPKgJcY30mWlIT6FSPAjxl26R3Yxjrv0mdBghTg8QtF\npiu2ol/uSxKFC9J5ln7N8bxP4hRywqd97Cn73JOFF4ztbB1qR0vVa3jgnSdmiFTc\ncXl9+ygfFYchWDHlVMJXdkE9xYcUKqtqyJvEkKRCQ+yQT4NthiJN4ikKgSf852dm\nY/619GVibrZPhetkaGzA95RzioZWqd37Oi7GlhaDvcvbYyZRxjdJMFyb8uNheDQe\nhGXIvIYNpsfD8PmfQGcW\n=Sts1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2e84c9c79d32ec54c7aa3370298976d44b65c49f\nparent 432436575eb64028a8b2fae62ca345d83a06b189\nauthor dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 1719042857 +0800\ncommitter GitHub <noreply@github.com> 1719042857 +0800\n\nbuild(deps): bump braces from 3.0.2 to 3.0.3 in /web (#87)\n\nBumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.\r\n- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: braces\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/3758658dd5d444c94019d1a53252acc62e1ff0fd",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/3758658dd5d444c94019d1a53252acc62e1ff0fd",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/3758658dd5d444c94019d1a53252acc62e1ff0fd/comments",
+      "author": {
+        "login": "dependabot[bot]",
+        "id": 49699333,
+        "node_id": "MDM6Qm90NDk2OTkzMzM=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+        "html_url": "https://github.com/apps/dependabot",
+        "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "432436575eb64028a8b2fae62ca345d83a06b189",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/432436575eb64028a8b2fae62ca345d83a06b189",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/432436575eb64028a8b2fae62ca345d83a06b189"
+        }
+      ]
+    },
+    {
+      "sha": "432436575eb64028a8b2fae62ca345d83a06b189",
+      "node_id": "C_kwDOLIbJG9oAKDQzMjQzNjU3NWViNjQwMjhhOGIyZmFlNjJjYTM0NWQ4M2EwNmIxODk",
+      "commit": {
+        "author": {
+          "name": "SebastjanPrachovskij",
+          "email": "86522260+SebastjanPrachovskij@users.noreply.github.com",
+          "date": "2024-01-30T16:36:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-30T16:36:32Z"
+        },
+        "message": "Add SearchApi search engine (#23)",
+        "tree": {
+          "sha": "bb70ccd5eb7238f8000409b8d6a92ea703881711",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/bb70ccd5eb7238f8000409b8d6a92ea703881711"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/432436575eb64028a8b2fae62ca345d83a06b189",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJluSWQCRC1aQ7uu5UhlAAAe/cQAHOtSAW7+q3IXKChewrHblDE\nxOMrkRWvK9NRFFfRB9Lrrvi8x3qlof3b8Ew/mnCb1DoLSLfZBgD2c4z7FLmnXXb2\nxP+jG1A+pKYaaDkD1oYdHrVXM5DIWjWgfPoszJhVP6cR07FWEB+o1tulG7QJIRrh\nifBahvcR0NL5hjR4nXXLFOM2RL5XgGEjw+vTi+01HKaAWqC/SzPOHkm1sOPlnXuJ\n6Mx3ES44+GTIRegM1K5kTMyoKw6visr7naU1G+JAOwxl/gcGkjXFY6KR3n3KlHN0\nwNO+k8ot2KXe8sudPAPdqy9w6sa99s/qMu6oQEJhx++51JDCj1fBp9HSkSIs8z4R\n0n9n27PrkjKMpM4ZV+V6k558yWg9iX3BeRZ6neL/RqJQ67Q+LIV2HBNiDI4WoIge\nnKoF90cJ7j521WEFZsqKvfmx5Tze6xHL8OibI0VthtkHpEZWle12KKad2Jjz1/Qq\nBZcfAU1E4r5AEdKZuOMm8XX7EWSWc6aoZAcNIJJ2Ar3Z1hfrFuaZjk8W8BDc/xkH\nJUQC026VObqRwY1Lu3Y5yXC0t246sxUPML8AjhjUKYHeNz8USof6Q4cBYVNYzctg\nbdzrZgXUOAKK9XEJ8na6NtYLNf5FHlOzVr/mopIS+rKNhMif7t3hjdu3rMpTZAS/\nRCynjV/Og43BwDc8RsR+\n=t1Qy\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bb70ccd5eb7238f8000409b8d6a92ea703881711\nparent 420aa690fa3168fdbe47bba49079e103fb8e1793\nauthor SebastjanPrachovskij <86522260+SebastjanPrachovskij@users.noreply.github.com> 1706632592 +0200\ncommitter GitHub <noreply@github.com> 1706632592 -0800\n\nAdd SearchApi search engine (#23)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/432436575eb64028a8b2fae62ca345d83a06b189",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/432436575eb64028a8b2fae62ca345d83a06b189",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/432436575eb64028a8b2fae62ca345d83a06b189/comments",
+      "author": {
+        "login": "SebastjanPrachovskij",
+        "id": 86522260,
+        "node_id": "MDQ6VXNlcjg2NTIyMjYw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/86522260?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/SebastjanPrachovskij",
+        "html_url": "https://github.com/SebastjanPrachovskij",
+        "followers_url": "https://api.github.com/users/SebastjanPrachovskij/followers",
+        "following_url": "https://api.github.com/users/SebastjanPrachovskij/following{/other_user}",
+        "gists_url": "https://api.github.com/users/SebastjanPrachovskij/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/SebastjanPrachovskij/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/SebastjanPrachovskij/subscriptions",
+        "organizations_url": "https://api.github.com/users/SebastjanPrachovskij/orgs",
+        "repos_url": "https://api.github.com/users/SebastjanPrachovskij/repos",
+        "events_url": "https://api.github.com/users/SebastjanPrachovskij/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/SebastjanPrachovskij/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "420aa690fa3168fdbe47bba49079e103fb8e1793",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/420aa690fa3168fdbe47bba49079e103fb8e1793",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/420aa690fa3168fdbe47bba49079e103fb8e1793"
+        }
+      ]
+    },
+    {
+      "sha": "420aa690fa3168fdbe47bba49079e103fb8e1793",
+      "node_id": "C_kwDOLIbJG9oAKDQyMGFhNjkwZmEzMTY4ZmRiZTQ3YmJhNDkwNzllMTAzZmI4ZTE3OTM",
+      "commit": {
+        "author": {
+          "name": "rogerserper",
+          "email": "124558887+rogerserper@users.noreply.github.com",
+          "date": "2024-01-29T19:12:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-29T19:12:12Z"
+        },
+        "message": "Support for Google Knowledge Graph + Featured Snippets/Answer Box (#24)\n\n* Updated Search Engine docs\r\n\r\n* Add support for incorporating information from the Google Knowledge Graph, along with featured snippets/answers from the answer box.",
+        "tree": {
+          "sha": "ef56e65e8de616087202b994b9bf271c4f31f7dd",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/ef56e65e8de616087202b994b9bf271c4f31f7dd"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/420aa690fa3168fdbe47bba49079e103fb8e1793",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlt/iMCRC1aQ7uu5UhlAAAxZwQAH0LX+nf0cx9qpldbGlEw8Cy\nXD10863PY07sC+XIzpX/Yh/CS+nyPS5PnH9Rfb25jI1GLUXUoOL852spccRC9vSO\nCjuyw1QV59EgCpSl8i+m6DLAEOCOrP5GggL38UqZB7/Qx0aY5fZSUXzcSyBaw3L5\nqANapBFf8Hk3Cu4poP1xWQVpB7mcFIbVImCsZPPQDGbKELFU9JHsbJGRaI8LR075\n4z1CLObrGCIpqvSUMfNISfuEX4XnL2nMbp866VfqqQshoUrKBqaBSA3EOcFeaeGz\naxUlwZ7pQojb5vlmGbidQfhFh6yhT5t5hLwCare7VuvZxAJWVQZ0Pog21uOsWFHu\n+JQyEkrzKwfvmUytcKURyUxXRymIjlzZ3UnrN87ouqkmaa+YswMttEuzmsxK3IhT\nGhV8PecO3WRvyQVcVDiANQfSLEAkzT//eaWHBwLbJVTrLDXCae6daTYRzgQmCBde\nCBimzqeWTRd2ZaSV8XKTlAgpGpar33qvOu1t7il8nT6ZKLXdAEgJ5DjKa+/9b3O/\nxcppder8mtJigDFQvRZcFU5JBQHDOzdGhXg7b2oqfkW9muO5qsnoAKMB2YtEbj+W\nHF0LNYkImTFld9jym1e/Xu8rsVslCtIh7udJjl76NulMKUf1MdqFCWeCnwGZOEIf\nS2vdF4NpgklWZ1zXqEXX\n=h4LA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ef56e65e8de616087202b994b9bf271c4f31f7dd\nparent a6ac6da2b3505111b86680aa886948579e24d687\nauthor rogerserper <124558887+rogerserper@users.noreply.github.com> 1706555532 +0000\ncommitter GitHub <noreply@github.com> 1706555532 -0800\n\nSupport for Google Knowledge Graph + Featured Snippets/Answer Box (#24)\n\n* Updated Search Engine docs\r\n\r\n* Add support for incorporating information from the Google Knowledge Graph, along with featured snippets/answers from the answer box.",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/420aa690fa3168fdbe47bba49079e103fb8e1793",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/420aa690fa3168fdbe47bba49079e103fb8e1793",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/420aa690fa3168fdbe47bba49079e103fb8e1793/comments",
+      "author": {
+        "login": "rogerserper",
+        "id": 124558887,
+        "node_id": "U_kgDOB2yeJw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124558887?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/rogerserper",
+        "html_url": "https://github.com/rogerserper",
+        "followers_url": "https://api.github.com/users/rogerserper/followers",
+        "following_url": "https://api.github.com/users/rogerserper/following{/other_user}",
+        "gists_url": "https://api.github.com/users/rogerserper/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/rogerserper/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/rogerserper/subscriptions",
+        "organizations_url": "https://api.github.com/users/rogerserper/orgs",
+        "repos_url": "https://api.github.com/users/rogerserper/repos",
+        "events_url": "https://api.github.com/users/rogerserper/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/rogerserper/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a6ac6da2b3505111b86680aa886948579e24d687",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/a6ac6da2b3505111b86680aa886948579e24d687",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/a6ac6da2b3505111b86680aa886948579e24d687"
+        }
+      ]
+    },
+    {
+      "sha": "a6ac6da2b3505111b86680aa886948579e24d687",
+      "node_id": "C_kwDOLIbJG9oAKGE2YWM2ZGEyYjM1MDUxMTFiODY2ODBhYTg4Njk0ODU3OWUyNGQ2ODc",
+      "commit": {
+        "author": {
+          "name": "Yadong Xie",
+          "email": "vthinkxie@gmail.com",
+          "date": "2024-01-29T02:19:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-29T02:19:28Z"
+        },
+        "message": "docs: update image (#17)",
+        "tree": {
+          "sha": "8ffa5a17f7589c909f08675c2703114dd9f38350",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/8ffa5a17f7589c909f08675c2703114dd9f38350"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/a6ac6da2b3505111b86680aa886948579e24d687",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJltwswCRC1aQ7uu5UhlAAA9FIQAESgdDpwYZ+zZ7XZz9FMlYKQ\ndV20cq/ZfjwZMYEnzw0eAuAZUSI9uPUkIkny0L/uaV5nA3rgbieBSv5alg/z/AzL\ntxHYbbd7HlASW/yiQlK1f0wsV88rM28LjPvj0QN55zikI1dSHzfdhJh1m8fdHMr7\n9hYZh/y7n/UNjuf/bWbSygwdn5jYN6H8muplLWKLayZtvPDwve1B9iQzMYgV3ZRF\nqhVFic7ZXak0Y0P44MFm+LRGto4jqlRRg6FaWXSbHYOF6Mgn/eO6GVfEyKjP1L4G\n9rxFqcfbkaJ7ehogwDBP+eqz8vL/bBnbN8/IGpeXcyE8PkHw9yGgjtfTi8haPAdf\nR/XSeDKpo78bbgU/hWCpYGDH9SY6q3QBVPBZMYvyAB1XenX2WX/UYNyZnWf9D1Hy\n1dymTZagySO+tMprxVg6TCkhLWBBzHKreXh1tObalQQf7saPNH6oWrHBRV3FXRry\no6koNPmR6b0K9LU2keXYttxKd2HfYQumdrBEoJQMhoh9WLTXSCHhUfpWqbgIrApO\n724XQoQIIxlxSepNWKMQRyJPdKaBQWLCUgSAEM1mAIdJAjhHOrDSfDQN2llWVE7h\nq27MSZZ1z+Na+zZmKJ4zN/6wzpFU9ccNjHBfWPkTGQkA4NH+q4P2gyKbJYym2St6\nS+cu9EiwBzgH7CPQcwKj\n=SPZf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8ffa5a17f7589c909f08675c2703114dd9f38350\nparent db274672eb39c6e48b4116d57c79bbbaf2d9a400\nauthor Yadong Xie <vthinkxie@gmail.com> 1706494768 +0800\ncommitter GitHub <noreply@github.com> 1706494768 +0800\n\ndocs: update image (#17)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/a6ac6da2b3505111b86680aa886948579e24d687",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/a6ac6da2b3505111b86680aa886948579e24d687",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/a6ac6da2b3505111b86680aa886948579e24d687/comments",
+      "author": {
+        "login": "vthinkxie",
+        "id": 1506722,
+        "node_id": "MDQ6VXNlcjE1MDY3MjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1506722?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vthinkxie",
+        "html_url": "https://github.com/vthinkxie",
+        "followers_url": "https://api.github.com/users/vthinkxie/followers",
+        "following_url": "https://api.github.com/users/vthinkxie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vthinkxie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vthinkxie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vthinkxie/subscriptions",
+        "organizations_url": "https://api.github.com/users/vthinkxie/orgs",
+        "repos_url": "https://api.github.com/users/vthinkxie/repos",
+        "events_url": "https://api.github.com/users/vthinkxie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vthinkxie/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "db274672eb39c6e48b4116d57c79bbbaf2d9a400",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/db274672eb39c6e48b4116d57c79bbbaf2d9a400",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/db274672eb39c6e48b4116d57c79bbbaf2d9a400"
+        }
+      ]
+    },
+    {
+      "sha": "db274672eb39c6e48b4116d57c79bbbaf2d9a400",
+      "node_id": "C_kwDOLIbJG9oAKGRiMjc0NjcyZWIzOWM2ZTQ4YjQxMTZkNTdjNzliYmJhZjJkOWE0MDA",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-26T21:15:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-26T21:15:19Z"
+        },
+        "message": "feat(rag): add serper support (#9)",
+        "tree": {
+          "sha": "80688dfec274d26418c7fa0cf43028b58a32efc6",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/80688dfec274d26418c7fa0cf43028b58a32efc6"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/db274672eb39c6e48b4116d57c79bbbaf2d9a400",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJltCDnCRC1aQ7uu5UhlAAAnzwQAKInuvmHbvHHYtBw41+cly9R\naZLGeC01uWQlANOZWkpeuPii13g/wQH7j1oBIySz4ZcPJyQx1BVCWtAGPy555Inv\n7weS+EosreXr/uilwLSS6FyKL4W+OqUNrFWP47o8kKQbhLl86ajhaJJ8BcdE/q5B\nFwZpbrR6OGqY0R7Q+GPDGoT3fZRy2ewtraFBkHvDSFjnm6EhSs8PqqNlT/pSl8wW\nmeHzP6cfRas9m86EkH1asiGbPGhfyrFjnETA2OXeoPQvJfzBJ6+4Bwhe+Vq7t4Pl\nXDql2WnJ/iJLRsCxYhxxDB3LmzdSku+s1IDUwzypFb90IOwpHNZHQR7hvMWJcUPt\nnZ/bgs58ZDNgCjLVZlXUEKpmXLtggZCRvJTj52AzfuaFXWq023wFYsIGlxApFyey\ndGUdWT+m5WAv7Ou3/UnGeRjzH6MOP06t1MNXtLXnEJmOc9oai4eyi1sGqhgg/84B\nKIKeaTMQc7D6t0aNayyT5IkrWKhYpnu7pDq3Ihxr6iBUmqWDRlrBxBEtKdOtO/eG\n7ckejUjsgT9jBaUgPaQksYhPsxlxZOoO7kVpPYJaTP/a5vSZXzqrMsdb/v5uBXMf\npodDCD9OQyo7YtimmlAaYfK2i8vjgbCwGHY/DdvmWjwgqou3e4+0hEnauO+xcRSF\nvSEUcqNk/nP85ak62u58\n=Kmsz\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 80688dfec274d26418c7fa0cf43028b58a32efc6\nparent 5ee37180c7003da42469a81958d12686ce298cd3\nauthor Yangqing Jia <jia@lepton.ai> 1706303719 -0800\ncommitter GitHub <noreply@github.com> 1706303719 -0800\n\nfeat(rag): add serper support (#9)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/db274672eb39c6e48b4116d57c79bbbaf2d9a400",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/db274672eb39c6e48b4116d57c79bbbaf2d9a400",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/db274672eb39c6e48b4116d57c79bbbaf2d9a400/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5ee37180c7003da42469a81958d12686ce298cd3",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/5ee37180c7003da42469a81958d12686ce298cd3",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/5ee37180c7003da42469a81958d12686ce298cd3"
+        }
+      ]
+    },
+    {
+      "sha": "5ee37180c7003da42469a81958d12686ce298cd3",
+      "node_id": "C_kwDOLIbJG9oAKDVlZTM3MTgwYzcwMDNkYTQyNDY5YTgxOTU4ZDEyNjg2Y2UyOThjZDM",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-26T18:03:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-26T18:03:37Z"
+        },
+        "message": "Adding demo url (#8)",
+        "tree": {
+          "sha": "0f3d610be5085d33b91c5eeb52b6ce6bbd791961",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/0f3d610be5085d33b91c5eeb52b6ce6bbd791961"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/5ee37180c7003da42469a81958d12686ce298cd3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJls/P5CRC1aQ7uu5UhlAAA2h8QAKWc/YK8B8F36WNbY9Jdw6tH\nZOWkxfyJwE500ZlXmXGOs9Jr0AOFTcF+KwHu8KqnFibUNAQNpppTPCgYHIivcMhx\nNvJvcv9x6WO8E2lP+AuG+Kgl8APersM8PGbG1lbQMS3svNbHBFFTD4Soeh9x3Tki\n4hfZa2Amo5fukABBP9RNu3PshvDsSyxSALwtYYftCbHSR7xJKjOatgiup3GaIjGo\npVKs8fcZqg8zlmmMCjqfNQnSvb6UoPhc39O67/WNvQYvBOH1UjYQumsXtslyZdOb\nmb63Wp7CvW1XVZe1nv8fMQXWcF8gqz7BC4/7Jp0tHYR5JfxdiCxpOMYRYMsSIgTj\nCWm0tX9mV9cTD+T+e0dl0OgH3JI5ymp4SE71cPVXXx3Qj6alhPcKR/rmB8x69wG6\nDd4y/Tl4Qz9/z7GHgzgLJqkhzsGzSA/LwbAnZ5ZCL5+tFq1Zy3K/MrAe5w7KUIfz\na39WR96FIGZfh6fxKhuC7eg8VK1/9VEmUnxBgnaCQUbb7sWXxdZCTXbxZEN60KQs\nX2FXM0Z6J5FKLAt1s83wIWWGm2I4YTsdeSqtCJgFMArZmMJn2B1pyHOV6Kw1h42c\n4PXAoMQXoQxUdbf1lSbjCDaR0LgHqHgQRl+UhyfUmVBmnjsKhLRkPfDw2wcMm60P\nkmF5CTL9UMwgQP1NgG5O\n=6DGl\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0f3d610be5085d33b91c5eeb52b6ce6bbd791961\nparent 5bf54fc8aa078a8b44b019846972a1ffe6beb054\nauthor Yangqing Jia <jia@lepton.ai> 1706292217 -0800\ncommitter GitHub <noreply@github.com> 1706292217 -0800\n\nAdding demo url (#8)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/5ee37180c7003da42469a81958d12686ce298cd3",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/5ee37180c7003da42469a81958d12686ce298cd3",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/5ee37180c7003da42469a81958d12686ce298cd3/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5bf54fc8aa078a8b44b019846972a1ffe6beb054",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/5bf54fc8aa078a8b44b019846972a1ffe6beb054",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/5bf54fc8aa078a8b44b019846972a1ffe6beb054"
+        }
+      ]
+    },
+    {
+      "sha": "5bf54fc8aa078a8b44b019846972a1ffe6beb054",
+      "node_id": "C_kwDOLIbJG9oAKDViZjU0ZmM4YWEwNzhhOGI0NGIwMTk4NDY5NzJhMWZmZTZiZWIwNTQ",
+      "commit": {
+        "author": {
+          "name": "Yadong Xie",
+          "email": "vthinkxie@gmail.com",
+          "date": "2024-01-26T08:35:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-26T08:35:52Z"
+        },
+        "message": "docs: update run server readme (#7)",
+        "tree": {
+          "sha": "db135386dc15074492230c18f77c7242031d7017",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/db135386dc15074492230c18f77c7242031d7017"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/5bf54fc8aa078a8b44b019846972a1ffe6beb054",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJls27oCRC1aQ7uu5UhlAAASHMQAFlBvjOjgyntwyvvHVAWzvIB\nc7bOiJ5zXGpx/4COt7RpO5C3tSUyVGFqNq2+GYH+RQP2oOhA4Tss3XznDaq+4T7H\nDDbqK9hkWds4dp59oBY2PqdUpCb7Go63p02bGN98BVpkjCZCsg5sZWgwk+g5dC6V\nGbBoSiyJ67iqCr1dvNTKbCNnxKCJKzVMzg+z99t8kVmLof+JsG8/tnv1eOFj7kAA\n7yAwvFd5T/jjw2SvpYqqU1nrXa535IUCxZOQ9c+/KOnSXuZg7W07vrqYZb+OLL0u\nGutBNu3aRODd3LXDE0d8B2xOauW/SHcjEAYNUPxpj5Y3H8XET14+YVLDArB8M2Be\n7A1q8DeTBLqdPFJdmguD9XLieVMO/sromQApkb9Z5lY3+bD42mELzRt6TnbHxEfM\nTCarySAbOWZ4knx+D9ESgxuKWWkp6CemY9pwT5ttSLYE8n9GFUCMlsI7p8Ut9fiR\nwjURQc3l+NbCErPBiTk0mT8WZdSpMnVnSduCS5vKNKO30EU78ssAQI/5xzoCXdp1\nBh1ohCvV//DZVwZ/4QXBzxtzMJzCRLWeglvdBZwsXpcx8HA8JHDZNbMSJXcyYZ9Z\nOBI+CnDzeWnYds8FnnLOjdouELMXMCgrwW2ilMfueDOJV3v3wG2d9obaThY5My19\njhgO9A7DE8WDNIEIS+VG\n=LeBu\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree db135386dc15074492230c18f77c7242031d7017\nparent ce6d7768a17ea5037964d1b01fcebfa1251d6b54\nauthor Yadong Xie <vthinkxie@gmail.com> 1706258152 +0800\ncommitter GitHub <noreply@github.com> 1706258152 +0800\n\ndocs: update run server readme (#7)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/5bf54fc8aa078a8b44b019846972a1ffe6beb054",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/5bf54fc8aa078a8b44b019846972a1ffe6beb054",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/5bf54fc8aa078a8b44b019846972a1ffe6beb054/comments",
+      "author": {
+        "login": "vthinkxie",
+        "id": 1506722,
+        "node_id": "MDQ6VXNlcjE1MDY3MjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1506722?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vthinkxie",
+        "html_url": "https://github.com/vthinkxie",
+        "followers_url": "https://api.github.com/users/vthinkxie/followers",
+        "following_url": "https://api.github.com/users/vthinkxie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vthinkxie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vthinkxie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vthinkxie/subscriptions",
+        "organizations_url": "https://api.github.com/users/vthinkxie/orgs",
+        "repos_url": "https://api.github.com/users/vthinkxie/repos",
+        "events_url": "https://api.github.com/users/vthinkxie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vthinkxie/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ce6d7768a17ea5037964d1b01fcebfa1251d6b54",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/ce6d7768a17ea5037964d1b01fcebfa1251d6b54",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/ce6d7768a17ea5037964d1b01fcebfa1251d6b54"
+        }
+      ]
+    },
+    {
+      "sha": "ce6d7768a17ea5037964d1b01fcebfa1251d6b54",
+      "node_id": "C_kwDOLIbJG9oAKGNlNmQ3NzY4YTE3ZWE1MDM3OTY0ZDFiMDFmY2ViZmExMjUxZDZiNTQ",
+      "commit": {
+        "author": {
+          "name": "Yadong Xie",
+          "email": "vthinkxie@gmail.com",
+          "date": "2024-01-26T08:20:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-26T08:20:11Z"
+        },
+        "message": "docs: update template (#6)\n\n* docs: update readme\r\n\r\n* docs: update templates doc",
+        "tree": {
+          "sha": "76b8dc70179540262edb9fa330f66cbac85dcd88",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/76b8dc70179540262edb9fa330f66cbac85dcd88"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/ce6d7768a17ea5037964d1b01fcebfa1251d6b54",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJls2s7CRC1aQ7uu5UhlAAAqlIQAFwybw3M/Y79YdgETfcLkKEZ\nktSCxqfhGSwX8lSSeNVA6Wl2JOyBvHvzFeufeGfbgjsImItUGeZf1/CWgeYRXhGp\na2pjvKYq7w7SsWBpASVota5AFCCvO0rk+GeNLBlJP/qc97e8cm9gVX1ib5g97Aus\n/fPEo5/mxlgGfCjNE8vFqpZAzOgF/9ojA+mlm/o3VSGHq4x91AJiEJnasmuOs8GO\na3P/4a8JW+DGP0ZRQcHWhPDEgiewQerKaLomvaQv48u+dv6KkiOUubgmvJzQL5Yg\nFtObcYZwkVLZhoLhLEuEC8nRM3DXsGfKBT9/MV21VDvNT3bq62875kOeueVx19H0\nkWphKvDjT3/94Bibq41GIkGStSXRznw7niaV/mDzgimtVU1c+WrxUL499YcilcON\nPtVXv3yWsmQv5a3H/HSJEclZp/2R+j3GqC6UPNdyYBVbgrY+rgt3pytv71JrCsaA\nu6eryzQA48pnz0qyTGuEXaKRRnQrCXsxLluTs7kmq+dFxmCh8tWEc9UhAULPGIIZ\nJDc381JIbyUpA+L+9Mr92iG7e7nrhOvkE5VfylgDImBFIHkdM3vRxTbUCkDiXPmR\nWfTqTCaW80X4t3xANKsuAP4GjkmFA4Y+/AgK5LW9FDycGttbm/8QtYl/6XTnYS51\noTGNtSbfVyJkyfeoTwiW\n=dQxI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 76b8dc70179540262edb9fa330f66cbac85dcd88\nparent f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf\nauthor Yadong Xie <vthinkxie@gmail.com> 1706257211 +0800\ncommitter GitHub <noreply@github.com> 1706257211 +0800\n\ndocs: update template (#6)\n\n* docs: update readme\r\n\r\n* docs: update templates doc",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/ce6d7768a17ea5037964d1b01fcebfa1251d6b54",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/ce6d7768a17ea5037964d1b01fcebfa1251d6b54",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/ce6d7768a17ea5037964d1b01fcebfa1251d6b54/comments",
+      "author": {
+        "login": "vthinkxie",
+        "id": 1506722,
+        "node_id": "MDQ6VXNlcjE1MDY3MjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1506722?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vthinkxie",
+        "html_url": "https://github.com/vthinkxie",
+        "followers_url": "https://api.github.com/users/vthinkxie/followers",
+        "following_url": "https://api.github.com/users/vthinkxie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vthinkxie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vthinkxie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vthinkxie/subscriptions",
+        "organizations_url": "https://api.github.com/users/vthinkxie/orgs",
+        "repos_url": "https://api.github.com/users/vthinkxie/repos",
+        "events_url": "https://api.github.com/users/vthinkxie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vthinkxie/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf"
+        }
+      ]
+    },
+    {
+      "sha": "f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf",
+      "node_id": "C_kwDOLIbJG9oAKGYwZmQwODYzZGRhNGY5Y2FiYmExZjI1ZjNhOGYzZWQxMTcxYzRjYmY",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-26T07:47:34Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-26T07:47:34Z"
+        },
+        "message": "feat(template): add template (#5)",
+        "tree": {
+          "sha": "c2ea618833025f8c208cdd2ba47e185d612fcd0f",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/c2ea618833025f8c208cdd2ba47e185d612fcd0f"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJls2OWCRC1aQ7uu5UhlAAABDwQABhNX9AR26ItqpBIYnpFLv1L\n7KQQUxZi0Fq+cPA5NJcyKY6jxoHJ0l8YjOWL3TQSWNTyrs8gqnD9Gt/lH8r82uOD\nH780zHrjXfnLW5UiXwUe/DZiG3EUzpu3hHvvBXZSkNCqSmzKv12UOZGjuweNn8x3\no+qCGDDBVg3v0srA9ClXNZ4xmVdsQC8WRrh6IfUUjdkXOLdLYo8pEq5dF5XNGJFu\nmshCrVXCQiikHFeWoPDHLXQa4foZzLnKgpY6ikJu5GFrz8sKnUr05QLNM7uw2Tg3\n4nBEDpShUBtG3NxJ129/hgU68oIRrMlfA0Tiq4sMSWPb9+qTs4JiMJjban6XSkZB\nZLTeW7aIShAQKxhwQlE2SDv1WmYjrG/FesPQJzV39pA4b0kJRT8suBTsMSPka4E8\nCiyMzkRNAdSJimkukfFqZyeNexYEE70rl+EUp19IhaW9lGnZxEQB6EjooGGSASPg\nW0kaMzjAfkVpRMvADhg1B56FBlQ696AZkLPK78TuZbwyq210mgEQ8HxSd8MhozB8\nMlOQ+5/rLoCgOns7hJVhrmDs7r4drCWeZNTfxuYcLsmUQcmTk5O30ju7iPZqHJEy\nO1Qt0n3JU7wWj1W0I5tL6uFrSHEzVEyyQScmzhNaLkSJQEvgSQNeQqKLQMfmI6Id\nbDc4OAeZWjHcT/9IV4f9\n=C5EA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c2ea618833025f8c208cdd2ba47e185d612fcd0f\nparent 33f8eae8f9cc91af967d01c95859b8dad5082412\nauthor Yangqing Jia <jia@lepton.ai> 1706255254 -0800\ncommitter GitHub <noreply@github.com> 1706255254 +0800\n\nfeat(template): add template (#5)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/f0fd0863dda4f9cabba1f25f3a8f3ed1171c4cbf/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "33f8eae8f9cc91af967d01c95859b8dad5082412",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/33f8eae8f9cc91af967d01c95859b8dad5082412",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/33f8eae8f9cc91af967d01c95859b8dad5082412"
+        }
+      ]
+    },
+    {
+      "sha": "33f8eae8f9cc91af967d01c95859b8dad5082412",
+      "node_id": "C_kwDOLIbJG9oAKDMzZjhlYWU4ZjljYzkxYWY5NjdkMDFjOTU4NTliOGRhZDUwODI0MTI",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-26T00:42:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-26T00:42:14Z"
+        },
+        "message": "Merge pull request #4 from leptonai/yqredirect\n\nrefactor: allow users to simply specify LEPTON as the search engine; reduce many configs to constant values. Index redirects.",
+        "tree": {
+          "sha": "6bce92c2e0a22e3a21f754218270493d119598f4",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/6bce92c2e0a22e3a21f754218270493d119598f4"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/33f8eae8f9cc91af967d01c95859b8dad5082412",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlsv/mCRC1aQ7uu5UhlAAAn3MQAG+o1vuc7zzUEoBIwdbR84m0\nyN11xj6mR8+NeKNTG6U8manbvIShEOfWRMBZKNCCJiEXn84/iOEYeF6m13XCHNvu\nc8rFj+1C0wutNH/8qtCqzISZoZYY6Lt0hDOIcp2iRVbT/Nmx55emRvue/LLMn6US\nuqGfTi0p3oBnUniZz87uLAGx0iuj82NnbUujqP67hmb93GBxQH/mni8NnWGi8Qgk\n0nH9fY8lSTxH38wLFQ0RDMZLiYnQxkmFe4IXQIckqp+tYcaHfVu4OHj3VMOPnJLB\n4K+ZomVy8A32Dj75tolu2vi7rJjOWqOApjoU98Zga7YFXCq7aG3uq7mQNPACkUNf\nLaSGm8bXUxdm0tYPwIGBNahteftvoJGECWYQvSpkeU10OC2HhKEwhxs4pN+1ZzxN\nGZT/O3LGPSl+1tO4dady7qOkHPM4iwqI4ljfZqsUDM/c5aHwqqJJTGikvVgDTkdK\ncmLrkQHtmkQF5NmfWbqT4q6IWv+Nj++d6MUQgL39CbFG1W8IYciJ7cazt+FA0YZ6\nMnFNB28eIt1EQy+RGMtpLxNvSRq6E16Wdw2/CQY4rgU0winFWp9H2KN3m+bh5UiS\nqQ9uDZqxfg1xvh23ywMYsvcwr644jCvjma/H7NG7DoDn+o/PpoTq2VFCQ5n0p1dt\nxP7J0Y7BN4TT75weH+R9\n=BUeX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6bce92c2e0a22e3a21f754218270493d119598f4\nparent 2a1fa92b0430d356b0d660e797a304dca7dbceb0\nparent d6889a461cbd3b918bfa452fcb17d4dbf23f29e5\nauthor Yangqing Jia <jia@lepton.ai> 1706229734 -0800\ncommitter GitHub <noreply@github.com> 1706229734 -0800\n\nMerge pull request #4 from leptonai/yqredirect\n\nrefactor: allow users to simply specify LEPTON as the search engine; reduce many configs to constant values. Index redirects.",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/33f8eae8f9cc91af967d01c95859b8dad5082412",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/33f8eae8f9cc91af967d01c95859b8dad5082412",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/33f8eae8f9cc91af967d01c95859b8dad5082412/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2a1fa92b0430d356b0d660e797a304dca7dbceb0",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/2a1fa92b0430d356b0d660e797a304dca7dbceb0",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/2a1fa92b0430d356b0d660e797a304dca7dbceb0"
+        },
+        {
+          "sha": "d6889a461cbd3b918bfa452fcb17d4dbf23f29e5",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/d6889a461cbd3b918bfa452fcb17d4dbf23f29e5",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/d6889a461cbd3b918bfa452fcb17d4dbf23f29e5"
+        }
+      ]
+    },
+    {
+      "sha": "d6889a461cbd3b918bfa452fcb17d4dbf23f29e5",
+      "node_id": "C_kwDOLIbJG9oAKGQ2ODg5YTQ2MWNiZDNiOTE4YmZhNDUyZmNiMTdkNGRiZjIzZjI5ZTU",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-25T08:41:07Z"
+        },
+        "committer": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-25T08:41:07Z"
+        },
+        "message": "refactor",
+        "tree": {
+          "sha": "403a08dbabb2ff511c9998f3a95bfbacd332153a",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/403a08dbabb2ff511c9998f3a95bfbacd332153a"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/d6889a461cbd3b918bfa452fcb17d4dbf23f29e5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/d6889a461cbd3b918bfa452fcb17d4dbf23f29e5",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/d6889a461cbd3b918bfa452fcb17d4dbf23f29e5",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/d6889a461cbd3b918bfa452fcb17d4dbf23f29e5/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "31bb456947c4521378949abe2cca046f1e284562",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/31bb456947c4521378949abe2cca046f1e284562",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/31bb456947c4521378949abe2cca046f1e284562"
+        }
+      ]
+    },
+    {
+      "sha": "2a1fa92b0430d356b0d660e797a304dca7dbceb0",
+      "node_id": "C_kwDOLIbJG9oAKDJhMWZhOTJiMDQzMGQzNTZiMGQ2NjBlNzk3YTMwNGRjYTdkYmNlYjA",
+      "commit": {
+        "author": {
+          "name": "Yadong Xie",
+          "email": "vthinkxie@gmail.com",
+          "date": "2024-01-24T02:03:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-24T02:03:12Z"
+        },
+        "message": "docs: add readme & fix build error (#3)",
+        "tree": {
+          "sha": "23c2234a863b37f9fd8eb32b27fb385ff1b69d13",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/23c2234a863b37f9fd8eb32b27fb385ff1b69d13"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/2a1fa92b0430d356b0d660e797a304dca7dbceb0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlsG/gCRC1aQ7uu5UhlAAAifUQAF53Q11m9Gw3FxNxZ9TWh7pc\ngf4vCknqZoeUEz/Evj6uZ3vel9H4BdN2ZBV1Z+N5bGK2jCPzWsWg8pOzYjqcQg2N\nMHnoI1+omKKGocNIwpav/5KlW/6dJh/fohNVS2OHcT6s+robs7B7X3aGHhH3me2j\nM8AFhQ8Oy6FQYdVfvCqDhw0xQmwsZ7/FASdMhTF3hk6OqTqULIRxZr/itu/8vTj4\nsNyVzYEXf90WIDesQnKfZaeIq3GivCKXhrH+Kt0TMr6gaFe1oD2EcsOsEtNg5R1d\n5wE99gqffjUXeltJZ6u/jnk3eMEGO4BrPxyIyCYUoDwddhS/N+dA5M/7zPWMVPmw\nyXq1EVcIboI1Xd/GHX2UFHsuJmgwyzfG0yKvlU30+AOQ3MCF18b60COA0eC7bS7Z\nuGSOVY8YdM2iCPInJ/aLNOpnKWt4gKzIAlxoUqQPxC/XS53sd0jeDwEfwq1gPxUc\np775gIhz/Zz76poCWfdFvgZ9WeLUyPby6yVGr1mnSGlINRMlwMFfqYEN8DlzVVee\nu85YwepoY9cBV1kiG7NoczMyXsO7uMRAFuD8Sx0do/V7vyIcMCY6MzbeZab8aVb+\nZnbxHlpI/dCZ4Iw0/6F5hspSkLLEpFLBMOx5ATxigXWNzG4iIoSQQUdF74i9D3Tm\n+RtemikkRf0P6tTRp8xU\n=sb+O\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 23c2234a863b37f9fd8eb32b27fb385ff1b69d13\nparent 33f7d71dca76c59ab8673f9327e8822cfd039dbe\nauthor Yadong Xie <vthinkxie@gmail.com> 1706061792 +0800\ncommitter GitHub <noreply@github.com> 1706061792 +0800\n\ndocs: add readme & fix build error (#3)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/2a1fa92b0430d356b0d660e797a304dca7dbceb0",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/2a1fa92b0430d356b0d660e797a304dca7dbceb0",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/2a1fa92b0430d356b0d660e797a304dca7dbceb0/comments",
+      "author": {
+        "login": "vthinkxie",
+        "id": 1506722,
+        "node_id": "MDQ6VXNlcjE1MDY3MjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1506722?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vthinkxie",
+        "html_url": "https://github.com/vthinkxie",
+        "followers_url": "https://api.github.com/users/vthinkxie/followers",
+        "following_url": "https://api.github.com/users/vthinkxie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vthinkxie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vthinkxie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vthinkxie/subscriptions",
+        "organizations_url": "https://api.github.com/users/vthinkxie/orgs",
+        "repos_url": "https://api.github.com/users/vthinkxie/repos",
+        "events_url": "https://api.github.com/users/vthinkxie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vthinkxie/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "33f7d71dca76c59ab8673f9327e8822cfd039dbe",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/33f7d71dca76c59ab8673f9327e8822cfd039dbe",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/33f7d71dca76c59ab8673f9327e8822cfd039dbe"
+        }
+      ]
+    },
+    {
+      "sha": "33f7d71dca76c59ab8673f9327e8822cfd039dbe",
+      "node_id": "C_kwDOLIbJG9oAKDMzZjdkNzFkY2E3NmM1OWFiODY3M2Y5MzI3ZTg4MjJjZmQwMzlkYmU",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-23T08:38:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-23T08:38:48Z"
+        },
+        "message": "feat(web): enable root path redirection (#2)",
+        "tree": {
+          "sha": "6a489d2bb11f6e553d39059f11ddaeec4c86d345",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/6a489d2bb11f6e553d39059f11ddaeec4c86d345"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/33f7d71dca76c59ab8673f9327e8822cfd039dbe",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlr3sYCRC1aQ7uu5UhlAAA9+QQAD3zNbNrH1VYedfj6W+d0z7F\nJjNED/IrZ0vsuQDcFGayZNgg/OPAPBo4iJKelURIfswaFDrRMfDGeIQ9hUF90qpB\n5Z0InFkJ/hF6Y9L+kX4DrlsCaO6esBiiPxOSbDZNwCSCmIGlK7d3DnugrjfvsjM7\nABLnSdZvkCaNRwCPZeV+TRCdDG7o+gwYWdXmlmORnWd/gocXqF0n3pv20ldsdjMN\nVpYbzk+He6e1xVBZkzkHVYKA67S7CZlP2G0JnW/FYJAxLg8Eobfu4oiftjtfzfjs\n9lbx/gCIs2Z94D9GTtKL3y3SQwY04slPPci0zWEcmlvsM0PPUubyYJeH+F9t+sCE\nbweWl9T1BY/LFe1BgFdhDj+v+U8pBO9w5sEOh2aSRFnWQfxDx2ZGMh2WO5AlQxUa\nCfgOyhHJquuqy54nDR6lD/qN5FPIfz8zc7eKX9Gb5oD+3AOOLpXD+oT2ejOFKmof\nzPq0MLdSOsSWx62/gwYpyKrn+IgkToP7hQg2ppZ+J/ALJLSl5qfCVrqJpjDwe24s\nw54UA0FNWflhPmts/jVQYBUr07T/6cz/AS0iRbe45sReXHCehqrf/5FDWKBFsf2Y\nFMyJiezLWuRbDYcqSK7EBIQQaEKMmm7oHzEnYne4n0h28eIlRtdfGZFqv7vOZjAm\n7hWeBlBbkdyWZNekpt4n\n=DQtm\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6a489d2bb11f6e553d39059f11ddaeec4c86d345\nparent 505a83828da73d7f0fb2e4d2d961c5218ea2e8cf\nauthor Yangqing Jia <jia@lepton.ai> 1705999128 -0800\ncommitter GitHub <noreply@github.com> 1705999128 +0800\n\nfeat(web): enable root path redirection (#2)\n\n",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/33f7d71dca76c59ab8673f9327e8822cfd039dbe",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/33f7d71dca76c59ab8673f9327e8822cfd039dbe",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/33f7d71dca76c59ab8673f9327e8822cfd039dbe/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf"
+        }
+      ]
+    },
+    {
+      "sha": "31bb456947c4521378949abe2cca046f1e284562",
+      "node_id": "C_kwDOLIbJG9oAKDMxYmI0NTY5NDdjNDUyMTM3ODk0OWFiZTJjY2EwNDZmMWUyODQ1NjI",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-23T08:35:39Z"
+        },
+        "committer": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-23T08:35:39Z"
+        },
+        "message": "enable root path redirection",
+        "tree": {
+          "sha": "6a489d2bb11f6e553d39059f11ddaeec4c86d345",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/6a489d2bb11f6e553d39059f11ddaeec4c86d345"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/31bb456947c4521378949abe2cca046f1e284562",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/31bb456947c4521378949abe2cca046f1e284562",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/31bb456947c4521378949abe2cca046f1e284562",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/31bb456947c4521378949abe2cca046f1e284562/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf"
+        }
+      ]
+    },
+    {
+      "sha": "505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+      "node_id": "C_kwDOLIbJG9oAKDUwNWE4MzgyOGRhNzNkN2YwZmIyZTRkMmQ5NjFjNTIxOGVhMmU4Y2Y",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-23T08:30:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-23T08:30:53Z"
+        },
+        "message": "Merge pull request #1 from leptonai/web\n\nfeat(web): add search web",
+        "tree": {
+          "sha": "37e99e44603ff94b5c126cd36d93d247dc80c7c6",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/37e99e44603ff94b5c126cd36d93d247dc80c7c6"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlr3k9CRC1aQ7uu5UhlAAAIyoQAIbyfI/xV4riQzQudMUyCg2G\n7rqOTwc2aMiQgQjWe0O45DbvAzYydLdWB9aaHASG3B8lQDFhcUln9PtFIoqaLI4x\nc8A3RxOfqIGYXrDENSUcY0VVDt3yYcN5cPkaYBOgkyNAq0/kkQ7MhRfOJc+DHaS7\n8EPQgM/fimdxNfavH9qAYcZ5XU/E8ldov5zYBP74gvIAT5HL7I+iNu+QdCmDH1g0\nCeRLl9nDHpVzW9t3v/i3xPNYqUrTgWMvwJgK6/vHXQn4ihsEqczceTQHNqczeTAT\nvAnZb/1hDTgu1jMn60gWazhyXYLMvoDOyvqzLxJyV4jrvswDmaTQr+/Zy4v2X96U\nGiDlIl1PO1nx2ijCNoj9Yu2I8OF/43x05j/Qs6x4C284P9VhQs/0WVEPizuHtlRw\nTkhBEWorOHOl4YXz105vdpYkmjejzzNuftAteDLbAAWap51/4aJxJTaczgRPWVi6\n7s4Ozd1RgoG0ZoStt0LLN5f3j6JWCmSmksTfVe+FM1UmOv2oBuIPsiPyrz6ymx83\ni4Hw/o7S3MKsNjTrURQTSbeEIkH58Gjqe3AxMn87XGn28opXnudmLSt6TfrSTkin\niEXURx+LOxdU3h7Omn7dvR1M4mnkSPxx7Tfogjfe3t5z3GkfZ6KBR74hzxJCy+T7\neRjZlfzBJVXk/pxNEjOJ\n=RbAj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 37e99e44603ff94b5c126cd36d93d247dc80c7c6\nparent 9e40d79f05a0349f43f188a6c41984112fc00ad6\nparent 70d8e03554cc03c77b4b596824019bf637d8870f\nauthor Yangqing Jia <jia@lepton.ai> 1705998653 -0800\ncommitter GitHub <noreply@github.com> 1705998653 -0800\n\nMerge pull request #1 from leptonai/web\n\nfeat(web): add search web",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/505a83828da73d7f0fb2e4d2d961c5218ea2e8cf/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e40d79f05a0349f43f188a6c41984112fc00ad6",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/9e40d79f05a0349f43f188a6c41984112fc00ad6",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/9e40d79f05a0349f43f188a6c41984112fc00ad6"
+        },
+        {
+          "sha": "70d8e03554cc03c77b4b596824019bf637d8870f",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/70d8e03554cc03c77b4b596824019bf637d8870f",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/70d8e03554cc03c77b4b596824019bf637d8870f"
+        }
+      ]
+    },
+    {
+      "sha": "70d8e03554cc03c77b4b596824019bf637d8870f",
+      "node_id": "C_kwDOLIbJG9oAKDcwZDhlMDM1NTRjYzAzYzc3YjRiNTk2ODI0MDE5YmY2MzdkODg3MGY",
+      "commit": {
+        "author": {
+          "name": "Yadong Xie",
+          "email": "vthinkxie@gmail.com",
+          "date": "2024-01-23T08:25:45Z"
+        },
+        "committer": {
+          "name": "Yadong Xie",
+          "email": "vthinkxie@gmail.com",
+          "date": "2024-01-23T08:25:45Z"
+        },
+        "message": "feat(web): add search web",
+        "tree": {
+          "sha": "37e99e44603ff94b5c126cd36d93d247dc80c7c6",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/37e99e44603ff94b5c126cd36d93d247dc80c7c6"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/70d8e03554cc03c77b4b596824019bf637d8870f",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/70d8e03554cc03c77b4b596824019bf637d8870f",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/70d8e03554cc03c77b4b596824019bf637d8870f",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/70d8e03554cc03c77b4b596824019bf637d8870f/comments",
+      "author": {
+        "login": "vthinkxie",
+        "id": 1506722,
+        "node_id": "MDQ6VXNlcjE1MDY3MjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1506722?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vthinkxie",
+        "html_url": "https://github.com/vthinkxie",
+        "followers_url": "https://api.github.com/users/vthinkxie/followers",
+        "following_url": "https://api.github.com/users/vthinkxie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vthinkxie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vthinkxie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vthinkxie/subscriptions",
+        "organizations_url": "https://api.github.com/users/vthinkxie/orgs",
+        "repos_url": "https://api.github.com/users/vthinkxie/repos",
+        "events_url": "https://api.github.com/users/vthinkxie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vthinkxie/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "vthinkxie",
+        "id": 1506722,
+        "node_id": "MDQ6VXNlcjE1MDY3MjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1506722?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/vthinkxie",
+        "html_url": "https://github.com/vthinkxie",
+        "followers_url": "https://api.github.com/users/vthinkxie/followers",
+        "following_url": "https://api.github.com/users/vthinkxie/following{/other_user}",
+        "gists_url": "https://api.github.com/users/vthinkxie/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/vthinkxie/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/vthinkxie/subscriptions",
+        "organizations_url": "https://api.github.com/users/vthinkxie/orgs",
+        "repos_url": "https://api.github.com/users/vthinkxie/repos",
+        "events_url": "https://api.github.com/users/vthinkxie/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/vthinkxie/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e40d79f05a0349f43f188a6c41984112fc00ad6",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/9e40d79f05a0349f43f188a6c41984112fc00ad6",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/9e40d79f05a0349f43f188a6c41984112fc00ad6"
+        }
+      ]
+    },
+    {
+      "sha": "9e40d79f05a0349f43f188a6c41984112fc00ad6",
+      "node_id": "C_kwDOLIbJG9oAKDllNDBkNzlmMDVhMDM0OWY0M2YxODhhNmM0MTk4NDExMmZjMDBhZDY",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-23T07:10:30Z"
+        },
+        "committer": {
+          "name": "Yangqing Jia",
+          "email": "jia@lepton.ai",
+          "date": "2024-01-23T07:10:30Z"
+        },
+        "message": "initial commit",
+        "tree": {
+          "sha": "286cdaa670992e66292193e63a284abe12a9474b",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/286cdaa670992e66292193e63a284abe12a9474b"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/9e40d79f05a0349f43f188a6c41984112fc00ad6",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/9e40d79f05a0349f43f188a6c41984112fc00ad6",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/9e40d79f05a0349f43f188a6c41984112fc00ad6",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/9e40d79f05a0349f43f188a6c41984112fc00ad6/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f8da729364223b92beeca892417ced1ae55e6cd9",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/f8da729364223b92beeca892417ced1ae55e6cd9",
+          "html_url": "https://github.com/leptonai/search_with_lepton/commit/f8da729364223b92beeca892417ced1ae55e6cd9"
+        }
+      ]
+    },
+    {
+      "sha": "f8da729364223b92beeca892417ced1ae55e6cd9",
+      "node_id": "C_kwDOLIbJG9oAKGY4ZGE3MjkzNjQyMjNiOTJiZWVjYTg5MjQxN2NlZDFhZTU1ZTZjZDk",
+      "commit": {
+        "author": {
+          "name": "Yangqing Jia",
+          "email": "jiayq84@gmail.com",
+          "date": "2024-01-23T05:51:44Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2024-01-23T05:51:44Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "6bf85c1575e4fee7c310ce3afe16081a4853e9ee",
+          "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/trees/6bf85c1575e4fee7c310ce3afe16081a4853e9ee"
+        },
+        "url": "https://api.github.com/repos/leptonai/search_with_lepton/git/commits/f8da729364223b92beeca892417ced1ae55e6cd9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJlr1PwCRC1aQ7uu5UhlAAAw4cQAEO1SVDdho1jurQYM1p7RMBp\nA7LKTYg0s5GHDNrMsOin+J0Lf6RaSJfLk4pMaRPytRVRCQsyeEEs5jxbP1o0NR1R\nlTS3KDg90DRuiI8yWNKFs6ok8YPoGTWBdiRj68N19km6pidOp8acv8ykLT4YT1Wp\nco39JgtzGntqIUwrvtHD8VuPhXCbvLrfwoY2RCfPsgAlQ9mZjmU0rPQ5GS0JYbQn\nb8jnpu6cyU1eZgDeg03u19fFBKTD0WSOsdstQG5YYMfdih8x5r0QT6klvwWoBzla\naFlEGhc4a9hrNxqkucza6y9jO6bgqiEJ2D8+YohobHfKZa4u5D9KjgHJx0QRszvJ\nCBmjggZWxwn10Nx6qKMvPAbsT4hiyxAfjiAHDH6gNYaKlQzqZ9OI8+zPAR0BrkKP\nzYxVeqrQlAeEMyLqoj1NE74luQN3leWrz0ycqrjHJhCsfCbbWay2VbAAgbnMqJGz\n1I7PjrjBigK7zSU14a8SPg1+u+tqkfPftE6fbyrkZ8I3n6jyGqL9YAu26PeZlMce\nAx32FUqbH0oYm/YfnjX2iLK6FwLz+L5D3wffEcqm+V62kdj9zelDHi5BCVgjmmh8\nut6pvvtlL+19e8wKq7n0W/jhO2/FwPlVf/x4P4YgkUXr4ViEbQgl+DnWsqLJD8Ip\nu7RxMxEzilWI66m9VyDq\n=4RhJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6bf85c1575e4fee7c310ce3afe16081a4853e9ee\nauthor Yangqing Jia <jiayq84@gmail.com> 1705989104 -0800\ncommitter GitHub <noreply@github.com> 1705989104 -0800\n\nInitial commit",
+          "verified_at": "2024-11-08T06:50:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/f8da729364223b92beeca892417ced1ae55e6cd9",
+      "html_url": "https://github.com/leptonai/search_with_lepton/commit/f8da729364223b92beeca892417ced1ae55e6cd9",
+      "comments_url": "https://api.github.com/repos/leptonai/search_with_lepton/commits/f8da729364223b92beeca892417ced1ae55e6cd9/comments",
+      "author": {
+        "login": "Yangqing",
+        "id": 551151,
+        "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Yangqing",
+        "html_url": "https://github.com/Yangqing",
+        "followers_url": "https://api.github.com/users/Yangqing/followers",
+        "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+        "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+        "repos_url": "https://api.github.com/users/Yangqing/repos",
+        "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "Yangqing",
+      "id": 551151,
+      "node_id": "MDQ6VXNlcjU1MTE1MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/551151?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Yangqing",
+      "html_url": "https://github.com/Yangqing",
+      "followers_url": "https://api.github.com/users/Yangqing/followers",
+      "following_url": "https://api.github.com/users/Yangqing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Yangqing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Yangqing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Yangqing/subscriptions",
+      "organizations_url": "https://api.github.com/users/Yangqing/orgs",
+      "repos_url": "https://api.github.com/users/Yangqing/repos",
+      "events_url": "https://api.github.com/users/Yangqing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Yangqing/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 10
+    },
+    {
+      "login": "vthinkxie",
+      "id": 1506722,
+      "node_id": "MDQ6VXNlcjE1MDY3MjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1506722?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vthinkxie",
+      "html_url": "https://github.com/vthinkxie",
+      "followers_url": "https://api.github.com/users/vthinkxie/followers",
+      "following_url": "https://api.github.com/users/vthinkxie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vthinkxie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vthinkxie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vthinkxie/subscriptions",
+      "organizations_url": "https://api.github.com/users/vthinkxie/orgs",
+      "repos_url": "https://api.github.com/users/vthinkxie/repos",
+      "events_url": "https://api.github.com/users/vthinkxie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vthinkxie/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 5
+    },
+    {
+      "login": "dependabot[bot]",
+      "id": 49699333,
+      "node_id": "MDM6Qm90NDk2OTkzMzM=",
+      "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+      "html_url": "https://github.com/apps/dependabot",
+      "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+      "type": "Bot",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 4
+    },
+    {
+      "login": "leoshi01",
+      "id": 20643919,
+      "node_id": "MDQ6VXNlcjIwNjQzOTE5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20643919?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/leoshi01",
+      "html_url": "https://github.com/leoshi01",
+      "followers_url": "https://api.github.com/users/leoshi01/followers",
+      "following_url": "https://api.github.com/users/leoshi01/following{/other_user}",
+      "gists_url": "https://api.github.com/users/leoshi01/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/leoshi01/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/leoshi01/subscriptions",
+      "organizations_url": "https://api.github.com/users/leoshi01/orgs",
+      "repos_url": "https://api.github.com/users/leoshi01/repos",
+      "events_url": "https://api.github.com/users/leoshi01/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/leoshi01/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 2
+    },
+    {
+      "login": "NickN0309",
+      "id": 83996994,
+      "node_id": "MDQ6VXNlcjgzOTk2OTk0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83996994?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NickN0309",
+      "html_url": "https://github.com/NickN0309",
+      "followers_url": "https://api.github.com/users/NickN0309/followers",
+      "following_url": "https://api.github.com/users/NickN0309/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NickN0309/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NickN0309/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NickN0309/subscriptions",
+      "organizations_url": "https://api.github.com/users/NickN0309/orgs",
+      "repos_url": "https://api.github.com/users/NickN0309/repos",
+      "events_url": "https://api.github.com/users/NickN0309/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NickN0309/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "SebastjanPrachovskij",
+      "id": 86522260,
+      "node_id": "MDQ6VXNlcjg2NTIyMjYw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86522260?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SebastjanPrachovskij",
+      "html_url": "https://github.com/SebastjanPrachovskij",
+      "followers_url": "https://api.github.com/users/SebastjanPrachovskij/followers",
+      "following_url": "https://api.github.com/users/SebastjanPrachovskij/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SebastjanPrachovskij/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SebastjanPrachovskij/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SebastjanPrachovskij/subscriptions",
+      "organizations_url": "https://api.github.com/users/SebastjanPrachovskij/orgs",
+      "repos_url": "https://api.github.com/users/SebastjanPrachovskij/repos",
+      "events_url": "https://api.github.com/users/SebastjanPrachovskij/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SebastjanPrachovskij/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    },
+    {
+      "login": "rogerserper",
+      "id": 124558887,
+      "node_id": "U_kgDOB2yeJw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124558887?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rogerserper",
+      "html_url": "https://github.com/rogerserper",
+      "followers_url": "https://api.github.com/users/rogerserper/followers",
+      "following_url": "https://api.github.com/users/rogerserper/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rogerserper/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rogerserper/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rogerserper/subscriptions",
+      "organizations_url": "https://api.github.com/users/rogerserper/orgs",
+      "repos_url": "https://api.github.com/users/rogerserper/repos",
+      "events_url": "https://api.github.com/users/rogerserper/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rogerserper/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 1
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "TypeScript": 28033,
+    "Python": 26630,
+    "JavaScript": 590,
+    "CSS": 360
+  },
+  "readme_html": "<h2 id=\"user-content-features\">Features</h2>\n<ul>\n<li>Built-in support for LLM</li>\n<li>Built-in support for search engine</li>\n<li>Customizable pretty UI interface</li>\n<li>Shareable, cached search results</li>\n</ul>\n<h2 id=\"user-content-setup-search-engine-api\">Setup Search Engine API</h2>\n<p>There are two default supported search engines: Bing and Google.</p>\n<h3 id=\"user-content-bing-search\">Bing Search</h3>\n<p>To use the Bing Web Search API, please visit <a href=\"https://www.microsoft.com/en-us/bing/apis/bing-web-search-api\">this link</a> to obtain your Bing subscription key.</p>\n<h3 id=\"user-content-google-search\">Google Search</h3>\n<p>You have three options for Google Search: you can use the <a href=\"https://www.searchapi.io/\">SearchApi Google Search API</a> from SearchApi, <a href=\"https://serper.dev\">Serper Google Search API</a> from Serper, or opt for the <a href=\"https://developers.google.com/custom-search\">Programmable Search Engine</a> provided by Google.</p>\n<h2 id=\"user-content-setup-llm-and-kv\">Setup LLM and KV</h2>\n<blockquote>\n<p>[!NOTE]\nWe recommend using the built-in llm and kv functions with Lepton.\nRunning the following commands to set up them automatically.</p>\n</blockquote>\n<pre><code class=\"language-shell\">pip install -U leptonai openai &#x26;&#x26; lep login\n</code></pre>\n<h2 id=\"user-content-obtain-your-lepton-ai-workspace-token\">Obtain Your Lepton AI Workspace Token</h2>\n<p>You can copy your workspace toke from the Lepton AI Dashboard → Settings → Tokens.</p>\n<h2 id=\"user-content-build\">Build</h2>\n<ol>\n<li>Set Bing subscription key</li>\n</ol>\n<pre><code class=\"language-shell\">export BING_SEARCH_V7_SUBSCRIPTION_KEY=YOUR_BING_SUBSCRIPTION_KEY\n</code></pre>\n<ol start=\"2\">\n<li>Set Lepton AI workspace token</li>\n</ol>\n<pre><code class=\"language-shell\">export LEPTON_WORKSPACE_TOKEN=YOUR_LEPTON_WORKSPACE_TOKEN\n</code></pre>\n<ol start=\"3\">\n<li>Build web</li>\n</ol>\n<pre><code class=\"language-shell\">cd web &#x26;&#x26; npm install &#x26;&#x26; npm run build\n</code></pre>\n<ol start=\"4\">\n<li>Run server</li>\n</ol>\n<pre><code class=\"language-shell\">BACKEND=BING python search_with_lepton.py\n</code></pre>\n<p>For Google Search using SearchApi:</p>\n<pre><code class=\"language-shell\">export SEARCHAPI_API_KEY=YOUR_SEARCHAPI_API_KEY\nBACKEND=SEARCHAPI python search_with_lepton.py\n</code></pre>\n<p>For Google Search using Serper:</p>\n<pre><code class=\"language-shell\">export SERPER_SEARCH_API_KEY=YOUR_SERPER_API_KEY\nBACKEND=SERPER python search_with_lepton.py\n</code></pre>\n<p>For Google Search using Programmable Search Engine:</p>\n<pre><code class=\"language-shell\">export GOOGLE_SEARCH_API_KEY=YOUR_GOOGLE_SEARCH_API_KEY\nexport GOOGLE_SEARCH_CX=YOUR_GOOGLE_SEARCH_ENGINE_ID\nBACKEND=GOOGLE python search_with_lepton.py\n</code></pre>\n<h2 id=\"user-content-deploy\">Deploy</h2>\n<p>You can deploy this to Lepton AI with one click:</p>\n<p><a href=\"https://dashboard.lepton.ai/workspace-redirect/explore/detail/search-by-lepton\"><img src=\"https://github.com/leptonai/search_with_lepton/assets/1506722/bbd40afa-69ee-4acb-8974-d060880a183a\" alt=\"Deploy with Lepton AI\"></a></p>\n<p>You can also deploy your own version via</p>\n<pre><code class=\"language-shell\">lep photon run -n search-with-lepton-modified -m search_with_lepton.py --env BACKEND=BING --env BING_SEARCH_V7_SUBSCRIPTION_KEY=YOUR_BING_SUBSCRIPTION_KEY\n</code></pre>\n<p>Learn more about <code>lep photon</code> <a href=\"https://www.lepton.ai/docs/references/lep_photon\">here</a>.</p>",
+  "_fetched_at": "2026-03-11T18:01:39.454Z"
+}

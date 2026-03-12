@@ -1,0 +1,968 @@
+{
+  "id": 1029019645,
+  "node_id": "R_kgDOPVWX_Q",
+  "name": "real-estate-ai-agent",
+  "full_name": "brightdata/real-estate-ai-agent",
+  "private": false,
+  "owner": {
+    "login": "brightdata",
+    "id": 213028976,
+    "node_id": "O_kgDODLKQcA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/213028976?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/brightdata",
+    "html_url": "https://github.com/brightdata",
+    "followers_url": "https://api.github.com/users/brightdata/followers",
+    "following_url": "https://api.github.com/users/brightdata/following{/other_user}",
+    "gists_url": "https://api.github.com/users/brightdata/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/brightdata/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/brightdata/subscriptions",
+    "organizations_url": "https://api.github.com/users/brightdata/orgs",
+    "repos_url": "https://api.github.com/users/brightdata/repos",
+    "events_url": "https://api.github.com/users/brightdata/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/brightdata/received_events",
+    "type": "Organization",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "html_url": "https://github.com/brightdata/real-estate-ai-agent",
+  "description": "Intelligent Python system that extracts real estate property data as structured JSON using AI agents, Nebius Qwen LLM, and Bright Data MCP.",
+  "fork": false,
+  "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent",
+  "forks_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/forks",
+  "keys_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/keys{/key_id}",
+  "collaborators_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/collaborators{/collaborator}",
+  "teams_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/teams",
+  "hooks_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/hooks",
+  "issue_events_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/issues/events{/number}",
+  "events_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/events",
+  "assignees_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/assignees{/user}",
+  "branches_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/branches{/branch}",
+  "tags_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/tags",
+  "blobs_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/blobs{/sha}",
+  "git_tags_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/tags{/sha}",
+  "git_refs_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/refs{/sha}",
+  "trees_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees{/sha}",
+  "statuses_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/statuses/{sha}",
+  "languages_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/languages",
+  "stargazers_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/stargazers",
+  "contributors_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/contributors",
+  "subscribers_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/subscribers",
+  "subscription_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/subscription",
+  "commits_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits{/sha}",
+  "git_commits_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits{/sha}",
+  "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/comments{/number}",
+  "issue_comment_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/issues/comments{/number}",
+  "contents_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/contents/{+path}",
+  "compare_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/compare/{base}...{head}",
+  "merges_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/merges",
+  "archive_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/{archive_format}{/ref}",
+  "downloads_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/downloads",
+  "issues_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/issues{/number}",
+  "pulls_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/pulls{/number}",
+  "milestones_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/milestones{/number}",
+  "notifications_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/notifications{?since,all,participating}",
+  "labels_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/labels{/name}",
+  "releases_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/releases{/id}",
+  "deployments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/deployments",
+  "created_at": "2025-07-30T12:00:53Z",
+  "updated_at": "2026-03-09T16:33:37Z",
+  "pushed_at": "2025-07-30T13:05:05Z",
+  "git_url": "git://github.com/brightdata/real-estate-ai-agent.git",
+  "ssh_url": "git@github.com:brightdata/real-estate-ai-agent.git",
+  "clone_url": "https://github.com/brightdata/real-estate-ai-agent.git",
+  "svn_url": "https://github.com/brightdata/real-estate-ai-agent",
+  "homepage": "https://brightdata.com/",
+  "size": 27,
+  "stargazers_count": 121,
+  "watchers_count": 121,
+  "language": "Python",
+  "has_issues": true,
+  "has_projects": true,
+  "has_downloads": true,
+  "has_wiki": false,
+  "has_pages": false,
+  "has_discussions": false,
+  "forks_count": 22,
+  "mirror_url": null,
+  "archived": false,
+  "disabled": false,
+  "open_issues_count": 0,
+  "license": null,
+  "allow_forking": true,
+  "is_template": false,
+  "web_commit_signoff_required": false,
+  "has_pull_requests": true,
+  "pull_request_creation_policy": "all",
+  "topics": [
+    "ai",
+    "ai-agent",
+    "automation",
+    "bright-data",
+    "crewai",
+    "nebius",
+    "python",
+    "real-estate",
+    "web-scraping"
+  ],
+  "visibility": "public",
+  "forks": 22,
+  "open_issues": 0,
+  "watchers": 121,
+  "default_branch": "main",
+  "permissions": {
+    "admin": false,
+    "maintain": false,
+    "push": false,
+    "triage": false,
+    "pull": true
+  },
+  "score": 1,
+  "primary_category": "ai-frameworks",
+  "commits": [
+    {
+      "sha": "168d52f43f756f0a87a7defb226f95e23f438ebb",
+      "node_id": "C_kwDOPVWX_doAKDE2OGQ1MmY0M2Y3NTZmMGE4N2E3ZGVmYjIyNmY5NWUyM2Y0MzhlYmI",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T13:05:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T13:05:05Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7a9db37bdc3951cedb9edf0baf2d744840cb9c9d",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/7a9db37bdc3951cedb9edf0baf2d744840cb9c9d"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/168d52f43f756f0a87a7defb226f95e23f438ebb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoihiBCRC1aQ7uu5UhlAAAkK8QAB59t/yWSHQUnco3O1SqrhYD\nfR6YQMLi8bnK/XqhCSV+I28+l8dx1z9bzCnjKcVjW6mbT6cCNtUiGF80jG1F8yEa\nrvwR9ACA0Amem6hfJ1yQEuYBDjcbGzpN79yHZiPBuFAdYBqqcqkB7W1f9UwH+AZl\nzRRDoGdsG1V9wu8Ampkw7tnV9tUmhRPqNjLV5Hz1Cg9kX/8z/ySsO41Ft9n+BCRI\n5/Qt583z48BqLB4hmLElcs74T/cR/Hq8CZMaAbOXa+rZqxQrX8F16Fh9d5HWn8wY\nZtgKkuOe55Kdpn0PTlfy3UpyhN7PXfDqkbDoOiFcBJiDu+s6setZe9Z4GrtKurn5\n7PQExXM0VmH92Eby6scQXjR9G6UW0zLE6Hqa+ZvWna2n6rHgM4T70VyjSWpWKgO8\noHdXAGA213S2LEY3dNoPazcs7+Cde1g7x2EeFxsaQserM8eVIc69OTaQ8DhLu6jv\nwz//saqSvJLUEdcNwXDkoMUy5FoOd9BeztJEGIUVT/Syun7L1rBbCJV3G+rx18E4\n3J+lmtsQ4zg2z5t6ARzIjHgiNjse9HoXVYAV0mkcJ7WFC/bn0u+ONX6jOLaZtBOQ\nYXDnR8VifxBcs0zmblnp91q25qoOO9rNgE2wzJrp2MpKNJ3hTwguwzbuhuy6aIGx\nslJIJk2GF/INm1Iq2S2a\n=nsVB\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7a9db37bdc3951cedb9edf0baf2d744840cb9c9d\nparent dfd8495772b7eb9abb8648656ef777b7c1906665\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753880705 +0300\ncommitter GitHub <noreply@github.com> 1753880705 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T13:05:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/168d52f43f756f0a87a7defb226f95e23f438ebb",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/168d52f43f756f0a87a7defb226f95e23f438ebb",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/168d52f43f756f0a87a7defb226f95e23f438ebb/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dfd8495772b7eb9abb8648656ef777b7c1906665",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/dfd8495772b7eb9abb8648656ef777b7c1906665",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/dfd8495772b7eb9abb8648656ef777b7c1906665"
+        }
+      ]
+    },
+    {
+      "sha": "dfd8495772b7eb9abb8648656ef777b7c1906665",
+      "node_id": "C_kwDOPVWX_doAKGRmZDg0OTU3NzJiN2ViOWFiYjg2NDg2NTZlZjc3N2I3YzE5MDY2NjU",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T13:04:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T13:04:08Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "1309faafeb8acc3b41f6cc5516e77543416390d9",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/1309faafeb8acc3b41f6cc5516e77543416390d9"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/dfd8495772b7eb9abb8648656ef777b7c1906665",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoihhICRC1aQ7uu5UhlAAAPwYQAAVGdH65A46UYkeW00iWmJmi\nmSg2T1htSHhulaAceQbEsVD2ljSap6Jq0e0B8KfmGpM7dvWPDV3t4S+6iR8JIyAE\nhhET6Ei5hTWf4ZTNexCvmIqV5P1SZYD/UvrB7/Wu0OJl/sUbAMwtKTkyKG3WCt4+\n1rUJiO/QTgOVTE1517iHna0N5lccLlIGyuKmcQlrNJ8kHVJQrJOr3j6zvwT6Nu+K\nho99RvzvqjMIJvkc8YAfjbsmHLDfpPkzEFgvkJOL6zw/qKL0F+Ym30jz+8OEQlX9\nRZcTj3XzZWS6zq6GdBNEb1K3XgttC4fK2elWINrvneGDmHQD8YmtT1xNgJnOiJa+\nvfbcLeJ0EKuhDo4xqwEwvA6vs0F5U2umJMQr/6nCGsEz5LqYm1G9HxcgcxgZRnqJ\n6C3Mh0Wqd5hlrnD7ZLfIABEBvxullzAuCEtpWRdv81h+5Z06DpknHtADA3HZQqH5\nKpJf3/kx6TnC3hdwxHy1j+EEw62FY0TXr/CNeOHhoJYBpck5ekD5j0m66QZ8T+rC\ncVbS0SmylIs0cQUY+4ey3nFYKbm4SBjZzuVL5/5geROKoVa2QjH2TW14Lkq/KG19\n6tu7yfz97Q2KmFCDpACoFKQGINyZoMKjbHkXfPbBC+rhvQjtw28ONkGjVytIDsPN\nQD8DTpe+UH91PFhPllpv\n=VwgQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1309faafeb8acc3b41f6cc5516e77543416390d9\nparent 3ef6f593dbe52dc7c9c1706bc110b4e7908895d8\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753880648 +0300\ncommitter GitHub <noreply@github.com> 1753880648 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T13:04:09Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/dfd8495772b7eb9abb8648656ef777b7c1906665",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/dfd8495772b7eb9abb8648656ef777b7c1906665",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/dfd8495772b7eb9abb8648656ef777b7c1906665/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3ef6f593dbe52dc7c9c1706bc110b4e7908895d8",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/3ef6f593dbe52dc7c9c1706bc110b4e7908895d8",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/3ef6f593dbe52dc7c9c1706bc110b4e7908895d8"
+        }
+      ]
+    },
+    {
+      "sha": "3ef6f593dbe52dc7c9c1706bc110b4e7908895d8",
+      "node_id": "C_kwDOPVWX_doAKDNlZjZmNTkzZGJlNTJkYzdjOWMxNzA2YmMxMTBiNGU3OTA4ODk1ZDg",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T13:01:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T13:01:16Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "c44009d72719835ed3757a167a597639dc790dfa",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/c44009d72719835ed3757a167a597639dc790dfa"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/3ef6f593dbe52dc7c9c1706bc110b4e7908895d8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoihedCRC1aQ7uu5UhlAAAqHgQAGOS7cU5j1DesNLTh4nKxZ8e\ni+c60WqL+pyfZlxoR+4MGR/qKZ6ZcXeo7LGWNaIMqb+zMEEAughqjnWJmZHZpE1P\nz3u3ouiD/Q+voGZH7p5F3vZMlP4CaOzQN2Mz3Bbw2ZbrsCrOwiHTB2PRS+R4dMmO\nxrGr89Evklr5FbGwlfMlm3UASQjBVeyG+wTN53cOY5Of8wLK3tSqIFXcMO8VpfQY\nvvYKl/UzEFRnVjeD62kYpD0F3k11My/TE7X6+BnU3rNR+GqUT+2hiENM9T3acehx\n5vp4oySwwFmEcOOE9EkMks4Fi27lxM57ZtzbtJ5zEpIS2keCAnAYC/dGGD4kC95z\ncBVrYHCIqTSADf+7pZ758uGJfnvu2P+tijfV+YX9MtCkq3BpLz15hgWT1zeO3xro\nAknz1Ei8Cx7wKpR8o0Gvq4IM1aAtIpSlgT4NMAt5rUhs6D+NLrh6i01LaUSShoiB\n9qerTOgxl1r2WzCteItcrnsMxc7N0tSP7X6KhgJk57Rcxw/wAU1mY00oWwH09Y/B\nKLQmTxiPEtJOtWahP3b1kYc58VR6grMNKLMwpd9jJUymo4qFcelT3ODM3KaosrG6\nOqZ9mOm/C4wBzOMq3hWEYatkSgnsggpDUgk8hsEH935hI8MNIrpeKjZfMe2d+gqU\nMLXRQM4IL20yMfXO/o7c\n=wi9t\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c44009d72719835ed3757a167a597639dc790dfa\nparent 75f32567961b174c7f1734152e6bce566b81ca92\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753880476 +0300\ncommitter GitHub <noreply@github.com> 1753880476 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T13:01:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/3ef6f593dbe52dc7c9c1706bc110b4e7908895d8",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/3ef6f593dbe52dc7c9c1706bc110b4e7908895d8",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/3ef6f593dbe52dc7c9c1706bc110b4e7908895d8/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "75f32567961b174c7f1734152e6bce566b81ca92",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/75f32567961b174c7f1734152e6bce566b81ca92",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/75f32567961b174c7f1734152e6bce566b81ca92"
+        }
+      ]
+    },
+    {
+      "sha": "75f32567961b174c7f1734152e6bce566b81ca92",
+      "node_id": "C_kwDOPVWX_doAKDc1ZjMyNTY3OTYxYjE3NGM3ZjE3MzQxNTJlNmJjZTU2NmI4MWNhOTI",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T13:00:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T13:00:49Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "d0f63947d46c91225e75348eb0142e44b561c1af",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/d0f63947d46c91225e75348eb0142e44b561c1af"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/75f32567961b174c7f1734152e6bce566b81ca92",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoiheBCRC1aQ7uu5UhlAAAP+cQADRSTaYJ4wsZOXiImshidLRQ\nnDSWO48IoeZ3FNj722ZUZpfjIEZIFBYFSnuUFSxv1LLPBysfy4aYsR7CHP3wZta7\n0TZuj/d6MpTEK1dNP7emdVcJ+WfoDg1UI9OkX6sWschqnb+Oeb8MHToYTDE0Yk1c\n/gaoDeDIuY59W9H0zYCfDU5T2afeEScE4R/B+yKBmlgiDwinOuycqaNFNrLyrmZX\nn4Bi9be5HwgEwjKl2xi6YucMLu2KUSgbtgOV6sFQhsSsKrcubM6z/dzTgIHwU7nq\nKJa+x5DlVzEoFuMvzFRVx9s0Rahj3FOMPzkFnQJNTzuo9PkxHl1vzfLce2dGB+l2\n0H/COmJwyeX7cbHAq0lxyqs26s//jtLC1MDtGaRXNRLGrflPy+MXIJqHh4zS5hqr\nsVXxhJWjKCK2kdaPhwmomhPzwoVR1NJao9o2n8iT7x+8Q7t31csDDZ4YxJnXzSvy\n2a/9rh3d7mlJ2FduMQl88+AvYioax5MQjFDxiX2gbfce5k9wBuDgOFm7POZcZDM4\nRkTW7xAkwbDaU2yxSAHAveKZa2r231blRaC2urAPZk8YCmr1sjHF26ofyFrOtbPh\ny9qM6GFCTu+mlExUERX3E40Sa1KVReFL57adI13Tr22qJh9RUgAkTSQxPMBc5PI8\naMpkyESlN+JILmRBc1qF\n=TPb8\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d0f63947d46c91225e75348eb0142e44b561c1af\nparent 52a951aea3b6f4cda695d2b7a0336ab1b4573042\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753880449 +0300\ncommitter GitHub <noreply@github.com> 1753880449 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T13:00:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/75f32567961b174c7f1734152e6bce566b81ca92",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/75f32567961b174c7f1734152e6bce566b81ca92",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/75f32567961b174c7f1734152e6bce566b81ca92/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "52a951aea3b6f4cda695d2b7a0336ab1b4573042",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/52a951aea3b6f4cda695d2b7a0336ab1b4573042",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/52a951aea3b6f4cda695d2b7a0336ab1b4573042"
+        }
+      ]
+    },
+    {
+      "sha": "52a951aea3b6f4cda695d2b7a0336ab1b4573042",
+      "node_id": "C_kwDOPVWX_doAKDUyYTk1MWFlYTNiNmY0Y2RhNjk1ZDJiN2EwMzM2YWIxYjQ1NzMwNDI",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T13:00:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T13:00:31Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "428099738ac21a4ca6d33a5d50d31a7bb27c6bc9",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/428099738ac21a4ca6d33a5d50d31a7bb27c6bc9"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/52a951aea3b6f4cda695d2b7a0336ab1b4573042",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoihdvCRC1aQ7uu5UhlAAAOu8QAK7uEfwyBHqdlj0yPdQqzu7y\nd8fKoQzsqYUbOKL+6/KaRx5UEFO2y4Di9jYxZOYWCZz2QhsLvi42i4rn3a7Gfprt\n5/9UMiZXW0pX2gYkMhzVrIfPHI0XkQstQscRKiBZhszBkrpMuoEqCjzGNJWOPMDa\ndZnEBsX9INQekPlej2Og+le6PBEq+g6fZVpr0XKtTX9GshPyT8+J+HtKg8fdUbNs\nWyAmuTP0XSIAQbHh4PR0gKFqbu/keX+9j2jz8GQqphombUKEuyKvhJql167mGYmg\nPP5S2veBAQHWJ+5m1+E9UP7yna0gxgwBj4p+QUYVEvgWUcTtGP60K2jl49eZIs0O\nIUli6UM7AqP+VTVJTOurp5dE4WwMeREhRZo/1Du87j1YmMl7raT/XMSUf60BeaaT\nEU6DHEvujCzmEfqCvJuZIRWpktlCN5nzMN60cCBm6q+QzXbg/G3C0kK/LY+Ql/vA\n2B4C0BzqoitETflSgimHNsLMT0JzNXdNN1PVajZzcgBgQdYNaFkP8ddVvQo56Trt\nzsq9xOqFpdZYFoHre01m1SC08EpSZ2VzbbCCPSNUPEtCvfabywjEj9rhrKKN8eiv\n3vl/ApB5B/M6oxfY4nrui+TxZgllieR6knoJEnDJhozdJw15r/iIxnkAj2p2dWwj\nIx+p4biN0/1ISwUGcp+y\n=kpop\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 428099738ac21a4ca6d33a5d50d31a7bb27c6bc9\nparent 46907ad0f7af748220356e4de4bca4956569ea2a\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753880431 +0300\ncommitter GitHub <noreply@github.com> 1753880431 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T13:00:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/52a951aea3b6f4cda695d2b7a0336ab1b4573042",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/52a951aea3b6f4cda695d2b7a0336ab1b4573042",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/52a951aea3b6f4cda695d2b7a0336ab1b4573042/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46907ad0f7af748220356e4de4bca4956569ea2a",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/46907ad0f7af748220356e4de4bca4956569ea2a",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/46907ad0f7af748220356e4de4bca4956569ea2a"
+        }
+      ]
+    },
+    {
+      "sha": "46907ad0f7af748220356e4de4bca4956569ea2a",
+      "node_id": "C_kwDOPVWX_doAKDQ2OTA3YWQwZjdhZjc0ODIyMDM1NmU0ZGU0YmNhNDk1NjU2OWVhMmE",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T12:06:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T12:06:46Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "ba476678e87ca618983a72d5efd79350d65a63ce",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/ba476678e87ca618983a72d5efd79350d65a63ce"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/46907ad0f7af748220356e4de4bca4956569ea2a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoigrWCRC1aQ7uu5UhlAAAU+YQAIOMcrtaT9kDJrOEx3nLKIDe\ngESTCCXdQRClLagoLbSGvBDc5VHNjoRYA/jCin1wZ/XX/MAgyC3tPK3U3RUum593\nvDfzZRIOUwLjqlH1E28crA/E6lLP2gGOLkuaZjnxatWHE+3EMQXDz0pYeNbwurw4\n39TxfwPQEr+5rIwZ6hMXC9hWWwvVDY3zlK9oWs0tf7OfEzwoD5tnwZjvuIUpDuH7\n3rjW29kgGUs/SwY4veq9TxDih/QR+vT1R+7AiO+QFxdto0Q9lzGXvqfC2+HGVssj\nF+QOkYTkeK9CLaJ9iMrUYH6kVinyxj8Yu9dLZ53R7Ezm3+S0nB9w2D1PW8l6X+mI\nKcXgNhxTtJ1rwVotT+7xxbi4DN+HaTU5FMVoueQ1youSZJk547bh7F96SLlCgWdZ\nFx0DUsOgZd7RN0z6sxgIKF9FNfasKXboMTIvO0iQ6xF9DCeC+beb4UwTtHHIHTSw\nP7DszyG/+FIDKqHm+gOHsGmpc+hZ78tFunxjf9vMcbdfbIyGIQl94YY5f4W62GEy\n9uaVFtTPAkDucBcZCHyJCayj9TBhppCEWsRySqzFI86mZJlXPKmsQ+fNJ6a8fS5n\nZx31pg0DZL+/mLMeengadypVwmRw3GuPoHF3AKR8VaGD5j1OLQ2uyxOblYuDiBGr\nqVHcmZUgiDZFFmxmgZ7P\n=qhel\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ba476678e87ca618983a72d5efd79350d65a63ce\nparent 2a50f5c8c34a8c1382a24b684061a0ac83d41ee4\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753877206 +0300\ncommitter GitHub <noreply@github.com> 1753877206 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T12:06:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/46907ad0f7af748220356e4de4bca4956569ea2a",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/46907ad0f7af748220356e4de4bca4956569ea2a",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/46907ad0f7af748220356e4de4bca4956569ea2a/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2a50f5c8c34a8c1382a24b684061a0ac83d41ee4",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/2a50f5c8c34a8c1382a24b684061a0ac83d41ee4",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/2a50f5c8c34a8c1382a24b684061a0ac83d41ee4"
+        }
+      ]
+    },
+    {
+      "sha": "2a50f5c8c34a8c1382a24b684061a0ac83d41ee4",
+      "node_id": "C_kwDOPVWX_doAKDJhNTBmNWM4YzM0YThjMTM4MmEyNGI2ODQwNjFhMGFjODNkNDFlZTQ",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T12:04:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T12:04:06Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "7cb308d7cd6d3261ed7978acff3430eeb66e291f",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/7cb308d7cd6d3261ed7978acff3430eeb66e291f"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/2a50f5c8c34a8c1382a24b684061a0ac83d41ee4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoigo2CRC1aQ7uu5UhlAAAecwQAG8P24tCM5P5b1usQT/H/35z\nFYCohj3pC1PhyWFrYc57HPWToCZhzcEtqWLF2r7mWkp3V+6cIithe8UEe+614lrG\n4gn9TbtJ+/9E7FNF4cOEX3E/aZNnwa+QOp6qYdYREhlurAIzBt7RS+o/J2iYZyJE\nkdqXyy0ALHp6cVyljwhkh9ilx+faEgOEMCl1zxPfPnfKMB0Wq+CqLsbjlwPKDDPr\nAR7Zvgo3PZlwWxsDVbO6A2XPYJQ+ixJLsb+fYqJqO/H4Q1A6lFZdax8701dHVcng\n0QxINWkh+7YHQQ7ki3NvxKyR7dy8M2utENcxvYP9pB6N2w9ImCyCMZ+T824hKYEI\nspHQ/Fr+BUq7g2YB/3Rl+9EltzVN/CsTVLmVnvJv9sBYWVwQyMjvlNVqRmXuu9BJ\nI5tfqGlifd3jSmEBFgaaWaRkz5x9uAXnKGyXDAujGZrfguACKGXKwNOk+InZQBhB\nChFPdBCQCZPI0s4IpCRPi/uLJOGd/FEvxJcQiFKCCD0eM3QjsKiIe16THEx9J+HA\nclZAxlBjdXXYeaimM1UWEar/+l1NtXvxhyzoOLn/jBwJljir9EK2XZhb9tpZIdZx\nINMgnQoZQnGeiGd6UtHzK2+nooGPwcgAeIfZDVJDUkNWtvDFUqwqh08bor/+978/\nXkyXIyPSOStln8cT8oZy\n=Owau\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7cb308d7cd6d3261ed7978acff3430eeb66e291f\nparent 91a197ce4a4fe684329ad12efc6f4856ece4a2b5\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753877046 +0300\ncommitter GitHub <noreply@github.com> 1753877046 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T12:04:06Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/2a50f5c8c34a8c1382a24b684061a0ac83d41ee4",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/2a50f5c8c34a8c1382a24b684061a0ac83d41ee4",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/2a50f5c8c34a8c1382a24b684061a0ac83d41ee4/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "91a197ce4a4fe684329ad12efc6f4856ece4a2b5",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/91a197ce4a4fe684329ad12efc6f4856ece4a2b5",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/91a197ce4a4fe684329ad12efc6f4856ece4a2b5"
+        }
+      ]
+    },
+    {
+      "sha": "91a197ce4a4fe684329ad12efc6f4856ece4a2b5",
+      "node_id": "C_kwDOPVWX_doAKDkxYTE5N2NlNGE0ZmU2ODQzMjlhZDEyZWZjNmY0ODU2ZWNlNGEyYjU",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T12:01:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T12:01:41Z"
+        },
+        "message": "Update README.md",
+        "tree": {
+          "sha": "654259d43df6e7ab0f257b7bf69bd7a395c9e7c9",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/654259d43df6e7ab0f257b7bf69bd7a395c9e7c9"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/91a197ce4a4fe684329ad12efc6f4856ece4a2b5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoigmlCRC1aQ7uu5UhlAAA50sQAJVgJQUPio0O6MoJmljpRvya\ncEJgkWG89p9rzv3E10Ul2MoSOnJJiQRjrIUxQaw7Ofo68PYvTmHVLgY0KyEs7CYN\n/Wwuorpiy615S+Nu1af5eGszkiAGjdZwyWX7waB/JwMk0+1FveFdPoRRcJHPdvby\nk6I+3I8o16CPV8kmkjJGY1zwySR6pf4o8S8kPXzLzqFTp0Sp5P1BQ+G1JrsqvrTH\nn0kqzlxk7/uF/W0o/FOPv12i+eXx0ggana6e7tDXNAXfZx2wvIrXcTL+FKE7skaY\nUgHuM7w25VTGiElYT0hn7KJrjHMbJErw7hFq7P9ezoqT+GweEH89YG5erTuLS5Rb\n4ctXoIaXSXz+bHLE8h1WZ+dNmZc7P8/UxK1BO9eR3HL6XPaC7BTXJkFTL0dPPRLm\nsyoLVtQuMauoxBQamXgjCVuj3TUOMoqRs2dTxLThcJI4M3F4znHZdzPtiPTjS4tS\nk5wWtiYO/y2f8d8pM7jRkMY8z5T7QLzn+cXcnKhD0+QbFdm87TUJobIfaGvIQH41\n8MfgmhKcyTu35MbffA8r2azTBwBceyCuXmlYi932F1fd5xGd9qZ4Y0eydx2MRv+4\ndlr9FcZtQGjfp77aWpA7sgbovz0hqlcw+bRLzlW15uv+WGX6aCaxqajgpb3RIORP\nvm+ADBcw92+TeyQ+0qyN\n=N+BD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 654259d43df6e7ab0f257b7bf69bd7a395c9e7c9\nparent e959794e6995d5c3f6f802c08510132ea0dec015\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753876901 +0300\ncommitter GitHub <noreply@github.com> 1753876901 +0300\n\nUpdate README.md",
+          "verified_at": "2025-07-30T12:01:41Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/91a197ce4a4fe684329ad12efc6f4856ece4a2b5",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/91a197ce4a4fe684329ad12efc6f4856ece4a2b5",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/91a197ce4a4fe684329ad12efc6f4856ece4a2b5/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e959794e6995d5c3f6f802c08510132ea0dec015",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/e959794e6995d5c3f6f802c08510132ea0dec015",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/e959794e6995d5c3f6f802c08510132ea0dec015"
+        }
+      ]
+    },
+    {
+      "sha": "e959794e6995d5c3f6f802c08510132ea0dec015",
+      "node_id": "C_kwDOPVWX_doAKGU5NTk3OTRlNjk5NWQ1YzNmNmY4MDJjMDg1MTAxMzJlYTBkZWMwMTU",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T12:01:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T12:01:04Z"
+        },
+        "message": "Add files via upload",
+        "tree": {
+          "sha": "eca11496fe75baab3bcd22b474643c32dfef6182",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/eca11496fe75baab3bcd22b474643c32dfef6182"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/e959794e6995d5c3f6f802c08510132ea0dec015",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoigmACRC1aQ7uu5UhlAAAzCMQADzI3wckAMBnYiPmTorDy4HS\nCU8LpHmTMQfkBle6nE6LpXhBVp7XssV2ljpgIZveN23lg2rn7J1ZcPuaplib9V/H\nkACfUqW6OQdHQW6tNf1jiFUxdOXyJeYdg7VuZsd16HSDNanJfCI3plA1VmUH4of+\ntYV+xVi0YYFMDmBQJY/E4VU+1YgtWqh8B38JnTcYXYTCSMs/QOoeZv7XtaXWZg3G\nriVyF8jJ/iklBsskDPE6HVvAnySONbMY/kZomYYzG+Vjm9P/vRpq9NlithtfTiO2\niaD26iiqO+ajb6rdXaAfiJ0zLc2rzcnzLSD1EJWnKwLbwhR/1U1b48mdqJ0rbnHK\ntCvHBdap2qV02NI6n1uG7u6T5a7cWxJo7GVCuI4mbtLBIjM/AKMH/kf1O2CphIaJ\nBROx3d9SKWlx2eH2wrIthwjjx2TV5C6ftg20n8b/M1VhhJPYzgn4eQVU+rUWndnh\nw0Mj2QGovqBwLrOXgEmX4J+sT0i7TDrdsF2aeydZ3I7oKdrntb4yUWc+ILL6nx0y\n6+Xs+OMDb0Fy7sVTVWhBpBo/fALFk+CrbCbro2ahjmDwTQbSYtGaj5yBylkNivXr\nJ6HykdntsVNTvHoQp6MNf+h/cqobXY+D12m/rHBT6SkNcRKrLqf6RPHOFQ9XyGYq\nPxC2WWi/ijM9Qg2gbt+C\n=mcvX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree eca11496fe75baab3bcd22b474643c32dfef6182\nparent a7c3747eadeb6ded44f1bf464c208a11560983e8\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753876864 +0300\ncommitter GitHub <noreply@github.com> 1753876864 +0300\n\nAdd files via upload",
+          "verified_at": "2025-07-30T12:01:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/e959794e6995d5c3f6f802c08510132ea0dec015",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/e959794e6995d5c3f6f802c08510132ea0dec015",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/e959794e6995d5c3f6f802c08510132ea0dec015/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a7c3747eadeb6ded44f1bf464c208a11560983e8",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/a7c3747eadeb6ded44f1bf464c208a11560983e8",
+          "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/a7c3747eadeb6ded44f1bf464c208a11560983e8"
+        }
+      ]
+    },
+    {
+      "sha": "a7c3747eadeb6ded44f1bf464c208a11560983e8",
+      "node_id": "C_kwDOPVWX_doAKGE3YzM3NDdlYWRlYjZkZWQ0NGYxYmY0NjRjMjA4YTExNTYwOTgzZTg",
+      "commit": {
+        "author": {
+          "name": "danielshashko",
+          "email": "163136343+danielshashko@users.noreply.github.com",
+          "date": "2025-07-30T12:00:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-30T12:00:53Z"
+        },
+        "message": "Initial commit",
+        "tree": {
+          "sha": "32a726c95d06074585d99a1d2860398c81fe5ab4",
+          "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/trees/32a726c95d06074585d99a1d2860398c81fe5ab4"
+        },
+        "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/git/commits/a7c3747eadeb6ded44f1bf464c208a11560983e8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoigl1CRC1aQ7uu5UhlAAA1rYQAIaTHBuYPLAgOmfHNl23Lji3\ntKkmKlVZUDQAHxHwpPrF4l6HcDd+/y9/nfj8y9cTbWRZ3TcntYZf4Gpnv4qhib8q\ngX1//4IFh50GOLpRfRITBAMTHjarDmJ4p1kBYzoHhNy0p8gznFi7bLhKdpIySb0E\njjjrjRwvyttR77G4gigtCqjHbYGmplqPIwEDEjS6p8/2WHXfRy/5KLGjwV2ba2u0\nLijGtAMn4yC6oYDBnqe1S3o2PSWl+uT/CYv86bw5mozVWjiWMlvwOCSHWs9cAA/K\nrWjUcuoTjHsOSl9RIhXw92djg6jJFFMefOwPqFUwQApdmM3IsjwfsO2zfmxqDp9F\nYvFEKinc29VDMah/cNVqXRhNCsk+H0OX8NoZDbRId1NyJ2lVupG++QFFBz2N/UPO\nvzZRJH9nXNM4qfXKEIf+r2WzgxDMpXxIWMCTd7/mBebzGT48bs5UylWNfhonHnMt\n62G4KeRbMSRTQ5RFIG+0gE0O6nEPo+JpgZBVww9SuaQd4/SI7O4t0aJQ88qcEnXh\nuJfuChtbono6twumQwl8WrR45uap59m9fbrYaHrMZX7tCuc6P4uijqzuEU9Vu4I2\nKRuRgKaSYUgwQibaLqUAZ0hsi4eEXNIJJavDXTi8/ubWfc22uuFSZBuYMdy/m29J\nPuOpmMdbyNcGyHgk/dZa\n=afnh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 32a726c95d06074585d99a1d2860398c81fe5ab4\nauthor danielshashko <163136343+danielshashko@users.noreply.github.com> 1753876853 +0300\ncommitter GitHub <noreply@github.com> 1753876853 +0300\n\nInitial commit",
+          "verified_at": "2025-07-30T12:00:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/a7c3747eadeb6ded44f1bf464c208a11560983e8",
+      "html_url": "https://github.com/brightdata/real-estate-ai-agent/commit/a7c3747eadeb6ded44f1bf464c208a11560983e8",
+      "comments_url": "https://api.github.com/repos/brightdata/real-estate-ai-agent/commits/a7c3747eadeb6ded44f1bf464c208a11560983e8/comments",
+      "author": {
+        "login": "danielshashko",
+        "id": 163136343,
+        "node_id": "U_kgDOCblDVw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/danielshashko",
+        "html_url": "https://github.com/danielshashko",
+        "followers_url": "https://api.github.com/users/danielshashko/followers",
+        "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+        "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+        "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+        "repos_url": "https://api.github.com/users/danielshashko/repos",
+        "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": []
+    }
+  ],
+  "contributors": [
+    {
+      "login": "danielshashko",
+      "id": 163136343,
+      "node_id": "U_kgDOCblDVw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/163136343?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danielshashko",
+      "html_url": "https://github.com/danielshashko",
+      "followers_url": "https://api.github.com/users/danielshashko/followers",
+      "following_url": "https://api.github.com/users/danielshashko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danielshashko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danielshashko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danielshashko/subscriptions",
+      "organizations_url": "https://api.github.com/users/danielshashko/orgs",
+      "repos_url": "https://api.github.com/users/danielshashko/repos",
+      "events_url": "https://api.github.com/users/danielshashko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danielshashko/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "contributions": 10
+    }
+  ],
+  "releases": [],
+  "languages": {
+    "Python": 3359
+  },
+  "readme_html": "<h1 id=\"user-content-real-estate-ai-agent-system\">Real Estate AI Agent System</h1>\n<p><strong>AI-Powered Solution for Real Estate Public Data Extraction</strong></p>\n<hr>\n<h2 id=\"user-content--overview\">🌟 Overview</h2>\n<p>Real Estate AI Agent System is a Python-based solution that leverages AI agents and Bright Data's Model Context Protocol (MCP) server to extract, process, and deliver structured real estate property data from multiple sources.</p>\n<ul>\n<li>Automates public property data extraction from real estate websites like <a href=\"https://brightdata.com/products/web-scraper/zillow\">Zillow</a>, <a href=\"https://brightdata.com/products/web-scraper/realtor\">Realtor.com</a>, Redfin, and more</li>\n<li>Integrates with Bright Data proxies for robust anti-bot and geo-unblocking</li>\n<li>Uses Nebius Qwen LLM for adaptive, schema-validated property data extraction</li>\n<li>Outputs results as structured JSON for analytics or downstream applications</li>\n</ul>\n<hr>\n<h2 id=\"user-content-table-of-contents\">Table of Contents</h2>\n<ul>\n<li>✨ Features</li>\n<li>🚀 Quickstart</li>\n<li>🔧 Environment Setup</li>\n<li>💡 Usage Example</li>\n<li>📈 Key Capabilities</li>\n<li>🔒 Security Best Practices</li>\n</ul>\n<hr>\n<h2 id=\"user-content--features\">✨ Features</h2>\n<ul>\n<li><strong>Intelligent AI Agents:</strong> Uses CrewAI and LLM for adaptive data extraction and property detail parsing.</li>\n<li><strong>Bright Data Integration:</strong> Seamless support for proxy rotation, CAPTCHA solving via MCP server.</li>\n<li><strong>Strict JSON Schema:</strong> Always returns result in snake_case, schema-validated JSON.</li>\n<li><strong>Plug-and-Play:</strong> Spin up an advanced real estate data pipeline in minutes.</li>\n<li><strong>Cross-Platform:</strong> Python 3.9; requires Node.js for Bright Data MCP server.</li>\n</ul>\n<hr>\n<h2 id=\"user-content--quickstart\">🚀 Quickstart</h2>\n<ol>\n<li>\n<p>Clone this repository</p>\n<pre><code class=\"language-sh\">git clone https://github.com/brightdata-com/real-estate-ai-agents.git\ncd real-estate-ai-agents\n</code></pre>\n</li>\n</ol>\n<hr>\n<h2 id=\"user-content--environment-setup\">🔧 Environment Setup</h2>\n<h3 id=\"user-content-prerequisites\">Prerequisites</h3>\n<ul>\n<li>Python 3.9+</li>\n<li>Node.js + npm (for Bright Data MCP server)</li>\n<li>Bright Data account with API token</li>\n<li>Nebius AI API key</li>\n</ul>\n<h3 id=\"user-content-virtual-environment\">Virtual Environment</h3>\n<p>macOS/Linux</p>\n<pre><code class=\"language-sh\">python3.9 -m venv venv\nsource venv/bin/activate\n</code></pre>\n<p>Windows</p>\n<pre><code class=\"language-sh\">python3.9 -m venv venv\n.\\venv\\Scripts\\activate\n</code></pre>\n<h3 id=\"user-content-install-dependencies\">Install Dependencies</h3>\n<pre><code class=\"language-sh\">pip install \"crewai-tools[mcp]\" crewai mcp python-dotenv pandas\n</code></pre>\n<h3 id=\"user-content-add-environment-variables\">Add Environment Variables</h3>\n<p>Create a <code>.env</code> file in your project directory with the following:</p>\n<pre><code class=\"language-env\">BRIGHT_DATA_API_TOKEN=\"your_api_token_here\"\nWEB_UNLOCKER_ZONE=\"your_web_unlocker_zone\"\nBROWSER_ZONE=\"your_browser_zone\"\nNEBIUS_API_KEY=\"your_nebius_api_key\"\n</code></pre>\n<hr>\n<h2 id=\"user-content--usage-example\">💡 Usage Example</h2>\n<p>To run the agent:</p>\n<pre><code class=\"language-sh\">python real_estate_agents.py\n</code></pre>\n<p>If successful, the script will extract property data from a real estate listing and output result like:</p>\n<pre><code class=\"language-json\">{\n  \"address\": \"123 Main Street, City, State 12345\",\n  \"price\": \"$450,000\",\n  \"bedrooms\": 3,\n  \"bathrooms\": 2,\n  \"square_feet\": 1850,\n  \"lot_size\": \"0.25 acres\",\n  \"year_built\": 1995,\n  \"property_type\": \"Single Family Home\",\n  \"listing_agent\": \"John Doe, ABC Realty\",\n  \"days_on_market\": 45,\n  \"mls_number\": \"MLS123456\",\n  \"description\": \"Beautiful home with updated kitchen...\",\n  \"image_urls\": [\"https://example.com/image1.jpg\", \"https://example.com/image2.jpg\"],\n  \"neighborhood\": \"Downtown Historic District\"\n}\n</code></pre>\n<hr>\n<h2 id=\"user-content--key-capabilities\">📈 Key Capabilities</h2>\n<ul>\n<li>Extracts address, price, bedrooms, bathrooms, square footage, lot size, year built, property type, listing agent, days on market, MLS number, description, image URLs, and neighborhood.</li>\n<li>Strict JSON schema validation: always outputs snake_case keys.</li>\n<li>Handles <a href=\"https://brightdata.com/solutions/rotating-proxies\">proxy rotation</a>, <a href=\"https://brightdata.com/products/web-unlocker/captcha-solver\">CAPTCHAs</a>, and anti-bot protections using Bright Data’s MCP stack.</li>\n<li>Easily extendable for more data fields and custom sources.</li>\n</ul>\n<hr>\n<h2 id=\"user-content--security-best-practices\">🔒 Security Best Practices</h2>\n<ul>\n<li>Store all API keys and credentials securely in your <code>.env</code> file.</li>\n<li>Always validate and sanitize extracted data before use.</li>\n<li>Respect robots.txt and website terms of service.</li>\n</ul>\n<hr>",
+  "_fetched_at": "2026-03-11T18:09:49.037Z"
+}
